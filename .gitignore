@@ -1,6 +1,7 @@
 .DS_Store
 .Rhistory
 .idea/
+.gh-config/
 node_modules/
 dist/
 frontend/node_modules/
