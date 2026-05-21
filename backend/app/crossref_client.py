@@ -3,6 +3,7 @@ import re
 import httpx
 
 from app.models import Paper
+from app.rate_limit import wait_for_request_slot
 
 CROSSREF_API_URL = "https://api.crossref.org/works"
 CROSSREF_TIMEOUT_SECONDS = 30
@@ -21,6 +22,7 @@ async def search_crossref(topic: str, max_results: int) -> list[Paper]:
 
     try:
         print("[crossref] request", flush=True)
+        await wait_for_request_slot("crossref")
         async with httpx.AsyncClient(
             timeout=CROSSREF_TIMEOUT_SECONDS,
             headers={"User-Agent": CROSSREF_USER_AGENT},

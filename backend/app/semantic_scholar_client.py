@@ -4,6 +4,7 @@ import httpx
 
 from app.config import settings
 from app.models import Paper
+from app.rate_limit import cooldown_remaining, is_in_cooldown, start_cooldown, wait_for_request_slot
 
 SEMANTIC_SCHOLAR_API_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
 SEMANTIC_SCHOLAR_TIMEOUT_SECONDS = 30
@@ -13,6 +14,13 @@ SEMANTIC_SCHOLAR_USER_AGENT = "COMP5329-Academic-Research-Agent/0.1 (student pro
 
 async def search_semantic_scholar(topic: str, max_results: int) -> list[Paper]:
     if max_results <= 0:
+        return []
+
+    if is_in_cooldown("semantic-scholar"):
+        print(
+            f"[semantic-scholar] skipped; cooldown {cooldown_remaining('semantic-scholar')}s remaining",
+            flush=True,
+        )
         return []
 
     params = {
@@ -26,6 +34,7 @@ async def search_semantic_scholar(topic: str, max_results: int) -> list[Paper]:
 
     try:
         print("[semantic-scholar] request", flush=True)
+        await wait_for_request_slot("semantic-scholar")
         async with httpx.AsyncClient(timeout=SEMANTIC_SCHOLAR_TIMEOUT_SECONDS, headers=headers) as client:
             response = await client.get(SEMANTIC_SCHOLAR_API_URL, params=params)
             response.raise_for_status()
@@ -34,7 +43,13 @@ async def search_semantic_scholar(topic: str, max_results: int) -> list[Paper]:
         return parse_semantic_scholar_results(data)
     except Exception as exc:
         print(f"[semantic-scholar] fallback because: {type(exc).__name__}: {exc}", flush=True)
+        if is_rate_limit_error(exc):
+            start_cooldown("semantic-scholar")
         return []
+
+
+def is_rate_limit_error(exc: Exception) -> bool:
+    return isinstance(exc, httpx.HTTPStatusError) and exc.response.status_code == 429
 
 
 def parse_semantic_scholar_results(data: dict[str, object]) -> list[Paper]:
