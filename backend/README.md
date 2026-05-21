@@ -38,6 +38,15 @@ For providers that are OpenAI-compatible, only these three values usually need t
 
 The literature search distributes the requested paper count across arXiv, Semantic Scholar, and Crossref, then removes duplicate papers by DOI URL or normalized title. `SEMANTIC_SCHOLAR_API_KEY` is optional for local testing.
 
+## Local Data
+
+The backend writes local JSON files for experiment tracking:
+
+- `backend/data/cache/literature/`: cached retrieval results by topic and requested paper count. This avoids repeated external API calls during demos. The cache directory is ignored by Git.
+- `backend/data/runs/`: full pipeline outputs saved after each successful request. These files can be used for evaluation tables and baseline vs multi-stage analysis.
+
+If you need fresh retrieval results for a topic, delete the matching file under `backend/data/cache/literature/` and run the request again.
+
 ## API
 
 ```text

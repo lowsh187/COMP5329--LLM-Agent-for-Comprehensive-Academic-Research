@@ -7,6 +7,7 @@ from app.arxiv_client import fallback_papers, search_arxiv
 from app.crossref_client import search_crossref
 from app.models import Paper
 from app.semantic_scholar_client import search_semantic_scholar
+from app.storage import cache_path, read_json, write_json
 
 SearchFn = Callable[[str, int], Coroutine[Any, Any, list[Paper]]]
 
@@ -18,6 +19,15 @@ SOURCES: list[tuple[str, SearchFn]] = [
 
 
 async def search_literature(topic: str, max_results: int) -> list[Paper]:
+    path = cache_path("literature", topic, max_results)
+    cached = read_json(path)
+    if isinstance(cached, list):
+        papers = [Paper(**item) for item in cached if isinstance(item, dict)]
+        if papers:
+            print(f"[literature] cache hit: {path.name}", flush=True)
+            return papers
+
+    print(f"[literature] cache miss: {path.name}", flush=True)
     quotas = distribute_quota(max_results, len(SOURCES))
     overfetch = [quota + 2 if quota > 0 else 0 for quota in quotas]
 
@@ -51,10 +61,13 @@ async def search_literature(topic: str, max_results: int) -> list[Paper]:
 
     if selected:
         print(f"[literature] returned {len(selected)} unique paper(s)", flush=True)
+        write_json(path, [paper.model_dump(mode="json") for paper in selected])
         return selected
 
     print("[literature] all sources failed; using local fallback", flush=True)
-    return fallback_papers(topic)
+    fallback = fallback_papers(topic)
+    write_json(path, [paper.model_dump(mode="json") for paper in fallback])
+    return fallback
 
 
 def distribute_quota(total: int, source_count: int) -> list[int]:

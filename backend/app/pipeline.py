@@ -3,6 +3,7 @@ from app.literature_client import search_literature
 from app.llm_client import LLMClient
 from app.models import BaselineResult, Evaluation, ResearchRequest, ResearchResult
 from app.prompts import format_papers_context, load_prompt
+from app.storage import save_run
 
 SYSTEM_PROMPT = (
     "You are an academic research assistant. Always return valid JSON only. "
@@ -43,7 +44,7 @@ async def run_research_pipeline(request: ResearchRequest) -> ResearchResult:
             ),
         )
 
-    return ResearchResult(
+    result = ResearchResult(
         topic=request.topic,
         papers=papers,
         summary=stage_data["summary"],
@@ -55,6 +56,9 @@ async def run_research_pipeline(request: ResearchRequest) -> ResearchResult:
         evaluation=evaluation,
         baseline=baseline,
     )
+    run_path = save_run(request.topic, result)
+    print(f"[pipeline] saved run: {run_path}", flush=True)
+    return result
 
 
 async def run_llm_stages(llm: LLMClient, topic: str, papers_context: str) -> dict[str, str]:
