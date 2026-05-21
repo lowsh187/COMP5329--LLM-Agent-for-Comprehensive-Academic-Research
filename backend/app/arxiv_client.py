@@ -80,6 +80,7 @@ def parse_arxiv_feed(xml_text: str) -> list[Paper]:
                     abstract=abstract,
                     published=published,
                     url=url,
+                    source="arXiv",
                 )
             )
 
@@ -101,5 +102,6 @@ def fallback_papers(topic: str) -> list[Paper]:
             ),
             published=None,
             url="https://arxiv.org/",
+            source="Local fallback",
         )
     ]

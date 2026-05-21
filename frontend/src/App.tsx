@@ -186,7 +186,9 @@ function PaperSection({ papers }: { papers: Paper[] }) {
             <a href={paper.url} target="_blank" rel="noreferrer">
               {paper.title}
             </a>
-            <p className="paper-meta">{paper.authors.join(", ") || "Unknown author"}</p>
+            <p className="paper-meta">
+              {[paper.source, paper.authors.join(", ") || "Unknown author"].filter(Boolean).join(" | ")}
+            </p>
             <p>{paper.abstract}</p>
           </article>
         ))}

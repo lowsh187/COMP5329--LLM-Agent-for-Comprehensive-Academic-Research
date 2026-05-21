@@ -3,6 +3,7 @@
 FastAPI backend for Member A responsibilities:
 
 - arXiv literature retrieval
+- Semantic Scholar and Crossref literature retrieval
 - multi-stage prompt chaining
 - LLM API abstraction for OpenAI-compatible providers
 - structured JSON responses
@@ -28,11 +29,14 @@ Example `.env` for OpenAI-compatible APIs:
 LLM_API_KEY=your-api-key
 LLM_BASE_URL=https://api.example.com/v1
 LLM_MODEL=your-model-name
+SEMANTIC_SCHOLAR_API_KEY=
 ARXIV_MAX_RESULTS=5
 LLM_TEMPERATURE=0.3
 ```
 
 For providers that are OpenAI-compatible, only these three values usually need to change. The old `OPENAI_API_KEY` and `OPENAI_MODEL` names are still accepted for backward compatibility.
+
+The literature search distributes the requested paper count across arXiv, Semantic Scholar, and Crossref, then removes duplicate papers by DOI URL or normalized title. `SEMANTIC_SCHOLAR_API_KEY` is optional for local testing.
 
 ## API
 
