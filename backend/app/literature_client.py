@@ -16,6 +16,7 @@ SOURCES: list[tuple[str, SearchFn]] = [
     ("Semantic Scholar", search_semantic_scholar),
     ("Crossref", search_crossref),
 ]
+SOURCE_REQUEST_DELAY_SECONDS = 1
 
 
 async def search_literature(topic: str, max_results: int) -> list[Paper]:
@@ -37,9 +38,22 @@ async def search_literature(topic: str, max_results: int) -> list[Paper]:
         flush=True,
     )
 
-    results = await asyncio.gather(
-        *(search_fn(topic, request_limit) for (_, search_fn), request_limit in zip(SOURCES, overfetch, strict=True))
-    )
+    results: list[list[Paper]] = []
+    for index, ((source_name, search_fn), request_limit) in enumerate(
+        zip(SOURCES, overfetch, strict=True),
+        start=1,
+    ):
+        print(f"[literature] source request {index}/{len(SOURCES)}: {source_name}", flush=True)
+        source_results = await search_fn(topic, request_limit)
+        print(f"[literature] {source_name} returned {len(source_results)} paper(s)", flush=True)
+        results.append(source_results)
+
+        if index < len(SOURCES):
+            print(
+                f"[literature] waiting {SOURCE_REQUEST_DELAY_SECONDS}s before next source",
+                flush=True,
+            )
+            await asyncio.sleep(SOURCE_REQUEST_DELAY_SECONDS)
 
     selected: list[Paper] = []
     seen: set[str] = set()
