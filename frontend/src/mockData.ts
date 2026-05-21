@@ -9,7 +9,8 @@ export const demoResult: ResearchResult = {
       abstract:
         "This demo paper represents literature retrieved from arXiv. It helps the frontend show paper metadata before the real backend is connected.",
       published: "2025-01-01",
-      url: "https://arxiv.org/"
+      url: "https://arxiv.org/",
+      source: "arXiv"
     },
     {
       title: "Retrieval-Augmented Generation in Educational Support Systems",
@@ -17,7 +18,8 @@ export const demoResult: ResearchResult = {
       abstract:
         "This demo paper is used for UI testing of abstract text, author display, and external paper links.",
       published: "2025-02-10",
-      url: "https://arxiv.org/"
+      url: "https://arxiv.org/",
+      source: "Semantic Scholar"
     }
   ],
   summary:

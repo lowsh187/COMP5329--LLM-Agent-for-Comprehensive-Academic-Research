@@ -18,6 +18,7 @@ def format_papers_context(papers: list[dict[str, object]]) -> str:
             "\n".join(
                 [
                     f"Paper {index}: {paper.get('title', 'Untitled')}",
+                    f"Source: {paper.get('source', 'Unknown')}",
                     f"Authors: {authors}",
                     f"Published: {paper.get('published') or 'Unknown date'}",
                     f"URL: {paper.get('url', '')}",

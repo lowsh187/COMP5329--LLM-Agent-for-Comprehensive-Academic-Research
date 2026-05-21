@@ -12,6 +12,7 @@ class Paper(BaseModel):
     abstract: str
     published: str | None = None
     url: str
+    source: str = "Unknown"
 
 
 class Evaluation(BaseModel):

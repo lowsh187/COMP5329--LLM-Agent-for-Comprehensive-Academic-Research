@@ -1,0 +1,69 @@
+{
+  "topic": "the application of ai in game design",
+  "papers": [
+    {
+      "title": "Literature placeholder for the application of ai in game design",
+      "authors": [
+        "Local fallback"
+      ],
+      "abstract": "arXiv retrieval was unavailable, so this placeholder keeps the backend response stable for frontend integration and pipeline testing.",
+      "published": null,
+      "url": "https://arxiv.org/",
+      "source": "Local fallback"
+    },
+    {
+      "title": "Research and Application of Game Development Technologies in Online Instructional Design of Fundamentals of Web3d Technology",
+      "authors": [
+        "Ai Zihao",
+        "Li Tian"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4820858",
+      "source": "Crossref"
+    },
+    {
+      "title": "AI game design in VR hunting",
+      "authors": [
+        "Kangqiao Zhao"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.32657/10356/153784",
+      "source": "Crossref"
+    },
+    {
+      "title": "Psychologically Plausible Methods for Character Behavior Design",
+      "authors": [],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2015-4-17",
+      "url": "https://doi.org/10.1201/b18373-44",
+      "source": "Crossref"
+    }
+  ],
+  "summary": "The retrieved literature on AI in game design includes a placeholder and three papers with limited accessible abstracts. The most directly relevant paper, 'AI game design in VR hunting,' suggests work on integrating AI into virtual reality hunting games, though details are missing. Other papers address game development for education and psychologically plausible character behavior design, offering tangential connections to AI in game design. Overall, the literature provides minimal explicit information on the topic.",
+  "gap": "Despite initial forays into AI for specific game contexts like VR hunting, there is a lack of systematic frameworks for integrating adaptive AI that dynamically responds to player behavior across diverse game genres, particularly in balancing challenge and narrative coherence.",
+  "question": "How can a systematic framework be designed for adaptive AI in game design that dynamically adjusts challenge and narrative coherence based on player behavior across different game genres?",
+  "hypothesis": "In a role-playing game, an adaptive AI framework that dynamically adjusts enemy difficulty and narrative branching based on real-time player performance and choices will lead to significantly higher self-reported player engagement and perceived agency compared to a non-adaptive AI control condition.",
+  "methodology": "Develop a simple top-down 2D RPG with two conditions: adaptive AI (enemy stats and story branches change based on player performance and choices) and non-adaptive AI (fixed difficulty and linear narrative). Recruit 30 participants, randomly assign to conditions, and have them play for 20 minutes. Collect in-game logs (e.g., deaths, choices) and administer post-game surveys for self-reported engagement and agency using validated Likert scales. Compare group means with independent t-tests to evaluate the hypothesis.",
+  "proposal": "Initial research into AI in game design, such as integrating AI into VR hunting games, highlights potential but lacks systematic frameworks for adaptive AI that can dynamically respond to player behavior while balancing challenge and narrative coherence across diverse genres. This study addresses that gap by asking: How can a systematic framework be designed for adaptive AI in game design that dynamically adjusts challenge and narrative coherence based on player behavior across different game genres? We hypothesize that, in a role-playing game (RPG), an adaptive AI framework that tailors enemy difficulty and narrative branching in real time according to player performance and choices will significantly increase self-reported engagement and perceived agency compared to a non-adaptive control. To test this, we will develop a top-down 2D RPG with two conditions—adaptive AI (dynamic enemy stats and story paths) and non-adaptive AI (fixed difficulty and linear narrative)—recruit 30 participants randomly assigned to conditions, have them play for 20 minutes, collect in-game logs (e.g., deaths, choices), and administer validated Likert-scale surveys of engagement and agency. Group means will be compared via independent t-tests. The expected contribution is an empirically validated adaptive AI framework for RPGs, demonstrating the feasibility and benefits of dynamic challenge and narrative adjustment, thereby advancing systematic AI integration in game design and laying groundwork for genre-spanning applications.",
+  "evaluation": {
+    "clarity": 5,
+    "logic": 5,
+    "novelty": 3,
+    "feasibility": 5,
+    "literature_alignment": 3,
+    "comments": "Clarity: The proposal is well-structured and easy to follow. Logic: The stages are coherent, connecting gap to hypothesis to method. Novelty: Adaptive AI is not new, but the systematic framework combining challenge and narrative coherence adds some novelty. Feasibility: Simple 2D RPG, 30 participants, and basic stats are very feasible. Literature_alignment: Cites the VR hunting paper, but overall grounding is limited due to sparse literature with missing abstracts."
+  },
+  "baseline": {
+    "proposal": "Develop an AI system for VR hunting games that uses deep reinforcement learning to create adaptive animal behavior, allowing non-player characters to learn from player tactics in real-time to enhance realism and challenge.",
+    "evaluation": {
+      "clarity": 4,
+      "logic": 4,
+      "novelty": 2,
+      "feasibility": 4,
+      "literature_alignment": 3,
+      "comments": "The proposal is clearly articulated and logically connects AI with game design. It is a straightforward application of existing techniques, hence low novelty, but is feasible. It aligns well with the VR hunting and character behavior papers, though fails to incorporate the instructional design paper."
+    }
+  }
+}

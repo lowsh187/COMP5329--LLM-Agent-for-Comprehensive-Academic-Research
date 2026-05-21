@@ -1,8 +1,9 @@
-from app.arxiv_client import search_arxiv
 from app.fallback import fallback_evaluation, fallback_stage_outputs
+from app.literature_client import search_literature
 from app.llm_client import LLMClient
 from app.models import BaselineResult, Evaluation, ResearchRequest, ResearchResult
 from app.prompts import format_papers_context, load_prompt
+from app.storage import save_run
 
 SYSTEM_PROMPT = (
     "You are an academic research assistant. Always return valid JSON only. "
@@ -12,9 +13,9 @@ SYSTEM_PROMPT = (
 
 async def run_research_pipeline(request: ResearchRequest) -> ResearchResult:
     print(f"[pipeline] start topic={request.topic!r}", flush=True)
-    print("[pipeline] searching arXiv", flush=True)
-    papers = await search_arxiv(request.topic, request.max_papers)
-    print(f"[pipeline] arXiv returned {len(papers)} paper(s)", flush=True)
+    print("[pipeline] searching literature sources", flush=True)
+    papers = await search_literature(request.topic, request.max_papers)
+    print(f"[pipeline] literature search returned {len(papers)} paper(s)", flush=True)
     paper_dicts = [paper.model_dump() for paper in papers]
     context = format_papers_context(paper_dicts)
     llm = LLMClient()
@@ -43,7 +44,7 @@ async def run_research_pipeline(request: ResearchRequest) -> ResearchResult:
             ),
         )
 
-    return ResearchResult(
+    result = ResearchResult(
         topic=request.topic,
         papers=papers,
         summary=stage_data["summary"],
@@ -55,6 +56,9 @@ async def run_research_pipeline(request: ResearchRequest) -> ResearchResult:
         evaluation=evaluation,
         baseline=baseline,
     )
+    run_path = save_run(request.topic, result)
+    print(f"[pipeline] saved run: {run_path}", flush=True)
+    return result
 
 
 async def run_llm_stages(llm: LLMClient, topic: str, papers_context: str) -> dict[str, str]:

@@ -7,6 +7,7 @@ import httpx
 
 from app.config import settings
 from app.models import Paper
+from app.rate_limit import cooldown_remaining, is_in_cooldown, start_cooldown, wait_for_request_slot
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom"}
@@ -17,6 +18,10 @@ ARXIV_USER_AGENT = "COMP5329-Academic-Research-Agent/0.1 (student project; local
 
 
 async def search_arxiv(topic: str, max_results: int) -> list[Paper]:
+    if is_in_cooldown("arxiv"):
+        print(f"[arxiv] skipped; cooldown {cooldown_remaining('arxiv')}s remaining", flush=True)
+        return []
+
     limit = min(max_results, settings.arxiv_max_results, 3)
     params = {
         "search_query": f"all:{topic}",
@@ -31,6 +36,7 @@ async def search_arxiv(topic: str, max_results: int) -> list[Paper]:
     for attempt in range(1, ARXIV_RETRIES + 1):
         try:
             print(f"[arxiv] request attempt {attempt}/{ARXIV_RETRIES}", flush=True)
+            await wait_for_request_slot("arxiv")
             async with httpx.AsyncClient(
                 timeout=ARXIV_TIMEOUT_SECONDS,
                 headers={"User-Agent": ARXIV_USER_AGENT},
@@ -46,12 +52,14 @@ async def search_arxiv(topic: str, max_results: int) -> list[Paper]:
         except Exception as exc:
             last_error = exc
             print(f"[arxiv] attempt {attempt} failed: {type(exc).__name__}: {exc}", flush=True)
-            if is_rate_limit_error(exc) and attempt < ARXIV_RETRIES:
-                print(f"[arxiv] rate limited; waiting {ARXIV_REQUEST_DELAY_SECONDS}s before retry", flush=True)
-                await asyncio.sleep(ARXIV_REQUEST_DELAY_SECONDS)
+            if is_rate_limit_error(exc):
+                start_cooldown("arxiv")
+                if attempt < ARXIV_RETRIES:
+                    print(f"[arxiv] rate limited; waiting {ARXIV_REQUEST_DELAY_SECONDS}s before retry", flush=True)
+                    await asyncio.sleep(ARXIV_REQUEST_DELAY_SECONDS)
 
-    print(f"[arxiv] fallback because: {type(last_error).__name__}: {last_error}", flush=True)
-    return fallback_papers(topic)
+    print(f"[arxiv] unavailable because: {type(last_error).__name__}: {last_error}", flush=True)
+    return []
 
 
 def is_rate_limit_error(exc: Exception) -> bool:
@@ -80,6 +88,7 @@ def parse_arxiv_feed(xml_text: str) -> list[Paper]:
                     abstract=abstract,
                     published=published,
                     url=url,
+                    source="arXiv",
                 )
             )
 
@@ -101,5 +110,6 @@ def fallback_papers(topic: str) -> list[Paper]:
             ),
             published=None,
             url="https://arxiv.org/",
+            source="Local fallback",
         )
     ]

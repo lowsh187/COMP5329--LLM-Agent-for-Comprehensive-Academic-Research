@@ -4,6 +4,7 @@ export type Paper = {
   abstract: string;
   published?: string | null;
   url: string;
+  source?: string;
 };
 
 export type Evaluation = {
