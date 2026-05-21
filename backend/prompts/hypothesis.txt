@@ -1,0 +1,18 @@
+Task: Generate one testable hypothesis for the research question.
+
+Topic:
+{topic}
+
+Literature summary:
+{summary}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Return JSON with exactly this key:
+{{
+  "hypothesis": "One specific and testable hypothesis."
+}}

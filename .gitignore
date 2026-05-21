@@ -2,8 +2,14 @@
 .Rhistory
 .idea/
 .gh-config/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
 node_modules/
 dist/
 frontend/node_modules/
 frontend/dist/
 frontend/.env.local
+backend/.env

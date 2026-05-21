@@ -1,0 +1,24 @@
+Task: Suggest a feasible methodology for a student project.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Hypothesis:
+{hypothesis}
+
+Return JSON with exactly this key:
+{{
+  "methodology": "A practical methodology covering data, procedure, metrics, and evaluation in 3-6 sentences."
+}}

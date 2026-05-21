@@ -1,0 +1,15 @@
+Task: Identify a research gap grounded in the literature summary and retrieved papers.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Return JSON with exactly this key:
+{{
+  "gap": "A specific and feasible research gap in 1-3 sentences."
+}}

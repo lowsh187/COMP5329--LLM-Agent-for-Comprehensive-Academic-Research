@@ -1,0 +1,12 @@
+Task: Summarize the retrieved literature for the research topic.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Return JSON with exactly this key:
+{{
+  "summary": "A concise literature summary in 2-4 sentences."
+}}

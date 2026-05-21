@@ -1,0 +1,22 @@
+Task: Generate a single-prompt baseline proposal and evaluate it.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Generate the full proposal directly from the topic and papers without using explicit intermediate stages.
+
+Return JSON with exactly this structure:
+{{
+  "proposal": "A concise baseline proposal paragraph.",
+  "evaluation": {{
+    "clarity": 1,
+    "logic": 1,
+    "novelty": 1,
+    "feasibility": 1,
+    "literature_alignment": 1,
+    "comments": "Brief justification."
+  }}
+}}

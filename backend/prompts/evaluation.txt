@@ -1,0 +1,42 @@
+Task: Evaluate the proposal using a 1-5 rubric.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Summary:
+{summary}
+
+Gap:
+{gap}
+
+Question:
+{question}
+
+Hypothesis:
+{hypothesis}
+
+Methodology:
+{methodology}
+
+Proposal:
+{proposal}
+
+Rubric:
+- clarity: Is the proposal easy to understand?
+- logic: Are the stages coherent and connected?
+- novelty: Is the research angle meaningfully distinct?
+- feasibility: Can the project be completed with realistic resources?
+- literature_alignment: Is the proposal grounded in the retrieved papers?
+
+Return JSON with exactly these keys:
+{{
+  "clarity": 1,
+  "logic": 1,
+  "novelty": 1,
+  "feasibility": 1,
+  "literature_alignment": 1,
+  "comments": "Brief justification."
+}}

@@ -1,0 +1,18 @@
+Task: Generate one research question based on the topic and gap.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Research gap:
+{gap}
+
+Return JSON with exactly this key:
+{{
+  "question": "One clear research question."
+}}

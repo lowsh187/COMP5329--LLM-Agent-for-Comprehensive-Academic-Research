@@ -1,0 +1,24 @@
+Task: Draft a concise academic research proposal.
+
+Topic:
+{topic}
+
+Literature summary:
+{summary}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Hypothesis:
+{hypothesis}
+
+Methodology:
+{methodology}
+
+Return JSON with exactly this key:
+{{
+  "proposal": "A coherent proposal draft in one paragraph. Include background, gap, question, hypothesis, method, and expected contribution."
+}}
