@@ -1,0 +1,328 @@
+{
+  "experiment_id": "20260523T192754Z",
+  "run_index": 3,
+  "topic": "the application of ai tools in mental treatment",
+  "condition": "multi_stage_without_retrieval",
+  "retrieval_query": "the application of ai tools in mental treatment",
+  "retrieval_snapshot_id": "20260523T192754Z-the-application-of-ai-tools-in-mental-treatment-5",
+  "papers": [
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    },
+    {
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+      "authors": [
+        "Senoussaoui Abderrahmen",
+        "Rahmani Djamel"
+      ],
+      "abstract": "The rapid integration of Artificial Intelligence (AI) into Mental Health care represents a transformative shift in the diagnosis, monitoring, and treatment of psychological disorders. While AI-driven tools—including digital phenotyping systems, natural language processing models, and conversational agents—offer significant potential to enhance diagnostic precision, accessibility, and personalized interventions, they simultaneously introduce complex ethical, clinical, and epistemological challenges. This study provides a comprehensive and critical synthesis of contemporary literature (2019–2025) to examine the ethical implications of AI deployment in psychotherapeutic contexts. Moving beyond descriptive review, the paper develops a conceptual ethical governance framework grounded in the principles of autonomy, beneficence, non-maleficence, and justice, as well as the emerging “ethics of care” paradigm. It identifies key risk domains, including algorithmic bias, opacity of decision-making processes, data privacy vulnerabilities, erosion of therapeutic alliance, and the reconfiguration of professional accountability. Furthermore, the study proposes a human-centered, explainable, and clinically supervised AI integration model, emphasizing transparency, continuous ethical auditing, stakeholder inclusion, and hybrid human–AI decision-making structures. The findings highlight that while AI can significantly improve efficiency and expand access to mental healthcare—particularly in resource-constrained settings—its unregulated or poorly designed application may exacerbate inequalities, compromise patient autonomy, and undermine trust in clinical practice. The paper contributes to the interdisciplinary discourse by offering a structured ethical framework that bridges technological innovation with clinical responsibility and humanistic values. It concludes that sustainable and ethically aligned AI integration in mental health requires robust regulatory architectures, cross-disciplinary collaboration, and the preservation of the fundamentally human dimensions of psychotherapy.",
+      "published": "2026-04-18",
+      "url": "https://www.semanticscholar.org/paper/6dc63f9c10061546d60e145893be33c6aed6773e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "authors": [
+        "Anna-Carolina Haensch"
+      ],
+      "abstract": "The emergence of generative AI chatbots such as ChatGPT has prompted growing public and academic interest in their role as informal mental health support tools. While early rule-based systems have been around for several years, large language models (LLMs) offer new capabilities in conversational fluency, empathy simulation, and availability. This study explores how users engage with LLMs as mental health tools by analyzing over 10,000 TikTok comments from videos referencing LLMs as mental health tools. Using a self-developed tiered coding schema and supervised classification models, we identify user experiences, attitudes, and recurring themes. Results show that nearly 20% of comments reflect personal use, with these users expressing overwhelmingly positive attitudes. Commonly cited benefits include accessibility, emotional support, and perceived therapeutic value. However, concerns around privacy, generic responses, and the lack of professional oversight remain prominent. It is important to note that the user feedback does not indicate which therapeutic framework, if any, the LLM-generated output aligns with. While the findings underscore the growing relevance of AI in everyday practices, they also highlight the urgent need for clinical and ethical scrutiny in the use of AI for mental health support.",
+      "published": "2025-04-14",
+      "url": "http://arxiv.org/abs/2504.12337v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "authors": [
+        "Maria-Angeles Chiang",
+        "Lucía Coll",
+        "M. F. Pollo-Cattaneo",
+        "Parag Chatterjee"
+      ],
+      "abstract": "Purpose: This systematic review examines the current landscape of artificial intelligence (AI)-based Clinical Decision Support Systems (CDSS) designed to aid in the treatment of depression. With depression recognized as a complex and multifactorial condition, often differing across contexts such as postpartum, adolescence, and elderly populations, the review aims to evaluate the feasibility, acceptability, and potential of AI-based CDSS in supporting personalized care. The primary research question explores how these systems are implemented and evaluated in clinical settings, as well as the main challenges to their broader adoption.Methods: The review analyzed studies focused on AI-based CDSS for depression, identifying variations in algorithms, performance metrics, and implementations. Studies were assessed based on system purposes, categorized into treatment selection, prediction and risk assessment, and clinical support and data review, providing a comprehensive overview of each study’s approach and outcomes.Results: 11 unique algorithms, 9 performance metrics, and 10 CDSS implementations were identified across the studies. Findings indicate positive results for CDSS in supporting clinical decision-making, yet highlight challenges in applying these tools in routine practice. Limitations include small, non-diverse sample sizes, immature methodologies, and difficulties in workflow integration, along with concerns about data privacy and the ethical use of AI.Conclusions: AI-based CDSS for depression shows potential in patient care; however, foundational issues such as more diverse samples and robust model development remain critical. Addressing these aspects will set the stage for future research into advanced applications, such as virtual-reality integration and multi-condition prediction, thus advancing AI’s role in mental health treatment.Clinical Relevance—This work illustrates the state of art of AI adoption in the domain of mental health, specifically in the context of depression.",
+      "published": "2025-07-01",
+      "url": "https://www.semanticscholar.org/paper/4dc7da378a6122ed24f2f2546215355d26fd11d9",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "published": "2025-01-06",
+      "url": "http://arxiv.org/abs/2501.02842v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI in Mental Health Interventions",
+      "paper_indices": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "summary": "This cluster examines the integration of artificial intelligence (AI) in mental health interventions, focusing on AI-assisted music therapy tools, clinical decision support systems for depression, and the use of large language models (LLMs) as informal mental health support. The findings indicate that AI can enhance personalized care, improve accessibility, and provide emotional support, while also highlighting the potential benefits of reducing anxiety and depressive symptoms across various populations.",
+      "limitations": "The cluster identifies several limitations, including ethical concerns related to data privacy, algorithmic bias, and the erosion of the therapeutic alliance. Additionally, there are challenges in the broader adoption of AI tools in clinical settings, such as variability in algorithm performance and the lack of professional oversight in informal AI applications.",
+      "gap_relevance": "This cluster supports research gap identification by emphasizing the need for a human-centered ethical governance framework for AI in mental health, addressing the complexities of AI deployment, and exploring user experiences with AI tools. It highlights the importance of further investigation into the integration of AI in therapeutic contexts and the implications for clinical practice."
+    },
+    {
+      "theme": "Generative AI in Information Access Systems",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster explores the transformative role of generative AI models in enhancing information access systems through information generation and synthesis. It highlights how these models improve user experience by producing tailored content and integrating existing information to provide accurate responses, thereby addressing challenges like model hallucination.",
+      "limitations": "The cluster does not extensively address the ethical implications of generative AI in information access, nor does it explore the potential biases introduced by these models. Additionally, the scalability and real-world applicability of the discussed paradigms remain under-examined.",
+      "gap_relevance": "This cluster identifies critical areas for further research, particularly in understanding the ethical considerations and biases of generative AI, as well as the practical challenges in implementing these advanced information access paradigms in diverse contexts."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "problem": "Limitations of traditional mental health interventions and the need for personalized approaches.",
+      "method": "Review of literature and representative cases on AI-assisted music therapy tools.",
+      "evidence": "AI-assisted music therapy can reduce anxiety and depressive symptoms and improve emotion regulation.",
+      "limitation": "Lack of detailed implementation strategies for integrating these tools into existing mental health services.",
+      "gap_relevance": "Highlights the need for research on practical integration of AI tools in clinical settings."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care",
+      "problem": "Ethical challenges and risks associated with AI integration in mental health care.",
+      "method": "Critical synthesis of literature on ethical implications of AI in psychotherapy.",
+      "evidence": "Identifies risks like algorithmic bias and erosion of therapeutic alliance; proposes a human-centered governance framework.",
+      "limitation": "Does not provide empirical data on the effectiveness of proposed governance frameworks.",
+      "gap_relevance": "Supports the need for empirical studies to validate ethical frameworks in AI applications."
+    },
+    {
+      "paper_id": "P3",
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "problem": "User perceptions and experiences with LLMs as informal mental health support tools.",
+      "method": "Analysis of TikTok comments using a tiered coding schema and supervised classification models.",
+      "evidence": "20% of comments reflect positive user experiences, highlighting accessibility and emotional support.",
+      "limitation": "Lack of professional oversight and concerns about privacy and generic responses.",
+      "gap_relevance": "Indicates the need for research on the clinical effectiveness and ethical use of LLMs in mental health."
+    },
+    {
+      "paper_id": "P4",
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "problem": "Challenges in implementing AI-based clinical decision support systems for depression treatment.",
+      "method": "Systematic review of studies on AI-based CDSS for depression.",
+      "evidence": "Positive results in supporting clinical decision-making but challenges in routine practice integration.",
+      "limitation": "Issues with small sample sizes and workflow integration; concerns about data privacy.",
+      "gap_relevance": "Emphasizes the need for larger, more diverse studies to enhance AI tool adoption in clinical settings."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Foundations of GenIR",
+      "problem": "The impact of generative AI models on information access systems.",
+      "method": "Discussion of generative AI models and their applications in information generation and synthesis.",
+      "evidence": "Generative AI can enhance user experience by producing tailored content and improving information accuracy.",
+      "limitation": "Challenges related to model hallucination and the need for precision in responses.",
+      "gap_relevance": "Suggests avenues for research on improving generative AI applications in mental health information systems."
+    }
+  ],
+  "summary": "Recent literature highlights the growing application of AI tools in mental health treatment, emphasizing their role in enhancing diagnostic accuracy, personalizing therapy, and providing real-time support through chatbots and virtual therapists. Studies indicate that AI can effectively analyze patient data to predict outcomes and tailor interventions, although ethical considerations and the need for human oversight remain critical. Overall, AI tools are seen as complementary to traditional therapeutic approaches, potentially increasing accessibility and efficiency in mental health care.",
+  "scholarly_positioning": "While prior approaches to mental health treatment have primarily relied on traditional therapeutic methods, the integration of AI tools presents a transformative opportunity to enhance diagnostic accuracy and personalize therapy. However, existing literature reveals unresolved tensions regarding ethical implications and the necessity for human oversight, which are often inadequately addressed. Current studies tend to focus on the efficacy of AI in isolation, neglecting the complex interplay between technology and human elements in therapy. This proposed research aims to bridge these gaps by exploring the synergistic potential of AI tools as complementary to human therapists, thereby contributing to a more holistic understanding of mental health treatment in the digital age.",
+  "gap": "There is a need for research that investigates the collaborative dynamics between AI tools and human therapists in mental health treatment, focusing on how these interactions can enhance therapeutic outcomes while addressing ethical concerns. This gap highlights the importance of understanding the integration of technology within the therapeutic process rather than evaluating AI efficacy in isolation.",
+  "question": "How do collaborative interactions between AI tools and human therapists influence therapeutic outcomes in mental health treatment, and what ethical considerations arise from this integration?",
+  "theoretical_mechanism": "The proposed research is grounded in the Interactional Model of Psychotherapy, which posits that therapeutic outcomes are influenced by the dynamic interplay between therapist and client. By integrating AI tools, the model suggests that enhanced data analysis and real-time feedback can optimize therapist interventions, leading to improved patient engagement and personalized treatment. Key constructs include the collaborative relationship between AI and human therapists, patient responsiveness, and ethical considerations surrounding data use. Assumptions requiring empirical validation include the effectiveness of AI in augmenting therapist capabilities and the impact of this collaboration on patient trust and therapeutic alliance.",
+  "hypothesis": "Collaborative interactions between AI tools and human therapists will significantly improve patient engagement and therapeutic outcomes, as measured by standardized assessment scales, compared to traditional therapy without AI integration.",
+  "operationalization_causal_check": "Key constructs will be operationalized as follows: 'collaborative interactions' will be measured through therapist and patient surveys assessing perceived support from AI tools; 'patient engagement' will be quantified using standardized scales like the Patient Engagement Scale; and 'therapeutic outcomes' will be assessed via the Outcome Questionnaire-45. The expected causal pathway posits that enhanced collaborative interactions lead to increased patient engagement, which in turn improves therapeutic outcomes. Potential mediators include patient trust and the therapeutic alliance, while confounding variables may include therapist experience and patient demographics. The study can claim associations between AI integration and improved outcomes but cannot definitively establish causation due to potential unmeasured confounds. Measurement instruments will include validated questionnaires and observational coding of therapy sessions.",
+  "methodology": "This study will employ a mixed-methods design, combining quantitative assessments through standardized scales (Patient Engagement Scale and Outcome Questionnaire-45) and qualitative interviews with therapists and patients to explore perceptions of AI integration. A randomized controlled trial (RCT) will compare therapeutic outcomes in two groups: one receiving traditional therapy and another utilizing AI tools alongside human therapists. Baseline measures will be taken prior to intervention, and follow-up assessments will occur at 3 and 6 months post-treatment to evaluate changes in patient engagement and outcomes. Statistical analyses will include regression models to control for confounding variables such as therapist experience and patient demographics, ensuring robust validity and reproducibility of findings.",
+  "failure_analysis": "Potential failure modes include reliance on AI tools leading to diminished therapist engagement, which may negatively impact the therapeutic alliance. Validity threats arise from unmeasured confounding variables, such as varying therapist skills and patient backgrounds, potentially skewing results. Ethical risks include data privacy concerns and the potential for AI to misinterpret patient needs, leading to inadequate support. Negative result interpretations could suggest that AI integration is ineffective, overshadowing the nuanced benefits of collaboration. Mitigation strategies include rigorous training for therapists on AI use, continuous monitoring of AI interactions, and incorporating diverse participant demographics to enhance generalizability.",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "The evidence notes highlight the inadequacy of existing literature in addressing the collaborative dynamics between AI tools and human therapists, supporting the identified research gap strongly.",
+    "gap_to_question": "The research gap regarding the need for understanding collaborative dynamics directly informs the research question about the influence of these interactions on therapeutic outcomes.",
+    "question_to_hypothesis": "The research question about collaborative interactions leads to the hypothesis that such collaboration will significantly improve patient engagement and therapeutic outcomes.",
+    "hypothesis_to_methodology": "The methodology employs a mixed-methods design, including a randomized controlled trial, to empirically test the hypothesis regarding the impact of AI integration on therapeutic outcomes.",
+    "methodology_to_evaluation": "The planned evaluation through standardized assessments and qualitative interviews aims to provide insights into how AI and human therapist collaboration affects therapeutic outcomes, thus answering the research question.",
+    "weak_links": [
+      "Potential unmeasured confounds may weaken the causal claims; reliance on AI could diminish therapist engagement; ethical implications may not be fully addressed in the methodology."
+    ]
+  },
+  "proposal": "This research proposal investigates the application of AI tools in mental health treatment, motivated by the pressing need to enhance therapeutic outcomes through innovative technology integration. While existing literature emphasizes AI's efficacy in diagnostic accuracy and personalized therapy, it often neglects the collaborative dynamics between AI and human therapists, particularly regarding ethical implications and the therapeutic alliance. This study addresses a critical gap by exploring how these collaborative interactions influence therapeutic outcomes, guided by the Interactional Model of Psychotherapy, which posits that effective therapy arises from the interplay between therapist and client. The research question is: How do collaborative interactions between AI tools and human therapists influence therapeutic outcomes in mental health treatment, and what ethical considerations arise from this integration? The hypothesis posits that such collaboration will significantly enhance patient engagement and therapeutic outcomes, operationalized through validated scales measuring collaborative interactions, patient engagement, and therapeutic outcomes. A mixed-methods design will be employed, including a randomized controlled trial comparing traditional therapy with AI-integrated therapy, with baseline measures collected prior to intervention and follow-up assessments at 3 and 6 months post-treatment. Statistical analyses will control for confounding variables such as therapist experience and patient demographics, ensuring robustness and reproducibility. The expected contribution lies in providing a nuanced understanding of AI's role as a complement to traditional therapy, addressing ethical concerns and enhancing therapeutic efficacy. Key limitations include potential reliance on AI diminishing therapist engagement and ethical risks related to data privacy, necessitating careful monitoring and diverse participant inclusion to mitigate these issues.",
+  "draft_proposal": "The proposed research investigates the application of AI tools in mental health treatment, addressing the critical gap in understanding the collaborative dynamics between AI and human therapists. While existing literature highlights the efficacy of AI in enhancing diagnostic accuracy and personalizing therapy, it often overlooks the interplay between technology and human elements, particularly the ethical implications of this integration. This study aims to explore how collaborative interactions between AI tools and human therapists influence therapeutic outcomes, guided by the Interactional Model of Psychotherapy, which posits that outcomes are shaped by the dynamics of therapist-client relationships. The hypothesis posits that such collaboration will significantly enhance patient engagement and therapeutic outcomes, operationalized through validated scales measuring collaborative interactions, patient engagement, and therapeutic outcomes. Employing a mixed-methods design, this research will conduct a randomized controlled trial comparing traditional therapy with AI-integrated therapy, incorporating quantitative assessments and qualitative interviews. The expected contribution lies in providing a nuanced understanding of AI's role as a complement to traditional therapy, addressing ethical concerns and enhancing therapeutic efficacy. This research is novel in its focus on the synergy between AI and human therapists, contrasting with prior studies that evaluate AI in isolation. Key limitations include potential reliance on AI diminishing therapist engagement and ethical risks related to data privacy, necessitating careful monitoring and diverse participant inclusion.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap is valid as it addresses the interaction between AI tools and human therapists, which is underexplored in existing literature.",
+      "literature_grounding": "The gap is somewhat grounded in literature, but it could benefit from more specific citations that highlight the lack of research on collaborative dynamics.",
+      "meaningfulness": "The gap is meaningful as it addresses a critical aspect of mental health treatment that could enhance therapeutic outcomes.",
+      "already_solved_risk": "There is a risk that some studies may have touched on collaborative dynamics, necessitating a thorough literature review to ensure the gap is genuinely unexplored."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but lacks a critical comparison that highlights how they differ from the proposed research.",
+      "unresolved_tensions": "While it mentions unresolved tensions regarding ethics and oversight, it does not sufficiently elaborate on these issues or their implications.",
+      "positioning_quality": "The positioning is adequate but could be strengthened by explicitly stating how the proposed research fills the identified gaps."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on collaborative interactions.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, addressing a significant issue in mental health treatment.",
+      "variable_clarity": "The variables involved are somewhat clear, but further specification on what constitutes 'collaborative interactions' would enhance clarity."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The theoretical mechanism is relevant but lacks depth in explaining how AI tools specifically enhance therapeutic outcomes.",
+      "theoretical_framing": "The framing within the Interactional Model of Psychotherapy is appropriate, but more detail on its application to AI integration is needed.",
+      "assumption_transparency": "Assumptions about AI effectiveness and its impact on trust and alliance are stated but require empirical validation."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, as it can be tested through empirical methods.",
+      "mechanism_grounding": "The hypothesis is grounded in the proposed mechanism but could benefit from clearer links to specific outcomes.",
+      "measurable_outcome": "The outcomes are measurable, but the proposal should specify how they will be quantitatively assessed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization of constructs is generally clear, but 'collaborative interactions' needs more precise measurement criteria.",
+      "causal_identification": "The causal pathway is outlined, but the proposal should clarify how causation will be established beyond correlation.",
+      "confound_awareness": "Confounding variables are acknowledged, but a more detailed plan for controlling them is necessary.",
+      "claim_boundaries": "The proposal appropriately notes the limits of causal claims, but it should specify the potential unmeasured confounds."
+    },
+    "methodology_stage": {
+      "baseline_validity": "Baseline measures are appropriate, but the proposal should detail how they will be collected and analyzed.",
+      "metric_validity": "The validity of metrics is mentioned, but specific validation studies for the scales should be cited.",
+      "statistical_or_evaluation_validity": "Statistical methods are outlined, but the proposal should include more detail on the analysis plan.",
+      "reproducibility": "Reproducibility is a concern; the proposal should emphasize protocols for replicating the study.",
+      "confound_control": "Confound control strategies are mentioned but need to be more robust and detailed.",
+      "risk_analysis": "Risk analysis is present but should include more specific ethical considerations related to AI use."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Potential failure modes are identified, but the proposal should elaborate on how these could impact the study.",
+      "limitation_depth": "Limitations are acknowledged, but a deeper exploration of their implications for the research is needed.",
+      "risk_mitigation": "Mitigation strategies are mentioned but should be more specific and actionable."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "The contribution is stated but lacks specificity regarding how it will advance the field.",
+      "novelty_type": "The novelty is primarily integration-focused, combining AI with traditional therapy.",
+      "coherence": "The proposal is coherent but could benefit from clearer connections between sections.",
+      "limitation_awareness": "Awareness of limitations is present but should be expanded to include potential biases.",
+      "academic_communication": "The communication is generally clear, but some jargon could be simplified for broader accessibility."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads logically to the research question, addressing a specific need.",
+      "question_to_hypothesis": "The question leads to a testable hypothesis, maintaining alignment.",
+      "hypothesis_to_method": "The hypothesis is testable by the proposed method, but clarity on measurement is needed.",
+      "method_to_evaluation": "The method is designed to evaluate the question, but more detail on how results will be interpreted is necessary."
+    },
+    "revision_plan": "Revise the gap stage to ensure it is not already addressed in existing literature. Enhance the scholarly positioning by providing a critical comparison of prior work. Clarify the operationalization of constructs, particularly 'collaborative interactions,' and ensure that the methodology includes detailed plans for controlling confounding variables."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 76.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal clearly defines a research problem related to the integration of AI tools in mental health treatment, but the operational definitions of key concepts like 'collaborative interactions' and 'therapeutic outcomes' could be more precise. Major weaknesses: The operationalization of key constructs lacks depth, and the motivation could be more explicitly tied to existing literature gaps. Next band requirements: To move into the next band, the proposal needs to provide clearer definitions of constructs and a more compelling rationale for the significance of the research problem."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 13.0,
+        "level": "12-13: mostly coherent with minor reasoning gaps",
+        "justification": "The proposal presents a logical flow from problem to hypothesis, but some assumptions, particularly regarding the effectiveness of AI tools, require more empirical support. Major weaknesses: The causal claims about AI's impact on therapeutic outcomes are not sufficiently justified, and the evaluation design does not fully test the stated hypothesis. Next band requirements: To improve, the proposal should strengthen the justification for causal claims and ensure that the evaluation directly tests the hypothesis."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal addresses a relevant gap in the literature, the novelty primarily lies in the application of existing concepts rather than introducing a new theoretical framework or mechanism. Major weaknesses: The proposal does not sufficiently differentiate itself from existing studies or provide a clear theoretical contribution. Next band requirements: To achieve a higher score, the research should introduce a new theoretical framework or significantly extend existing literature with original insights."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 15.0,
+        "level": "15-17: strong design with manageable limitations",
+        "justification": "The mixed-methods design and randomized controlled trial approach are appropriate, with a clear plan for data collection and analysis. Major weaknesses: While the design is generally robust, there are concerns about potential confounding variables that could affect the validity of the findings. Next band requirements: To move into the next band, the proposal should address potential confounding variables more thoroughly and provide a clearer rationale for baseline measures."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal engages with relevant literature but lacks depth in critical synthesis and does not adequately position itself against competing approaches. Major weaknesses: There is insufficient critical analysis of prior work, and the identification of gaps is somewhat vague. Next band requirements: To improve, the proposal should provide a more thorough comparative analysis of existing literature and articulate why current approaches are insufficient."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication but lacks depth in discussing mechanisms and limitations. Major weaknesses: The discussion of failure cases and limitations is not sufficiently detailed, and the proposal does not fully articulate broader implications. Next band requirements: To reach a higher score, the proposal should deepen the theoretical discussion and provide a more comprehensive analysis of limitations and potential failure modes."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The writing is generally clear and organized, but there are occasional lapses in precision and conciseness. Major weaknesses: Some terminology is used imprecisely, and the overall structure could be improved for better readability. Next band requirements: To achieve a higher score, the proposal should enhance clarity and precision in terminology and improve overall organization."
+      }
+    ],
+    "comments": "Total score: 76.0/100. Academic level: Master's-level. Major strengths: Clear identification of a research gap in AI integration in mental health.; Well-structured mixed-methods design with a randomized controlled trial. Major weaknesses: Lack of depth in operational definitions and theoretical contributions.; Insufficient critical engagement with existing literature. Required improvements for true PhD-level quality: Enhance operational definitions of key constructs.; Strengthen causal claims with empirical justification.; Introduce a new theoretical framework or significantly extend existing literature. Final verdict: The proposal demonstrates some promising elements but lacks the depth and rigor expected of true PhD-level research, requiring significant improvements to reach that standard."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "The application of AI-assisted music therapy tools in mental health interventions",
+        "similarity": 0.679
+      },
+      {
+        "original_index": 3,
+        "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+        "similarity": 0.6558
+      },
+      {
+        "original_index": 1,
+        "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+        "similarity": 0.5628
+      },
+      {
+        "original_index": 4,
+        "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+        "similarity": 0.5508
+      },
+      {
+        "original_index": 2,
+        "title": "Foundations of GenIR",
+        "similarity": 0.3782
+      }
+    ]
+  },
+  "metrics": {
+    "condition": "multi_stage_without_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "the application of ai tools in mental treatment",
+    "retrieval_snapshot_id": "20260523T192754Z-the-application-of-ai-tools-in-mental-treatment-5",
+    "latency_ms": 112333,
+    "prompt_tokens": 16652,
+    "completion_tokens": 5241,
+    "total_tokens": 21893,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

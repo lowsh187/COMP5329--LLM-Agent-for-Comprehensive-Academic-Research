@@ -1,4 +1,4 @@
-Task: Suggest a feasible methodology for a student project.
+Task: Suggest a rigorous but feasible methodology for an academic research proposal.
 
 Topic:
 {topic}
@@ -9,6 +9,18 @@ Retrieved papers:
 Literature summary:
 {summary}
 
+Research scope:
+{research_scope}
+
+Domain and methodology routing:
+{domain_router}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
 Research gap:
 {gap}
 
@@ -18,7 +30,15 @@ Research question:
 Hypothesis:
 {hypothesis}
 
-Return JSON with exactly this key:
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Operationalization and causal check:
+{operationalization_causal_check}
+
+Return JSON with exactly these keys:
 {{
-  "methodology": "A practical methodology covering data, procedure, metrics, and evaluation in 3-6 sentences."
+  "methodology": "A rigorous domain-appropriate methodology in 5-8 sentences. Follow the domain routing instead of reusing a generic template. Cover data or participants, procedure, baselines or comparison groups, operationalized variables, evaluation metrics, validity or statistical reasoning, confound controls, reproducibility, and scope control. For clinical/mental-health intervention topics, use RCT-style intervention/control design only when justified. For LLM safety topics, use benchmark evaluation, red-team prompt sets, output-level safety filter baselines, representation-level monitor or intervention baselines, ablations, and human evaluation where relevant. For interpretability topics, compare baseline model, output-level explanation/filtering, and representation-level method. For multilingual studies, specify languages, English reference baseline, native-speaker validation, annotation consistency, and translation/cultural bias controls. For HCI/user trust, use between-subject or within-subject explanation conditions and trust calibration or appropriate-reliance measures.",
+  "methodology_supporting_paper_ids": ["P1"],
+  "baseline_reasoning": "Explain how the listed paper ids motivate the proposed baselines, measurements, or evaluation design."
 }}

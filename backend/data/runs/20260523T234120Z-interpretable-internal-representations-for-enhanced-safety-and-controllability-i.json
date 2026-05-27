@@ -1,0 +1,461 @@
+{
+  "experiment_id": "20260523T233547Z",
+  "run_index": 2,
+  "topic": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+  "retrieval_snapshot_id": "20260523T233547Z-interpretable-internal-representations-for-enhanced-safety-and-controllability-i-5",
+  "papers": [
+    {
+      "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+      "authors": [
+        "Wenxuan Wang",
+        "Zhaopeng Tu",
+        "Chang Chen",
+        "Youliang Yuan",
+        "Jen-tse Huang",
+        "Wenxiang Jiao",
+        "Michael R. Lyu"
+      ],
+      "abstract": "Safety lies at the core of developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g. the majority language in the pretraining data such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSafety, in response to the global deployment of LLMs in practice. XSafety covers 14 kinds of commonly used safety issues across 10 languages that span several language families. We utilize XSafety to empirically study the multilingual safety for 4 widely-used LLMs, including both close-API and open-source models. Experimental results show that all LLMs produce significantly more unsafe responses for non-English queries than English ones, indicating the necessity of developing safety alignment for non-English languages. In addition, we propose several simple and effective prompting methods to improve the multilingual safety of ChatGPT by evoking safety knowledge and improving cross-lingual generalization of safety alignment. Our prompting method can significantly reduce the ratio of unsafe responses from 19.1% to 9.7% for non-English queries. We release our data at https://github.com/Jarviswang94/Multilingual_safety_benchmark.",
+      "published": "2023-10-02",
+      "url": "http://arxiv.org/abs/2310.00905v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safety Assessment of Chinese Large Language Models",
+      "authors": [
+        "Hao Sun",
+        "Zhexin Zhang",
+        "Jiawen Deng",
+        "Jiale Cheng",
+        "Minlie Huang"
+      ],
+      "abstract": "With the rapid popularity of large language models such as ChatGPT and GPT-4, a growing amount of attention is paid to their safety concerns. These models may generate insulting and discriminatory content, reflect incorrect social values, and may be used for malicious purposes such as fraud and dissemination of misleading information. Evaluating and enhancing their safety is particularly essential for the wide application of large language models (LLMs). To further promote the safe deployment of LLMs, we develop a Chinese LLM safety assessment benchmark. Our benchmark explores the comprehensive safety performance of LLMs from two perspectives: 8 kinds of typical safety scenarios and 6 types of more challenging instruction attacks. Our benchmark is based on a straightforward process in which it provides the test prompts and evaluates the safety of the generated responses from the evaluated model. In evaluation, we utilize the LLM's strong evaluation ability and develop it as a safety evaluator by prompting. On top of this benchmark, we conduct safety assessments and analyze 15 LLMs including the OpenAI GPT series and other well-known Chinese LLMs, where we observe some interesting findings. For example, we find that instruction attacks are more likely to expose safety issues of all LLMs. Moreover, to promote the development and deployment of safe, responsible, and ethical AI, we publicly release SafetyPrompts including 100k augmented prompts and responses by LLMs.",
+      "published": "2023-04-20",
+      "url": "http://arxiv.org/abs/2304.10436v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+      "authors": [
+        "Xingjun Ma",
+        "Yifeng Gao",
+        "Yixu Wang",
+        "Ruofan Wang",
+        "Xin Wang",
+        "Ye Sun",
+        "Yifan Ding",
+        "Hengyuan Xu",
+        "Yunhao Chen",
+        "Yunhan Zhao",
+        "Hanxun Huang",
+        "Yige Li",
+        "Yutao Wu",
+        "Jiaming Zhang",
+        "Xiang Zheng",
+        "Yang Bai",
+        "Zuxuan Wu",
+        "Xipeng Qiu",
+        "Jingfeng Zhang",
+        "Yiming Li",
+        "Xudong Han",
+        "Haonan Li",
+        "Jun Sun",
+        "Cong Wang",
+        "Jindong Gu",
+        "Baoyuan Wu",
+        "Siheng Chen",
+        "Tianwei Zhang",
+        "Yang Liu",
+        "Mingming Gong",
+        "Tongliang Liu",
+        "Shirui Pan",
+        "Cihang Xie",
+        "Tianyu Pang",
+        "Yinpeng Dong",
+        "Ruoxi Jia",
+        "Yang Zhang",
+        "Shiqing Ma",
+        "Xiangyu Zhang",
+        "Neil Gong",
+        "Chaowei Xiao",
+        "Sarah Erfani",
+        "Tim Baldwin",
+        "Bo Li",
+        "Masashi Sugiyama",
+        "Dacheng Tao",
+        "James Bailey",
+        "Yu-Gang Jiang"
+      ],
+      "abstract": "The rapid advancement of large models, driven by their exceptional abilities in learning and generalization through large-scale pre-training, has reshaped the landscape of Artificial Intelligence (AI). These models are now foundational to a wide range of applications, including conversational AI, recommendation systems, autonomous driving, content generation, medical diagnostics, and scientific discovery. However, their widespread deployment also exposes them to significant safety risks, raising concerns about robustness, reliability, and ethical implications. This survey provides a systematic review of current safety research on large models, covering Vision Foundation Models (VFMs), Large Language Models (LLMs), Vision-Language Pre-training (VLP) models, Vision-Language Models (VLMs), Diffusion Models (DMs), and large-model-powered Agents. Our contributions are summarized as follows: (1) We present a comprehensive taxonomy of safety threats to these models, including adversarial attacks, data poisoning, backdoor attacks, jailbreak and prompt injection attacks, energy-latency attacks, data and model extraction attacks, and emerging agent-specific threats. (2) We review defense strategies proposed for each type of attacks if available and summarize the commonly used datasets and benchmarks for safety research. (3) Building on this, we identify and discuss the open challenges in large model safety, emphasizing the need for comprehensive safety evaluations, scalable and effective defense mechanisms, and sustainable data practices. More importantly, we highlight the necessity of collective efforts from the research community and international collaboration. Our work can serve as a useful reference for researchers and practitioners, fostering the ongoing development of comprehensive defense systems and platforms to safeguard AI models.",
+      "published": "2025-02-02",
+      "url": "http://arxiv.org/abs/2502.05206v6",
+      "source": "arXiv"
+    },
+    {
+      "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+      "authors": [
+        "Zhoumeng Wang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2024",
+      "url": "https://doi.org/10.1109/access.2024.3368027",
+      "source": "Crossref"
+    },
+    {
+      "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+      "authors": [
+        "Kingsley Attai"
+      ],
+      "abstract": "&lt;p&gt;&lt;span&gt;Tropical febrile diseases pose significant public health challenges in tropical regions, particularly in resource-limited settings, where timely and accurate diagnoses are critical for effective disease management. However, existing diagnostic systems are black-box and often lack interpretability, making it difficult for healthcare practitioners to understand and trust machine learning (ML) predictions. Additionally, the existing system excludes younger patients, limiting its applicability. This study aimed to develop an integrated diagnostic system that enhances interpretability by leveraging machine learning (ML), Explainable AI (XAI), and a large language model (LLM). A dataset comprising 3,914 patient records with 32 symptoms was obtained from a New Frontiers in Research Fund-sponsored project and preprocessed for analysis. Random Forest (RF) was trained with hyperparameter tuning using GridSearchCV and evaluated with 5-fold cross-validation to optimize its performance. The tuned model achieved high diagnostic performance, demonstrating its effectiveness in diagnosing six febrile diseases. To enhance interpretability, a Model Interpretability Framework (MIF) was incorporated, integrating Local Interpretable Model-Agnostic Explanations (LIME) for visual insights and ChatGPT for textual explanations. This combination provided users with a clear understanding of the diagnostic process, addressing the limitations of black-box ML models. The system was implemented using Python in a development environment that included Google Colaboratory, Visual Studio Code, Flet, and MySQL for database management. Agile development methodology and Unified Modeling Language tools were employed to create a user-friendly design for clinicians and patients. The diagnostic system was evaluated using precision, recall, F1-score, and AUC-ROC metrics. The RF model achieved outstanding precision for most diseases, high recall (≥0.97), and an AUC-ROC of 0.99, indicating nearly flawless training performance with few misclassifications. On the test dataset, the model performed better in diagnosing malaria (F1-score = 88%, precision = 85%), urinary tract infection (F1-score = 72%, precision = 80%), and respiratory tract infection (F1-score = 72%, precision = 77%). The evaluated system demonstrated strong predictive performance, correctly identifying 72 out of 99 tested patient cases, with 26 cases misclassified and one case completely missed. It achieved the highest detection rates for Malaria and HIV/AIDS, accurately identifying all cases without false positives. This work enhances diagnostic solutions for tropical healthcare settings by improving explainability and ensuring inclusivity for younger patients, addressing key limitations in existing systems. The integration of ML, XAI, and LLM enhances diagnostic performance and lays the groundwork for future AI-driven healthcare innovations, ultimately improving health outcomes in resource-scarce regions. Healthcare providers should adopt this system to enhance the efficiency of disease diagnosis and extend the system to diagnose additional medical conditions.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+      "published": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6557498",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Safety Assessment and Enhancement of Large Language Models",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "summary": "This cluster of papers focuses on the safety concerns associated with large language models (LLMs) across multiple languages and contexts. It introduces benchmarks for assessing multilingual safety and specifically evaluates safety in Chinese LLMs. The studies highlight that LLMs tend to produce more unsafe content in non-English languages and propose methods to improve safety alignment. Additionally, a comprehensive survey reviews various safety threats and defense strategies related to large models, emphasizing the need for robust safety measures in AI applications.",
+      "limitations": "The studies primarily focus on specific languages (e.g., English and Chinese) and may not fully address safety issues in other languages or dialects. Furthermore, while benchmarks are proposed, the effectiveness of the suggested prompting methods and safety assessments may vary across different contexts and model architectures. There is also a lack of longitudinal studies to assess the long-term effectiveness of safety enhancements.",
+      "gap_relevance": "This cluster identifies significant gaps in the safety assessment of multilingual LLMs and the need for comprehensive safety benchmarks that encompass diverse languages and cultural contexts. It supports research gap identification by highlighting the necessity for improved safety protocols and evaluation methods that can be generalized across various applications and languages."
+    },
+    {
+      "theme": "Few-Shot Recommender Systems Enhanced by Language Models",
+      "paper_indices": [
+        4
+      ],
+      "summary": "This cluster primarily investigates the integration of large language models to improve the performance of few-shot recommender systems, focusing on enhancing representation learning to better predict user preferences with limited data.",
+      "limitations": "The cluster lacks comprehensive empirical validation across diverse datasets and real-world scenarios, and the scalability of the proposed methods in dynamic environments remains unaddressed.",
+      "gap_relevance": "This cluster highlights the need for further exploration into the adaptability of language models in various recommendation contexts, thereby identifying a research gap in the application of advanced AI techniques to real-world recommendation challenges."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+      "problem": "Multilingual safety issues in large language models (LLMs).",
+      "method": "Development of a multilingual safety benchmark (XSafety) covering 14 safety issues across 10 languages; empirical study of 4 LLMs.",
+      "evidence": "LLMs produce more unsafe responses for non-English queries; prompting methods reduced unsafe responses from 19.1% to 9.7%.",
+      "limitation": "Focus on only 4 LLMs and limited to 10 languages; may not generalize to all languages or models.",
+      "gap_relevance": "Highlights the need for comprehensive multilingual safety assessments and effective prompting strategies."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Safety Assessment of Chinese Large Language Models",
+      "problem": "Safety concerns in Chinese large language models (LLMs).",
+      "method": "Development of a safety assessment benchmark for Chinese LLMs evaluating 15 models across 8 safety scenarios and 6 instruction attacks.",
+      "evidence": "Instruction attacks expose safety issues more effectively than standard prompts.",
+      "limitation": "Focus on Chinese models; findings may not be applicable to LLMs in other languages or contexts.",
+      "gap_relevance": "Emphasizes the need for safety assessments in diverse language contexts and the effectiveness of instruction-based evaluations."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+      "problem": "Safety risks associated with the deployment of large models in various applications.",
+      "method": "Systematic review of safety threats, defense strategies, and datasets related to large models.",
+      "evidence": "Identifies a comprehensive taxonomy of safety threats and highlights the need for scalable defense mechanisms.",
+      "limitation": "Does not provide specific solutions or methodologies for implementing safety measures.",
+      "gap_relevance": "Underlines the necessity for collaborative research efforts to develop effective safety frameworks for LLMs."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+      "problem": "Enhancing recommender systems using LLMs.",
+      "method": "Integration of LLMs to improve representation in few-shot learning contexts.",
+      "evidence": "Potential for LLMs to enhance the performance of recommender systems.",
+      "limitation": "Lack of detailed methodology or empirical results in the abstract.",
+      "gap_relevance": "Suggests exploration of LLM-enhanced representations in safety-critical applications."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+      "problem": "Lack of interpretability in diagnostic systems for febrile diseases.",
+      "method": "Development of a diagnostic system integrating ML, Explainable AI, and LLMs; evaluation on a dataset of 3,914 patient records.",
+      "evidence": "Achieved high diagnostic performance with enhanced interpretability through LIME and ChatGPT.",
+      "limitation": "Focus on a specific medical domain; may not generalize to other areas of healthcare.",
+      "gap_relevance": "Highlights the importance of interpretability in AI systems, relevant for enhancing safety and controllability in LLMs."
+    }
+  ],
+  "summary": "The retrieved literature emphasizes the critical need for safety assessments in large language models (LLMs), particularly in multilingual contexts, revealing that LLMs often produce unsafe content in non-English languages. It identifies gaps in existing safety benchmarks and highlights the necessity for comprehensive evaluation methods. Additionally, the integration of LLMs into few-shot recommender systems shows promise for enhancing performance, although empirical validation remains limited. Overall, the studies underscore the importance of interpretability and safety in AI applications, advocating for further research in these areas.",
+  "scholarly_positioning": "Existing literature highlights significant safety concerns in large language models (LLMs), particularly in multilingual contexts, yet current safety assessments are limited to specific languages and lack comprehensive benchmarks applicable across diverse cultural settings. While studies have proposed methods to enhance safety, such as prompting techniques, their effectiveness remains unvalidated in varied contexts and model architectures. Furthermore, the integration of LLMs into few-shot recommender systems suggests potential for improved performance, but empirical evidence is scarce. This proposed research aims to bridge these gaps by developing interpretable internal representations that enhance both safety and controllability in LLMs, addressing unresolved tensions in the field regarding the need for robust, generalizable safety measures and the interpretability of AI systems.",
+  "domain_router": "{\n  \"domain\": [\n    \"LLM safety/AI evaluation\",\n    \"HCI/user trust\",\n    \"machine-learning method development\"\n  ],\n  \"methodology\": [\n    \"benchmark evaluation\",\n    \"multilingual annotation\",\n    \"human evaluation\",\n    \"output-level explanation/filtering\",\n    \"representation-level method comparisons\"\n  ]\n}",
+  "research_scope": "This study will evaluate the safety and interpretability of multilingual large language models (LLMs) in the context of automated customer support systems. The target population will include users interacting with LLMs across diverse languages, focusing on the effectiveness of a newly developed multilingual safety benchmark (XSafety) over a six-month evaluation period. The intervention will involve implementing enhanced prompting techniques designed to reduce unsafe outputs, compared against a baseline of standard prompting methods. Primary outcomes will include the rate of unsafe responses generated by the models, while secondary outcomes will assess user trust and satisfaction through human evaluations of the LLM's responses. This research aims to provide insights into the generalizability of safety measures across languages and improve the interpretability of LLMs in real-world applications.",
+  "concept_definition": "{\n  \"Large Language Models (LLMs)\": \"AI models designed to understand and generate human language, specifically evaluated in multilingual contexts.\",\n  \"Interpretability\": \"The degree to which a model's internal workings can be understood by humans, often assessed through methods like probing or attention visualization.\",\n  \"Internal Representations\": \"The hidden states or activations within the model that capture information about the input data, accessible for analysis to understand model behavior.\",\n  \"Safety Outcomes\": {\n    \"Unsafe Response Rate\": \"The frequency of responses generated by the model that are deemed unsafe or inappropriate.\",\n    \"Over-refusal\": \"Instances where the model excessively declines to provide responses, potentially impacting user experience.\",\n    \"Jailbreak Success\": \"The ability of users to manipulate the model into generating unsafe outputs despite safety measures.\",\n    \"Harmful Compliance\": \"The model's tendency to comply with harmful or unsafe user requests.\",\n    \"Refusal Precision/Recall\": \"Metrics evaluating the accuracy of the model's refusals in relation to actual unsafe requests.\"\n  },\n  \"User Trust\": {\n    \"Trust Calibration\": \"The alignment between a user's confidence in the model's responses and the actual reliability of those responses.\",\n    \"Blind Trust\": \"Trust placed in the model without critical evaluation of its outputs.\",\n    \"Perceived Transparency\": \"The user's perception of how understandable and clear the model's decision-making processes are.\",\n    \"Appropriate Reliance\": \"The extent to which users depend on the model's outputs based on their understanding of its capabilities and limitations.\"\n  },\n  \"Enhanced Prompting Techniques\": \"Refined methods of interacting with LLMs designed to elicit safer and more reliable responses compared to standard prompting methods.\",\n  \"Multilingual Safety Benchmark (XSafety)\": \"A newly developed framework for evaluating the safety of LLM outputs across multiple languages, focusing on generalizability and effectiveness of safety measures.\",\n  \"Human Evaluation\": \"Assessment of model outputs by human judges to gauge user trust and satisfaction, providing qualitative insights into the model's performance.\"\n}",
+  "technical_feasibility": "The study requires access to open-source LLMs or hidden-state extraction capabilities to analyze internal representations. It also needs labeled datasets for multilingual safety evaluation, multilingual prompt sets for enhanced prompting techniques, and native-speaker validation for accurate assessments across diverse languages. Human participants are necessary for trust calibration and human evaluations, which will require ethics approval. Additionally, GPU resources will be needed for model training and evaluation, along with established annotation protocols for consistent data analysis. If only API models are available, the design should shift towards output-level explanation or black-box evaluation. Missing resources include access to open-source models and native-speaker validation; a feasible adjustment would be to collaborate with institutions that have these resources or to focus on models with accessible APIs while emphasizing output-level analysis.",
+  "gap": "Prior studies have demonstrated significant safety concerns in multilingual large language models (LLMs) in the context of automated customer support systems; however, they treat the effectiveness of safety enhancements, such as prompting techniques, as fixed, leaving unclear whether these methods generalize across diverse languages and cultural contexts. This matters practically because ensuring safety in LLMs is critical for user trust and satisfaction in real-world applications; therefore, this study investigates the effectiveness of a newly developed multilingual safety benchmark (XSafety) and enhanced prompting techniques in reducing unsafe outputs in multilingual LLMs.",
+  "question": "How effective are enhanced prompting techniques compared to standard prompting methods in reducing the unsafe response rate of multilingual large language models (LLMs) in automated customer support systems, as evaluated through user trust and satisfaction over a six-month period?",
+  "theoretical_mechanism": "The independent variable in this research is the enhanced prompting techniques, which are hypothesized to improve the internal representations of multilingual large language models (LLMs). These internal representations serve as a mediator by influencing the model's ability to generate safer outputs through improved safety detection and filtering mechanisms. The dependent variable is the unsafe response rate, which is expected to decrease as a result of the enhanced prompting techniques. User-level outcomes, such as trust and satisfaction, are moderated by perceived transparency, which affects how users interpret the model's outputs. The theoretical framework is grounded in the concept of interpretability in AI, suggesting that clearer internal representations lead to better safety outcomes and user experiences. Assumptions requiring empirical validation include the effectiveness of enhanced prompting across diverse languages and the direct influence of perceived transparency on user trust and satisfaction.",
+  "hypothesis": "Enhanced prompting techniques will lead to a significant reduction in the unsafe response rate of multilingual large language models (LLMs) compared to standard prompting methods, mediated by improved internal representations that enhance safety detection and filtering mechanisms.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name                     | Role      | Measurement Instrument                | Data Source                | Timing               |\n|------------------------------------|-----------|--------------------------------------|---------------------------|----------------------|\n| Enhanced Prompting Techniques      | IV        | Prompting method comparison          | Model outputs              | During intervention   |\n| Internal Representations           | Mediator  | Probing accuracy, activation separability | Model internal states     | Post-intervention     |\n| Unsafe Response Rate               | DV        | Response classification metrics       | Model outputs              | Continuous monitoring |\n| User Trust                         | Moderator | Trust calibration survey             | User feedback              | Post-intervention     |\n| Perceived Transparency              | Moderator | User perception survey               | User feedback              | Post-intervention     |\n\nCausal Pathway:\nEnhanced prompting techniques (IV) are hypothesized to improve internal representations (mediator), which in turn leads to a reduction in the unsafe response rate (DV). User trust and perceived transparency moderate the relationship between internal representations and user outcomes.\n\nLikely Confounds:\n- Variability in user expertise across languages\n- Cultural differences in interpreting model outputs\n- External factors influencing user trust (e.g., prior experiences with LLMs)\n\nClaim Boundaries:\n- The study claims that enhanced prompting techniques improve safety outcomes in multilingual contexts but does not assert that these techniques are universally effective across all languages or cultures.\n\nWhat Cannot Be Concluded:\n- Causation cannot be definitively established due to potential unmeasured confounding variables and the observational nature of user feedback.",
+  "methodology": "This study will employ a benchmark evaluation methodology to assess the effectiveness of enhanced prompting techniques on the safety of multilingual large language models (LLMs) in automated customer support systems. Participants will include users interacting with LLMs in English and three other languages (Spanish, Mandarin, and Arabic), ensuring diverse linguistic representation. The intervention will involve implementing enhanced prompting techniques compared to a baseline of standard prompting methods, with safety outcomes measured through the unsafe response rate, over a six-month period. Internal representations will be analyzed using output-level explanations and probing techniques to evaluate their impact on safety detection. User trust will be assessed through calibrated surveys post-intervention, while confounding variables such as user expertise and cultural differences will be controlled through stratified sampling and consistent annotation protocols. The study aims for reproducibility by utilizing open-source models and standardized evaluation metrics across all language contexts.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces the concept of enhanced prompting techniques as a mechanism to improve the internal representations of multilingual large language models (LLMs), positing that clearer internal representations can lead to safer outputs and increased user trust. It develops a theoretical framework linking interpretability with safety outcomes in multilingual contexts, addressing gaps in existing literature regarding the generalizability of safety measures.\",\n  \"technical_contribution\": \"The research develops the multilingual safety benchmark (XSafety), a new dataset specifically designed to evaluate the safety of LLM outputs across multiple languages, facilitating a comprehensive assessment of safety measures in diverse cultural settings. Additionally, it employs output-level explanation and probing techniques to analyze internal representations, providing a methodological advancement in understanding model behavior.\",\n  \"empirical_contribution\": \"Through a six-month evaluation involving users interacting with LLMs in four languages, the study empirically tests the effectiveness of enhanced prompting techniques against standard methods, generating quantitative data on unsafe response rates and qualitative insights into user trust and satisfaction. This contributes new empirical findings on the efficacy of safety interventions in multilingual environments.\",\n  \"practical_deployment_contribution\": \"The findings will inform the design of automated customer support systems by providing concrete guidelines for implementing enhanced prompting techniques, ensuring safer interactions with LLMs. This practical contribution extends beyond theoretical implications by offering actionable strategies for improving user trust and satisfaction in real-world applications of multilingual LLMs.\"\n}",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"Ineffective Enhanced Prompting Techniques\",\n      \"risk\": \"Enhanced prompting may not significantly reduce unsafe response rates.\",\n      \"mitigation_strategy\": \"Conduct preliminary studies to refine prompting techniques before full implementation.\"\n    },\n    {\n      \"failure_mode\": \"Cultural Misinterpretation\",\n      \"risk\": \"Responses may be perceived differently across cultures, affecting user trust.\",\n      \"mitigation_strategy\": \"Involve native speakers in the evaluation process to ensure cultural relevance.\"\n    },\n    {\n      \"failure_mode\": \"Data Sparsity\",\n      \"risk\": \"Insufficient multilingual data may lead to unreliable safety evaluations.\",\n      \"mitigation_strategy\": \"Utilize data augmentation techniques and collaborate with multilingual data sources.\"\n    },\n    {\n      \"failure_mode\": \"User Engagement Variability\",\n      \"risk\": \"Low engagement from users may skew trust and satisfaction results.\",\n      \"mitigation_strategy\": \"Incentivize participation through rewards or recognition for user feedback.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretations\",\n      \"risk\": \"Results may be misinterpreted as evidence of ineffectiveness.\",\n      \"mitigation_strategy\": \"Provide clear communication about the study's limitations and contextual factors affecting results.\"\n    },\n    {\n      \"failure_mode\": \"Ethical Concerns\",\n      \"risk\": \"Potential misuse of LLMs or unintended harmful outputs.\",\n      \"mitigation_strategy\": \"Implement strict ethical guidelines and oversight for user interactions with LLMs.\"\n    },\n    {\n      \"failure_mode\": \"Confounding Variables\",\n      \"risk\": \"Unmeasured factors may influence user trust and response rates.\",\n      \"mitigation_strategy\": \"Control for confounding variables through stratified sampling and robust statistical analysis.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong link; evidence notes highlight safety concerns in multilingual LLMs and the need for comprehensive safety assessments.",
+    "domain_to_method": "Fits well; the selected methodologies (benchmark evaluation, human evaluation) are appropriate for assessing LLM safety and user trust.",
+    "concept_to_metric": "Core concepts are operationally defined (e.g., unsafe response rate, user trust) and measured appropriately.",
+    "feasibility_to_method": "Feasible; the methodology accounts for model access and participant requirements, though some resources may require collaboration.",
+    "scope_to_gap": "Specific; the study scope directly addresses the identified gap in multilingual safety assessments.",
+    "gap_to_question": "The gap regarding the effectiveness of safety enhancements leads directly to the research question on enhanced prompting techniques.",
+    "question_to_hypothesis": "The research question about the effectiveness of enhanced prompting techniques logically leads to the hypothesis predicting reduced unsafe response rates.",
+    "hypothesis_to_methodology": "The methodology (benchmark evaluation) is designed to test the hypothesis by comparing enhanced and standard prompting techniques.",
+    "methodology_to_evaluation": "The planned evaluation (measuring unsafe response rates and user trust) directly answers the research question.",
+    "weak_links": [
+      "Potential variability in user expertise across languages may affect results.",
+      "Cultural differences in interpreting model outputs could introduce bias."
+    ]
+  },
+  "proposal": "This research proposal aims to investigate interpretable internal representations for enhancing safety and controllability in multilingual large language models (LLMs) within automated customer support systems, focusing on English, Spanish, Mandarin, and Arabic. Key concepts such as LLMs, interpretability, internal representations, and safety outcomes will be operationally defined, with safety outcomes measured through the unsafe response rate and user trust assessed via calibrated surveys. The study is motivated by significant safety concerns in LLMs, particularly in multilingual contexts, where existing literature highlights gaps in empirical validation of safety enhancements across diverse languages, particularly regarding the effectiveness of prompting techniques. The research question posits how effective enhanced prompting techniques are in reducing unsafe response rates in LLMs, with a theoretical mechanism suggesting that improved internal representations mediate this relationship, impacting user trust and satisfaction through perceived transparency. The falsifiable hypothesis states that enhanced prompting techniques will significantly reduce unsafe response rates compared to standard methods, with internal representations mediating this effect. Constructs will be operationalized using specific measurement instruments, such as response classification metrics for unsafe outputs and trust calibration surveys for user feedback. The methodology will employ a benchmark evaluation design comparing enhanced prompting techniques against standard methods, with controls for user expertise and cultural differences to ensure validity. The expected contributions include theoretical advancements linking interpretability and safety, the development of the multilingual safety benchmark (XSafety), empirical findings on safety interventions, and practical guidelines for implementing enhanced prompting techniques. Key limitations include potential confounding variables such as cultural differences in interpreting model outputs and the risk of ineffective prompting techniques, which will be mitigated through preliminary studies and native speaker involvement in evaluations.",
+  "draft_proposal": "This research proposal aims to investigate interpretable internal representations for enhancing safety and controllability in multilingual large language models (LLMs) within automated customer support systems. The study will define key concepts such as LLMs, interpretability, internal representations, and safety outcomes, focusing on the newly developed multilingual safety benchmark (XSafety) to evaluate the effectiveness of enhanced prompting techniques against standard methods. Technical feasibility will be grounded in access to open-source models and the need for native-speaker validation for accurate assessments. The background highlights significant safety concerns in LLMs, particularly in multilingual contexts, and identifies a gap in empirical validation of safety enhancements across diverse languages. The research question posits how effective enhanced prompting techniques are in reducing unsafe response rates in LLMs, with a theoretical mechanism suggesting that improved internal representations mediate this relationship, impacting user trust and satisfaction. The falsifiable hypothesis states that enhanced prompting techniques will significantly reduce unsafe response rates compared to standard methods. Construct operationalization will include metrics for unsafe response rates, user trust calibration, and perceived transparency, utilizing benchmark evaluation methodologies with controls for user expertise and cultural differences. The expected contributions include theoretical advancements linking interpretability and safety, the development of the XSafety benchmark, empirical findings on safety interventions, and practical guidelines for implementing enhanced prompting techniques. Key limitations include potential confounding variables and variability in user engagement, with failure modes such as ineffective prompting and cultural misinterpretation addressed through mitigation strategies.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding the effectiveness of safety enhancements in multilingual LLMs is valid, but it could benefit from more specific examples of how existing literature fails to address this issue comprehensively.",
+      "literature_grounding": "While the gap references relevant literature, it lacks a critical analysis of how these studies specifically fall short, making the grounding less robust.",
+      "meaningfulness": "The gap is meaningful as it addresses user trust and safety in real-world applications, but it could be more explicitly tied to practical implications.",
+      "already_solved_risk": "There is a risk that the gap may be partially addressed by existing studies, particularly those focusing on safety benchmarks, which should be acknowledged."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but does not critically compare their methodologies or findings, missing an opportunity to highlight strengths and weaknesses.",
+      "unresolved_tensions": "It identifies some unresolved tensions, but these could be articulated more clearly to emphasize the need for the proposed research.",
+      "positioning_quality": "The positioning is adequate but lacks depth in contrasting the proposed approach with existing solutions."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The chosen domain of LLM safety and user trust is appropriate and relevant.",
+      "methodology_template_fit": "The proposed methodologies align with the research domain, but more justification for their selection could enhance clarity.",
+      "template_transfer_risk": "There is a moderate risk of template transfer; the proposal should ensure that methodologies are tailored specifically to the nuances of LLM safety."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is somewhat specific, but it could benefit from clearer delineation of the exact languages and contexts being studied.",
+      "population_or_task_definition": "The target population is defined, but the task specifics could be more detailed to ensure clarity.",
+      "intervention_and_comparison_definition": "The intervention and control conditions are defined, yet a more explicit description of the standard methods used for comparison is needed.",
+      "outcome_definition": "The outcomes are generally well-defined, but the proposal should specify how user trust and satisfaction will be quantitatively measured."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Key terms like interpretability and internal representations are defined, but more operational clarity is needed for terms like safety and trust.",
+      "implementation_specificity": "Definitions are somewhat abstract; providing concrete examples or metrics for these concepts would enhance understanding.",
+      "level_of_analysis_clarity": "The proposal lacks clarity on the level of analysis for certain constructs, particularly regarding user trust."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to open-source models is feasible, but reliance on native-speaker validation may pose challenges.",
+      "data_and_compute_requirements": "The data and computational requirements appear realistic, but specifics on data sources and computational power should be detailed.",
+      "human_or_multilingual_resources": "The need for human participants is acknowledged, but strategies for recruiting diverse participants should be outlined.",
+      "feasible_adjustments": "Collaborating with institutions for resources is a good strategy, but it should be explicitly planned."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on a specific intervention.",
+      "scope_appropriateness": "The scope is appropriate for a PhD study, though it could be narrowed further to enhance focus.",
+      "variable_clarity": "Variables are generally clear, but the relationship between user trust and safety outcomes needs more explicit articulation."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The proposed mechanism is logical, but it lacks depth in explaining how internal representations specifically mediate the relationship.",
+      "theoretical_framing": "The theoretical framework is grounded in interpretability, but it could benefit from a broader theoretical context.",
+      "assumption_transparency": "Assumptions are mentioned but should be more explicitly stated to clarify their implications for the research."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable and aligns with the research question.",
+      "mechanism_grounding": "It is grounded in the proposed mechanism, but the connection to specific measurable outcomes needs strengthening.",
+      "measurable_outcome": "Measurable outcomes are identified, but the proposal should clarify how these will be quantitatively assessed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization is generally well-structured, but some constructs lack specific measurement instruments.",
+      "metric_level_alignment": "Metrics align with the level of analysis, though clarity on how they will be collected is needed.",
+      "causal_identification": "The causal pathway is outlined, but potential confounding variables should be more explicitly identified.",
+      "confound_awareness": "Confound awareness is present, but strategies for controlling them should be detailed.",
+      "claim_boundaries": "Claim boundaries are defined, but the proposal should clarify the limits of generalizability."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline is appropriate, but more justification for its selection is needed.",
+      "metric_validity": "The validity of metrics is assumed but should be explicitly justified.",
+      "statistical_or_evaluation_validity": "Statistical methods should be detailed to ensure evaluation validity.",
+      "reproducibility": "Reproducibility is addressed, but specific protocols for data collection should be outlined.",
+      "confound_control": "Confound control strategies are mentioned, but they need more detail.",
+      "risk_analysis": "Risk analysis is present, but a more comprehensive approach to potential failures should be included."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is present but could be articulated more clearly.",
+      "methodological_novelty": "Methodological contributions are noted, but specifics on how they differ from existing methods are needed.",
+      "practical_novelty": "Practical contributions are relevant, but actionable guidelines should be more explicitly stated.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal should emphasize unique aspects of the approach."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the analysis could be more comprehensive.",
+      "limitation_depth": "Limitations are acknowledged, but a deeper exploration of their implications is needed.",
+      "risk_mitigation": "Mitigation strategies are present but should be more detailed and actionable."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contributions are generally clear but could be more explicitly linked to the research question.",
+      "novelty_type": "methodological",
+      "coherence": "The proposal is coherent but could benefit from tighter integration of sections.",
+      "limitation_awareness": "Limitations are acknowledged, but their implications for the study should be more explicitly discussed.",
+      "academic_communication": "The academic communication is clear, but some sections could be more concise."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads to the question, but the connection could be more explicitly articulated.",
+      "question_to_hypothesis": "The question leads to the hypothesis logically.",
+      "hypothesis_to_method": "The hypothesis is testable by the method proposed.",
+      "method_to_evaluation": "The evaluation is designed to answer the question, but clarity on metrics is needed."
+    },
+    "revision_plan": "Revise the gap stage to provide specific examples of literature shortcomings and clarify the practical implications of the gap. Enhance the scholarly positioning by critically comparing methodologies and identifying unresolved tensions. Improve the clarity of the research scope by detailing specific languages and user trust metrics. Ensure all technical terms are operationally defined with examples, and outline strategies for participant recruitment and data collection."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 71.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal clearly identifies safety concerns in multilingual LLMs and operationalizes key concepts like interpretability and safety outcomes. However, the framing could benefit from a more explicit articulation of the research boundaries and the novelty of the proposed benchmark. Major weaknesses: The proposal lacks a detailed exploration of how the defined constructs interact and the specific gaps in existing literature that the research aims to fill. Next band requirements: To achieve a higher score, the proposal should explicitly define the research boundaries and demonstrate how the study addresses specific gaps in the literature."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from problem identification to hypothesis, but some assumptions, particularly regarding the effectiveness of enhanced prompting techniques, are not sufficiently justified. Major weaknesses: There are gaps in the causal reasoning, particularly in linking internal representations to safety outcomes and user trust. Next band requirements: Strengthening the justification for causal claims and providing empirical support for the proposed mechanisms would improve coherence."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal introduces enhanced prompting techniques and a multilingual safety benchmark, which are valuable contributions. However, the novelty is somewhat diminished by the reliance on existing methods without a clear theoretical framework. Major weaknesses: The proposal does not sufficiently differentiate itself from existing studies or clearly articulate how it advances the field beyond current methodologies. Next band requirements: To achieve a higher score, the proposal should clearly outline the theoretical framework and how it extends existing literature."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 13.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology is generally sound, with a clear plan for evaluating the effectiveness of enhanced prompting techniques. However, the proposal lacks detailed plans for controlling confounding variables and ensuring reproducibility. Major weaknesses: Insufficient detail on the statistical analysis and potential biases in user feedback collection. Next band requirements: Incorporating a more robust statistical analysis plan and clearer controls for confounding variables would enhance feasibility."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but lacks depth in synthesizing existing work and identifying specific gaps that the research addresses. Major weaknesses: The literature review is somewhat superficial and does not critically engage with competing approaches or unresolved tensions. Next band requirements: A more thorough engagement with the literature, including a critical analysis of competing methodologies, would improve scholarly positioning."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication but lacks depth in discussing the mechanisms and limitations of the proposed methods. Major weaknesses: Limited discussion on the implications of the findings and potential failure cases. Next band requirements: A deeper exploration of theoretical mechanisms and limitations would elevate the academic depth."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, but some sections could benefit from improved precision and conciseness. Major weaknesses: Occasional repetition and lack of clarity in terminology. Next band requirements: Enhancing clarity and precision in terminology would improve the overall presentation."
+      }
+    ],
+    "comments": "Total score: 71.0/100. Academic level: Master's-level. Major strengths: Clear identification of safety concerns in multilingual LLMs.; Introduction of enhanced prompting techniques and a multilingual safety benchmark. Major weaknesses: Insufficient depth in literature engagement and theoretical framing.; Weak justification for causal claims and potential confounding variables. Required improvements for true PhD-level quality: Strengthen theoretical framing and literature engagement.; Provide robust justification for causal claims and methodological rigor.; Discuss limitations and potential failure cases in greater detail. Final verdict: The proposal demonstrates some promising elements but lacks the depth and rigor expected of genuine PhD-level research."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 1,
+        "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+        "similarity": 0.5865
+      },
+      {
+        "original_index": 4,
+        "title": "Safety Assessment of Chinese Large Language Models",
+        "similarity": 0.5841
+      },
+      {
+        "original_index": 2,
+        "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+        "similarity": 0.5538
+      },
+      {
+        "original_index": 5,
+        "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+        "similarity": 0.5429
+      },
+      {
+        "original_index": 3,
+        "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+        "similarity": 0.3899
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 1,
+          "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+          "similarity": 0.8487
+        },
+        {
+          "paper_index": 2,
+          "title": "Safety Assessment of Chinese Large Language Models",
+          "similarity": 0.7384
+        },
+        {
+          "paper_index": 3,
+          "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+          "similarity": 0.6111
+        }
+      ],
+      "max_similarity": 0.8487,
+      "mean_similarity": 0.6168
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 1,
+          "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+          "similarity": 0.7356
+        },
+        {
+          "paper_index": 2,
+          "title": "Safety Assessment of Chinese Large Language Models",
+          "similarity": 0.689
+        },
+        {
+          "paper_index": 3,
+          "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+          "similarity": 0.523
+        }
+      ],
+      "max_similarity": 0.7356,
+      "mean_similarity": 0.5687
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+    "retrieval_snapshot_id": "20260523T233547Z-interpretable-internal-representations-for-enhanced-safety-and-controllability-i-5",
+    "latency_ms": 123871,
+    "prompt_tokens": 48671,
+    "completion_tokens": 7656,
+    "total_tokens": 56327,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.models import ResearchRequest, ResearchResult
+from app.experiment import run_single_topic_experiment
+from app.models import ExperimentRequest, ExperimentResult, ResearchRequest, ResearchResult
 from app.pipeline import run_research_pipeline
 
 app = FastAPI(title="Academic Research Agent API")
@@ -23,3 +24,8 @@ async def health() -> dict[str, str]:
 @app.post("/api/research/run", response_model=ResearchResult)
 async def run_research(request: ResearchRequest) -> ResearchResult:
     return await run_research_pipeline(request)
+
+
+@app.post("/api/experiment/run", response_model=ExperimentResult)
+async def run_experiment(request: ExperimentRequest) -> ExperimentResult:
+    return await run_single_topic_experiment(request)

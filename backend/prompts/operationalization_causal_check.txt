@@ -1,0 +1,33 @@
+Task: Operationalize constructs and check the causal logic of the proposed study.
+
+Topic:
+{topic}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Research scope:
+{research_scope}
+
+Domain and methodology routing:
+{domain_router}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Return JSON with exactly this key:
+{{
+  "operationalization_causal_check": "Write plain text only. Include a compact construct operationalization table in text form plus a causal-design check. For every construct in the hypothesis, provide construct name, role such as IV/mediator/moderator/DV/confound, measurement instrument or behavioural log, data source, and timing. Ensure metrics match the level of analysis: representation-level variables require representation metrics such as probing accuracy, feature sparsity, activation separability, or cross-lingual representation similarity; output-level safety variables require response classification metrics such as unsafe response rate, refusal precision/recall, over-refusal, harmful compliance, or jailbreak success; user-level variables require surveys, behavioural logs, task performance, trust calibration, or appropriate reliance. Then state the causal pathway, likely confounds, claim boundaries, and what cannot be concluded. Do not mention a construct unless it is operationalized."
+}}

@@ -1,0 +1,64 @@
+{
+  "topic": "Artificial Intelligence | Reliable citation-grounded summarisation for scientific literature review assistants |",
+  "papers": [
+    {
+      "title": "Text summarisation in progress: a literature review",
+      "authors": [
+        "Elena Lloret",
+        "Manuel Palomar"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2012-1",
+      "url": "https://doi.org/10.1007/s10462-011-9216-z",
+      "source": "Crossref"
+    },
+    {
+      "title": "Citation Based Summarisation of Legal Texts",
+      "authors": [
+        "Filippo Galgani",
+        "Paul Compton",
+        "Achim Hoffmann"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2012",
+      "url": "https://doi.org/10.1007/978-3-642-32695-0_6",
+      "source": "Crossref"
+    },
+    {
+      "title": "Social Media Text Summarisation Techniques and Approaches: A Literature Review",
+      "authors": [
+        "Afrodite Papagiannopoulou",
+        "C. Angeli"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2022-12-23",
+      "url": "https://doi.org/10.1145/3579654.3579774",
+      "source": "Crossref"
+    }
+  ],
+  "summary": "The literature includes a general review of text summarization progress (Lloret & Palomar, 2012), a study on citation-based summarization for legal texts (Galgani et al., 2012) relevant to citation-grounded approaches, and a review of social media summarization techniques (Papagiannopoulou & Angeli, 2022). These works collectively provide foundational and domain-specific insights for developing reliable scientific literature review assistants.",
+  "gap": "Despite advances in general text summarization and citation-based methods for legal texts, no work has addressed reliable, citation-grounded summarization tailored to scientific literature, where ensuring accurate capture of citation contexts and mitigating citation bias are critical for trustworthy literature review assistants.",
+  "question": "How can citation-grounded summarization for scientific literature be designed to reliably capture citation contexts and mitigate citation bias, supporting trustworthy literature review assistants?",
+  "hypothesis": "A scientific literature summarization model that explicitly encodes citation networks using a graph neural network and minimizes a citation bias penalty during training will produce summaries with more accurate citation contexts and less skewed representation of cited works than a baseline abstractive summarizer, as measured by automatic metrics and human judgment.",
+  "methodology": "Acquire a dataset of scientific papers (e.g., from arXiv) with full-text and citation links (e.g., using SciSummNet) and extract citation contexts as target summaries. Build an abstractive summarizer (like BART) augmented with a Graph Neural Network (GNN) that encodes the citation graph, enabling the model to capture inter-paper relationships. Train the model using a composite loss: standard language model loss plus a citation bias penalty (e.g., minimizing variance of citation coverage) to ensure fair representation of all cited works. Evaluate the system's output with ROUGE and BERTScore for summarization quality, and complement with human judgments on citation accuracy (faithfulness) and citation bias (balanced inclusion).",
+  "proposal": "Recent advances in text summarization (Lloret & Palomar, 2012; Papagiannopoulou & Angeli, 2022) have laid the groundwork for domain-specific applications, such as citation-based summarization for legal texts (Galgani et al., 2012). However, no existing work addresses the challenge of reliable, citation-grounded summarization for scientific literature, where accurately capturing citation contexts and mitigating citation bias is critical for trustworthy literature review assistants. This research asks: How can citation-grounded summarization be designed to reliably capture citation contexts and mitigate citation bias? We hypothesize that a summarization model explicitly encoding citation networks via a Graph Neural Network (GNN) and trained with a composite loss that includes a citation bias penalty will outperform a baseline abstractive summarizer in terms of citation accuracy and balanced representation. The methodology involves acquiring a dataset of scientific papers with full-text and citation links (e.g., from arXiv using SciSummNet), extracting citation contexts as targets, and augmenting a BART-based abstractive summarizer with a GNN that encodes the paper citation graph. The model is trained using a loss function combining standard cross-entropy on target summaries with a penalty term minimizing the variance of citation coverage. Evaluation will employ ROUGE and BERTScore for summarization quality, supplemented by human assessments of citation faithfulness and bias. This work is expected to yield a novel summarization framework that enhances the reliability of AI-assisted scientific literature reviews by ensuring accurate and unbiased representation of cited works.",
+  "evaluation": {
+    "clarity": 4,
+    "logic": 5,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 5,
+    "comments": "The proposal clearly articulates a novel angle on citation-grounded summarization with bias mitigation. It logically builds on existing work and outlines a feasible methodology. Strong literature grounding."
+  },
+  "baseline": {
+    "proposal": "We propose a simple extractive summarization baseline that grounds summaries in citations by leveraging the citation graph of scientific literature. For a given query or a set of target papers, we first retrieve all citing sentences from papers that cite them. We then cluster these sentences by the cited paper ID to ensure each summary point is anchored to a specific source. Within each cluster, we score sentences using a combination of TF-IDF cosine similarity to the cluster centroid and the citation count of the cited paper as a proxy for importance. The top-ranked sentence from each cluster is selected and concatenated to form the summary. This approach ensures every statement is directly attributable to a citation, enhancing reliability for literature review assistants.",
+    "evaluation": {
+      "clarity": 4,
+      "logic": 4,
+      "novelty": 2,
+      "feasibility": 5,
+      "literature_alignment": 3,
+      "comments": "The proposal is clear and logically structured. It is highly feasible using existing NLP tools. Novelty is low as it combines standard techniques. It aligns with the citation-based summarization concept from the legal texts paper, but less so with the social media summarization paper; the general review provides background context."
+    }
+  }
+}

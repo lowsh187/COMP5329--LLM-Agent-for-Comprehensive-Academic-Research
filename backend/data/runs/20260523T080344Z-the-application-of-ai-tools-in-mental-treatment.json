@@ -1,0 +1,334 @@
+{
+  "experiment_id": "20260523T075727Z",
+  "run_index": 3,
+  "topic": "the application of ai tools in mental treatment",
+  "condition": "multi_stage_group_selection",
+  "retrieval_query": "the application of ai tools in mental treatment",
+  "retrieval_snapshot_id": "20260523T075733Z-the-application-of-ai-tools-in-mental-treatment-5",
+  "papers": [
+    {
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "authors": [
+        "Anna-Carolina Haensch"
+      ],
+      "abstract": "The emergence of generative AI chatbots such as ChatGPT has prompted growing public and academic interest in their role as informal mental health support tools. While early rule-based systems have been around for several years, large language models (LLMs) offer new capabilities in conversational fluency, empathy simulation, and availability. This study explores how users engage with LLMs as mental health tools by analyzing over 10,000 TikTok comments from videos referencing LLMs as mental health tools. Using a self-developed tiered coding schema and supervised classification models, we identify user experiences, attitudes, and recurring themes. Results show that nearly 20% of comments reflect personal use, with these users expressing overwhelmingly positive attitudes. Commonly cited benefits include accessibility, emotional support, and perceived therapeutic value. However, concerns around privacy, generic responses, and the lack of professional oversight remain prominent. It is important to note that the user feedback does not indicate which therapeutic framework, if any, the LLM-generated output aligns with. While the findings underscore the growing relevance of AI in everyday practices, they also highlight the urgent need for clinical and ethical scrutiny in the use of AI for mental health support.",
+      "published": "2025-04-14",
+      "url": "http://arxiv.org/abs/2504.12337v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "published": "2025-01-06",
+      "url": "http://arxiv.org/abs/2501.02842v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+      "authors": [
+        "Senoussaoui Abderrahmen",
+        "Rahmani Djamel"
+      ],
+      "abstract": "The rapid integration of Artificial Intelligence (AI) into Mental Health care represents a transformative shift in the diagnosis, monitoring, and treatment of psychological disorders. While AI-driven tools—including digital phenotyping systems, natural language processing models, and conversational agents—offer significant potential to enhance diagnostic precision, accessibility, and personalized interventions, they simultaneously introduce complex ethical, clinical, and epistemological challenges. This study provides a comprehensive and critical synthesis of contemporary literature (2019–2025) to examine the ethical implications of AI deployment in psychotherapeutic contexts. Moving beyond descriptive review, the paper develops a conceptual ethical governance framework grounded in the principles of autonomy, beneficence, non-maleficence, and justice, as well as the emerging “ethics of care” paradigm. It identifies key risk domains, including algorithmic bias, opacity of decision-making processes, data privacy vulnerabilities, erosion of therapeutic alliance, and the reconfiguration of professional accountability. Furthermore, the study proposes a human-centered, explainable, and clinically supervised AI integration model, emphasizing transparency, continuous ethical auditing, stakeholder inclusion, and hybrid human–AI decision-making structures. The findings highlight that while AI can significantly improve efficiency and expand access to mental healthcare—particularly in resource-constrained settings—its unregulated or poorly designed application may exacerbate inequalities, compromise patient autonomy, and undermine trust in clinical practice. The paper contributes to the interdisciplinary discourse by offering a structured ethical framework that bridges technological innovation with clinical responsibility and humanistic values. It concludes that sustainable and ethically aligned AI integration in mental health requires robust regulatory architectures, cross-disciplinary collaboration, and the preservation of the fundamentally human dimensions of psychotherapy.",
+      "published": "2026-04-18",
+      "url": "https://www.semanticscholar.org/paper/6dc63f9c10061546d60e145893be33c6aed6773e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "authors": [
+        "Maria-Angeles Chiang",
+        "Lucía Coll",
+        "M. F. Pollo-Cattaneo",
+        "Parag Chatterjee"
+      ],
+      "abstract": "Purpose: This systematic review examines the current landscape of artificial intelligence (AI)-based Clinical Decision Support Systems (CDSS) designed to aid in the treatment of depression. With depression recognized as a complex and multifactorial condition, often differing across contexts such as postpartum, adolescence, and elderly populations, the review aims to evaluate the feasibility, acceptability, and potential of AI-based CDSS in supporting personalized care. The primary research question explores how these systems are implemented and evaluated in clinical settings, as well as the main challenges to their broader adoption.Methods: The review analyzed studies focused on AI-based CDSS for depression, identifying variations in algorithms, performance metrics, and implementations. Studies were assessed based on system purposes, categorized into treatment selection, prediction and risk assessment, and clinical support and data review, providing a comprehensive overview of each study’s approach and outcomes.Results: 11 unique algorithms, 9 performance metrics, and 10 CDSS implementations were identified across the studies. Findings indicate positive results for CDSS in supporting clinical decision-making, yet highlight challenges in applying these tools in routine practice. Limitations include small, non-diverse sample sizes, immature methodologies, and difficulties in workflow integration, along with concerns about data privacy and the ethical use of AI.Conclusions: AI-based CDSS for depression shows potential in patient care; however, foundational issues such as more diverse samples and robust model development remain critical. Addressing these aspects will set the stage for future research into advanced applications, such as virtual-reality integration and multi-condition prediction, thus advancing AI’s role in mental health treatment.Clinical Relevance—This work illustrates the state of art of AI adoption in the domain of mental health, specifically in the context of depression.",
+      "published": "2025-07-01",
+      "url": "https://www.semanticscholar.org/paper/4dc7da378a6122ed24f2f2546215355d26fd11d9",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI in Mental Health Support",
+      "paper_indices": [
+        1,
+        4,
+        3,
+        5
+      ],
+      "summary": "This cluster examines the use of AI, particularly large language models and clinical decision support systems, in mental health care. Studies explore user experiences with LLMs as therapy tools (e.g., TikTok comments showing positive attitudes but concerns about privacy and lack of oversight), systematic reviews of AI-based CDSS for depression (highlighting feasibility and challenges), ethical governance frameworks for AI in psychotherapy (emphasizing human-centered, explainable, and clinically responsible paradigms), and AI-assisted music therapy tools (showing benefits in reducing anxiety and depression). Overall, AI shows potential for personalized, accessible mental health interventions, but issues of ethics, privacy, bias, and clinical validation remain.",
+      "limitations": "Key limitations include: lack of professional oversight and therapeutic framework alignment in LLM-based tools; privacy and data security concerns; algorithmic bias and opacity; limited clinical validation and integration into real-world settings; and the need for ethical governance frameworks that balance innovation with patient safety.",
+      "gap_relevance": "This cluster highlights gaps such as the need for rigorous clinical trials to validate AI tools, development of explainable and unbiased models, establishment of ethical guidelines for AI in mental health, and exploration of user trust and therapeutic alliance with AI. These gaps can inform future research directions, such as designing human-centered AI systems that complement traditional therapy, addressing privacy concerns, and ensuring equitable access."
+    },
+    {
+      "theme": "Foundations of Generative Information Retrieval",
+      "paper_indices": [
+        2
+      ],
+      "summary": "This cluster explores how generative AI models transform information access systems by enabling information generation and synthesis. It covers foundational aspects such as model architecture, scaling, training, and multi-modal applications, with emphasis on retrieval-augmented generation to mitigate hallucination and improve precision.",
+      "limitations": "The cluster primarily focuses on conceptual foundations and may lack empirical validation of proposed paradigms. Issues like model hallucination, scalability, and integration with external knowledge sources remain partially addressed.",
+      "gap_relevance": "The cluster highlights gaps in robust evaluation frameworks for generative IR systems, the need for improved grounding techniques, and underexplored multi-modal synthesis methods, which can guide future research on reliable and context-aware information access."
+    }
+  ],
+  "summary": "The literature explores AI tools in mental health, including LLMs, clinical decision support systems, and AI-assisted music therapy, showing potential for personalized and accessible interventions. However, key challenges remain: lack of professional oversight, privacy concerns, algorithmic bias, limited clinical validation, and the need for ethical governance frameworks. Future research should focus on rigorous trials, explainable models, and human-centered design to ensure safe and equitable integration.",
+  "gap": "How does the lack of professional oversight and therapeutic framework alignment in LLM-based mental health tools affect user trust and therapeutic outcomes, and what hybrid human-AI models can address these gaps?",
+  "question": "How can hybrid human-AI models be designed to integrate professional oversight and therapeutic framework alignment into LLM-based mental health tools, and what is their impact on user trust and clinical outcomes?",
+  "hypothesis": "Hybrid human-AI models that incorporate real-time professional oversight (e.g., licensed therapists reviewing LLM-generated responses) will significantly improve user trust and clinical outcomes compared to fully autonomous LLM-based mental health tools, as measured by validated trust scales and symptom reduction in a randomized controlled trial.",
+  "methodology": "A three-arm randomized controlled trial comparing (1) fully autonomous LLM-based mental health tool, (2) LLM tool with asynchronous therapist review (responses reviewed within 24 hours), and (3) LLM tool with synchronous therapist oversight (therapist co-pilots sessions). Outcomes: user trust (Working Alliance Inventory-Short Revised), symptom reduction (PHQ-9, GAD-7), and engagement. 12-week intervention, N=300 adults with mild-to-moderate depression/anxiety. Mixed-effects models for analysis.",
+  "proposal": "The integration of large language models (LLMs) in mental health care promises scalable interventions, yet current tools lack professional oversight and therapeutic framework alignment, raising concerns about user trust and clinical safety (Papers 1, 3, 4). While prior work proposes ethical governance and human-centered design (Paper 3), no empirical study has systematically compared hybrid human-AI models with varying oversight levels. This research asks: How do synchronous versus asynchronous therapist oversight in LLM-based tools affect user trust and clinical outcomes compared to fully autonomous systems? We hypothesize that synchronous oversight (therapist co-piloting sessions) will yield significantly higher trust (Working Alliance Inventory-Short Revised) and greater symptom reduction (PHQ-9, GAD-7) than asynchronous review or autonomous tools, grounded in therapeutic alliance theory emphasizing real-time attunement. A three-arm randomized controlled trial (N=300 adults with mild-to-moderate depression/anxiety, 12-week intervention) will compare: (1) fully autonomous LLM, (2) LLM with asynchronous therapist review (within 24 hours), and (3) LLM with synchronous therapist co-piloting. Outcomes include trust, symptom reduction, and engagement metrics (session frequency, dropout). Mixed-effects models with power analysis (80% power for medium effect) will analyze intent-to-treat data, with multiple imputation for missingness. Novelty lies in empirically testing hybrid models beyond conceptual frameworks, directly addressing the gap in professional oversight (Paper 1) and informing ethical governance (Paper 3). Expected contributions include evidence-based design principles for human-AI collaboration and actionable insights for regulatory standards. Limitations include potential therapist effects (mitigated by standardized training and random assignment), limited generalizability to severe conditions, and the 12-week duration possibly insufficient for sustained trust; future work should extend follow-up and include diverse populations.",
+  "draft_proposal": "The integration of AI tools in mental health care, particularly large language models (LLMs), offers potential for scalable and personalized interventions, yet current literature highlights critical gaps including lack of professional oversight, privacy concerns, and limited clinical validation. Existing studies predominantly evaluate fully autonomous LLM-based tools, but few examine hybrid human-AI models that incorporate therapist oversight to align with therapeutic frameworks and build user trust. This research addresses the gap by investigating how hybrid models with real-time or asynchronous professional oversight affect user trust and clinical outcomes compared to fully autonomous systems. We hypothesize that hybrid models with synchronous therapist oversight will significantly improve user trust (measured by Working Alliance Inventory-Short Revised) and symptom reduction (PHQ-9, GAD-7) over autonomous tools. A three-arm randomized controlled trial (N=300 adults with mild-to-moderate depression/anxiety, 12-week intervention) will compare: (1) fully autonomous LLM tool, (2) LLM with asynchronous therapist review, and (3) LLM with synchronous therapist co-piloting. Mixed-effects models will analyze outcomes. This proposal extends prior work by moving beyond autonomous AI to empirically test human-AI collaboration models, providing evidence for safe and effective integration of LLMs in mental health care.",
+  "proposal_critique": {
+    "clarity_issues": "The problem definition is clear but could be sharpened by explicitly stating the specific gap in hybrid human-AI models for LLM-based mental health tools, rather than implying it from the literature summary.",
+    "logic_issues": "The logical flow from gap to hypothesis to methodology is coherent. However, the hypothesis assumes synchronous oversight is superior without justifying why asynchronous might not suffice, and the connection between oversight type and trust/outcomes could be more explicitly theorized.",
+    "novelty_issues": "The proposal is novel in testing hybrid models with varying oversight levels, which is underexplored. However, the literature already discusses ethical governance and human-centered design (Paper 3), so the novelty lies in empirical testing rather than conceptual contribution. The proposal should more clearly differentiate from existing frameworks.",
+    "methodology_issues": "The RCT design is feasible but lacks detail on blinding, randomization, therapist training, and control for therapist effects. The sample size of 300 may be insufficient for detecting small effect sizes in three arms. Also, the 12-week duration may be too short for sustained trust assessment. The outcome measures (WAI-SR, PHQ-9, GAD-7) are appropriate but engagement metrics need specification.",
+    "literature_alignment_issues": "The proposal aligns well with Theme 1 (AI in Mental Health Support) and addresses identified gaps (lack of oversight, clinical validation). However, it does not engage with Theme 2 (Foundations of GenIR), which could inform the LLM architecture or retrieval-augmented generation to reduce hallucination. The proposal should cite specific limitations from Papers 1, 3, and 4 to strengthen positioning.",
+    "academic_depth_issues": "The proposal lacks theoretical grounding (e.g., therapeutic alliance theory, trust models) and does not discuss potential confounds like digital literacy or prior therapy experience. The analysis plan (mixed-effects models) is appropriate but could be elaborated with power analysis and handling of missing data. The proposal reads more like a grant summary than a PhD-level research plan.",
+    "revision_plan": "Strengthen the theoretical framework by incorporating therapeutic alliance and trust literature, and explicitly justify why synchronous oversight is hypothesized to be superior. Expand the methodology with details on randomization, blinding, therapist training, power analysis, and engagement metrics. Add a section on how findings will inform ethical governance frameworks (Paper 3) and address privacy concerns (Paper 1)."
+  },
+  "evaluation": {
+    "clarity": 5,
+    "logic": 5,
+    "novelty": 5,
+    "feasibility": 5,
+    "literature_alignment": 5,
+    "phd_level_quality": 5,
+    "presentation": 5,
+    "weighted_total": 92.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 14.0,
+        "level": "Full Marks",
+        "justification": "The research problem is exceptionally clear: lack of professional oversight in LLM-based mental health tools. Motivation, background, target users (mild-to-moderate depression/anxiety), and proposed solution (hybrid human-AI models) are precisely defined. Implications for trust and clinical outcomes are explicitly discussed."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 14.0,
+        "level": "Full Marks",
+        "justification": "All stages are logically connected: literature analysis identifies gap (lack of oversight), hypothesis directly addresses gap, methodology (RCT with three arms) tests hypothesis, and evaluation metrics align with outcomes. Transitions between stages are clear and mutually supportive."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 18.0,
+        "level": "Full Marks",
+        "justification": "The proposal presents a meaningfully distinct research angle: empirically comparing synchronous vs. asynchronous therapist oversight in LLM tools, which goes beyond prior conceptual frameworks. It clearly identifies limitations in existing work (Papers 1,3,4) and proposes a specific methodological contribution (RCT design)."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 18.0,
+        "level": "Full Marks",
+        "justification": "The project is realistically achievable: clear sample size (N=300), validated measures (WAI-SR, PHQ-9, GAD-7), three-arm RCT, 12-week intervention, mixed-effects models, and power analysis. Risks (therapist effects, generalizability) are acknowledged with mitigation strategies. Success criteria are measurable."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 14.0,
+        "level": "Full Marks",
+        "justification": "The proposal is strongly grounded in retrieved papers (1,3,4). It accurately summarizes relevant literature, identifies the gap (lack of oversight), compares prior approaches (conceptual vs. empirical), and explains how the proposal extends prior work by testing hybrid models."
+      },
+      {
+        "criterion": "PhD-Level Research Quality & Academic Depth",
+        "weight": 10,
+        "score": 9.0,
+        "level": "Full Marks",
+        "justification": "Demonstrates mature academic thinking: verifiable assumptions (therapeutic alliance theory), methodological rigor (RCT, power analysis), limitation awareness (therapist effects, generalizability), and theoretical grounding. Moves beyond summarization to research-level insight."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 5.0,
+        "level": "Full Marks",
+        "justification": "Writing is clear, concise, and professional. Sections are well organized, terminology consistent, and citations appropriate. The proposal is easy to follow."
+      }
+    ],
+    "comments": "The proposal is exceptionally well-structured, with clear problem definition, strong logical coherence, high novelty, feasible experimental design, excellent literature alignment, and mature academic depth. Minor improvements could include more detailed discussion of ethical considerations and longer follow-up, but overall it meets PhD-level standards."
+  },
+  "baseline": null,
+  "group_selection": {
+    "gap": {
+      "candidates": [
+        {
+          "id": "gap_1",
+          "text": "How can AI-assisted music therapy tools be designed to incorporate real-time emotional adaptation while ensuring data privacy and ethical compliance, and what is their clinical efficacy compared to traditional music therapy in reducing anxiety and depression?",
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 4,
+            "novelty": 3,
+            "feasibility": 4
+          },
+          "total": 15,
+          "reason": "Directly builds on Paper 5 (AI music therapy) and addresses privacy/ethics from Papers 1 and 3. Specific and feasible but moderately novel."
+        },
+        {
+          "id": "gap_2",
+          "text": "What are the key barriers to integrating AI-based clinical decision support systems for depression into routine clinical practice, and how can these barriers be overcome through human-centered design and workflow integration?",
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 5,
+            "novelty": 2,
+            "feasibility": 4
+          },
+          "total": 15,
+          "reason": "Strongly grounded in Paper 4 (CDSS) and Paper 3 (human-centered design). Feasible but less novel as barriers are already identified."
+        },
+        {
+          "id": "gap_3",
+          "text": "How does the lack of professional oversight and therapeutic framework alignment in LLM-based mental health tools affect user trust and therapeutic outcomes, and what hybrid human-AI models can address these gaps?",
+          "scores": {
+            "specificity": 5,
+            "literature_grounding": 5,
+            "novelty": 4,
+            "feasibility": 3
+          },
+          "total": 17,
+          "reason": "Directly addresses gaps from Papers 1 and 3 (oversight, trust, hybrid models). Highly specific and novel, but feasibility is moderate due to need for clinical trials."
+        }
+      ],
+      "selected_id": "gap_3",
+      "selected_text": "How does the lack of professional oversight and therapeutic framework alignment in LLM-based mental health tools affect user trust and therapeutic outcomes, and what hybrid human-AI models can address these gaps?",
+      "criteria": [
+        "specificity",
+        "literature_grounding",
+        "novelty",
+        "feasibility"
+      ]
+    },
+    "hypothesis": {
+      "candidates": [
+        {
+          "id": "hypothesis_1",
+          "text": "Hybrid human-AI models that incorporate real-time professional oversight (e.g., licensed therapists reviewing LLM-generated responses) will significantly improve user trust and clinical outcomes compared to fully autonomous LLM-based mental health tools, as measured by validated trust scales and symptom reduction in a randomized controlled trial.",
+          "scores": {
+            "testability": 5,
+            "alignment_with_gap": 5,
+            "clarity": 5,
+            "methodological_implication": 5
+          },
+          "total": 20,
+          "reason": "Highest total score; directly addresses the gap with a testable RCT design, clear variables, and strong methodological implications."
+        },
+        {
+          "id": "hypothesis_2",
+          "text": "Therapeutic framework alignment (e.g., cognitive-behavioral therapy principles embedded in LLM prompts) moderates the relationship between AI tool usage and user trust, such that higher alignment leads to greater trust and better clinical outcomes, as assessed through a longitudinal observational study with natural language processing of chat logs.",
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 4,
+            "clarity": 4,
+            "methodological_implication": 4
+          },
+          "total": 16,
+          "reason": "Addresses alignment but less directly on oversight; observational design limits causal inference."
+        },
+        {
+          "id": "hypothesis_3",
+          "text": "User trust in LLM-based mental health tools is primarily driven by perceived professional oversight rather than technical accuracy, and this trust mediates the effect of oversight on clinical outcomes, as tested via a survey-based mediation analysis with structural equation modeling.",
+          "scores": {
+            "testability": 3,
+            "alignment_with_gap": 3,
+            "clarity": 3,
+            "methodological_implication": 3
+          },
+          "total": 12,
+          "reason": "Focuses on trust mechanism but less on hybrid model design; survey method may lack ecological validity."
+        }
+      ],
+      "selected_id": "hypothesis_1",
+      "selected_text": "Hybrid human-AI models that incorporate real-time professional oversight (e.g., licensed therapists reviewing LLM-generated responses) will significantly improve user trust and clinical outcomes compared to fully autonomous LLM-based mental health tools, as measured by validated trust scales and symptom reduction in a randomized controlled trial.",
+      "criteria": [
+        "testability",
+        "alignment_with_gap",
+        "clarity",
+        "methodological_implication"
+      ]
+    },
+    "methodology": {
+      "candidates": [
+        {
+          "id": "methodology_1",
+          "text": "A three-arm randomized controlled trial comparing (1) fully autonomous LLM-based mental health tool, (2) LLM tool with asynchronous therapist review (responses reviewed within 24 hours), and (3) LLM tool with synchronous therapist oversight (therapist co-pilots sessions). Outcomes: user trust (Working Alliance Inventory-Short Revised), symptom reduction (PHQ-9, GAD-7), and engagement. 12-week intervention, N=300 adults with mild-to-moderate depression/anxiety. Mixed-effects models for analysis.",
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 5,
+            "evaluation_metrics": 5,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 5
+          },
+          "total": 23,
+          "reason": "Highest total score; directly tests hypothesis with clear comparison arms, validated metrics, and feasible sample size."
+        },
+        {
+          "id": "methodology_2",
+          "text": "Qualitative study using semi-structured interviews with 30 users and 10 therapists after using an LLM tool with optional therapist chat. Thematic analysis to explore trust, therapeutic alliance, and perceived alignment with therapeutic frameworks. No quantitative outcomes.",
+          "scores": {
+            "feasibility": 5,
+            "baseline_design": 2,
+            "evaluation_metrics": 2,
+            "scope_control": 3,
+            "alignment_with_hypothesis": 3
+          },
+          "total": 15,
+          "reason": "High feasibility but lacks quantitative comparison and direct hypothesis testing; limited scope control."
+        },
+        {
+          "id": "methodology_3",
+          "text": "Within-subjects crossover design: 50 participants use autonomous LLM for 4 weeks, then same LLM with therapist oversight for 4 weeks. Outcomes: trust (single-item scale), symptom change (PHQ-9), and qualitative feedback. Order counterbalanced. Paired t-tests and thematic analysis.",
+          "scores": {
+            "feasibility": 3,
+            "baseline_design": 3,
+            "evaluation_metrics": 3,
+            "scope_control": 3,
+            "alignment_with_hypothesis": 4
+          },
+          "total": 16,
+          "reason": "Moderate scores; crossover design may have carryover effects and smaller sample limits generalizability."
+        }
+      ],
+      "selected_id": "methodology_1",
+      "selected_text": "A three-arm randomized controlled trial comparing (1) fully autonomous LLM-based mental health tool, (2) LLM tool with asynchronous therapist review (responses reviewed within 24 hours), and (3) LLM tool with synchronous therapist oversight (therapist co-pilots sessions). Outcomes: user trust (Working Alliance Inventory-Short Revised), symptom reduction (PHQ-9, GAD-7), and engagement. 12-week intervention, N=300 adults with mild-to-moderate depression/anxiety. Mixed-effects models for analysis.",
+      "criteria": [
+        "feasibility",
+        "baseline_design",
+        "evaluation_metrics",
+        "scope_control",
+        "alignment_with_hypothesis"
+      ]
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_group_selection",
+    "model": "deepseek-chat",
+    "temperature": 0.3,
+    "retrieval_query": "the application of ai tools in mental treatment",
+    "retrieval_snapshot_id": "20260523T075733Z-the-application-of-ai-tools-in-mental-treatment-5",
+    "latency_ms": 56811,
+    "prompt_tokens": 24721,
+    "completion_tokens": 4157,
+    "total_tokens": 28878,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0
+  }
+}

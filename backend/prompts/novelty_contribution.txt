@@ -1,0 +1,33 @@
+Task: Specify the proposal's concrete novelty and research contribution.
+
+Topic:
+{topic}
+
+Research scope:
+{research_scope}
+
+Domain and methodology routing:
+{domain_router}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Research gap:
+{gap}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Methodology:
+{methodology}
+
+Return JSON with exactly this key:
+{{
+  "novelty_contribution": "A concise contribution statement in 4-6 sentences. Separate theoretical contribution, technical contribution, empirical contribution, and practical/deployment contribution. Avoid generic phrases such as novel framework or practical strategies unless they are concretely named. Specify what new construct, mechanism, method, dataset, metric, empirical finding, or deployment guideline the study produces. Explain why the contribution is more than applying AI to a domain, more than using RAG/prompting/fine-tuning, and more than saying the topic is underexplored."
+}}

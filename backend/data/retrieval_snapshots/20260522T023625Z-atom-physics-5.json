@@ -1,0 +1,73 @@
+{
+  "snapshot_id": "20260522T023625Z-atom-physics-5",
+  "topic": "atom physics",
+  "max_papers": 5,
+  "retrieved_at": "20260522T023625Z",
+  "papers": [
+    {
+      "title": "Near-infrared II emissive metal clusters: From atom physics to biomedicine",
+      "authors": [
+        "Hui Ma",
+        "Junying Wang",
+        "Xiaodong Zhang"
+      ],
+      "abstract": "Abstract Near-infrared II (NIR-II) imaging at 1100–1700 nm supports deep tissue penetration, low auto-fluorescence interruption, and high imaging resolution due to advances in attenuating photon scattering and absorption. For example, semiconductor quantum dots and carbon nanotubes as pioneer molecular probes were used for hind limbs and cerebrovascular imaging, and organic small molecules and polymers were employed for ultrafast and three-dimensional tumor vasculature imaging. Compared with the reported NIR-II fluorescence probe systems, the atomic-precision metal clusters with unambiguous geometry structure can make the most of the spatial coordination of metal atoms by artificial atom manipulation, thus improving the luminescent quantum yield with tunable emission wavelength. Meanwhile, the water soluble, renal cleanable, and highly stable features make them promising candidates for in vivo imaging. In this review, we aim to summarize the molecular and electronic structure, and optical properties of NIR-II emissive metal clusters. Meanwhile, we highlight their applications in brain, kidney, gastrointestinal imaging and tumor metastasis monitoring. We particularly reviewed recent advances on the biosafety of gold clusters at ultrahigh concentration. Present work will promote the development of NIR-II imaging and make a step towards the clinical application.",
+      "published": "2021-12-01",
+      "url": "https://www.semanticscholar.org/paper/2f043ba2e4a584942426bd89e2cf309c566699f9",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Development of an ultra-high vacuum system for a cold atom physics rack in space",
+      "authors": [
+        "Qian Liu",
+        "Yu Xie",
+        "Lin Li",
+        "Jing-Feng Xiang",
+        "Wenli Wang",
+        "Qiuzhi Qu",
+        "S. Fang",
+        "Bin Wang",
+        "De-Sheng Lü",
+        "Liang Liu"
+      ],
+      "abstract": "Abstract We present the design and testing of the ultra-high vacuum (UHV) system, which is a key apparatus for the Cold Atom Physics Rack (CAPR) operated on the Chinese Space Station that allows study of ultracold atoms in microgravity. The simulation of the gas flow and experimental tests show that our UHV has a pressure of 3.4 × 10 − 9 Pa in the science chamber, two orders of magnitude lower than that of the 2D magneto-optical trap (2D-MOT) chamber. Moreover, we demonstrate that the system can not only self-sustain an equilibrium pressure for more than 1 month without power but also restore the desired pressure in the interaction zone. The loss dynamics of the trapped atoms are also measured to assess the performance of the UHV system.",
+      "published": "2021-03-13",
+      "url": "https://www.semanticscholar.org/paper/a8a317917407c0101c70f596485fcea9fbe3e1d2",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Observing Diffusion Atom by Atom",
+      "authors": [
+        "Philip Ball"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2017-6-30",
+      "url": "https://doi.org/10.1103/physics.10.76",
+      "source": "Crossref"
+    },
+    {
+      "title": "Special Issue on Rydberg atom physics",
+      "authors": [
+        "M. Jones",
+        "L. Marcassa",
+        "J. Shaffer"
+      ],
+      "abstract": "Abstract was not available from Semantic Scholar.",
+      "published": "2017-02-21",
+      "url": "https://www.semanticscholar.org/paper/c9059c1ba6d49a980e1d6a214c1e4bd216223588",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A Portable, Compact Cold Atom Physics Package for Atom Interferometry",
+      "authors": [
+        "Michael J. Mazon",
+        "G. Iyanu",
+        "He Wang"
+      ],
+      "abstract": "In this paper, we report the design, implementation and experimental results of a portable, compact cold Cs atom physics package for atom interferometer experiments. With the physics package, we trapped and deep-cooled Cs atoms to ultracold temperatures of $\\lt$ $5 \\mu \\mathrm{K}$. The deep-cooling method used in this work is relatively simple and effective, with which we obtained controlled temperature adjustment between 5 and $80 \\mu \\mathrm{K}$. The portability of the physics package makes it suitable for implementing atom interferometry with various interrogation configurations and relative orientations. The system is also good for studies of compact cold atom frequency standards. With the Raman laser and light pulse manipulation system we developed in this work, this portable cold Cs atom physics package is being used for atom interferometer experiments in our laboratory.",
+      "published": "2019-04-01",
+      "url": "https://www.semanticscholar.org/paper/7c32851bb406702315bedb85784bdb3c5d65de1f",
+      "source": "Semantic Scholar"
+    }
+  ]
+}

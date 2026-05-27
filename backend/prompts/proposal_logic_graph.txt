@@ -1,0 +1,65 @@
+Task: Build a graph-like consistency check for the proposal reasoning chain.
+
+Topic:
+{topic}
+
+Evidence notes:
+{papers_context}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Operationalization and causal check:
+{operationalization_causal_check}
+
+Methodology:
+{methodology}
+
+Novelty and contribution:
+{novelty_contribution}
+
+Failure analysis:
+{failure_analysis}
+
+Proposal:
+{proposal}
+
+Return JSON with exactly this key:
+{{
+  "proposal_logic_graph": {{
+    "evidence_to_gap": "Which evidence notes support the gap, and whether the link is strong or tentative.",
+    "domain_to_method": "Whether the selected methodology family fits the domain.",
+    "concept_to_metric": "Whether core concepts are operationally defined and measured at the right level.",
+    "feasibility_to_method": "Whether the method is feasible given model access, data, compute, annotation, and participant requirements.",
+    "scope_to_gap": "Whether the study scope makes the gap specific enough.",
+    "gap_to_question": "How the gap leads to the research question.",
+    "question_to_hypothesis": "How the question leads to the hypothesis.",
+    "hypothesis_to_methodology": "How the methodology tests the hypothesis.",
+    "methodology_to_evaluation": "How the planned evaluation answers the research question.",
+    "weak_links": ["List any weak or missing links in the reasoning chain."]
+  }}
+}}

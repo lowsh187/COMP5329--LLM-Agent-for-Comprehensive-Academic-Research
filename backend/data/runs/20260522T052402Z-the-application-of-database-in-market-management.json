@@ -1,0 +1,100 @@
+{
+  "topic": "the application of database in market management",
+  "condition": "main_comparison",
+  "retrieval_snapshot_id": "20260522T052057Z-the-application-of-database-in-market-management-5",
+  "papers": [
+    {
+      "title": "A survey on data and transaction management in mobile databases",
+      "authors": [
+        "D. Roselin Selvarani",
+        "T. N. Ravi"
+      ],
+      "abstract": "The popularity of the Mobile Database is increasing day by day as people need information even on the move in the fast changing world. This database technology permits employees using mobile devices to connect to their corporate networks, hoard the needed data, work in the disconnected mode and reconnect to the network to synchronize with the corporate database. In this scenario, the data is being moved closer to the applications in order to improve the performance and autonomy. This leads to many interesting problems in mobile database research and Mobile Database has become a fertile land for many researchers. In this paper a survey is presented on data and Transaction management in Mobile Databases from the year 2000 onwards. The survey focuses on the complete study on the various types of Architectures used in Mobile databases and Mobile Transaction Models. It also addresses the data management issues namely Replication and Caching strategies and the transaction management functionalities such as Concurrency Control and Commit protocols, Synchronization, Query Processing, Recovery and Security. It also provides Research Directions in Mobile databases.",
+      "published": "2012-11-23",
+      "url": "http://arxiv.org/abs/1211.5418v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "LLM-based policy generation for intent-based management of applications",
+      "authors": [
+        "Kristina Dzeparoska",
+        "Jieyu Lin",
+        "Ali Tizghadam",
+        "Alberto Leon-Garcia"
+      ],
+      "abstract": "Automated management requires decomposing high-level user requests, such as intents, to an abstraction that the system can understand and execute. This is challenging because even a simple intent requires performing a number of ordered steps. And the task of identifying and adapting these steps (as conditions change) requires a decomposition approach that cannot be exactly pre-defined beforehand. To tackle these challenges and support automated intent decomposition and execution, we explore the few-shot capability of Large Language Models (LLMs). We propose a pipeline that progressively decomposes intents by generating the required actions using a policy-based abstraction. This allows us to automate the policy execution by creating a closed control loop for the intent deployment. To do so, we generate and map the policies to APIs and form application management loops that perform the necessary monitoring, analysis, planning and execution. We evaluate our proposal with a use-case to fulfill and assure an application service chain of virtual network functions. Using our approach, we can generalize and generate the necessary steps to realize intents, thereby enabling intent automation for application management.",
+      "published": "2024-01-22",
+      "url": "http://arxiv.org/abs/2402.10067v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Modelling and Simulation, Mobile Solutions and Cloud Computing: A Solution for Intelligent Management of a Small and Medium-Sized Baking Business",
+      "authors": [
+        "Hugo de Souza Ribeiro"
+      ],
+      "abstract": "The sale of products during the pandemic by COVID-19 was severely affected. Several small businesses and industries have reduced their productivity or even closed down. As a result, companies that still survive this complicated period must rely on intelligent (but accessible) resources to guide their survival on the market. The purpose of this paper is to demonstrate an integrated and affordable tool, based on technologies such as mobile applications, Cloud Computing and discrete event simulation to guide small manufacturers in the bakery sector. The solution has a robust mobile application to control the inventory, sales and product prices (with customer records, prices and reports control). Its database is managed via cloud computing. However, the great contribution is the connection of this solution with a simulator based on Stochastic Timed Petri Nets, which is integrated with the mobile application through the cloud commuting. This tool manages to model and simulate each type of product, with its time and resources spent during the manufacturing process, with production hierarchy according to the production priority that the manufacturer requests. Its focus is the intelligent management and identification of bottlenecks and evaluation of production scenarios. In a practical application in a small real industry, in the middle of a pandemic period, it was possible to make optimizations that still keep the enterprise open, such as evaluations of equipment purchases, reassessment of processes (which yielded a 9% increase in productivity without any financial investment and just maintenance of some work positions) and readjustment of material purchases.",
+      "published": "2021-03-11",
+      "url": "https://www.semanticscholar.org/paper/84530f5598733e2c01a7a3aa1b4af6c2f6994da6",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Managing dynamic medical data in a distributed mode",
+      "authors": [
+        "Bingyi Hu",
+        "J. Bai",
+        "D. Ye"
+      ],
+      "abstract": "Abstract was not available from Semantic Scholar.",
+      "published": "1998-10-29",
+      "url": "https://www.semanticscholar.org/paper/fcc04b8014504e912167d3dd6809cfa174b17c68",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Application of Measurement and Testing Technology in Market Supervision",
+      "authors": [],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2022-3-5",
+      "url": "https://doi.org/10.47939/em.v3i3(01).28",
+      "source": "Crossref"
+    }
+  ],
+  "summary": "The retrieved literature indicates that databases are applied in market management through mobile and cloud-based solutions for inventory, sales, and production control, as seen in a bakery management system. Additionally, surveys on mobile databases provide foundational transaction and data management techniques applicable to such market scenarios.",
+  "gap": "Current market management databases primarily support static inventory and sales transactions, yet lack integration with intelligent, intent-driven automation for dynamic decision-making. There is a research gap in leveraging LLM-based policy generation to adapt database operations and market strategies in real-time, while ensuring transactional consistency across distributed mobile and cloud environments.",
+  "question": "How can LLM-based intent-driven policy generation be integrated with distributed mobile and cloud database systems to enable real-time adaptation of market management strategies while maintaining transactional consistency?",
+  "hypothesis": "An LLM-based intent-driven policy generation system, when integrated with distributed mobile and cloud database transactions using a two-phase commit protocol with semantic conflict resolution, achieves higher accuracy in real-time market strategy adaptation (F1-score > 0.85) while maintaining serializable isolation consistency (no anomalies in TPC-C benchmark) compared to a baseline rule-based system.",
+  "methodology": "The methodology involves developing a prototype system that integrates a mobile app with a cloud-hosted distributed database (e.g., PostgreSQL with PostGIS) for market management tasks such as inventory control and sales tracking. A dataset of synthetic market transactions and inventory states will be generated to simulate dynamic market conditions. The core innovation is an LLM-based policy engine (using a model like GPT-3.5 via API) that takes natural language intents (e.g., 'optimize stock levels during a promotion') and generates executable database operations and business rules, while a two-phase commit protocol extended with semantic conflict detection ensures transactional consistency. Evaluation compares the LLM-driven system against a rule-based baseline on TPC-C-like workloads, measuring strategy adaptation accuracy via F1-score and transactional consistency by checking for serializable isolation anomalies. The system will be assessed in a simulated environment with varying loads to ensure feasibility for a small-scale student project.",
+  "proposal": "Market management increasingly relies on mobile and cloud-based databases for inventory, sales, and production control, as evidenced by bakery management systems and foundational mobile database techniques. However, current systems primarily support static transactions and lack intelligent, intent-driven automation for dynamic adaptation, creating a gap in leveraging large language models (LLMs) for real-time policy generation while ensuring transactional consistency across distributed environments. This research addresses the question: how can LLM-based intent-driven policy generation be integrated with distributed mobile and cloud database systems to enable real-time adaptation of market management strategies while maintaining transactional consistency? We hypothesize that an LLM-based system using a two-phase commit protocol with semantic conflict resolution achieves higher strategy adaptation accuracy (F1-score > 0.85) and maintains serializable isolation consistency (no anomalies in TPC-C benchmark) compared to a rule-based baseline. The methodology develops a prototype integrating a mobile app with a cloud-hosted PostgreSQL/PostGIS database for inventory and sales tasks, generates synthetic market transactions, and implements an LLM policy engine (e.g., GPT-3.5) that converts natural language intents into executable operations. A two-phase commit protocol extended with semantic conflict detection ensures transactional consistency. Evaluation on TPC-C-like workloads measures adaptation accuracy via F1-score and checks for isolation anomalies, demonstrating feasibility for a small-scale student project. The expected contribution is a novel framework that advances market management databases by embedding intelligent, real-time strategy adaptation without compromising transactional integrity.",
+  "evaluation": {
+    "clarity": 5,
+    "logic": 5,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "comments": "The proposal is clearly written and logically structured. It identifies a relevant gap from the literature and proposes a novel integration of LLM-based policy generation with market database transactions. The methodology is feasible for a student project, though the semantic conflict resolution component adds complexity. The proposal is grounded in Papers 1 and 3, and extends Paper 2's approach to a new domain, showing good literature alignment."
+  },
+  "baseline": {
+    "proposal": "We propose a mobile database application for small-scale market management, enabling vendors to track inventory, sales, and customer data via a cloud-synchronized mobile app. The system uses a local mobile database (e.g., SQLite) with offline capability and synchronizes with a central cloud database using transaction management techniques such as optimistic concurrency control and session-based synchronization, inspired by mobile database research. It provides basic reporting and will serve as a baseline for integrating advanced features like intent-based policy generation and simulation-driven optimization.",
+    "evaluation": {
+      "clarity": 5,
+      "logic": 5,
+      "novelty": 2,
+      "feasibility": 5,
+      "literature_alignment": 4,
+      "comments": "The proposal is clearly articulated and logically sound. It is a straightforward application of existing mobile database technology, making it highly feasible but low in novelty. It directly aligns with Papers 1 and 3 on mobile databases and small business solutions, but has no clear link to Papers 2, 4, or 5."
+    }
+  },
+  "metrics": {
+    "condition": "main_comparison",
+    "model": "deepseek-v4-pro",
+    "temperature": 0.3,
+    "retrieval_snapshot_id": "20260522T052057Z-the-application-of-database-in-market-management-5",
+    "latency_ms": 185216,
+    "prompt_tokens": 9188,
+    "completion_tokens": 5276,
+    "total_tokens": 14464,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0
+  }
+}

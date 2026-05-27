@@ -1,0 +1,18 @@
+Task: Classify the research domain and choose the appropriate methodology family.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Return JSON with exactly this key:
+{{
+  "domain_router": "Classify the proposal domain as one or more of: clinical/mental-health intervention, LLM safety/AI evaluation, HCI/user trust, machine-learning method development, social science/policy/ethics, or other. Then specify the appropriate methodology template. Do not use clinical RCT language such as usual-care or waitlist control unless the domain is clinical intervention. For LLM safety, prioritize benchmark evaluation, ablation studies, red-team prompt sets, multilingual annotation, model-level safety metrics, and human evaluation where relevant. For interpretability, include baseline, output-level explanation/filtering, and representation-level method comparisons. For HCI/user trust, include controlled between-subject or within-subject explanation conditions and trust calibration measures."
+}}

@@ -1,4 +1,3 @@
-import asyncio
 import re
 import xml.etree.ElementTree as ET
 from urllib.parse import urlencode
@@ -13,7 +12,6 @@ ARXIV_API_URL = "https://export.arxiv.org/api/query"
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom"}
 ARXIV_TIMEOUT_SECONDS = 60
 ARXIV_RETRIES = 2
-ARXIV_REQUEST_DELAY_SECONDS = 10
 ARXIV_USER_AGENT = "COMP5329-Academic-Research-Agent/0.1 (student project; local demo)"
 
 
@@ -54,9 +52,8 @@ async def search_arxiv(topic: str, max_results: int) -> list[Paper]:
             print(f"[arxiv] attempt {attempt} failed: {type(exc).__name__}: {exc}", flush=True)
             if is_rate_limit_error(exc):
                 start_cooldown("arxiv")
-                if attempt < ARXIV_RETRIES:
-                    print(f"[arxiv] rate limited; waiting {ARXIV_REQUEST_DELAY_SECONDS}s before retry", flush=True)
-                    await asyncio.sleep(ARXIV_REQUEST_DELAY_SECONDS)
+                print(f"[arxiv] rate limited; cooldown {cooldown_remaining('arxiv')}s started", flush=True)
+                break
 
     print(f"[arxiv] unavailable because: {type(last_error).__name__}: {last_error}", flush=True)
     return []

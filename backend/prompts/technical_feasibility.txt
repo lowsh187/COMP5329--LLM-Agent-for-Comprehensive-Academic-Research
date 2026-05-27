@@ -1,0 +1,21 @@
+Task: Check whether the proposed research design is technically feasible.
+
+Topic:
+{topic}
+
+Domain and methodology routing:
+{domain_router}
+
+Concept definitions:
+{concept_definition}
+
+Research scope:
+{research_scope}
+
+Research gap:
+{gap}
+
+Return JSON with exactly this key:
+{{
+  "technical_feasibility": "A concise technical feasibility check in plain text. State whether the study requires open-source model access, hidden state extraction, labelled datasets, multilingual prompt sets, native-speaker validation, human participants, ethics approval, GPU resources, annotation protocols, or deployment data. If internal representations are studied, require open-source LLMs or hidden-state access; if only API models are available, revise the design toward output-level explanation or black-box evaluation. If user trust is studied, require a human-subject design and appropriate reliance/trust calibration measures. Identify missing resources and state a feasible adjustment."
+}}

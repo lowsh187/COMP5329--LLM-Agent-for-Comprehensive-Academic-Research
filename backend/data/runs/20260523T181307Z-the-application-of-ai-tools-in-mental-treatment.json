@@ -1,0 +1,1351 @@
+{
+  "experiment_id": "20260523T175021Z",
+  "run_index": 1,
+  "topic": "the application of ai tools in mental treatment",
+  "condition": "multi_stage_group_selection",
+  "retrieval_query": "the application of ai tools in mental treatment",
+  "retrieval_snapshot_id": "20260523T175021Z-the-application-of-ai-tools-in-mental-treatment-6",
+  "papers": [
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    },
+    {
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+      "authors": [
+        "Senoussaoui Abderrahmen",
+        "Rahmani Djamel"
+      ],
+      "abstract": "The rapid integration of Artificial Intelligence (AI) into Mental Health care represents a transformative shift in the diagnosis, monitoring, and treatment of psychological disorders. While AI-driven tools—including digital phenotyping systems, natural language processing models, and conversational agents—offer significant potential to enhance diagnostic precision, accessibility, and personalized interventions, they simultaneously introduce complex ethical, clinical, and epistemological challenges. This study provides a comprehensive and critical synthesis of contemporary literature (2019–2025) to examine the ethical implications of AI deployment in psychotherapeutic contexts. Moving beyond descriptive review, the paper develops a conceptual ethical governance framework grounded in the principles of autonomy, beneficence, non-maleficence, and justice, as well as the emerging “ethics of care” paradigm. It identifies key risk domains, including algorithmic bias, opacity of decision-making processes, data privacy vulnerabilities, erosion of therapeutic alliance, and the reconfiguration of professional accountability. Furthermore, the study proposes a human-centered, explainable, and clinically supervised AI integration model, emphasizing transparency, continuous ethical auditing, stakeholder inclusion, and hybrid human–AI decision-making structures. The findings highlight that while AI can significantly improve efficiency and expand access to mental healthcare—particularly in resource-constrained settings—its unregulated or poorly designed application may exacerbate inequalities, compromise patient autonomy, and undermine trust in clinical practice. The paper contributes to the interdisciplinary discourse by offering a structured ethical framework that bridges technological innovation with clinical responsibility and humanistic values. It concludes that sustainable and ethically aligned AI integration in mental health requires robust regulatory architectures, cross-disciplinary collaboration, and the preservation of the fundamentally human dimensions of psychotherapy.",
+      "published": "2026-04-18",
+      "url": "https://www.semanticscholar.org/paper/6dc63f9c10061546d60e145893be33c6aed6773e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Scalability and Localization of AI Mental Health Tools for Diverse Socioeconomic and Linguistic Student Populations",
+      "authors": [
+        "C Srikanth",
+        "Sreekanth Challa"
+      ],
+      "abstract": "The integration of Artificial Intelligence (AI) into mental health care within educational settings has the potential to transform how institutions address student well-being. As AI-powered mental health tools scale across diverse educational landscapes, critical challenges related to scalability, localization, data privacy, and cultural adaptation emerge. This chapter explores the development and deployment of AI mental health tools in underfunded and diverse educational contexts, with a focus on ensuring equity in access and the importance of culturally sensitive solutions. The potential of AI to address the growing mental health crisis among students is tempered by concerns regarding ethical guidelines, bias, and the responsible handling of sensitive data. In this context, the collaboration between AI developers, educational institutions, and local mental health experts is emphasized as a key strategy to overcome linguistic and socioeconomic barriers. Ethical and regulatory frameworks must be established to protect student privacy, promote fairness, and ensure that AI tools complement human intervention rather than replace it. By addressing these challenges, AI can become a powerful tool for improving mental health outcomes and enhancing support systems for students globally. This chapter provides an in-depth examination of these critical considerations, offering strategies and recommendations for effective and ethical AI tool implementation in educational environments.",
+      "published": "2025-9-22",
+      "url": "https://doi.org/10.71443/9789349552999-16",
+      "source": "Crossref"
+    },
+    {
+      "title": "Practice: AI Tools and Their Application Possibilities",
+      "authors": [
+        "Livia Rainsberger"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2022",
+      "url": "https://doi.org/10.1007/978-3-658-38251-3_4",
+      "source": "Crossref"
+    },
+    {
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "authors": [
+        "Maria-Angeles Chiang",
+        "Lucía Coll",
+        "M. F. Pollo-Cattaneo",
+        "Parag Chatterjee"
+      ],
+      "abstract": "Purpose: This systematic review examines the current landscape of artificial intelligence (AI)-based Clinical Decision Support Systems (CDSS) designed to aid in the treatment of depression. With depression recognized as a complex and multifactorial condition, often differing across contexts such as postpartum, adolescence, and elderly populations, the review aims to evaluate the feasibility, acceptability, and potential of AI-based CDSS in supporting personalized care. The primary research question explores how these systems are implemented and evaluated in clinical settings, as well as the main challenges to their broader adoption.Methods: The review analyzed studies focused on AI-based CDSS for depression, identifying variations in algorithms, performance metrics, and implementations. Studies were assessed based on system purposes, categorized into treatment selection, prediction and risk assessment, and clinical support and data review, providing a comprehensive overview of each study’s approach and outcomes.Results: 11 unique algorithms, 9 performance metrics, and 10 CDSS implementations were identified across the studies. Findings indicate positive results for CDSS in supporting clinical decision-making, yet highlight challenges in applying these tools in routine practice. Limitations include small, non-diverse sample sizes, immature methodologies, and difficulties in workflow integration, along with concerns about data privacy and the ethical use of AI.Conclusions: AI-based CDSS for depression shows potential in patient care; however, foundational issues such as more diverse samples and robust model development remain critical. Addressing these aspects will set the stage for future research into advanced applications, such as virtual-reality integration and multi-condition prediction, thus advancing AI’s role in mental health treatment.Clinical Relevance—This work illustrates the state of art of AI adoption in the domain of mental health, specifically in the context of depression.",
+      "published": "2025-07-01",
+      "url": "https://www.semanticscholar.org/paper/4dc7da378a6122ed24f2f2546215355d26fd11d9",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "An introduction to artificial intelligence in sleep medicine",
+      "authors": [
+        "21037jtd-21-1569 greater computing the door . In which range of im",
+        "Christopher A. Lovejoy",
+        "Abdul-Rahman Abbas",
+        "Deeban Ratneswaran"
+      ],
+      "abstract": "Abstract was not available from Semantic Scholar.",
+      "published": "2021",
+      "url": "https://www.semanticscholar.org/paper/7aa61b7fa659b508636055a37272939e1c7f03bc",
+      "source": "Semantic Scholar"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI Integration in Mental Health Interventions",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "summary": "This cluster of papers explores the application of artificial intelligence (AI) in mental health interventions, particularly focusing on music therapy, ethical governance, scalability in educational settings, and clinical decision support systems for depression. The findings suggest that AI can enhance personalized interventions, improve diagnostic precision, and address mental health challenges across diverse populations, while also highlighting the importance of ethical considerations and cultural sensitivity in implementation.",
+      "limitations": "The cluster identifies several limitations, including concerns about algorithmic bias, data privacy, the erosion of therapeutic alliances, and the need for ethical frameworks. Additionally, challenges related to the scalability and localization of AI tools in diverse socioeconomic contexts remain unresolved.",
+      "gap_relevance": "This cluster supports research gap identification by emphasizing the need for further exploration of ethical governance frameworks, the development of culturally sensitive AI tools, and the integration of AI in underfunded educational settings to address mental health disparities."
+    },
+    {
+      "theme": "Applications of AI Tools in Practice",
+      "paper_indices": [
+        4
+      ],
+      "summary": "This cluster primarily explores the various applications of AI tools across different domains, highlighting their potential benefits and use cases in practical scenarios.",
+      "limitations": "The cluster lacks comprehensive empirical data and case studies to validate the effectiveness of the AI tools discussed, and there is a need for more detailed exploration of ethical considerations.",
+      "gap_relevance": "This cluster can aid in identifying research gaps related to the practical implementation of AI tools, particularly in underexplored industries or specific applications."
+    },
+    {
+      "theme": "Artificial Intelligence Applications in Sleep Medicine",
+      "paper_indices": [
+        6
+      ],
+      "summary": "This cluster primarily explores the integration of artificial intelligence (AI) technologies in the field of sleep medicine, focusing on their potential to enhance diagnosis, treatment, and management of sleep disorders. It highlights various AI methodologies and their applications in analyzing sleep data, improving patient outcomes, and streamlining clinical workflows.",
+      "limitations": "The cluster lacks comprehensive empirical studies validating the effectiveness of AI applications in real-world clinical settings. Additionally, there is limited discussion on ethical considerations, data privacy issues, and the need for interdisciplinary collaboration in implementing AI solutions.",
+      "gap_relevance": "This cluster can aid in identifying research gaps related to the practical implementation of AI in sleep medicine, particularly in addressing the challenges of integration, validation, and ethical implications, thus paving the way for future studies that could enhance the efficacy and acceptance of AI technologies in healthcare."
+    }
+  ],
+  "summary": "The literature on the application of AI tools in mental treatment reveals significant potential for enhancing interventions, particularly through AI-assisted music therapy and clinical decision support systems for depression. Key themes include the integration of AI in mental health care, ethical governance, and the need for culturally sensitive solutions in diverse contexts. However, challenges such as algorithmic bias, data privacy, and the maintenance of therapeutic relationships highlight the necessity for robust ethical frameworks and interdisciplinary collaboration to ensure effective and responsible AI deployment.",
+  "scholarly_positioning": "This research proposal focuses on the ethical implications of AI tools in mental health care, particularly in clinical decision support systems for depression. It aims to develop a human-centered framework that balances technological innovation with clinical responsibility. By analyzing existing literature, the proposal will highlight the importance of transparency and stakeholder inclusion in AI deployment, addressing challenges such as algorithmic bias and the erosion of therapeutic alliances.",
+  "gap": "Investigate the development of culturally sensitive AI mental health tools tailored for underfunded educational settings, focusing on their implementation and effectiveness in addressing diverse student populations' mental health needs.",
+  "question": "How can culturally sensitive AI mental health tools be effectively developed and implemented in underfunded educational settings to address the diverse mental health needs of students?",
+  "theoretical_mechanism": "Implement a culturally sensitive AI framework in educational settings that utilizes localized data to inform mental health interventions. This mechanism focuses on collaboration between AI developers and local mental health professionals to ensure that tools are tailored to the specific needs of diverse student populations, addressing ethical concerns and promoting equity.",
+  "hypothesis": "Culturally sensitive AI mental health tools can be effectively developed by collaborating with local mental health professionals to create tailored interventions that address the unique needs of diverse student populations in underfunded educational settings.",
+  "operationalization_causal_check": "Develop a culturally sensitive AI mental health tool by collaborating with local mental health professionals to gather qualitative data on student needs. Measure effectiveness through pre- and post-intervention surveys assessing mental health outcomes, engagement, and user satisfaction. Implement a mixed-methods approach to analyze both quantitative and qualitative data, ensuring confounding variables such as socioeconomic status and prior mental health history are controlled.",
+  "methodology": "Create a culturally sensitive AI mental health tool through a collaborative design process involving students, educators, and mental health professionals. Conduct workshops to gather input and refine the tool. Implement the tool in a small cohort and assess its impact on mental health outcomes through qualitative interviews and quantitative surveys, controlling for external factors.",
+  "failure_analysis": "A significant failure mode could arise from the algorithmic bias present in AI tools, which may lead to misdiagnosis or inappropriate interventions for certain student demographics. This could occur if the training data lacks diversity, resulting in tools that do not generalize well across different populations. To mitigate this risk, it is crucial to implement rigorous testing protocols and continuous monitoring of AI outputs to ensure equitable treatment. Negative results should be interpreted as evidence of the need for iterative improvements in the tool's design and functionality.",
+  "proposal": "This research proposal investigates the pressing issue of mental health treatment in underfunded educational settings, where traditional interventions often fall short. Despite the growing body of literature on AI applications in mental health, significant gaps remain in the development of culturally sensitive AI tools tailored to diverse student populations, particularly in resource-constrained environments. Prior studies have highlighted the potential of AI to enhance mental health interventions but have not sufficiently addressed the unique needs of these populations, particularly concerning algorithmic bias and ethical governance. The research question guiding this study is: How can culturally sensitive AI mental health tools be effectively developed and implemented in underfunded educational settings to address the diverse mental health needs of students? The theoretical mechanism posits that collaboration with local mental health professionals will yield effective, tailored interventions that enhance mental health outcomes by utilizing localized data. The hypothesis is that culturally sensitive AI mental health tools, developed through stakeholder collaboration, will significantly improve student mental health outcomes compared to standard interventions. Constructs will be operationalized through qualitative assessments of student needs and quantitative measures of mental health outcomes using validated metrics, with baseline mental health status established through pre-intervention surveys. The methodology includes a collaborative design process involving students, educators, and mental health professionals, with a focus on ensuring reproducibility and controlling for confounding variables such as socioeconomic status. This proposal contributes a novel methodological approach that integrates ethical considerations and cultural sensitivity into AI deployment, addressing the unique challenges faced by underfunded educational settings. Key limitations include the risk of algorithmic bias, necessitating rigorous testing and continuous monitoring to ensure equitable treatment and effective intervention outcomes, while also acknowledging the potential for misdiagnosis due to insufficiently diverse training data.",
+  "draft_proposal": "This research proposal investigates the application of AI tools in mental health treatment, specifically focusing on the ethical implications and development of culturally sensitive AI mental health tools in underfunded educational settings. The literature highlights the potential of AI in enhancing mental health interventions but also reveals challenges such as algorithmic bias and the need for ethical governance. This study aims to fill the gap by exploring how culturally sensitive AI tools can be effectively developed and implemented to meet the diverse mental health needs of students. The theoretical mechanism involves a collaborative framework that utilizes localized data to inform interventions, ensuring that tools are tailored to specific populations. The hypothesis posits that collaboration with local mental health professionals will yield effective, tailored interventions. Operationalized constructs include qualitative data gathering on student needs and measuring effectiveness through pre- and post-intervention surveys. The methodology encompasses a collaborative design process with stakeholders, followed by implementation and assessment of the tool's impact. This research is expected to contribute to the field by providing a novel framework for ethical AI deployment in mental health care, addressing the unique challenges faced by underfunded educational settings. Key limitations include the risk of algorithmic bias and the potential for misdiagnosis, necessitating rigorous testing and continuous monitoring to ensure equitable treatment.",
+  "draft_evaluation": {
+    "clarity": 4,
+    "logic": 3,
+    "novelty": 3,
+    "feasibility": 3,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 4,
+    "weighted_total": 61.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: understandable but partially broad or insufficiently operationalized",
+        "justification": "The proposal identifies a relevant research problem regarding the application of AI tools in mental health treatment, particularly focusing on culturally sensitive solutions. However, the operational definitions of key concepts like 'culturally sensitive' and 'AI tools' are vague, lacking specificity in how these will be measured or implemented. Major weaknesses: Key concepts are not clearly operationalized, and the boundaries of the research problem are somewhat broad, making it difficult to ascertain the precise focus of the study. Next band requirements: To move into the next band, the proposal needs to provide clearer operational definitions of key concepts and a more focused research question that delineates the scope of the study."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 8.0,
+        "level": "6-8: several disconnected components or shallow justification",
+        "justification": "The proposal presents a logical flow but lacks strong connections between the hypothesis and methodology. The causal claims regarding the effectiveness of culturally sensitive AI tools are not sufficiently justified. Major weaknesses: There are gaps in the reasoning that connect the hypothesis to the proposed methodology, particularly in justifying how the collaboration with local professionals will lead to effective interventions. Next band requirements: To improve, the proposal needs to provide a more robust justification for the causal claims and ensure that the methodology directly tests the stated hypothesis."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal attempts to introduce a culturally sensitive framework for AI in mental health, it primarily builds on existing literature without offering a fundamentally new theoretical perspective or framework. Major weaknesses: The novelty is moderate; it does not significantly advance understanding in the field beyond existing studies on AI applications in mental health. Next band requirements: To achieve a higher score, the proposal should introduce a new theoretical framework or mechanism that significantly extends current literature."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 10.0,
+        "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+        "justification": "The proposed methodology lacks detail on sample size justification, evaluation metrics, and controls for confounding variables, which raises concerns about the feasibility of the study. Major weaknesses: The evaluation design is not sufficiently rigorous, and there is insufficient discussion on how to handle potential confounding factors. Next band requirements: To improve, the proposal needs to provide a more detailed experimental design with clear baselines, evaluation metrics, and a robust plan for controlling confounding variables."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal engages with relevant literature but lacks depth in critical synthesis and comparative analysis of existing work. It does not adequately identify unresolved tensions or contradictions in the literature. Major weaknesses: The literature review is somewhat superficial and does not sufficiently articulate why existing work is insufficient or how the proposed research fills a genuine gap. Next band requirements: To move into the next band, the proposal should provide a more thorough critical analysis of existing literature, highlighting specific gaps and how the proposed research addresses them."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 6.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some theoretical grounding but lacks depth in discussing mechanisms, limitations, and broader implications. It does not fully articulate the scientific maturity expected at the PhD level. Major weaknesses: The theoretical mechanisms are not well-developed, and there is insufficient discussion of potential limitations and failure cases. Next band requirements: To achieve a higher score, the proposal needs to articulate the theoretical mechanisms in greater depth and discuss the implications and limitations of the proposed research."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-written and organized, but there are areas where clarity could be improved, particularly in defining key concepts and articulating the research framework. Major weaknesses: Some terminology is not precisely defined, which can lead to confusion regarding the proposal's aims. Next band requirements: To improve, the proposal should ensure that all terminology is clearly defined and that the writing is concise and precise."
+      }
+    ],
+    "comments": "Total score: 61.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant and timely research problem in the application of AI tools in mental health.; Engages with existing literature on AI in mental health interventions. Major weaknesses: Lacks clear operational definitions of key concepts.; Insufficiently justified causal claims and methodological rigor.; Moderate novelty with limited theoretical contribution. Required improvements for true PhD-level quality: Provide clearer operational definitions and a more focused research question.; Strengthen the justification for causal claims and improve methodological rigor.; Introduce a new theoretical framework or mechanism that significantly extends current literature. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant improvements in clarity, rigor, and theoretical contribution."
+  },
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding culturally sensitive AI tools in educational settings is valid, as it addresses a pressing need in mental health care. However, it could be more explicitly linked to specific deficiencies in current literature.",
+      "literature_grounding": "The gap is somewhat grounded in the literature, referencing existing studies on AI in mental health, but lacks a thorough analysis of how these studies fail to address the specific needs of diverse populations.",
+      "meaningfulness": "The gap is meaningful as it targets an underserved area; however, it could benefit from a clearer articulation of why this gap is critical for advancing mental health interventions.",
+      "already_solved_risk": "There is a risk that existing literature may have partially addressed this gap, particularly in discussing ethical frameworks, which should be acknowledged and critically evaluated."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but does not critically compare them, missing an opportunity to highlight unresolved tensions and gaps in the literature.",
+      "unresolved_tensions": "Unresolved tensions regarding the balance between AI efficiency and ethical concerns are not adequately explored, which weakens the scholarly positioning.",
+      "positioning_quality": "The positioning is weak as it primarily reiterates existing findings without demonstrating how this research will build upon or diverge from them."
+    },
+    "question_stage": {
+      "researchability": "The research question is generally researchable, but it could be refined to specify the types of AI tools and interventions being studied.",
+      "scope_appropriateness": "The scope is appropriate, focusing on underfunded educational settings, but could be narrowed to specific demographic groups for clarity.",
+      "variable_clarity": "Variable clarity is lacking; the constructs of 'culturally sensitive' and 'effectiveness' need clearer definitions to guide empirical study."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The proposed mechanism is somewhat vague and does not clearly explain why collaboration with local professionals will lead to effective interventions.",
+      "theoretical_framing": "The theoretical framing lacks depth; it should incorporate existing theories on cultural competence and AI ethics to strengthen the argument.",
+      "assumption_transparency": "Assumptions about the effectiveness of localized data and collaboration are not explicitly stated, which could lead to misunderstandings in the proposed framework."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is generally falsifiable, but it could be strengthened by specifying measurable outcomes and conditions under which it would be tested.",
+      "mechanism_grounding": "Grounding in mechanisms is weak; the hypothesis should more clearly link to the theoretical mechanism proposed.",
+      "measurable_outcome": "Measurable outcomes are mentioned, but specific metrics for success should be defined to enhance clarity."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization of constructs is vague; specific metrics for assessing 'culturally sensitive' interventions should be detailed.",
+      "causal_identification": "Causal pathways are not clearly outlined, making it difficult to identify how the proposed interventions will lead to desired outcomes.",
+      "confound_awareness": "Confound awareness is present, but the proposal should explicitly mention how these will be controlled in the study design.",
+      "claim_boundaries": "Claim boundaries are not well defined; the proposal should clarify the limits of the causal claims being made."
+    },
+    "methodology_stage": {
+      "baseline_validity": "Baseline validity is weak; the proposal should specify how baseline mental health status will be measured before intervention.",
+      "metric_validity": "Metric validity is not adequately addressed; validated tools for measuring mental health outcomes should be identified.",
+      "statistical_or_evaluation_validity": "Statistical validity is not discussed; the proposal should outline the statistical methods that will be used to analyze the data.",
+      "reproducibility": "Reproducibility is a concern; detailed protocols for implementing the AI tool should be provided to ensure that the study can be replicated.",
+      "confound_control": "Confound control measures are mentioned but lack specificity; more detail on how these will be implemented is needed.",
+      "risk_analysis": "Risk analysis is insufficient; the proposal should include a more comprehensive assessment of potential risks associated with AI deployment."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the analysis lacks depth; more specific examples of potential biases and their impacts should be included.",
+      "limitation_depth": "Limitation depth is shallow; the proposal should discuss how limitations will be addressed throughout the study.",
+      "risk_mitigation": "Risk mitigation strategies are mentioned but need to be more detailed, particularly regarding algorithmic bias and ethical considerations."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contribution clarity is moderate; while the proposal aims to fill a gap, it does not clearly articulate how it will advance the field.",
+      "novelty_type": "The novelty appears to be primarily methodological, focusing on the integration of ethical considerations into AI deployment.",
+      "coherence": "Coherence is lacking; the proposal should ensure that all sections are tightly connected and support the overall argument.",
+      "limitation_awareness": "Limitation awareness is present but could be expanded to include potential challenges in implementation and evaluation.",
+      "academic_communication": "Academic communication is generally clear, but some jargon and complex phrasing may hinder understanding."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads to the question, but the connection could be made more explicit by detailing how existing literature informs the research question.",
+      "question_to_hypothesis": "The question leads to the hypothesis, but the link could be strengthened by ensuring the hypothesis directly addresses the question.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but the methodology should be refined to ensure it adequately measures the proposed outcomes.",
+      "method_to_evaluation": "The method can answer the question, but the evaluation metrics need to be clearly defined to ensure alignment."
+    },
+    "revision_plan": "Revise the gap stage to provide a more detailed analysis of existing literature and its shortcomings. Strengthen the theoretical mechanism by explicitly stating assumptions and incorporating relevant theories. Clarify the research question and hypothesis to ensure they are specific and measurable. Finally, enhance the methodology section by detailing baseline measures, metrics, and statistical analysis plans."
+  },
+  "refinement_history": [
+    {
+      "step": "draft",
+      "score": 61.0,
+      "weakest_criteria": [
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "score": 10.0,
+          "weight": 20,
+          "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+          "justification": "The proposed methodology lacks detail on sample size justification, evaluation metrics, and controls for confounding variables, which raises concerns about the feasibility of the study. Major weaknesses: The evaluation design is not sufficiently rigorous, and there is insufficient discussion on how to handle potential confounding factors. Next band requirements: To improve, the proposal needs to provide a more detailed experimental design with clear baselines, evaluation metrics, and a robust plan for controlling confounding variables."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "score": 8.0,
+          "weight": 15,
+          "level": "6-8: several disconnected components or shallow justification",
+          "justification": "The proposal presents a logical flow but lacks strong connections between the hypothesis and methodology. The causal claims regarding the effectiveness of culturally sensitive AI tools are not sufficiently justified. Major weaknesses: There are gaps in the reasoning that connect the hypothesis to the proposed methodology, particularly in justifying how the collaboration with local professionals will lead to effective interventions. Next band requirements: To improve, the proposal needs to provide a more robust justification for the causal claims and ensure that the methodology directly tests the stated hypothesis."
+        },
+        {
+          "criterion": "Novelty & Research Contribution",
+          "score": 12.0,
+          "weight": 20,
+          "level": "12-14: moderate novelty but partially derivative",
+          "justification": "While the proposal attempts to introduce a culturally sensitive framework for AI in mental health, it primarily builds on existing literature without offering a fundamentally new theoretical perspective or framework. Major weaknesses: The novelty is moderate; it does not significantly advance understanding in the field beyond existing studies on AI applications in mental health. Next band requirements: To achieve a higher score, the proposal should introduce a new theoretical framework or mechanism that significantly extends current literature."
+        }
+      ]
+    },
+    {
+      "step": "revision_1",
+      "score": 70.0,
+      "weakest_criteria": [
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "score": 11.0,
+          "weight": 20,
+          "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+          "justification": "The methodology lacks detail on sample size justification, evaluation metrics, and controls for confounding variables, raising concerns about the feasibility of the proposed design. Major weaknesses: Insufficient rigor in the experimental design and lack of clarity on how confounding variables will be controlled. Next band requirements: Providing a more detailed methodology with robust evaluation metrics and clear justification for sample sizes would enhance feasibility."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "score": 10.0,
+          "weight": 15,
+          "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+          "justification": "The proposal outlines a logical flow from problem to hypothesis, but the causal claims regarding the effectiveness of AI personalization are not sufficiently substantiated. Major weaknesses: Weak transitions between hypothesis and methodology, with unsupported assumptions about the effectiveness of the proposed interventions. Next band requirements: Strengthening the justification for causal claims and ensuring that all components of the proposal are tightly connected would improve coherence."
+        },
+        {
+          "criterion": "Novelty & Research Contribution",
+          "score": 14.0,
+          "weight": 20,
+          "level": "12-14: moderate novelty but partially derivative",
+          "justification": "While the proposal attempts to introduce a culturally sensitive framework, it primarily builds on existing literature without offering a fundamentally new theoretical perspective. Major weaknesses: The novelty is moderate, as the proposal does not introduce a new mechanism or significantly extend existing theories. Next band requirements: To achieve higher novelty, the proposal should present a new theoretical framework or mechanism that fundamentally alters the understanding of AI in mental health."
+        }
+      ]
+    },
+    {
+      "step": "revision_2",
+      "score": 69.0,
+      "weakest_criteria": [
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "score": 11.0,
+          "weight": 20,
+          "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+          "justification": "The methodology outlines a mixed-methods approach but lacks detail on sample size justification, evaluation metrics, and controls for confounding variables. Major weaknesses: Weaknesses in methodological rigor and insufficient detail on how the evaluation will be conducted. Next band requirements: To improve, the proposal needs to provide a more detailed experimental design, including robust evaluation metrics and clearer controls for confounding variables."
+        },
+        {
+          "criterion": "PhD-Level Academic Depth",
+          "score": 6.0,
+          "weight": 10,
+          "level": "5-6: strong master-level but limited theoretical depth",
+          "justification": "The proposal demonstrates some theoretical grounding but lacks depth in discussing mechanisms, limitations, and broader implications. Major weaknesses: Insufficient theoretical sophistication and a lack of discussion on trade-offs and limitations. Next band requirements: To achieve a higher score, the proposal must articulate a deeper understanding of the theoretical mechanisms at play and discuss broader implications more thoroughly."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "score": 10.0,
+          "weight": 15,
+          "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+          "justification": "While the proposal outlines a logical flow from hypothesis to methodology, there are gaps in justifying the causal claims regarding the effectiveness of the AI tools. Major weaknesses: Insufficient justification for the causal mechanisms and weak transitions between hypothesis and methodology. Next band requirements: To improve, the proposal must provide stronger scientific justification for causal claims and ensure that the evaluation tests the stated hypothesis effectively."
+        }
+      ]
+    }
+  ],
+  "strategy_advice": "Experience memory and bandit-style strategy advice:\n- Selected strategy: theory-heavy.\n- Best prior condition for similar topics: multi_stage_group_selection with score 75.0/100.\n- Recurring weak criteria:\n- Novelty & Research Contribution: appeared weak in 23 similar run(s). Example feedback: While the proposal attempts to introduce a new theoretical framework, it primarily builds on existing literature without offering a fundamentally new theoretical perspective. The novelty is moderate but not groundbreakin\n- Feasibility & Experimental Design: appeared weak in 21 similar run(s). Example feedback: The mixed-methods design is a step forward, but lacks detail on sample size justification, evaluation metrics, and controls for confounding variables. The methodology is not sufficiently rigorous. Major weaknesses: Insuf\n- PhD-Level Academic Depth: appeared weak in 21 similar run(s). Example feedback: The proposal demonstrates some theoretical grounding but lacks depth in discussing mechanisms, limitations, and broader implications. It does not fully articulate the scientific maturity expected at the PhD level. Major \n- Logical Coherence & Multi-Stage Reasoning: appeared weak in 14 similar run(s). Example feedback: The proposal presents a logical flow but has gaps in the justification for causal claims regarding AI personalization. The connections between the hypothesis and methodology are not fully substantiated. Major weaknesses:\nUse this as inference-time guidance: strengthen these weak dimensions proactively while preserving the current condition's rules.",
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 3,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 4,
+    "weighted_total": 69.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal presents a clear research question focused on culturally sensitive AI tools in mental health, but lacks precise operational definitions for key concepts like 'culturally sensitive' and 'mental health outcomes'. Major weaknesses: Vague definitions of key constructs and insufficient clarity on the boundaries of the research problem. Next band requirements: To move into the next band, the proposal needs to provide explicit operational definitions for key concepts and clarify the research boundaries more distinctly."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "While the proposal outlines a logical flow from hypothesis to methodology, there are gaps in justifying the causal claims regarding the effectiveness of the AI tools. Major weaknesses: Insufficient justification for the causal mechanisms and weak transitions between hypothesis and methodology. Next band requirements: To improve, the proposal must provide stronger scientific justification for causal claims and ensure that the evaluation tests the stated hypothesis effectively."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal attempts to introduce a new framework for culturally sensitive AI tools, but largely builds on existing literature without offering a fundamentally new theoretical perspective. Major weaknesses: The novelty is moderate and does not sufficiently advance understanding in the field; it lacks a clear differentiation from existing work. Next band requirements: To achieve a higher score, the proposal should introduce a genuinely original theoretical framework or mechanism that significantly advances the field."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 11.0,
+        "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+        "justification": "The methodology outlines a mixed-methods approach but lacks detail on sample size justification, evaluation metrics, and controls for confounding variables. Major weaknesses: Weaknesses in methodological rigor and insufficient detail on how the evaluation will be conducted. Next band requirements: To improve, the proposal needs to provide a more detailed experimental design, including robust evaluation metrics and clearer controls for confounding variables."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong literature grounding with good comparative analysis",
+        "justification": "The proposal engages with relevant literature but lacks a critical synthesis that identifies unresolved tensions or contradictions. Major weaknesses: Limited depth in literature engagement and insufficient identification of genuine gaps in existing research. Next band requirements: To enhance this criterion, the proposal should provide a more thorough critical analysis of existing work and articulate specific gaps that the research addresses."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 6.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some theoretical grounding but lacks depth in discussing mechanisms, limitations, and broader implications. Major weaknesses: Insufficient theoretical sophistication and a lack of discussion on trade-offs and limitations. Next band requirements: To achieve a higher score, the proposal must articulate a deeper understanding of the theoretical mechanisms at play and discuss broader implications more thoroughly."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The writing is generally clear and maintains an academic tone, but there are areas where precision and conciseness could be improved. Major weaknesses: Some sections are repetitive or lack clarity, affecting overall readability. Next band requirements: To improve, the proposal should focus on enhancing clarity and conciseness in writing."
+      }
+    ],
+    "comments": "Total score: 69.0/100. Academic level: Master's-level. Major strengths: Clear research question focused on culturally sensitive AI tools in mental health.; Engagement with relevant literature on AI applications in mental health. Major weaknesses: Vague definitions of key constructs and insufficient clarity on research boundaries.; Weak justification for causal claims and methodological rigor. Required improvements for true PhD-level quality: Provide explicit operational definitions for key concepts.; Strengthen the justification for causal mechanisms and enhance methodological rigor.; Articulate a deeper understanding of theoretical implications and limitations. Final verdict: The proposal demonstrates some promise but lacks the depth, rigor, and originality expected at the PhD level, requiring significant improvements to meet the standards of genuine PhD-level research maturity."
+  },
+  "baseline": null,
+  "group_selection": {
+    "scholarly_positioning": {
+      "candidates": [
+        {
+          "id": "scholarly_positioning_1",
+          "text": "This proposal aims to investigate the integration of AI-assisted music therapy tools in mental health interventions, emphasizing the need for ethical governance and cultural sensitivity. By synthesizing findings from recent literature, it will explore how AI can enhance personalized treatment and address disparities in access to mental health care, particularly in underfunded educational settings. The study will also critically examine algorithmic bias and data privacy concerns, proposing a framework for responsible AI deployment in therapeutic contexts.",
+          "scores": {
+            "comparative_synthesis": 4,
+            "gap_validity": 5,
+            "positioning_quality": 4,
+            "research_debate_awareness": 4
+          },
+          "total": 17,
+          "reason": "Strongly addresses gaps in ethical governance and cultural sensitivity while synthesizing relevant literature.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.8403,
+          "literature_similarity": 0.8485,
+          "embedding_alignment": 0.8444,
+          "combined_total": 21.222
+        },
+        {
+          "id": "scholarly_positioning_2",
+          "text": "This research proposal focuses on the ethical implications of AI tools in mental health care, particularly in clinical decision support systems for depression. It aims to develop a human-centered framework that balances technological innovation with clinical responsibility. By analyzing existing literature, the proposal will highlight the importance of transparency and stakeholder inclusion in AI deployment, addressing challenges such as algorithmic bias and the erosion of therapeutic alliances.",
+          "scores": {
+            "comparative_synthesis": 5,
+            "gap_validity": 4,
+            "positioning_quality": 5,
+            "research_debate_awareness": 5
+          },
+          "total": 19,
+          "reason": "Comprehensively addresses ethical concerns and proposes a robust framework, showcasing high awareness of current debates.",
+          "llm_total": 19.0,
+          "anchor_similarity": 0.7663,
+          "literature_similarity": 0.8033,
+          "embedding_alignment": 0.7848,
+          "combined_total": 22.924
+        },
+        {
+          "id": "scholarly_positioning_3",
+          "text": "This proposal examines the scalability and localization of AI mental health tools in diverse educational contexts, focusing on their potential to improve student well-being. It will explore challenges related to data privacy, cultural adaptation, and ethical guidelines. By synthesizing literature on AI applications in education, the study aims to provide actionable recommendations for equitable access to mental health resources, while addressing the need for interdisciplinary collaboration.",
+          "scores": {
+            "comparative_synthesis": 3,
+            "gap_validity": 4,
+            "positioning_quality": 3,
+            "research_debate_awareness": 3
+          },
+          "total": 13,
+          "reason": "Addresses important aspects of scalability and localization but lacks depth in ethical considerations.",
+          "llm_total": 13.0,
+          "anchor_similarity": 0.7357,
+          "literature_similarity": 0.9037,
+          "embedding_alignment": 0.8197,
+          "combined_total": 17.099
+        }
+      ],
+      "selected_id": "scholarly_positioning_2",
+      "selected_text": "This research proposal focuses on the ethical implications of AI tools in mental health care, particularly in clinical decision support systems for depression. It aims to develop a human-centered framework that balances technological innovation with clinical responsibility. By analyzing existing literature, the proposal will highlight the importance of transparency and stakeholder inclusion in AI deployment, addressing challenges such as algorithmic bias and the erosion of therapeutic alliances.",
+      "criteria": [
+        "comparative_synthesis",
+        "gap_validity",
+        "positioning_quality",
+        "research_debate_awareness"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "gap": {
+      "candidates": [
+        {
+          "id": "gap_1",
+          "text": "Investigate the development of culturally sensitive AI mental health tools tailored for underfunded educational settings, focusing on their implementation and effectiveness in addressing diverse student populations' mental health needs.",
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 4,
+            "novelty": 5,
+            "feasibility": 4
+          },
+          "total": 17,
+          "reason": "This candidate is specific in addressing cultural sensitivity and underfunded settings, grounded in existing literature, and presents a novel approach with feasible implementation.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.65,
+          "literature_similarity": 0.8081,
+          "embedding_alignment": 0.7291,
+          "combined_total": 20.645
+        },
+        {
+          "id": "gap_2",
+          "text": "Examine the ethical implications of AI in clinical decision support systems for depression, proposing a comprehensive framework that integrates stakeholder perspectives and addresses algorithmic bias and data privacy.",
+          "scores": {
+            "specificity": 5,
+            "literature_grounding": 5,
+            "novelty": 4,
+            "feasibility": 3
+          },
+          "total": 17,
+          "reason": "Highly specific and well-grounded in literature, though slightly less feasible due to the complexity of integrating multiple stakeholder perspectives.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.6807,
+          "literature_similarity": 0.7468,
+          "embedding_alignment": 0.7137,
+          "combined_total": 20.569
+        },
+        {
+          "id": "gap_3",
+          "text": "Explore the role of AI-assisted music therapy in enhancing emotional regulation among diverse age groups, focusing on the mechanisms that facilitate personalized interventions and their impact on therapeutic alliances.",
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 3,
+            "novelty": 4,
+            "feasibility": 4
+          },
+          "total": 15,
+          "reason": "This candidate is specific and novel but has moderate grounding in literature, making it slightly less robust than the top two candidates.",
+          "llm_total": 15.0,
+          "anchor_similarity": 0.6954,
+          "literature_similarity": 0.8105,
+          "embedding_alignment": 0.753,
+          "combined_total": 18.765
+        }
+      ],
+      "selected_id": "gap_1",
+      "selected_text": "Investigate the development of culturally sensitive AI mental health tools tailored for underfunded educational settings, focusing on their implementation and effectiveness in addressing diverse student populations' mental health needs.",
+      "criteria": [
+        "specificity",
+        "literature_grounding",
+        "novelty",
+        "feasibility"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "theoretical_mechanism": {
+      "candidates": [
+        {
+          "id": "theoretical_mechanism_1",
+          "text": "Develop a framework for AI-assisted music therapy that incorporates real-time emotional feedback from users, enabling personalized interventions that adapt to individual emotional states. This mechanism emphasizes the integration of AI tools with traditional therapeutic practices, ensuring that the therapeutic alliance is maintained while enhancing treatment efficacy.",
+          "scores": {
+            "mechanism_quality": 4,
+            "theoretical_grounding": 4,
+            "causal_plausibility": 4,
+            "assumption_clarity": 3
+          },
+          "total": 15,
+          "reason": "This candidate presents a well-rounded mechanism with strong theoretical grounding and plausible causal links, though it could clarify some assumptions.",
+          "llm_total": 15.0,
+          "anchor_similarity": 0.6177,
+          "literature_similarity": 0.813,
+          "embedding_alignment": 0.7153,
+          "combined_total": 18.576
+        },
+        {
+          "id": "theoretical_mechanism_2",
+          "text": "Implement a culturally sensitive AI framework in educational settings that utilizes localized data to inform mental health interventions. This mechanism focuses on collaboration between AI developers and local mental health professionals to ensure that tools are tailored to the specific needs of diverse student populations, addressing ethical concerns and promoting equity.",
+          "scores": {
+            "mechanism_quality": 5,
+            "theoretical_grounding": 5,
+            "causal_plausibility": 4,
+            "assumption_clarity": 4
+          },
+          "total": 18,
+          "reason": "This candidate excels in mechanism quality and theoretical grounding, presenting a clear and actionable approach to addressing cultural sensitivity in AI applications.",
+          "llm_total": 18.0,
+          "anchor_similarity": 0.8096,
+          "literature_similarity": 0.8605,
+          "embedding_alignment": 0.835,
+          "combined_total": 22.175
+        },
+        {
+          "id": "theoretical_mechanism_3",
+          "text": "Create a regulatory framework for AI tools in mental health that emphasizes ethical governance and transparency. This mechanism aims to mitigate risks associated with algorithmic bias and data privacy while ensuring that AI tools complement human intervention rather than replace it.",
+          "scores": {
+            "mechanism_quality": 3,
+            "theoretical_grounding": 3,
+            "causal_plausibility": 3,
+            "assumption_clarity": 5
+          },
+          "total": 14,
+          "reason": "While this candidate offers a clear regulatory approach, it lacks depth in mechanism quality and theoretical grounding compared to the others.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.7205,
+          "literature_similarity": 0.7578,
+          "embedding_alignment": 0.7391,
+          "combined_total": 17.695
+        }
+      ],
+      "selected_id": "theoretical_mechanism_2",
+      "selected_text": "Implement a culturally sensitive AI framework in educational settings that utilizes localized data to inform mental health interventions. This mechanism focuses on collaboration between AI developers and local mental health professionals to ensure that tools are tailored to the specific needs of diverse student populations, addressing ethical concerns and promoting equity.",
+      "criteria": [
+        "mechanism_quality",
+        "theoretical_grounding",
+        "causal_plausibility",
+        "assumption_clarity"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "hypothesis": {
+      "candidates": [
+        {
+          "id": "hypothesis_1",
+          "text": "Culturally sensitive AI mental health tools can be effectively developed by collaborating with local mental health professionals to create tailored interventions that address the unique needs of diverse student populations in underfunded educational settings.",
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 5,
+            "clarity": 4,
+            "methodological_implication": 4
+          },
+          "total": 17,
+          "reason": "This hypothesis directly addresses the research gap and is clear in its implications for methodology, making it highly testable.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.8493,
+          "literature_similarity": 0.8319,
+          "embedding_alignment": 0.8406,
+          "combined_total": 21.203
+        },
+        {
+          "id": "hypothesis_2",
+          "text": "The integration of AI tools in mental health interventions can enhance diagnostic precision and treatment personalization, but requires a robust ethical framework to mitigate risks such as algorithmic bias and erosion of therapeutic alliances.",
+          "scores": {
+            "testability": 3,
+            "alignment_with_gap": 4,
+            "clarity": 4,
+            "methodological_implication": 3
+          },
+          "total": 14,
+          "reason": "While relevant, this hypothesis is broader and less focused on the specific gap, making it less testable.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.6936,
+          "literature_similarity": 0.8157,
+          "embedding_alignment": 0.7547,
+          "combined_total": 17.773
+        },
+        {
+          "id": "hypothesis_3",
+          "text": "Implementing AI-assisted music therapy in educational settings can significantly reduce anxiety and depressive symptoms among students, provided that ethical standards and cultural sensitivities are prioritized in the development process.",
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 3,
+            "clarity": 5,
+            "methodological_implication": 4
+          },
+          "total": 16,
+          "reason": "This hypothesis is clear and testable but does not align as closely with the identified gap as the first candidate.",
+          "llm_total": 16.0,
+          "anchor_similarity": 0.6157,
+          "literature_similarity": 0.7691,
+          "embedding_alignment": 0.6924,
+          "combined_total": 19.462
+        }
+      ],
+      "selected_id": "hypothesis_1",
+      "selected_text": "Culturally sensitive AI mental health tools can be effectively developed by collaborating with local mental health professionals to create tailored interventions that address the unique needs of diverse student populations in underfunded educational settings.",
+      "criteria": [
+        "testability",
+        "alignment_with_gap",
+        "clarity",
+        "methodological_implication"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "operationalization_causal_check": {
+      "candidates": [
+        {
+          "id": "operationalization_causal_check_1",
+          "text": "Develop a culturally sensitive AI mental health tool by collaborating with local mental health professionals to gather qualitative data on student needs. Measure effectiveness through pre- and post-intervention surveys assessing mental health outcomes, engagement, and user satisfaction. Implement a mixed-methods approach to analyze both quantitative and qualitative data, ensuring confounding variables such as socioeconomic status and prior mental health history are controlled.",
+          "scores": {
+            "construct_operationalization": 4,
+            "measurement_validity": 4,
+            "causal_identification": 3,
+            "confound_awareness": 4
+          },
+          "total": 15,
+          "reason": "This candidate offers a clear operationalization strategy with strong measurement validity and confound awareness, though causal identification could be strengthened.",
+          "llm_total": 15.0,
+          "anchor_similarity": 0.8194,
+          "literature_similarity": 0.7713,
+          "embedding_alignment": 0.7953,
+          "combined_total": 18.977
+        },
+        {
+          "id": "operationalization_causal_check_2",
+          "text": "Implement AI mental health tools in educational settings with a focus on collecting demographic data to tailor interventions. Use standardized mental health assessments to evaluate tool effectiveness. Address confounding factors by stratifying results based on demographic variables, but may lack depth in causal identification due to reliance on observational data.",
+          "scores": {
+            "construct_operationalization": 3,
+            "measurement_validity": 3,
+            "causal_identification": 2,
+            "confound_awareness": 3
+          },
+          "total": 11,
+          "reason": "This candidate has moderate scores but lacks strong causal identification and operational clarity compared to the first candidate.",
+          "llm_total": 11.0,
+          "anchor_similarity": 0.7586,
+          "literature_similarity": 0.7432,
+          "embedding_alignment": 0.7509,
+          "combined_total": 14.755
+        },
+        {
+          "id": "operationalization_causal_check_3",
+          "text": "Create culturally sensitive AI tools by conducting focus groups with students and mental health professionals to identify specific needs. Measure outcomes through qualitative interviews post-implementation, but may face challenges in establishing causal relationships due to the qualitative nature of the data.",
+          "scores": {
+            "construct_operationalization": 3,
+            "measurement_validity": 2,
+            "causal_identification": 2,
+            "confound_awareness": 3
+          },
+          "total": 10,
+          "reason": "This candidate provides a qualitative approach but lacks robustness in measurement validity and causal identification, making it less competitive.",
+          "llm_total": 10.0,
+          "anchor_similarity": 0.7544,
+          "literature_similarity": 0.7146,
+          "embedding_alignment": 0.7345,
+          "combined_total": 13.672
+        }
+      ],
+      "selected_id": "operationalization_causal_check_1",
+      "selected_text": "Develop a culturally sensitive AI mental health tool by collaborating with local mental health professionals to gather qualitative data on student needs. Measure effectiveness through pre- and post-intervention surveys assessing mental health outcomes, engagement, and user satisfaction. Implement a mixed-methods approach to analyze both quantitative and qualitative data, ensuring confounding variables such as socioeconomic status and prior mental health history are controlled.",
+      "criteria": [
+        "construct_operationalization",
+        "measurement_validity",
+        "causal_identification",
+        "confound_awareness"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "methodology": {
+      "candidates": [
+        {
+          "id": "methodology_1",
+          "text": "Develop a culturally sensitive AI mental health tool by collaborating with local mental health professionals to gather qualitative data on student needs. Implement a pilot program in selected underfunded educational settings, utilizing focus groups and interviews to refine the tool. Measure effectiveness through pre- and post-intervention surveys assessing mental health outcomes, engagement, and user satisfaction. Analyze data using mixed-methods to ensure comprehensive insights.",
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 4,
+            "evaluation_metrics": 5,
+            "scope_control": 3,
+            "alignment_with_hypothesis": 5
+          },
+          "total": 21,
+          "reason": "This candidate offers a clear operational plan with strong evaluation metrics and aligns well with the hypothesis.",
+          "llm_total": 21.0,
+          "anchor_similarity": 0.9073,
+          "literature_similarity": 0.7847,
+          "embedding_alignment": 0.846,
+          "combined_total": 25.23
+        },
+        {
+          "id": "methodology_2",
+          "text": "Conduct a systematic review of existing AI mental health tools and their cultural adaptations in educational settings. Identify gaps and propose a framework for developing culturally sensitive tools. Collaborate with educational institutions to implement a survey assessing current mental health needs and tool effectiveness. Use quantitative analysis to evaluate the impact of proposed frameworks on student mental health.",
+          "scores": {
+            "feasibility": 3,
+            "baseline_design": 3,
+            "evaluation_metrics": 4,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 4
+          },
+          "total": 18,
+          "reason": "While this candidate provides a solid framework, it lacks the direct implementation aspect that strengthens the hypothesis.",
+          "llm_total": 18.0,
+          "anchor_similarity": 0.8176,
+          "literature_similarity": 0.7595,
+          "embedding_alignment": 0.7886,
+          "combined_total": 21.943
+        },
+        {
+          "id": "methodology_3",
+          "text": "Create a culturally sensitive AI mental health tool through a collaborative design process involving students, educators, and mental health professionals. Conduct workshops to gather input and refine the tool. Implement the tool in a small cohort and assess its impact on mental health outcomes through qualitative interviews and quantitative surveys, controlling for external factors.",
+          "scores": {
+            "feasibility": 5,
+            "baseline_design": 4,
+            "evaluation_metrics": 4,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 5
+          },
+          "total": 22,
+          "reason": "This candidate excels in feasibility and alignment with the hypothesis, providing a strong collaborative approach.",
+          "llm_total": 22.0,
+          "anchor_similarity": 0.8458,
+          "literature_similarity": 0.7318,
+          "embedding_alignment": 0.7888,
+          "combined_total": 25.944
+        }
+      ],
+      "selected_id": "methodology_3",
+      "selected_text": "Create a culturally sensitive AI mental health tool through a collaborative design process involving students, educators, and mental health professionals. Conduct workshops to gather input and refine the tool. Implement the tool in a small cohort and assess its impact on mental health outcomes through qualitative interviews and quantitative surveys, controlling for external factors.",
+      "criteria": [
+        "feasibility",
+        "baseline_design",
+        "evaluation_metrics",
+        "scope_control",
+        "alignment_with_hypothesis"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "failure_analysis": {
+      "candidates": [
+        {
+          "id": "failure_analysis_1",
+          "text": "The implementation of culturally sensitive AI mental health tools may fail due to insufficient collaboration with local mental health professionals, leading to a lack of understanding of the specific needs of diverse student populations. Additionally, if the tools are not adequately tested for bias, they may inadvertently reinforce existing inequalities in mental health support. This failure could result in negative mental health outcomes for students, as the tools may not address their unique challenges effectively.",
+          "scores": {
+            "failure_mode_specificity": 4,
+            "limitation_depth": 3,
+            "risk_mitigation": 2,
+            "negative_result_interpretation": 3
+          },
+          "total": 12,
+          "reason": "Identifies specific failure modes but lacks depth in risk mitigation strategies.",
+          "llm_total": 12.0,
+          "anchor_similarity": 0.7562,
+          "literature_similarity": 0.7941,
+          "embedding_alignment": 0.7752,
+          "combined_total": 15.876
+        },
+        {
+          "id": "failure_analysis_2",
+          "text": "A significant failure mode could arise from the algorithmic bias present in AI tools, which may lead to misdiagnosis or inappropriate interventions for certain student demographics. This could occur if the training data lacks diversity, resulting in tools that do not generalize well across different populations. To mitigate this risk, it is crucial to implement rigorous testing protocols and continuous monitoring of AI outputs to ensure equitable treatment. Negative results should be interpreted as evidence of the need for iterative improvements in the tool's design and functionality.",
+          "scores": {
+            "failure_mode_specificity": 5,
+            "limitation_depth": 4,
+            "risk_mitigation": 4,
+            "negative_result_interpretation": 5
+          },
+          "total": 18,
+          "reason": "Thoroughly addresses failure modes and includes comprehensive risk mitigation strategies.",
+          "llm_total": 18.0,
+          "anchor_similarity": 0.565,
+          "literature_similarity": 0.6608,
+          "embedding_alignment": 0.6129,
+          "combined_total": 21.064
+        },
+        {
+          "id": "failure_analysis_3",
+          "text": "The failure of culturally sensitive AI mental health tools may stem from a lack of engagement with the target population, resulting in tools that do not resonate with students' experiences. This could lead to low adoption rates and ineffective interventions. Additionally, if ethical considerations are not prioritized, there could be significant breaches of data privacy, further alienating users. Mitigation strategies should include stakeholder feedback loops and ethical audits to ensure alignment with user needs and values. Negative results should prompt a reevaluation of the tool's design and its alignment with cultural contexts.",
+          "scores": {
+            "failure_mode_specificity": 3,
+            "limitation_depth": 4,
+            "risk_mitigation": 3,
+            "negative_result_interpretation": 4
+          },
+          "total": 14,
+          "reason": "Covers various failure modes but lacks specificity in risk mitigation.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.7481,
+          "literature_similarity": 0.7754,
+          "embedding_alignment": 0.7618,
+          "combined_total": 17.809
+        }
+      ],
+      "selected_id": "failure_analysis_2",
+      "selected_text": "A significant failure mode could arise from the algorithmic bias present in AI tools, which may lead to misdiagnosis or inappropriate interventions for certain student demographics. This could occur if the training data lacks diversity, resulting in tools that do not generalize well across different populations. To mitigate this risk, it is crucial to implement rigorous testing protocols and continuous monitoring of AI outputs to ensure equitable treatment. Negative results should be interpreted as evidence of the need for iterative improvements in the tool's design and functionality.",
+      "criteria": [
+        "failure_mode_specificity",
+        "limitation_depth",
+        "risk_mitigation",
+        "negative_result_interpretation"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    }
+  },
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 3,
+        "title": "The application of AI-assisted music therapy tools in mental health interventions",
+        "similarity": 0.679
+      },
+      {
+        "original_index": 1,
+        "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+        "similarity": 0.6558
+      },
+      {
+        "original_index": 6,
+        "title": "Scalability and Localization of AI Mental Health Tools for Diverse Socioeconomic and Linguistic Student Populations",
+        "similarity": 0.6537
+      },
+      {
+        "original_index": 4,
+        "title": "Practice: AI Tools and Their Application Possibilities",
+        "similarity": 0.615
+      },
+      {
+        "original_index": 2,
+        "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+        "similarity": 0.5508
+      },
+      {
+        "original_index": 5,
+        "title": "An introduction to artificial intelligence in sleep medicine",
+        "similarity": 0.4429
+      }
+    ],
+    "experience_memory": "Experience memory and bandit-style strategy advice:\n- Selected strategy: theory-heavy.\n- Best prior condition for similar topics: multi_stage_group_selection with score 75.0/100.\n- Recurring weak criteria:\n- Novelty & Research Contribution: appeared weak in 23 similar run(s). Example feedback: While the proposal attempts to introduce a new theoretical framework, it primarily builds on existing literature without offering a fundamentally new theoretical perspective. The novelty is moderate but not groundbreakin\n- Feasibility & Experimental Design: appeared weak in 21 similar run(s). Example feedback: The mixed-methods design is a step forward, but lacks detail on sample size justification, evaluation metrics, and controls for confounding variables. The methodology is not sufficiently rigorous. Major weaknesses: Insuf\n- PhD-Level Academic Depth: appeared weak in 21 similar run(s). Example feedback: The proposal demonstrates some theoretical grounding but lacks depth in discussing mechanisms, limitations, and broader implications. It does not fully articulate the scientific maturity expected at the PhD level. Major \n- Logical Coherence & Multi-Stage Reasoning: appeared weak in 14 similar run(s). Example feedback: The proposal presents a logical flow but has gaps in the justification for causal claims regarding AI personalization. The connections between the hypothesis and methodology are not fully substantiated. Major weaknesses:\nUse this as inference-time guidance: strengthen these weak dimensions proactively while preserving the current condition's rules.",
+    "group_selection": {
+      "scholarly_positioning": {
+        "candidates": [
+          {
+            "id": "scholarly_positioning_1",
+            "text": "This proposal aims to investigate the integration of AI-assisted music therapy tools in mental health interventions, emphasizing the need for ethical governance and cultural sensitivity. By synthesizing findings from recent literature, it will explore how AI can enhance personalized treatment and address disparities in access to mental health care, particularly in underfunded educational settings. The study will also critically examine algorithmic bias and data privacy concerns, proposing a framework for responsible AI deployment in therapeutic contexts.",
+            "scores": {
+              "comparative_synthesis": 4,
+              "gap_validity": 5,
+              "positioning_quality": 4,
+              "research_debate_awareness": 4
+            },
+            "total": 17,
+            "reason": "Strongly addresses gaps in ethical governance and cultural sensitivity while synthesizing relevant literature.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.8403,
+            "literature_similarity": 0.8485,
+            "embedding_alignment": 0.8444,
+            "combined_total": 21.222
+          },
+          {
+            "id": "scholarly_positioning_2",
+            "text": "This research proposal focuses on the ethical implications of AI tools in mental health care, particularly in clinical decision support systems for depression. It aims to develop a human-centered framework that balances technological innovation with clinical responsibility. By analyzing existing literature, the proposal will highlight the importance of transparency and stakeholder inclusion in AI deployment, addressing challenges such as algorithmic bias and the erosion of therapeutic alliances.",
+            "scores": {
+              "comparative_synthesis": 5,
+              "gap_validity": 4,
+              "positioning_quality": 5,
+              "research_debate_awareness": 5
+            },
+            "total": 19,
+            "reason": "Comprehensively addresses ethical concerns and proposes a robust framework, showcasing high awareness of current debates.",
+            "llm_total": 19.0,
+            "anchor_similarity": 0.7663,
+            "literature_similarity": 0.8033,
+            "embedding_alignment": 0.7848,
+            "combined_total": 22.924
+          },
+          {
+            "id": "scholarly_positioning_3",
+            "text": "This proposal examines the scalability and localization of AI mental health tools in diverse educational contexts, focusing on their potential to improve student well-being. It will explore challenges related to data privacy, cultural adaptation, and ethical guidelines. By synthesizing literature on AI applications in education, the study aims to provide actionable recommendations for equitable access to mental health resources, while addressing the need for interdisciplinary collaboration.",
+            "scores": {
+              "comparative_synthesis": 3,
+              "gap_validity": 4,
+              "positioning_quality": 3,
+              "research_debate_awareness": 3
+            },
+            "total": 13,
+            "reason": "Addresses important aspects of scalability and localization but lacks depth in ethical considerations.",
+            "llm_total": 13.0,
+            "anchor_similarity": 0.7357,
+            "literature_similarity": 0.9037,
+            "embedding_alignment": 0.8197,
+            "combined_total": 17.099
+          }
+        ],
+        "selected_id": "scholarly_positioning_2",
+        "selected_text": "This research proposal focuses on the ethical implications of AI tools in mental health care, particularly in clinical decision support systems for depression. It aims to develop a human-centered framework that balances technological innovation with clinical responsibility. By analyzing existing literature, the proposal will highlight the importance of transparency and stakeholder inclusion in AI deployment, addressing challenges such as algorithmic bias and the erosion of therapeutic alliances.",
+        "criteria": [
+          "comparative_synthesis",
+          "gap_validity",
+          "positioning_quality",
+          "research_debate_awareness"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "gap": {
+        "candidates": [
+          {
+            "id": "gap_1",
+            "text": "Investigate the development of culturally sensitive AI mental health tools tailored for underfunded educational settings, focusing on their implementation and effectiveness in addressing diverse student populations' mental health needs.",
+            "scores": {
+              "specificity": 4,
+              "literature_grounding": 4,
+              "novelty": 5,
+              "feasibility": 4
+            },
+            "total": 17,
+            "reason": "This candidate is specific in addressing cultural sensitivity and underfunded settings, grounded in existing literature, and presents a novel approach with feasible implementation.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.65,
+            "literature_similarity": 0.8081,
+            "embedding_alignment": 0.7291,
+            "combined_total": 20.645
+          },
+          {
+            "id": "gap_2",
+            "text": "Examine the ethical implications of AI in clinical decision support systems for depression, proposing a comprehensive framework that integrates stakeholder perspectives and addresses algorithmic bias and data privacy.",
+            "scores": {
+              "specificity": 5,
+              "literature_grounding": 5,
+              "novelty": 4,
+              "feasibility": 3
+            },
+            "total": 17,
+            "reason": "Highly specific and well-grounded in literature, though slightly less feasible due to the complexity of integrating multiple stakeholder perspectives.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.6807,
+            "literature_similarity": 0.7468,
+            "embedding_alignment": 0.7137,
+            "combined_total": 20.569
+          },
+          {
+            "id": "gap_3",
+            "text": "Explore the role of AI-assisted music therapy in enhancing emotional regulation among diverse age groups, focusing on the mechanisms that facilitate personalized interventions and their impact on therapeutic alliances.",
+            "scores": {
+              "specificity": 4,
+              "literature_grounding": 3,
+              "novelty": 4,
+              "feasibility": 4
+            },
+            "total": 15,
+            "reason": "This candidate is specific and novel but has moderate grounding in literature, making it slightly less robust than the top two candidates.",
+            "llm_total": 15.0,
+            "anchor_similarity": 0.6954,
+            "literature_similarity": 0.8105,
+            "embedding_alignment": 0.753,
+            "combined_total": 18.765
+          }
+        ],
+        "selected_id": "gap_1",
+        "selected_text": "Investigate the development of culturally sensitive AI mental health tools tailored for underfunded educational settings, focusing on their implementation and effectiveness in addressing diverse student populations' mental health needs.",
+        "criteria": [
+          "specificity",
+          "literature_grounding",
+          "novelty",
+          "feasibility"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "theoretical_mechanism": {
+        "candidates": [
+          {
+            "id": "theoretical_mechanism_1",
+            "text": "Develop a framework for AI-assisted music therapy that incorporates real-time emotional feedback from users, enabling personalized interventions that adapt to individual emotional states. This mechanism emphasizes the integration of AI tools with traditional therapeutic practices, ensuring that the therapeutic alliance is maintained while enhancing treatment efficacy.",
+            "scores": {
+              "mechanism_quality": 4,
+              "theoretical_grounding": 4,
+              "causal_plausibility": 4,
+              "assumption_clarity": 3
+            },
+            "total": 15,
+            "reason": "This candidate presents a well-rounded mechanism with strong theoretical grounding and plausible causal links, though it could clarify some assumptions.",
+            "llm_total": 15.0,
+            "anchor_similarity": 0.6177,
+            "literature_similarity": 0.813,
+            "embedding_alignment": 0.7153,
+            "combined_total": 18.576
+          },
+          {
+            "id": "theoretical_mechanism_2",
+            "text": "Implement a culturally sensitive AI framework in educational settings that utilizes localized data to inform mental health interventions. This mechanism focuses on collaboration between AI developers and local mental health professionals to ensure that tools are tailored to the specific needs of diverse student populations, addressing ethical concerns and promoting equity.",
+            "scores": {
+              "mechanism_quality": 5,
+              "theoretical_grounding": 5,
+              "causal_plausibility": 4,
+              "assumption_clarity": 4
+            },
+            "total": 18,
+            "reason": "This candidate excels in mechanism quality and theoretical grounding, presenting a clear and actionable approach to addressing cultural sensitivity in AI applications.",
+            "llm_total": 18.0,
+            "anchor_similarity": 0.8096,
+            "literature_similarity": 0.8605,
+            "embedding_alignment": 0.835,
+            "combined_total": 22.175
+          },
+          {
+            "id": "theoretical_mechanism_3",
+            "text": "Create a regulatory framework for AI tools in mental health that emphasizes ethical governance and transparency. This mechanism aims to mitigate risks associated with algorithmic bias and data privacy while ensuring that AI tools complement human intervention rather than replace it.",
+            "scores": {
+              "mechanism_quality": 3,
+              "theoretical_grounding": 3,
+              "causal_plausibility": 3,
+              "assumption_clarity": 5
+            },
+            "total": 14,
+            "reason": "While this candidate offers a clear regulatory approach, it lacks depth in mechanism quality and theoretical grounding compared to the others.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.7205,
+            "literature_similarity": 0.7578,
+            "embedding_alignment": 0.7391,
+            "combined_total": 17.695
+          }
+        ],
+        "selected_id": "theoretical_mechanism_2",
+        "selected_text": "Implement a culturally sensitive AI framework in educational settings that utilizes localized data to inform mental health interventions. This mechanism focuses on collaboration between AI developers and local mental health professionals to ensure that tools are tailored to the specific needs of diverse student populations, addressing ethical concerns and promoting equity.",
+        "criteria": [
+          "mechanism_quality",
+          "theoretical_grounding",
+          "causal_plausibility",
+          "assumption_clarity"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "hypothesis": {
+        "candidates": [
+          {
+            "id": "hypothesis_1",
+            "text": "Culturally sensitive AI mental health tools can be effectively developed by collaborating with local mental health professionals to create tailored interventions that address the unique needs of diverse student populations in underfunded educational settings.",
+            "scores": {
+              "testability": 4,
+              "alignment_with_gap": 5,
+              "clarity": 4,
+              "methodological_implication": 4
+            },
+            "total": 17,
+            "reason": "This hypothesis directly addresses the research gap and is clear in its implications for methodology, making it highly testable.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.8493,
+            "literature_similarity": 0.8319,
+            "embedding_alignment": 0.8406,
+            "combined_total": 21.203
+          },
+          {
+            "id": "hypothesis_2",
+            "text": "The integration of AI tools in mental health interventions can enhance diagnostic precision and treatment personalization, but requires a robust ethical framework to mitigate risks such as algorithmic bias and erosion of therapeutic alliances.",
+            "scores": {
+              "testability": 3,
+              "alignment_with_gap": 4,
+              "clarity": 4,
+              "methodological_implication": 3
+            },
+            "total": 14,
+            "reason": "While relevant, this hypothesis is broader and less focused on the specific gap, making it less testable.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.6936,
+            "literature_similarity": 0.8157,
+            "embedding_alignment": 0.7547,
+            "combined_total": 17.773
+          },
+          {
+            "id": "hypothesis_3",
+            "text": "Implementing AI-assisted music therapy in educational settings can significantly reduce anxiety and depressive symptoms among students, provided that ethical standards and cultural sensitivities are prioritized in the development process.",
+            "scores": {
+              "testability": 4,
+              "alignment_with_gap": 3,
+              "clarity": 5,
+              "methodological_implication": 4
+            },
+            "total": 16,
+            "reason": "This hypothesis is clear and testable but does not align as closely with the identified gap as the first candidate.",
+            "llm_total": 16.0,
+            "anchor_similarity": 0.6157,
+            "literature_similarity": 0.7691,
+            "embedding_alignment": 0.6924,
+            "combined_total": 19.462
+          }
+        ],
+        "selected_id": "hypothesis_1",
+        "selected_text": "Culturally sensitive AI mental health tools can be effectively developed by collaborating with local mental health professionals to create tailored interventions that address the unique needs of diverse student populations in underfunded educational settings.",
+        "criteria": [
+          "testability",
+          "alignment_with_gap",
+          "clarity",
+          "methodological_implication"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "operationalization_causal_check": {
+        "candidates": [
+          {
+            "id": "operationalization_causal_check_1",
+            "text": "Develop a culturally sensitive AI mental health tool by collaborating with local mental health professionals to gather qualitative data on student needs. Measure effectiveness through pre- and post-intervention surveys assessing mental health outcomes, engagement, and user satisfaction. Implement a mixed-methods approach to analyze both quantitative and qualitative data, ensuring confounding variables such as socioeconomic status and prior mental health history are controlled.",
+            "scores": {
+              "construct_operationalization": 4,
+              "measurement_validity": 4,
+              "causal_identification": 3,
+              "confound_awareness": 4
+            },
+            "total": 15,
+            "reason": "This candidate offers a clear operationalization strategy with strong measurement validity and confound awareness, though causal identification could be strengthened.",
+            "llm_total": 15.0,
+            "anchor_similarity": 0.8194,
+            "literature_similarity": 0.7713,
+            "embedding_alignment": 0.7953,
+            "combined_total": 18.977
+          },
+          {
+            "id": "operationalization_causal_check_2",
+            "text": "Implement AI mental health tools in educational settings with a focus on collecting demographic data to tailor interventions. Use standardized mental health assessments to evaluate tool effectiveness. Address confounding factors by stratifying results based on demographic variables, but may lack depth in causal identification due to reliance on observational data.",
+            "scores": {
+              "construct_operationalization": 3,
+              "measurement_validity": 3,
+              "causal_identification": 2,
+              "confound_awareness": 3
+            },
+            "total": 11,
+            "reason": "This candidate has moderate scores but lacks strong causal identification and operational clarity compared to the first candidate.",
+            "llm_total": 11.0,
+            "anchor_similarity": 0.7586,
+            "literature_similarity": 0.7432,
+            "embedding_alignment": 0.7509,
+            "combined_total": 14.755
+          },
+          {
+            "id": "operationalization_causal_check_3",
+            "text": "Create culturally sensitive AI tools by conducting focus groups with students and mental health professionals to identify specific needs. Measure outcomes through qualitative interviews post-implementation, but may face challenges in establishing causal relationships due to the qualitative nature of the data.",
+            "scores": {
+              "construct_operationalization": 3,
+              "measurement_validity": 2,
+              "causal_identification": 2,
+              "confound_awareness": 3
+            },
+            "total": 10,
+            "reason": "This candidate provides a qualitative approach but lacks robustness in measurement validity and causal identification, making it less competitive.",
+            "llm_total": 10.0,
+            "anchor_similarity": 0.7544,
+            "literature_similarity": 0.7146,
+            "embedding_alignment": 0.7345,
+            "combined_total": 13.672
+          }
+        ],
+        "selected_id": "operationalization_causal_check_1",
+        "selected_text": "Develop a culturally sensitive AI mental health tool by collaborating with local mental health professionals to gather qualitative data on student needs. Measure effectiveness through pre- and post-intervention surveys assessing mental health outcomes, engagement, and user satisfaction. Implement a mixed-methods approach to analyze both quantitative and qualitative data, ensuring confounding variables such as socioeconomic status and prior mental health history are controlled.",
+        "criteria": [
+          "construct_operationalization",
+          "measurement_validity",
+          "causal_identification",
+          "confound_awareness"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "methodology": {
+        "candidates": [
+          {
+            "id": "methodology_1",
+            "text": "Develop a culturally sensitive AI mental health tool by collaborating with local mental health professionals to gather qualitative data on student needs. Implement a pilot program in selected underfunded educational settings, utilizing focus groups and interviews to refine the tool. Measure effectiveness through pre- and post-intervention surveys assessing mental health outcomes, engagement, and user satisfaction. Analyze data using mixed-methods to ensure comprehensive insights.",
+            "scores": {
+              "feasibility": 4,
+              "baseline_design": 4,
+              "evaluation_metrics": 5,
+              "scope_control": 3,
+              "alignment_with_hypothesis": 5
+            },
+            "total": 21,
+            "reason": "This candidate offers a clear operational plan with strong evaluation metrics and aligns well with the hypothesis.",
+            "llm_total": 21.0,
+            "anchor_similarity": 0.9073,
+            "literature_similarity": 0.7847,
+            "embedding_alignment": 0.846,
+            "combined_total": 25.23
+          },
+          {
+            "id": "methodology_2",
+            "text": "Conduct a systematic review of existing AI mental health tools and their cultural adaptations in educational settings. Identify gaps and propose a framework for developing culturally sensitive tools. Collaborate with educational institutions to implement a survey assessing current mental health needs and tool effectiveness. Use quantitative analysis to evaluate the impact of proposed frameworks on student mental health.",
+            "scores": {
+              "feasibility": 3,
+              "baseline_design": 3,
+              "evaluation_metrics": 4,
+              "scope_control": 4,
+              "alignment_with_hypothesis": 4
+            },
+            "total": 18,
+            "reason": "While this candidate provides a solid framework, it lacks the direct implementation aspect that strengthens the hypothesis.",
+            "llm_total": 18.0,
+            "anchor_similarity": 0.8176,
+            "literature_similarity": 0.7595,
+            "embedding_alignment": 0.7886,
+            "combined_total": 21.943
+          },
+          {
+            "id": "methodology_3",
+            "text": "Create a culturally sensitive AI mental health tool through a collaborative design process involving students, educators, and mental health professionals. Conduct workshops to gather input and refine the tool. Implement the tool in a small cohort and assess its impact on mental health outcomes through qualitative interviews and quantitative surveys, controlling for external factors.",
+            "scores": {
+              "feasibility": 5,
+              "baseline_design": 4,
+              "evaluation_metrics": 4,
+              "scope_control": 4,
+              "alignment_with_hypothesis": 5
+            },
+            "total": 22,
+            "reason": "This candidate excels in feasibility and alignment with the hypothesis, providing a strong collaborative approach.",
+            "llm_total": 22.0,
+            "anchor_similarity": 0.8458,
+            "literature_similarity": 0.7318,
+            "embedding_alignment": 0.7888,
+            "combined_total": 25.944
+          }
+        ],
+        "selected_id": "methodology_3",
+        "selected_text": "Create a culturally sensitive AI mental health tool through a collaborative design process involving students, educators, and mental health professionals. Conduct workshops to gather input and refine the tool. Implement the tool in a small cohort and assess its impact on mental health outcomes through qualitative interviews and quantitative surveys, controlling for external factors.",
+        "criteria": [
+          "feasibility",
+          "baseline_design",
+          "evaluation_metrics",
+          "scope_control",
+          "alignment_with_hypothesis"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "failure_analysis": {
+        "candidates": [
+          {
+            "id": "failure_analysis_1",
+            "text": "The implementation of culturally sensitive AI mental health tools may fail due to insufficient collaboration with local mental health professionals, leading to a lack of understanding of the specific needs of diverse student populations. Additionally, if the tools are not adequately tested for bias, they may inadvertently reinforce existing inequalities in mental health support. This failure could result in negative mental health outcomes for students, as the tools may not address their unique challenges effectively.",
+            "scores": {
+              "failure_mode_specificity": 4,
+              "limitation_depth": 3,
+              "risk_mitigation": 2,
+              "negative_result_interpretation": 3
+            },
+            "total": 12,
+            "reason": "Identifies specific failure modes but lacks depth in risk mitigation strategies.",
+            "llm_total": 12.0,
+            "anchor_similarity": 0.7562,
+            "literature_similarity": 0.7941,
+            "embedding_alignment": 0.7752,
+            "combined_total": 15.876
+          },
+          {
+            "id": "failure_analysis_2",
+            "text": "A significant failure mode could arise from the algorithmic bias present in AI tools, which may lead to misdiagnosis or inappropriate interventions for certain student demographics. This could occur if the training data lacks diversity, resulting in tools that do not generalize well across different populations. To mitigate this risk, it is crucial to implement rigorous testing protocols and continuous monitoring of AI outputs to ensure equitable treatment. Negative results should be interpreted as evidence of the need for iterative improvements in the tool's design and functionality.",
+            "scores": {
+              "failure_mode_specificity": 5,
+              "limitation_depth": 4,
+              "risk_mitigation": 4,
+              "negative_result_interpretation": 5
+            },
+            "total": 18,
+            "reason": "Thoroughly addresses failure modes and includes comprehensive risk mitigation strategies.",
+            "llm_total": 18.0,
+            "anchor_similarity": 0.565,
+            "literature_similarity": 0.6608,
+            "embedding_alignment": 0.6129,
+            "combined_total": 21.064
+          },
+          {
+            "id": "failure_analysis_3",
+            "text": "The failure of culturally sensitive AI mental health tools may stem from a lack of engagement with the target population, resulting in tools that do not resonate with students' experiences. This could lead to low adoption rates and ineffective interventions. Additionally, if ethical considerations are not prioritized, there could be significant breaches of data privacy, further alienating users. Mitigation strategies should include stakeholder feedback loops and ethical audits to ensure alignment with user needs and values. Negative results should prompt a reevaluation of the tool's design and its alignment with cultural contexts.",
+            "scores": {
+              "failure_mode_specificity": 3,
+              "limitation_depth": 4,
+              "risk_mitigation": 3,
+              "negative_result_interpretation": 4
+            },
+            "total": 14,
+            "reason": "Covers various failure modes but lacks specificity in risk mitigation.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.7481,
+            "literature_similarity": 0.7754,
+            "embedding_alignment": 0.7618,
+            "combined_total": 17.809
+          }
+        ],
+        "selected_id": "failure_analysis_2",
+        "selected_text": "A significant failure mode could arise from the algorithmic bias present in AI tools, which may lead to misdiagnosis or inappropriate interventions for certain student demographics. This could occur if the training data lacks diversity, resulting in tools that do not generalize well across different populations. To mitigate this risk, it is crucial to implement rigorous testing protocols and continuous monitoring of AI outputs to ensure equitable treatment. Negative results should be interpreted as evidence of the need for iterative improvements in the tool's design and functionality.",
+        "criteria": [
+          "failure_mode_specificity",
+          "limitation_depth",
+          "risk_mitigation",
+          "negative_result_interpretation"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      }
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_group_selection",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "the application of ai tools in mental treatment",
+    "retrieval_snapshot_id": "20260523T175021Z-the-application-of-ai-tools-in-mental-treatment-6",
+    "latency_ms": 225980,
+    "prompt_tokens": 63186,
+    "completion_tokens": 11512,
+    "total_tokens": 74698,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

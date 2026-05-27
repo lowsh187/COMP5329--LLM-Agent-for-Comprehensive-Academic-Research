@@ -2,6 +2,9 @@ import type { ResearchResult } from "./types";
 
 export const demoResult: ResearchResult = {
   topic: "LLM-based feedback generation for programming education",
+  condition: "multi_stage_with_retrieval",
+  retrieval_query: "LLM-based feedback generation for programming education",
+  retrieval_snapshot_id: "demo-snapshot-llm-feedback-5",
   papers: [
     {
       title: "Large Language Models for Automated Programming Feedback",
@@ -22,6 +25,15 @@ export const demoResult: ResearchResult = {
       source: "Semantic Scholar"
     }
   ],
+  literature_themes: [
+    {
+      theme: "Programming Feedback With LLMs",
+      paper_indices: [1, 2],
+      summary: "This cluster focuses on LLM-generated feedback and retrieval-augmented educational support.",
+      limitations: "Existing work often lacks controlled comparisons of feedback grounding.",
+      gap_relevance: "The cluster supports a gap around whether literature-grounded feedback improves learning outcomes."
+    }
+  ],
   summary:
     "Existing work suggests that LLMs can provide scalable programming feedback, but quality varies across task types and student skill levels.",
   gap:
@@ -40,6 +52,60 @@ export const demoResult: ResearchResult = {
     novelty: 3,
     feasibility: 5,
     literature_alignment: 4,
+    phd_level_quality: 4,
+    presentation: 4,
+    weighted_total: 82,
+    rubric_scores: [
+      {
+        criterion: "Research Clarity & Problem Definition",
+        weight: 15,
+        score: 13,
+        level: "Very Good",
+        justification: "The problem and target use case are clear."
+      },
+      {
+        criterion: "Logical Coherence & Multi-Stage Reasoning",
+        weight: 15,
+        score: 13,
+        level: "Very Good",
+        justification: "The staged reasoning chain is coherent."
+      },
+      {
+        criterion: "Novelty & Research Contribution",
+        weight: 20,
+        score: 15,
+        level: "Very Good",
+        justification: "The literature-grounded comparison gives a clear contribution."
+      },
+      {
+        criterion: "Feasibility & Experimental Design",
+        weight: 20,
+        score: 17,
+        level: "Very Good",
+        justification: "The study design has clear groups and metrics."
+      },
+      {
+        criterion: "Literature Alignment & Scholarly Positioning",
+        weight: 15,
+        score: 12,
+        level: "Very Good",
+        justification: "The proposal uses retrieved work but could compare more deeply."
+      },
+      {
+        criterion: "PhD-Level Research Quality & Academic Depth",
+        weight: 10,
+        score: 8,
+        level: "Very Good",
+        justification: "The proposal shows research depth with manageable scope."
+      },
+      {
+        criterion: "Presentation & Academic Communication",
+        weight: 5,
+        score: 4,
+        level: "Very Good",
+        justification: "The writing is clear and professional."
+      }
+    ],
     comments:
       "The proposal is clear and feasible. Novelty is moderate because LLM feedback is an active research area, but the literature-grounded comparison gives it a focused angle."
   },
@@ -53,5 +119,20 @@ export const demoResult: ResearchResult = {
       feasibility: 4,
       literature_alignment: 3
     }
+  },
+  metrics: {
+    condition: "multi_stage_with_retrieval",
+    model: "demo-model",
+    temperature: 0.3,
+    retrieval_query: "LLM-based feedback generation for programming education",
+    retrieval_snapshot_id: "demo-snapshot-llm-feedback-5",
+    latency_ms: 1840,
+    prompt_tokens: 3200,
+    completion_tokens: 980,
+    total_tokens: 4180,
+    json_valid: true,
+    required_field_completeness: 1,
+    failed_requests: 0,
+    retry_count: 0
   }
 };

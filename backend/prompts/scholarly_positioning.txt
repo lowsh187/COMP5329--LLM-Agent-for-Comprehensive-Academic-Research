@@ -1,0 +1,15 @@
+Task: Develop scholarly positioning for the proposed research.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Return JSON with exactly this key:
+{{
+  "scholarly_positioning": "A critical positioning statement in 3-5 sentences. Compare prior approaches, identify unresolved tensions or limitations, explain why existing work is insufficient, and situate the proposed work within a broader research debate."
+}}

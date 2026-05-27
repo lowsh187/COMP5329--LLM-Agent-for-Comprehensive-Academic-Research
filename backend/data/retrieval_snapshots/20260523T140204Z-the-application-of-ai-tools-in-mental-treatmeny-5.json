@@ -1,0 +1,63 @@
+{
+  "snapshot_id": "20260523T140204Z-the-application-of-ai-tools-in-mental-treatmeny-5",
+  "topic": "the application of ai tools in mental treatmeny",
+  "retrieval_query": "the application of ai tools in mental treatmeny",
+  "max_papers": 5,
+  "retrieved_at": "20260523T140204Z",
+  "papers": [
+    {
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "authors": [
+        "Anna-Carolina Haensch"
+      ],
+      "abstract": "The emergence of generative AI chatbots such as ChatGPT has prompted growing public and academic interest in their role as informal mental health support tools. While early rule-based systems have been around for several years, large language models (LLMs) offer new capabilities in conversational fluency, empathy simulation, and availability. This study explores how users engage with LLMs as mental health tools by analyzing over 10,000 TikTok comments from videos referencing LLMs as mental health tools. Using a self-developed tiered coding schema and supervised classification models, we identify user experiences, attitudes, and recurring themes. Results show that nearly 20% of comments reflect personal use, with these users expressing overwhelmingly positive attitudes. Commonly cited benefits include accessibility, emotional support, and perceived therapeutic value. However, concerns around privacy, generic responses, and the lack of professional oversight remain prominent. It is important to note that the user feedback does not indicate which therapeutic framework, if any, the LLM-generated output aligns with. While the findings underscore the growing relevance of AI in everyday practices, they also highlight the urgent need for clinical and ethical scrutiny in the use of AI for mental health support.",
+      "published": "2025-04-14",
+      "url": "http://arxiv.org/abs/2504.12337v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "published": "2025-01-06",
+      "url": "http://arxiv.org/abs/2501.02842v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    },
+    {
+      "title": "AI prediction leads people to forgo guaranteed rewards",
+      "authors": [
+        "Aoi Naito",
+        "Hirokazu Shirado"
+      ],
+      "abstract": "Artificial intelligence (AI) is understood to affect the content of people's decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI can also change how people decide. In this paradigm, belief in predictive authority can lead individuals to constrain decision-making, forgoing a guaranteed reward. Over 40% of participants treated AI as such a predictive authority. This significantly increased the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) compared with random framing, and reduced earnings by 10.7-42.9%. The effect appeared across AI presentations and decision contexts and persisted even when predictions failed. When people believe AI can predict their behavior, they may self-constrain it in anticipation of that prediction.",
+      "published": "2026-03-30",
+      "url": "http://arxiv.org/abs/2603.28944v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Practice: AI Tools and Their Application Possibilities",
+      "authors": [
+        "Livia Rainsberger"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2022",
+      "url": "https://doi.org/10.1007/978-3-658-38251-3_4",
+      "source": "Crossref"
+    }
+  ]
+}

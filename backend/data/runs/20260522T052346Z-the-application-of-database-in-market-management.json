@@ -1,0 +1,100 @@
+{
+  "topic": "the application of database in market management",
+  "condition": "main_comparison",
+  "retrieval_snapshot_id": "20260522T052107Z-the-application-of-database-in-market-management-5",
+  "papers": [
+    {
+      "title": "A survey on data and transaction management in mobile databases",
+      "authors": [
+        "D. Roselin Selvarani",
+        "T. N. Ravi"
+      ],
+      "abstract": "The popularity of the Mobile Database is increasing day by day as people need information even on the move in the fast changing world. This database technology permits employees using mobile devices to connect to their corporate networks, hoard the needed data, work in the disconnected mode and reconnect to the network to synchronize with the corporate database. In this scenario, the data is being moved closer to the applications in order to improve the performance and autonomy. This leads to many interesting problems in mobile database research and Mobile Database has become a fertile land for many researchers. In this paper a survey is presented on data and Transaction management in Mobile Databases from the year 2000 onwards. The survey focuses on the complete study on the various types of Architectures used in Mobile databases and Mobile Transaction Models. It also addresses the data management issues namely Replication and Caching strategies and the transaction management functionalities such as Concurrency Control and Commit protocols, Synchronization, Query Processing, Recovery and Security. It also provides Research Directions in Mobile databases.",
+      "published": "2012-11-23",
+      "url": "http://arxiv.org/abs/1211.5418v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "LLM-based policy generation for intent-based management of applications",
+      "authors": [
+        "Kristina Dzeparoska",
+        "Jieyu Lin",
+        "Ali Tizghadam",
+        "Alberto Leon-Garcia"
+      ],
+      "abstract": "Automated management requires decomposing high-level user requests, such as intents, to an abstraction that the system can understand and execute. This is challenging because even a simple intent requires performing a number of ordered steps. And the task of identifying and adapting these steps (as conditions change) requires a decomposition approach that cannot be exactly pre-defined beforehand. To tackle these challenges and support automated intent decomposition and execution, we explore the few-shot capability of Large Language Models (LLMs). We propose a pipeline that progressively decomposes intents by generating the required actions using a policy-based abstraction. This allows us to automate the policy execution by creating a closed control loop for the intent deployment. To do so, we generate and map the policies to APIs and form application management loops that perform the necessary monitoring, analysis, planning and execution. We evaluate our proposal with a use-case to fulfill and assure an application service chain of virtual network functions. Using our approach, we can generalize and generate the necessary steps to realize intents, thereby enabling intent automation for application management.",
+      "published": "2024-01-22",
+      "url": "http://arxiv.org/abs/2402.10067v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Modelling and Simulation, Mobile Solutions and Cloud Computing: A Solution for Intelligent Management of a Small and Medium-Sized Baking Business",
+      "authors": [
+        "Hugo de Souza Ribeiro"
+      ],
+      "abstract": "The sale of products during the pandemic by COVID-19 was severely affected. Several small businesses and industries have reduced their productivity or even closed down. As a result, companies that still survive this complicated period must rely on intelligent (but accessible) resources to guide their survival on the market. The purpose of this paper is to demonstrate an integrated and affordable tool, based on technologies such as mobile applications, Cloud Computing and discrete event simulation to guide small manufacturers in the bakery sector. The solution has a robust mobile application to control the inventory, sales and product prices (with customer records, prices and reports control). Its database is managed via cloud computing. However, the great contribution is the connection of this solution with a simulator based on Stochastic Timed Petri Nets, which is integrated with the mobile application through the cloud commuting. This tool manages to model and simulate each type of product, with its time and resources spent during the manufacturing process, with production hierarchy according to the production priority that the manufacturer requests. Its focus is the intelligent management and identification of bottlenecks and evaluation of production scenarios. In a practical application in a small real industry, in the middle of a pandemic period, it was possible to make optimizations that still keep the enterprise open, such as evaluations of equipment purchases, reassessment of processes (which yielded a 9% increase in productivity without any financial investment and just maintenance of some work positions) and readjustment of material purchases.",
+      "published": "2021-03-11",
+      "url": "https://www.semanticscholar.org/paper/84530f5598733e2c01a7a3aa1b4af6c2f6994da6",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Managing dynamic medical data in a distributed mode",
+      "authors": [
+        "Bingyi Hu",
+        "J. Bai",
+        "D. Ye"
+      ],
+      "abstract": "Abstract was not available from Semantic Scholar.",
+      "published": "1998-10-29",
+      "url": "https://www.semanticscholar.org/paper/fcc04b8014504e912167d3dd6809cfa174b17c68",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Application of Measurement and Testing Technology in Market Supervision",
+      "authors": [],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2022-3-5",
+      "url": "https://doi.org/10.47939/em.v3i3(01).28",
+      "source": "Crossref"
+    }
+  ],
+  "summary": "The literature includes a cloud-based mobile solution for small business management that uses a database to control inventory, sales, and product prices, demonstrating direct application in market management. A survey on mobile databases provides relevant data and transaction management techniques for mobile market operations. Other works cover intent-based management and medical data, which are not directly related to databases in market management.",
+  "gap": "Existing work lacks integration of advanced mobile database transaction management techniques, such as concurrency control and synchronization protocols, into market management applications for small businesses to ensure data consistency across distributed mobile sales and inventory operations.",
+  "question": "How can advanced mobile database concurrency control and synchronization protocols be integrated into market management applications for small businesses to ensure data consistency across distributed sales and inventory operations?",
+  "hypothesis": "Integrating advanced mobile database concurrency control and synchronization protocols into a market management application for small businesses will significantly improve data consistency across distributed sales and inventory operations compared to traditional non-transactional methods.",
+  "methodology": "Develop a prototype mobile market management app using a cloud-hosted database, implementing optimistic concurrency control and synchronization protocols from the mobile database survey. Populate with a small business dataset (products, inventory, sales). Simulate multiple concurrent mobile clients performing transactions to measure data consistency metrics (conflict rate, stale reads) and transaction success rate. Evaluate by comparing against a baseline without advanced transaction management, analyzing improvements in consistency and performance.",
+  "proposal": "Existing cloud-based mobile solutions for small business market management utilize databases for inventory, sales, and pricing, yet they lack advanced transaction management techniques. A survey of mobile database literature offers concurrency control and synchronization protocols that remain unintegrated into such applications, presenting a gap in ensuring data consistency across distributed mobile sales and inventory operations. This study asks: How can advanced mobile database concurrency control and synchronization protocols be integrated into market management applications for small businesses to ensure data consistency? We hypothesize that integrating these protocols will significantly improve data consistency over traditional non-transactional methods. To test this, we will develop a prototype mobile market management app with a cloud-hosted database, implementing optimistic concurrency control and synchronization from the surveyed literature. Using a simulated small business dataset and multiple concurrent mobile clients performing transactions, we will measure consistency metrics such as conflict rate and stale reads, as well as transaction success rate, comparing against a baseline without advanced transaction management. The expected contribution is a practical framework and empirical evidence demonstrating the benefits of mobile transaction management in market management, guiding future small business applications toward robust data consistency.",
+  "evaluation": {
+    "clarity": 5,
+    "logic": 5,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 5,
+    "comments": "The proposal clearly explains the integration of mobile database concurrency control into market management apps. It logically connects the gap from retrieved papers (surveys of techniques and existing apps) to a testable hypothesis. While the combination is distinct, the individual elements are not groundbreaking. The methodology is realistic using a prototype and simulation. It is well-grounded in the provided literature, especially papers on mobile databases and cloud-based small business solutions."
+  },
+  "baseline": {
+    "proposal": "We propose a baseline market management system that utilizes a cloud-hosted database with mobile client applications for real-time inventory and sales tracking. The system leverages mobile database techniques such as caching and synchronization to support offline operation, ensuring data consistency when connectivity is restored. This approach draws on established mobile transaction management and replication strategies to provide a reliable foundation for small and medium-sized businesses.",
+    "evaluation": {
+      "clarity": 4,
+      "logic": 4,
+      "novelty": 2,
+      "feasibility": 5,
+      "literature_alignment": 4,
+      "comments": "The proposal is straightforward, building on well-known mobile database concepts and applying them to market management, similar to the bakery case study. It lacks novelty but is practical."
+    }
+  },
+  "metrics": {
+    "condition": "main_comparison",
+    "model": "deepseek-v4-pro",
+    "temperature": 0.3,
+    "retrieval_snapshot_id": "20260522T052107Z-the-application-of-database-in-market-management-5",
+    "latency_ms": 159191,
+    "prompt_tokens": 8823,
+    "completion_tokens": 4270,
+    "total_tokens": 13093,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0
+  }
+}

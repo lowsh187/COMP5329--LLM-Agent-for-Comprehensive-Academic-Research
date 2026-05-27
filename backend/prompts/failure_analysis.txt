@@ -1,0 +1,36 @@
+Task: Analyze limitations, failure modes, and risk mitigation for the proposed methodology.
+
+Topic:
+{topic}
+
+Research gap:
+{gap}
+
+Research scope:
+{research_scope}
+
+Domain and methodology routing:
+{domain_router}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Research question:
+{question}
+
+Hypothesis:
+{hypothesis}
+
+Methodology:
+{methodology}
+
+Operationalization and causal check:
+{operationalization_causal_check}
+
+Return JSON with exactly this key:
+{{
+  "failure_analysis": "A concise risk matrix in prose or compact table form. For each major failure mode, name the risk and a concrete mitigation strategy. Cover likely failure cases, validity threats, ethical or safety risks, low engagement or data sparsity where relevant, negative result interpretations, and mitigation strategies."
+}}

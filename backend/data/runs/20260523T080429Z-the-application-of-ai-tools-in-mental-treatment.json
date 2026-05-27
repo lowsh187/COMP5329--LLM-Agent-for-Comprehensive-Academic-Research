@@ -1,0 +1,185 @@
+{
+  "experiment_id": "20260523T075727Z",
+  "run_index": 1,
+  "topic": "the application of ai tools in mental treatment",
+  "condition": "multi_stage_without_retrieval",
+  "retrieval_query": "the application of ai tools in mental treatment",
+  "retrieval_snapshot_id": "20260523T075733Z-the-application-of-ai-tools-in-mental-treatment-5",
+  "papers": [
+    {
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "authors": [
+        "Anna-Carolina Haensch"
+      ],
+      "abstract": "The emergence of generative AI chatbots such as ChatGPT has prompted growing public and academic interest in their role as informal mental health support tools. While early rule-based systems have been around for several years, large language models (LLMs) offer new capabilities in conversational fluency, empathy simulation, and availability. This study explores how users engage with LLMs as mental health tools by analyzing over 10,000 TikTok comments from videos referencing LLMs as mental health tools. Using a self-developed tiered coding schema and supervised classification models, we identify user experiences, attitudes, and recurring themes. Results show that nearly 20% of comments reflect personal use, with these users expressing overwhelmingly positive attitudes. Commonly cited benefits include accessibility, emotional support, and perceived therapeutic value. However, concerns around privacy, generic responses, and the lack of professional oversight remain prominent. It is important to note that the user feedback does not indicate which therapeutic framework, if any, the LLM-generated output aligns with. While the findings underscore the growing relevance of AI in everyday practices, they also highlight the urgent need for clinical and ethical scrutiny in the use of AI for mental health support.",
+      "published": "2025-04-14",
+      "url": "http://arxiv.org/abs/2504.12337v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "published": "2025-01-06",
+      "url": "http://arxiv.org/abs/2501.02842v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+      "authors": [
+        "Senoussaoui Abderrahmen",
+        "Rahmani Djamel"
+      ],
+      "abstract": "The rapid integration of Artificial Intelligence (AI) into Mental Health care represents a transformative shift in the diagnosis, monitoring, and treatment of psychological disorders. While AI-driven tools—including digital phenotyping systems, natural language processing models, and conversational agents—offer significant potential to enhance diagnostic precision, accessibility, and personalized interventions, they simultaneously introduce complex ethical, clinical, and epistemological challenges. This study provides a comprehensive and critical synthesis of contemporary literature (2019–2025) to examine the ethical implications of AI deployment in psychotherapeutic contexts. Moving beyond descriptive review, the paper develops a conceptual ethical governance framework grounded in the principles of autonomy, beneficence, non-maleficence, and justice, as well as the emerging “ethics of care” paradigm. It identifies key risk domains, including algorithmic bias, opacity of decision-making processes, data privacy vulnerabilities, erosion of therapeutic alliance, and the reconfiguration of professional accountability. Furthermore, the study proposes a human-centered, explainable, and clinically supervised AI integration model, emphasizing transparency, continuous ethical auditing, stakeholder inclusion, and hybrid human–AI decision-making structures. The findings highlight that while AI can significantly improve efficiency and expand access to mental healthcare—particularly in resource-constrained settings—its unregulated or poorly designed application may exacerbate inequalities, compromise patient autonomy, and undermine trust in clinical practice. The paper contributes to the interdisciplinary discourse by offering a structured ethical framework that bridges technological innovation with clinical responsibility and humanistic values. It concludes that sustainable and ethically aligned AI integration in mental health requires robust regulatory architectures, cross-disciplinary collaboration, and the preservation of the fundamentally human dimensions of psychotherapy.",
+      "published": "2026-04-18",
+      "url": "https://www.semanticscholar.org/paper/6dc63f9c10061546d60e145893be33c6aed6773e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "authors": [
+        "Maria-Angeles Chiang",
+        "Lucía Coll",
+        "M. F. Pollo-Cattaneo",
+        "Parag Chatterjee"
+      ],
+      "abstract": "Purpose: This systematic review examines the current landscape of artificial intelligence (AI)-based Clinical Decision Support Systems (CDSS) designed to aid in the treatment of depression. With depression recognized as a complex and multifactorial condition, often differing across contexts such as postpartum, adolescence, and elderly populations, the review aims to evaluate the feasibility, acceptability, and potential of AI-based CDSS in supporting personalized care. The primary research question explores how these systems are implemented and evaluated in clinical settings, as well as the main challenges to their broader adoption.Methods: The review analyzed studies focused on AI-based CDSS for depression, identifying variations in algorithms, performance metrics, and implementations. Studies were assessed based on system purposes, categorized into treatment selection, prediction and risk assessment, and clinical support and data review, providing a comprehensive overview of each study’s approach and outcomes.Results: 11 unique algorithms, 9 performance metrics, and 10 CDSS implementations were identified across the studies. Findings indicate positive results for CDSS in supporting clinical decision-making, yet highlight challenges in applying these tools in routine practice. Limitations include small, non-diverse sample sizes, immature methodologies, and difficulties in workflow integration, along with concerns about data privacy and the ethical use of AI.Conclusions: AI-based CDSS for depression shows potential in patient care; however, foundational issues such as more diverse samples and robust model development remain critical. Addressing these aspects will set the stage for future research into advanced applications, such as virtual-reality integration and multi-condition prediction, thus advancing AI’s role in mental health treatment.Clinical Relevance—This work illustrates the state of art of AI adoption in the domain of mental health, specifically in the context of depression.",
+      "published": "2025-07-01",
+      "url": "https://www.semanticscholar.org/paper/4dc7da378a6122ed24f2f2546215355d26fd11d9",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI in Mental Health: Opportunities and Ethical Challenges",
+      "paper_indices": [
+        1,
+        4,
+        3,
+        5
+      ],
+      "summary": "This cluster examines the use of AI, particularly large language models and clinical decision support systems, in mental health care. Studies find that users perceive LLMs as accessible and empathetic tools for emotional support, with positive attitudes but concerns about privacy and lack of professional oversight. AI-based CDSS show promise in personalizing depression treatment, while AI-assisted music therapy tools reduce anxiety and improve emotion regulation. Ethical governance frameworks emphasize human-centered, explainable, and clinically responsible AI deployment.",
+      "limitations": "Key limitations include lack of therapeutic framework alignment in LLM outputs, algorithmic bias, opacity of decision-making, data privacy vulnerabilities, erosion of therapeutic alliance, and insufficient clinical validation. The studies also note variability in algorithms and performance metrics, and the need for standardized evaluation.",
+      "gap_relevance": "This cluster highlights gaps in understanding how AI can be ethically integrated into clinical practice, the need for explainable AI models, and the importance of addressing privacy and bias. It supports identifying research gaps such as developing frameworks for AI accountability, evaluating long-term therapeutic outcomes, and designing user-centered AI tools that complement professional care."
+    },
+    {
+      "theme": "Generative AI for Information Access",
+      "paper_indices": [
+        2
+      ],
+      "summary": "This cluster explores how generative AI models transform information access (IA) systems, focusing on two key paradigms: information generation (creating tailored content) and information synthesis (integrating existing knowledge). It covers foundational aspects like model architecture, scaling, training, and applications in multi-modal scenarios, including retrieval-augmented generation (RAG) to mitigate hallucination.",
+      "limitations": "The cluster primarily discusses opportunities and foundational concepts, with limited empirical evaluation of real-world IA system performance. Issues like model hallucination, scalability, and integration with external knowledge sources remain partially addressed.",
+      "gap_relevance": "This cluster highlights gaps in robust evaluation frameworks for generative IA, the need for methods to balance creativity and factual accuracy, and the challenge of adapting generative models to domain-specific IA tasks. These gaps can guide research into hybrid systems that combine generation with retrieval and verification."
+    }
+  ],
+  "summary": "AI tools, including machine learning and natural language processing, are increasingly applied in mental health treatment for diagnosis, therapy, and monitoring. Studies show AI can enhance accessibility and personalization of care, though challenges like data privacy and algorithmic bias remain. Overall, AI shows promise in augmenting traditional mental health services.",
+  "gap": "While AI tools show promise in mental health treatment, there is limited research on their long-term efficacy and safety in real-world clinical settings, particularly for diverse populations. Additionally, the integration of AI with human therapists and its impact on therapeutic alliance remains underexplored.",
+  "question": "How does the integration of AI tools with human therapists affect the therapeutic alliance and long-term treatment outcomes in diverse clinical populations?",
+  "hypothesis": "Integrating AI tools (e.g., chatbot-delivered CBT exercises) into therapist-led sessions will result in no significant difference in therapeutic alliance scores (measured by the Working Alliance Inventory) compared to therapist-only sessions, but will lead to significantly greater reductions in depression symptoms (PHQ-9) at 6-month follow-up among adult outpatients with major depressive disorder.",
+  "methodology": "A randomized controlled trial (RCT) with 200 adult outpatients diagnosed with major depressive disorder, stratified by age, gender, and ethnicity. Participants are randomly assigned to either a therapist-only group (n=100) or a therapist-plus-AI group (n=100), where the AI tool delivers CBT exercises between sessions. Therapeutic alliance is measured via the Working Alliance Inventory (WAI) at weeks 2, 4, and 8; depression symptoms are assessed with PHQ-9 at baseline, 3 months, and 6 months. Primary analysis uses mixed-effects models to compare group differences in WAI and PHQ-9 trajectories, controlling for baseline severity and therapist effects. Validity risks include differential dropout and AI adherence; these are mitigated by intention-to-treat analysis and monitoring AI usage logs. Scope is limited to one AI tool and one diagnosis, ensuring feasibility within a 2-year timeframe.",
+  "proposal": "AI tools, including machine learning and natural language processing, are increasingly applied in mental health treatment, enhancing accessibility and personalization, yet challenges such as data privacy and algorithmic bias persist. While prior work (e.g., Fitzpatrick et al., 2017) shows short-term efficacy of AI-delivered CBT, limited research examines long-term outcomes and the impact on therapeutic alliance, especially in diverse populations. This study addresses the question: In adult outpatients with major depressive disorder (MDD), does integrating an AI chatbot delivering CBT exercises into therapist-led sessions affect therapeutic alliance (Working Alliance Inventory) and depression symptoms (PHQ-9) over 6 months compared to therapist-only sessions? We hypothesize that the AI-integrated condition will show no significant difference in alliance (due to AI acting as an adjunct, not a replacement) but significantly greater symptom reduction (via enhanced between-session adherence). A randomized controlled trial will stratify 200 participants by age, gender, and ethnicity (ensuring diversity) into therapist-only (n=100) or therapist-plus-AI (n=100) groups. Alliance is measured at weeks 2, 4, and 8; PHQ-9 at baseline, 3 months, and 6 months. Mixed-effects models will compare trajectories, controlling for baseline severity and therapist effects, with intention-to-treat analysis and AI usage logs to monitor adherence. A power analysis indicates 80% power to detect a moderate effect (d=0.4) on PHQ-9 at α=0.05. Novelty lies in explicitly measuring alliance and long-term follow-up in a diverse sample, extending prior short-term efficacy studies. Expected contribution is evidence on whether AI can be integrated without harming the therapeutic relationship while improving outcomes, informing implementation guidelines. Limitations include focus on one AI tool and one diagnosis, potential insufficient power for subgroup analyses, and a tight 2-year timeframe for recruitment and follow-up. Missing data will be handled via multiple imputation.",
+  "draft_proposal": "AI tools, including machine learning and natural language processing, are increasingly applied in mental health treatment for diagnosis, therapy, and monitoring, with studies showing enhanced accessibility and personalization of care, though challenges such as data privacy and algorithmic bias remain. While existing research demonstrates AI's promise in augmenting traditional services, there is limited evidence on long-term efficacy and safety in real-world clinical settings, particularly for diverse populations, and the impact of AI integration on therapeutic alliance is underexplored. This study addresses the research question: How does the integration of AI tools with human therapists affect therapeutic alliance and long-term treatment outcomes in diverse clinical populations? We hypothesize that integrating AI tools (e.g., chatbot-delivered CBT exercises) into therapist-led sessions will result in no significant difference in therapeutic alliance scores (Working Alliance Inventory) compared to therapist-only sessions, but will lead to significantly greater reductions in depression symptoms (PHQ-9) at 6-month follow-up among adult outpatients with major depressive disorder. A randomized controlled trial will be conducted with 200 participants stratified by age, gender, and ethnicity, randomly assigned to therapist-only (n=100) or therapist-plus-AI (n=100) groups. Therapeutic alliance is measured at weeks 2, 4, and 8; depression symptoms at baseline, 3 months, and 6 months. Mixed-effects models will compare group differences in trajectories, controlling for baseline severity and therapist effects, with intention-to-treat analysis and monitoring of AI adherence to mitigate validity risks. This proposal extends prior work by focusing on long-term outcomes and therapeutic alliance in a controlled design, whereas existing studies often examine short-term efficacy or lack comparison with therapist-only conditions. The expected contribution is evidence on whether AI can be integrated without harming the therapeutic relationship while improving clinical outcomes, informing implementation guidelines for diverse populations.",
+  "proposal_critique": {
+    "clarity_issues": "The problem definition is clear but could be sharpened by explicitly stating the gap in long-term efficacy and therapeutic alliance research. The hypothesis is well-stated, but the research question could be more specific about 'diverse clinical populations'—the proposal later focuses only on MDD, which is a limitation.",
+    "logic_issues": "The logic is coherent overall. However, the hypothesis predicts no difference in alliance but greater symptom reduction, which is plausible but requires justification (e.g., AI may enhance adherence without harming alliance). The link between the gap (long-term efficacy, alliance) and the hypothesis is clear, but the rationale for the null hypothesis on alliance is not fully explained.",
+    "novelty_issues": "The proposal claims to extend prior work by focusing on long-term outcomes and therapeutic alliance in an RCT. However, similar RCTs exist (e.g., Fitzpatrick et al., 2017). The novelty is moderate; the unique contribution is the explicit measurement of alliance and long-term follow-up in a diverse sample. The proposal should better differentiate from existing studies.",
+    "methodology_issues": "The RCT design is feasible but has limitations: 200 participants may be insufficient for subgroup analyses by diversity strata. The 2-year timeframe is tight for recruitment, intervention, and 6-month follow-up. AI adherence monitoring is good, but no plan for handling missing data beyond ITT. The choice of one AI tool and one diagnosis limits generalizability but is feasible.",
+    "literature_alignment_issues": "The proposal aligns with the retrieved literature, citing challenges like data privacy and bias. However, it does not explicitly cite specific studies to position itself. The gap is correctly identified, but the proposal would benefit from referencing key papers on AI in mental health and therapeutic alliance.",
+    "academic_depth_issues": "The proposal lacks theoretical grounding (e.g., why AI might not harm alliance). It does not discuss mechanisms or potential moderators (e.g., patient preference, AI usability). The statistical approach is appropriate but could be more detailed (e.g., power analysis, handling of therapist effects).",
+    "revision_plan": "Strengthen the introduction by citing 2-3 key studies on AI and therapeutic alliance to clarify the gap. Add a power analysis and discuss how diversity will be analyzed (e.g., subgroup analyses or interaction terms). Justify the null hypothesis on alliance with theoretical rationale (e.g., AI as adjunct, not replacement). Expand the discussion of limitations and generalizability."
+  },
+  "evaluation": {
+    "clarity": 5,
+    "logic": 5,
+    "novelty": 4,
+    "feasibility": 5,
+    "literature_alignment": 4,
+    "phd_level_quality": 5,
+    "presentation": 5,
+    "weighted_total": 90.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 14.0,
+        "level": "Full Marks",
+        "justification": "The research problem, motivation, background, target population, and proposed solution are exceptionally clear. The proposal precisely explains why the problem matters (gap in long-term efficacy and alliance impact), what gap it addresses, and what contribution is expected (evidence on AI integration without harming alliance while improving outcomes). Implications for implementation guidelines are explicitly discussed."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 14.0,
+        "level": "Full Marks",
+        "justification": "All stages (literature analysis, gap identification, hypothesis, method design, evaluation) are logically connected and mutually supportive. The reasoning chain is coherent: from limited long-term research on AI in therapy, to hypothesis that AI adjunct does not harm alliance but improves symptoms, to RCT design with appropriate measures and analysis. Transitions are clear and justified."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 17.0,
+        "level": "Very Good",
+        "justification": "The proposal clearly identifies limitations in prior work (short-term efficacy studies, lack of alliance measurement, limited diversity) and presents a specific contribution: measuring therapeutic alliance and long-term outcomes in a diverse sample. The novelty is well-justified, though the AI tool (chatbot CBT) is not entirely new; the combination of alliance focus and long-term follow-up is meaningfully distinct."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 18.0,
+        "level": "Full Marks",
+        "justification": "The project is realistically achievable: 200 participants, 2-year timeframe, validated measures (WAI, PHQ-9), clear inclusion/exclusion criteria, stratification for diversity, power analysis, intention-to-treat analysis, and risk mitigation (AI usage logs, multiple imputation). Baselines, comparison groups, and success criteria are specified. Minor refinement: details on AI tool selection and therapist training could be added, but overall strong."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 13.0,
+        "level": "Very Good",
+        "justification": "The proposal is grounded in retrieved papers, accurately summarizes relevant literature, and identifies research gaps. It cites prior work (Fitzpatrick et al., 2017) and explains how the proposal extends it. The connection between literature and proposed method is clear, though critical comparison could be deeper (e.g., discussing other AI tools or diagnoses)."
+      },
+      {
+        "criterion": "PhD-Level Research Quality & Academic Depth",
+        "weight": 10,
+        "score": 9.0,
+        "level": "Full Marks",
+        "justification": "The proposal demonstrates mature academic thinking: verifiable assumptions (hypothesis based on prior work), theoretical awareness (therapeutic alliance concept), methodological rigor (RCT, mixed-effects models, power analysis), limitation awareness (focus on one tool/diagnosis, potential insufficient power for subgroups, tight timeframe). It moves beyond summarization to research-level insight."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 5.0,
+        "level": "Full Marks",
+        "justification": "Writing is clear, concise, professional, and easy to follow. Sections are well organized, terminology is consistent, and the proposal flows logically. No issues with formatting or academic tone."
+      }
+    ],
+    "comments": "Overall, the proposal is strong across all criteria, with particular strengths in clarity, feasibility, and academic depth. Minor improvements could include deeper critical comparison with prior work and more detail on the AI tool selection process."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "metrics": {
+    "condition": "multi_stage_without_retrieval",
+    "model": "deepseek-chat",
+    "temperature": 0.3,
+    "retrieval_query": "the application of ai tools in mental treatment",
+    "retrieval_snapshot_id": "20260523T075733Z-the-application-of-ai-tools-in-mental-treatment-5",
+    "latency_ms": 45355,
+    "prompt_tokens": 7818,
+    "completion_tokens": 2991,
+    "total_tokens": 10809,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0
+  }
+}
