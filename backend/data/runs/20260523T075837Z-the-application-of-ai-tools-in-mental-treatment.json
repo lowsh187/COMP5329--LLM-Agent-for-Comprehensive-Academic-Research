@@ -1,0 +1,241 @@
+{
+  "experiment_id": "20260523T075727Z",
+  "run_index": 3,
+  "topic": "the application of ai tools in mental treatment",
+  "condition": "baseline_with_retrieval",
+  "retrieval_query": "the application of ai tools in mental treatment",
+  "retrieval_snapshot_id": "20260523T075733Z-the-application-of-ai-tools-in-mental-treatment-5",
+  "papers": [
+    {
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "authors": [
+        "Anna-Carolina Haensch"
+      ],
+      "abstract": "The emergence of generative AI chatbots such as ChatGPT has prompted growing public and academic interest in their role as informal mental health support tools. While early rule-based systems have been around for several years, large language models (LLMs) offer new capabilities in conversational fluency, empathy simulation, and availability. This study explores how users engage with LLMs as mental health tools by analyzing over 10,000 TikTok comments from videos referencing LLMs as mental health tools. Using a self-developed tiered coding schema and supervised classification models, we identify user experiences, attitudes, and recurring themes. Results show that nearly 20% of comments reflect personal use, with these users expressing overwhelmingly positive attitudes. Commonly cited benefits include accessibility, emotional support, and perceived therapeutic value. However, concerns around privacy, generic responses, and the lack of professional oversight remain prominent. It is important to note that the user feedback does not indicate which therapeutic framework, if any, the LLM-generated output aligns with. While the findings underscore the growing relevance of AI in everyday practices, they also highlight the urgent need for clinical and ethical scrutiny in the use of AI for mental health support.",
+      "published": "2025-04-14",
+      "url": "http://arxiv.org/abs/2504.12337v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "published": "2025-01-06",
+      "url": "http://arxiv.org/abs/2501.02842v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+      "authors": [
+        "Senoussaoui Abderrahmen",
+        "Rahmani Djamel"
+      ],
+      "abstract": "The rapid integration of Artificial Intelligence (AI) into Mental Health care represents a transformative shift in the diagnosis, monitoring, and treatment of psychological disorders. While AI-driven tools—including digital phenotyping systems, natural language processing models, and conversational agents—offer significant potential to enhance diagnostic precision, accessibility, and personalized interventions, they simultaneously introduce complex ethical, clinical, and epistemological challenges. This study provides a comprehensive and critical synthesis of contemporary literature (2019–2025) to examine the ethical implications of AI deployment in psychotherapeutic contexts. Moving beyond descriptive review, the paper develops a conceptual ethical governance framework grounded in the principles of autonomy, beneficence, non-maleficence, and justice, as well as the emerging “ethics of care” paradigm. It identifies key risk domains, including algorithmic bias, opacity of decision-making processes, data privacy vulnerabilities, erosion of therapeutic alliance, and the reconfiguration of professional accountability. Furthermore, the study proposes a human-centered, explainable, and clinically supervised AI integration model, emphasizing transparency, continuous ethical auditing, stakeholder inclusion, and hybrid human–AI decision-making structures. The findings highlight that while AI can significantly improve efficiency and expand access to mental healthcare—particularly in resource-constrained settings—its unregulated or poorly designed application may exacerbate inequalities, compromise patient autonomy, and undermine trust in clinical practice. The paper contributes to the interdisciplinary discourse by offering a structured ethical framework that bridges technological innovation with clinical responsibility and humanistic values. It concludes that sustainable and ethically aligned AI integration in mental health requires robust regulatory architectures, cross-disciplinary collaboration, and the preservation of the fundamentally human dimensions of psychotherapy.",
+      "published": "2026-04-18",
+      "url": "https://www.semanticscholar.org/paper/6dc63f9c10061546d60e145893be33c6aed6773e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "authors": [
+        "Maria-Angeles Chiang",
+        "Lucía Coll",
+        "M. F. Pollo-Cattaneo",
+        "Parag Chatterjee"
+      ],
+      "abstract": "Purpose: This systematic review examines the current landscape of artificial intelligence (AI)-based Clinical Decision Support Systems (CDSS) designed to aid in the treatment of depression. With depression recognized as a complex and multifactorial condition, often differing across contexts such as postpartum, adolescence, and elderly populations, the review aims to evaluate the feasibility, acceptability, and potential of AI-based CDSS in supporting personalized care. The primary research question explores how these systems are implemented and evaluated in clinical settings, as well as the main challenges to their broader adoption.Methods: The review analyzed studies focused on AI-based CDSS for depression, identifying variations in algorithms, performance metrics, and implementations. Studies were assessed based on system purposes, categorized into treatment selection, prediction and risk assessment, and clinical support and data review, providing a comprehensive overview of each study’s approach and outcomes.Results: 11 unique algorithms, 9 performance metrics, and 10 CDSS implementations were identified across the studies. Findings indicate positive results for CDSS in supporting clinical decision-making, yet highlight challenges in applying these tools in routine practice. Limitations include small, non-diverse sample sizes, immature methodologies, and difficulties in workflow integration, along with concerns about data privacy and the ethical use of AI.Conclusions: AI-based CDSS for depression shows potential in patient care; however, foundational issues such as more diverse samples and robust model development remain critical. Addressing these aspects will set the stage for future research into advanced applications, such as virtual-reality integration and multi-condition prediction, thus advancing AI’s role in mental health treatment.Clinical Relevance—This work illustrates the state of art of AI adoption in the domain of mental health, specifically in the context of depression.",
+      "published": "2025-07-01",
+      "url": "https://www.semanticscholar.org/paper/4dc7da378a6122ed24f2f2546215355d26fd11d9",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI in Mental Health: Opportunities and Ethical Challenges",
+      "paper_indices": [
+        1,
+        4,
+        3,
+        5
+      ],
+      "summary": "This cluster examines the use of AI, particularly large language models and clinical decision support systems, in mental health care. Studies explore user experiences with LLMs as therapeutic tools (e.g., positive attitudes, accessibility, emotional support), systematic reviews of AI-based CDSS for depression (showing feasibility and personalized care potential), ethical governance frameworks emphasizing human-centered and explainable AI, and AI-assisted music therapy tools for personalized interventions. Common findings highlight benefits like accessibility, personalization, and symptom reduction, alongside concerns about privacy, bias, lack of professional oversight, and erosion of therapeutic alliance.",
+      "limitations": "Key limitations include: reliance on self-reported user feedback without clinical validation; lack of standardized evaluation metrics for AI tools; unresolved ethical issues such as algorithmic bias, data privacy, and opacity; limited integration with established therapeutic frameworks; and insufficient evidence on long-term efficacy and safety. The music therapy review also notes the need for more rigorous clinical trials.",
+      "gap_relevance": "This cluster identifies gaps such as: the need for clinically validated outcome measures for AI mental health tools; research on how to align AI outputs with evidence-based therapeutic frameworks; studies on long-term user engagement and effects; and development of ethical guidelines that balance innovation with patient safety. These gaps can guide future research on responsible AI deployment in mental health."
+    },
+    {
+      "theme": "Foundations of Generative AI for Information Access",
+      "paper_indices": [
+        2
+      ],
+      "summary": "This cluster explores how generative AI models, through large-scale training and superior data modeling, transform information access systems by enabling information generation (creating tailored content) and information synthesis (integrating existing knowledge). It covers foundational aspects like architecture, scaling, training, multi-modal applications, and retrieval-augmented generation to mitigate hallucination.",
+      "limitations": "Potential limitations include model hallucination in synthesis tasks, reliance on large-scale data and compute, and challenges in ensuring precision and external knowledge grounding across diverse scenarios.",
+      "gap_relevance": "This cluster highlights gaps in robust hallucination mitigation, efficient scaling for real-time applications, and integration of external knowledge sources, which can guide research into more reliable and efficient generative IA systems."
+    }
+  ],
+  "summary": null,
+  "gap": null,
+  "question": null,
+  "hypothesis": null,
+  "methodology": null,
+  "proposal": "This study proposes a randomized controlled trial (RCT) to evaluate the efficacy of an AI-powered conversational agent (CA) that delivers cognitive behavioral therapy (CBT) for mild-to-moderate depression, compared to a waitlist control. The CA will be designed using a retrieval-augmented generation (RAG) framework to ground responses in evidence-based CBT manuals, addressing the gap in clinical validation and therapeutic alignment identified in prior work (Haensch, 2025; Chiang et al., 2025). The primary outcome is change in PHQ-9 scores at 8 weeks; secondary outcomes include user engagement, therapeutic alliance, and safety monitoring. This extends existing literature by providing a clinically rigorous evaluation of a theory-aligned AI tool, contrasting with prior studies that lacked standardized metrics or therapeutic grounding.",
+  "draft_proposal": null,
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 5,
+    "logic": 5,
+    "novelty": 5,
+    "feasibility": 4,
+    "literature_alignment": 5,
+    "phd_level_quality": 5,
+    "presentation": 5,
+    "weighted_total": 91.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 14.0,
+        "level": "Full Marks",
+        "justification": "The proposal clearly defines the research problem (lack of clinically validated AI tools for depression), motivation (gaps from Haensch and Chiang), target users (mild-to-moderate depression), and proposed solution (RAG-based CBT CA). It explains why the problem matters and what contribution is expected."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 14.0,
+        "level": "Full Marks",
+        "justification": "The proposal logically connects literature analysis (gaps in clinical validation and therapeutic alignment) to gap identification, hypothesis, method (RCT with RAG-based CA), and evaluation. Stage transitions are clear and mutually supportive."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 18.0,
+        "level": "Full Marks",
+        "justification": "The proposal offers a distinct contribution by combining RAG with CBT manuals for clinical validation, addressing limitations in prior work (lack of standardized metrics, therapeutic grounding). It specifies a methodological contribution (RAG framework) and evaluation-level contribution (RCT with PHQ-9)."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 17.0,
+        "level": "Very Good",
+        "justification": "The RCT design is feasible with clear comparison group (waitlist), primary outcome (PHQ-9), and secondary outcomes. However, details on sample size, recruitment, implementation plan, and risk awareness are missing, which would strengthen feasibility."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 14.0,
+        "level": "Full Marks",
+        "justification": "The proposal is strongly grounded in retrieved papers, accurately summarizing gaps (clinical validation, therapeutic alignment) and explaining how the proposal extends prior work. It cites Haensch and Chiang appropriately."
+      },
+      {
+        "criterion": "PhD-Level Research Quality & Academic Depth",
+        "weight": 10,
+        "score": 9.0,
+        "level": "Full Marks",
+        "justification": "The proposal demonstrates mature academic thinking: verifiable assumptions (RAG grounding in CBT manuals), methodological rigor (RCT), and limitation awareness (need for safety monitoring). It moves beyond summarization to propose a novel evaluation."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 5.0,
+        "level": "Full Marks",
+        "justification": "Writing is clear, concise, and professional. The proposal is well-organized, uses consistent terminology, and effectively communicates the research plan."
+      }
+    ],
+    "comments": "The proposal is well-structured, clinically relevant, and addresses key gaps in the literature. Minor improvements in feasibility details would enhance the plan."
+  },
+  "baseline": {
+    "proposal": "This study proposes a randomized controlled trial (RCT) to evaluate the efficacy of an AI-powered conversational agent (CA) that delivers cognitive behavioral therapy (CBT) for mild-to-moderate depression, compared to a waitlist control. The CA will be designed using a retrieval-augmented generation (RAG) framework to ground responses in evidence-based CBT manuals, addressing the gap in clinical validation and therapeutic alignment identified in prior work (Haensch, 2025; Chiang et al., 2025). The primary outcome is change in PHQ-9 scores at 8 weeks; secondary outcomes include user engagement, therapeutic alliance, and safety monitoring. This extends existing literature by providing a clinically rigorous evaluation of a theory-aligned AI tool, contrasting with prior studies that lacked standardized metrics or therapeutic grounding.",
+    "evaluation": {
+      "clarity": 5,
+      "logic": 5,
+      "novelty": 5,
+      "feasibility": 4,
+      "literature_alignment": 5,
+      "phd_level_quality": 5,
+      "presentation": 5,
+      "weighted_total": 91.0,
+      "rubric_scores": [
+        {
+          "criterion": "Research Clarity & Problem Definition",
+          "weight": 15,
+          "score": 14.0,
+          "level": "Full Marks",
+          "justification": "The proposal clearly defines the research problem (lack of clinically validated AI tools for depression), motivation (gaps from Haensch and Chiang), target users (mild-to-moderate depression), and proposed solution (RAG-based CBT CA). It explains why the problem matters and what contribution is expected."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "weight": 15,
+          "score": 14.0,
+          "level": "Full Marks",
+          "justification": "The proposal logically connects literature analysis (gaps in clinical validation and therapeutic alignment) to gap identification, hypothesis, method (RCT with RAG-based CA), and evaluation. Stage transitions are clear and mutually supportive."
+        },
+        {
+          "criterion": "Novelty & Research Contribution",
+          "weight": 20,
+          "score": 18.0,
+          "level": "Full Marks",
+          "justification": "The proposal offers a distinct contribution by combining RAG with CBT manuals for clinical validation, addressing limitations in prior work (lack of standardized metrics, therapeutic grounding). It specifies a methodological contribution (RAG framework) and evaluation-level contribution (RCT with PHQ-9)."
+        },
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "weight": 20,
+          "score": 17.0,
+          "level": "Very Good",
+          "justification": "The RCT design is feasible with clear comparison group (waitlist), primary outcome (PHQ-9), and secondary outcomes. However, details on sample size, recruitment, implementation plan, and risk awareness are missing, which would strengthen feasibility."
+        },
+        {
+          "criterion": "Literature Alignment & Scholarly Positioning",
+          "weight": 15,
+          "score": 14.0,
+          "level": "Full Marks",
+          "justification": "The proposal is strongly grounded in retrieved papers, accurately summarizing gaps (clinical validation, therapeutic alignment) and explaining how the proposal extends prior work. It cites Haensch and Chiang appropriately."
+        },
+        {
+          "criterion": "PhD-Level Research Quality & Academic Depth",
+          "weight": 10,
+          "score": 9.0,
+          "level": "Full Marks",
+          "justification": "The proposal demonstrates mature academic thinking: verifiable assumptions (RAG grounding in CBT manuals), methodological rigor (RCT), and limitation awareness (need for safety monitoring). It moves beyond summarization to propose a novel evaluation."
+        },
+        {
+          "criterion": "Presentation & Academic Communication",
+          "weight": 5,
+          "score": 5.0,
+          "level": "Full Marks",
+          "justification": "Writing is clear, concise, and professional. The proposal is well-organized, uses consistent terminology, and effectively communicates the research plan."
+        }
+      ],
+      "comments": "The proposal is well-structured, clinically relevant, and addresses key gaps in the literature. Minor improvements in feasibility details would enhance the plan."
+    }
+  },
+  "group_selection": null,
+  "metrics": {
+    "condition": "baseline_with_retrieval",
+    "model": "deepseek-chat",
+    "temperature": 0.3,
+    "retrieval_query": "the application of ai tools in mental treatment",
+    "retrieval_snapshot_id": "20260523T075733Z-the-application-of-ai-tools-in-mental-treatment-5",
+    "latency_ms": 19264,
+    "prompt_tokens": 7595,
+    "completion_tokens": 1347,
+    "total_tokens": 8942,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0
+  }
+}

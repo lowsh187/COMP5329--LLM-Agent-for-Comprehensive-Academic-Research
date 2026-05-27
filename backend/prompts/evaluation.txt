@@ -1,4 +1,4 @@
-Task: Evaluate the proposal using a 1-5 rubric.
+Task: Evaluate the proposal using the PhD-level proposal rubric.
 
 Topic:
 {topic}
@@ -24,12 +24,39 @@ Methodology:
 Proposal:
 {proposal}
 
-Rubric:
-- clarity: Is the proposal easy to understand?
-- logic: Are the stages coherent and connected?
-- novelty: Is the research angle meaningfully distinct?
-- feasibility: Can the project be completed with realistic resources?
-- literature_alignment: Is the proposal grounded in the retrieved papers?
+Rubric from phd_level_proposal_rubric.csv:
+1. Research Clarity & Problem Definition, weight 15:
+Full marks require an exceptionally clear research problem, motivation, background, target users/use case, proposed solution, gap, contribution, implications, and consequences.
+
+2. Logical Coherence & Multi-Stage Reasoning, weight 15:
+Full marks require literature analysis, gap identification, hypothesis generation, method design, and evaluation planning to form a coherent reasoning chain.
+
+3. Novelty & Research Contribution, weight 20:
+Full marks require a meaningfully distinct angle compared with retrieved/published work, clear limitations in prior approaches, and a specific methodological, conceptual, or evaluation-level contribution.
+
+4. Feasibility & Experimental Design, weight 20:
+Full marks require realistic resources, clear datasets or input sources, baselines/comparison groups, evaluation metrics, implementation plan, risk awareness, and measurable success criteria.
+
+5. Literature Alignment & Scholarly Positioning, weight 15:
+Full marks require accurate use of retrieved papers, research gap identification, comparison with prior approaches, and explanation of how the proposal extends or differs from them.
+
+6. PhD-Level Research Quality & Academic Depth, weight 10:
+Full marks require mature academic thinking, verifiable assumptions, theoretical awareness, methodological rigor, limitation awareness, and research-level insight.
+
+7. Presentation & Academic Communication, weight 5:
+Full marks require clear, concise, professional academic writing with consistent terminology and well-organized structure.
+
+Map the first five criteria into the existing 1-5 scores:
+- clarity maps Research Clarity & Problem Definition to 1-5.
+- logic maps Logical Coherence & Multi-Stage Reasoning to 1-5.
+- novelty maps Novelty & Research Contribution to 1-5.
+- feasibility maps Feasibility & Experimental Design to 1-5.
+- literature_alignment maps Literature Alignment & Scholarly Positioning to 1-5.
+
+Also score:
+- phd_level_quality maps PhD-Level Research Quality & Academic Depth to 1-5.
+- presentation maps Presentation & Academic Communication to 1-5.
+- weighted_total is a 0-100 weighted score using the rubric weights above.
 
 Return JSON with exactly these keys:
 {{
@@ -38,5 +65,8 @@ Return JSON with exactly these keys:
   "novelty": 1,
   "feasibility": 1,
   "literature_alignment": 1,
+  "phd_level_quality": 1,
+  "presentation": 1,
+  "weighted_total": 0,
   "comments": "Brief justification."
 }}

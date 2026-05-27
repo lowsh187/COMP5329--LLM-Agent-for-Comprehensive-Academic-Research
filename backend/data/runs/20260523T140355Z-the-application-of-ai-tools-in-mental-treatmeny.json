@@ -1,0 +1,239 @@
+{
+  "experiment_id": "20260523T140159Z",
+  "run_index": 2,
+  "topic": "the application of ai tools in mental treatmeny",
+  "condition": "baseline_with_retrieval",
+  "retrieval_query": "the application of ai tools in mental treatmeny",
+  "retrieval_snapshot_id": "20260523T140204Z-the-application-of-ai-tools-in-mental-treatmeny-5",
+  "papers": [
+    {
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "authors": [
+        "Anna-Carolina Haensch"
+      ],
+      "abstract": "The emergence of generative AI chatbots such as ChatGPT has prompted growing public and academic interest in their role as informal mental health support tools. While early rule-based systems have been around for several years, large language models (LLMs) offer new capabilities in conversational fluency, empathy simulation, and availability. This study explores how users engage with LLMs as mental health tools by analyzing over 10,000 TikTok comments from videos referencing LLMs as mental health tools. Using a self-developed tiered coding schema and supervised classification models, we identify user experiences, attitudes, and recurring themes. Results show that nearly 20% of comments reflect personal use, with these users expressing overwhelmingly positive attitudes. Commonly cited benefits include accessibility, emotional support, and perceived therapeutic value. However, concerns around privacy, generic responses, and the lack of professional oversight remain prominent. It is important to note that the user feedback does not indicate which therapeutic framework, if any, the LLM-generated output aligns with. While the findings underscore the growing relevance of AI in everyday practices, they also highlight the urgent need for clinical and ethical scrutiny in the use of AI for mental health support.",
+      "published": "2025-04-14",
+      "url": "http://arxiv.org/abs/2504.12337v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "published": "2025-01-06",
+      "url": "http://arxiv.org/abs/2501.02842v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    },
+    {
+      "title": "AI prediction leads people to forgo guaranteed rewards",
+      "authors": [
+        "Aoi Naito",
+        "Hirokazu Shirado"
+      ],
+      "abstract": "Artificial intelligence (AI) is understood to affect the content of people's decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI can also change how people decide. In this paradigm, belief in predictive authority can lead individuals to constrain decision-making, forgoing a guaranteed reward. Over 40% of participants treated AI as such a predictive authority. This significantly increased the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) compared with random framing, and reduced earnings by 10.7-42.9%. The effect appeared across AI presentations and decision contexts and persisted even when predictions failed. When people believe AI can predict their behavior, they may self-constrain it in anticipation of that prediction.",
+      "published": "2026-03-30",
+      "url": "http://arxiv.org/abs/2603.28944v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Practice: AI Tools and Their Application Possibilities",
+      "authors": [
+        "Livia Rainsberger"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2022",
+      "url": "https://doi.org/10.1007/978-3-658-38251-3_4",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI Applications in Mental Health and Decision-Making",
+      "paper_indices": [
+        1,
+        3,
+        5,
+        4
+      ],
+      "summary": "This cluster of papers explores the integration of AI technologies, particularly large language models (LLMs) and AI-assisted music therapy, in mental health interventions. Users express positive experiences with LLMs as informal mental health support, highlighting benefits such as accessibility and emotional support, while also raising concerns about privacy and lack of professional oversight. The review on AI-assisted music therapy indicates its potential for personalized interventions that can reduce anxiety and depressive symptoms across various demographics. Additionally, a study on AI's influence on decision-making reveals that belief in AI's predictive authority can lead individuals to forgo guaranteed rewards, indicating a behavioral impact of AI beyond therapeutic contexts.",
+      "limitations": "The studies highlight concerns regarding privacy, the generic nature of AI responses, and the absence of professional oversight in LLM applications. Additionally, the behavioral study indicates that reliance on AI predictions can lead to suboptimal decision-making, suggesting a need for further exploration of the psychological implications of AI trust. There is also a lack of comprehensive data on the long-term effects of AI in therapeutic settings.",
+      "gap_relevance": "This cluster identifies a research gap in understanding the ethical implications and long-term effectiveness of AI tools in mental health. It underscores the need for studies that evaluate the integration of AI in therapeutic practices, including the development of frameworks that ensure responsible use and address user concerns, as well as the psychological effects of AI on decision-making."
+    },
+    {
+      "theme": "Generative AI in Information Access Systems",
+      "paper_indices": [
+        2
+      ],
+      "summary": "This cluster primarily studies the transformative role of generative AI models in information access systems, highlighting their capabilities in information generation and synthesis. It emphasizes how these models enhance user experience by producing tailored content and integrating existing information to provide accurate responses, while also addressing challenges like model hallucination.",
+      "limitations": "The cluster acknowledges limitations related to the precision of generated content and the potential for misinformation, as well as the need for further exploration of model architectures and training methodologies to optimize performance in diverse applications.",
+      "gap_relevance": "This cluster supports research gap identification by pinpointing the need for improved understanding of generative AI's impact on information retrieval and synthesis, and by highlighting areas where traditional AI approaches may fall short in meeting user expectations."
+    }
+  ],
+  "summary": null,
+  "gap": null,
+  "question": null,
+  "hypothesis": null,
+  "methodology": null,
+  "proposal": "This proposal aims to investigate the ethical implications and long-term effectiveness of AI tools in mental health treatment, focusing on large language models (LLMs) and AI-assisted music therapy. While existing literature highlights the positive user experiences and potential benefits of AI in mental health interventions, significant concerns regarding privacy, lack of professional oversight, and the psychological effects of AI trust remain unaddressed. The objective is to develop a comprehensive framework that evaluates the integration of AI in therapeutic practices, ensuring responsible use while addressing user concerns. Methodologically, this study will employ mixed methods, including qualitative analysis of user experiences and quantitative assessments of therapeutic outcomes over time. The expected contribution is a nuanced understanding of the ethical landscape surrounding AI in mental health, along with practical guidelines for its implementation. This research extends prior work by not only exploring user experiences but also systematically addressing the ethical and long-term implications of AI tools, which have been largely overlooked in the retrieved literature.",
+  "draft_proposal": null,
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 3,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 4,
+    "weighted_total": 69.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal identifies a relevant research problem regarding the ethical implications and long-term effectiveness of AI tools in mental health. However, it lacks specificity in defining key concepts such as 'ethical implications' and 'long-term effectiveness'. Major weaknesses: Vague definitions of key constructs and insufficient operationalization of the research problem. Next band requirements: To move into the next band, the proposal must provide clearer definitions of key concepts and a more precise framing of the research question."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal outlines a logical flow from the identified problem to the proposed methodology. However, the connections between the ethical implications and the proposed mixed methods are not fully justified. Major weaknesses: Weak transitions between problem identification, hypothesis formulation, and methodology; assumptions about the causal relationship between AI use and mental health outcomes are not sufficiently supported. Next band requirements: Stronger justification for the causal claims and clearer connections between the stages of reasoning are needed."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal attempts to address a gap in the literature regarding the ethical implications of AI in mental health, which is somewhat novel. However, it does not introduce a new theoretical framework or significantly advance understanding in the field. Major weaknesses: The contribution appears derivative, primarily synthesizing existing literature without presenting a new theoretical mechanism or framework. Next band requirements: To achieve a higher score, the proposal must introduce a novel theoretical framework or mechanism that significantly advances the field."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 11.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The proposed mixed methods approach is feasible, but lacks detail in terms of sampling, controls, and specific metrics for evaluating therapeutic outcomes. Major weaknesses: Insufficient detail on experimental design, including how user experiences will be qualitatively analyzed and how quantitative assessments will be conducted. Next band requirements: More comprehensive methodological details, including clear operationalization of variables and justification for chosen metrics, are required."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong literature grounding with good comparative analysis",
+        "justification": "The proposal engages with relevant literature and identifies gaps, but lacks depth in critically analyzing competing approaches and situating the work within broader debates. Major weaknesses: Limited critical synthesis of the literature and insufficient identification of unresolved tensions. Next band requirements: A deeper critical analysis of existing literature and a clearer positioning of the proposal within ongoing research debates are necessary."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 6.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some theoretical engagement but lacks depth in discussing mechanisms and limitations. It does not adequately address potential failure cases or broader implications. Major weaknesses: Shallow exploration of theoretical mechanisms and limited discussion of trade-offs or limitations. Next band requirements: To achieve a higher score, the proposal must provide a more sophisticated theoretical discussion and address potential limitations and failure cases."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-organized and clear, but some terminology is imprecise, and the writing could be more concise. Major weaknesses: Some areas lack precision in terminology and could benefit from improved clarity and conciseness. Next band requirements: Improving the precision of terminology and enhancing overall clarity and conciseness would elevate the score."
+      }
+    ],
+    "comments": "Total score: 69.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant research problem in the context of AI and mental health.; Engages with existing literature to some extent. Major weaknesses: Lacks clarity in operationalizing key concepts.; Weak justification for causal claims and methodological details.; Limited theoretical contribution and depth. Required improvements for true PhD-level quality: Provide clearer definitions and operationalization of key concepts.; Strengthen the logical coherence and justification of causal claims.; Introduce a novel theoretical framework or mechanism.; Enhance methodological rigor and detail in experimental design.; Deepen critical engagement with the literature and broader research debates. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant improvements in clarity, depth, and theoretical contribution."
+  },
+  "baseline": {
+    "proposal": "This proposal aims to investigate the ethical implications and long-term effectiveness of AI tools in mental health treatment, focusing on large language models (LLMs) and AI-assisted music therapy. While existing literature highlights the positive user experiences and potential benefits of AI in mental health interventions, significant concerns regarding privacy, lack of professional oversight, and the psychological effects of AI trust remain unaddressed. The objective is to develop a comprehensive framework that evaluates the integration of AI in therapeutic practices, ensuring responsible use while addressing user concerns. Methodologically, this study will employ mixed methods, including qualitative analysis of user experiences and quantitative assessments of therapeutic outcomes over time. The expected contribution is a nuanced understanding of the ethical landscape surrounding AI in mental health, along with practical guidelines for its implementation. This research extends prior work by not only exploring user experiences but also systematically addressing the ethical and long-term implications of AI tools, which have been largely overlooked in the retrieved literature.",
+    "evaluation": {
+      "clarity": 4,
+      "logic": 4,
+      "novelty": 4,
+      "feasibility": 3,
+      "literature_alignment": 4,
+      "phd_level_quality": 3,
+      "presentation": 4,
+      "weighted_total": 69.0,
+      "rubric_scores": [
+        {
+          "criterion": "Research Clarity & Problem Definition",
+          "weight": 15,
+          "score": 12.0,
+          "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+          "justification": "The proposal identifies a relevant research problem regarding the ethical implications and long-term effectiveness of AI tools in mental health. However, it lacks specificity in defining key concepts such as 'ethical implications' and 'long-term effectiveness'. Major weaknesses: Vague definitions of key constructs and insufficient operationalization of the research problem. Next band requirements: To move into the next band, the proposal must provide clearer definitions of key concepts and a more precise framing of the research question."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "weight": 15,
+          "score": 10.0,
+          "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+          "justification": "The proposal outlines a logical flow from the identified problem to the proposed methodology. However, the connections between the ethical implications and the proposed mixed methods are not fully justified. Major weaknesses: Weak transitions between problem identification, hypothesis formulation, and methodology; assumptions about the causal relationship between AI use and mental health outcomes are not sufficiently supported. Next band requirements: Stronger justification for the causal claims and clearer connections between the stages of reasoning are needed."
+        },
+        {
+          "criterion": "Novelty & Research Contribution",
+          "weight": 20,
+          "score": 14.0,
+          "level": "12-14: moderate novelty but partially derivative",
+          "justification": "The proposal attempts to address a gap in the literature regarding the ethical implications of AI in mental health, which is somewhat novel. However, it does not introduce a new theoretical framework or significantly advance understanding in the field. Major weaknesses: The contribution appears derivative, primarily synthesizing existing literature without presenting a new theoretical mechanism or framework. Next band requirements: To achieve a higher score, the proposal must introduce a novel theoretical framework or mechanism that significantly advances the field."
+        },
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "weight": 20,
+          "score": 11.0,
+          "level": "12-14: feasible but methodologically incomplete",
+          "justification": "The proposed mixed methods approach is feasible, but lacks detail in terms of sampling, controls, and specific metrics for evaluating therapeutic outcomes. Major weaknesses: Insufficient detail on experimental design, including how user experiences will be qualitatively analyzed and how quantitative assessments will be conducted. Next band requirements: More comprehensive methodological details, including clear operationalization of variables and justification for chosen metrics, are required."
+        },
+        {
+          "criterion": "Literature Alignment & Scholarly Positioning",
+          "weight": 15,
+          "score": 12.0,
+          "level": "12-13: strong literature grounding with good comparative analysis",
+          "justification": "The proposal engages with relevant literature and identifies gaps, but lacks depth in critically analyzing competing approaches and situating the work within broader debates. Major weaknesses: Limited critical synthesis of the literature and insufficient identification of unresolved tensions. Next band requirements: A deeper critical analysis of existing literature and a clearer positioning of the proposal within ongoing research debates are necessary."
+        },
+        {
+          "criterion": "PhD-Level Academic Depth",
+          "weight": 10,
+          "score": 6.0,
+          "level": "5-6: strong master-level but limited theoretical depth",
+          "justification": "The proposal demonstrates some theoretical engagement but lacks depth in discussing mechanisms and limitations. It does not adequately address potential failure cases or broader implications. Major weaknesses: Shallow exploration of theoretical mechanisms and limited discussion of trade-offs or limitations. Next band requirements: To achieve a higher score, the proposal must provide a more sophisticated theoretical discussion and address potential limitations and failure cases."
+        },
+        {
+          "criterion": "Presentation & Academic Communication",
+          "weight": 5,
+          "score": 4.0,
+          "level": "4: strong academic communication",
+          "justification": "The proposal is generally well-organized and clear, but some terminology is imprecise, and the writing could be more concise. Major weaknesses: Some areas lack precision in terminology and could benefit from improved clarity and conciseness. Next band requirements: Improving the precision of terminology and enhancing overall clarity and conciseness would elevate the score."
+        }
+      ],
+      "comments": "Total score: 69.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant research problem in the context of AI and mental health.; Engages with existing literature to some extent. Major weaknesses: Lacks clarity in operationalizing key concepts.; Weak justification for causal claims and methodological details.; Limited theoretical contribution and depth. Required improvements for true PhD-level quality: Provide clearer definitions and operationalization of key concepts.; Strengthen the logical coherence and justification of causal claims.; Introduce a novel theoretical framework or mechanism.; Enhance methodological rigor and detail in experimental design.; Deepen critical engagement with the literature and broader research debates. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant improvements in clarity, depth, and theoretical contribution."
+    }
+  },
+  "group_selection": null,
+  "metrics": {
+    "condition": "baseline_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "the application of ai tools in mental treatmeny",
+    "retrieval_snapshot_id": "20260523T140204Z-the-application-of-ai-tools-in-mental-treatmeny-5",
+    "latency_ms": 53307,
+    "prompt_tokens": 6641,
+    "completion_tokens": 1895,
+    "total_tokens": 8536,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

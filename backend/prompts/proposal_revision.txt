@@ -1,0 +1,76 @@
+Task: Revise the proposal draft according to the stage-aware research reasoning critique.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Summary:
+{summary}
+
+Gap:
+{gap}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Question:
+{question}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Operationalization and causal check:
+{operationalization_causal_check}
+
+Methodology:
+{methodology}
+
+Novelty and contribution:
+{novelty_contribution}
+
+Failure analysis:
+{failure_analysis}
+
+Draft proposal:
+{proposal}
+
+Stage-aware critique:
+{critique}
+
+Revision requirements:
+- Strengthen the research gap if the critique identifies weak literature grounding, generic future-work framing, or already-solved risk.
+- Strengthen scholarly positioning by comparing prior approaches, unresolved tensions, and why existing work is insufficient.
+- Correct the methodology family if the domain routing shows clinical, LLM safety, HCI/user trust, ML method development, or policy/ethics needs a different design.
+- Narrow the research scope if population/task, condition/domain, intervention/system, evaluation period, control/baseline, or outcomes are vague.
+- Define abstract technical concepts operationally before using them in claims.
+- Revise the design if technical feasibility is weak, especially when hidden-state access, open-source models, labelled multilingual datasets, native-speaker validation, human participants, ethics approval, or GPU resources are required.
+- Refine the research question if it is too broad, not researchable, or missing clear variables or constructs.
+- Clarify the theoretical mechanism with independent variable, mediator, moderator, dependent variable, theory, assumptions, and separated system-level/user-level causal pathways where applicable.
+- Make the hypothesis falsifiable and measurable, with clear alignment to the question and a plausible mechanism.
+- Operationalize every construct using measurement instruments or behavioural logs, match metrics to representation/output/user level, and make causal claim boundaries explicit.
+- Improve the methodology by adding appropriate controls/baselines, valid metrics, evaluation or statistical validity, reproducibility details, confound controls, and risk analysis where needed.
+- Include concrete failure modes, limitations, negative-result interpretation, and mitigation.
+- Clarify theoretical, methodological, and practical contribution types, and avoid presenting a generic AI application as novelty.
+- Preserve one coherent proposal paragraph, but prioritize research reasoning quality over polished wording.
+
+Return JSON with exactly this key:
+{{
+  "revised_proposal": "A revised rigorous academic research proposal in one paragraph. It must include domain-appropriate study scope, core concept definitions, technical feasibility assumptions, problem motivation, scholarly positioning, literature-grounded gap, researchable question, theoretical mechanism with separated system-level and user-level pathways where applicable, falsifiable hypothesis, operationalized constructs with level-matched measurements, methodology with domain-appropriate controls/baselines and metrics, validity or confound controls, theoretical/technical/empirical/practical novelty against retrieved published work, expected contribution, and key limitations or failure modes."
+}}

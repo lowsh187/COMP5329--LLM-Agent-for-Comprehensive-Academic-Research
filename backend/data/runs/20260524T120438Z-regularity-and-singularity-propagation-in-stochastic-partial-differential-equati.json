@@ -1,0 +1,824 @@
+{
+  "experiment_id": "20260524T115605Z",
+  "run_index": 1,
+  "topic": "Regularity and Singularity Propagation in Stochastic Partial Differential Equations",
+  "condition": "multi_stage_group_selection",
+  "retrieval_query": "Regularity and Singularity Propagation in Stochastic Partial Differential Equations",
+  "retrieval_snapshot_id": "20260524T115611Z-regularity-and-singularity-propagation-in-stochastic-partial-differential-equati-5",
+  "papers": [
+    {
+      "title": "Regularity analysis for stochastic partial differential equations with nonlinear multiplicative trace class noise",
+      "authors": [
+        "Arnulf Jentzen",
+        "Michael Roeckner"
+      ],
+      "abstract": "In this article spatial and temporal regularity of the solution process of a stochastic partial differential equation (SPDE) of evolutionary type with nonlinear multiplicative trace class noise is analyzed.",
+      "published": "2010-05-21",
+      "url": "http://arxiv.org/abs/1005.4095v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Regularity and Continuity of Solutions to Stochastic Evolution Equations",
+      "authors": [
+        "Anna Karczewska"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2002-4-5",
+      "url": "https://doi.org/10.1201/9780203910177-17",
+      "source": "Crossref"
+    },
+    {
+      "title": "Stability of solutions to stochastic partial differential equations",
+      "authors": [
+        "Benjamin Gess",
+        "Jonas M. Tölle"
+      ],
+      "abstract": "We provide a general framework for the stability of solutions to stochastic partial differential equations with respect to perturbations of the drift. More precisely, we consider stochastic partial differential equations with drift given as the subdifferential of a convex function and prove continuous dependence of the solutions with regard to random Mosco convergence of the convex potentials. In particular, we identify the concept of stochastic variational inequalities (SVI) as a well-suited framework to study such stability properties. The generality of the developed framework is then laid out by deducing Trotter type and homogenization results for stochastic fast diffusion and stochastic singular p-Laplace equations. In addition, we provide an SVI treatment for stochastic nonlocal p-Laplace equations and prove their convergence to the respective local models.",
+      "published": "2015-06-03",
+      "url": "http://arxiv.org/abs/1506.01230v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Malliavin Regularity of Solutions of SPDE’s",
+      "authors": [],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2005-8-17",
+      "url": "https://doi.org/10.1201/9781439818947-9",
+      "source": "Crossref"
+    },
+    {
+      "title": "Talagrand Concentration Inequalities for Stochastic Partial Differential Equations",
+      "authors": [
+        "Davar Khoshnevisan",
+        "Andrey Sarantsev"
+      ],
+      "abstract": "One way to define the concentration of measure phenomenon is via Talagrand inequalities, also called transportation-information inequalities. That is, a comparison of the Wasserstein distance from the given measure to any other absolutely continuous measure with finite relative entropy. Such transportation-information inequalities were recently established for some stochastic differential equations. Here, we develop a similar theory for some stochastic partial differential equations.",
+      "published": "2017-09-20",
+      "url": "http://arxiv.org/abs/1709.07098v3",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Regularity and Stability in Stochastic Partial Differential Equations",
+      "paper_indices": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "summary": "This cluster of papers primarily investigates the regularity and stability of solutions to stochastic partial differential equations (SPDEs), focusing on aspects such as the influence of nonlinear multiplicative noise, continuity of solutions, and the stability of solutions under perturbations of the drift. The works explore various mathematical frameworks, including Malliavin calculus and stochastic variational inequalities, to establish results on the regularity and stability properties of SPDEs.",
+      "limitations": "Several papers lack detailed abstracts, which limits the understanding of their specific contributions. Additionally, the interplay between different types of noise and their effects on solution regularity and stability remains underexplored.",
+      "gap_relevance": "This cluster highlights the need for further research on the regularity of solutions under various noise conditions and the stability of SPDEs in broader contexts, thus identifying potential gaps in the current literature that could be addressed in future studies."
+    },
+    {
+      "theme": "Concentration Inequalities in Stochastic Partial Differential Equations",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster primarily investigates the application of Talagrand concentration inequalities to stochastic partial differential equations (SPDEs), extending previously established results from stochastic differential equations. It focuses on the relationship between Wasserstein distance and measures with finite relative entropy, contributing to the understanding of the concentration of measure phenomenon in SPDEs.",
+      "limitations": "The research may be limited by the specific types of SPDEs considered and the assumptions required for the inequalities to hold. Additionally, the practical implications and applicability of these results in real-world scenarios remain to be thoroughly explored.",
+      "gap_relevance": "This cluster aids in identifying research gaps related to the application of concentration inequalities in broader contexts of stochastic processes, particularly in enhancing the theoretical framework for SPDEs and their applications in various fields such as physics and finance."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Regularity analysis for stochastic partial differential equations with nonlinear multiplicative trace class noise",
+      "problem": "Analyzes spatial and temporal regularity of solutions to SPDEs with nonlinear multiplicative noise.",
+      "method": "Regularity analysis techniques for SPDEs.",
+      "evidence": "Provides insights into the regularity properties of solutions under specific noise conditions.",
+      "limitation": "Focuses on a specific type of noise, limiting generalizability to other stochastic processes.",
+      "gap_relevance": "Highlights the need for broader regularity studies across various types of stochastic noise."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Regularity and Continuity of Solutions to Stochastic Evolution Equations",
+      "problem": "Investigates the regularity and continuity of solutions in stochastic evolution equations.",
+      "method": "Theoretical analysis of stochastic evolution equations.",
+      "evidence": "Addresses solution continuity, which is crucial for understanding stability and regularity.",
+      "limitation": "Lacks detailed empirical results or case studies to validate theoretical claims.",
+      "gap_relevance": "Identifies a need for empirical studies to complement theoretical findings on solution regularity."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Stability of solutions to stochastic partial differential equations",
+      "problem": "Focuses on the stability of SPDE solutions with respect to perturbations of the drift.",
+      "method": "Framework for analyzing stability using stochastic variational inequalities.",
+      "evidence": "Demonstrates continuous dependence of solutions on perturbations, providing a foundation for stability analysis.",
+      "limitation": "Primarily addresses specific types of perturbations, which may not cover all practical scenarios.",
+      "gap_relevance": "Suggests the need for exploring stability under a wider range of perturbation types in SPDEs."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Malliavin Regularity of Solutions of SPDE’s",
+      "problem": "Examines the Malliavin regularity of solutions to SPDEs.",
+      "method": "Malliavin calculus applied to SPDEs.",
+      "evidence": "Contributes to understanding regularity through the lens of Malliavin calculus.",
+      "limitation": "Lacks specific examples or applications to demonstrate the practical implications of findings.",
+      "gap_relevance": "Indicates a gap in applying Malliavin regularity results to real-world SPDE applications."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Talagrand Concentration Inequalities for Stochastic Partial Differential Equations",
+      "problem": "Develops concentration inequalities for SPDEs using Talagrand's framework.",
+      "method": "Theoretical development of concentration inequalities in the context of SPDEs.",
+      "evidence": "Establishes a connection between measure concentration and SPDEs, expanding the theoretical landscape.",
+      "limitation": "Theoretical focus may not address practical implementation challenges in SPDEs.",
+      "gap_relevance": "Points to the need for practical applications of concentration inequalities in stochastic modeling."
+    }
+  ],
+  "summary": "The literature on regularity and singularity propagation in stochastic partial differential equations (SPDEs) emphasizes the stability and regularity of solutions under various noise conditions, utilizing frameworks like Malliavin calculus and stochastic variational inequalities. Additionally, the application of Talagrand concentration inequalities to SPDEs enhances understanding of measure concentration phenomena. However, gaps exist in the exploration of different noise types, empirical validation of theoretical claims, and practical implications of these findings.",
+  "scholarly_positioning": "While existing literature extensively addresses the regularity and stability of solutions to stochastic partial differential equations (SPDEs), significant gaps remain, particularly regarding the influence of diverse noise types and the empirical validation of theoretical frameworks. Prior approaches, such as those utilizing Malliavin calculus and stochastic variational inequalities, often focus on specific noise conditions, limiting their generalizability. Furthermore, the application of concentration inequalities in SPDEs, though promising, lacks practical implementation insights. This proposed research aims to bridge these gaps by exploring a broader spectrum of noise interactions and enhancing the theoretical foundations with empirical studies, thereby contributing to a more comprehensive understanding of regularity and singularity propagation in SPDEs.",
+  "domain_router": "other, theoretical analysis and empirical validation",
+  "research_scope": "This empirical study will investigate the regularity and stability of solutions to stochastic partial differential equations (SPDEs) influenced by various types of nonlinear multiplicative noise. The target model will focus on SPDEs applicable in financial mathematics, specifically examining the impact of different noise conditions on solution behavior over a study period of two years. The study will include a control group of traditional deterministic PDE solutions for comparative analysis. Primary outcomes will assess the regularity properties and stability of SPDE solutions, while secondary outcomes will explore the practical implications of concentration inequalities in stochastic modeling. The research aims to provide empirical validation of theoretical frameworks and enhance understanding of singularity propagation in SPDEs.",
+  "concept_definition": "A compact concept definition table in plain text. Define every abstract technical term in operational terms. For LLM interpretability/safety topics, clarify which models are studied, whether hidden states/internal activations are accessible, what internal representations mean, what interpretability method is used such as probing, attribution, sparse autoencoders, attention visualization, activation steering, safety monitor, or explanation generation, who the explanation is for such as researcher/system/user, what safety outcomes mean such as unsafe response rate, over-refusal, jailbreak success, harmful compliance, refusal precision/recall, and what user trust means such as trust calibration, blind trust, perceived transparency, or appropriate reliance. Do not leave concepts like interpretability, trust, safety, controllability, alignment, or fairness undefined.",
+  "technical_feasibility": "The proposed study on regularity and stability of solutions to SPDEs does not require open-source model access, hidden state extraction, or labeled datasets, as it focuses on theoretical analysis and empirical validation of mathematical models rather than machine learning models. However, it may require access to computational resources such as GPUs for numerical simulations of SPDEs. The study does not involve human participants, thus ethics approval is not necessary. A feasible adjustment would be to ensure sufficient computational resources are available for running simulations over the two-year study period.",
+  "gap": "Investigate the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, extending existing frameworks to include empirical validation of theoretical results.",
+  "question": "How does the regularity of solutions to stochastic partial differential equations (SPDEs) vary under different types of nonlinear multiplicative noise compared to traditional deterministic PDE solutions, and what are the implications for stability and concentration inequalities in financial mathematics?",
+  "theoretical_mechanism": "The independent variable in this research is the type of nonlinear multiplicative noise applied to stochastic partial differential equations (SPDEs). The mediator is the regularity of the solutions to these SPDEs, which is influenced by the noise characteristics. The moderator is the comparison with traditional deterministic PDE solutions, allowing for an assessment of stability under varying noise conditions. The dependent variable is the stability of the SPDE solutions and their implications for concentration inequalities in financial mathematics. The theoretical framework draws from stochastic analysis, particularly Malliavin calculus and concentration inequalities, establishing a causal chain where different noise types affect solution regularity, which in turn impacts stability and concentration phenomena. System-level outcomes include the stability of SPDE solutions, while user-level outcomes pertain to the practical implications for financial modeling. Assumptions requiring empirical validation include the generalizability of results across different noise types and the effectiveness of concentration inequalities in real-world applications.",
+  "hypothesis": "The stability of solutions to stochastic partial differential equations (SPDEs) under various nonlinear multiplicative noise conditions can be empirically validated through numerical simulations and compared with deterministic PDE solutions.",
+  "operationalization_causal_check": "Construct Operationalization Table: \n1. Construct Name: Nonlinear Multiplicative Noise \n   Role: IV \n   Measurement Instrument: Type of noise applied \n   Data Source: Mathematical models of SPDEs \n   Timing: Throughout the study period \n\n2. Construct Name: Regularity of SPDE Solutions \n   Role: Mediator \n   Measurement Instrument: Regularity metrics (e.g., Sobolev norms) \n   Data Source: Numerical simulations of SPDEs \n   Timing: Post-simulation analysis \n\n3. Construct Name: Comparison with Deterministic PDE Solutions \n   Role: Moderator \n   Measurement Instrument: Stability metrics of deterministic PDEs \n   Data Source: Established deterministic PDE models \n   Timing: Concurrent with SPDE analysis \n\n4. Construct Name: Stability of SPDE Solutions \n   Role: DV \n   Measurement Instrument: Stability metrics (e.g., Lyapunov exponents) \n   Data Source: Results from numerical simulations \n   Timing: After regularity assessment \n\n5. Construct Name: Implications for Concentration Inequalities \n   Role: DV \n   Measurement Instrument: Concentration inequality metrics \n   Data Source: Financial mathematics literature \n   Timing: Post-analysis of SPDE stability \n\nCausal Pathway: Nonlinear multiplicative noise (IV) affects the regularity of SPDE solutions (mediator), which in turn influences the stability of SPDE solutions and their implications for concentration inequalities (DVs). \n\nLikely Confounds: Variability in numerical simulation methods, differences in initial conditions, and potential biases in the selection of noise types. \n\nClaim Boundaries: The study can claim that different types of nonlinear multiplicative noise affect the regularity and stability of SPDE solutions, but it cannot conclude causation without further empirical validation across diverse contexts. \n\nWhat Cannot Be Concluded: The study cannot conclude that findings are universally applicable to all SPDEs or that the implications for concentration inequalities are definitive without further empirical evidence.",
+  "methodology": "Conduct a theoretical analysis of the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, utilizing Malliavin calculus. This will be complemented by numerical simulations to validate theoretical findings, focusing on stability metrics and comparing results with traditional deterministic PDE solutions.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study extends the existing theoretical frameworks of stochastic partial differential equations (SPDEs) by incorporating a broader range of nonlinear multiplicative noise types, enhancing the understanding of regularity and singularity propagation in these equations. It introduces a new mechanism that links noise characteristics directly to solution stability, providing a refined perspective on the interplay between noise and solution behavior.\",\n  \"technical_contribution\": \"Utilizing advanced techniques from Malliavin calculus, the research develops new metrics for assessing the regularity and stability of SPDE solutions under varying noise conditions, which are not currently available in the literature. This technical advancement allows for a more nuanced analysis of the effects of noise on SPDEs.\",\n  \"empirical_contribution\": \"The study provides empirical validation of theoretical results through numerical simulations, generating a dataset that illustrates the stability of SPDE solutions compared to traditional deterministic PDEs. This empirical evidence is crucial for confirming the theoretical predictions and understanding the practical implications of concentration inequalities in financial mathematics.\",\n  \"practical_deployment_contribution\": \"By elucidating the practical implications of concentration inequalities in stochastic modeling, this research offers deployment guidelines for financial practitioners. It highlights how different noise conditions can affect model reliability, thereby informing better decision-making in financial applications.\"\n}",
+  "failure_analysis": "{\n  \"failure_modes\": [\n    {\n      \"risk\": \"Numerical instability in simulations\",\n      \"mitigation_strategy\": \"Implement robust numerical methods and conduct sensitivity analysis to ensure stability across different simulation parameters.\"\n    },\n    {\n      \"risk\": \"Inaccurate representation of nonlinear multiplicative noise\",\n      \"mitigation_strategy\": \"Thoroughly validate the mathematical models of noise against empirical data to ensure accurate modeling.\"\n    },\n    {\n      \"risk\": \"Confounding variables affecting stability metrics\",\n      \"mitigation_strategy\": \"Control for initial conditions and standardize simulation protocols to minimize variability.\"\n    },\n    {\n      \"risk\": \"Insufficient computational resources leading to incomplete simulations\",\n      \"mitigation_strategy\": \"Secure adequate computational resources in advance and consider cloud-based solutions for scalability.\"\n    },\n    {\n      \"risk\": \"Misinterpretation of negative results\",\n      \"mitigation_strategy\": \"Clearly define the limitations of the study and provide context for negative findings in the discussion section.\"\n    },\n    {\n      \"risk\": \"Limited generalizability of results\",\n      \"mitigation_strategy\": \"Acknowledge the specific conditions under which results apply and suggest further studies to explore broader applicability.\"\n    },\n    {\n      \"risk\": \"Lack of engagement with financial mathematics community\",\n      \"mitigation_strategy\": \"Regularly disseminate findings through conferences and workshops to foster collaboration and feedback.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong link; evidence notes highlight the need for broader regularity studies and empirical validation, directly supporting the identified gap.",
+    "domain_to_method": "Theoretical analysis and empirical validation fit well within the domain of stochastic partial differential equations.",
+    "concept_to_metric": "Core concepts like regularity, stability, and concentration inequalities are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Feasible; the study does not require open-source model access or human participants, focusing instead on theoretical and numerical methods.",
+    "scope_to_gap": "The study scope is specific enough to address the gap related to various types of nonlinear multiplicative noise.",
+    "gap_to_question": "The gap regarding the influence of different noise types directly informs the research question about regularity variations.",
+    "question_to_hypothesis": "The research question leads to the hypothesis by proposing that stability can be empirically validated under different noise conditions.",
+    "hypothesis_to_methodology": "The methodology, involving theoretical analysis and numerical simulations, is designed to test the hypothesis regarding stability.",
+    "methodology_to_evaluation": "The planned evaluation through numerical simulations and comparisons with deterministic PDEs directly answers the research question.",
+    "weak_links": [
+      "Potential lack of empirical validation across diverse contexts may weaken the overall conclusions.",
+      "Limited exploration of practical implications of concentration inequalities in real-world scenarios."
+    ]
+  },
+  "proposal": "This research proposal aims to investigate the regularity and stability of solutions to stochastic partial differential equations (SPDEs) influenced by various types of nonlinear multiplicative noise within the context of financial mathematics. Key concepts will be operationally defined, with 'regularity' measured through Sobolev norms, 'stability' assessed via Lyapunov exponents, and 'concentration inequalities' derived from Talagrand's framework. The study is motivated by the observed gaps in existing literature, particularly the limited exploration of how different noise types affect solution behavior and the lack of empirical validation of theoretical frameworks. The research question focuses on how the regularity of SPDE solutions varies under different nonlinear multiplicative noise compared to traditional deterministic PDE solutions, with implications for stability and concentration inequalities. The theoretical mechanism posits that the independent variable is the type of nonlinear multiplicative noise, which mediates the regularity of SPDE solutions, influencing the dependent variables of stability and concentration inequalities. The hypothesis asserts that the stability of SPDE solutions under various noise conditions can be empirically validated through numerical simulations, with operationalized constructs including regularity metrics from SPDE simulations and stability metrics from deterministic PDEs. The methodology will involve theoretical analysis complemented by numerical simulations, with traditional deterministic PDE solutions serving as a control for comparative analysis. Expected contributions include theoretical advancements in understanding regularity and singularity propagation, technical innovations in assessing SPDE stability, empirical validation through generated datasets, and practical insights for financial modeling. Key limitations include potential numerical instability in simulations and the specific applicability of findings to various noise types, necessitating robust mitigation strategies and clear acknowledgment of the study's boundaries.",
+  "draft_proposal": "This research proposal aims to investigate the regularity and stability of solutions to stochastic partial differential equations (SPDEs) influenced by various types of nonlinear multiplicative noise, particularly within the context of financial mathematics. The study will define key concepts such as 'regularity' in terms of Sobolev norms, 'stability' through Lyapunov exponents, and 'concentration inequalities' as metrics derived from Talagrand's inequalities. The technical feasibility is supported by the availability of computational resources for numerical simulations, while the background literature highlights gaps in empirical validation of theoretical frameworks regarding noise types. The scholarly positioning emphasizes the need for a broader exploration of noise interactions, as existing studies primarily focus on specific conditions. The research question posits how the regularity of SPDE solutions varies under different nonlinear multiplicative noise compared to traditional deterministic PDE solutions, with implications for stability and concentration inequalities. The theoretical mechanism involves nonlinear multiplicative noise as the independent variable affecting the regularity of SPDE solutions (mediator), which in turn influences stability and concentration inequalities (dependent variables). The falsifiable hypothesis asserts that the stability of SPDE solutions under various noise conditions can be empirically validated through simulations. Construct operationalization will include metrics such as regularity metrics from numerical simulations and stability metrics for deterministic PDEs. The methodology will involve theoretical analysis complemented by numerical simulations, with controls including traditional deterministic PDE solutions for comparative analysis. Expected contributions encompass theoretical advancements in understanding regularity and singularity propagation, technical innovations in assessing SPDE stability, empirical validation through generated datasets, and practical insights for financial modeling. Key limitations include potential numerical instability in simulations and the specific applicability of findings to various noise types.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding the exploration of regularity under various types of nonlinear multiplicative noise is valid and relevant to the field.",
+      "literature_grounding": "The gap is somewhat grounded in the literature, but it could benefit from a more explicit connection to existing studies that highlight the limitations of current research.",
+      "meaningfulness": "The gap is meaningful as it addresses a specific aspect of SPDEs that has not been thoroughly investigated, rather than being a generic call for future work.",
+      "already_solved_risk": "There is a risk that some aspects of the gap may have been addressed in the retrieved literature, particularly regarding specific noise types."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but lacks a critical comparative analysis that highlights unresolved tensions and contradictions in the literature.",
+      "unresolved_tensions": "There is insufficient identification of unresolved tensions, particularly in how different noise types impact solution behavior.",
+      "positioning_quality": "The positioning is adequate but could be strengthened by explicitly contrasting the proposed research with existing studies."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The proposed methodology aligns well with the domain of stochastic analysis and SPDEs.",
+      "methodology_template_fit": "The methodology family is appropriate, focusing on theoretical analysis and empirical validation.",
+      "template_transfer_risk": "There is minimal risk of inappropriate template transfer, as the proposal is rooted in established mathematical frameworks."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The research scope is specific, focusing on SPDEs in financial mathematics and the effects of noise on regularity and stability.",
+      "population_or_task_definition": "The population/task is well-defined, targeting SPDEs with various noise types.",
+      "intervention_and_comparison_definition": "The intervention (different noise types) and comparison (traditional deterministic PDEs) are clearly articulated.",
+      "outcome_definition": "Primary and secondary outcomes are defined, but more specificity in measurement metrics would enhance clarity."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Key technical terms like 'regularity' and 'stability' are defined, but additional terms related to empirical validation could be clarified.",
+      "implementation_specificity": "The proposal lacks operational definitions for terms like 'concentration inequalities' in practical contexts.",
+      "level_of_analysis_clarity": "The level of analysis is clear, focusing on mathematical modeling and empirical validation."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "No model access is required, which is appropriate for the proposed study.",
+      "data_and_compute_requirements": "The computational requirements are realistic, but specific details on the necessary resources could be elaborated.",
+      "human_or_multilingual_resources": "No human participants are involved, which simplifies ethical considerations.",
+      "feasible_adjustments": "Adjustments might include securing computational resources ahead of time to ensure smooth execution."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on the impact of noise on SPDE solutions.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, addressing a significant aspect of SPDEs.",
+      "variable_clarity": "Variables are generally clear, but the distinction between types of noise could be more explicitly defined."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The theoretical mechanism is outlined but lacks depth in explaining how noise characteristics influence regularity.",
+      "theoretical_framing": "The theoretical framing is based on established concepts but could benefit from a more detailed causal pathway.",
+      "assumption_transparency": "Assumptions are mentioned but should be more explicitly stated to clarify the research framework."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable and aligns with the research question.",
+      "mechanism_grounding": "The grounding of the hypothesis in the proposed theoretical mechanism is adequate but could be strengthened.",
+      "measurable_outcome": "Measurable outcomes are identified, but additional metrics could enhance clarity."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Each construct is operationalized, but the clarity of measurement instruments could be improved.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but some could be more explicitly defined.",
+      "causal_identification": "The causal pathway is outlined but could benefit from a more detailed exploration of mediators and moderators.",
+      "confound_awareness": "Confounds are acknowledged, but a more thorough discussion of potential confounding variables is needed.",
+      "claim_boundaries": "Claim boundaries are defined, but the limitations of generalizability should be emphasized."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline of traditional deterministic PDEs is appropriate for comparison.",
+      "metric_validity": "The validity of metrics used for assessing regularity and stability should be further justified.",
+      "statistical_or_evaluation_validity": "Statistical validity is implied but needs explicit mention of methods for analysis.",
+      "reproducibility": "Reproducibility is a concern; detailed protocols for simulations should be included.",
+      "confound_control": "Confound control measures are mentioned but require more specificity.",
+      "risk_analysis": "Risk analysis is present, but a more comprehensive discussion of potential pitfalls is needed."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is significant, but the novelty could be articulated more distinctly.",
+      "methodological_novelty": "Methodological contributions are implied but should be explicitly stated.",
+      "practical_novelty": "Practical implications are mentioned, but specific applications could enhance clarity.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal should emphasize unique contributions."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but mitigation strategies could be more detailed.",
+      "limitation_depth": "Limitations are acknowledged, but a deeper exploration of their implications is needed.",
+      "risk_mitigation": "Mitigation strategies are present but should be more robust and specific."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contributions are generally clear but could be more explicitly articulated.",
+      "novelty_type": "The novelty type is primarily theoretical and methodological.",
+      "coherence": "The proposal is coherent but could benefit from tighter integration of sections.",
+      "limitation_awareness": "Awareness of limitations is present but should be more pronounced.",
+      "academic_communication": "The academic communication is adequate but could be improved for clarity and impact."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads logically to the research question, though stronger connections could be made.",
+      "question_to_hypothesis": "The question leads to a clear hypothesis, maintaining alignment.",
+      "hypothesis_to_method": "The hypothesis is testable by the proposed method, ensuring coherence.",
+      "method_to_evaluation": "The method is designed to evaluate the question effectively, but clarity on evaluation metrics is needed."
+    },
+    "revision_plan": "Revise the scholarly positioning to include a critical analysis of unresolved tensions in the literature. Enhance the clarity of operational definitions for technical terms and ensure that the theoretical mechanism is explicitly detailed. Strengthen the discussion of limitations and potential confounds to provide a more robust framework for the proposed research."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 73.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal clearly identifies the research problem of regularity and stability in SPDEs influenced by nonlinear multiplicative noise, but lacks precise operational definitions for all key concepts, particularly regarding the implications of concentration inequalities. Major weaknesses: The operational definitions of key terms such as 'regularity' and 'stability' are present but could benefit from more clarity and specificity. The boundaries of the research problem could be more explicitly defined. Next band requirements: To move into the next band, the proposal needs to provide more detailed operational definitions of all key concepts and clarify the boundaries of the research problem more explicitly."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from the problem to the hypothesis and methodology, but there are gaps in the justification of causal claims and the connection between the theoretical framework and empirical validation. Major weaknesses: The causal pathway is outlined but lacks robust justification for the assumptions made regarding the influence of noise on regularity and stability. The evaluation metrics need clearer alignment with the hypothesis. Next band requirements: To improve, the proposal should strengthen the justification for causal claims and ensure that evaluation metrics are directly aligned with the stated hypotheses."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal introduces a new mechanism linking noise types to solution stability, it largely builds on existing frameworks without offering a fundamentally new theoretical perspective. Major weaknesses: The contribution is significant but does not sufficiently extend beyond existing literature to demonstrate high conceptual originality. The novelty of the technical contributions is also somewhat limited. Next band requirements: To achieve a higher score, the proposal should clearly articulate how it advances the field beyond existing frameworks and provide a more original theoretical contribution."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 13.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology is realistic and includes theoretical analysis and numerical simulations, but lacks detailed plans for controlling confounding variables and ensuring reproducibility. Major weaknesses: The proposal does not adequately address potential confounds or provide a robust plan for validation of the empirical results. The evaluation metrics need to be more rigorously defined. Next band requirements: To improve, the proposal should include a more detailed experimental design that addresses potential confounding variables and outlines specific evaluation metrics."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong literature grounding with good comparative analysis",
+        "justification": "The proposal engages with relevant literature and identifies gaps, but the synthesis of prior work lacks depth and does not sufficiently critique existing methodologies. Major weaknesses: The proposal could benefit from a deeper comparative analysis of methodologies and a clearer articulation of why existing work is insufficient. Next band requirements: To move into the next band, the proposal should provide a more critical synthesis of the literature and clearly articulate the limitations of prior work."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication but lacks depth in discussing the mechanisms and limitations of the proposed research. Major weaknesses: The discussion of theoretical mechanisms is not sufficiently detailed, and there is a lack of awareness regarding potential limitations and trade-offs. Next band requirements: To achieve a higher score, the proposal should provide a more in-depth discussion of theoretical mechanisms and limitations."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-organized and clear, but some sections could be more concise and precise in terminology. Major weaknesses: There are instances of repetitive phrasing and some areas where clarity could be improved. Next band requirements: To improve, the proposal should focus on enhancing conciseness and precision in terminology."
+      }
+    ],
+    "comments": "Total score: 73.0/100. Academic level: Master-level. Major strengths: Clear identification of research problem and motivation.; Engagement with relevant literature and identification of gaps. Major weaknesses: Lack of precise operational definitions for key concepts.; Insufficient justification for causal claims and empirical validation. Required improvements for true PhD-level quality: Strengthen operational definitions and clarify research boundaries.; Enhance justification for causal claims and ensure alignment of evaluation metrics.; Provide a more critical synthesis of literature and articulate limitations of prior work. Final verdict: The proposal demonstrates potential but lacks the depth and rigor expected of genuine PhD-level research maturity."
+  },
+  "baseline": null,
+  "group_selection": {
+    "gap": {
+      "candidates": [
+        {
+          "id": "gap_1",
+          "text": "Investigate the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, extending existing frameworks to include empirical validation of theoretical results.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 5,
+            "novelty": 4,
+            "feasibility": 4
+          },
+          "total": 17,
+          "reason": "This candidate is specific about the types of noise and includes empirical validation, grounded in existing literature.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.6625,
+          "literature_similarity": 0.7219,
+          "embedding_alignment": 0.6922,
+          "combined_total": 20.461
+        },
+        {
+          "id": "gap_2",
+          "text": "Explore the application of Talagrand concentration inequalities in a broader context of SPDEs, focusing on practical implications and real-world applications.",
+          "supporting_paper_ids": [
+            "P5"
+          ],
+          "scores": {
+            "specificity": 3,
+            "literature_grounding": 4,
+            "novelty": 5,
+            "feasibility": 3
+          },
+          "total": 15,
+          "reason": "While novel and grounded, it lacks specificity regarding the types of SPDEs and practical scenarios.",
+          "llm_total": 15.0,
+          "anchor_similarity": 0.6014,
+          "literature_similarity": 0.7188,
+          "embedding_alignment": 0.6601,
+          "combined_total": 18.3
+        },
+        {
+          "id": "gap_3",
+          "text": "Examine the stability of SPDE solutions under a wider range of perturbation types, addressing the limitations of current theoretical frameworks.",
+          "supporting_paper_ids": [
+            "P3"
+          ],
+          "scores": {
+            "specificity": 3,
+            "literature_grounding": 4,
+            "novelty": 3,
+            "feasibility": 4
+          },
+          "total": 14,
+          "reason": "This candidate addresses a specific limitation but is less novel compared to others.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.622,
+          "literature_similarity": 0.6377,
+          "embedding_alignment": 0.6298,
+          "combined_total": 17.149
+        }
+      ],
+      "selected_id": "gap_1",
+      "selected_text": "Investigate the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, extending existing frameworks to include empirical validation of theoretical results.",
+      "criteria": [
+        "specificity",
+        "literature_grounding",
+        "novelty",
+        "feasibility"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "hypothesis": {
+      "candidates": [
+        {
+          "id": "hypothesis_1",
+          "text": "The regularity of solutions to stochastic partial differential equations (SPDEs) is significantly influenced by the type of nonlinear multiplicative noise, leading to varying stability outcomes compared to traditional deterministic PDE solutions.",
+          "supporting_paper_ids": [
+            "P1",
+            "P3"
+          ],
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 5,
+            "clarity": 4,
+            "methodological_implication": 4
+          },
+          "total": 17,
+          "reason": "This hypothesis directly addresses the identified gap and is clear, with strong testability due to the comparative nature of the study.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.7783,
+          "literature_similarity": 0.7805,
+          "embedding_alignment": 0.7794,
+          "combined_total": 20.897
+        },
+        {
+          "id": "hypothesis_2",
+          "text": "Different types of nonlinear multiplicative noise in SPDEs lead to distinct regularity properties, which in turn affect the applicability of concentration inequalities in financial mathematics.",
+          "supporting_paper_ids": [
+            "P5"
+          ],
+          "scores": {
+            "testability": 3,
+            "alignment_with_gap": 4,
+            "clarity": 4,
+            "methodological_implication": 3
+          },
+          "total": 14,
+          "reason": "While this hypothesis is relevant and clear, it is slightly less testable due to the complexity of measuring concentration inequalities.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.8108,
+          "literature_similarity": 0.7143,
+          "embedding_alignment": 0.7626,
+          "combined_total": 17.813
+        },
+        {
+          "id": "hypothesis_3",
+          "text": "The stability of solutions to stochastic partial differential equations (SPDEs) under various nonlinear multiplicative noise conditions can be empirically validated through numerical simulations and compared with deterministic PDE solutions.",
+          "supporting_paper_ids": [
+            "P2",
+            "P3"
+          ],
+          "scores": {
+            "testability": 5,
+            "alignment_with_gap": 4,
+            "clarity": 5,
+            "methodological_implication": 5
+          },
+          "total": 19,
+          "reason": "This hypothesis is highly testable and methodologically sound, providing a clear path for empirical validation.",
+          "llm_total": 19.0,
+          "anchor_similarity": 0.7753,
+          "literature_similarity": 0.7168,
+          "embedding_alignment": 0.7461,
+          "combined_total": 22.73
+        }
+      ],
+      "selected_id": "hypothesis_3",
+      "selected_text": "The stability of solutions to stochastic partial differential equations (SPDEs) under various nonlinear multiplicative noise conditions can be empirically validated through numerical simulations and compared with deterministic PDE solutions.",
+      "criteria": [
+        "testability",
+        "alignment_with_gap",
+        "clarity",
+        "methodological_implication"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "methodology": {
+      "candidates": [
+        {
+          "id": "methodology_1",
+          "text": "Conduct a theoretical analysis of the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, utilizing Malliavin calculus. This will be complemented by numerical simulations to validate theoretical findings, focusing on stability metrics and comparing results with traditional deterministic PDE solutions.",
+          "supporting_paper_ids": [
+            "P1",
+            "P3",
+            "P4"
+          ],
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 5,
+            "evaluation_metrics": 4,
+            "scope_control": 5,
+            "alignment_with_hypothesis": 5
+          },
+          "total": 23,
+          "reason": "Strong theoretical foundation with practical validation through simulations, directly addressing the research question.",
+          "llm_total": 23.0,
+          "anchor_similarity": 0.7685,
+          "literature_similarity": 0.7326,
+          "embedding_alignment": 0.7505,
+          "combined_total": 26.752
+        },
+        {
+          "id": "methodology_2",
+          "text": "Implement a series of empirical studies to assess the regularity and stability of SPDE solutions influenced by different types of nonlinear multiplicative noise. This will involve collecting data from simulations and applying concentration inequality metrics to evaluate implications for financial mathematics.",
+          "supporting_paper_ids": [
+            "P2",
+            "P5"
+          ],
+          "scores": {
+            "feasibility": 3,
+            "baseline_design": 4,
+            "evaluation_metrics": 5,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 4
+          },
+          "total": 20,
+          "reason": "Empirical focus enhances practical relevance but may face challenges in data collection and analysis.",
+          "llm_total": 20.0,
+          "anchor_similarity": 0.8133,
+          "literature_similarity": 0.6563,
+          "embedding_alignment": 0.7348,
+          "combined_total": 23.674
+        },
+        {
+          "id": "methodology_3",
+          "text": "Develop a comprehensive framework integrating theoretical analysis and empirical validation of SPDEs, focusing on the relationship between noise types and solution regularity. This approach will utilize existing literature on concentration inequalities to inform the design of experiments.",
+          "supporting_paper_ids": [
+            "P1",
+            "P5"
+          ],
+          "scores": {
+            "feasibility": 2,
+            "baseline_design": 3,
+            "evaluation_metrics": 3,
+            "scope_control": 3,
+            "alignment_with_hypothesis": 3
+          },
+          "total": 14,
+          "reason": "While comprehensive, the integration may complicate execution and dilute focus on core research questions.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.7063,
+          "literature_similarity": 0.613,
+          "embedding_alignment": 0.6597,
+          "combined_total": 17.299
+        }
+      ],
+      "selected_id": "methodology_1",
+      "selected_text": "Conduct a theoretical analysis of the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, utilizing Malliavin calculus. This will be complemented by numerical simulations to validate theoretical findings, focusing on stability metrics and comparing results with traditional deterministic PDE solutions.",
+      "criteria": [
+        "feasibility",
+        "baseline_design",
+        "evaluation_metrics",
+        "scope_control",
+        "alignment_with_hypothesis"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    }
+  },
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 2,
+        "title": "Regularity analysis for stochastic partial differential equations with nonlinear multiplicative trace class noise",
+        "similarity": 0.6695
+      },
+      {
+        "original_index": 3,
+        "title": "Regularity and Continuity of Solutions to Stochastic Evolution Equations",
+        "similarity": 0.6543
+      },
+      {
+        "original_index": 1,
+        "title": "Stability of solutions to stochastic partial differential equations",
+        "similarity": 0.6162
+      },
+      {
+        "original_index": 5,
+        "title": "Malliavin Regularity of Solutions of SPDE’s",
+        "similarity": 0.5099
+      },
+      {
+        "original_index": 4,
+        "title": "Talagrand Concentration Inequalities for Stochastic Partial Differential Equations",
+        "similarity": 0.495
+      }
+    ],
+    "group_selection": {
+      "gap": {
+        "candidates": [
+          {
+            "id": "gap_1",
+            "text": "Investigate the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, extending existing frameworks to include empirical validation of theoretical results.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "specificity": 4,
+              "literature_grounding": 5,
+              "novelty": 4,
+              "feasibility": 4
+            },
+            "total": 17,
+            "reason": "This candidate is specific about the types of noise and includes empirical validation, grounded in existing literature.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.6625,
+            "literature_similarity": 0.7219,
+            "embedding_alignment": 0.6922,
+            "combined_total": 20.461
+          },
+          {
+            "id": "gap_2",
+            "text": "Explore the application of Talagrand concentration inequalities in a broader context of SPDEs, focusing on practical implications and real-world applications.",
+            "supporting_paper_ids": [
+              "P5"
+            ],
+            "scores": {
+              "specificity": 3,
+              "literature_grounding": 4,
+              "novelty": 5,
+              "feasibility": 3
+            },
+            "total": 15,
+            "reason": "While novel and grounded, it lacks specificity regarding the types of SPDEs and practical scenarios.",
+            "llm_total": 15.0,
+            "anchor_similarity": 0.6014,
+            "literature_similarity": 0.7188,
+            "embedding_alignment": 0.6601,
+            "combined_total": 18.3
+          },
+          {
+            "id": "gap_3",
+            "text": "Examine the stability of SPDE solutions under a wider range of perturbation types, addressing the limitations of current theoretical frameworks.",
+            "supporting_paper_ids": [
+              "P3"
+            ],
+            "scores": {
+              "specificity": 3,
+              "literature_grounding": 4,
+              "novelty": 3,
+              "feasibility": 4
+            },
+            "total": 14,
+            "reason": "This candidate addresses a specific limitation but is less novel compared to others.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.622,
+            "literature_similarity": 0.6377,
+            "embedding_alignment": 0.6298,
+            "combined_total": 17.149
+          }
+        ],
+        "selected_id": "gap_1",
+        "selected_text": "Investigate the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, extending existing frameworks to include empirical validation of theoretical results.",
+        "criteria": [
+          "specificity",
+          "literature_grounding",
+          "novelty",
+          "feasibility"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "hypothesis": {
+        "candidates": [
+          {
+            "id": "hypothesis_1",
+            "text": "The regularity of solutions to stochastic partial differential equations (SPDEs) is significantly influenced by the type of nonlinear multiplicative noise, leading to varying stability outcomes compared to traditional deterministic PDE solutions.",
+            "supporting_paper_ids": [
+              "P1",
+              "P3"
+            ],
+            "scores": {
+              "testability": 4,
+              "alignment_with_gap": 5,
+              "clarity": 4,
+              "methodological_implication": 4
+            },
+            "total": 17,
+            "reason": "This hypothesis directly addresses the identified gap and is clear, with strong testability due to the comparative nature of the study.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.7783,
+            "literature_similarity": 0.7805,
+            "embedding_alignment": 0.7794,
+            "combined_total": 20.897
+          },
+          {
+            "id": "hypothesis_2",
+            "text": "Different types of nonlinear multiplicative noise in SPDEs lead to distinct regularity properties, which in turn affect the applicability of concentration inequalities in financial mathematics.",
+            "supporting_paper_ids": [
+              "P5"
+            ],
+            "scores": {
+              "testability": 3,
+              "alignment_with_gap": 4,
+              "clarity": 4,
+              "methodological_implication": 3
+            },
+            "total": 14,
+            "reason": "While this hypothesis is relevant and clear, it is slightly less testable due to the complexity of measuring concentration inequalities.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.8108,
+            "literature_similarity": 0.7143,
+            "embedding_alignment": 0.7626,
+            "combined_total": 17.813
+          },
+          {
+            "id": "hypothesis_3",
+            "text": "The stability of solutions to stochastic partial differential equations (SPDEs) under various nonlinear multiplicative noise conditions can be empirically validated through numerical simulations and compared with deterministic PDE solutions.",
+            "supporting_paper_ids": [
+              "P2",
+              "P3"
+            ],
+            "scores": {
+              "testability": 5,
+              "alignment_with_gap": 4,
+              "clarity": 5,
+              "methodological_implication": 5
+            },
+            "total": 19,
+            "reason": "This hypothesis is highly testable and methodologically sound, providing a clear path for empirical validation.",
+            "llm_total": 19.0,
+            "anchor_similarity": 0.7753,
+            "literature_similarity": 0.7168,
+            "embedding_alignment": 0.7461,
+            "combined_total": 22.73
+          }
+        ],
+        "selected_id": "hypothesis_3",
+        "selected_text": "The stability of solutions to stochastic partial differential equations (SPDEs) under various nonlinear multiplicative noise conditions can be empirically validated through numerical simulations and compared with deterministic PDE solutions.",
+        "criteria": [
+          "testability",
+          "alignment_with_gap",
+          "clarity",
+          "methodological_implication"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "methodology": {
+        "candidates": [
+          {
+            "id": "methodology_1",
+            "text": "Conduct a theoretical analysis of the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, utilizing Malliavin calculus. This will be complemented by numerical simulations to validate theoretical findings, focusing on stability metrics and comparing results with traditional deterministic PDE solutions.",
+            "supporting_paper_ids": [
+              "P1",
+              "P3",
+              "P4"
+            ],
+            "scores": {
+              "feasibility": 4,
+              "baseline_design": 5,
+              "evaluation_metrics": 4,
+              "scope_control": 5,
+              "alignment_with_hypothesis": 5
+            },
+            "total": 23,
+            "reason": "Strong theoretical foundation with practical validation through simulations, directly addressing the research question.",
+            "llm_total": 23.0,
+            "anchor_similarity": 0.7685,
+            "literature_similarity": 0.7326,
+            "embedding_alignment": 0.7505,
+            "combined_total": 26.752
+          },
+          {
+            "id": "methodology_2",
+            "text": "Implement a series of empirical studies to assess the regularity and stability of SPDE solutions influenced by different types of nonlinear multiplicative noise. This will involve collecting data from simulations and applying concentration inequality metrics to evaluate implications for financial mathematics.",
+            "supporting_paper_ids": [
+              "P2",
+              "P5"
+            ],
+            "scores": {
+              "feasibility": 3,
+              "baseline_design": 4,
+              "evaluation_metrics": 5,
+              "scope_control": 4,
+              "alignment_with_hypothesis": 4
+            },
+            "total": 20,
+            "reason": "Empirical focus enhances practical relevance but may face challenges in data collection and analysis.",
+            "llm_total": 20.0,
+            "anchor_similarity": 0.8133,
+            "literature_similarity": 0.6563,
+            "embedding_alignment": 0.7348,
+            "combined_total": 23.674
+          },
+          {
+            "id": "methodology_3",
+            "text": "Develop a comprehensive framework integrating theoretical analysis and empirical validation of SPDEs, focusing on the relationship between noise types and solution regularity. This approach will utilize existing literature on concentration inequalities to inform the design of experiments.",
+            "supporting_paper_ids": [
+              "P1",
+              "P5"
+            ],
+            "scores": {
+              "feasibility": 2,
+              "baseline_design": 3,
+              "evaluation_metrics": 3,
+              "scope_control": 3,
+              "alignment_with_hypothesis": 3
+            },
+            "total": 14,
+            "reason": "While comprehensive, the integration may complicate execution and dilute focus on core research questions.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.7063,
+            "literature_similarity": 0.613,
+            "embedding_alignment": 0.6597,
+            "combined_total": 17.299
+          }
+        ],
+        "selected_id": "methodology_1",
+        "selected_text": "Conduct a theoretical analysis of the regularity of solutions to SPDEs under various types of nonlinear multiplicative noise, utilizing Malliavin calculus. This will be complemented by numerical simulations to validate theoretical findings, focusing on stability metrics and comparing results with traditional deterministic PDE solutions.",
+        "criteria": [
+          "feasibility",
+          "baseline_design",
+          "evaluation_metrics",
+          "scope_control",
+          "alignment_with_hypothesis"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      }
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_group_selection",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Regularity and Singularity Propagation in Stochastic Partial Differential Equations",
+    "retrieval_snapshot_id": "20260524T115611Z-regularity-and-singularity-propagation-in-stochastic-partial-differential-equati-5",
+    "latency_ms": 178464,
+    "prompt_tokens": 39662,
+    "completion_tokens": 8258,
+    "total_tokens": 47920,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

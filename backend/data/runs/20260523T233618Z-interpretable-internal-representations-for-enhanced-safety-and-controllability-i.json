@@ -1,0 +1,306 @@
+{
+  "experiment_id": "20260523T233547Z",
+  "run_index": 1,
+  "topic": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+  "condition": "baseline_with_retrieval",
+  "retrieval_query": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+  "retrieval_snapshot_id": "20260523T233547Z-interpretable-internal-representations-for-enhanced-safety-and-controllability-i-5",
+  "papers": [
+    {
+      "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+      "authors": [
+        "Wenxuan Wang",
+        "Zhaopeng Tu",
+        "Chang Chen",
+        "Youliang Yuan",
+        "Jen-tse Huang",
+        "Wenxiang Jiao",
+        "Michael R. Lyu"
+      ],
+      "abstract": "Safety lies at the core of developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g. the majority language in the pretraining data such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSafety, in response to the global deployment of LLMs in practice. XSafety covers 14 kinds of commonly used safety issues across 10 languages that span several language families. We utilize XSafety to empirically study the multilingual safety for 4 widely-used LLMs, including both close-API and open-source models. Experimental results show that all LLMs produce significantly more unsafe responses for non-English queries than English ones, indicating the necessity of developing safety alignment for non-English languages. In addition, we propose several simple and effective prompting methods to improve the multilingual safety of ChatGPT by evoking safety knowledge and improving cross-lingual generalization of safety alignment. Our prompting method can significantly reduce the ratio of unsafe responses from 19.1% to 9.7% for non-English queries. We release our data at https://github.com/Jarviswang94/Multilingual_safety_benchmark.",
+      "published": "2023-10-02",
+      "url": "http://arxiv.org/abs/2310.00905v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+      "authors": [
+        "Xingjun Ma",
+        "Yifeng Gao",
+        "Yixu Wang",
+        "Ruofan Wang",
+        "Xin Wang",
+        "Ye Sun",
+        "Yifan Ding",
+        "Hengyuan Xu",
+        "Yunhao Chen",
+        "Yunhan Zhao",
+        "Hanxun Huang",
+        "Yige Li",
+        "Yutao Wu",
+        "Jiaming Zhang",
+        "Xiang Zheng",
+        "Yang Bai",
+        "Zuxuan Wu",
+        "Xipeng Qiu",
+        "Jingfeng Zhang",
+        "Yiming Li",
+        "Xudong Han",
+        "Haonan Li",
+        "Jun Sun",
+        "Cong Wang",
+        "Jindong Gu",
+        "Baoyuan Wu",
+        "Siheng Chen",
+        "Tianwei Zhang",
+        "Yang Liu",
+        "Mingming Gong",
+        "Tongliang Liu",
+        "Shirui Pan",
+        "Cihang Xie",
+        "Tianyu Pang",
+        "Yinpeng Dong",
+        "Ruoxi Jia",
+        "Yang Zhang",
+        "Shiqing Ma",
+        "Xiangyu Zhang",
+        "Neil Gong",
+        "Chaowei Xiao",
+        "Sarah Erfani",
+        "Tim Baldwin",
+        "Bo Li",
+        "Masashi Sugiyama",
+        "Dacheng Tao",
+        "James Bailey",
+        "Yu-Gang Jiang"
+      ],
+      "abstract": "The rapid advancement of large models, driven by their exceptional abilities in learning and generalization through large-scale pre-training, has reshaped the landscape of Artificial Intelligence (AI). These models are now foundational to a wide range of applications, including conversational AI, recommendation systems, autonomous driving, content generation, medical diagnostics, and scientific discovery. However, their widespread deployment also exposes them to significant safety risks, raising concerns about robustness, reliability, and ethical implications. This survey provides a systematic review of current safety research on large models, covering Vision Foundation Models (VFMs), Large Language Models (LLMs), Vision-Language Pre-training (VLP) models, Vision-Language Models (VLMs), Diffusion Models (DMs), and large-model-powered Agents. Our contributions are summarized as follows: (1) We present a comprehensive taxonomy of safety threats to these models, including adversarial attacks, data poisoning, backdoor attacks, jailbreak and prompt injection attacks, energy-latency attacks, data and model extraction attacks, and emerging agent-specific threats. (2) We review defense strategies proposed for each type of attacks if available and summarize the commonly used datasets and benchmarks for safety research. (3) Building on this, we identify and discuss the open challenges in large model safety, emphasizing the need for comprehensive safety evaluations, scalable and effective defense mechanisms, and sustainable data practices. More importantly, we highlight the necessity of collective efforts from the research community and international collaboration. Our work can serve as a useful reference for researchers and practitioners, fostering the ongoing development of comprehensive defense systems and platforms to safeguard AI models.",
+      "published": "2025-02-02",
+      "url": "http://arxiv.org/abs/2502.05206v6",
+      "source": "arXiv"
+    },
+    {
+      "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+      "authors": [
+        "Kingsley Attai"
+      ],
+      "abstract": "&lt;p&gt;&lt;span&gt;Tropical febrile diseases pose significant public health challenges in tropical regions, particularly in resource-limited settings, where timely and accurate diagnoses are critical for effective disease management. However, existing diagnostic systems are black-box and often lack interpretability, making it difficult for healthcare practitioners to understand and trust machine learning (ML) predictions. Additionally, the existing system excludes younger patients, limiting its applicability. This study aimed to develop an integrated diagnostic system that enhances interpretability by leveraging machine learning (ML), Explainable AI (XAI), and a large language model (LLM). A dataset comprising 3,914 patient records with 32 symptoms was obtained from a New Frontiers in Research Fund-sponsored project and preprocessed for analysis. Random Forest (RF) was trained with hyperparameter tuning using GridSearchCV and evaluated with 5-fold cross-validation to optimize its performance. The tuned model achieved high diagnostic performance, demonstrating its effectiveness in diagnosing six febrile diseases. To enhance interpretability, a Model Interpretability Framework (MIF) was incorporated, integrating Local Interpretable Model-Agnostic Explanations (LIME) for visual insights and ChatGPT for textual explanations. This combination provided users with a clear understanding of the diagnostic process, addressing the limitations of black-box ML models. The system was implemented using Python in a development environment that included Google Colaboratory, Visual Studio Code, Flet, and MySQL for database management. Agile development methodology and Unified Modeling Language tools were employed to create a user-friendly design for clinicians and patients. The diagnostic system was evaluated using precision, recall, F1-score, and AUC-ROC metrics. The RF model achieved outstanding precision for most diseases, high recall (≥0.97), and an AUC-ROC of 0.99, indicating nearly flawless training performance with few misclassifications. On the test dataset, the model performed better in diagnosing malaria (F1-score = 88%, precision = 85%), urinary tract infection (F1-score = 72%, precision = 80%), and respiratory tract infection (F1-score = 72%, precision = 77%). The evaluated system demonstrated strong predictive performance, correctly identifying 72 out of 99 tested patient cases, with 26 cases misclassified and one case completely missed. It achieved the highest detection rates for Malaria and HIV/AIDS, accurately identifying all cases without false positives. This work enhances diagnostic solutions for tropical healthcare settings by improving explainability and ensuring inclusivity for younger patients, addressing key limitations in existing systems. The integration of ML, XAI, and LLM enhances diagnostic performance and lays the groundwork for future AI-driven healthcare innovations, ultimately improving health outcomes in resource-scarce regions. Healthcare providers should adopt this system to enhance the efficiency of disease diagnosis and extend the system to diagnose additional medical conditions.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+      "published": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6557498",
+      "source": "Crossref"
+    },
+    {
+      "title": "Safety Assessment of Chinese Large Language Models",
+      "authors": [
+        "Hao Sun",
+        "Zhexin Zhang",
+        "Jiawen Deng",
+        "Jiale Cheng",
+        "Minlie Huang"
+      ],
+      "abstract": "With the rapid popularity of large language models such as ChatGPT and GPT-4, a growing amount of attention is paid to their safety concerns. These models may generate insulting and discriminatory content, reflect incorrect social values, and may be used for malicious purposes such as fraud and dissemination of misleading information. Evaluating and enhancing their safety is particularly essential for the wide application of large language models (LLMs). To further promote the safe deployment of LLMs, we develop a Chinese LLM safety assessment benchmark. Our benchmark explores the comprehensive safety performance of LLMs from two perspectives: 8 kinds of typical safety scenarios and 6 types of more challenging instruction attacks. Our benchmark is based on a straightforward process in which it provides the test prompts and evaluates the safety of the generated responses from the evaluated model. In evaluation, we utilize the LLM's strong evaluation ability and develop it as a safety evaluator by prompting. On top of this benchmark, we conduct safety assessments and analyze 15 LLMs including the OpenAI GPT series and other well-known Chinese LLMs, where we observe some interesting findings. For example, we find that instruction attacks are more likely to expose safety issues of all LLMs. Moreover, to promote the development and deployment of safe, responsible, and ethical AI, we publicly release SafetyPrompts including 100k augmented prompts and responses by LLMs.",
+      "published": "2023-04-20",
+      "url": "http://arxiv.org/abs/2304.10436v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+      "authors": [
+        "Zhoumeng Wang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2024",
+      "url": "https://doi.org/10.1109/access.2024.3368027",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Safety and Evaluation of Large Language Models",
+      "paper_indices": [
+        1,
+        4,
+        2,
+        3
+      ],
+      "summary": "This cluster focuses on the safety assessment of large language models (LLMs) across different languages and applications. It includes the development of multilingual safety benchmarks, such as XSafety, which evaluates safety issues in 10 languages, and a specific benchmark for Chinese LLMs that assesses various safety scenarios and instruction attacks. The studies highlight the increased safety risks associated with non-English queries and the need for effective safety alignment methods. Additionally, the cluster reviews the broader safety landscape of large models, identifying various threats and defense strategies.",
+      "limitations": "The studies primarily address safety in specific languages (e.g., English and Chinese) and may not cover the full spectrum of languages or cultural contexts. There is also a reliance on existing LLMs for safety evaluation, which may introduce biases. Furthermore, the effectiveness of proposed safety improvements is not universally validated across all model types and applications.",
+      "gap_relevance": "This cluster identifies significant gaps in the multilingual safety of LLMs and the need for comprehensive safety benchmarks that encompass diverse languages and cultural contexts. It highlights the importance of developing robust safety measures for non-English applications, which can guide future research in enhancing the safety and reliability of AI systems globally."
+    },
+    {
+      "theme": "Enhancing Few-Shot Recommender Systems with Language Models",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster primarily investigates the integration of large language models to improve few-shot recommender systems, focusing on how enhanced representations can empower these systems to make more accurate recommendations with limited data.",
+      "limitations": "The cluster lacks comprehensive empirical evaluations across diverse datasets and real-world scenarios, and the effectiveness of the proposed enhancements in various contexts remains underexplored.",
+      "gap_relevance": "This research highlights the potential for further exploration into the application of language models in recommendation systems, identifying gaps in understanding their impact on performance and user experience."
+    }
+  ],
+  "evidence_notes": [],
+  "summary": null,
+  "scholarly_positioning": null,
+  "domain_router": null,
+  "research_scope": null,
+  "concept_definition": null,
+  "technical_feasibility": null,
+  "gap": null,
+  "question": null,
+  "theoretical_mechanism": null,
+  "hypothesis": null,
+  "operationalization_causal_check": null,
+  "methodology": null,
+  "novelty_contribution": null,
+  "failure_analysis": null,
+  "proposal_logic_graph": null,
+  "proposal": "This proposal aims to develop interpretable internal representations in large language models (LLMs) to enhance safety and controllability. While existing literature, such as Wang et al. (2023) and Sun et al. (2023), highlights the safety concerns and assessment benchmarks for LLMs, they primarily focus on multilingual safety and specific instruction attacks without addressing the interpretability of internal representations. The objective is to investigate how enhanced interpretability can lead to better safety outcomes by employing explainable AI techniques alongside LLMs. The methodology will involve integrating Local Interpretable Model-Agnostic Explanations (LIME) with existing LLM architectures to visualize and interpret internal representations during inference. Expected contributions include a novel framework that not only improves safety through enhanced interpretability but also provides actionable insights for developers to refine model behavior. This work extends the findings of Attai (2026) by applying interpretability techniques to LLMs, thereby addressing the gap in understanding model decision-making processes and their implications for safety.",
+  "draft_proposal": null,
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 3,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 3,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 4,
+    "weighted_total": 58.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 9.0,
+        "level": "9-11: understandable but partially broad or insufficiently operationalized",
+        "justification": "The proposal identifies a relevant research problem regarding the interpretability of internal representations in LLMs for safety. However, it lacks specificity in operational definitions and does not clearly delineate the research boundaries, making it somewhat broad. Major weaknesses: Key concepts such as 'safety' and 'interpretability' are not explicitly operationalized, leading to ambiguity in how these will be measured or defined in the context of the research. Next band requirements: To move into the next band, the proposal needs to provide precise definitions of key concepts and a more focused research question that clearly outlines the boundaries of the study."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical progression from the identified problem to the proposed methodology. However, the causal claims regarding how interpretability will enhance safety are not sufficiently justified. Major weaknesses: There is a lack of clear theoretical mechanisms linking enhanced interpretability to improved safety outcomes, which weakens the overall coherence of the argument. Next band requirements: To achieve a higher score, the proposal must provide stronger theoretical justification for the causal claims and ensure that each component of the reasoning chain is well-supported."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal seeks to extend existing work by integrating LIME with LLMs, but the novelty is not sufficiently clear. It primarily builds on established techniques without introducing a fundamentally new framework or theory. Major weaknesses: The proposal lacks a clear articulation of how it advances the field beyond existing methodologies, making it appear somewhat derivative. Next band requirements: To improve, the proposal should articulate a more original theoretical framework or provide a novel explanation of how interpretability impacts safety in LLMs."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 8.0,
+        "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+        "justification": "While the methodology suggests integrating LIME, it lacks detail on experimental design, including baseline comparisons and evaluation metrics, which raises concerns about feasibility. Major weaknesses: The proposal does not specify how it will control for confounding variables or ensure reproducibility, which are critical for a robust experimental design. Next band requirements: To achieve a higher score, the proposal needs to outline a detailed experimental design, including clear baselines, evaluation metrics, and controls for confounding factors."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but does not engage deeply with it. The positioning relative to existing work lacks critical analysis and does not sufficiently identify gaps. Major weaknesses: There is a superficial engagement with prior research, failing to critically assess the limitations of existing studies or articulate clear gaps that the proposal addresses. Next band requirements: To improve, the proposal should provide a more comprehensive literature review that critically analyzes existing work and clearly identifies the research gap it aims to fill."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 5.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some theoretical grounding but lacks the depth and sophistication expected at the PhD level. It does not adequately discuss the underlying mechanisms or limitations. Major weaknesses: The proposal does not sufficiently explore the theoretical implications of the research or engage with potential limitations and failure cases. Next band requirements: To achieve a higher score, the proposal must demonstrate greater theoretical sophistication, including a discussion of mechanisms and limitations."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-organized and clear, but there are areas where terminology could be more precise and concise. Major weaknesses: Some sections could benefit from improved clarity and conciseness, particularly in defining key concepts. Next band requirements: To improve, the proposal should refine its language for greater precision and conciseness."
+      }
+    ],
+    "comments": "Total score: 58.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant research problem in LLM safety and interpretability.; Proposes a methodology that integrates established techniques like LIME. Major weaknesses: Lacks clear operational definitions of key concepts.; Insufficient theoretical grounding for causal claims.; Limited novelty and originality in the proposed contributions.; Weak experimental design and evaluation metrics. Required improvements for true PhD-level quality: Provide precise operational definitions of key concepts.; Strengthen theoretical mechanisms linking interpretability to safety.; Articulate a more original theoretical framework.; Detail the experimental design, including baselines and controls. Final verdict: The proposal demonstrates some foundational elements of research maturity but lacks the depth, rigor, and originality expected at the PhD level."
+  },
+  "baseline": {
+    "proposal": "This proposal aims to develop interpretable internal representations in large language models (LLMs) to enhance safety and controllability. While existing literature, such as Wang et al. (2023) and Sun et al. (2023), highlights the safety concerns and assessment benchmarks for LLMs, they primarily focus on multilingual safety and specific instruction attacks without addressing the interpretability of internal representations. The objective is to investigate how enhanced interpretability can lead to better safety outcomes by employing explainable AI techniques alongside LLMs. The methodology will involve integrating Local Interpretable Model-Agnostic Explanations (LIME) with existing LLM architectures to visualize and interpret internal representations during inference. Expected contributions include a novel framework that not only improves safety through enhanced interpretability but also provides actionable insights for developers to refine model behavior. This work extends the findings of Attai (2026) by applying interpretability techniques to LLMs, thereby addressing the gap in understanding model decision-making processes and their implications for safety.",
+    "evaluation": {
+      "clarity": 3,
+      "logic": 4,
+      "novelty": 3,
+      "feasibility": 3,
+      "literature_alignment": 4,
+      "phd_level_quality": 3,
+      "presentation": 4,
+      "weighted_total": 58.0,
+      "rubric_scores": [
+        {
+          "criterion": "Research Clarity & Problem Definition",
+          "weight": 15,
+          "score": 9.0,
+          "level": "9-11: understandable but partially broad or insufficiently operationalized",
+          "justification": "The proposal identifies a relevant research problem regarding the interpretability of internal representations in LLMs for safety. However, it lacks specificity in operational definitions and does not clearly delineate the research boundaries, making it somewhat broad. Major weaknesses: Key concepts such as 'safety' and 'interpretability' are not explicitly operationalized, leading to ambiguity in how these will be measured or defined in the context of the research. Next band requirements: To move into the next band, the proposal needs to provide precise definitions of key concepts and a more focused research question that clearly outlines the boundaries of the study."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "weight": 15,
+          "score": 10.0,
+          "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+          "justification": "The proposal presents a logical progression from the identified problem to the proposed methodology. However, the causal claims regarding how interpretability will enhance safety are not sufficiently justified. Major weaknesses: There is a lack of clear theoretical mechanisms linking enhanced interpretability to improved safety outcomes, which weakens the overall coherence of the argument. Next band requirements: To achieve a higher score, the proposal must provide stronger theoretical justification for the causal claims and ensure that each component of the reasoning chain is well-supported."
+        },
+        {
+          "criterion": "Novelty & Research Contribution",
+          "weight": 20,
+          "score": 12.0,
+          "level": "12-14: moderate novelty but partially derivative",
+          "justification": "The proposal seeks to extend existing work by integrating LIME with LLMs, but the novelty is not sufficiently clear. It primarily builds on established techniques without introducing a fundamentally new framework or theory. Major weaknesses: The proposal lacks a clear articulation of how it advances the field beyond existing methodologies, making it appear somewhat derivative. Next band requirements: To improve, the proposal should articulate a more original theoretical framework or provide a novel explanation of how interpretability impacts safety in LLMs."
+        },
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "weight": 20,
+          "score": 8.0,
+          "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+          "justification": "While the methodology suggests integrating LIME, it lacks detail on experimental design, including baseline comparisons and evaluation metrics, which raises concerns about feasibility. Major weaknesses: The proposal does not specify how it will control for confounding variables or ensure reproducibility, which are critical for a robust experimental design. Next band requirements: To achieve a higher score, the proposal needs to outline a detailed experimental design, including clear baselines, evaluation metrics, and controls for confounding factors."
+        },
+        {
+          "criterion": "Literature Alignment & Scholarly Positioning",
+          "weight": 15,
+          "score": 10.0,
+          "level": "9-11: relevant literature used but somewhat surface-level",
+          "justification": "The proposal references relevant literature but does not engage deeply with it. The positioning relative to existing work lacks critical analysis and does not sufficiently identify gaps. Major weaknesses: There is a superficial engagement with prior research, failing to critically assess the limitations of existing studies or articulate clear gaps that the proposal addresses. Next band requirements: To improve, the proposal should provide a more comprehensive literature review that critically analyzes existing work and clearly identifies the research gap it aims to fill."
+        },
+        {
+          "criterion": "PhD-Level Academic Depth",
+          "weight": 10,
+          "score": 5.0,
+          "level": "5-6: strong master-level but limited theoretical depth",
+          "justification": "The proposal demonstrates some theoretical grounding but lacks the depth and sophistication expected at the PhD level. It does not adequately discuss the underlying mechanisms or limitations. Major weaknesses: The proposal does not sufficiently explore the theoretical implications of the research or engage with potential limitations and failure cases. Next band requirements: To achieve a higher score, the proposal must demonstrate greater theoretical sophistication, including a discussion of mechanisms and limitations."
+        },
+        {
+          "criterion": "Presentation & Academic Communication",
+          "weight": 5,
+          "score": 4.0,
+          "level": "4: strong academic communication",
+          "justification": "The proposal is generally well-organized and clear, but there are areas where terminology could be more precise and concise. Major weaknesses: Some sections could benefit from improved clarity and conciseness, particularly in defining key concepts. Next band requirements: To improve, the proposal should refine its language for greater precision and conciseness."
+        }
+      ],
+      "comments": "Total score: 58.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant research problem in LLM safety and interpretability.; Proposes a methodology that integrates established techniques like LIME. Major weaknesses: Lacks clear operational definitions of key concepts.; Insufficient theoretical grounding for causal claims.; Limited novelty and originality in the proposed contributions.; Weak experimental design and evaluation metrics. Required improvements for true PhD-level quality: Provide precise operational definitions of key concepts.; Strengthen theoretical mechanisms linking interpretability to safety.; Articulate a more original theoretical framework.; Detail the experimental design, including baselines and controls. Final verdict: The proposal demonstrates some foundational elements of research maturity but lacks the depth, rigor, and originality expected at the PhD level."
+    }
+  },
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_mode": "raw_source_order"
+  },
+  "metrics": {
+    "condition": "baseline_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+    "retrieval_snapshot_id": "20260523T233547Z-interpretable-internal-representations-for-enhanced-safety-and-controllability-i-5",
+    "latency_ms": 31345,
+    "prompt_tokens": 7664,
+    "completion_tokens": 1943,
+    "total_tokens": 9607,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

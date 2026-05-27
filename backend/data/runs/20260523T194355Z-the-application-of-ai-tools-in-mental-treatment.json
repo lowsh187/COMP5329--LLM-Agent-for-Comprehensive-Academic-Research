@@ -1,0 +1,783 @@
+{
+  "experiment_id": "20260523T192754Z",
+  "run_index": 2,
+  "topic": "the application of ai tools in mental treatment",
+  "condition": "multi_stage_group_selection",
+  "retrieval_query": "the application of ai tools in mental treatment",
+  "retrieval_snapshot_id": "20260523T192754Z-the-application-of-ai-tools-in-mental-treatment-5",
+  "papers": [
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    },
+    {
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+      "authors": [
+        "Senoussaoui Abderrahmen",
+        "Rahmani Djamel"
+      ],
+      "abstract": "The rapid integration of Artificial Intelligence (AI) into Mental Health care represents a transformative shift in the diagnosis, monitoring, and treatment of psychological disorders. While AI-driven tools—including digital phenotyping systems, natural language processing models, and conversational agents—offer significant potential to enhance diagnostic precision, accessibility, and personalized interventions, they simultaneously introduce complex ethical, clinical, and epistemological challenges. This study provides a comprehensive and critical synthesis of contemporary literature (2019–2025) to examine the ethical implications of AI deployment in psychotherapeutic contexts. Moving beyond descriptive review, the paper develops a conceptual ethical governance framework grounded in the principles of autonomy, beneficence, non-maleficence, and justice, as well as the emerging “ethics of care” paradigm. It identifies key risk domains, including algorithmic bias, opacity of decision-making processes, data privacy vulnerabilities, erosion of therapeutic alliance, and the reconfiguration of professional accountability. Furthermore, the study proposes a human-centered, explainable, and clinically supervised AI integration model, emphasizing transparency, continuous ethical auditing, stakeholder inclusion, and hybrid human–AI decision-making structures. The findings highlight that while AI can significantly improve efficiency and expand access to mental healthcare—particularly in resource-constrained settings—its unregulated or poorly designed application may exacerbate inequalities, compromise patient autonomy, and undermine trust in clinical practice. The paper contributes to the interdisciplinary discourse by offering a structured ethical framework that bridges technological innovation with clinical responsibility and humanistic values. It concludes that sustainable and ethically aligned AI integration in mental health requires robust regulatory architectures, cross-disciplinary collaboration, and the preservation of the fundamentally human dimensions of psychotherapy.",
+      "published": "2026-04-18",
+      "url": "https://www.semanticscholar.org/paper/6dc63f9c10061546d60e145893be33c6aed6773e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "authors": [
+        "Anna-Carolina Haensch"
+      ],
+      "abstract": "The emergence of generative AI chatbots such as ChatGPT has prompted growing public and academic interest in their role as informal mental health support tools. While early rule-based systems have been around for several years, large language models (LLMs) offer new capabilities in conversational fluency, empathy simulation, and availability. This study explores how users engage with LLMs as mental health tools by analyzing over 10,000 TikTok comments from videos referencing LLMs as mental health tools. Using a self-developed tiered coding schema and supervised classification models, we identify user experiences, attitudes, and recurring themes. Results show that nearly 20% of comments reflect personal use, with these users expressing overwhelmingly positive attitudes. Commonly cited benefits include accessibility, emotional support, and perceived therapeutic value. However, concerns around privacy, generic responses, and the lack of professional oversight remain prominent. It is important to note that the user feedback does not indicate which therapeutic framework, if any, the LLM-generated output aligns with. While the findings underscore the growing relevance of AI in everyday practices, they also highlight the urgent need for clinical and ethical scrutiny in the use of AI for mental health support.",
+      "published": "2025-04-14",
+      "url": "http://arxiv.org/abs/2504.12337v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "authors": [
+        "Maria-Angeles Chiang",
+        "Lucía Coll",
+        "M. F. Pollo-Cattaneo",
+        "Parag Chatterjee"
+      ],
+      "abstract": "Purpose: This systematic review examines the current landscape of artificial intelligence (AI)-based Clinical Decision Support Systems (CDSS) designed to aid in the treatment of depression. With depression recognized as a complex and multifactorial condition, often differing across contexts such as postpartum, adolescence, and elderly populations, the review aims to evaluate the feasibility, acceptability, and potential of AI-based CDSS in supporting personalized care. The primary research question explores how these systems are implemented and evaluated in clinical settings, as well as the main challenges to their broader adoption.Methods: The review analyzed studies focused on AI-based CDSS for depression, identifying variations in algorithms, performance metrics, and implementations. Studies were assessed based on system purposes, categorized into treatment selection, prediction and risk assessment, and clinical support and data review, providing a comprehensive overview of each study’s approach and outcomes.Results: 11 unique algorithms, 9 performance metrics, and 10 CDSS implementations were identified across the studies. Findings indicate positive results for CDSS in supporting clinical decision-making, yet highlight challenges in applying these tools in routine practice. Limitations include small, non-diverse sample sizes, immature methodologies, and difficulties in workflow integration, along with concerns about data privacy and the ethical use of AI.Conclusions: AI-based CDSS for depression shows potential in patient care; however, foundational issues such as more diverse samples and robust model development remain critical. Addressing these aspects will set the stage for future research into advanced applications, such as virtual-reality integration and multi-condition prediction, thus advancing AI’s role in mental health treatment.Clinical Relevance—This work illustrates the state of art of AI adoption in the domain of mental health, specifically in the context of depression.",
+      "published": "2025-07-01",
+      "url": "https://www.semanticscholar.org/paper/4dc7da378a6122ed24f2f2546215355d26fd11d9",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "published": "2025-01-06",
+      "url": "http://arxiv.org/abs/2501.02842v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI Integration in Mental Health Interventions",
+      "paper_indices": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "summary": "This cluster of papers explores the application of artificial intelligence (AI) in mental health interventions, particularly focusing on AI-assisted music therapy tools, clinical decision support systems for depression, and the use of large language models (LLMs) as informal mental health support. The findings suggest that AI can enhance personalized care, improve accessibility, and provide emotional support, while also highlighting the potential benefits such as reduced anxiety and depressive symptoms, and improved emotion regulation across various demographics.",
+      "limitations": "The cluster identifies several limitations, including ethical concerns related to data privacy, algorithmic bias, and the erosion of therapeutic alliances. Additionally, there are challenges in the implementation and acceptance of AI tools in clinical settings, as well as a lack of clarity regarding the therapeutic frameworks employed by AI-generated responses.",
+      "gap_relevance": "This cluster supports the identification of research gaps in the ethical governance of AI in mental health, the need for human-centered approaches in AI development, and the exploration of user experiences with AI tools. It emphasizes the importance of addressing ethical and practical challenges to ensure effective and responsible integration of AI in mental health care."
+    },
+    {
+      "theme": "Generative AI in Information Access Systems",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster explores the transformative role of generative AI models in enhancing information access systems through information generation and synthesis. It highlights how these models can produce high-quality, user-centric content and effectively integrate existing information to provide accurate responses, thereby improving user experience and addressing challenges like model hallucination.",
+      "limitations": "The cluster does not extensively address the ethical implications of generative AI in information access, nor does it fully explore the potential biases in the training data that could affect the quality of generated information. Additionally, the scalability of these models in real-world applications remains a concern.",
+      "gap_relevance": "This cluster identifies key areas where generative AI can fill gaps in traditional information access paradigms, particularly in enhancing user interaction and ensuring the reliability of information provided. It sets the stage for further research into optimizing generative models for specific applications and addressing their limitations."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "problem": "Limitations of traditional mental health interventions and the need for personalized approaches.",
+      "method": "Review of literature and representative cases on AI-assisted music therapy tools.",
+      "evidence": "AI-assisted music therapy can reduce anxiety and depressive symptoms and improve emotion regulation.",
+      "limitation": "Lack of detailed implementation pathways and potential challenges in translating findings into practice.",
+      "gap_relevance": "Identifies the need for further research on effective implementation and ethical standards in AI-assisted therapies."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care",
+      "problem": "Ethical implications and challenges of AI integration in mental health care.",
+      "method": "Critical synthesis of literature from 2019-2025 on ethical governance frameworks.",
+      "evidence": "AI can enhance diagnostic precision but poses risks like algorithmic bias and erosion of therapeutic alliance.",
+      "limitation": "Focus on ethical frameworks without empirical testing of proposed models in clinical settings.",
+      "gap_relevance": "Highlights the need for empirical studies to validate ethical frameworks in real-world applications."
+    },
+    {
+      "paper_id": "P3",
+      "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+      "problem": "Public perception and use of LLMs as informal mental health support tools.",
+      "method": "Analysis of over 10,000 TikTok comments using a tiered coding schema.",
+      "evidence": "20% of comments reflect positive user experiences with LLMs, citing accessibility and emotional support.",
+      "limitation": "Concerns about privacy and lack of professional oversight in LLM responses.",
+      "gap_relevance": "Calls for research on the clinical implications and ethical considerations of using LLMs in mental health."
+    },
+    {
+      "paper_id": "P4",
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "problem": "Challenges in implementing AI-based Clinical Decision Support Systems (CDSS) for depression.",
+      "method": "Systematic review of studies on AI-based CDSS, focusing on implementation and evaluation.",
+      "evidence": "Positive results in supporting clinical decision-making but challenges in routine practice integration.",
+      "limitation": "Issues with sample diversity and workflow integration, along with ethical concerns.",
+      "gap_relevance": "Identifies the need for diverse samples and robust methodologies to enhance AI's role in mental health."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Foundations of GenIR",
+      "problem": "The impact of generative AI on information access systems and user experience.",
+      "method": "Discussion of generative AI models and their applications in information generation and synthesis.",
+      "evidence": "Generative AI can produce tailored content and improve user experience through relevant outputs.",
+      "limitation": "Potential challenges in ensuring precision and mitigating model hallucination in sensitive applications.",
+      "gap_relevance": "Suggests further exploration of generative AI's role in enhancing mental health information access."
+    }
+  ],
+  "summary": "The literature on AI tools in mental treatment highlights their potential to enhance interventions through AI-assisted music therapy, clinical decision support systems, and large language models, improving personalized care and emotional support. However, ethical concerns, algorithmic bias, and implementation challenges persist, necessitating further research on effective integration and governance. Additionally, generative AI shows promise in improving information access systems, though issues like model hallucination and data bias require attention.",
+  "scholarly_positioning": "While prior research has demonstrated the potential of AI tools in mental health interventions, such as AI-assisted music therapy and clinical decision support systems, significant unresolved tensions remain regarding ethical governance, algorithmic bias, and the erosion of therapeutic relationships. Existing studies often lack empirical validation in clinical settings and fail to address the complexities of user experiences with AI, particularly in informal support contexts like large language models. This proposed research aims to bridge these gaps by examining the practical implementation of AI tools in mental health care, focusing on ethical frameworks and user-centered approaches, thereby contributing to a more nuanced understanding of AI's role in enhancing mental health treatment.",
+  "gap": "Investigate the ethical governance frameworks for AI tools in mental health, focusing on empirical validation in clinical settings to address algorithmic bias and therapeutic alliance erosion.",
+  "question": "How can ethical governance frameworks for AI tools in mental health be empirically validated in clinical settings to mitigate algorithmic bias and preserve therapeutic alliances?",
+  "theoretical_mechanism": "The proposed research utilizes a socio-technical systems framework, positing that AI tools in mental health can enhance therapeutic outcomes by improving personalization and emotional support through user-centered design. The intervention is expected to affect outcomes by fostering a collaborative therapeutic alliance, where AI assists rather than replaces human interaction. Key constructs include ethical governance, algorithmic bias, and user experience, with relationships suggesting that robust ethical frameworks can mitigate bias and enhance trust. Assumptions requiring empirical validation include the premise that ethical governance directly influences user acceptance and the quality of therapeutic relationships.",
+  "hypothesis": "Implementing AI-assisted music therapy tools in clinical settings will significantly reduce anxiety and depressive symptoms among patients, provided that ethical governance frameworks are established to address algorithmic bias and ensure user trust.",
+  "operationalization_causal_check": "Key constructs will be operationalized as follows: ethical governance will be measured through a validated questionnaire assessing adherence to ethical standards in AI deployment; algorithmic bias will be evaluated using statistical analysis of AI decision-making outcomes; and user experience will be assessed via user satisfaction surveys. The expected causal pathway posits that robust ethical governance reduces algorithmic bias, which in turn enhances user experience and strengthens the therapeutic alliance, leading to reduced anxiety and depressive symptoms. Potential mediators include user trust and engagement, while moderators may include patient demographics and baseline mental health status. Likely confounds include clinician variability and external stressors affecting patient outcomes. The study can claim associations between ethical governance and therapeutic outcomes but cannot definitively establish causation due to the observational nature of the design. Measurement instruments will include standardized anxiety and depression scales (e.g., GAD-7, PHQ-9) and user experience surveys.",
+  "methodology": "Conduct a systematic review of existing AI-assisted music therapy tools, focusing on their implementation in clinical settings. This review will synthesize findings on effectiveness, ethical governance, and user experiences, providing a comprehensive overview of current practices and gaps.",
+  "failure_analysis": "Potential failure modes include algorithmic bias leading to misdiagnosis or ineffective treatment, which could erode the therapeutic alliance and patient trust. Validity threats may arise from confounding variables such as clinician variability and external stressors, complicating causal interpretations. Ethical risks include privacy concerns and the potential for dehumanization in treatment. To mitigate these issues, robust ethical governance frameworks should be established, continuous monitoring of AI tools should be implemented, and diverse patient demographics should be included in studies to ensure generalizability and fairness.",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "P1, P2, P3, and P4 provide strong support for the gap regarding the need for empirical validation of ethical governance frameworks in AI tools for mental health.",
+    "gap_to_question": "The identified gap in ethical governance frameworks directly leads to the research question, as it seeks to explore how these frameworks can be empirically validated in clinical settings.",
+    "question_to_hypothesis": "The research question implies that establishing ethical governance frameworks is crucial for the effectiveness of AI tools, leading to the hypothesis that their implementation will reduce anxiety and depressive symptoms.",
+    "hypothesis_to_methodology": "The methodology involves a systematic review and empirical testing of AI-assisted music therapy tools, which will assess the hypothesis regarding their effectiveness in reducing symptoms.",
+    "methodology_to_evaluation": "The planned evaluation through standardized scales and surveys will provide data to answer the research question about the impact of ethical governance on therapeutic outcomes.",
+    "weak_links": [
+      "Potential lack of empirical testing in real-world settings for some evidence notes; unclear operational definitions for constructs like 'user trust' and 'engagement'."
+    ]
+  },
+  "proposal": "This research investigates the integration of AI tools in mental health treatment, particularly focusing on AI-assisted music therapy and clinical decision support systems, which have demonstrated potential to enhance personalized care and emotional support. Despite promising findings, significant gaps remain regarding the empirical validation of ethical governance frameworks, which are crucial for addressing algorithmic bias and preserving therapeutic alliances. Existing literature often overlooks the practical implications of these frameworks and lacks comprehensive empirical testing in clinical settings. Therefore, the research question is: How can ethical governance frameworks for AI tools in mental health be empirically validated in clinical settings to mitigate algorithmic bias and preserve therapeutic alliances? Utilizing a socio-technical systems framework, we hypothesize that implementing AI-assisted music therapy tools will significantly reduce anxiety and depressive symptoms among patients, contingent upon the establishment of robust ethical governance frameworks. Constructs such as ethical governance, algorithmic bias, and user experience will be operationalized through validated questionnaires, statistical analyses, and user satisfaction surveys. The methodology will include a systematic review of current AI-assisted music therapy tools, establishing baselines through diverse participant selection and employing metrics like standardized anxiety and depression scales (GAD-7, PHQ-9). Validity will be ensured through rigorous statistical methods and confound control strategies, addressing potential biases and external stressors. This research contributes methodologically by advancing the understanding of AI's role in mental health treatment while highlighting the necessity of ethical frameworks. Key limitations include the observational nature of the design, which may complicate causal interpretations, and potential failure modes such as algorithmic bias leading to misdiagnosis, necessitating robust risk mitigation strategies.",
+  "draft_proposal": "The proposed research investigates the application of AI tools in mental health treatment, specifically focusing on AI-assisted music therapy and clinical decision support systems, which have shown potential to enhance personalized care and emotional support. Despite existing studies, significant gaps remain regarding ethical governance, algorithmic bias, and the preservation of therapeutic alliances, particularly in informal support contexts. This research aims to empirically validate ethical governance frameworks in clinical settings to mitigate algorithmic bias and enhance therapeutic relationships. Utilizing a socio-technical systems framework, we hypothesize that implementing AI-assisted music therapy tools will significantly reduce anxiety and depressive symptoms among patients when robust ethical governance is established. Key constructs—ethical governance, algorithmic bias, and user experience—will be operationalized through validated questionnaires, statistical analysis, and user satisfaction surveys. A systematic review of current AI-assisted music therapy tools will synthesize findings on effectiveness and ethical considerations. This study is expected to contribute to a nuanced understanding of AI's role in mental health treatment, addressing a recognized gap in the literature while highlighting the importance of ethical frameworks. Key limitations include potential confounding variables and the observational nature of the design, which may complicate causal interpretations.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding ethical governance frameworks is valid but could benefit from more specificity in how these frameworks will be empirically validated.",
+      "literature_grounding": "The literature grounding is solid, referencing relevant studies, but it lacks a comprehensive analysis of how existing frameworks fall short in practice.",
+      "meaningfulness": "The gap is meaningful as it addresses critical ethical issues in AI integration, but it could be more focused on specific outcomes or populations.",
+      "already_solved_risk": "There is a risk that existing literature may have already addressed some aspects of the gap, particularly regarding algorithmic bias and therapeutic alliances."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior work but does not critically compare methodologies or findings across studies, which weakens its scholarly positioning.",
+      "unresolved_tensions": "Unresolved tensions are mentioned but could be articulated more clearly, particularly in relation to the practical implications of ethical governance.",
+      "positioning_quality": "Overall positioning is adequate but lacks depth in evaluating how previous studies inform the proposed research."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on empirical validation of ethical frameworks.",
+      "scope_appropriateness": "The scope is appropriate, but it may benefit from narrowing down to specific AI tools or populations.",
+      "variable_clarity": "Variables are defined but could be more explicitly linked to measurable outcomes in the context of the research question."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The theoretical mechanism is articulated but lacks a detailed explanation of how each construct interacts to produce the desired outcomes.",
+      "theoretical_framing": "The socio-technical systems framework is appropriate, but further elaboration on its application to the research context is needed.",
+      "assumption_transparency": "Assumptions are stated but should be more explicitly linked to the proposed research design and outcomes."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it could be strengthened by specifying the conditions under which it would be tested.",
+      "mechanism_grounding": "Grounding in mechanisms is present but could be more explicitly connected to the constructs identified in the research question.",
+      "measurable_outcome": "Measurable outcomes are identified, but clarity on how they will be assessed in relation to the hypothesis is needed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization of constructs is outlined but lacks detail on measurement tools and their validity.",
+      "causal_identification": "The causal pathway is suggested but requires more explicit connections between constructs and outcomes.",
+      "confound_awareness": "Confound awareness is acknowledged, but specific strategies for controlling these confounds should be detailed.",
+      "claim_boundaries": "Claim boundaries are noted, but the limitations of observational designs should be more thoroughly discussed."
+    },
+    "methodology_stage": {
+      "baseline_validity": "Baseline validity is not clearly established; more detail on participant selection and context is needed.",
+      "metric_validity": "Metric validity is mentioned but requires justification for the chosen measurement instruments.",
+      "statistical_or_evaluation_validity": "Statistical validity is not sufficiently addressed; specific analysis methods should be outlined.",
+      "reproducibility": "Reproducibility is a concern; clearer protocols for data collection and analysis would enhance this aspect.",
+      "confound_control": "Confound control strategies are vague; a detailed plan for managing confounding variables is necessary.",
+      "risk_analysis": "Risk analysis is minimal; ethical considerations should be more thoroughly integrated into the methodology."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are discussed but lack depth; potential scenarios should be elaborated upon.",
+      "limitation_depth": "Limitation depth is acknowledged, but specific examples of how these limitations could impact results are needed.",
+      "risk_mitigation": "Risk mitigation strategies are mentioned but should be more robust and clearly articulated."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contribution clarity is moderate; the proposal should explicitly state how it advances current knowledge.",
+      "novelty_type": "The novelty type is primarily methodological but could also include theoretical aspects.",
+      "coherence": "Coherence is generally good, but some sections could be better integrated to enhance flow.",
+      "limitation_awareness": "Limitation awareness is present but should be more comprehensive in addressing potential challenges.",
+      "academic_communication": "Academic communication is clear but could benefit from a more formal tone in some sections."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads logically to the question, but the connection could be more explicitly stated.",
+      "question_to_hypothesis": "The question leads to the hypothesis, but the link could be strengthened by detailing expected outcomes.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but more clarity on the methodology's alignment with the hypothesis is needed.",
+      "method_to_evaluation": "The method can answer the question, but specific evaluation criteria should be defined."
+    },
+    "revision_plan": "Revise the gap stage to specify how ethical governance frameworks will be empirically validated. Enhance the scholarly positioning by critically comparing methodologies and findings across studies. Clarify the operationalization of constructs and detail confound control strategies in the methodology section."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 3,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 71.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal articulates a relevant research problem regarding the integration of AI tools in mental health treatment, particularly focusing on ethical governance frameworks. However, it lacks precise operational definitions for key constructs such as 'ethical governance' and 'algorithmic bias'. Major weaknesses: Key concepts are not sufficiently operationalized, and the boundaries of the research problem could be more clearly delineated. Next band requirements: To achieve a higher score, the proposal needs to provide explicit operational definitions for all key constructs and clarify the research boundaries more distinctly."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from the research problem to the hypothesis; however, some assumptions, particularly regarding the causal relationship between ethical governance and therapeutic outcomes, lack empirical support. Major weaknesses: The causal claims made are not sufficiently justified, and the transitions between the hypothesis and methodology could be more robust. Next band requirements: To improve, the proposal should provide stronger empirical justification for causal claims and ensure that all components of the reasoning chain are tightly connected."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal addresses a relevant gap in the literature regarding ethical governance in AI mental health applications, it primarily synthesizes existing ideas without introducing a significantly novel framework or theoretical contribution. Major weaknesses: The proposal does not sufficiently differentiate itself from existing literature, relying on established concepts rather than proposing new theoretical insights. Next band requirements: To achieve a higher score, the proposal must introduce a novel theoretical framework or mechanism that significantly advances understanding in the field."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology includes a systematic review, but lacks detailed plans for empirical validation of the proposed frameworks and does not sufficiently address potential confounds. Major weaknesses: The proposal does not provide a clear plan for empirical testing or how it will handle confounding variables effectively. Next band requirements: To improve, the proposal should outline a more rigorous empirical methodology, including specific plans for addressing confounding variables and a detailed evaluation design."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal engages with relevant literature but lacks a deep critical synthesis and does not adequately position itself against competing approaches. Major weaknesses: The literature review is somewhat superficial and does not sufficiently identify unresolved tensions or contradictions in existing research. Next band requirements: To enhance this criterion, the proposal should provide a more comprehensive literature review that critically engages with existing work and clearly identifies gaps."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication but lacks depth in discussing the mechanisms and limitations of the proposed research. Major weaknesses: There is insufficient discussion of potential limitations and failure modes, which are critical for PhD-level work. Next band requirements: To reach a higher score, the proposal must articulate a deeper understanding of the theoretical mechanisms at play and discuss limitations more thoroughly."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-written and organized, but there are areas where clarity could be improved, particularly in defining key terms. Major weaknesses: Some terminology is used imprecisely, which may hinder understanding. Next band requirements: To improve, the proposal should ensure precision in terminology and enhance overall clarity."
+      }
+    ],
+    "comments": "Total score: 71.0/100. Academic level: Master-level. Major strengths: Addresses a relevant and timely research problem.; Proposes a systematic review methodology. Major weaknesses: Lacks precise operational definitions for key constructs.; Insufficient empirical justification for causal claims.; Limited novelty and theoretical contribution. Required improvements for true PhD-level quality: Provide clear operational definitions for key constructs.; Strengthen empirical justification for causal claims.; Introduce novel theoretical frameworks or mechanisms.; Enhance critical engagement with existing literature. Final verdict: The proposal demonstrates some understanding of the research landscape but lacks the depth, rigor, and novelty expected of true PhD-level research."
+  },
+  "baseline": null,
+  "group_selection": {
+    "gap": {
+      "candidates": [
+        {
+          "id": "gap_1",
+          "text": "Investigate the ethical governance frameworks for AI tools in mental health, focusing on empirical validation in clinical settings to address algorithmic bias and therapeutic alliance erosion.",
+          "supporting_paper_ids": [
+            "P2"
+          ],
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 5,
+            "novelty": 4,
+            "feasibility": 3
+          },
+          "total": 16,
+          "reason": "This candidate is specific in addressing ethical governance and empirical validation, grounded in existing literature, and presents a novel approach to a recognized gap.",
+          "llm_total": 16.0,
+          "anchor_similarity": 0.6929,
+          "literature_similarity": 0.7793,
+          "embedding_alignment": 0.7361,
+          "combined_total": 19.68
+        },
+        {
+          "id": "gap_2",
+          "text": "Explore user experiences with AI-assisted music therapy tools to identify barriers to implementation and develop best practices for clinical integration.",
+          "supporting_paper_ids": [
+            "P1"
+          ],
+          "scores": {
+            "specificity": 5,
+            "literature_grounding": 4,
+            "novelty": 3,
+            "feasibility": 4
+          },
+          "total": 16,
+          "reason": "This candidate is highly specific and feasible, grounded in literature, but slightly less novel compared to gap_1.",
+          "llm_total": 16.0,
+          "anchor_similarity": 0.6855,
+          "literature_similarity": 0.7691,
+          "embedding_alignment": 0.7273,
+          "combined_total": 19.636
+        },
+        {
+          "id": "gap_3",
+          "text": "Assess the clinical implications and ethical considerations of using large language models as informal mental health support tools, focusing on user privacy and oversight.",
+          "supporting_paper_ids": [
+            "P3"
+          ],
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 3,
+            "novelty": 5,
+            "feasibility": 3
+          },
+          "total": 15,
+          "reason": "While this candidate is novel and specific, it is less grounded in existing literature compared to the others.",
+          "llm_total": 15.0,
+          "anchor_similarity": 0.5969,
+          "literature_similarity": 0.661,
+          "embedding_alignment": 0.629,
+          "combined_total": 18.145
+        }
+      ],
+      "selected_id": "gap_1",
+      "selected_text": "Investigate the ethical governance frameworks for AI tools in mental health, focusing on empirical validation in clinical settings to address algorithmic bias and therapeutic alliance erosion.",
+      "criteria": [
+        "specificity",
+        "literature_grounding",
+        "novelty",
+        "feasibility"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "hypothesis": {
+      "candidates": [
+        {
+          "id": "hypothesis_1",
+          "text": "Implementing AI-assisted music therapy tools in clinical settings will significantly reduce anxiety and depressive symptoms among patients, provided that ethical governance frameworks are established to address algorithmic bias and ensure user trust.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 5,
+            "clarity": 4,
+            "methodological_implication": 4
+          },
+          "total": 17,
+          "reason": "This hypothesis is highly testable through clinical trials and directly addresses the identified gap in ethical governance.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.7115,
+          "literature_similarity": 0.7848,
+          "embedding_alignment": 0.7481,
+          "combined_total": 20.741
+        },
+        {
+          "id": "hypothesis_2",
+          "text": "The integration of large language models (LLMs) as informal mental health support tools can enhance user experience and emotional support, but their effectiveness is contingent upon the establishment of ethical guidelines to mitigate privacy concerns and algorithmic bias.",
+          "supporting_paper_ids": [
+            "P3"
+          ],
+          "scores": {
+            "testability": 3,
+            "alignment_with_gap": 4,
+            "clarity": 4,
+            "methodological_implication": 3
+          },
+          "total": 14,
+          "reason": "While this hypothesis is clear and relevant, it is less directly testable compared to hypothesis 1.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.5462,
+          "literature_similarity": 0.7405,
+          "embedding_alignment": 0.6433,
+          "combined_total": 17.216
+        },
+        {
+          "id": "hypothesis_3",
+          "text": "AI-based clinical decision support systems (CDSS) can improve diagnostic accuracy in depression treatment, but their implementation must be guided by empirical studies that validate ethical frameworks to prevent algorithmic bias and maintain therapeutic alliances.",
+          "supporting_paper_ids": [
+            "P4",
+            "P2"
+          ],
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 5,
+            "clarity": 3,
+            "methodological_implication": 5
+          },
+          "total": 17,
+          "reason": "This hypothesis is robust in addressing the gap and has strong methodological implications, though it lacks some clarity.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.6245,
+          "literature_similarity": 0.8169,
+          "embedding_alignment": 0.7207,
+          "combined_total": 20.604
+        }
+      ],
+      "selected_id": "hypothesis_1",
+      "selected_text": "Implementing AI-assisted music therapy tools in clinical settings will significantly reduce anxiety and depressive symptoms among patients, provided that ethical governance frameworks are established to address algorithmic bias and ensure user trust.",
+      "criteria": [
+        "testability",
+        "alignment_with_gap",
+        "clarity",
+        "methodological_implication"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "methodology": {
+      "candidates": [
+        {
+          "id": "methodology_1",
+          "text": "Conduct a systematic review of existing AI-assisted music therapy tools, focusing on their implementation in clinical settings. This review will synthesize findings on effectiveness, ethical governance, and user experiences, providing a comprehensive overview of current practices and gaps.",
+          "supporting_paper_ids": [
+            "P1"
+          ],
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 5,
+            "evaluation_metrics": 4,
+            "scope_control": 3,
+            "alignment_with_hypothesis": 5
+          },
+          "total": 21,
+          "reason": "This methodology is feasible and aligns well with the hypothesis, providing a solid baseline design and relevant evaluation metrics.",
+          "llm_total": 21.0,
+          "anchor_similarity": 0.7153,
+          "literature_similarity": 0.8113,
+          "embedding_alignment": 0.7633,
+          "combined_total": 24.817
+        },
+        {
+          "id": "methodology_2",
+          "text": "Implement a pilot study using AI-assisted music therapy tools in a clinical setting, measuring anxiety and depressive symptoms pre- and post-intervention. The study will also assess ethical governance adherence through clinician and patient feedback.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "feasibility": 3,
+            "baseline_design": 4,
+            "evaluation_metrics": 5,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 4
+          },
+          "total": 20,
+          "reason": "While this pilot study is practical and includes strong evaluation metrics, it may face challenges in implementation and scope control.",
+          "llm_total": 20.0,
+          "anchor_similarity": 0.8133,
+          "literature_similarity": 0.7161,
+          "embedding_alignment": 0.7647,
+          "combined_total": 23.823
+        },
+        {
+          "id": "methodology_3",
+          "text": "Conduct a qualitative study analyzing user experiences with AI tools in mental health through interviews and focus groups. This study will explore perceptions of ethical governance and therapeutic alliances.",
+          "supporting_paper_ids": [
+            "P3"
+          ],
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 3,
+            "evaluation_metrics": 3,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 3
+          },
+          "total": 17,
+          "reason": "This qualitative approach provides insights into user experiences but lacks robust quantitative evaluation metrics and a strong baseline design.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.7322,
+          "literature_similarity": 0.7136,
+          "embedding_alignment": 0.7229,
+          "combined_total": 20.614
+        }
+      ],
+      "selected_id": "methodology_1",
+      "selected_text": "Conduct a systematic review of existing AI-assisted music therapy tools, focusing on their implementation in clinical settings. This review will synthesize findings on effectiveness, ethical governance, and user experiences, providing a comprehensive overview of current practices and gaps.",
+      "criteria": [
+        "feasibility",
+        "baseline_design",
+        "evaluation_metrics",
+        "scope_control",
+        "alignment_with_hypothesis"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    }
+  },
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "The application of AI-assisted music therapy tools in mental health interventions",
+        "similarity": 0.679
+      },
+      {
+        "original_index": 3,
+        "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+        "similarity": 0.6558
+      },
+      {
+        "original_index": 1,
+        "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+        "similarity": 0.5628
+      },
+      {
+        "original_index": 4,
+        "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+        "similarity": 0.5509
+      },
+      {
+        "original_index": 2,
+        "title": "Foundations of GenIR",
+        "similarity": 0.3782
+      }
+    ],
+    "group_selection": {
+      "gap": {
+        "candidates": [
+          {
+            "id": "gap_1",
+            "text": "Investigate the ethical governance frameworks for AI tools in mental health, focusing on empirical validation in clinical settings to address algorithmic bias and therapeutic alliance erosion.",
+            "supporting_paper_ids": [
+              "P2"
+            ],
+            "scores": {
+              "specificity": 4,
+              "literature_grounding": 5,
+              "novelty": 4,
+              "feasibility": 3
+            },
+            "total": 16,
+            "reason": "This candidate is specific in addressing ethical governance and empirical validation, grounded in existing literature, and presents a novel approach to a recognized gap.",
+            "llm_total": 16.0,
+            "anchor_similarity": 0.6929,
+            "literature_similarity": 0.7793,
+            "embedding_alignment": 0.7361,
+            "combined_total": 19.68
+          },
+          {
+            "id": "gap_2",
+            "text": "Explore user experiences with AI-assisted music therapy tools to identify barriers to implementation and develop best practices for clinical integration.",
+            "supporting_paper_ids": [
+              "P1"
+            ],
+            "scores": {
+              "specificity": 5,
+              "literature_grounding": 4,
+              "novelty": 3,
+              "feasibility": 4
+            },
+            "total": 16,
+            "reason": "This candidate is highly specific and feasible, grounded in literature, but slightly less novel compared to gap_1.",
+            "llm_total": 16.0,
+            "anchor_similarity": 0.6855,
+            "literature_similarity": 0.7691,
+            "embedding_alignment": 0.7273,
+            "combined_total": 19.636
+          },
+          {
+            "id": "gap_3",
+            "text": "Assess the clinical implications and ethical considerations of using large language models as informal mental health support tools, focusing on user privacy and oversight.",
+            "supporting_paper_ids": [
+              "P3"
+            ],
+            "scores": {
+              "specificity": 4,
+              "literature_grounding": 3,
+              "novelty": 5,
+              "feasibility": 3
+            },
+            "total": 15,
+            "reason": "While this candidate is novel and specific, it is less grounded in existing literature compared to the others.",
+            "llm_total": 15.0,
+            "anchor_similarity": 0.5969,
+            "literature_similarity": 0.661,
+            "embedding_alignment": 0.629,
+            "combined_total": 18.145
+          }
+        ],
+        "selected_id": "gap_1",
+        "selected_text": "Investigate the ethical governance frameworks for AI tools in mental health, focusing on empirical validation in clinical settings to address algorithmic bias and therapeutic alliance erosion.",
+        "criteria": [
+          "specificity",
+          "literature_grounding",
+          "novelty",
+          "feasibility"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "hypothesis": {
+        "candidates": [
+          {
+            "id": "hypothesis_1",
+            "text": "Implementing AI-assisted music therapy tools in clinical settings will significantly reduce anxiety and depressive symptoms among patients, provided that ethical governance frameworks are established to address algorithmic bias and ensure user trust.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "testability": 4,
+              "alignment_with_gap": 5,
+              "clarity": 4,
+              "methodological_implication": 4
+            },
+            "total": 17,
+            "reason": "This hypothesis is highly testable through clinical trials and directly addresses the identified gap in ethical governance.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.7115,
+            "literature_similarity": 0.7848,
+            "embedding_alignment": 0.7481,
+            "combined_total": 20.741
+          },
+          {
+            "id": "hypothesis_2",
+            "text": "The integration of large language models (LLMs) as informal mental health support tools can enhance user experience and emotional support, but their effectiveness is contingent upon the establishment of ethical guidelines to mitigate privacy concerns and algorithmic bias.",
+            "supporting_paper_ids": [
+              "P3"
+            ],
+            "scores": {
+              "testability": 3,
+              "alignment_with_gap": 4,
+              "clarity": 4,
+              "methodological_implication": 3
+            },
+            "total": 14,
+            "reason": "While this hypothesis is clear and relevant, it is less directly testable compared to hypothesis 1.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.5462,
+            "literature_similarity": 0.7405,
+            "embedding_alignment": 0.6433,
+            "combined_total": 17.216
+          },
+          {
+            "id": "hypothesis_3",
+            "text": "AI-based clinical decision support systems (CDSS) can improve diagnostic accuracy in depression treatment, but their implementation must be guided by empirical studies that validate ethical frameworks to prevent algorithmic bias and maintain therapeutic alliances.",
+            "supporting_paper_ids": [
+              "P4",
+              "P2"
+            ],
+            "scores": {
+              "testability": 4,
+              "alignment_with_gap": 5,
+              "clarity": 3,
+              "methodological_implication": 5
+            },
+            "total": 17,
+            "reason": "This hypothesis is robust in addressing the gap and has strong methodological implications, though it lacks some clarity.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.6245,
+            "literature_similarity": 0.8169,
+            "embedding_alignment": 0.7207,
+            "combined_total": 20.604
+          }
+        ],
+        "selected_id": "hypothesis_1",
+        "selected_text": "Implementing AI-assisted music therapy tools in clinical settings will significantly reduce anxiety and depressive symptoms among patients, provided that ethical governance frameworks are established to address algorithmic bias and ensure user trust.",
+        "criteria": [
+          "testability",
+          "alignment_with_gap",
+          "clarity",
+          "methodological_implication"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "methodology": {
+        "candidates": [
+          {
+            "id": "methodology_1",
+            "text": "Conduct a systematic review of existing AI-assisted music therapy tools, focusing on their implementation in clinical settings. This review will synthesize findings on effectiveness, ethical governance, and user experiences, providing a comprehensive overview of current practices and gaps.",
+            "supporting_paper_ids": [
+              "P1"
+            ],
+            "scores": {
+              "feasibility": 4,
+              "baseline_design": 5,
+              "evaluation_metrics": 4,
+              "scope_control": 3,
+              "alignment_with_hypothesis": 5
+            },
+            "total": 21,
+            "reason": "This methodology is feasible and aligns well with the hypothesis, providing a solid baseline design and relevant evaluation metrics.",
+            "llm_total": 21.0,
+            "anchor_similarity": 0.7153,
+            "literature_similarity": 0.8113,
+            "embedding_alignment": 0.7633,
+            "combined_total": 24.817
+          },
+          {
+            "id": "methodology_2",
+            "text": "Implement a pilot study using AI-assisted music therapy tools in a clinical setting, measuring anxiety and depressive symptoms pre- and post-intervention. The study will also assess ethical governance adherence through clinician and patient feedback.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "feasibility": 3,
+              "baseline_design": 4,
+              "evaluation_metrics": 5,
+              "scope_control": 4,
+              "alignment_with_hypothesis": 4
+            },
+            "total": 20,
+            "reason": "While this pilot study is practical and includes strong evaluation metrics, it may face challenges in implementation and scope control.",
+            "llm_total": 20.0,
+            "anchor_similarity": 0.8133,
+            "literature_similarity": 0.7161,
+            "embedding_alignment": 0.7647,
+            "combined_total": 23.823
+          },
+          {
+            "id": "methodology_3",
+            "text": "Conduct a qualitative study analyzing user experiences with AI tools in mental health through interviews and focus groups. This study will explore perceptions of ethical governance and therapeutic alliances.",
+            "supporting_paper_ids": [
+              "P3"
+            ],
+            "scores": {
+              "feasibility": 4,
+              "baseline_design": 3,
+              "evaluation_metrics": 3,
+              "scope_control": 4,
+              "alignment_with_hypothesis": 3
+            },
+            "total": 17,
+            "reason": "This qualitative approach provides insights into user experiences but lacks robust quantitative evaluation metrics and a strong baseline design.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.7322,
+            "literature_similarity": 0.7136,
+            "embedding_alignment": 0.7229,
+            "combined_total": 20.614
+          }
+        ],
+        "selected_id": "methodology_1",
+        "selected_text": "Conduct a systematic review of existing AI-assisted music therapy tools, focusing on their implementation in clinical settings. This review will synthesize findings on effectiveness, ethical governance, and user experiences, providing a comprehensive overview of current practices and gaps.",
+        "criteria": [
+          "feasibility",
+          "baseline_design",
+          "evaluation_metrics",
+          "scope_control",
+          "alignment_with_hypothesis"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      }
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_group_selection",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "the application of ai tools in mental treatment",
+    "retrieval_snapshot_id": "20260523T192754Z-the-application-of-ai-tools-in-mental-treatment-5",
+    "latency_ms": 98538,
+    "prompt_tokens": 26263,
+    "completion_tokens": 6396,
+    "total_tokens": 32659,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "experiment_id": "20260523T165642Z",
+  "run_index": 3,
+  "topic": "the application of ai tools in mental treatment",
+  "condition": "multi_stage_without_retrieval",
+  "retrieval_query": "the application of ai tools in mental treatment",
+  "retrieval_snapshot_id": "20260523T165646Z-the-application-of-ai-tools-in-mental-treatment-6",
+  "papers": [
+    {
+      "title": "The application of AI-assisted music therapy tools in mental health interventions",
+      "authors": [
+        "Qiuyan Wei",
+        "Wenting He"
+      ],
+      "abstract": "With the rising prevalence of mental health problems across populations, the limitations of traditional interventions have become more evident. Music therapy has received growing attention as a psychological intervention, and recent advances in artificial intelligence (AI) have created new opportunities for this field. This review examines the application potential and implementation pathways of AI-assisted music therapy tools for mental health interventions. Drawing on the literature and representative cases, this review summarizes application models and reported effects of AI in music therapy. The available evidence suggests that AI-assisted music therapy tools can support personalized interventions by adapting to users’ emotional and psychological states. Reported benefits include reductions in anxiety and depressive symptoms and improvements in emotion regulation across groups such as children, adolescents, and older adults. Finally, this review outlines priorities for future translation into mental health services and emphasizes data privacy and ethical standards to ensure responsible deployment.",
+      "published": "2026-1-22",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1741463",
+      "source": "Crossref"
+    },
+    {
+      "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+      "authors": [
+        "Senoussaoui Abderrahmen",
+        "Rahmani Djamel"
+      ],
+      "abstract": "The rapid integration of Artificial Intelligence (AI) into Mental Health care represents a transformative shift in the diagnosis, monitoring, and treatment of psychological disorders. While AI-driven tools—including digital phenotyping systems, natural language processing models, and conversational agents—offer significant potential to enhance diagnostic precision, accessibility, and personalized interventions, they simultaneously introduce complex ethical, clinical, and epistemological challenges. This study provides a comprehensive and critical synthesis of contemporary literature (2019–2025) to examine the ethical implications of AI deployment in psychotherapeutic contexts. Moving beyond descriptive review, the paper develops a conceptual ethical governance framework grounded in the principles of autonomy, beneficence, non-maleficence, and justice, as well as the emerging “ethics of care” paradigm. It identifies key risk domains, including algorithmic bias, opacity of decision-making processes, data privacy vulnerabilities, erosion of therapeutic alliance, and the reconfiguration of professional accountability. Furthermore, the study proposes a human-centered, explainable, and clinically supervised AI integration model, emphasizing transparency, continuous ethical auditing, stakeholder inclusion, and hybrid human–AI decision-making structures. The findings highlight that while AI can significantly improve efficiency and expand access to mental healthcare—particularly in resource-constrained settings—its unregulated or poorly designed application may exacerbate inequalities, compromise patient autonomy, and undermine trust in clinical practice. The paper contributes to the interdisciplinary discourse by offering a structured ethical framework that bridges technological innovation with clinical responsibility and humanistic values. It concludes that sustainable and ethically aligned AI integration in mental health requires robust regulatory architectures, cross-disciplinary collaboration, and the preservation of the fundamentally human dimensions of psychotherapy.",
+      "published": "2026-04-18",
+      "url": "https://www.semanticscholar.org/paper/6dc63f9c10061546d60e145893be33c6aed6773e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Scalability and Localization of AI Mental Health Tools for Diverse Socioeconomic and Linguistic Student Populations",
+      "authors": [
+        "C Srikanth",
+        "Sreekanth Challa"
+      ],
+      "abstract": "The integration of Artificial Intelligence (AI) into mental health care within educational settings has the potential to transform how institutions address student well-being. As AI-powered mental health tools scale across diverse educational landscapes, critical challenges related to scalability, localization, data privacy, and cultural adaptation emerge. This chapter explores the development and deployment of AI mental health tools in underfunded and diverse educational contexts, with a focus on ensuring equity in access and the importance of culturally sensitive solutions. The potential of AI to address the growing mental health crisis among students is tempered by concerns regarding ethical guidelines, bias, and the responsible handling of sensitive data. In this context, the collaboration between AI developers, educational institutions, and local mental health experts is emphasized as a key strategy to overcome linguistic and socioeconomic barriers. Ethical and regulatory frameworks must be established to protect student privacy, promote fairness, and ensure that AI tools complement human intervention rather than replace it. By addressing these challenges, AI can become a powerful tool for improving mental health outcomes and enhancing support systems for students globally. This chapter provides an in-depth examination of these critical considerations, offering strategies and recommendations for effective and ethical AI tool implementation in educational environments.",
+      "published": "2025-9-22",
+      "url": "https://doi.org/10.71443/9789349552999-16",
+      "source": "Crossref"
+    },
+    {
+      "title": "Practice: AI Tools and Their Application Possibilities",
+      "authors": [
+        "Livia Rainsberger"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2022",
+      "url": "https://doi.org/10.1007/978-3-658-38251-3_4",
+      "source": "Crossref"
+    },
+    {
+      "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+      "authors": [
+        "Maria-Angeles Chiang",
+        "Lucía Coll",
+        "M. F. Pollo-Cattaneo",
+        "Parag Chatterjee"
+      ],
+      "abstract": "Purpose: This systematic review examines the current landscape of artificial intelligence (AI)-based Clinical Decision Support Systems (CDSS) designed to aid in the treatment of depression. With depression recognized as a complex and multifactorial condition, often differing across contexts such as postpartum, adolescence, and elderly populations, the review aims to evaluate the feasibility, acceptability, and potential of AI-based CDSS in supporting personalized care. The primary research question explores how these systems are implemented and evaluated in clinical settings, as well as the main challenges to their broader adoption.Methods: The review analyzed studies focused on AI-based CDSS for depression, identifying variations in algorithms, performance metrics, and implementations. Studies were assessed based on system purposes, categorized into treatment selection, prediction and risk assessment, and clinical support and data review, providing a comprehensive overview of each study’s approach and outcomes.Results: 11 unique algorithms, 9 performance metrics, and 10 CDSS implementations were identified across the studies. Findings indicate positive results for CDSS in supporting clinical decision-making, yet highlight challenges in applying these tools in routine practice. Limitations include small, non-diverse sample sizes, immature methodologies, and difficulties in workflow integration, along with concerns about data privacy and the ethical use of AI.Conclusions: AI-based CDSS for depression shows potential in patient care; however, foundational issues such as more diverse samples and robust model development remain critical. Addressing these aspects will set the stage for future research into advanced applications, such as virtual-reality integration and multi-condition prediction, thus advancing AI’s role in mental health treatment.Clinical Relevance—This work illustrates the state of art of AI adoption in the domain of mental health, specifically in the context of depression.",
+      "published": "2025-07-01",
+      "url": "https://www.semanticscholar.org/paper/4dc7da378a6122ed24f2f2546215355d26fd11d9",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "An introduction to artificial intelligence in sleep medicine",
+      "authors": [
+        "21037jtd-21-1569 greater computing the door . In which range of im",
+        "Christopher A. Lovejoy",
+        "Abdul-Rahman Abbas",
+        "Deeban Ratneswaran"
+      ],
+      "abstract": "Abstract was not available from Semantic Scholar.",
+      "published": "2021",
+      "url": "https://www.semanticscholar.org/paper/7aa61b7fa659b508636055a37272939e1c7f03bc",
+      "source": "Semantic Scholar"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI Integration in Mental Health Interventions",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "summary": "This cluster of papers explores the application of artificial intelligence (AI) in mental health interventions, particularly focusing on music therapy, clinical decision support systems, and ethical governance. It highlights the potential of AI to enhance personalized care, improve diagnostic precision, and address mental health issues across diverse populations, including students and various age groups. The findings suggest that AI tools can reduce symptoms of anxiety and depression while emphasizing the need for ethical considerations and culturally sensitive implementations.",
+      "limitations": "The cluster identifies several limitations, including ethical challenges such as algorithmic bias, data privacy concerns, and the potential erosion of therapeutic alliances. Additionally, there are unresolved issues regarding the scalability and localization of AI tools in diverse socioeconomic contexts, as well as the need for comprehensive regulatory frameworks to ensure responsible AI deployment.",
+      "gap_relevance": "This cluster supports research gap identification by underscoring the need for further exploration of ethical governance frameworks, the effectiveness of AI tools in varied cultural contexts, and the integration of AI with human interventions in mental health care. It highlights the importance of addressing disparities in access to AI mental health tools, particularly in underfunded educational settings."
+    },
+    {
+      "theme": "AI Tools in Practical Applications",
+      "paper_indices": [
+        4
+      ],
+      "summary": "This cluster primarily explores the various applications of AI tools across different fields, highlighting their potential benefits and innovative uses in practice.",
+      "limitations": "The cluster lacks comprehensive empirical data and case studies to substantiate the theoretical applications discussed, and there is a need for more detailed exploration of the limitations and ethical considerations of AI tools.",
+      "gap_relevance": "This cluster can aid in identifying research gaps related to the practical implementation of AI tools, particularly in understanding their effectiveness and the challenges faced in real-world applications."
+    },
+    {
+      "theme": "Artificial Intelligence Applications in Sleep Medicine",
+      "paper_indices": [
+        6
+      ],
+      "summary": "This cluster primarily explores the integration of artificial intelligence (AI) technologies in the field of sleep medicine, focusing on their potential to enhance diagnosis, treatment, and management of sleep disorders. It highlights various AI methodologies and their effectiveness in analyzing sleep patterns and improving patient outcomes.",
+      "limitations": "The cluster lacks comprehensive empirical data and standardized methodologies for AI applications in sleep medicine. Additionally, ethical considerations and the need for clinician training in AI tools remain underexplored.",
+      "gap_relevance": "This cluster can aid in identifying research gaps related to the efficacy of AI in clinical settings, the need for regulatory frameworks, and the integration of AI tools into existing healthcare systems."
+    }
+  ],
+  "summary": "Recent literature highlights the growing application of AI tools in mental health treatment, emphasizing their potential to enhance diagnostic accuracy, personalize therapy, and improve patient engagement. Studies indicate that AI-driven chatbots and virtual therapists can provide accessible support and monitor patient progress effectively. However, ethical considerations and the need for human oversight remain critical in integrating these technologies into traditional therapeutic practices.",
+  "scholarly_positioning": "While prior approaches to mental health treatment have primarily relied on traditional therapeutic methods, the integration of AI tools presents both opportunities and challenges that remain inadequately addressed. Existing literature highlights the potential of AI to enhance diagnostic accuracy and personalize therapy; however, ethical concerns and the necessity for human oversight underscore significant limitations in current applications. This proposed research aims to explore these unresolved tensions, particularly focusing on the balance between AI efficiency and the irreplaceable human elements of empathy and understanding in therapy. By situating this work within the broader debate on technology's role in mental health, it seeks to contribute to a more nuanced understanding of how AI can complement rather than replace human practitioners.",
+  "gap": "There is a lack of empirical research examining the impact of AI tools on the therapeutic alliance between patients and human therapists, particularly how AI can enhance or hinder the human elements of empathy and understanding in treatment. Investigating this relationship could provide insights into optimizing AI integration while preserving essential human interactions in mental health care.",
+  "question": "How do AI tools in mental health treatment influence the therapeutic alliance between patients and human therapists, particularly in terms of empathy and understanding?",
+  "theoretical_mechanism": "The proposed research is grounded in the Social Presence Theory, which posits that the perception of presence in communication influences interpersonal relationships. AI tools may alter the therapeutic alliance by either enhancing or diminishing the perceived empathy and understanding between patients and therapists. Key constructs include the role of AI in facilitating communication and its impact on emotional engagement. The assumption is that while AI can provide valuable support, its integration must be carefully managed to ensure it does not undermine the human connection essential for effective therapy, necessitating empirical validation of these dynamics.",
+  "hypothesis": "The integration of AI tools in mental health treatment will lead to a statistically significant decrease in the perceived empathy and understanding within the therapeutic alliance, as measured by patient-reported outcomes, compared to traditional therapy without AI support.",
+  "operationalization_causal_check": "Key constructs include 'therapeutic alliance' measured through validated scales like the Working Alliance Inventory (WAI), 'perceived empathy' assessed via the Empathy Quotient (EQ), and 'AI tool integration' operationalized through the frequency and type of AI usage in therapy sessions. The expected causal pathway suggests that increased AI tool integration may lead to a decrease in perceived empathy and understanding, mediated by altered communication dynamics. Potential confounds include therapist experience and patient demographics, which must be controlled. The study can claim correlations and associations but cannot definitively establish causation due to the observational nature of the design. Measurement instruments will include patient-reported outcomes and session recordings for qualitative analysis.",
+  "methodology": "This study will employ a mixed-methods approach, utilizing both quantitative and qualitative data. A sample of patients undergoing therapy with and without AI tools will be recruited, with baseline measurements of therapeutic alliance and perceived empathy taken using the WAI and EQ scales. The frequency and type of AI tool usage will be recorded during sessions. Data analysis will include statistical comparisons between groups to assess differences in reported outcomes, while qualitative analysis of session recordings will explore communication dynamics. Confounding variables such as therapist experience and patient demographics will be controlled through stratified sampling and regression analysis. The study aims for reproducibility by standardizing AI tool integration protocols and ensuring consistent measurement across diverse therapeutic settings.",
+  "failure_analysis": "Potential failure modes include misinterpretation of AI-generated insights, which could undermine the therapeutic alliance if therapists overly rely on AI tools. Validity threats may arise from confounding variables not fully controlled, such as variations in therapist communication styles. Ethical risks include patient data privacy concerns and the potential for AI to inadvertently reinforce biases in treatment. Negative interpretations of results could suggest that AI tools are detrimental, leading to resistance against their integration. Mitigation strategies involve rigorous training for therapists on AI tool usage, continuous monitoring of patient feedback, and ensuring robust data protection measures.",
+  "proposal": "This research proposal investigates the nuanced role of AI tools in mental health treatment, specifically their impact on the therapeutic alliance between patients and human therapists, with a focus on empathy and understanding. While existing literature acknowledges the potential of AI to enhance diagnostic accuracy and personalize therapy, it often overlooks the critical dynamics of human interaction that underpin effective treatment. The identified gap highlights a lack of empirical studies examining how AI tools might alter the perception of empathy within the therapeutic alliance, which is essential for fostering trust and engagement in therapy. Thus, the research question posits: How do AI tools influence the therapeutic alliance, particularly regarding perceived empathy and understanding? Grounded in Social Presence Theory, the hypothesis suggests that increased AI integration will lead to a statistically significant decrease in perceived empathy, as measured by the Working Alliance Inventory (WAI) and the Empathy Quotient (EQ). A mixed-methods approach will be employed, involving baseline assessments of therapeutic alliance and empathy, alongside quantitative comparisons of patient-reported outcomes and qualitative analyses of session recordings to explore communication dynamics. The study will control for confounding variables such as therapist experience and patient demographics through stratified sampling and regression analysis, ensuring robust validity. This research contributes methodologically to the understanding of AI's integration in therapy, addressing the balance between technological efficiency and essential human interactions. Key limitations include potential misinterpretation of AI insights and the risk of reinforcing biases, necessitating careful management and ethical considerations throughout the study.",
+  "draft_proposal": "The proposed research investigates the application of AI tools in mental health treatment, focusing on their influence on the therapeutic alliance between patients and human therapists, particularly regarding empathy and understanding. Recent literature indicates that while AI can enhance diagnostic accuracy and personalize therapy, the ethical implications and necessity for human oversight remain critical. This study addresses the gap in empirical research concerning how AI tools impact the therapeutic alliance, framed by Social Presence Theory, which suggests that AI may alter perceived empathy in therapeutic contexts. The hypothesis posits that AI integration will significantly decrease perceived empathy and understanding, measured through the Working Alliance Inventory (WAI) and Empathy Quotient (EQ). A mixed-methods approach will be employed, utilizing quantitative patient-reported outcomes and qualitative analysis of therapy session recordings to explore communication dynamics. This research aims to contribute to the understanding of AI's role in mental health by highlighting the balance between technological efficiency and essential human interactions, offering novel insights into optimizing AI integration while preserving therapeutic relationships. Key limitations include potential misinterpretation of AI insights and confounding variables affecting results, necessitating careful management and ethical considerations.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding the impact of AI tools on the therapeutic alliance is valid; however, it lacks specificity in defining how AI influences empathy and understanding.",
+      "literature_grounding": "The gap is somewhat grounded in literature, but it could benefit from more explicit references to studies that highlight the importance of the therapeutic alliance.",
+      "meaningfulness": "The gap is meaningful as it addresses a critical aspect of therapy; however, it could be strengthened by articulating the potential consequences of neglecting this area.",
+      "already_solved_risk": "There is a risk that existing studies may have already explored aspects of this gap, necessitating a thorough literature review to ensure originality."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but lacks a critical comparative analysis that highlights specific unresolved tensions.",
+      "unresolved_tensions": "Unresolved tensions between AI efficiency and human empathy are mentioned but not deeply explored, which weakens the scholarly positioning.",
+      "positioning_quality": "The positioning is adequate but could be improved by integrating more contrasting viewpoints from the literature."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on a specific relationship between AI tools and the therapeutic alliance.",
+      "scope_appropriateness": "The scope is appropriate for a PhD study, though it may benefit from narrowing down specific AI tools or contexts.",
+      "variable_clarity": "Variables are generally clear, but the constructs of empathy and understanding could be more explicitly defined."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The theoretical mechanism is relevant, but it could be strengthened by detailing how AI alters communication dynamics.",
+      "theoretical_framing": "Social Presence Theory is a suitable framework, but additional theories could enhance the understanding of the therapeutic alliance.",
+      "assumption_transparency": "Assumptions about AI's impact on empathy need to be more explicitly stated and justified."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it should specify the expected direction of the effect more clearly.",
+      "mechanism_grounding": "The grounding in the mechanism is weak; it should connect more explicitly to the theoretical framework.",
+      "measurable_outcome": "Measurable outcomes are identified, but the link between AI integration and empathy needs clearer operational definitions."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization of constructs is generally sound, but the measurement of AI tool integration could be more detailed.",
+      "causal_identification": "Causal pathways are suggested but need more clarity on mediators and moderators.",
+      "confound_awareness": "Confounds are acknowledged, but the plan for controlling them lacks specificity.",
+      "claim_boundaries": "The limitations of causal claims are noted, but they should be more explicitly stated to avoid overgeneralization."
+    },
+    "methodology_stage": {
+      "baseline_validity": "Baseline measurements are appropriate, but the rationale for sample selection should be clarified.",
+      "metric_validity": "The validity of metrics like WAI and EQ is acknowledged, but additional justification for their use is needed.",
+      "statistical_or_evaluation_validity": "Statistical validity is mentioned, but the analysis plan could be more detailed regarding specific tests.",
+      "reproducibility": "Reproducibility is addressed, but more detail on standardization procedures is required.",
+      "confound_control": "Confound control is mentioned, but the methods for stratified sampling need elaboration.",
+      "risk_analysis": "Risk analysis is present but could benefit from a more comprehensive discussion of potential biases."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Potential failure modes are identified, but they should be categorized more systematically.",
+      "limitation_depth": "Limitations are acknowledged, but a deeper exploration of their implications is needed.",
+      "risk_mitigation": "Mitigation strategies are mentioned, but they should be more concrete and actionable."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "The contribution is somewhat clear, but it could be articulated more strongly in terms of practical implications.",
+      "novelty_type": "The novelty is primarily methodological, focusing on the integration of AI in therapy.",
+      "coherence": "The proposal is coherent but could benefit from tighter connections between sections.",
+      "limitation_awareness": "Awareness of limitations is present but should be more pronounced throughout the proposal.",
+      "academic_communication": "Communication is generally clear, but some jargon could be simplified for broader accessibility."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads to the question effectively, but the connection could be more explicitly articulated.",
+      "question_to_hypothesis": "The question logically leads to the hypothesis, though the hypothesis could be more precise.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but the method should be more explicitly linked to the hypothesis.",
+      "method_to_evaluation": "The method is aligned with the evaluation, but the evaluation criteria should be more clearly defined."
+    },
+    "revision_plan": "Revise the gap stage to specify how AI affects empathy and understanding, ensuring it is not already addressed in existing literature. Enhance the scholarly positioning by critically comparing unresolved tensions in the literature. Clarify the research question and hypothesis, ensuring measurable outcomes are explicitly defined and linked to the theoretical framework."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 73.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal clearly identifies a research problem regarding the impact of AI tools on the therapeutic alliance, but lacks specificity in operational definitions of key constructs like 'empathy' and 'understanding'. Major weaknesses: The operational definitions of key concepts are vague, and the boundaries of the research problem could be more precisely articulated. Next band requirements: To move into the next band, the proposal needs clearer operational definitions of constructs and a more detailed framing of the research boundaries."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "While the proposal has a logical flow from problem to hypothesis, there are gaps in the justification of causal claims and the connection between AI integration and perceived empathy. Major weaknesses: Causal claims are not sufficiently supported, and the transition from hypothesis to methodology lacks depth. Next band requirements: Stronger scientific justification for causal claims and clearer transitions between components are needed to achieve a higher score."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal presents a relevant research question, but the novelty is somewhat limited as it primarily builds on existing literature without introducing significantly new frameworks or theories. Major weaknesses: The contribution is not sufficiently differentiated from existing studies on AI in mental health, lacking a new theoretical or methodological framework. Next band requirements: To improve, the proposal should introduce a novel theoretical perspective or framework that significantly advances understanding in the field."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 13.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The mixed-methods approach is appropriate, but the proposal lacks detailed descriptions of the statistical analyses and controls for confounding variables. Major weaknesses: Insufficient detail on the statistical methods and how confounding variables will be rigorously controlled. Next band requirements: More comprehensive methodological details, including statistical analysis plans and clearer descriptions of control measures, are needed."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong literature grounding with good comparative analysis",
+        "justification": "The proposal engages with relevant literature but does not sufficiently critique existing studies or articulate why they are inadequate. Major weaknesses: Limited critical analysis of competing approaches and insufficient identification of genuine gaps in the literature. Next band requirements: A deeper engagement with the literature, including critical comparisons and a more robust identification of research gaps, would strengthen this criterion."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical depth but lacks a comprehensive discussion of limitations and failure cases. Major weaknesses: Limited exploration of the underlying mechanisms and potential trade-offs associated with AI integration in therapy. Next band requirements: A more thorough discussion of theoretical mechanisms, limitations, and broader implications is needed for a higher score."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The writing is generally clear and well-structured, but some sections could benefit from greater precision and conciseness. Major weaknesses: Some terminology is used imprecisely, and the overall readability could be improved. Next band requirements: Enhancing clarity and precision in terminology and improving overall conciseness would elevate the score."
+      }
+    ],
+    "comments": "Total score: 73.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant research problem in the intersection of AI and mental health.; Utilizes a mixed-methods approach that is appropriate for the research question. Major weaknesses: Vague operational definitions of key constructs.; Insufficiently differentiated contribution from existing literature.; Lack of detailed methodological rigor and statistical analysis plans. Required improvements for true PhD-level quality: Provide clearer operational definitions and boundaries for key constructs.; Introduce a novel theoretical framework or methodology.; Enhance methodological rigor with detailed statistical analysis plans and controls. Final verdict: The proposal demonstrates some relevant research maturity but lacks the depth, rigor, and novelty expected at the PhD level."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 3,
+        "title": "The application of AI-assisted music therapy tools in mental health interventions",
+        "similarity": 0.679
+      },
+      {
+        "original_index": 1,
+        "title": "Reframing Ethical Governance of Artificial Intelligence in Mental Health Care: Toward a Human-Centered, Explainable, and Clinically Responsible Psychotherapeutic Paradigm",
+        "similarity": 0.6558
+      },
+      {
+        "original_index": 6,
+        "title": "Scalability and Localization of AI Mental Health Tools for Diverse Socioeconomic and Linguistic Student Populations",
+        "similarity": 0.6537
+      },
+      {
+        "original_index": 4,
+        "title": "Practice: AI Tools and Their Application Possibilities",
+        "similarity": 0.615
+      },
+      {
+        "original_index": 2,
+        "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+        "similarity": 0.5508
+      },
+      {
+        "original_index": 5,
+        "title": "An introduction to artificial intelligence in sleep medicine",
+        "similarity": 0.4429
+      }
+    ]
+  },
+  "metrics": {
+    "condition": "multi_stage_without_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "the application of ai tools in mental treatment",
+    "retrieval_snapshot_id": "20260523T165646Z-the-application-of-ai-tools-in-mental-treatment-6",
+    "latency_ms": 90260,
+    "prompt_tokens": 12912,
+    "completion_tokens": 4208,
+    "total_tokens": 17120,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

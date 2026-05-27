@@ -1,0 +1,24 @@
+Task: Compress retrieved papers into structured evidence notes for downstream proposal generation.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+For each retrieved paper, extract only information useful for identifying research gaps and designing methodology.
+
+Return JSON with exactly this structure:
+{{
+  "evidence_notes": [
+    {{
+      "paper_id": "P1",
+      "title": "...",
+      "problem": "The problem or research area addressed by this paper.",
+      "method": "The method, system, dataset, or study design used.",
+      "evidence": "Key finding or evidence relevant to the user's topic.",
+      "limitation": "Limitation, unresolved issue, or missing evaluation.",
+      "gap_relevance": "How this paper can support a possible research gap."
+    }}
+  ]
+}}

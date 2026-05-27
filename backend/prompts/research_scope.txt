@@ -1,0 +1,21 @@
+Task: Narrow the topic into a concrete PhD-level empirical study scope.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Return JSON with exactly this key:
+{{
+  "research_scope": "A concrete study scope in 4-7 sentences that follows the domain routing. Specify target population or model/task domain, clinical condition or technical task/domain, AI intervention/system type, intervention duration or evaluation period, comparison/control group or baseline, primary outcomes, and secondary outcomes. Avoid broad labels such as AI tools, mental health treatment, diverse populations, LLM safety, or ethical framework unless they are concretely defined. If the topic is not clinical or intervention-based, replace clinical condition with the specific technical task/domain and replace intervention duration with study/evaluation period."
+}}

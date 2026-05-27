@@ -1,0 +1,60 @@
+{
+  "snapshot_id": "20260524T115611Z-regularity-and-singularity-propagation-in-stochastic-partial-differential-equati-5",
+  "topic": "Regularity and Singularity Propagation in Stochastic Partial Differential Equations",
+  "retrieval_query": "Regularity and Singularity Propagation in Stochastic Partial Differential Equations",
+  "max_papers": 5,
+  "retrieved_at": "20260524T115611Z",
+  "papers": [
+    {
+      "title": "Stability of solutions to stochastic partial differential equations",
+      "authors": [
+        "Benjamin Gess",
+        "Jonas M. Tölle"
+      ],
+      "abstract": "We provide a general framework for the stability of solutions to stochastic partial differential equations with respect to perturbations of the drift. More precisely, we consider stochastic partial differential equations with drift given as the subdifferential of a convex function and prove continuous dependence of the solutions with regard to random Mosco convergence of the convex potentials. In particular, we identify the concept of stochastic variational inequalities (SVI) as a well-suited framework to study such stability properties. The generality of the developed framework is then laid out by deducing Trotter type and homogenization results for stochastic fast diffusion and stochastic singular p-Laplace equations. In addition, we provide an SVI treatment for stochastic nonlocal p-Laplace equations and prove their convergence to the respective local models.",
+      "published": "2015-06-03",
+      "url": "http://arxiv.org/abs/1506.01230v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Regularity analysis for stochastic partial differential equations with nonlinear multiplicative trace class noise",
+      "authors": [
+        "Arnulf Jentzen",
+        "Michael Roeckner"
+      ],
+      "abstract": "In this article spatial and temporal regularity of the solution process of a stochastic partial differential equation (SPDE) of evolutionary type with nonlinear multiplicative trace class noise is analyzed.",
+      "published": "2010-05-21",
+      "url": "http://arxiv.org/abs/1005.4095v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Regularity and Continuity of Solutions to Stochastic Evolution Equations",
+      "authors": [
+        "Anna Karczewska"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2002-4-5",
+      "url": "https://doi.org/10.1201/9780203910177-17",
+      "source": "Crossref"
+    },
+    {
+      "title": "Talagrand Concentration Inequalities for Stochastic Partial Differential Equations",
+      "authors": [
+        "Davar Khoshnevisan",
+        "Andrey Sarantsev"
+      ],
+      "abstract": "One way to define the concentration of measure phenomenon is via Talagrand inequalities, also called transportation-information inequalities. That is, a comparison of the Wasserstein distance from the given measure to any other absolutely continuous measure with finite relative entropy. Such transportation-information inequalities were recently established for some stochastic differential equations. Here, we develop a similar theory for some stochastic partial differential equations.",
+      "published": "2017-09-20",
+      "url": "http://arxiv.org/abs/1709.07098v3",
+      "source": "arXiv"
+    },
+    {
+      "title": "Malliavin Regularity of Solutions of SPDE’s",
+      "authors": [],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2005-8-17",
+      "url": "https://doi.org/10.1201/9781439818947-9",
+      "source": "Crossref"
+    }
+  ]
+}

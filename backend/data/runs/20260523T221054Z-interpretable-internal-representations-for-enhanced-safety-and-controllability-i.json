@@ -1,0 +1,261 @@
+{
+  "experiment_id": "20260523T220819Z",
+  "run_index": 1,
+  "topic": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Modelsthe",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Modelsthe",
+  "retrieval_snapshot_id": "20260523T220828Z-interpretable-internal-representations-for-enhanced-safety-and-controllability-i-5",
+  "papers": [
+    {
+      "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+      "authors": [
+        "Wenxuan Wang",
+        "Zhaopeng Tu",
+        "Chang Chen",
+        "Youliang Yuan",
+        "Jen-tse Huang",
+        "Wenxiang Jiao",
+        "Michael R. Lyu"
+      ],
+      "abstract": "Safety lies at the core of developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g. the majority language in the pretraining data such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSafety, in response to the global deployment of LLMs in practice. XSafety covers 14 kinds of commonly used safety issues across 10 languages that span several language families. We utilize XSafety to empirically study the multilingual safety for 4 widely-used LLMs, including both close-API and open-source models. Experimental results show that all LLMs produce significantly more unsafe responses for non-English queries than English ones, indicating the necessity of developing safety alignment for non-English languages. In addition, we propose several simple and effective prompting methods to improve the multilingual safety of ChatGPT by evoking safety knowledge and improving cross-lingual generalization of safety alignment. Our prompting method can significantly reduce the ratio of unsafe responses from 19.1% to 9.7% for non-English queries. We release our data at https://github.com/Jarviswang94/Multilingual_safety_benchmark.",
+      "published": "2023-10-02",
+      "url": "http://arxiv.org/abs/2310.00905v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safety Assessment of Chinese Large Language Models",
+      "authors": [
+        "Hao Sun",
+        "Zhexin Zhang",
+        "Jiawen Deng",
+        "Jiale Cheng",
+        "Minlie Huang"
+      ],
+      "abstract": "With the rapid popularity of large language models such as ChatGPT and GPT-4, a growing amount of attention is paid to their safety concerns. These models may generate insulting and discriminatory content, reflect incorrect social values, and may be used for malicious purposes such as fraud and dissemination of misleading information. Evaluating and enhancing their safety is particularly essential for the wide application of large language models (LLMs). To further promote the safe deployment of LLMs, we develop a Chinese LLM safety assessment benchmark. Our benchmark explores the comprehensive safety performance of LLMs from two perspectives: 8 kinds of typical safety scenarios and 6 types of more challenging instruction attacks. Our benchmark is based on a straightforward process in which it provides the test prompts and evaluates the safety of the generated responses from the evaluated model. In evaluation, we utilize the LLM's strong evaluation ability and develop it as a safety evaluator by prompting. On top of this benchmark, we conduct safety assessments and analyze 15 LLMs including the OpenAI GPT series and other well-known Chinese LLMs, where we observe some interesting findings. For example, we find that instruction attacks are more likely to expose safety issues of all LLMs. Moreover, to promote the development and deployment of safe, responsible, and ethical AI, we publicly release SafetyPrompts including 100k augmented prompts and responses by LLMs.",
+      "published": "2023-04-20",
+      "url": "http://arxiv.org/abs/2304.10436v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+      "authors": [
+        "Xingjun Ma",
+        "Yifeng Gao",
+        "Yixu Wang",
+        "Ruofan Wang",
+        "Xin Wang",
+        "Ye Sun",
+        "Yifan Ding",
+        "Hengyuan Xu",
+        "Yunhao Chen",
+        "Yunhan Zhao",
+        "Hanxun Huang",
+        "Yige Li",
+        "Yutao Wu",
+        "Jiaming Zhang",
+        "Xiang Zheng",
+        "Yang Bai",
+        "Zuxuan Wu",
+        "Xipeng Qiu",
+        "Jingfeng Zhang",
+        "Yiming Li",
+        "Xudong Han",
+        "Haonan Li",
+        "Jun Sun",
+        "Cong Wang",
+        "Jindong Gu",
+        "Baoyuan Wu",
+        "Siheng Chen",
+        "Tianwei Zhang",
+        "Yang Liu",
+        "Mingming Gong",
+        "Tongliang Liu",
+        "Shirui Pan",
+        "Cihang Xie",
+        "Tianyu Pang",
+        "Yinpeng Dong",
+        "Ruoxi Jia",
+        "Yang Zhang",
+        "Shiqing Ma",
+        "Xiangyu Zhang",
+        "Neil Gong",
+        "Chaowei Xiao",
+        "Sarah Erfani",
+        "Tim Baldwin",
+        "Bo Li",
+        "Masashi Sugiyama",
+        "Dacheng Tao",
+        "James Bailey",
+        "Yu-Gang Jiang"
+      ],
+      "abstract": "The rapid advancement of large models, driven by their exceptional abilities in learning and generalization through large-scale pre-training, has reshaped the landscape of Artificial Intelligence (AI). These models are now foundational to a wide range of applications, including conversational AI, recommendation systems, autonomous driving, content generation, medical diagnostics, and scientific discovery. However, their widespread deployment also exposes them to significant safety risks, raising concerns about robustness, reliability, and ethical implications. This survey provides a systematic review of current safety research on large models, covering Vision Foundation Models (VFMs), Large Language Models (LLMs), Vision-Language Pre-training (VLP) models, Vision-Language Models (VLMs), Diffusion Models (DMs), and large-model-powered Agents. Our contributions are summarized as follows: (1) We present a comprehensive taxonomy of safety threats to these models, including adversarial attacks, data poisoning, backdoor attacks, jailbreak and prompt injection attacks, energy-latency attacks, data and model extraction attacks, and emerging agent-specific threats. (2) We review defense strategies proposed for each type of attacks if available and summarize the commonly used datasets and benchmarks for safety research. (3) Building on this, we identify and discuss the open challenges in large model safety, emphasizing the need for comprehensive safety evaluations, scalable and effective defense mechanisms, and sustainable data practices. More importantly, we highlight the necessity of collective efforts from the research community and international collaboration. Our work can serve as a useful reference for researchers and practitioners, fostering the ongoing development of comprehensive defense systems and platforms to safeguard AI models.",
+      "published": "2025-02-02",
+      "url": "http://arxiv.org/abs/2502.05206v6",
+      "source": "arXiv"
+    },
+    {
+      "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+      "authors": [
+        "Zhoumeng Wang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2024",
+      "url": "https://doi.org/10.1109/access.2024.3368027",
+      "source": "Crossref"
+    },
+    {
+      "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+      "authors": [
+        "Kingsley Attai"
+      ],
+      "abstract": "&lt;p&gt;&lt;span&gt;Tropical febrile diseases pose significant public health challenges in tropical regions, particularly in resource-limited settings, where timely and accurate diagnoses are critical for effective disease management. However, existing diagnostic systems are black-box and often lack interpretability, making it difficult for healthcare practitioners to understand and trust machine learning (ML) predictions. Additionally, the existing system excludes younger patients, limiting its applicability. This study aimed to develop an integrated diagnostic system that enhances interpretability by leveraging machine learning (ML), Explainable AI (XAI), and a large language model (LLM). A dataset comprising 3,914 patient records with 32 symptoms was obtained from a New Frontiers in Research Fund-sponsored project and preprocessed for analysis. Random Forest (RF) was trained with hyperparameter tuning using GridSearchCV and evaluated with 5-fold cross-validation to optimize its performance. The tuned model achieved high diagnostic performance, demonstrating its effectiveness in diagnosing six febrile diseases. To enhance interpretability, a Model Interpretability Framework (MIF) was incorporated, integrating Local Interpretable Model-Agnostic Explanations (LIME) for visual insights and ChatGPT for textual explanations. This combination provided users with a clear understanding of the diagnostic process, addressing the limitations of black-box ML models. The system was implemented using Python in a development environment that included Google Colaboratory, Visual Studio Code, Flet, and MySQL for database management. Agile development methodology and Unified Modeling Language tools were employed to create a user-friendly design for clinicians and patients. The diagnostic system was evaluated using precision, recall, F1-score, and AUC-ROC metrics. The RF model achieved outstanding precision for most diseases, high recall (≥0.97), and an AUC-ROC of 0.99, indicating nearly flawless training performance with few misclassifications. On the test dataset, the model performed better in diagnosing malaria (F1-score = 88%, precision = 85%), urinary tract infection (F1-score = 72%, precision = 80%), and respiratory tract infection (F1-score = 72%, precision = 77%). The evaluated system demonstrated strong predictive performance, correctly identifying 72 out of 99 tested patient cases, with 26 cases misclassified and one case completely missed. It achieved the highest detection rates for Malaria and HIV/AIDS, accurately identifying all cases without false positives. This work enhances diagnostic solutions for tropical healthcare settings by improving explainability and ensuring inclusivity for younger patients, addressing key limitations in existing systems. The integration of ML, XAI, and LLM enhances diagnostic performance and lays the groundwork for future AI-driven healthcare innovations, ultimately improving health outcomes in resource-scarce regions. Healthcare providers should adopt this system to enhance the efficiency of disease diagnosis and extend the system to diagnose additional medical conditions.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+      "published": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6557498",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Safety Assessment of Large Language Models Across Languages",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "summary": "This cluster of papers focuses on the safety of large language models (LLMs) in multilingual contexts. It highlights the development of benchmarks for assessing safety issues in LLMs across different languages, with a particular emphasis on non-English languages. The studies reveal that LLMs tend to produce more unsafe responses for non-English queries and propose methods to improve safety alignment. Additionally, the cluster discusses the safety risks associated with LLMs and provides a comprehensive survey of safety threats and defense strategies.",
+      "limitations": "The studies primarily focus on specific languages (e.g., Chinese and general multilingual contexts) and may not cover all languages equally. There is also a need for more extensive evaluations of safety across diverse cultural contexts and the long-term effectiveness of proposed safety improvements. Furthermore, the reliance on existing LLMs for safety evaluation may introduce biases based on their training data.",
+      "gap_relevance": "This cluster supports research gap identification by emphasizing the need for multilingual safety assessments and the development of tailored safety benchmarks for various languages. It highlights the importance of understanding safety risks in diverse linguistic and cultural contexts, which can guide future research in enhancing the safety and ethical deployment of LLMs globally."
+    },
+    {
+      "theme": "Few-Shot Recommender Systems Enhanced by Language Models",
+      "paper_indices": [
+        4
+      ],
+      "summary": "This cluster primarily investigates the integration of large language models to improve the representation capabilities of few-shot recommender systems, aiming to enhance their performance in scenarios with limited user data.",
+      "limitations": "The cluster lacks comprehensive empirical evaluations across diverse datasets and user contexts, and there is insufficient exploration of the trade-offs between model complexity and interpretability.",
+      "gap_relevance": "This cluster highlights the need for further research into optimizing few-shot learning techniques in recommendation systems, particularly in understanding the impact of language model enhancements on user experience and system adaptability."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+      "problem": "Multilingual safety of large language models (LLMs) and the disparity in safety performance across languages.",
+      "method": "Development of a multilingual safety benchmark (XSafety) covering 14 safety issues across 10 languages; empirical study on 4 LLMs.",
+      "evidence": "LLMs produce more unsafe responses for non-English queries; prompting methods reduced unsafe responses from 19.1% to 9.7%.",
+      "limitation": "Focus on only 4 widely-used LLMs; does not address all potential safety issues across all languages.",
+      "gap_relevance": "Highlights the need for comprehensive safety assessments in non-English contexts and methods to enhance multilingual safety."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Safety Assessment of Chinese Large Language Models",
+      "problem": "Safety concerns in Chinese LLMs, including generation of harmful content and susceptibility to instruction attacks.",
+      "method": "Development of a safety assessment benchmark for Chinese LLMs evaluating 8 safety scenarios and 6 instruction attack types.",
+      "evidence": "Instruction attacks expose safety issues more effectively than other methods; safety evaluation of 15 LLMs conducted.",
+      "limitation": "Focus limited to Chinese LLMs; findings may not generalize to other languages or LLMs.",
+      "gap_relevance": "Identifies the need for safety benchmarks in other languages and the effectiveness of instruction attacks as a safety evaluation tool."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+      "problem": "Safety risks associated with large models, including robustness and ethical implications.",
+      "method": "Systematic review of safety research, taxonomy of safety threats, and defense strategies for various model types.",
+      "evidence": "Identifies multiple safety threats and emphasizes the need for comprehensive evaluations and defense mechanisms.",
+      "limitation": "Lacks specific case studies or empirical evaluations of proposed defense strategies.",
+      "gap_relevance": "Provides a framework for understanding safety threats that can inform future research on enhancing safety in LLMs."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+      "problem": "Integration of LLMs to improve recommender systems, focusing on representation enhancement.",
+      "method": "Utilization of LLMs to enhance few-shot learning in recommender systems; specific methodology not detailed.",
+      "evidence": "Potential for LLMs to improve representation in recommendation tasks.",
+      "limitation": "Lack of detailed methodology and empirical results; no safety considerations discussed.",
+      "gap_relevance": "Suggests exploration of LLMs' interpretability and safety in recommendation systems, an area not fully addressed."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+      "problem": "Lack of interpretability in diagnostic systems for febrile diseases, particularly in resource-limited settings.",
+      "method": "Development of a diagnostic system integrating ML, Explainable AI, and LLMs; evaluation using patient records.",
+      "evidence": "Achieved high diagnostic performance and enhanced interpretability through a Model Interpretability Framework.",
+      "limitation": "Focus on a specific disease context; may not generalize to other medical conditions or broader applications.",
+      "gap_relevance": "Demonstrates the potential for LLMs to improve interpretability in healthcare, highlighting a gap in safety and trust in AI diagnostics."
+    }
+  ],
+  "summary": "Existing literature related to Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Modelsthe suggests active interest in applying LLMs to support academic or educational workflows, but reported outcomes depend on task design, evaluation criteria, and quality of retrieved evidence.",
+  "scholarly_positioning": "Prior work often demonstrates task-specific LLM assistance, but less often compares how staged research reasoning changes proposal quality under controlled evaluation.",
+  "research_scope": "The fallback scope is a controlled evaluation of an academic research agent for one user-provided topic, comparing a raw single-prompt baseline with structured multi-stage generation using the same retrieved-paper set and the same PhD-level rubric.",
+  "gap": "A key gap is the limited comparison between direct single-prompt generation and a structured, literature-augmented multi-stage workflow.",
+  "question": "How can a literature-augmented multi-stage LLM workflow improve the clarity, feasibility, and literature alignment of research proposals about Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Modelsthe?",
+  "theoretical_mechanism": "Separating literature synthesis, gap formation, hypothesis design, and method planning should reduce cognitive overload and make intermediate assumptions easier to inspect.",
+  "hypothesis": "A staged pipeline that separates literature summary, gap identification, question generation, methodology design, and evaluation will produce more coherent proposals than a single prompt.",
+  "operationalization_causal_check": "Proposal quality can be operationalized through rubric scores for clarity, coherence, novelty, feasibility, literature alignment, academic depth, and communication, while causal claims should be limited to observed differences between controlled generation conditions.",
+  "methodology": "Build a lightweight prototype, retrieve a small set of arXiv papers, generate outputs through independent prompt templates, and compare the final proposal with a single-prompt baseline using a manual rubric and GPT-assisted self-evaluation.",
+  "novelty_contribution": "The fallback contribution is methodological: it decomposes proposal generation into inspectable research-reasoning stages and compares that workflow against a raw single-prompt baseline.",
+  "failure_analysis": "The workflow may fail when retrieval is weak, when the LLM overstates novelty, or when the evaluator rewards polished writing over genuine research contribution.",
+  "proposal_logic_graph": null,
+  "proposal": "This project develops an LLM-based Academic Research Agent for Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Modelsthe. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "draft_proposal": "This project develops an LLM-based Academic Research Agent for Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Modelsthe. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 5,
+    "literature_alignment": 3,
+    "phd_level_quality": null,
+    "presentation": null,
+    "weighted_total": null,
+    "rubric_scores": [],
+    "comments": "Fallback evaluation indicates a clear and feasible proposal structure. Literature alignment should be reassessed after successful arXiv retrieval and real LLM generation."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 1,
+        "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+        "similarity": 0.5822
+      },
+      {
+        "original_index": 4,
+        "title": "Safety Assessment of Chinese Large Language Models",
+        "similarity": 0.5777
+      },
+      {
+        "original_index": 2,
+        "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+        "similarity": 0.5597
+      },
+      {
+        "original_index": 5,
+        "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+        "similarity": 0.5432
+      },
+      {
+        "original_index": 3,
+        "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+        "similarity": 0.4013
+      }
+    ]
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Modelsthe",
+    "retrieval_snapshot_id": "20260523T220828Z-interpretable-internal-representations-for-enhanced-safety-and-controllability-i-5",
+    "latency_ms": 42875,
+    "prompt_tokens": 12651,
+    "completion_tokens": 2413,
+    "total_tokens": 15064,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": "ValueError: LLM response missing operationalization_causal_check"
+  }
+}

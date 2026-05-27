@@ -20,7 +20,11 @@ SOURCE_REQUEST_DELAY_SECONDS = 1
 
 
 async def search_literature(topic: str, max_results: int) -> list[Paper]:
-    path = cache_path("literature", topic, max_results)
+    query = clean_retrieval_query(topic)
+    if query != topic.strip():
+        print(f"[literature] cleaned query: {query!r}", flush=True)
+
+    path = cache_path("literature", query, max_results)
     cached = read_json(path)
     if isinstance(cached, list):
         papers = [Paper(**item) for item in cached if isinstance(item, dict)]
@@ -44,7 +48,7 @@ async def search_literature(topic: str, max_results: int) -> list[Paper]:
         start=1,
     ):
         print(f"[literature] source request {index}/{len(SOURCES)}: {source_name}", flush=True)
-        source_results = await search_fn(topic, request_limit)
+        source_results = await search_fn(query, request_limit)
         print(f"[literature] {source_name} returned {len(source_results)} paper(s)", flush=True)
         results.append(source_results)
 
@@ -79,9 +83,31 @@ async def search_literature(topic: str, max_results: int) -> list[Paper]:
         return selected
 
     print("[literature] all sources failed; using local fallback", flush=True)
-    fallback = fallback_papers(topic)
+    fallback = fallback_papers(query)
     write_json(path, [paper.model_dump(mode="json") for paper in fallback])
     return fallback
+
+
+def clean_retrieval_query(topic: str) -> str:
+    query = re.sub(r"\s+", " ", topic).strip()
+    query = query.strip("\"'`“”‘’")
+
+    if "|" in query:
+        parts = [part.strip(" -:;|") for part in query.split("|")]
+        parts = [part for part in parts if part]
+        if parts:
+            query = max(parts, key=len)
+
+    label_match = re.match(
+        r"^(topic|research topic|title|domain|field|area|领域|主题|题目)\s*[:：]\s*(.+)$",
+        query,
+        flags=re.IGNORECASE,
+    )
+    if label_match:
+        query = label_match.group(2).strip()
+
+    query = re.sub(r"\s+", " ", query).strip(" -:;|")
+    return query or topic.strip()
 
 
 def distribute_quota(total: int, source_count: int) -> list[int]:

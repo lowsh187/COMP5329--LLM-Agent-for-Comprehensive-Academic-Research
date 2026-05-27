@@ -1,0 +1,18 @@
+Task: Define the proposal's abstract technical concepts operationally before drafting.
+
+Topic:
+{topic}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Research gap:
+{gap}
+
+Return JSON with exactly this key:
+{{
+  "concept_definition": "A compact concept definition table in plain text. Define every abstract technical term in operational terms. For LLM interpretability/safety topics, clarify which models are studied, whether hidden states/internal activations are accessible, what internal representations mean, what interpretability method is used such as probing, attribution, sparse autoencoders, attention visualization, activation steering, safety monitor, or explanation generation, who the explanation is for such as researcher/system/user, what safety outcomes mean such as unsafe response rate, over-refusal, jailbreak success, harmful compliance, refusal precision/recall, and what user trust means such as trust calibration, blind trust, perceived transparency, or appropriate reliance. Do not leave concepts like interpretability, trust, safety, controllability, alignment, or fairness undefined."
+}}

@@ -9,7 +9,18 @@ Retrieved papers:
 Literature summary:
 {summary}
 
-Return JSON with exactly this key:
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Return JSON with exactly these keys:
 {{
-  "gap": "A specific and feasible research gap in 1-3 sentences."
+  "gap": "A specific and feasible empirical research gap in 2-4 sentences. Use this structure: prior studies have demonstrated A in context B; however, they treat C as fixed, secondary, or unresolved, leaving unclear whether D affects E; this matters theoretically or practically because F; therefore this study investigates G within the defined scope. The gap must not be a generic future-work statement.",
+  "supporting_paper_ids": ["P1"],
+  "evidence_reasoning": "Explain how the listed paper ids support this gap. If evidence is weak, state that the gap is tentative."
 }}

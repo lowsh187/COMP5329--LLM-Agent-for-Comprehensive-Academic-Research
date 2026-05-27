@@ -1,0 +1,250 @@
+{
+  "experiment_id": "20260524T115605Z",
+  "run_index": 1,
+  "topic": "Regularity and Singularity Propagation in Stochastic Partial Differential Equations",
+  "condition": "baseline_with_retrieval",
+  "retrieval_query": "Regularity and Singularity Propagation in Stochastic Partial Differential Equations",
+  "retrieval_snapshot_id": "20260524T115611Z-regularity-and-singularity-propagation-in-stochastic-partial-differential-equati-5",
+  "papers": [
+    {
+      "title": "Stability of solutions to stochastic partial differential equations",
+      "authors": [
+        "Benjamin Gess",
+        "Jonas M. Tölle"
+      ],
+      "abstract": "We provide a general framework for the stability of solutions to stochastic partial differential equations with respect to perturbations of the drift. More precisely, we consider stochastic partial differential equations with drift given as the subdifferential of a convex function and prove continuous dependence of the solutions with regard to random Mosco convergence of the convex potentials. In particular, we identify the concept of stochastic variational inequalities (SVI) as a well-suited framework to study such stability properties. The generality of the developed framework is then laid out by deducing Trotter type and homogenization results for stochastic fast diffusion and stochastic singular p-Laplace equations. In addition, we provide an SVI treatment for stochastic nonlocal p-Laplace equations and prove their convergence to the respective local models.",
+      "published": "2015-06-03",
+      "url": "http://arxiv.org/abs/1506.01230v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Regularity analysis for stochastic partial differential equations with nonlinear multiplicative trace class noise",
+      "authors": [
+        "Arnulf Jentzen",
+        "Michael Roeckner"
+      ],
+      "abstract": "In this article spatial and temporal regularity of the solution process of a stochastic partial differential equation (SPDE) of evolutionary type with nonlinear multiplicative trace class noise is analyzed.",
+      "published": "2010-05-21",
+      "url": "http://arxiv.org/abs/1005.4095v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Regularity and Continuity of Solutions to Stochastic Evolution Equations",
+      "authors": [
+        "Anna Karczewska"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2002-4-5",
+      "url": "https://doi.org/10.1201/9780203910177-17",
+      "source": "Crossref"
+    },
+    {
+      "title": "Talagrand Concentration Inequalities for Stochastic Partial Differential Equations",
+      "authors": [
+        "Davar Khoshnevisan",
+        "Andrey Sarantsev"
+      ],
+      "abstract": "One way to define the concentration of measure phenomenon is via Talagrand inequalities, also called transportation-information inequalities. That is, a comparison of the Wasserstein distance from the given measure to any other absolutely continuous measure with finite relative entropy. Such transportation-information inequalities were recently established for some stochastic differential equations. Here, we develop a similar theory for some stochastic partial differential equations.",
+      "published": "2017-09-20",
+      "url": "http://arxiv.org/abs/1709.07098v3",
+      "source": "arXiv"
+    },
+    {
+      "title": "Malliavin Regularity of Solutions of SPDE’s",
+      "authors": [],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2005-8-17",
+      "url": "https://doi.org/10.1201/9781439818947-9",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Stability and Regularity in Stochastic Partial Differential Equations",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "summary": "This cluster of papers primarily explores the stability and regularity of solutions to stochastic partial differential equations (SPDEs). It establishes frameworks for understanding the continuous dependence of solutions on perturbations, particularly through stochastic variational inequalities. Additionally, it addresses regularity issues in the presence of nonlinear multiplicative noise and examines the continuity of solutions in stochastic evolution equations.",
+      "limitations": "Several papers lack available abstracts, which limits the understanding of their contributions. Additionally, the exploration of regularity under specific noise conditions and the implications of stochastic variational inequalities may require further empirical validation.",
+      "gap_relevance": "This cluster highlights the need for deeper investigations into the stability properties and regularity of SPDEs, particularly in complex noise scenarios, thereby identifying potential research gaps in the mathematical understanding and application of stochastic processes."
+    },
+    {
+      "theme": "Concentration Inequalities in Stochastic Partial Differential Equations",
+      "paper_indices": [
+        4
+      ],
+      "summary": "This cluster primarily investigates the application of Talagrand concentration inequalities, specifically transportation-information inequalities, to stochastic partial differential equations (SPDEs). It builds on existing theories established for stochastic differential equations, extending the understanding of measure concentration phenomena in the context of SPDEs.",
+      "limitations": "The research may be limited by the specific types of stochastic partial differential equations considered and may not encompass all forms of SPDEs. Additionally, the practical implications and applications of these inequalities in real-world scenarios remain underexplored.",
+      "gap_relevance": "This cluster aids in identifying research gaps by highlighting the need for further exploration of concentration inequalities in various types of SPDEs and their potential applications, thereby paving the way for future studies that could enhance the theoretical framework and practical utility of these inequalities."
+    }
+  ],
+  "evidence_notes": [],
+  "summary": null,
+  "scholarly_positioning": null,
+  "domain_router": null,
+  "research_scope": null,
+  "concept_definition": null,
+  "technical_feasibility": null,
+  "gap": null,
+  "question": null,
+  "theoretical_mechanism": null,
+  "hypothesis": null,
+  "operationalization_causal_check": null,
+  "methodology": null,
+  "novelty_contribution": null,
+  "failure_analysis": null,
+  "proposal_logic_graph": null,
+  "proposal": "This proposal aims to investigate the regularity and singularity propagation in stochastic partial differential equations (SPDEs), building on the foundational work of Gess and Tölle (2015) regarding stability under perturbations and Jentzen and Roeckner (2010) on regularity with nonlinear multiplicative noise. The gap identified is the lack of a comprehensive framework that integrates stability, regularity, and singularity propagation in SPDEs, particularly under varying noise conditions. The objective is to develop a unified approach that characterizes how singularities in the initial conditions or coefficients influence the regularity of solutions over time. Methodologically, we will employ advanced techniques from stochastic analysis, including Malliavin calculus and concentration inequalities as discussed by Khoshnevisan and Sarantsev (2017). The expected contribution includes establishing new results on the interplay between regularity and singularity in SPDEs, thus extending the existing literature by providing a more holistic view of solution behavior under stochastic influences. This work will differ from previous studies by focusing on the dynamic evolution of singularities in the context of stochastic perturbations, which has not been thoroughly addressed in the current literature.",
+  "draft_proposal": null,
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 3,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 3,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 4,
+    "weighted_total": 61.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 9.0,
+        "level": "9-11: understandable but partially broad or insufficiently operationalized",
+        "justification": "The proposal identifies a research problem related to regularity and singularity propagation in SPDEs. However, the operational definitions of key concepts such as 'regularity' and 'singularity' are vague, and the boundaries of the research are not clearly delineated. Major weaknesses: Key concepts are not explicitly defined, leading to potential ambiguity in understanding the research focus. The motivation lacks specificity regarding the significance of the identified gap. Next band requirements: To move into the next band, the proposal needs clearer definitions of key concepts and a more precise articulation of the research boundaries and significance."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from identifying a gap to proposing a methodology. However, the connections between the hypothesis and the proposed methods are not sufficiently justified. Major weaknesses: The causal claims regarding how singularities influence regularity are not well-supported by existing literature or theoretical mechanisms. Next band requirements: To improve, the proposal should provide stronger theoretical justification for the causal claims and ensure that each component logically leads to the next."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal aims to integrate existing concepts, it does not sufficiently demonstrate how it advances understanding in the field beyond existing literature. Major weaknesses: The novelty claims are somewhat vague, and the proposal does not introduce a new framework or significantly extend existing theories. Next band requirements: To achieve a higher score, the proposal should articulate a clear and original theoretical contribution that distinguishes it from previous works."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 10.0,
+        "level": "9-11: weak controls, weak baselines, or shallow evaluation",
+        "justification": "The methodology mentions advanced techniques but lacks detail on how these will be operationalized and evaluated. There is insufficient discussion on controls and potential confounding factors. Major weaknesses: The proposal does not provide a clear experimental design or justification for the chosen methods, making it difficult to assess feasibility. Next band requirements: To improve, the proposal should include a detailed experimental design with clear baselines, evaluation metrics, and a discussion of potential confounds."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but lacks depth in engagement and critical analysis of existing works. Major weaknesses: There is insufficient synthesis of prior research, and the proposal does not adequately position itself within the broader academic discourse. Next band requirements: To enhance scholarly positioning, the proposal should critically engage with existing literature and clearly articulate how it addresses unresolved tensions or gaps."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 6.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some theoretical understanding but lacks depth in discussing mechanisms and limitations. Major weaknesses: There is a lack of discussion on potential failure cases and limitations of the proposed approach, which is crucial for PhD-level work. Next band requirements: To reach a higher score, the proposal should include a thorough discussion of theoretical mechanisms, limitations, and broader implications."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-written and organized, but some areas lack clarity and precision in terminology. Major weaknesses: Certain sections are repetitive or vague, impacting overall readability. Next band requirements: To improve, the proposal should focus on enhancing clarity and precision in terminology and reducing redundancy."
+      }
+    ],
+    "comments": "Total score: 61.0/100. Academic level: Master's-level. Major weaknesses: Vague definitions of key concepts.; Insufficient theoretical justification for causal claims.; Lack of clear experimental design and evaluation metrics.; Limited engagement with existing literature. Required improvements for true PhD-level quality: Provide clear operational definitions of key concepts.; Strengthen theoretical framing and causal reasoning.; Develop a detailed experimental design with robust evaluation metrics.; Engage more deeply with existing literature and articulate the research's unique contribution. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant improvements in clarity, theoretical depth, and methodological rigor."
+  },
+  "baseline": {
+    "proposal": "This proposal aims to investigate the regularity and singularity propagation in stochastic partial differential equations (SPDEs), building on the foundational work of Gess and Tölle (2015) regarding stability under perturbations and Jentzen and Roeckner (2010) on regularity with nonlinear multiplicative noise. The gap identified is the lack of a comprehensive framework that integrates stability, regularity, and singularity propagation in SPDEs, particularly under varying noise conditions. The objective is to develop a unified approach that characterizes how singularities in the initial conditions or coefficients influence the regularity of solutions over time. Methodologically, we will employ advanced techniques from stochastic analysis, including Malliavin calculus and concentration inequalities as discussed by Khoshnevisan and Sarantsev (2017). The expected contribution includes establishing new results on the interplay between regularity and singularity in SPDEs, thus extending the existing literature by providing a more holistic view of solution behavior under stochastic influences. This work will differ from previous studies by focusing on the dynamic evolution of singularities in the context of stochastic perturbations, which has not been thoroughly addressed in the current literature.",
+    "evaluation": {
+      "clarity": 3,
+      "logic": 4,
+      "novelty": 3,
+      "feasibility": 3,
+      "literature_alignment": 4,
+      "phd_level_quality": 3,
+      "presentation": 4,
+      "weighted_total": 61.0,
+      "rubric_scores": [
+        {
+          "criterion": "Research Clarity & Problem Definition",
+          "weight": 15,
+          "score": 9.0,
+          "level": "9-11: understandable but partially broad or insufficiently operationalized",
+          "justification": "The proposal identifies a research problem related to regularity and singularity propagation in SPDEs. However, the operational definitions of key concepts such as 'regularity' and 'singularity' are vague, and the boundaries of the research are not clearly delineated. Major weaknesses: Key concepts are not explicitly defined, leading to potential ambiguity in understanding the research focus. The motivation lacks specificity regarding the significance of the identified gap. Next band requirements: To move into the next band, the proposal needs clearer definitions of key concepts and a more precise articulation of the research boundaries and significance."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "weight": 15,
+          "score": 10.0,
+          "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+          "justification": "The proposal presents a logical flow from identifying a gap to proposing a methodology. However, the connections between the hypothesis and the proposed methods are not sufficiently justified. Major weaknesses: The causal claims regarding how singularities influence regularity are not well-supported by existing literature or theoretical mechanisms. Next band requirements: To improve, the proposal should provide stronger theoretical justification for the causal claims and ensure that each component logically leads to the next."
+        },
+        {
+          "criterion": "Novelty & Research Contribution",
+          "weight": 20,
+          "score": 12.0,
+          "level": "12-14: moderate novelty but partially derivative",
+          "justification": "While the proposal aims to integrate existing concepts, it does not sufficiently demonstrate how it advances understanding in the field beyond existing literature. Major weaknesses: The novelty claims are somewhat vague, and the proposal does not introduce a new framework or significantly extend existing theories. Next band requirements: To achieve a higher score, the proposal should articulate a clear and original theoretical contribution that distinguishes it from previous works."
+        },
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "weight": 20,
+          "score": 10.0,
+          "level": "9-11: weak controls, weak baselines, or shallow evaluation",
+          "justification": "The methodology mentions advanced techniques but lacks detail on how these will be operationalized and evaluated. There is insufficient discussion on controls and potential confounding factors. Major weaknesses: The proposal does not provide a clear experimental design or justification for the chosen methods, making it difficult to assess feasibility. Next band requirements: To improve, the proposal should include a detailed experimental design with clear baselines, evaluation metrics, and a discussion of potential confounds."
+        },
+        {
+          "criterion": "Literature Alignment & Scholarly Positioning",
+          "weight": 15,
+          "score": 10.0,
+          "level": "9-11: relevant literature used but somewhat surface-level",
+          "justification": "The proposal references relevant literature but lacks depth in engagement and critical analysis of existing works. Major weaknesses: There is insufficient synthesis of prior research, and the proposal does not adequately position itself within the broader academic discourse. Next band requirements: To enhance scholarly positioning, the proposal should critically engage with existing literature and clearly articulate how it addresses unresolved tensions or gaps."
+        },
+        {
+          "criterion": "PhD-Level Academic Depth",
+          "weight": 10,
+          "score": 6.0,
+          "level": "5-6: strong master-level but limited theoretical depth",
+          "justification": "The proposal demonstrates some theoretical understanding but lacks depth in discussing mechanisms and limitations. Major weaknesses: There is a lack of discussion on potential failure cases and limitations of the proposed approach, which is crucial for PhD-level work. Next band requirements: To reach a higher score, the proposal should include a thorough discussion of theoretical mechanisms, limitations, and broader implications."
+        },
+        {
+          "criterion": "Presentation & Academic Communication",
+          "weight": 5,
+          "score": 4.0,
+          "level": "4: strong academic communication",
+          "justification": "The proposal is generally well-written and organized, but some areas lack clarity and precision in terminology. Major weaknesses: Certain sections are repetitive or vague, impacting overall readability. Next band requirements: To improve, the proposal should focus on enhancing clarity and precision in terminology and reducing redundancy."
+        }
+      ],
+      "comments": "Total score: 61.0/100. Academic level: Master's-level. Major weaknesses: Vague definitions of key concepts.; Insufficient theoretical justification for causal claims.; Lack of clear experimental design and evaluation metrics.; Limited engagement with existing literature. Required improvements for true PhD-level quality: Provide clear operational definitions of key concepts.; Strengthen theoretical framing and causal reasoning.; Develop a detailed experimental design with robust evaluation metrics.; Engage more deeply with existing literature and articulate the research's unique contribution. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant improvements in clarity, theoretical depth, and methodological rigor."
+    }
+  },
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_mode": "raw_source_order"
+  },
+  "metrics": {
+    "condition": "baseline_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Regularity and Singularity Propagation in Stochastic Partial Differential Equations",
+    "retrieval_snapshot_id": "20260524T115611Z-regularity-and-singularity-propagation-in-stochastic-partial-differential-equati-5",
+    "latency_ms": 38613,
+    "prompt_tokens": 4283,
+    "completion_tokens": 1823,
+    "total_tokens": 6106,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

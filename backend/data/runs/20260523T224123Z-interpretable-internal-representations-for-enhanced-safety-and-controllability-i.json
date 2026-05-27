@@ -1,0 +1,851 @@
+{
+  "experiment_id": "20260523T222710Z",
+  "run_index": 1,
+  "topic": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+  "condition": "multi_stage_group_selection",
+  "retrieval_query": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+  "retrieval_snapshot_id": "20260523T222710Z-interpretable-internal-representations-for-enhanced-safety-and-controllability-i-5",
+  "papers": [
+    {
+      "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+      "authors": [
+        "Wenxuan Wang",
+        "Zhaopeng Tu",
+        "Chang Chen",
+        "Youliang Yuan",
+        "Jen-tse Huang",
+        "Wenxiang Jiao",
+        "Michael R. Lyu"
+      ],
+      "abstract": "Safety lies at the core of developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g. the majority language in the pretraining data such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSafety, in response to the global deployment of LLMs in practice. XSafety covers 14 kinds of commonly used safety issues across 10 languages that span several language families. We utilize XSafety to empirically study the multilingual safety for 4 widely-used LLMs, including both close-API and open-source models. Experimental results show that all LLMs produce significantly more unsafe responses for non-English queries than English ones, indicating the necessity of developing safety alignment for non-English languages. In addition, we propose several simple and effective prompting methods to improve the multilingual safety of ChatGPT by evoking safety knowledge and improving cross-lingual generalization of safety alignment. Our prompting method can significantly reduce the ratio of unsafe responses from 19.1% to 9.7% for non-English queries. We release our data at https://github.com/Jarviswang94/Multilingual_safety_benchmark.",
+      "published": "2023-10-02",
+      "url": "http://arxiv.org/abs/2310.00905v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safety Assessment of Chinese Large Language Models",
+      "authors": [
+        "Hao Sun",
+        "Zhexin Zhang",
+        "Jiawen Deng",
+        "Jiale Cheng",
+        "Minlie Huang"
+      ],
+      "abstract": "With the rapid popularity of large language models such as ChatGPT and GPT-4, a growing amount of attention is paid to their safety concerns. These models may generate insulting and discriminatory content, reflect incorrect social values, and may be used for malicious purposes such as fraud and dissemination of misleading information. Evaluating and enhancing their safety is particularly essential for the wide application of large language models (LLMs). To further promote the safe deployment of LLMs, we develop a Chinese LLM safety assessment benchmark. Our benchmark explores the comprehensive safety performance of LLMs from two perspectives: 8 kinds of typical safety scenarios and 6 types of more challenging instruction attacks. Our benchmark is based on a straightforward process in which it provides the test prompts and evaluates the safety of the generated responses from the evaluated model. In evaluation, we utilize the LLM's strong evaluation ability and develop it as a safety evaluator by prompting. On top of this benchmark, we conduct safety assessments and analyze 15 LLMs including the OpenAI GPT series and other well-known Chinese LLMs, where we observe some interesting findings. For example, we find that instruction attacks are more likely to expose safety issues of all LLMs. Moreover, to promote the development and deployment of safe, responsible, and ethical AI, we publicly release SafetyPrompts including 100k augmented prompts and responses by LLMs.",
+      "published": "2023-04-20",
+      "url": "http://arxiv.org/abs/2304.10436v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+      "authors": [
+        "Xingjun Ma",
+        "Yifeng Gao",
+        "Yixu Wang",
+        "Ruofan Wang",
+        "Xin Wang",
+        "Ye Sun",
+        "Yifan Ding",
+        "Hengyuan Xu",
+        "Yunhao Chen",
+        "Yunhan Zhao",
+        "Hanxun Huang",
+        "Yige Li",
+        "Yutao Wu",
+        "Jiaming Zhang",
+        "Xiang Zheng",
+        "Yang Bai",
+        "Zuxuan Wu",
+        "Xipeng Qiu",
+        "Jingfeng Zhang",
+        "Yiming Li",
+        "Xudong Han",
+        "Haonan Li",
+        "Jun Sun",
+        "Cong Wang",
+        "Jindong Gu",
+        "Baoyuan Wu",
+        "Siheng Chen",
+        "Tianwei Zhang",
+        "Yang Liu",
+        "Mingming Gong",
+        "Tongliang Liu",
+        "Shirui Pan",
+        "Cihang Xie",
+        "Tianyu Pang",
+        "Yinpeng Dong",
+        "Ruoxi Jia",
+        "Yang Zhang",
+        "Shiqing Ma",
+        "Xiangyu Zhang",
+        "Neil Gong",
+        "Chaowei Xiao",
+        "Sarah Erfani",
+        "Tim Baldwin",
+        "Bo Li",
+        "Masashi Sugiyama",
+        "Dacheng Tao",
+        "James Bailey",
+        "Yu-Gang Jiang"
+      ],
+      "abstract": "The rapid advancement of large models, driven by their exceptional abilities in learning and generalization through large-scale pre-training, has reshaped the landscape of Artificial Intelligence (AI). These models are now foundational to a wide range of applications, including conversational AI, recommendation systems, autonomous driving, content generation, medical diagnostics, and scientific discovery. However, their widespread deployment also exposes them to significant safety risks, raising concerns about robustness, reliability, and ethical implications. This survey provides a systematic review of current safety research on large models, covering Vision Foundation Models (VFMs), Large Language Models (LLMs), Vision-Language Pre-training (VLP) models, Vision-Language Models (VLMs), Diffusion Models (DMs), and large-model-powered Agents. Our contributions are summarized as follows: (1) We present a comprehensive taxonomy of safety threats to these models, including adversarial attacks, data poisoning, backdoor attacks, jailbreak and prompt injection attacks, energy-latency attacks, data and model extraction attacks, and emerging agent-specific threats. (2) We review defense strategies proposed for each type of attacks if available and summarize the commonly used datasets and benchmarks for safety research. (3) Building on this, we identify and discuss the open challenges in large model safety, emphasizing the need for comprehensive safety evaluations, scalable and effective defense mechanisms, and sustainable data practices. More importantly, we highlight the necessity of collective efforts from the research community and international collaboration. Our work can serve as a useful reference for researchers and practitioners, fostering the ongoing development of comprehensive defense systems and platforms to safeguard AI models.",
+      "published": "2025-02-02",
+      "url": "http://arxiv.org/abs/2502.05206v6",
+      "source": "arXiv"
+    },
+    {
+      "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+      "authors": [
+        "Zhoumeng Wang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2024",
+      "url": "https://doi.org/10.1109/access.2024.3368027",
+      "source": "Crossref"
+    },
+    {
+      "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+      "authors": [
+        "Kingsley Attai"
+      ],
+      "abstract": "&lt;p&gt;&lt;span&gt;Tropical febrile diseases pose significant public health challenges in tropical regions, particularly in resource-limited settings, where timely and accurate diagnoses are critical for effective disease management. However, existing diagnostic systems are black-box and often lack interpretability, making it difficult for healthcare practitioners to understand and trust machine learning (ML) predictions. Additionally, the existing system excludes younger patients, limiting its applicability. This study aimed to develop an integrated diagnostic system that enhances interpretability by leveraging machine learning (ML), Explainable AI (XAI), and a large language model (LLM). A dataset comprising 3,914 patient records with 32 symptoms was obtained from a New Frontiers in Research Fund-sponsored project and preprocessed for analysis. Random Forest (RF) was trained with hyperparameter tuning using GridSearchCV and evaluated with 5-fold cross-validation to optimize its performance. The tuned model achieved high diagnostic performance, demonstrating its effectiveness in diagnosing six febrile diseases. To enhance interpretability, a Model Interpretability Framework (MIF) was incorporated, integrating Local Interpretable Model-Agnostic Explanations (LIME) for visual insights and ChatGPT for textual explanations. This combination provided users with a clear understanding of the diagnostic process, addressing the limitations of black-box ML models. The system was implemented using Python in a development environment that included Google Colaboratory, Visual Studio Code, Flet, and MySQL for database management. Agile development methodology and Unified Modeling Language tools were employed to create a user-friendly design for clinicians and patients. The diagnostic system was evaluated using precision, recall, F1-score, and AUC-ROC metrics. The RF model achieved outstanding precision for most diseases, high recall (≥0.97), and an AUC-ROC of 0.99, indicating nearly flawless training performance with few misclassifications. On the test dataset, the model performed better in diagnosing malaria (F1-score = 88%, precision = 85%), urinary tract infection (F1-score = 72%, precision = 80%), and respiratory tract infection (F1-score = 72%, precision = 77%). The evaluated system demonstrated strong predictive performance, correctly identifying 72 out of 99 tested patient cases, with 26 cases misclassified and one case completely missed. It achieved the highest detection rates for Malaria and HIV/AIDS, accurately identifying all cases without false positives. This work enhances diagnostic solutions for tropical healthcare settings by improving explainability and ensuring inclusivity for younger patients, addressing key limitations in existing systems. The integration of ML, XAI, and LLM enhances diagnostic performance and lays the groundwork for future AI-driven healthcare innovations, ultimately improving health outcomes in resource-scarce regions. Healthcare providers should adopt this system to enhance the efficiency of disease diagnosis and extend the system to diagnose additional medical conditions.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+      "published": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6557498",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Multilingual Safety in Large Language Models",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "summary": "This cluster of papers focuses on the safety assessment of large language models (LLMs) across different languages, highlighting the need for multilingual safety benchmarks and evaluation methods. The studies reveal that LLMs tend to produce more unsafe responses for non-English queries, emphasizing the importance of developing safety alignment for various languages. Additionally, the research explores safety performance in specific contexts, such as Chinese LLMs and the integration of explainable AI for diagnostic systems in healthcare.",
+      "limitations": "The current benchmarks primarily focus on a limited number of languages and safety scenarios, which may not encompass the full range of safety issues faced by LLMs globally. There is also a lack of comprehensive evaluation methods that address the nuances of safety across diverse cultural and linguistic contexts.",
+      "gap_relevance": "This cluster identifies significant gaps in the multilingual safety of LLMs and the need for robust evaluation frameworks. It supports research gap identification by highlighting the necessity for more inclusive safety assessments and the development of effective prompting methods to enhance safety across various languages."
+    },
+    {
+      "theme": "Few-Shot Recommender Systems Enhanced by Language Models",
+      "paper_indices": [
+        4
+      ],
+      "summary": "This cluster primarily investigates the integration of large language models to improve the performance and representation capabilities of few-shot recommender systems, aiming to enhance their ability to make accurate recommendations with limited user data.",
+      "limitations": "The cluster lacks comprehensive empirical validation across diverse datasets and real-world scenarios, and the abstract for Paper 4 is missing, which may hinder a complete understanding of its contributions.",
+      "gap_relevance": "This cluster highlights the potential of leveraging advanced language models in recommendation systems, identifying a research gap in the exploration of their effectiveness in few-shot learning contexts, which can guide future studies in this area."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+      "problem": "Multilingual safety issues in large language models (LLMs).",
+      "method": "Development of a multilingual safety benchmark (XSafety) covering 14 safety issues across 10 languages.",
+      "evidence": "LLMs produce significantly more unsafe responses for non-English queries, highlighting the need for safety alignment in non-English languages.",
+      "limitation": "The study primarily focuses on safety in multilingual contexts but does not address the underlying causes of unsafe responses.",
+      "gap_relevance": "Identifies a gap in multilingual safety alignment, suggesting a need for deeper investigation into the mechanisms behind unsafe outputs in different languages."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Safety Assessment of Chinese Large Language Models",
+      "problem": "Safety concerns in Chinese LLMs, including generation of harmful content.",
+      "method": "Creation of a safety assessment benchmark for Chinese LLMs, evaluating 15 models across various safety scenarios.",
+      "evidence": "Instruction attacks are more likely to expose safety issues, indicating vulnerabilities in LLMs.",
+      "limitation": "Focuses solely on Chinese LLMs, potentially overlooking broader implications for LLM safety across other languages.",
+      "gap_relevance": "Highlights the need for comprehensive safety assessments in LLMs beyond the Chinese context, suggesting a potential research direction for multilingual safety frameworks."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+      "problem": "Safety risks associated with large models and their applications.",
+      "method": "Systematic review of safety threats and defense strategies for various large models.",
+      "evidence": "Identifies multiple safety threats, including adversarial attacks and prompt injection attacks, and emphasizes the need for scalable defense mechanisms.",
+      "limitation": "Does not provide specific methodologies for implementing defense strategies or evaluating their effectiveness.",
+      "gap_relevance": "Points to a gap in practical applications of defense strategies, suggesting a need for research on effective implementation and evaluation of safety measures in LLMs."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+      "problem": "Enhancement of recommender systems using LLMs.",
+      "method": "Integration of LLMs to improve representation in few-shot recommender systems.",
+      "evidence": "Demonstrates potential improvements in recommendation accuracy through LLM-enhanced representations.",
+      "limitation": "Lacks detailed evaluation of safety and ethical implications of using LLMs in recommender systems.",
+      "gap_relevance": "Suggests a need for research on the safety and interpretability of LLM-enhanced systems, particularly in sensitive applications."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+      "problem": "Lack of interpretability in diagnostic systems for febrile diseases.",
+      "method": "Development of a diagnostic system combining ML, Explainable AI, and LLM for improved interpretability.",
+      "evidence": "Achieved high diagnostic performance with enhanced interpretability, addressing black-box limitations.",
+      "limitation": "Focuses on a specific medical domain, limiting generalizability to other applications of LLMs.",
+      "gap_relevance": "Highlights the importance of interpretability in AI applications, suggesting a broader need for research on explainability in LLMs across various domains."
+    }
+  ],
+  "summary": "The retrieved literature emphasizes the critical need for multilingual safety assessments in large language models (LLMs), revealing that LLMs generate more unsafe responses for non-English queries and highlighting gaps in current evaluation frameworks. Additionally, the integration of LLMs in few-shot recommender systems shows promise for enhancing recommendation accuracy, though it lacks comprehensive safety evaluations. The studies collectively underscore the importance of interpretability and safety in LLM applications, suggesting avenues for future research in multilingual safety and ethical implications.",
+  "scholarly_positioning": "Existing research highlights significant gaps in the multilingual safety of large language models (LLMs), particularly in their tendency to produce unsafe outputs for non-English queries. While studies have established safety benchmarks and assessed specific language contexts, they often overlook the underlying mechanisms driving these unsafe responses, leaving a critical tension in understanding safety across diverse linguistic and cultural frameworks. Furthermore, the integration of LLMs in few-shot recommender systems has shown potential for improved accuracy, yet lacks thorough evaluations of safety and ethical implications. This proposed research aims to bridge these gaps by developing interpretable internal representations that enhance safety and controllability in LLMs, contributing to a more comprehensive understanding of their implications in multilingual contexts and sensitive applications.",
+  "research_scope": "This study will focus on the multilingual safety of large language models (LLMs) by evaluating their performance across ten languages, specifically targeting non-English queries. The intervention will involve the development of a novel multilingual safety benchmark (XSafety) that assesses 14 distinct safety issues, with a study period of six months for data collection and analysis. A control group will consist of existing safety benchmarks to compare the effectiveness of the new framework. Primary outcomes will include the frequency and types of unsafe outputs generated by LLMs in different languages, while secondary outcomes will assess the interpretability of the internal representations used by the models. This research aims to provide insights into the mechanisms behind unsafe outputs and enhance the safety alignment of LLMs in multilingual contexts.",
+  "gap": "Investigate the underlying mechanisms that lead to unsafe outputs in multilingual contexts by developing a framework that analyzes the linguistic and cultural factors influencing LLM safety.",
+  "question": "How do linguistic and cultural factors influence the frequency and types of unsafe outputs generated by large language models in non-English queries compared to existing safety benchmarks?",
+  "theoretical_mechanism": "The proposed intervention involves developing a novel multilingual safety benchmark (XSafety) to assess the safety of large language models (LLMs) across ten languages. The independent variable is the linguistic and cultural context of non-English queries, which serves as a moderator influencing the model's output. The mediator is the interpretability of internal representations, which affects how LLMs process and respond to diverse linguistic inputs. This leads to intermediate behaviors such as variations in response generation and safety evaluation. The primary outcome is the frequency and types of unsafe outputs produced by LLMs. The theoretical framework is grounded in computational linguistics and cultural psychology, suggesting that understanding these mechanisms can enhance safety alignment. Assumptions requiring empirical validation include the consistent influence of linguistic and cultural factors on model outputs and the effectiveness of the XSafety benchmark in capturing safety issues across languages.",
+  "hypothesis": "Linguistic and cultural factors significantly influence the frequency and types of unsafe outputs generated by large language models in non-English queries, as evidenced by the performance variations across different languages.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name                     | Role        | Measurement Instrument          | Data Source                     | Timing                |\n|------------------------------------|-------------|--------------------------------|---------------------------------|----------------------|\n| Linguistic Factors                 | Moderator   | Linguistic Analysis Tool       | Multilingual LLM Outputs       | During data collection |\n| Cultural Factors                   | Moderator   | Cultural Context Survey        | Participant Responses          | During data collection |\n| Interpretability of Internal Representations | Mediator    | Model Interpretation Framework  | LLM Internal Logs              | During data collection |\n| Frequency of Unsafe Outputs        | DV          | Safety Evaluation Metrics      | XSafety Benchmark               | After data collection  |\n| Types of Unsafe Outputs            | DV          | Categorization Framework       | XSafety Benchmark               | After data collection  |\n\nCausal Pathway: The linguistic and cultural factors (moderators) influence the interpretability of internal representations (mediator), which in turn affects the frequency and types of unsafe outputs (DVs) generated by LLMs. \n\nLikely Confounds: Other factors such as model architecture, training data quality, and user intent may also influence output safety but are not controlled in this study. \n\nClaim Boundaries: The study can claim that linguistic and cultural factors influence unsafe outputs in non-English contexts but cannot generalize findings to all languages or contexts without further research. Additionally, it cannot conclude causation without controlling for potential confounds. \n\nWhat Cannot Be Concluded: The study cannot conclude that all unsafe outputs are solely due to linguistic and cultural factors, nor can it determine the effectiveness of XSafety across all possible scenarios beyond the ten languages studied.",
+  "methodology": "Develop a multilingual safety benchmark (XSafety) that evaluates large language models (LLMs) across ten languages, focusing on non-English queries. The benchmark will assess 14 safety issues, utilizing a mixed-methods approach combining quantitative safety metrics and qualitative analysis of unsafe outputs. Data will be collected over six months, with a control group consisting of existing benchmarks for comparative analysis.",
+  "novelty_contribution": "{\n  \"theoretical_novelty\": \"This research introduces a novel theoretical framework that integrates computational linguistics and cultural psychology to understand the mechanisms behind unsafe outputs in multilingual contexts. By identifying linguistic and cultural factors as moderators of LLM behavior, it advances knowledge on how these elements influence model outputs, thereby providing a deeper understanding of safety alignment across diverse languages.\",\n  \"methodological_novelty\": \"The development of the XSafety benchmark represents a significant methodological advancement, as it systematically evaluates 14 distinct safety issues across ten languages, focusing specifically on non-English queries. This mixed-methods approach combines quantitative metrics with qualitative analyses, allowing for a comprehensive assessment of LLM safety that has not been previously achieved.\",\n  \"practical_translational_novelty\": \"The findings from this research will have practical implications for the deployment of LLMs in multilingual environments, enhancing their safety and controllability in sensitive applications. By providing insights into the internal representations of LLMs, the study will inform the design of safer AI systems that are better aligned with cultural and linguistic nuances, thus contributing to responsible AI development.\"\n}",
+  "failure_analysis": "{\n  \"failure_modes\": [\n    {\n      \"risk\": \"Inadequate representation of linguistic diversity leading to biased safety evaluations.\",\n      \"mitigation_strategy\": \"Incorporate a wider range of languages and dialects in the XSafety benchmark development phase.\"\n    },\n    {\n      \"risk\": \"Cultural nuances may be misinterpreted, resulting in inaccurate assessments of unsafe outputs.\",\n      \"mitigation_strategy\": \"Engage cultural experts during the qualitative analysis phase to ensure accurate contextual understanding.\"\n    },\n    {\n      \"risk\": \"Potential confounding variables (e.g., model architecture) affecting the results.\",\n      \"mitigation_strategy\": \"Document and control for these variables as much as possible, and acknowledge their influence in the analysis.\"\n    },\n    {\n      \"risk\": \"Low engagement from participants in cultural context surveys leading to data sparsity.\",\n      \"mitigation_strategy\": \"Implement targeted outreach and incentives to encourage participation from diverse cultural backgrounds.\"\n    },\n    {\n      \"risk\": \"Negative interpretations of results, such as overgeneralizing findings to all languages.\",\n      \"mitigation_strategy\": \"Clearly define claim boundaries and emphasize the specific context of the study in all communications.\"\n    },\n    {\n      \"risk\": \"Ethical concerns regarding the use of LLM outputs in sensitive contexts.\",\n      \"mitigation_strategy\": \"Establish ethical guidelines for data usage and ensure transparency in reporting findings.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong link; evidence notes highlight significant gaps in multilingual safety of LLMs, particularly in non-English contexts.",
+    "scope_to_gap": "The study scope is specific enough as it targets non-English queries across ten languages, directly addressing the identified gaps.",
+    "gap_to_question": "The gap regarding the need for deeper investigation into multilingual safety aligns with the research question about linguistic and cultural influences on unsafe outputs.",
+    "question_to_hypothesis": "The research question logically leads to the hypothesis that linguistic and cultural factors influence unsafe outputs, as it seeks to explore these specific influences.",
+    "hypothesis_to_methodology": "The methodology, which involves developing the XSafety benchmark, is designed to test the hypothesis by evaluating LLM outputs across different linguistic and cultural contexts.",
+    "methodology_to_evaluation": "The planned evaluation using quantitative and qualitative metrics will provide insights into the frequency and types of unsafe outputs, directly answering the research question.",
+    "weak_links": [
+      "Potential confounding variables affecting results are not fully controlled.",
+      "Lack of comprehensive empirical validation for the proposed methodology across diverse datasets."
+    ]
+  },
+  "proposal": "This research proposal aims to investigate the multilingual safety of large language models (LLMs) by developing a novel multilingual safety benchmark (XSafety) that evaluates LLM performance across ten specific languages, particularly focusing on non-English queries. Existing literature highlights significant gaps in the safety of LLMs, especially their propensity to generate unsafe outputs in diverse linguistic contexts, which current benchmarks fail to address due to limited language coverage and lack of cultural nuance. The proposed study addresses this empirical gap by formulating the research question: How do linguistic and cultural factors influence the frequency and types of unsafe outputs generated by LLMs in non-English queries compared to existing safety benchmarks? The theoretical mechanism posits that linguistic and cultural contexts (independent variables) moderate the interpretability of internal representations (mediator), which in turn affects the frequency and types of unsafe outputs (dependent variables). The falsifiable hypothesis states that linguistic and cultural factors significantly influence the frequency and types of unsafe outputs generated by LLMs in non-English queries, with expected variations across languages. Construct operationalization will involve a mixed-methods approach utilizing quantitative safety metrics (e.g., frequency of unsafe outputs) and qualitative analyses (e.g., categorization of unsafe content), with controls including existing benchmarks for comparative analysis. The expected contributions include advancing theoretical understanding of LLM safety mechanisms, introducing a comprehensive methodological framework through XSafety, and providing practical insights for enhancing LLM safety in multilingual applications. Key limitations include potential confounding variables affecting results, such as model architecture and training data quality, and the inability to generalize findings beyond the studied languages. Failure modes such as inadequate representation of linguistic diversity and misinterpretation of cultural nuances will be mitigated through targeted strategies, including expert consultations and broader language inclusion in the benchmark development.",
+  "draft_proposal": "This research proposal aims to investigate the multilingual safety of large language models (LLMs) by developing a novel multilingual safety benchmark (XSafety) that evaluates LLM performance across ten languages, particularly focusing on non-English queries. Existing literature highlights significant gaps in the safety of LLMs, especially their propensity to generate unsafe outputs in diverse linguistic contexts, thereby underscoring the need for interpretability in understanding these mechanisms. The proposed study addresses this empirical gap by formulating the research question: How do linguistic and cultural factors influence the frequency and types of unsafe outputs generated by LLMs in non-English queries compared to existing safety benchmarks? The theoretical mechanism posits that linguistic and cultural contexts (independent variables) moderate the interpretability of internal representations (mediator), which in turn affects the frequency and types of unsafe outputs (dependent variables). The falsifiable hypothesis states that linguistic and cultural factors significantly influence the frequency and types of unsafe outputs generated by LLMs in non-English queries. Construct operationalization will involve a mixed-methods approach utilizing quantitative safety metrics and qualitative analyses, with controls including existing safety benchmarks for comparative analysis. The expected contributions include advancing theoretical understanding of LLM safety mechanisms, introducing a comprehensive methodological framework through XSafety, and providing practical insights for enhancing LLM safety in multilingual applications. Key limitations include potential confounding variables affecting results and the inability to generalize findings beyond the studied languages, alongside failure modes such as inadequate representation of linguistic diversity and cultural nuances, which will be mitigated through targeted strategies.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap in multilingual safety is valid as it highlights a significant issue in LLMs, but it could benefit from more specific examples of how existing research falls short.",
+      "literature_grounding": "The grounding in literature is adequate, yet it lacks a detailed comparison of existing frameworks and their limitations in addressing the gap.",
+      "meaningfulness": "The gap is meaningful as it addresses real-world implications of LLM safety across languages, but it could be more focused on specific safety issues.",
+      "already_solved_risk": "There is a risk that some aspects of the gap may have been addressed in existing studies, particularly in the context of multilingual safety assessments."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior work but does not critically compare methodologies or findings, missing an opportunity to highlight unresolved issues.",
+      "unresolved_tensions": "It fails to identify specific tensions in the literature, such as discrepancies in safety outcomes across languages.",
+      "positioning_quality": "The positioning is weak as it reads more like a summary rather than a critical analysis that situates the proposed research within the existing body of work."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is somewhat specific but could be enhanced by detailing the specific languages and safety issues to be examined.",
+      "population_or_task_definition": "The definition of the population (non-English queries) is clear, but the task could be better defined in terms of the types of LLMs used.",
+      "intervention_and_comparison_definition": "The intervention (XSafety benchmark) is defined, but the control group needs clearer delineation regarding existing benchmarks.",
+      "outcome_definition": "The outcomes are defined but could benefit from more precise metrics for evaluating interpretability and safety."
+    },
+    "question_stage": {
+      "researchability": "The research question is generally researchable but may be too broad and could be refined for clarity.",
+      "scope_appropriateness": "The scope is appropriate, yet it could be narrowed to focus on specific linguistic or cultural factors.",
+      "variable_clarity": "The clarity of variables is moderate; however, the constructs of 'linguistic factors' and 'cultural factors' need more explicit definitions."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The proposed mechanism is somewhat clear but lacks depth in explaining why these factors influence LLM outputs.",
+      "theoretical_framing": "The theoretical framing could be strengthened by integrating more established theories from computational linguistics and cultural psychology.",
+      "assumption_transparency": "Assumptions are stated but require more elaboration on how they will be empirically validated."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it should specify the expected direction of influence for clarity.",
+      "mechanism_grounding": "The grounding in mechanisms is weak; it needs to connect more explicitly to the proposed theoretical framework.",
+      "measurable_outcome": "Measurable outcomes are mentioned but require more detail on how they will be quantified."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Most constructs have measurement instruments, but some lack clarity on how they will be applied in practice.",
+      "causal_identification": "The causal pathway is outlined, but the connections between constructs need more explicit detailing.",
+      "confound_awareness": "There is some awareness of confounds, but more specific strategies for controlling them should be included.",
+      "claim_boundaries": "Claim boundaries are mentioned but could be more clearly articulated to avoid overgeneralization."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline is appropriate, but more justification is needed for the choice of existing benchmarks.",
+      "metric_validity": "Metric validity is not sufficiently addressed; specific metrics for safety evaluation should be defined.",
+      "statistical_or_evaluation_validity": "Statistical validity is not discussed; the proposal should outline the statistical methods to be used.",
+      "reproducibility": "Reproducibility is a concern; the methodology should include detailed protocols for data collection and analysis.",
+      "confound_control": "Confound control strategies are mentioned but lack specificity; more detailed plans are needed.",
+      "risk_analysis": "Risk analysis is present but should include a more comprehensive assessment of potential methodological pitfalls."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical novelty is stated but lacks specific examples of how it differs from existing frameworks.",
+      "methodological_novelty": "Methodological novelty is present in the XSafety benchmark, but it needs more detail on its unique aspects.",
+      "practical_novelty": "Practical implications are mentioned but require concrete examples of how findings will be applied in real-world scenarios.",
+      "derivativeness_risk": "There is a risk of derivative work; the proposal should emphasize unique contributions to the field."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the analysis could be more in-depth regarding their potential impact on results.",
+      "limitation_depth": "Limitations are acknowledged but should be discussed in more detail to demonstrate awareness of study constraints.",
+      "risk_mitigation": "Mitigation strategies are mentioned but require more specificity and actionable steps for implementation."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contributions are outlined but lack specificity regarding how they will advance the field.",
+      "novelty_type": "The novelty type is primarily methodological, but it could benefit from clearer theoretical contributions.",
+      "coherence": "The proposal is coherent but could be better structured to enhance the flow of ideas.",
+      "limitation_awareness": "Awareness of limitations is present but should be more explicitly tied to the proposed research design.",
+      "academic_communication": "Academic communication is generally clear, but some jargon could be simplified for broader accessibility."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads to the question, but the connection could be more explicitly articulated.",
+      "question_to_hypothesis": "The question leads to the hypothesis, but the link could be strengthened by clarifying expected outcomes.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but the methodology needs to ensure it can adequately address the hypothesis.",
+      "method_to_evaluation": "The method is designed to evaluate the question, but specific evaluation criteria need to be more clearly defined."
+    },
+    "revision_plan": "Revise the gap stage to provide more specific examples of existing research shortcomings. Strengthen the scholarly positioning by critically comparing prior work and identifying unresolved tensions. Clarify the research question and hypothesis to ensure they are tightly aligned with the proposed methodology and outcomes."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 3,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 71.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal presents a clear research problem focusing on multilingual safety in LLMs, with a specific research question. However, the operational definitions of key concepts such as 'safety' and 'interpretability' could be more precise. Major weaknesses: Vague definitions of safety issues and how they will be assessed across languages. The framing lacks a deeper theoretical grounding in existing literature on safety mechanisms. Next band requirements: To move into the next band, the proposal needs clearer operational definitions of key constructs and a more robust theoretical framework that connects the research question to existing literature."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal shows some logical flow from problem to hypothesis, but there are gaps in the justification of causal claims, particularly regarding the influence of linguistic and cultural factors. Major weaknesses: Assumptions about the causal pathway between linguistic factors and unsafe outputs are not sufficiently supported by empirical evidence or literature. Next band requirements: To improve, the proposal should provide stronger empirical justification for the causal relationships and ensure that all components are logically connected."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 15.0,
+        "level": "15-17: clear novelty with meaningful research differentiation",
+        "justification": "The proposal introduces a novel multilingual safety benchmark (XSafety) and integrates cultural psychology with computational linguistics, which is a meaningful contribution to the field. Major weaknesses: While the novelty is clear, the proposal could benefit from a more detailed explanation of how it extends existing frameworks beyond just combining techniques. Next band requirements: To reach a higher score, the proposal should articulate how the new framework fundamentally changes the understanding of safety in LLMs rather than just providing an incremental improvement."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The proposed methodology is generally sound, but lacks detailed plans for controlling confounding variables and ensuring reproducibility. Major weaknesses: Insufficient detail on how the evaluation metrics will be validated and how confounding factors will be controlled in the analysis. Next band requirements: To improve, the proposal should include a more comprehensive experimental design that addresses potential confounds and provides clear metrics for evaluation."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but lacks depth in critically engaging with existing studies and identifying specific gaps. Major weaknesses: The literature review is somewhat superficial and does not sufficiently position the proposed research within broader debates or identify unresolved tensions. Next band requirements: To advance, the proposal should provide a more thorough synthesis of the literature and articulate how the research addresses specific gaps or contradictions."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication but lacks depth in discussing mechanisms and limitations. Major weaknesses: Limited discussion of the theoretical mechanisms and potential limitations of the proposed research, which undermines its academic depth. Next band requirements: To reach a higher score, the proposal should delve deeper into the theoretical implications of the research and discuss potential limitations and failure modes in detail."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-written and organized, but some sections could benefit from greater clarity and conciseness. Major weaknesses: Occasional imprecision in terminology and some redundancy in explanations. Next band requirements: To improve, the proposal should refine its language for clarity and eliminate repetitive content."
+      }
+    ],
+    "comments": "Total score: 71.0/100. Academic level: Master's-level. Major strengths: Clear identification of a significant research gap in multilingual safety of LLMs.; Innovative methodological approach with the development of the XSafety benchmark. Major weaknesses: Insufficient operational definitions of key concepts.; Weak justification for causal claims and potential confounding factors. Required improvements for true PhD-level quality: Enhance the theoretical framework and operational definitions.; Strengthen the empirical justification for causal relationships.; Provide a more comprehensive literature review and critical engagement with existing research. Final verdict: The proposal demonstrates potential but lacks the depth and rigor expected of genuine PhD-level research maturity."
+  },
+  "baseline": null,
+  "group_selection": {
+    "gap": {
+      "candidates": [
+        {
+          "id": "gap_1",
+          "text": "Investigate the underlying mechanisms that lead to unsafe outputs in multilingual contexts by developing a framework that analyzes the linguistic and cultural factors influencing LLM safety.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 5,
+            "novelty": 4,
+            "feasibility": 4
+          },
+          "total": 17,
+          "reason": "This candidate is well-grounded in existing literature, addressing a specific gap in understanding multilingual safety mechanisms.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.727,
+          "literature_similarity": 0.6885,
+          "embedding_alignment": 0.7077,
+          "combined_total": 20.538
+        },
+        {
+          "id": "gap_2",
+          "text": "Create a comprehensive evaluation framework for assessing the safety of LLMs in few-shot recommender systems, focusing on the ethical implications and interpretability of their outputs.",
+          "supporting_paper_ids": [
+            "P4"
+          ],
+          "scores": {
+            "specificity": 3,
+            "literature_grounding": 3,
+            "novelty": 5,
+            "feasibility": 4
+          },
+          "total": 15,
+          "reason": "While novel and relevant, this candidate is less specific and grounded in existing literature compared to gap_1.",
+          "llm_total": 15.0,
+          "anchor_similarity": 0.6946,
+          "literature_similarity": 0.5704,
+          "embedding_alignment": 0.6325,
+          "combined_total": 18.163
+        },
+        {
+          "id": "gap_3",
+          "text": "Explore the integration of explainable AI techniques in LLMs to enhance interpretability and safety in sensitive applications across various languages.",
+          "supporting_paper_ids": [
+            "P5"
+          ],
+          "scores": {
+            "specificity": 2,
+            "literature_grounding": 4,
+            "novelty": 3,
+            "feasibility": 4
+          },
+          "total": 13,
+          "reason": "This candidate is less specific and does not directly address the multilingual safety gap as effectively as gap_1.",
+          "llm_total": 13.0,
+          "anchor_similarity": 0.7147,
+          "literature_similarity": 0.5651,
+          "embedding_alignment": 0.6399,
+          "combined_total": 16.2
+        }
+      ],
+      "selected_id": "gap_1",
+      "selected_text": "Investigate the underlying mechanisms that lead to unsafe outputs in multilingual contexts by developing a framework that analyzes the linguistic and cultural factors influencing LLM safety.",
+      "criteria": [
+        "specificity",
+        "literature_grounding",
+        "novelty",
+        "feasibility"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "hypothesis": {
+      "candidates": [
+        {
+          "id": "hypothesis_1",
+          "text": "Linguistic and cultural factors significantly influence the frequency and types of unsafe outputs generated by large language models in non-English queries, as evidenced by the performance variations across different languages.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 5,
+            "clarity": 4,
+            "methodological_implication": 5
+          },
+          "total": 18,
+          "reason": "This hypothesis is well-aligned with the identified gap and is clear, with strong methodological implications for evaluating multilingual safety.",
+          "llm_total": 18.0,
+          "anchor_similarity": 0.6788,
+          "literature_similarity": 0.6581,
+          "embedding_alignment": 0.6685,
+          "combined_total": 21.343
+        },
+        {
+          "id": "hypothesis_2",
+          "text": "The interpretability of internal representations in large language models mediates the impact of linguistic and cultural contexts on the safety of outputs, suggesting that enhanced interpretability can lead to safer responses across languages.",
+          "supporting_paper_ids": [
+            "P3",
+            "P5"
+          ],
+          "scores": {
+            "testability": 3,
+            "alignment_with_gap": 4,
+            "clarity": 5,
+            "methodological_implication": 4
+          },
+          "total": 16,
+          "reason": "This hypothesis offers a clear connection between interpretability and safety but is slightly less testable than the first candidate.",
+          "llm_total": 16.0,
+          "anchor_similarity": 0.6634,
+          "literature_similarity": 0.6089,
+          "embedding_alignment": 0.6362,
+          "combined_total": 19.181
+        },
+        {
+          "id": "hypothesis_3",
+          "text": "Existing safety benchmarks inadequately address the nuances of multilingual contexts, leading to an underestimation of the risks associated with non-English queries in large language models.",
+          "supporting_paper_ids": [
+            "P1"
+          ],
+          "scores": {
+            "testability": 2,
+            "alignment_with_gap": 5,
+            "clarity": 4,
+            "methodological_implication": 3
+          },
+          "total": 14,
+          "reason": "While this hypothesis aligns well with the gap, its testability is limited due to the focus on existing benchmarks rather than new interventions.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.6978,
+          "literature_similarity": 0.7425,
+          "embedding_alignment": 0.7201,
+          "combined_total": 17.601
+        }
+      ],
+      "selected_id": "hypothesis_1",
+      "selected_text": "Linguistic and cultural factors significantly influence the frequency and types of unsafe outputs generated by large language models in non-English queries, as evidenced by the performance variations across different languages.",
+      "criteria": [
+        "testability",
+        "alignment_with_gap",
+        "clarity",
+        "methodological_implication"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "methodology": {
+      "candidates": [
+        {
+          "id": "methodology_1",
+          "text": "Develop a multilingual safety benchmark (XSafety) that evaluates large language models (LLMs) across ten languages, focusing on non-English queries. The benchmark will assess 14 safety issues, utilizing a mixed-methods approach combining quantitative safety metrics and qualitative analysis of unsafe outputs. Data will be collected over six months, with a control group consisting of existing benchmarks for comparative analysis.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 5,
+            "evaluation_metrics": 4,
+            "scope_control": 5,
+            "alignment_with_hypothesis": 5
+          },
+          "total": 23,
+          "reason": "This methodology is comprehensive and directly addresses the research question, with strong alignment to the hypothesis and robust evaluation metrics.",
+          "llm_total": 23.0,
+          "anchor_similarity": 0.7214,
+          "literature_similarity": 0.87,
+          "embedding_alignment": 0.7957,
+          "combined_total": 26.979
+        },
+        {
+          "id": "methodology_2",
+          "text": "Implement a qualitative study to analyze the interpretability of internal representations in LLMs when processing non-English queries. This will involve user interviews and expert evaluations to gather insights on perceived safety and controllability. The study will focus on a smaller set of languages to allow for in-depth analysis.",
+          "supporting_paper_ids": [
+            "P5"
+          ],
+          "scores": {
+            "feasibility": 3,
+            "baseline_design": 3,
+            "evaluation_metrics": 3,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 4
+          },
+          "total": 17,
+          "reason": "While this approach provides valuable qualitative insights, it lacks the quantitative rigor and broader scope of the first methodology.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.6338,
+          "literature_similarity": 0.6083,
+          "embedding_alignment": 0.621,
+          "combined_total": 20.105
+        },
+        {
+          "id": "methodology_3",
+          "text": "Conduct an empirical study comparing the safety outputs of LLMs using a single language (e.g., English) against multilingual outputs. This will involve a controlled experiment where the same prompts are tested across languages to identify variations in unsafe outputs, focusing on a limited number of safety issues.",
+          "supporting_paper_ids": [
+            "P1"
+          ],
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 4,
+            "evaluation_metrics": 3,
+            "scope_control": 3,
+            "alignment_with_hypothesis": 3
+          },
+          "total": 17,
+          "reason": "This methodology is feasible but lacks the comprehensive scope and depth of the first candidate, limiting its potential impact.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.6974,
+          "literature_similarity": 0.7557,
+          "embedding_alignment": 0.7265,
+          "combined_total": 20.633
+        }
+      ],
+      "selected_id": "methodology_1",
+      "selected_text": "Develop a multilingual safety benchmark (XSafety) that evaluates large language models (LLMs) across ten languages, focusing on non-English queries. The benchmark will assess 14 safety issues, utilizing a mixed-methods approach combining quantitative safety metrics and qualitative analysis of unsafe outputs. Data will be collected over six months, with a control group consisting of existing benchmarks for comparative analysis.",
+      "criteria": [
+        "feasibility",
+        "baseline_design",
+        "evaluation_metrics",
+        "scope_control",
+        "alignment_with_hypothesis"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    }
+  },
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 1,
+        "title": "All Languages Matter: On the Multilingual Safety of Large Language Models",
+        "similarity": 0.5865
+      },
+      {
+        "original_index": 4,
+        "title": "Safety Assessment of Chinese Large Language Models",
+        "similarity": 0.5841
+      },
+      {
+        "original_index": 2,
+        "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
+        "similarity": 0.5538
+      },
+      {
+        "original_index": 5,
+        "title": "Empowering Few-Shot Recommender Systems With Large Language Models-Enhanced Representations",
+        "similarity": 0.5429
+      },
+      {
+        "original_index": 3,
+        "title": "Enhanced Diagnostic and Interpretable Model for Febrile Diseases Using Explainable AI and Large Language Model",
+        "similarity": 0.3899
+      }
+    ],
+    "group_selection": {
+      "gap": {
+        "candidates": [
+          {
+            "id": "gap_1",
+            "text": "Investigate the underlying mechanisms that lead to unsafe outputs in multilingual contexts by developing a framework that analyzes the linguistic and cultural factors influencing LLM safety.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "specificity": 4,
+              "literature_grounding": 5,
+              "novelty": 4,
+              "feasibility": 4
+            },
+            "total": 17,
+            "reason": "This candidate is well-grounded in existing literature, addressing a specific gap in understanding multilingual safety mechanisms.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.727,
+            "literature_similarity": 0.6885,
+            "embedding_alignment": 0.7077,
+            "combined_total": 20.538
+          },
+          {
+            "id": "gap_2",
+            "text": "Create a comprehensive evaluation framework for assessing the safety of LLMs in few-shot recommender systems, focusing on the ethical implications and interpretability of their outputs.",
+            "supporting_paper_ids": [
+              "P4"
+            ],
+            "scores": {
+              "specificity": 3,
+              "literature_grounding": 3,
+              "novelty": 5,
+              "feasibility": 4
+            },
+            "total": 15,
+            "reason": "While novel and relevant, this candidate is less specific and grounded in existing literature compared to gap_1.",
+            "llm_total": 15.0,
+            "anchor_similarity": 0.6946,
+            "literature_similarity": 0.5704,
+            "embedding_alignment": 0.6325,
+            "combined_total": 18.163
+          },
+          {
+            "id": "gap_3",
+            "text": "Explore the integration of explainable AI techniques in LLMs to enhance interpretability and safety in sensitive applications across various languages.",
+            "supporting_paper_ids": [
+              "P5"
+            ],
+            "scores": {
+              "specificity": 2,
+              "literature_grounding": 4,
+              "novelty": 3,
+              "feasibility": 4
+            },
+            "total": 13,
+            "reason": "This candidate is less specific and does not directly address the multilingual safety gap as effectively as gap_1.",
+            "llm_total": 13.0,
+            "anchor_similarity": 0.7147,
+            "literature_similarity": 0.5651,
+            "embedding_alignment": 0.6399,
+            "combined_total": 16.2
+          }
+        ],
+        "selected_id": "gap_1",
+        "selected_text": "Investigate the underlying mechanisms that lead to unsafe outputs in multilingual contexts by developing a framework that analyzes the linguistic and cultural factors influencing LLM safety.",
+        "criteria": [
+          "specificity",
+          "literature_grounding",
+          "novelty",
+          "feasibility"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "hypothesis": {
+        "candidates": [
+          {
+            "id": "hypothesis_1",
+            "text": "Linguistic and cultural factors significantly influence the frequency and types of unsafe outputs generated by large language models in non-English queries, as evidenced by the performance variations across different languages.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "testability": 4,
+              "alignment_with_gap": 5,
+              "clarity": 4,
+              "methodological_implication": 5
+            },
+            "total": 18,
+            "reason": "This hypothesis is well-aligned with the identified gap and is clear, with strong methodological implications for evaluating multilingual safety.",
+            "llm_total": 18.0,
+            "anchor_similarity": 0.6788,
+            "literature_similarity": 0.6581,
+            "embedding_alignment": 0.6685,
+            "combined_total": 21.343
+          },
+          {
+            "id": "hypothesis_2",
+            "text": "The interpretability of internal representations in large language models mediates the impact of linguistic and cultural contexts on the safety of outputs, suggesting that enhanced interpretability can lead to safer responses across languages.",
+            "supporting_paper_ids": [
+              "P3",
+              "P5"
+            ],
+            "scores": {
+              "testability": 3,
+              "alignment_with_gap": 4,
+              "clarity": 5,
+              "methodological_implication": 4
+            },
+            "total": 16,
+            "reason": "This hypothesis offers a clear connection between interpretability and safety but is slightly less testable than the first candidate.",
+            "llm_total": 16.0,
+            "anchor_similarity": 0.6634,
+            "literature_similarity": 0.6089,
+            "embedding_alignment": 0.6362,
+            "combined_total": 19.181
+          },
+          {
+            "id": "hypothesis_3",
+            "text": "Existing safety benchmarks inadequately address the nuances of multilingual contexts, leading to an underestimation of the risks associated with non-English queries in large language models.",
+            "supporting_paper_ids": [
+              "P1"
+            ],
+            "scores": {
+              "testability": 2,
+              "alignment_with_gap": 5,
+              "clarity": 4,
+              "methodological_implication": 3
+            },
+            "total": 14,
+            "reason": "While this hypothesis aligns well with the gap, its testability is limited due to the focus on existing benchmarks rather than new interventions.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.6978,
+            "literature_similarity": 0.7425,
+            "embedding_alignment": 0.7201,
+            "combined_total": 17.601
+          }
+        ],
+        "selected_id": "hypothesis_1",
+        "selected_text": "Linguistic and cultural factors significantly influence the frequency and types of unsafe outputs generated by large language models in non-English queries, as evidenced by the performance variations across different languages.",
+        "criteria": [
+          "testability",
+          "alignment_with_gap",
+          "clarity",
+          "methodological_implication"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "methodology": {
+        "candidates": [
+          {
+            "id": "methodology_1",
+            "text": "Develop a multilingual safety benchmark (XSafety) that evaluates large language models (LLMs) across ten languages, focusing on non-English queries. The benchmark will assess 14 safety issues, utilizing a mixed-methods approach combining quantitative safety metrics and qualitative analysis of unsafe outputs. Data will be collected over six months, with a control group consisting of existing benchmarks for comparative analysis.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "feasibility": 4,
+              "baseline_design": 5,
+              "evaluation_metrics": 4,
+              "scope_control": 5,
+              "alignment_with_hypothesis": 5
+            },
+            "total": 23,
+            "reason": "This methodology is comprehensive and directly addresses the research question, with strong alignment to the hypothesis and robust evaluation metrics.",
+            "llm_total": 23.0,
+            "anchor_similarity": 0.7214,
+            "literature_similarity": 0.87,
+            "embedding_alignment": 0.7957,
+            "combined_total": 26.979
+          },
+          {
+            "id": "methodology_2",
+            "text": "Implement a qualitative study to analyze the interpretability of internal representations in LLMs when processing non-English queries. This will involve user interviews and expert evaluations to gather insights on perceived safety and controllability. The study will focus on a smaller set of languages to allow for in-depth analysis.",
+            "supporting_paper_ids": [
+              "P5"
+            ],
+            "scores": {
+              "feasibility": 3,
+              "baseline_design": 3,
+              "evaluation_metrics": 3,
+              "scope_control": 4,
+              "alignment_with_hypothesis": 4
+            },
+            "total": 17,
+            "reason": "While this approach provides valuable qualitative insights, it lacks the quantitative rigor and broader scope of the first methodology.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.6338,
+            "literature_similarity": 0.6083,
+            "embedding_alignment": 0.621,
+            "combined_total": 20.105
+          },
+          {
+            "id": "methodology_3",
+            "text": "Conduct an empirical study comparing the safety outputs of LLMs using a single language (e.g., English) against multilingual outputs. This will involve a controlled experiment where the same prompts are tested across languages to identify variations in unsafe outputs, focusing on a limited number of safety issues.",
+            "supporting_paper_ids": [
+              "P1"
+            ],
+            "scores": {
+              "feasibility": 4,
+              "baseline_design": 4,
+              "evaluation_metrics": 3,
+              "scope_control": 3,
+              "alignment_with_hypothesis": 3
+            },
+            "total": 17,
+            "reason": "This methodology is feasible but lacks the comprehensive scope and depth of the first candidate, limiting its potential impact.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.6974,
+            "literature_similarity": 0.7557,
+            "embedding_alignment": 0.7265,
+            "combined_total": 20.633
+          }
+        ],
+        "selected_id": "methodology_1",
+        "selected_text": "Develop a multilingual safety benchmark (XSafety) that evaluates large language models (LLMs) across ten languages, focusing on non-English queries. The benchmark will assess 14 safety issues, utilizing a mixed-methods approach combining quantitative safety metrics and qualitative analysis of unsafe outputs. Data will be collected over six months, with a control group consisting of existing benchmarks for comparative analysis.",
+        "criteria": [
+          "feasibility",
+          "baseline_design",
+          "evaluation_metrics",
+          "scope_control",
+          "alignment_with_hypothesis"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      }
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_group_selection",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Interpretable Internal Representations for Enhanced Safety and Controllability in Large Language Models",
+    "retrieval_snapshot_id": "20260523T222710Z-interpretable-internal-representations-for-enhanced-safety-and-controllability-i-5",
+    "latency_ms": 119664,
+    "prompt_tokens": 35686,
+    "completion_tokens": 7746,
+    "total_tokens": 43432,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

@@ -1,0 +1,166 @@
+Task: Critique the proposal draft as a stage-aware diagnosis of PhD-level research reasoning.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Summary:
+{summary}
+
+Gap:
+{gap}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Question:
+{question}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Operationalization and causal check:
+{operationalization_causal_check}
+
+Methodology:
+{methodology}
+
+Novelty and contribution:
+{novelty_contribution}
+
+Failure analysis:
+{failure_analysis}
+
+Draft proposal:
+{proposal}
+
+Focus on whether the whole reasoning chain is research-quality, not merely well written.
+Diagnose concrete weaknesses in each stage:
+- Gap stage: gap validity, literature grounding, whether the gap is meaningful rather than generic future work, and risk that retrieved work already solves it.
+- Scholarly positioning stage: whether the proposal critically compares prior approaches and identifies unresolved tensions rather than simply summarizing papers.
+- Domain routing stage: whether the methodology family matches the research domain and avoids inappropriate template transfer.
+- Research scope stage: whether population/task, condition/domain, intervention/system, duration/evaluation period, control/baseline, and outcomes are concrete enough for a PhD-level empirical study.
+- Concept definition stage: whether abstract technical terms such as internal representation, interpretability, safety, trust, controllability, or fairness are operationally defined.
+- Technical feasibility stage: whether required model access, hidden states, datasets, GPU resources, human participants, ethics approval, multilingual validation, and annotation protocols are realistic.
+- Research question stage: researchability, scope appropriateness, variable or construct clarity, and whether the question can guide an empirical study.
+- Theoretical mechanism stage: whether the mechanism explains why the effect should occur, with IV, mediator, moderator, DV, theory, explicit assumptions, and separated system-level/user-level pathways where applicable.
+- Hypothesis stage: falsifiability, causal or mechanism-level grounding, measurable outcomes, and alignment with the research question.
+- Operationalization and causal stage: whether every construct has a measurement instrument or behavioural log, metrics match the level of analysis, causal pathway, confounds, mediators/moderators, and limits of causal claims.
+- Methodology stage: baseline/control appropriateness, metric validity, statistical or evaluation validity, reproducibility, confound control, and risk or failure-mode awareness.
+- Novelty stage: whether theoretical, methodological, and practical contributions are specific and more than simply applying AI to a domain.
+- Failure analysis stage: validity threats, ethical/safety risks, negative-result interpretation, and mitigation.
+- Proposal stage: contribution clarity, type of novelty, coherence, limitation awareness, and academic communication.
+- Cross-stage alignment: whether the gap leads to the question, the question leads to the hypothesis, the hypothesis is testable by the method, and the evaluation can answer the question.
+
+Be specific and actionable. If a stage is strong, say why briefly; if it is weak, explain the failure mode and what should be revised.
+
+Return JSON with exactly this key:
+{{
+  "critique": {{
+    "gap_stage": {{
+      "gap_validity": "...",
+      "literature_grounding": "...",
+      "meaningfulness": "...",
+      "already_solved_risk": "..."
+    }},
+    "scholarly_positioning_stage": {{
+      "comparative_synthesis": "...",
+      "unresolved_tensions": "...",
+      "positioning_quality": "..."
+    }},
+    "domain_routing_stage": {{
+      "domain_fit": "...",
+      "methodology_template_fit": "...",
+      "template_transfer_risk": "..."
+    }},
+    "research_scope_stage": {{
+      "scope_specificity": "...",
+      "population_or_task_definition": "...",
+      "intervention_and_comparison_definition": "...",
+      "outcome_definition": "..."
+    }},
+    "concept_definition_stage": {{
+      "technical_term_clarity": "...",
+      "implementation_specificity": "...",
+      "level_of_analysis_clarity": "..."
+    }},
+    "technical_feasibility_stage": {{
+      "model_access": "...",
+      "data_and_compute_requirements": "...",
+      "human_or_multilingual_resources": "...",
+      "feasible_adjustments": "..."
+    }},
+    "question_stage": {{
+      "researchability": "...",
+      "scope_appropriateness": "...",
+      "variable_clarity": "..."
+    }},
+    "theoretical_mechanism_stage": {{
+      "mechanism_quality": "...",
+      "theoretical_framing": "...",
+      "assumption_transparency": "..."
+    }},
+    "hypothesis_stage": {{
+      "falsifiability": "...",
+      "mechanism_grounding": "...",
+      "measurable_outcome": "..."
+    }},
+    "operationalization_causal_stage": {{
+      "construct_operationalization": "...",
+      "metric_level_alignment": "...",
+      "causal_identification": "...",
+      "confound_awareness": "...",
+      "claim_boundaries": "..."
+    }},
+    "methodology_stage": {{
+      "baseline_validity": "...",
+      "metric_validity": "...",
+      "statistical_or_evaluation_validity": "...",
+      "reproducibility": "...",
+      "confound_control": "...",
+      "risk_analysis": "..."
+    }},
+    "novelty_stage": {{
+      "theoretical_novelty": "...",
+      "methodological_novelty": "...",
+      "practical_novelty": "...",
+      "derivativeness_risk": "..."
+    }},
+    "failure_analysis_stage": {{
+      "failure_modes": "...",
+      "limitation_depth": "...",
+      "risk_mitigation": "..."
+    }},
+    "proposal_stage": {{
+      "contribution_clarity": "...",
+      "novelty_type": "application/methodological/theoretical/experimental/integration/unclear",
+      "coherence": "...",
+      "limitation_awareness": "...",
+      "academic_communication": "..."
+    }},
+    "cross_stage_alignment": {{
+      "gap_to_question": "...",
+      "question_to_hypothesis": "...",
+      "hypothesis_to_method": "...",
+      "method_to_evaluation": "..."
+    }},
+    "revision_plan": "Concrete revision instructions in 3-5 sentences, prioritized by research reasoning impact."
+  }}
+}}

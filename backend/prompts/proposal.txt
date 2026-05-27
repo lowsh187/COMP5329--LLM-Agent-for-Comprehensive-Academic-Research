@@ -1,4 +1,4 @@
-Task: Draft a concise academic research proposal.
+Task: Draft a rigorous academic research proposal with PhD-style structure and feasible scope.
 
 Topic:
 {topic}
@@ -6,19 +6,52 @@ Topic:
 Literature summary:
 {summary}
 
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
 Research gap:
 {gap}
 
 Research question:
 {question}
 
+Theoretical mechanism:
+{theoretical_mechanism}
+
 Hypothesis:
 {hypothesis}
+
+Operationalization and causal check:
+{operationalization_causal_check}
 
 Methodology:
 {methodology}
 
+Failure analysis:
+{failure_analysis}
+
+Novelty and contribution:
+{novelty_contribution}
+
+Evidence grounding:
+Gap supporting paper ids: {supporting_paper_ids}
+Gap evidence reasoning: {evidence_reasoning}
+Methodology supporting paper ids: {methodology_supporting_paper_ids}
+Baseline reasoning: {baseline_reasoning}
+
 Return JSON with exactly this key:
 {{
-  "proposal": "A coherent proposal draft in one paragraph. Include background, gap, question, hypothesis, method, and expected contribution."
+  "proposal": "A coherent proposal draft in one paragraph. Include domain-appropriate study scope, core concept definitions, technical feasibility assumptions, background, scholarly positioning, literature-grounded empirical gap, research question, theoretical mechanism with separated system-level and user-level causal pathways where applicable, falsifiable hypothesis, construct operationalization with metrics matched to representation/output/user level, methodology with domain-appropriate controls or baselines and metrics, expected contribution, theoretical/technical/empirical/practical novelty against retrieved published work, and key limitations or failure modes."
 }}

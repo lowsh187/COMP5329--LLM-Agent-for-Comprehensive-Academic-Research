@@ -6,13 +6,28 @@ Topic:
 Literature summary:
 {summary}
 
+Domain and methodology routing:
+{domain_router}
+
 Research gap:
 {gap}
 
 Research question:
 {question}
 
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Research scope:
+{research_scope}
+
 Return JSON with exactly this key:
 {{
-  "hypothesis": "One specific and testable hypothesis."
+  "hypothesis": "A falsifiable hypothesis in 1-2 sentences. It must name the independent variable, comparison/control or baseline, mediator if central, primary dependent variable, and expected direction of effect."
 }}

@@ -1,0 +1,100 @@
+{
+  "topic": "the application of database in market management",
+  "condition": "main_comparison",
+  "retrieval_snapshot_id": "20260522T052031Z-the-application-of-database-in-market-management-5",
+  "papers": [
+    {
+      "title": "A survey on data and transaction management in mobile databases",
+      "authors": [
+        "D. Roselin Selvarani",
+        "T. N. Ravi"
+      ],
+      "abstract": "The popularity of the Mobile Database is increasing day by day as people need information even on the move in the fast changing world. This database technology permits employees using mobile devices to connect to their corporate networks, hoard the needed data, work in the disconnected mode and reconnect to the network to synchronize with the corporate database. In this scenario, the data is being moved closer to the applications in order to improve the performance and autonomy. This leads to many interesting problems in mobile database research and Mobile Database has become a fertile land for many researchers. In this paper a survey is presented on data and Transaction management in Mobile Databases from the year 2000 onwards. The survey focuses on the complete study on the various types of Architectures used in Mobile databases and Mobile Transaction Models. It also addresses the data management issues namely Replication and Caching strategies and the transaction management functionalities such as Concurrency Control and Commit protocols, Synchronization, Query Processing, Recovery and Security. It also provides Research Directions in Mobile databases.",
+      "published": "2012-11-23",
+      "url": "http://arxiv.org/abs/1211.5418v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "LLM-based policy generation for intent-based management of applications",
+      "authors": [
+        "Kristina Dzeparoska",
+        "Jieyu Lin",
+        "Ali Tizghadam",
+        "Alberto Leon-Garcia"
+      ],
+      "abstract": "Automated management requires decomposing high-level user requests, such as intents, to an abstraction that the system can understand and execute. This is challenging because even a simple intent requires performing a number of ordered steps. And the task of identifying and adapting these steps (as conditions change) requires a decomposition approach that cannot be exactly pre-defined beforehand. To tackle these challenges and support automated intent decomposition and execution, we explore the few-shot capability of Large Language Models (LLMs). We propose a pipeline that progressively decomposes intents by generating the required actions using a policy-based abstraction. This allows us to automate the policy execution by creating a closed control loop for the intent deployment. To do so, we generate and map the policies to APIs and form application management loops that perform the necessary monitoring, analysis, planning and execution. We evaluate our proposal with a use-case to fulfill and assure an application service chain of virtual network functions. Using our approach, we can generalize and generate the necessary steps to realize intents, thereby enabling intent automation for application management.",
+      "published": "2024-01-22",
+      "url": "http://arxiv.org/abs/2402.10067v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Modelling and Simulation, Mobile Solutions and Cloud Computing: A Solution for Intelligent Management of a Small and Medium-Sized Baking Business",
+      "authors": [
+        "Hugo de Souza Ribeiro"
+      ],
+      "abstract": "The sale of products during the pandemic by COVID-19 was severely affected. Several small businesses and industries have reduced their productivity or even closed down. As a result, companies that still survive this complicated period must rely on intelligent (but accessible) resources to guide their survival on the market. The purpose of this paper is to demonstrate an integrated and affordable tool, based on technologies such as mobile applications, Cloud Computing and discrete event simulation to guide small manufacturers in the bakery sector. The solution has a robust mobile application to control the inventory, sales and product prices (with customer records, prices and reports control). Its database is managed via cloud computing. However, the great contribution is the connection of this solution with a simulator based on Stochastic Timed Petri Nets, which is integrated with the mobile application through the cloud commuting. This tool manages to model and simulate each type of product, with its time and resources spent during the manufacturing process, with production hierarchy according to the production priority that the manufacturer requests. Its focus is the intelligent management and identification of bottlenecks and evaluation of production scenarios. In a practical application in a small real industry, in the middle of a pandemic period, it was possible to make optimizations that still keep the enterprise open, such as evaluations of equipment purchases, reassessment of processes (which yielded a 9% increase in productivity without any financial investment and just maintenance of some work positions) and readjustment of material purchases.",
+      "published": "2021-03-11",
+      "url": "https://www.semanticscholar.org/paper/84530f5598733e2c01a7a3aa1b4af6c2f6994da6",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Managing dynamic medical data in a distributed mode",
+      "authors": [
+        "Bingyi Hu",
+        "J. Bai",
+        "D. Ye"
+      ],
+      "abstract": "Abstract was not available from Semantic Scholar.",
+      "published": "1998-10-29",
+      "url": "https://www.semanticscholar.org/paper/fcc04b8014504e912167d3dd6809cfa174b17c68",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Application of Measurement and Testing Technology in Market Supervision",
+      "authors": [],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2022-3-5",
+      "url": "https://doi.org/10.47939/em.v3i3(01).28",
+      "source": "Crossref"
+    }
+  ],
+  "summary": "Existing literature related to the application of database in market management suggests active interest in applying LLMs to support academic or educational workflows, but reported outcomes depend on task design, evaluation criteria, and quality of retrieved evidence.",
+  "gap": "A key gap is the limited comparison between direct single-prompt generation and a structured, literature-augmented multi-stage workflow.",
+  "question": "How can a literature-augmented multi-stage LLM workflow improve the clarity, feasibility, and literature alignment of research proposals about the application of database in market management?",
+  "hypothesis": "A staged pipeline that separates literature summary, gap identification, question generation, methodology design, and evaluation will produce more coherent proposals than a single prompt.",
+  "methodology": "Build a lightweight prototype, retrieve a small set of arXiv papers, generate outputs through independent prompt templates, and compare the final proposal with a single-prompt baseline using a manual rubric and GPT-assisted self-evaluation.",
+  "proposal": "This project develops an LLM-based Academic Research Agent for the application of database in market management. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 5,
+    "literature_alignment": 3,
+    "comments": "Fallback evaluation indicates a clear and feasible proposal structure. Literature alignment should be reassessed after successful arXiv retrieval and real LLM generation."
+  },
+  "baseline": {
+    "proposal": "Single-prompt baseline fallback: generate the full research proposal directly from the topic without explicit literature summary, gap, question, hypothesis, and methodology stages.",
+    "evaluation": {
+      "clarity": 3,
+      "logic": 3,
+      "novelty": 3,
+      "feasibility": 4,
+      "literature_alignment": 2,
+      "comments": "Baseline fallback is usable for comparison but less literature-grounded."
+    }
+  },
+  "metrics": {
+    "condition": "main_comparison",
+    "model": "deepseek-v4-pro",
+    "temperature": 0.3,
+    "retrieval_snapshot_id": "20260522T052031Z-the-application-of-database-in-market-management-5",
+    "latency_ms": 1707,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0
+  }
+}
