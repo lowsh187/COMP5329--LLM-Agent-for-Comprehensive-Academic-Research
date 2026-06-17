@@ -6,6 +6,9 @@ Topic:
 Literature summary:
 {summary}
 
+Literature tension graph:
+{literature_tension_graph}
+
 Scholarly positioning:
 {scholarly_positioning}
 
@@ -27,6 +30,9 @@ Research gap:
 Research question:
 {question}
 
+Research problem validity check:
+{research_problem_validity_check}
+
 Theoretical mechanism:
 {theoretical_mechanism}
 
@@ -45,6 +51,18 @@ Failure analysis:
 Novelty and contribution:
 {novelty_contribution}
 
+Contribution type router:
+{contribution_type_router}
+
+PhD contribution design:
+{phd_contribution_design}
+
+Pre-proposal reviewer attack:
+{pre_proposal_critique}
+
+Research problem blueprint:
+{research_problem_blueprint}
+
 Evidence grounding:
 Gap supporting paper ids: {supporting_paper_ids}
 Gap evidence reasoning: {evidence_reasoning}
@@ -53,5 +71,5 @@ Baseline reasoning: {baseline_reasoning}
 
 Return JSON with exactly this key:
 {{
-  "proposal": "A coherent proposal draft in one paragraph. Include domain-appropriate study scope, core concept definitions, technical feasibility assumptions, background, scholarly positioning, literature-grounded empirical gap, research question, theoretical mechanism with separated system-level and user-level causal pathways where applicable, falsifiable hypothesis, construct operationalization with metrics matched to representation/output/user level, methodology with domain-appropriate controls or baselines and metrics, expected contribution, theoretical/technical/empirical/practical novelty against retrieved published work, and key limitations or failure modes."
+  "proposal": "A coherent proposal draft in one paragraph. The proposal must be controlled by the research problem blueprint, not merely inspired by it. Start from the blueprint's single_sentence_thesis and preserve its core_gap, literature_tension, phd_level_contribution, falsifiable_hypothesis, mechanism, strongest_baseline, negative_result_meaning, score_limiting_risk, minimum_evidence_required, proposal_must_include, and proposal_must_avoid constraints. The paragraph must naturally contain: the precise literature tension, the narrowed research problem, the mechanism-level explanation, the falsifiable hypothesis, the strongest baseline/control/ablation, the operationalized measurement plan, the PhD-level contribution, what a negative result would mean, and at least one explicit boundary that avoids the score_limiting_risk. Include only details that support this blueprint; do not add broad AI-for-X framing, extra contributions, or unsupported novelty claims."
 }}

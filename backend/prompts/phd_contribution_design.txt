@@ -1,0 +1,64 @@
+Task: Design the PhD-level contribution skeleton before drafting the final proposal.
+
+Topic:
+{topic}
+
+Retrieved papers and agent profile guidance:
+{papers_context}
+
+Summary:
+{summary}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Operationalization and causal check:
+{operationalization_causal_check}
+
+Methodology:
+{methodology}
+
+Novelty and contribution:
+{novelty_contribution}
+
+Contribution type router:
+{contribution_type_router}
+
+Design requirements:
+- State the core theoretical or methodological contribution in concrete terms, not as broad AI-for-X usefulness.
+- Follow the primary contribution type selected by the contribution type router and avoid mixing too many contribution claims.
+- Explain the mechanism-level claim: why the proposed approach should produce new scientific understanding.
+- Identify what existing literature cannot explain, measure, compare, or validate.
+- Define the falsifiable scientific claim and the strongest evidence that would support it.
+- Name the strongest baseline, control, or ablation logic that would challenge the claim.
+- Explain what a negative or null result would mean for the theory, method, or evaluation framework.
+- Keep the design feasible and aligned with the selected methodology.
+
+Return JSON with exactly this key:
+{{
+  "phd_contribution_design": "A concise PhD-level contribution skeleton in 5-8 sentences covering concrete contribution, mechanism-level claim, literature limitation, falsifiable claim, strongest baseline or ablation, evidence standard, and negative-result interpretation."
+}}

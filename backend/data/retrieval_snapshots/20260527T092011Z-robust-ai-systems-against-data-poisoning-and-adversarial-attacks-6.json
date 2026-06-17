@@ -1,0 +1,84 @@
+{
+  "snapshot_id": "20260527T092011Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-6",
+  "topic": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "max_papers": 6,
+  "retrieved_at": "20260527T092011Z",
+  "papers": [
+    {
+      "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+      "authors": [
+        "H. Kure",
+        "Pradipta Sarkar",
+        "A. Ndanusa",
+        "Augustine O. Nwajana"
+      ],
+      "abstract": "This paper investigates the critical issue of data poisoning attacks on AI models, a growing concern in the ever-evolving landscape of artificial intelligence and cybersecurity. As advanced technology systems become increasingly prevalent across various sectors, the need for robust defence mechanisms against adversarial attacks becomes paramount. The study aims to develop and evaluate novel techniques for detecting and preventing data poisoning attacks, focusing on both theoretical frameworks and practical applications. Through a comprehensive literature review, experimental validation using the CIFAR-10 and Insurance Claims datasets, and the development of innovative algorithms, this paper seeks to enhance the resilience of AI models against malicious data manipulation. The study explores various methods, including anomaly detection, robust optimization strategies, and ensemble learning, to identify and mitigate the effects of poisoned data during model training. Experimental results indicate that data poisoning significantly degrades model performance, reducing classification accuracy by up to 27 % in image recognition tasks (CIFAR-10) and 22 % in fraud detection models (Insurance Claims dataset). The proposed defence mechanisms, including statistical anomaly detection and adversarial training, successfully mitigated poisoning effects, improving model robustness and restoring accuracy levels by an average of $15-20 \\%$. The findings further demonstrate that ensemble learning techniques provide an additional layer of resilience, reducing false positives and false negatives caused by adversarial data injections. The findings of this paper contribute to the broader understanding of adversarial machine learning and provide actionable insights for practitioners in industries facing emerging threats to AI-based systems. By addressing the challenges of data poisoning attacks, this study aims to improve the security and reliability of AI models, ultimately fostering greater trust in AI technologies across critical applications.",
+      "published": "2025-03-12",
+      "url": "https://www.semanticscholar.org/paper/898e535ba4ebce0377abe00023e722c29d66fdd2",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "authors": [
+        "Xiaocui Dang",
+        "Priyadarsi Nanda",
+        "Heng Xu",
+        "Haiyu Deng",
+        "Chunpeng Ge"
+      ],
+      "abstract": "Deep learning-based recommendation systems are highly vulnerable to data poisoning attacks, where adversaries manipulate user interactions to degrade model integrity. We hypothesize that combining an active robust loss with a passive GAN-based detection will significantly reduce poisoning impact in recommendation systems without sacrificing utility. We propose a robust and adaptive dual-defense framework: the active defense integrates a crafted loss function to mitigate poisoning effects while maintaining model performance. The passive defense employs a Generative Adversarial Network (GAN)-based detection model to identify and filter poisoned data, enhancing detection accuracy and system security. The framework supports classical matrix factorization (MF) model and large language model (LLM)-based pipelines and scales to large datasets. Extensive experiments across multiple real-world datasets at varying poison rates show that our method outperforms representative defenses, consistently reducing attack success without sacrificing recommendation quality. The framework also admits a federated instantiation, where robust training and GAN-based detection run on clients and only privacy-preserving summaries are aggregated. The proposed method significantly improves the robustness and adaptability of recommendation systems under data poisoning attacks.",
+      "published": "2026-04-19",
+      "url": "https://www.semanticscholar.org/paper/d6186eae94ca6b0692cad55298509226885c6271",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Adaptive AI-Driven Learning Architecture for Real Time Detection and Prevention of Data Poisoning and Model Evasion Attacks",
+      "authors": [
+        "Paul Okanda",
+        "Sarah Muriithi"
+      ],
+      "abstract": "Artificial intelligence (AI) has been integrated into cybersecurity systems particularly in cyber threat intelligence (CTI) and has significantly enhanced the detection, analysis, and mitigation of sophisticated cyber threats in real time in organisations. Unlike traditional static defence mechanisms, which rely on fixed rules or offline retraining, the proposed architecture empowers continuous dynamic learning capabilities to identify and mitigate attacks as they unfold ensuring the integrity and reliability of AI-driven CTI systems. AI models to self-heal and harden against evolving adversarial tactics. The primary goal is to enhance CTI operations by providing timely, accurate threat detection and robust mitigation thereby reducing the window of opportunity for attackers and improving overall cybersecurity posture. This article presents a comprehensive adaptive learning architecture with formalised threat models, architectural specifications, and empirical validation. Experimental evaluation using benchmark datasets (CIC-IDS2017 and VirusTotal) demonstrates that the system achieves 43.7% higher evasion detection accuracy than traditional static anomaly detectors, while maintaining processing latency below 5 milliseconds. The architecture successfully detects 89.1% of poisoning attacks and reduces false positive rates by 37.5% relative to baseline methods. The key contributions of this article include the design of an integrated adaptive learning system that simultaneously detects and prevents both data poisoning and model evasion attacks within cybersecurity AI models.",
+      "published": "2026-05-04",
+      "url": "https://www.semanticscholar.org/paper/5d8a8c4f0f0aee759876601d381364a7c945fa80",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Navigating the Adversarial Environment: Understanding and Mitigating Poisoning Attacks Through Robust Adversarial Training",
+      "authors": [
+        "S Suriya",
+        "R Harshada"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4757373",
+      "source": "Crossref"
+    },
+    {
+      "title": "Resilient Autonomy: Securing Intelligent Systems Against Adversarial Attacks",
+      "authors": [
+        "Pavan Nutalapati",
+        "Isan Sahoo",
+        "Deepak Kole",
+        "Rakesh Keshava",
+        "Milan Parikh",
+        "Girish Ashok Gajwani",
+        "B. Harve"
+      ],
+      "abstract": "As autonomous systems become central to mission-critical operations, their ability to withstand adversarial threats is crucial to ensuring trust, safety, and uninterrupted functionality. This paper introduces a comprehensive framework for resilient autonomy that proactively prevents, detects, and mitigates key adversarial challenges, including sensor spoofing, sensor manipulation, and machine learning model poisoning. We present a layered defense architecture that integrates adversarial robust learning, real-time anomaly detection, and secure control strategies to maintain reliable autonomous behavior in compromised environments. Our hybrid resilience model addresses both inference-time perturbations and upstream vulnerabilities in data acquisition and processing pipelines. The system employs adaptive decision logic and decentralized failover mechanisms to dynamically reconfigure operations upon detection of anomalies or suspicious behavior, thus preserving mission continuity. In addition, we embed explainable AI modules to enhance transparency, facilitate system diagnostics, and support operator trust. We validate the proposed framework using a suite of simulated adversarial scenarios across diverse autonomous agents, including drones, mobile robots, and vehicle models. Results demonstrate significant gains in threat resistance, operational stability, and recovery time when compared to conventional defenses. This work lays the foundation for building self-reliant, attack-aware autonomous systems that are capable of sustaining functionality under adversarial uncertainty.",
+      "published": "2025-08-26",
+      "url": "https://www.semanticscholar.org/paper/2fe6a1170f6d6266d3744cd63a92ae1cdb0ca222",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "authors": [
+        "Yi Yu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.32657/10356/201674",
+      "source": "Crossref"
+    }
+  ]
+}

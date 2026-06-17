@@ -1,0 +1,72 @@
+{
+  "snapshot_id": "20260529T054756Z-post-quantum-cryptography-for-secure-cloud-and-iot-systems-5",
+  "topic": "Post-Quantum Cryptography for Secure Cloud and IoT Systems",
+  "retrieval_query": "Post-Quantum Cryptography for Secure Cloud and IoT Systems",
+  "max_papers": 5,
+  "retrieved_at": "20260529T054756Z",
+  "papers": [
+    {
+      "title": "Lightweight Quantum Cryptography Integration Framework for Secure IoT-Telecommunication Systems in Post-Quantum Era",
+      "authors": [
+        "K. Ajmath",
+        "L. Kalaiselvi",
+        "Jenifer M.",
+        "R. Meenakshi",
+        "Tandra Nagarjuna",
+        "Syed Rashid"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025",
+      "url": "https://doi.org/10.5220/0013859800004919",
+      "source": "Crossref"
+    },
+    {
+      "title": "Post-Quantum Cryptography for Next-Generation High-Bandwidth Communication Systems",
+      "authors": [
+        "P. Prasant",
+        "S. S",
+        "Binod Kumar Choudhary",
+        "S. P. Velmurugan",
+        "V. Kumbhar",
+        "R. Naveenkumar"
+      ],
+      "abstract": "The proposed architecture integrates lattice-based encryption, hash-based digital signatures, and code-based key agreement mechanisms to secure an efficient data protection in high-speed network environments. To provide backward compatibility coupled with a gradual migration path to quantumsafe security we propose a hybrid security model combining classical and PQC algorithms. The performance analysis shows that the proposed framework can achieve secure key establishment in latency of less than 1.8 ms, outperform data backup throughput to cross more than 40 Gbps barrier and improve security against quantum-enhanced attacks by 95% compared to conventional RSA-based systems. In addition, it proposed optimized parallel cryptographic processing that reduces the computational overhead to 28% as compared to original design which makes it appropriate for high-performance applications like cloud computing and autonomous communication systems in industrial IoT. In this study, we evaluate the performance and scalability of PQC-based outsiderassisted architectures through an empirical analysis based on extensive measurement results obtained from a testbed implementation spanning 146 days.",
+      "published": "2026-04-08",
+      "url": "https://www.semanticscholar.org/paper/4f7eeb6f229f4fe983e40ec47b98108a5140e2a0",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Expert in Payment Security and IoT Cloud Architecture for Banking, Specializing in Cryptographic Techniques",
+      "authors": [
+        "R. Yuvarani",
+        "Research Scholar",
+        "R. MahaveeraKannan",
+        "R. Guide"
+      ],
+      "abstract": "As a Secure Payment and IoT Cloud Cryptography Architect for Banking Systems, to specialize in designing and implementing cryptographic security solutions for smart cards, contactless payments, and IoT -driven banking infrastructures. Leveraging advanced cryptographic techniques, For data protection and authentication, this paper proposes integrate AES, RSA, ECC, SHA-3, and HMAC while making sure that industry standards like PCI DSS, EMV, ISO 27001, and NIST are followed. Post-quantum cryptography (CRYSTALS-Kyber, Dilithium), zero-knowledge proofs (ZKPs), It should be fluent in cutting-edge technologies such as blockchain-based security for decentralized identification and IoT payments, secure multi-party computing (MPC), and fully homomorphic encryption (FHE). Additionally, this study focus on AI-driven fraud detection, confidential computing, and hardware security modules (HSM, TPMs) to enhance banking cybersecurity resilience. With a commitment to innovation, this research work develop quantum-resistant, privacy-preserving cryptographic frameworks to safeguard financial ecosystems against evolving cyber threats.",
+      "published": "2025-04-24",
+      "url": "https://www.semanticscholar.org/paper/4e65ff331d38d257960fceef00ea124ba181e526",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "ZeroTrustEdu: A Lightweight Post-Quantum Cryptography Framework with Adaptive Trust Scoring for Secure Cloud-IoT E-Learning Platforms",
+      "authors": [
+        "W. Alghabban"
+      ],
+      "abstract": "The rapid proliferation of Internet of Things (IoT) devices in cloud-based e-learning platforms has posed significant security risks, particularly in protecting learner information, authentication of devices, and safe communication in the highly heterogeneous learning settings. Current cryptographic solutions are largely based on classical public-key infrastructure (PKI) protocols such as RSA and ECC, which will become vulnerable with the advent of large-scale quantum computers capable of executing Shor’s algorithm. In addition, traditional perimeter-based security models are inadequate for handling the dynamics, scattered, and resource-limited characteristics of IoT-enabled educational systems. As a solution to these problems, this paper introduces ZeroTrustEdu, a scalable zero-trust cryptographic solution that combines lightweight post-quantum key management with adaptive trust scoring of cloud-connected IoT e-learning infrastructure. The proposed framework makes three fundamental contributions namely: (1) a hierarchical zero-trust security model with no implicit trust, operating across device, edge, and cloud layers; (2) a lightweight key distribution protocol based on the Module-Lattice Key Encapsulation Mechanism (ML-KEM) compliant with NIST FIPS 203 standards and (3) an adaptive behavioral trust scoring engine that dynamically adjusts device and user trust levels based on real-time interaction analytics. The architecture is evaluated using extensive NS-3 network simulations with up to 100,000 concurrent IoT nodes with formal security analysis under Chosen Plaintext Attack (CPA) and Chosen Ciphertext Attack (CCA) threat models. Comparative evaluation against RSA-2048, ECC-P256, and AES-256 baselines demonstrates that, ZeroTrustEdu delivers a 62% ± 3% (95% CI, 10 independent runs) reduction in ML-KEM encapsulation latency (12.8 ms for key encapsulation/decapsulation, contributing to a complete device authentication latency of 47.3 ms including ML-DSA signature operations), 45% reduced communication overheads, and 38% reduction in energy consumption on ARM Cortex-M4 constrained devices compared to RSA-2048 and achieves provable post-quantum security reducible to the hardness of the Module Learning With Errors (MLWE) problem. These findings demonstrate that the proposed architecture provides a viable, scalable, and quantum-resilient security solution for next-generation IoT-enabled e-learning environments. The cryptographic security of ZeroTrustEdu is guaranteed at the primitive level through NIST-standardized ML-KEM (FIPS 203) and ML-DSA (FIPS 204), with IND-CCA2 and EUF-CMA security formally proven in the respective standards; full protocol-level formal verification using automated theorem provers (ProVerif, Tamarin) is identified as valuable future work to rule out protocol-composition vulnerabilities beyond primitive-level guarantees.",
+      "published": "2026-05-15",
+      "url": "https://www.semanticscholar.org/paper/4b700660c20750f127863f2f6620db721151990b",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Performance Evaluation of Post-Quantum Cryptography: A Comprehensive Framework for Experimental Analysis",
+      "authors": [
+        "Prajakta Pote"
+      ],
+      "abstract": "Post-quantum cryptography (PQC) is a critical area of research aimed at addressing the threat quantum computing poses to traditional cryptographic systems. It focuses on evaluating the efficiency, security, and practical performance of PQC algorithms through experimental analysis. This research supports the development of optimized cryptographic solutions, contributes to standardization efforts, and ensures secure and efficient implementations for a wide range of applications. Despite progress in PQC, gaps still exist in practical performance evaluations, particularly in resource-constrained environments. There is a lack of standardized comparisons, hindering the selection of suitable algorithms for specific use cases like IoT and cloud systems. Furthermore, research on scalability, integration challenges, and the trade-offs between security and efficiency remains insufficient. The methodology involves creating a comprehensive framework to evaluate various PQC algorithms, including lattice-based (e.g., Kyber, Dilithium), code-based (e.g., McEliece), and hash-based (e.g., SPHINCS+). These algorithms will be tested in diverse environments, from resource-constrained devices to high-performance infrastructures such as cloud platforms. Key metrics such as encryption/decryption speed, key sizes, memory usage, and computational efficiency will be measured, focusing on the trade-offs between security, efficiency, and scalability. The results will be benchmarked against standardized metrics to provide a clear understanding of each algorithm's suitability for real-world deployment. The findings indicate that lattice-based algorithms like Kyber offer a strong balance between security and efficiency but require considerable computational resources. Code-based algorithms like McEliece are highly secure but come with large key sizes and slower speeds. Hash-based schemes like SPHINCS+ provide strong security but are computationally expensive, making them less suitable for resource-limited systems. The highlights the importance of optimizing PQC algorithms according to specific application requirements, where the choice of algorithm must balance security, efficiency, and resource constraints, with continuous optimization needed to address evolving real-world demands.",
+      "published": "2025-02-09",
+      "url": "https://www.semanticscholar.org/paper/d865f4ff19091409657371c2130072c9fcde589c",
+      "source": "Semantic Scholar"
+    }
+  ]
+}

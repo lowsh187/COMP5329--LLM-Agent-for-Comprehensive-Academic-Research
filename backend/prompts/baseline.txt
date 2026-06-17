@@ -3,14 +3,11 @@ Task: Generate a single-prompt baseline proposal and evaluate it.
 Topic:
 {topic}
 
-Retrieved papers:
-{papers_context}
-
-Generate the full proposal directly from the topic and papers without using explicit intermediate stages. The proposal should still be rigorous, literature-grounded, methodologically feasible, and should explicitly state how the proposed idea differs from or extends the retrieved published work.
+Generate the full proposal directly from the topic without retrieved papers and without explicit intermediate stages. The proposal should still be rigorous, methodologically feasible, and explicit about its intended research contribution, but it must not cite, quote, or rely on retrieved articles.
 
 Return JSON with exactly this structure:
 {{
-  "proposal": "A concise baseline proposal paragraph with background, gap, question or objective, methodology, expected contribution, and novelty against retrieved published work.",
+  "proposal": "A concise baseline proposal paragraph with background, gap, question or objective, methodology, expected contribution, and novelty.",
   "evaluation": {{
     "clarity": 1,
     "logic": 1,

@@ -1,0 +1,360 @@
+{
+  "experiment_id": "20260529T052556Z",
+  "run_index": 7,
+  "topic": "AI-Driven Detection of Advanced Persistent Threats in Enterprise Networks",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "AI-Driven Detection of Advanced Persistent Threats in Enterprise Networks",
+  "retrieval_snapshot_id": "20260529T054438Z-ai-driven-detection-of-advanced-persistent-threats-in-enterprise-networks-5",
+  "papers": [
+    {
+      "title": "AI-Driven Threat Intelligence for Predicting Advanced Persistent Attacks in Cloud-Based IT Services",
+      "authors": [
+        "Yogish Pai U"
+      ],
+      "abstract": "The adoption of cloud-based IT services has transformed modern enterprise operations, offering flexibility and scalability. However, this evolution has also introduced significant security challenges, particularly from Advanced Persistent Threats (APTs), which are sophisticated, stealthy, and often long-lasting attacks designed to bypass conventional defence mechanisms. Addressing such threats requires a forward-looking approach that emphasizes prediction and early intervention rather than reactive countermeasures. This research presents an innovative artificial intelligence (AI)-based framework that combines threat intelligence with deep learning models to anticipate and detect APTs in cloud environments. The proposed system employs Long Short-Term Memory Autoencoders (LSTM-AE) to uncover abnormal patterns in system behaviours by analysing multiple data sources, including network traffic, system logs, and threat intelligence feeds. The framework is trained and evaluated using publicly available datasets such as CICIDS 2017, along with custom cloud log data. The results highlight the model's ability to achieve high detection accuracy while minimizing false positive rates, outperforming traditional intrusion detection approaches. By integrating contextual threat intelligence with AI-based behavioural analysis, the framework enhances real-time situational awareness and supports proactive cybersecurity measures. This study contributes a scalable and adaptive solution for strengthening cloud infrastructure against evolving and complex threat scenarios.",
+      "published": "2025-05-28",
+      "url": "https://www.semanticscholar.org/paper/02fbe14d3f826e3f689ccd86b2d84d7c33548c33",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "AI-Driven Deception Systems for Advanced Persistent Threat (APT) Mitigation",
+      "authors": [
+        "Abdullahel Hadi",
+        "Syed Nurul Islam",
+        "A. Khan",
+        "Muhammad Ismaeel Khan",
+        "Manu Kumar Misra",
+        "Aftab Arif"
+      ],
+      "abstract": "APTs can be considered as one of the most significant problems of contemporary cybersecurity because they are unnoticed, persistent and adaptive. Conventional defence systems have been found to be ineffective in detecting and countering these advanced attacks with the attacker exploiting trickery and evasion tools to circumvent the traditional security measures. In this paper, the researcher suggests an AI-led deception engine to actively counter APTs using dynamic and context-adaptable defence mechanisms. The system combines machine learning, generative adversarial deception models, and autonomous response agents to form adaptive decoys, mislead adversarial reconnaissance, and disrupt lateral movement in enterprise networks. The framework improves the detection accuracy and minimizes the false positives by constantly examining attacker behaviour and updating the deception artifacts in real time. As shown by experimental validation, the suggested system is able to not only increase resilience to changing APT campaigns but also to offer quantifiable improvements in attack dwell-time and rates of system compromise. The results note the opportunities of integrating the deception technologies with the AI to form proactive, intelligent, and sustainable defence mechanisms of the critical infrastructures.",
+      "published": "2025-10-24",
+      "url": "https://www.semanticscholar.org/paper/b1c48ccfa8b6a4f71f1f699f0356b3c49f3e68bd",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "AI-Augmented Intrusion Detection Systems for Mitigating Advanced Persistent Threats in Cyber-Physical Manufacturing Networks",
+      "authors": [
+        "Yoheswari S"
+      ],
+      "abstract": "Cyber-Physical Manufacturing Networks (CPMNs) are increasingly exposed to sophisticated cyberattacks, particularly Advanced Persistent Threats (APTs), which stealthily compromise system integrity over extended periods. Conventional intrusion detection systems often struggle to identify such adaptive and stealthy threats in real time, necessitating more intelligent and dynamic security solutions. This paper explores AI-augmented intrusion detection systems designed to enhance threat detection accuracy and response efficiency within CPMNs. The study elaborates on how machine learning algorithms and deep learning models can analyse diverse network and sensor data to detect anomalous behaviours indicative of APTs. It further discusses the architecture of such AI-driven IDS frameworks, highlighting their ability to adapt to evolving attack patterns and reduce false positives. Real-world manufacturing use cases are examined to demonstrate the practical effectiveness and challenges in deployment. The findings emphasize that integrating AI with traditional IDS offers a robust defence mechanism that supports continuous monitoring and proactive mitigation, crucial for maintaining operational continuity and safety in manufacturing environments. The study concludes by outlining future directions for enhancing AI model explainability, scalability, and resilience in increasingly complex cyber-physical manufacturing landscapes.",
+      "published": "2025-10-6",
+      "url": "https://doi.org/10.20944/preprints202510.0470.v1",
+      "source": "Crossref"
+    },
+    {
+      "title": "AI Tool for Detecting Behavioural Anomalies in Organisational Networks",
+      "authors": [
+        "Akhil Shaikh"
+      ],
+      "abstract": "The increasing sophistication of cyber threats has rendered traditional signature-based and rule-based security mechanisms insufficient for protecting modern organisations. Advanced Persistent Threats (APTs), insider threats, and zero-day attacks often evade conventional detection systems by mimicking legitimate user behaviour. Behavioural Anomaly Detection (BAD), powered by Artificial Intelligence (AI) and Machine Learning (ML), has emerged as a critical cybersecurity approach that focuses on identifying deviations from normal behavioural patterns rather than known attack signatures. This paper explores the design, implementation, and effectiveness of AI-driven behavioural anomaly detection tools as a cybersecurity solution for organisations. We present a conceptual framework, discuss commonly used machine learning techniques, evaluate advantages and limitations, and highlight real-world applicability within cloud and enterprise environments. The findings indicate that behavioural anomaly detection significantly enhances organisational security posture by enabling early threat detection, reducing dwell time, and improving resilience against evolving cyber threats.",
+      "published": "2026-04-10",
+      "url": "https://www.semanticscholar.org/paper/333ac0b393c20d42d7d8060e2d7b2ca151e9a40e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Cognitive Cyber Defense Applying Artificial General Intelligence to Predict and Counteract Advanced Persistent Threats",
+      "authors": [
+        "Akash Parasumanna Sridhar"
+      ],
+      "abstract": "This document presents the Cognitive-Generative Défense Framework (CGDF), which applies Artificial General Intelligence (AGI) principles to the next generation of cyber defense methodologies and anticipates, counters, and adjusts to Advanced Persistent Threats (APTs). This research, building from hands on Proof-0f-Concept (POC) evaluations of AI-integrated cyber defense tools in enterprise settings, combines operational functional knowledge with cognitive computational frameworks. In these evaluations, the effectiveness of behavioral analytics, anomaly detection, and adaptive learning models for threat identification and mitigation in dynamic, complex, and evolving threats was studied. It was noted that AI-embedded and rule-driven cyber defense architectures adequately situate problem diagnostic reasoning within the scope of adaptability situational frameworks. To counter the above, CGDF combines the Cognitive Threat Prediction Module with the Game-Theoretic Counteraction Engine (GTCE). Cognitive synthesis models, in real time and dynamic Aaron space. In contrast, GTCE generates mathematical models of defensive APTS as partially observable strategic games to calculate, optimally, dynamic counteraction measures. APT’ lifecycles simulated within and across APT networks showed CGDF reduced Adaptive Response Time (ART) and Detection Rate (DR) far beyond any remaining legacy AI/ML. This work aims to merge practical enterprise learnings with AGI-inspired cognition to achieve self-regulating, resilient cyber defence systems. This accomplishes the author’s vision towards the future of intelligent, autonomous, and reliable cybersecurity for pervasive computing ecosystems.",
+      "published": "2025-12-15",
+      "url": "https://www.semanticscholar.org/paper/a49d1d72a0eed0abca394aaaa2698e6e8b9e8528",
+      "source": "Semantic Scholar"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "AI-Driven Cybersecurity Solutions for Advanced Persistent Threats (APTs)",
+      "paper_indices": [
+        1,
+        4,
+        3,
+        2
+      ],
+      "summary": "This cluster of papers focuses on innovative AI-based frameworks and tools designed to enhance the detection and mitigation of Advanced Persistent Threats (APTs) in various environments, including cloud services, organizational networks, and cyber-physical manufacturing systems. The studies highlight the effectiveness of machine learning and deep learning techniques in identifying behavioral anomalies, improving intrusion detection systems, and employing deception strategies to counteract sophisticated cyber threats.",
+      "limitations": "The papers acknowledge challenges such as the need for extensive training data, potential biases in machine learning models, and the complexity of integrating AI solutions into existing security infrastructures. Additionally, real-world applicability and the adaptability of these systems to evolving threats remain areas needing further exploration.",
+      "gap_relevance": "This cluster underscores the pressing need for advanced cybersecurity measures against APTs, thereby identifying research gaps in the development of adaptive, real-time detection systems and the integration of AI-driven deception techniques. It highlights opportunities for further research into enhancing the resilience and effectiveness of cybersecurity frameworks in dynamic threat landscapes."
+    },
+    {
+      "theme": "Cognitive Cyber Defense with AGI",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster primarily investigates the application of Artificial General Intelligence in cyber defense, specifically through the Cognitive-Generative Défense Framework (CGDF). It emphasizes the integration of behavioral analytics, anomaly detection, and adaptive learning models for effectively predicting and countering Advanced Persistent Threats (APTs) in dynamic environments.",
+      "limitations": "The research may face limitations in scalability and real-world applicability, as the effectiveness of the proposed models in diverse and unpredictable cyber threat landscapes remains to be fully validated. Additionally, the reliance on mathematical modeling may overlook certain qualitative aspects of threat behavior.",
+      "gap_relevance": "This cluster highlights the need for further exploration into the integration of cognitive models and game-theoretic approaches in cyber defense, identifying a research gap in the practical implementation and evaluation of AGI-driven defense mechanisms against evolving cyber threats."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "AI-Driven Threat Intelligence for Predicting Advanced Persistent Attacks in Cloud-Based IT Services",
+      "problem": "Detection of Advanced Persistent Threats (APTs) in cloud environments.",
+      "method": "AI-based framework using Long Short-Term Memory Autoencoders (LSTM-AE) analyzing network traffic, system logs, and threat intelligence feeds.",
+      "evidence": "High detection accuracy and minimized false positive rates compared to traditional methods.",
+      "limitation": "Focus on cloud environments may not generalize to on-premises or hybrid systems.",
+      "gap_relevance": "Highlights the need for adaptable detection frameworks applicable across diverse IT infrastructures."
+    },
+    {
+      "paper_id": "P2",
+      "title": "AI-Driven Deception Systems for Advanced Persistent Threat (APT) Mitigation",
+      "problem": "Ineffectiveness of conventional defense systems against APTs.",
+      "method": "AI-led deception engine using machine learning and generative adversarial models for dynamic defense.",
+      "evidence": "Improved detection accuracy and reduced attack dwell-time through real-time updates of deception artifacts.",
+      "limitation": "Complexity of implementation and potential resource overhead in maintaining deception systems.",
+      "gap_relevance": "Suggests exploration of deception technologies as a proactive defense mechanism in enterprise networks."
+    },
+    {
+      "paper_id": "P3",
+      "title": "AI-Augmented Intrusion Detection Systems for Mitigating Advanced Persistent Threats in Cyber-Physical Manufacturing Networks",
+      "problem": "Challenges in detecting APTs in Cyber-Physical Manufacturing Networks (CPMNs).",
+      "method": "AI-augmented intrusion detection systems utilizing machine learning and deep learning on network and sensor data.",
+      "evidence": "Enhanced threat detection accuracy and response efficiency in real-world manufacturing use cases.",
+      "limitation": "Practical deployment challenges and the need for model explainability.",
+      "gap_relevance": "Indicates the necessity for AI integration in traditional IDS to improve security in manufacturing contexts."
+    },
+    {
+      "paper_id": "P4",
+      "title": "AI Tool for Detecting Behavioural Anomalies in Organisational Networks",
+      "problem": "Insufficiency of traditional security mechanisms against sophisticated cyber threats.",
+      "method": "AI-driven Behavioral Anomaly Detection (BAD) focusing on deviations from normal behavior patterns.",
+      "evidence": "Significantly enhances early threat detection and resilience against evolving cyber threats.",
+      "limitation": "Requires extensive training data and may struggle with false positives in dynamic environments.",
+      "gap_relevance": "Emphasizes the need for advanced anomaly detection techniques in organizational cybersecurity."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Cognitive Cyber Defense Applying Artificial General Intelligence to Predict and Counteract Advanced Persistent Threats",
+      "problem": "Need for advanced methodologies to counteract APTs effectively.",
+      "method": "Cognitive-Generative Defense Framework (CGDF) combining cognitive principles with operational knowledge.",
+      "evidence": "Reduced Adaptive Response Time (ART) and improved Detection Rate (DR) compared to legacy systems.",
+      "limitation": "Complexity of integrating AGI principles into existing cybersecurity frameworks.",
+      "gap_relevance": "Suggests exploration of AGI-inspired approaches for developing self-regulating cyber defense systems."
+    }
+  ],
+  "summary": "The literature on AI-driven detection of Advanced Persistent Threats (APTs) emphasizes innovative frameworks that leverage machine learning and deep learning for enhanced cybersecurity in diverse environments. Key contributions include AI-based deception systems and cognitive defense models, which show promise in improving detection accuracy and response times. However, challenges such as data requirements, integration complexities, and real-world applicability remain significant. A critical gap identified is the need for adaptable detection frameworks that can operate effectively across varied IT infrastructures.",
+  "literature_tension_graph": "The literature presents a tension between the effectiveness of AI-driven deception systems (P2) and the challenges of real-world applicability and resource overhead associated with their implementation. While P2 claims improved detection accuracy through dynamic defenses, it does not reconcile the complexity and potential inefficiencies in maintaining such systems across diverse environments. Additionally, the Cognitive Cyber Defense Framework (P5) asserts reduced adaptive response times through AGI principles, yet it struggles with integration into existing frameworks, raising questions about scalability and practicality. This conflict highlights an unresolved condition regarding the adaptability of AI solutions in varied IT infrastructures, suggesting a research direction focused on developing a unified framework that balances the strengths of deception and cognitive defense while addressing integration and operational challenges.",
+  "scholarly_positioning": "Prior approaches to AI-driven detection of Advanced Persistent Threats (APTs) have primarily focused on specific environments, such as cloud services or cyber-physical systems, often leading to limitations in generalizability and adaptability across diverse IT infrastructures. While innovations like AI-based deception systems and cognitive defense frameworks have shown promise in enhancing detection accuracy, they frequently grapple with challenges related to extensive data requirements and integration complexities. Existing work fails to adequately address the dynamic nature of APTs, particularly in terms of real-time adaptability and operational scalability. This research aims to fill the critical gap by developing a unified, adaptive detection framework that leverages advanced AI techniques to provide robust, real-time threat detection across varied enterprise networks, thereby situating itself within the ongoing debate on the efficacy and resilience of AI in cybersecurity.",
+  "domain_router": "other; methodology template: Develop a unified, adaptive detection framework leveraging machine learning and deep learning techniques for real-time threat detection across varied enterprise networks, employing ablation studies to evaluate the effectiveness of different AI components.",
+  "research_scope": "This study aims to develop a unified, adaptive detection framework for Advanced Persistent Threats (APTs) in enterprise networks, focusing on the technical task of real-time threat detection. The target population includes medium to large organizations with diverse IT infrastructures. The AI intervention will utilize machine learning and deep learning techniques, evaluated over a six-month period. The baseline will consist of traditional intrusion detection systems for comparison. Primary outcomes will include detection accuracy and response time, while secondary outcomes will assess false positive rates and adaptability to evolving threats. The study will employ ablation studies to evaluate the effectiveness of various AI components within the framework.",
+  "concept_definition": "1. Unified Adaptive Detection Framework: A comprehensive system that integrates various AI techniques to identify and respond to Advanced Persistent Threats (APTs) in real-time across different IT environments. 2. Advanced Persistent Threats (APTs): Prolonged and targeted cyberattacks where an intruder gains access to a network and remains undetected for an extended period. 3. Machine Learning: A subset of AI that enables systems to learn from data and improve their performance over time without explicit programming. 4. Deep Learning: A specialized form of machine learning that uses neural networks with multiple layers to analyze complex patterns in large datasets. 5. Real-Time Threat Detection: The capability to identify and respond to security threats as they occur, minimizing potential damage. 6. Ablation Studies: Experimental techniques used to assess the contribution of different components of a system by systematically removing or altering them. 7. Detection Accuracy: The percentage of correctly identified threats compared to the total number of threats present. 8. Response Time: The duration taken to respond to a detected threat. 9. False Positive Rate: The frequency at which benign activities are incorrectly flagged as threats. 10. Adaptability: The ability of the detection system to adjust to new and evolving threats. 11. Interpretability: The degree to which a human can understand the cause of a decision made by an AI system. 12. Trust Calibration: The alignment of user trust with the actual performance of the AI system, ensuring users have appropriate reliance on its outputs. 13. Safety Outcomes: Metrics that evaluate the risks associated with AI responses, including unsafe response rates and harmful compliance. 14. Explanation Generation: The process of providing understandable reasons for AI decisions, aimed at enhancing user trust and transparency.",
+  "technical_feasibility": "The proposed study requires access to labeled datasets for training and evaluating machine learning and deep learning models, as well as GPU resources for model training. It may also benefit from open-source model access to facilitate experimentation with different AI components. If the study involves user trust calibration, a human-subject design and ethics approval will be necessary. Additionally, if internal representations are analyzed, access to open-source LLMs or hidden-state extraction will be required. A feasible adjustment would be to focus on utilizing publicly available datasets and models to mitigate resource constraints.",
+  "gap": "Prior studies have demonstrated the effectiveness of AI-driven deception systems and cognitive defense frameworks in enhancing detection accuracy against Advanced Persistent Threats (APTs) in specific environments; however, the literature tension graph shows unresolved tension regarding the integration complexities and operational scalability of these systems across diverse IT infrastructures, leaving unclear whether a unified framework can effectively adapt to real-time threats in varied enterprise networks; this matters practically because organizations require robust, adaptable security solutions to counter evolving cyber threats; therefore, this study investigates the development of a unified, adaptive detection framework leveraging advanced AI techniques for real-time threat detection across varied enterprise networks.",
+  "question": "How does the implementation of a unified, adaptive detection framework utilizing machine learning and deep learning techniques compare to traditional intrusion detection systems in improving detection accuracy and response time against Advanced Persistent Threats (APTs) in medium to large enterprise networks?",
+  "research_problem_validity_check": "The proposed research problem is non-trivial as it addresses the pressing issue of Advanced Persistent Threats (APTs) in enterprise networks, which is a significant concern in cybersecurity. It is theoretically meaningful, contributing to the ongoing discourse on the efficacy of AI in real-time threat detection. The problem is empirically testable through the development of a unified framework and comparative analysis with traditional systems, making it suitable for PhD-level inquiry. However, the committee might reject the problem if it perceives the focus on AI as overly engineering-oriented without sufficient theoretical underpinning. To enhance research worthiness, the problem could be reframed to emphasize the exploration of interpretability and trust calibration in AI-driven detection systems, thereby deepening the inquiry into user interaction and system reliability in cybersecurity contexts.",
+  "research_problem_blueprint": {
+    "single_sentence_thesis": "This proposal defends the claim that a unified, adaptive detection framework utilizing machine learning and deep learning techniques significantly improves detection accuracy and response time against Advanced Persistent Threats (APTs) compared to traditional intrusion detection systems in medium to large enterprise networks.",
+    "core_gap": "The unresolved gap lies in the integration complexities and operational scalability of AI-driven detection systems across diverse IT infrastructures, particularly in adapting to real-time threats.",
+    "literature_tension": "There is a tension between the effectiveness of AI-driven deception systems and the challenges of their real-world applicability and resource overhead, highlighting the need for a unified framework that balances these strengths.",
+    "phd_level_contribution": "The contribution will be a theoretical exploration of a unified, adaptive detection framework that enhances cybersecurity resilience and adaptability through advanced AI techniques.",
+    "falsifiable_hypothesis": "The implementation of a unified, adaptive detection framework utilizing machine learning and deep learning techniques will significantly improve detection accuracy compared to traditional intrusion detection systems.",
+    "mechanism": "The framework's effectiveness is mediated by technical mechanisms such as representation features and safety detection, enhancing system-level outcomes like unsafe response rate and refusal accuracy, while user-level outcomes are influenced by perceived transparency and calibrated trust.",
+    "strongest_baseline": "The strongest baseline for comparison will be conventional intrusion detection systems.",
+    "negative_result_meaning": "A null or negative result would suggest that the proposed framework does not effectively enhance cybersecurity resilience, indicating a need to reevaluate the integration of AI techniques in detection systems.",
+    "score_limiting_risk": "The most likely reason a strict reviewer would keep this proposal below 85 is the perception that the focus on AI is overly engineering-oriented without sufficient theoretical underpinning.",
+    "minimum_evidence_required": [
+      "Evidence of improved detection accuracy and reduced false positive rates from AI-driven deception systems.",
+      "Evidence supporting the operational scalability and integration challenges of AI-driven detection frameworks."
+    ],
+    "proposal_must_include": [
+      "A robust theoretical framework grounding the research in cybersecurity resilience and adaptability theories.",
+      "A detailed methodology for evaluating the performance of the adaptive detection framework against traditional systems."
+    ],
+    "proposal_must_avoid": [
+      "Overly engineering-focused narratives that lack theoretical underpinning.",
+      "Generic claims that dilute the novelty and specificity of the proposed research."
+    ]
+  },
+  "blueprint_compliance_check": {
+    "complies": true,
+    "missing_blueprint_element": "none",
+    "score_limiting_risk_status": "avoids",
+    "one_sentence_repair": "Ensure the proposal explicitly outlines the detailed methodology for evaluating the performance of the adaptive detection framework."
+  },
+  "theoretical_mechanism": "The proposed research investigates the impact of a unified, adaptive detection framework (independent variable) on the detection accuracy and response time (dependent variables) against Advanced Persistent Threats (APTs) in enterprise networks. The framework's effectiveness is mediated by technical mechanisms such as representation features and safety detection, which enhance system-level outcomes like unsafe response rate and refusal accuracy. User-level outcomes, including trust and satisfaction, are influenced by psychological mechanisms such as perceived transparency and calibrated trust. The theoretical framework is grounded in cybersecurity resilience and adaptability theories, establishing a causal chain from the implementation of AI techniques to improved detection capabilities and user engagement. Assumptions requiring empirical validation include the adaptability of AI models across diverse IT infrastructures and the relationship between perceived transparency and user trust in AI-driven systems.",
+  "hypothesis": "The implementation of a unified, adaptive detection framework utilizing machine learning and deep learning techniques (independent variable) will significantly improve detection accuracy (primary dependent variable) compared to traditional intrusion detection systems (comparison/control), with the effect mediated by enhanced adaptability to evolving threats.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n1. Unified Adaptive Detection Framework (IV)\n   - Role: Independent Variable\n   - Measurement Instrument: Framework performance metrics\n   - Data Source: System logs and performance evaluations\n   - Timing: During and post-implementation\n\n2. Detection Accuracy (DV)\n   - Role: Dependent Variable\n   - Measurement Instrument: Percentage of correctly identified threats\n   - Data Source: Labeled datasets and system evaluation\n   - Timing: Throughout the six-month evaluation period\n\n3. Response Time (DV)\n   - Role: Dependent Variable\n   - Measurement Instrument: Time taken to respond to detected threats\n   - Data Source: System logs\n   - Timing: Throughout the six-month evaluation period\n\n4. Adaptability (Mediator)\n   - Role: Mediator\n   - Measurement Instrument: System performance under varied threat scenarios\n   - Data Source: Experimental threat simulations\n   - Timing: During the evaluation phase\n\nCausal Pathway: The implementation of the unified adaptive detection framework (IV) is expected to enhance detection accuracy and response time (DVs) through improved adaptability (mediator) to evolving threats.\n\nLikely Confounds: Variability in enterprise network configurations, existing security measures, and user engagement levels may affect the outcomes.\n\nClaim Boundaries: The study can claim improved detection accuracy and response time due to the unified framework but cannot definitively attribute these improvements solely to the framework without considering external factors.\n\nWhat Cannot Be Concluded: The study cannot conclude that the unified adaptive detection framework will be universally effective across all enterprise networks or that it will outperform traditional systems in every scenario.",
+  "methodology": "This study will develop and evaluate a unified, adaptive detection framework for Advanced Persistent Threats (APTs) in medium to large enterprise networks. The framework will leverage machine learning and deep learning techniques, utilizing labeled datasets for training and evaluation. A six-month evaluation period will compare the performance of the adaptive framework against traditional intrusion detection systems as the baseline. Key operationalized variables include detection accuracy, response time, and adaptability to evolving threats, measured through system logs and performance evaluations. Evaluation metrics will focus on the percentage of correctly identified threats and the time taken to respond to detected threats. Confounding factors such as network configuration and existing security measures will be controlled through stratified sampling and consistent testing environments. The study aims for reproducibility by utilizing publicly available datasets and open-source models.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This research introduces a unified, adaptive detection framework that integrates machine learning and deep learning techniques, establishing a new theoretical mechanism for enhancing cybersecurity resilience against Advanced Persistent Threats (APTs) through improved adaptability and real-time response capabilities.\",\n  \"technical_contribution\": \"The study develops a unique ablation study methodology to systematically evaluate the effectiveness of various AI components within the detection framework, providing a new metric for assessing the contribution of individual AI techniques to overall detection performance.\",\n  \"empirical_contribution\": \"Through a six-month evaluation period, this research generates empirical findings on detection accuracy, response time, and adaptability across diverse IT infrastructures, contributing a comprehensive dataset that benchmarks the performance of the adaptive framework against traditional intrusion detection systems.\",\n  \"practical_deployment_contribution\": \"The study offers deployment guidelines for implementing the unified detection framework in medium to large organizations, addressing integration complexities and operational scalability, thus providing actionable insights for organizations seeking robust, adaptable security solutions against evolving cyber threats.\"\n}",
+  "contribution_type_router": "The primary contribution type for this proposal is theoretical. This fits well with the identified tension in the literature regarding the integration complexities and operational scalability of AI-driven detection systems across diverse IT infrastructures. Emphasizing the development of a unified, adaptive detection framework will allow for a deeper exploration of how advanced AI techniques can enhance cybersecurity resilience and adaptability. The proposal should avoid overly engineering-focused narratives that lack theoretical underpinning, ensuring that the theoretical mechanisms of adaptability and real-time response capabilities are robustly articulated and empirically validated.",
+  "phd_contribution_design": "This research proposes a unified, adaptive detection framework that integrates machine learning and deep learning techniques to enhance real-time threat detection against Advanced Persistent Threats (APTs) in diverse enterprise networks. The mechanism-level claim is that the framework's adaptability will improve detection accuracy and response time by leveraging advanced AI techniques to dynamically adjust to evolving threats. Existing literature fails to adequately address the operational scalability and integration complexities of AI-driven detection systems across varied IT infrastructures. The falsifiable claim is that the adaptive framework will significantly outperform traditional intrusion detection systems in detection accuracy and response time. The strongest baseline for comparison will be conventional intrusion detection systems, with ablation studies assessing the contribution of individual AI components. Evidence supporting the hypothesis will be based on performance metrics such as detection accuracy and response time during a six-month evaluation period. A negative result, indicating no significant improvement, would suggest that the proposed framework does not effectively enhance cybersecurity resilience and may require reevaluation of the integration of AI techniques in detection systems.",
+  "pre_proposal_critique": "Skipped in judgement_light mode; the proposal is constrained by research_problem_blueprint.",
+  "failure_analysis": "{\n  \"failure_modes\": [\n    {\n      \"risk\": \"Integration Complexity\",\n      \"mitigation_strategy\": \"Conduct thorough pre-implementation assessments and develop modular components to facilitate easier integration with existing systems.\"\n    },\n    {\n      \"risk\": \"Operational Scalability\",\n      \"mitigation_strategy\": \"Design the framework to be scalable from the outset, utilizing cloud resources and load balancing techniques to handle varying network sizes.\"\n    },\n    {\n      \"risk\": \"Data Sparsity\",\n      \"mitigation_strategy\": \"Utilize data augmentation techniques and synthetic data generation to enhance the training datasets, ensuring diverse threat scenarios are represented.\"\n    },\n    {\n      \"risk\": \"User Engagement Levels\",\n      \"mitigation_strategy\": \"Implement user training programs and continuous feedback loops to enhance user interaction and trust in the system.\"\n    },\n    {\n      \"risk\": \"Negative Result Interpretations\",\n      \"mitigation_strategy\": \"Establish clear criteria for success and failure, and conduct post-study analyses to contextualize results within the operational environment.\"\n    },\n    {\n      \"risk\": \"Ethical Risks\",\n      \"mitigation_strategy\": \"Ensure compliance with ethical standards and obtain necessary approvals for human-subject research, focusing on transparency and user consent.\"\n    },\n    {\n      \"risk\": \"Safety Outcomes\",\n      \"mitigation_strategy\": \"Incorporate robust safety checks and balances within the AI decision-making process to minimize unsafe response rates.\"\n    },\n    {\n      \"risk\": \"Interpretability Issues\",\n      \"mitigation_strategy\": \"Develop explanation generation capabilities to provide users with understandable insights into AI decisions, enhancing trust and usability.\"\n    }\n  ]\n}",
+  "bad_proposal_pattern_detector": "Skipped in judgement_light mode.",
+  "evidence_claim_alignment": "Skipped in judgement_light mode.",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong; evidence notes highlight the need for adaptable detection frameworks applicable across diverse IT infrastructures.",
+    "tension_to_problem": "Yes; the research problem arises from real tensions in the literature regarding integration complexities and operational scalability of AI-driven detection systems.",
+    "problem_validity": "Yes; the validity check confirms the research question is non-trivial, testable, and suitable for PhD-level inquiry.",
+    "contribution_type_alignment": "Yes; the theoretical contribution aligns with the research question, mechanism, method, and evaluation.",
+    "domain_to_method": "Yes; the selected methodology of developing an adaptive detection framework fits well within the cybersecurity domain.",
+    "concept_to_metric": "Yes; core concepts are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Yes; the method is feasible given the access to data, compute resources, and model requirements.",
+    "scope_to_gap": "Yes; the study scope is specific enough to address the identified gap.",
+    "gap_to_question": "The gap regarding integration complexities leads to the research question focused on improving detection accuracy and response time.",
+    "question_to_hypothesis": "The research question logically leads to the hypothesis about the effectiveness of the unified framework.",
+    "hypothesis_to_methodology": "The methodology is designed to test the hypothesis through comparative analysis with traditional systems.",
+    "methodology_to_evaluation": "The planned evaluation will directly answer the research question by measuring detection accuracy and response time.",
+    "contribution_to_test": "Yes; the PhD contribution design is tested through the proposed methodology and evaluation.",
+    "reviewer_attack_to_repair": "Yes; the final proposal addresses potential reviewer concerns by grounding the research in theoretical frameworks.",
+    "bad_pattern_repair": "Yes; the proposal avoids generic claims and maintains a focused narrative.",
+    "evidence_claim_alignment": "Yes; core claims are well-supported by the retrieved evidence.",
+    "weak_links": []
+  },
+  "proposal": "This proposal defends the claim that a unified, adaptive detection framework utilizing machine learning and deep learning techniques significantly improves detection accuracy and response time against Advanced Persistent Threats (APTs) compared to traditional intrusion detection systems in medium to large enterprise networks. The critical gap identified in the literature is the unresolved tension regarding the integration complexities and operational scalability of AI-driven detection systems across diverse IT infrastructures, particularly in adapting to real-time threats. Existing studies have shown the effectiveness of AI-driven deception systems and cognitive defense frameworks; however, they often lack comprehensive evaluations of their adaptability and real-world applicability, leaving a significant void in understanding how these systems can be effectively integrated into varied environments. This research aims to fill this gap by proposing a framework that leverages advanced AI techniques to enhance adaptability and real-time response capabilities, thereby improving detection accuracy and response times. The framework's effectiveness will be evaluated through a robust experimental design that includes a detailed ablation study, controlling for confounding variables such as network configuration and existing security measures. Key operationalized constructs include detection accuracy (measured as the percentage of correctly identified threats), response time (measured as the time taken to respond to detected threats), and adaptability (assessed through performance under varied threat scenarios). The strongest baseline for comparison will be conventional intrusion detection systems. A null or negative result would suggest that the proposed framework does not effectively enhance cybersecurity resilience, indicating a need to reevaluate the integration of AI techniques in detection systems. To address potential reviewer concerns, the proposal will include a robust theoretical framework grounding the research in cybersecurity resilience and adaptability theories, ensuring that the focus on AI is well-supported by theoretical underpinnings and empirical evidence.",
+  "draft_proposal": "This proposal defends the claim that a unified, adaptive detection framework utilizing machine learning and deep learning techniques significantly improves detection accuracy and response time against Advanced Persistent Threats (APTs) compared to traditional intrusion detection systems in medium to large enterprise networks. The unresolved gap lies in the integration complexities and operational scalability of AI-driven detection systems across diverse IT infrastructures, particularly in adapting to real-time threats. There is a tension between the effectiveness of AI-driven deception systems and the challenges of their real-world applicability and resource overhead, highlighting the need for a unified framework that balances these strengths. The framework's effectiveness is mediated by technical mechanisms such as representation features and safety detection, enhancing system-level outcomes like unsafe response rate and refusal accuracy, while user-level outcomes are influenced by perceived transparency and calibrated trust. The falsifiable hypothesis is that the implementation of a unified, adaptive detection framework utilizing machine learning and deep learning techniques will significantly improve detection accuracy compared to traditional intrusion detection systems. The strongest baseline for comparison will be conventional intrusion detection systems. A null or negative result would suggest that the proposed framework does not effectively enhance cybersecurity resilience, indicating a need to reevaluate the integration of AI techniques in detection systems. The most likely reason a strict reviewer would keep this proposal below 85 is the perception that the focus on AI is overly engineering-oriented without sufficient theoretical underpinning. Therefore, the proposal must include a robust theoretical framework grounding the research in cybersecurity resilience and adaptability theories, while avoiding overly engineering-focused narratives that lack theoretical underpinning.",
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 4,
+    "weighted_total": 70.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal articulates a relevant research problem regarding the detection of APTs in enterprise networks, but it lacks precision in operationalizing key concepts like adaptability and real-time response capabilities. Major weaknesses: The definitions of constructs such as 'adaptability' and 'real-time response' are not sufficiently detailed, which could lead to ambiguity in measurement and evaluation. Next band requirements: To move into the next band, the proposal needs to provide clearer operational definitions for all key concepts and a more focused articulation of the research boundaries."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from problem identification to proposed methodology, but some assumptions, particularly regarding the adaptability of AI models, lack empirical support. Major weaknesses: The causal claims made about the effectiveness of the framework are not sufficiently justified by existing literature, leading to potential gaps in logical coherence. Next band requirements: Strengthening the justification for causal claims with empirical evidence from prior studies would enhance the logical coherence of the proposal."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal introduces a unified framework that integrates existing AI techniques, but it does not sufficiently differentiate itself from existing literature on APT detection. Major weaknesses: The novelty claims are somewhat diluted by the reliance on established methodologies without introducing a significantly new theoretical framework or mechanism. Next band requirements: To achieve a higher score, the proposal should present a distinctly original theoretical contribution or a novel methodological approach that significantly advances the field."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 13.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The proposed methodology is generally feasible, but lacks detailed plans for addressing potential confounding variables and ensuring reproducibility. Major weaknesses: The proposal does not adequately address how it will control for variability in enterprise network configurations, which could impact the validity of the results. Next band requirements: Incorporating a more robust plan for controlling confounding variables and detailing the evaluation metrics would improve the methodological rigor."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "While the proposal references relevant literature, it does not engage deeply with existing work to identify gaps or unresolved tensions effectively. Major weaknesses: The literature review lacks critical synthesis and does not sufficiently position the proposed research within broader debates in cybersecurity. Next band requirements: A more thorough critical analysis of existing literature and a clearer articulation of how the proposed research addresses identified gaps would enhance scholarly positioning."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 6.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some theoretical grounding but lacks depth in discussing the mechanisms underlying the proposed framework. Major weaknesses: The discussion of theoretical mechanisms is superficial and does not adequately address the complexities of AI integration in cybersecurity. Next band requirements: To reach a higher score, the proposal must provide a more sophisticated theoretical framework that articulates the mechanisms at play in the proposed research."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, but some sections could benefit from improved conciseness and precision. Major weaknesses: There are instances of repetition and vague terminology that detract from the overall clarity of the proposal. Next band requirements: Enhancing clarity and conciseness in writing, along with precise terminology, would improve the overall presentation quality."
+      }
+    ],
+    "comments": "Total score: 70.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant and pressing research problem in cybersecurity.; Proposes a unified framework that leverages advanced AI techniques. Major weaknesses: Lacks clear operational definitions for key concepts.; Insufficiently differentiates itself from existing literature.; Methodological details are incomplete and lack robustness. Required improvements for true PhD-level quality: Provide clearer operational definitions for all key constructs.; Strengthen the theoretical framework with deeper engagement with existing literature.; Enhance methodological rigor by addressing confounding variables and ensuring reproducibility. Final verdict: The proposal demonstrates potential but falls short of PhD-level research maturity due to weaknesses in theoretical depth, methodological rigor, and literature engagement."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "AI-Driven Threat Intelligence for Predicting Advanced Persistent Attacks in Cloud-Based IT Services",
+        "similarity": 0.7067
+      },
+      {
+        "original_index": 4,
+        "title": "AI-Driven Deception Systems for Advanced Persistent Threat (APT) Mitigation",
+        "similarity": 0.6615
+      },
+      {
+        "original_index": 3,
+        "title": "AI-Augmented Intrusion Detection Systems for Mitigating Advanced Persistent Threats in Cyber-Physical Manufacturing Networks",
+        "similarity": 0.6566
+      },
+      {
+        "original_index": 2,
+        "title": "AI Tool for Detecting Behavioural Anomalies in Organisational Networks",
+        "similarity": 0.6434
+      },
+      {
+        "original_index": 1,
+        "title": "Cognitive Cyber Defense Applying Artificial General Intelligence to Predict and Counteract Advanced Persistent Threats",
+        "similarity": 0.5243
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "AI-Driven Deception Systems for Advanced Persistent Threat (APT) Mitigation",
+          "similarity": 0.7866
+        },
+        {
+          "paper_index": 1,
+          "title": "AI-Driven Threat Intelligence for Predicting Advanced Persistent Attacks in Cloud-Based IT Services",
+          "similarity": 0.7065
+        },
+        {
+          "paper_index": 3,
+          "title": "AI-Augmented Intrusion Detection Systems for Mitigating Advanced Persistent Threats in Cyber-Physical Manufacturing Networks",
+          "similarity": 0.6839
+        }
+      ],
+      "max_similarity": 0.7866,
+      "mean_similarity": 0.6941
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 1,
+          "title": "AI-Driven Threat Intelligence for Predicting Advanced Persistent Attacks in Cloud-Based IT Services",
+          "similarity": 0.7473
+        },
+        {
+          "paper_index": 3,
+          "title": "AI-Augmented Intrusion Detection Systems for Mitigating Advanced Persistent Threats in Cyber-Physical Manufacturing Networks",
+          "similarity": 0.6911
+        },
+        {
+          "paper_index": 2,
+          "title": "AI-Driven Deception Systems for Advanced Persistent Threat (APT) Mitigation",
+          "similarity": 0.687
+        }
+      ],
+      "max_similarity": 0.7473,
+      "mean_similarity": 0.6647
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "AI-Driven Detection of Advanced Persistent Threats in Enterprise Networks",
+    "retrieval_snapshot_id": "20260529T054438Z-ai-driven-detection-of-advanced-persistent-threats-in-enterprise-networks-5",
+    "latency_ms": 212666,
+    "prompt_tokens": 68130,
+    "completion_tokens": 8282,
+    "total_tokens": 76412,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

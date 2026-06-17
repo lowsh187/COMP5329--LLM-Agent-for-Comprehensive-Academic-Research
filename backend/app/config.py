@@ -34,6 +34,7 @@ class Settings:
     semantic_scholar_api_key: str | None = env_value("SEMANTIC_SCHOLAR_API_KEY")
     arxiv_max_results: int = int(env_value("ARXIV_MAX_RESULTS", default="5") or "5")
     llm_temperature: float = float(env_value("LLM_TEMPERATURE", default="0.3") or "0.3")
+    llm_timeout_seconds: float = float(env_value("LLM_TIMEOUT_SECONDS", default="90") or "90")
 
 
 settings = Settings()

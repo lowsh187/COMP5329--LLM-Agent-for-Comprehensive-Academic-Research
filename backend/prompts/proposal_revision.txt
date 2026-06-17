@@ -9,6 +9,9 @@ Retrieved papers:
 Summary:
 {summary}
 
+Literature tension graph:
+{literature_tension_graph}
+
 Gap:
 {gap}
 
@@ -30,6 +33,9 @@ Technical feasibility:
 Question:
 {question}
 
+Research problem validity check:
+{research_problem_validity_check}
+
 Theoretical mechanism:
 {theoretical_mechanism}
 
@@ -45,8 +51,23 @@ Methodology:
 Novelty and contribution:
 {novelty_contribution}
 
+Contribution type router:
+{contribution_type_router}
+
 Failure analysis:
 {failure_analysis}
+
+PhD contribution design:
+{phd_contribution_design}
+
+Pre-proposal reviewer attack:
+{pre_proposal_critique}
+
+Bad proposal pattern detector:
+{bad_proposal_pattern_detector}
+
+Evidence-claim alignment:
+{evidence_claim_alignment}
 
 Draft proposal:
 {proposal}
@@ -68,6 +89,10 @@ Revision requirements:
 - Improve the methodology by adding appropriate controls/baselines, valid metrics, evaluation or statistical validity, reproducibility details, confound controls, and risk analysis where needed.
 - Include concrete failure modes, limitations, negative-result interpretation, and mitigation.
 - Clarify theoretical, methodological, and practical contribution types, and avoid presenting a generic AI application as novelty.
+- Preserve and strengthen the PhD contribution design: concrete contribution, mechanism-level claim, strongest baseline or ablation logic, and what a negative result would mean.
+- Explicitly repair any remaining gaps from the pre-proposal reviewer attack.
+- Preserve the literature-tension origin, validity-check reframing, and primary contribution type instead of adding unrelated claims.
+- Remove bad proposal patterns and repair unsupported claims identified by the detector and evidence-claim alignment report.
 - Preserve one coherent proposal paragraph, but prioritize research reasoning quality over polished wording.
 
 Return JSON with exactly this key:

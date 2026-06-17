@@ -1,0 +1,74 @@
+{
+  "snapshot_id": "20260529T053507Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-5",
+  "topic": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "max_papers": 5,
+  "retrieved_at": "20260529T053507Z",
+  "papers": [
+    {
+      "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+      "authors": [
+        "Rui Xue",
+        "Haoyu Han",
+        "Tong Zhao",
+        "Neil Shah",
+        "Jiliang Tang",
+        "Xiaorui Liu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023-8-6",
+      "url": "https://doi.org/10.1145/3580305.3599565",
+      "source": "Crossref"
+    },
+    {
+      "title": "An Accurate and Efficient Approach to Knowledge Extraction from Scientific Publications Using Structured Ontology Models, Graph Neural Networks, and Large Language Models",
+      "authors": [
+        "T. V. Ivanisenko",
+        "P. Demenkov",
+        "V. Ivanisenko"
+      ],
+      "abstract": "The rapid growth of biomedical literature makes it challenging for researchers to stay current. Integrating knowledge from various sources is crucial for studying complex biological systems. Traditional text-mining methods often have limited accuracy because they don’t capture semantic and contextual nuances. Deep-learning models can be computationally expensive and typically have low interpretability, though efforts in explainable AI aim to mitigate this. Furthermore, transformer-based models have a tendency to produce false or made-up information—a problem known as hallucination—which is especially prevalent in large language models (LLMs). This study proposes a hybrid approach combining text-mining techniques with graph neural networks (GNNs) and fine-tuned large language models (LLMs) to extend biomedical knowledge graphs and interpret predicted edges based on published literature. An LLM is used to validate predictions and provide explanations. Evaluated on a corpus of experimentally confirmed protein interactions, the approach achieved a Matthews correlation coefficient (MCC) of 0.772. Applied to insomnia, the approach identified 25 interactions between 32 human proteins absent in known knowledge bases, including regulatory interactions between MAOA and 5-HT2C, binding between ADAM22 and 14-3-3 proteins, which is implicated in neurological diseases, and a circadian regulatory loop involving RORB and NR1D1. The hybrid GNN-LLM method analyzes biomedical literature efficiency to uncover potential molecular interactions for complex disorders. It can accelerate therapeutic target discovery by focusing expert verification on the most relevant automatically extracted information.",
+      "published": "2024-11-01",
+      "url": "https://www.semanticscholar.org/paper/0572345cd64163f7e2507fec739d5577dd106504",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+      "authors": [
+        "Jader Abreu",
+        "Luis Fred",
+        "David Macêdo",
+        "Cleber Zanchettin"
+      ],
+      "abstract": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in the architecture efficiently and not take into account the contexting importance of words and sentences. In this paper, we propose a new approach based on a combination of convolutional neural networks, gated recurrent units, and attention mechanisms for document classification tasks. The main contribution of this work is the use of convolution layers to extract more meaningful, generalizable and abstract features by the hierarchical representation. The proposed method in this paper improves the results of the current attention-based approaches for document classification.",
+      "published": "2019-01-20",
+      "url": "http://arxiv.org/abs/1901.06610v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Combining machine learning, simulations and experiments for improved glass design",
+      "authors": [
+        "N. Krishnan"
+      ],
+      "abstract": "The design of novel glasses with tailored properties remains a grand challenge in materials science, traditionally requiring extensive trial-and-error experimentation. This talk presents a comprehensive framework that integrates machine learning, atomistic simulations, and targeted experiments to accelerate the discovery and optimization of glass compositions. We demonstrate how large-scale machine learning models trained on experimental databases can predict glass properties across nearly the entire periodic table, enabling rapid screening of promising compositions. These predictions are refined through physics-informed graph neural networks that capture atomic-scale interactions and energy conservation principles, providing deeper insights into structure-property relationships. The framework is enhanced by automated knowledge extraction from scientific literature using our materials-specific language model (MatSciBERT) and natural language processing techniques. We showcase practical applications including the development of radiation-resistant nuclear waste glasses, scratch-resistant display glasses, and specialty glasses for space applications. The talk concludes by highlighting how this integrated approach has led to the discovery of novel glass compositions with superior properties, validated through experimental synthesis and characterization. Our results demonstrate that the synergistic combination of artificial intelligence, computational modeling, and experimental validation can significantly accelerate the glass design process while reducing resource requirements and environmental impact.",
+      "published": "2025-08-18",
+      "url": "https://www.semanticscholar.org/paper/5739ffec13cb5c6eee5de597836c43be75d6e4a3",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "authors": [
+        "Sergey Oladyshkin",
+        "Timothy Praditia",
+        "Ilja Kröker",
+        "Farid Mohammadi",
+        "Wolfgang Nowak",
+        "Sebastian Otte"
+      ],
+      "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks.",
+      "published": "2023-06-26",
+      "url": "http://arxiv.org/abs/2306.14753v1",
+      "source": "arXiv"
+    }
+  ]
+}

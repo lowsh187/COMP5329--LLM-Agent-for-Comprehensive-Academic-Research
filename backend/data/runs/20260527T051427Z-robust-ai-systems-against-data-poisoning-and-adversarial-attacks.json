@@ -1,0 +1,263 @@
+{
+  "experiment_id": "20260527T050907Z",
+  "run_index": 3,
+  "topic": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "condition": "baseline_with_retrieval",
+  "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "retrieval_snapshot_id": "20260527T051347Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-5",
+  "papers": [
+    {
+      "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+      "authors": [
+        "Jiutao Yue",
+        "Haofeng Li",
+        "Pengxu Wei",
+        "Guanbin Li",
+        "Liang Lin"
+      ],
+      "abstract": "Recently deep neural networks (DNNs) have achieved significant success in real-world image super-resolution (SR). However, adversarial image samples with quasi-imperceptible noises could threaten deep learning SR models. In this paper, we propose a robust deep learning framework for real-world SR that randomly erases potential adversarial noises in the frequency domain of input images or features. The rationale is that on the SR task clean images or features have a different pattern from the attacked ones in the frequency domain. Observing that existing adversarial attacks usually add high-frequency noises to input images, we introduce a novel random frequency mask module that blocks out high-frequency components possibly containing the harmful perturbations in a stochastic manner. Since the frequency masking may not only destroys the adversarial perturbations but also affects the sharp details in a clean image, we further develop an adversarial sample classifier based on the frequency domain of images to determine if applying the proposed mask module. Based on the above ideas, we devise a novel real-world image SR framework that combines the proposed frequency mask modules and the proposed adversarial classifier with an existing super-resolution backbone network. Experiments show that our proposed method is more insensitive to adversarial attacks and presents more stable SR results than existing models and defenses.",
+      "published": "2022-07-31",
+      "url": "http://arxiv.org/abs/2208.00428v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Towards Imperceptible and Robust Adversarial Example Attacks against Neural Networks",
+      "authors": [
+        "Bo Luo",
+        "Yannan Liu",
+        "Lingxiao Wei",
+        "Qiang Xu"
+      ],
+      "abstract": "Machine learning systems based on deep neural networks, being able to produce state-of-the-art results on various perception tasks, have gained mainstream adoption in many applications. However, they are shown to be vulnerable to adversarial example attack, which generates malicious output by adding slight perturbations to the input. Previous adversarial example crafting methods, however, use simple metrics to evaluate the distances between the original examples and the adversarial ones, which could be easily detected by human eyes. In addition, these attacks are often not robust due to the inevitable noises and deviation in the physical world. In this work, we present a new adversarial example attack crafting method, which takes the human perceptual system into consideration and maximizes the noise tolerance of the crafted adversarial example. Experimental results demonstrate the efficacy of the proposed technique.",
+      "published": "2018-01-15",
+      "url": "http://arxiv.org/abs/1801.04693v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "authors": [
+        "Xiaocui Dang",
+        "Priyadarsi Nanda",
+        "Heng Xu",
+        "Haiyu Deng",
+        "Chunpeng Ge"
+      ],
+      "abstract": "Deep learning-based recommendation systems are highly vulnerable to data poisoning attacks, where adversaries manipulate user interactions to degrade model integrity. We hypothesize that combining an active robust loss with a passive GAN-based detection will significantly reduce poisoning impact in recommendation systems without sacrificing utility. We propose a robust and adaptive dual-defense framework: the active defense integrates a crafted loss function to mitigate poisoning effects while maintaining model performance. The passive defense employs a Generative Adversarial Network (GAN)-based detection model to identify and filter poisoned data, enhancing detection accuracy and system security. The framework supports classical matrix factorization (MF) model and large language model (LLM)-based pipelines and scales to large datasets. Extensive experiments across multiple real-world datasets at varying poison rates show that our method outperforms representative defenses, consistently reducing attack success without sacrificing recommendation quality. The framework also admits a federated instantiation, where robust training and GAN-based detection run on clients and only privacy-preserving summaries are aggregated. The proposed method significantly improves the robustness and adaptability of recommendation systems under data poisoning attacks.",
+      "published": "2026-04-19",
+      "url": "https://www.semanticscholar.org/paper/d6186eae94ca6b0692cad55298509226885c6271",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+      "authors": [
+        "H. Kure",
+        "Pradipta Sarkar",
+        "A. Ndanusa",
+        "Augustine O. Nwajana"
+      ],
+      "abstract": "This paper investigates the critical issue of data poisoning attacks on AI models, a growing concern in the ever-evolving landscape of artificial intelligence and cybersecurity. As advanced technology systems become increasingly prevalent across various sectors, the need for robust defence mechanisms against adversarial attacks becomes paramount. The study aims to develop and evaluate novel techniques for detecting and preventing data poisoning attacks, focusing on both theoretical frameworks and practical applications. Through a comprehensive literature review, experimental validation using the CIFAR-10 and Insurance Claims datasets, and the development of innovative algorithms, this paper seeks to enhance the resilience of AI models against malicious data manipulation. The study explores various methods, including anomaly detection, robust optimization strategies, and ensemble learning, to identify and mitigate the effects of poisoned data during model training. Experimental results indicate that data poisoning significantly degrades model performance, reducing classification accuracy by up to 27 % in image recognition tasks (CIFAR-10) and 22 % in fraud detection models (Insurance Claims dataset). The proposed defence mechanisms, including statistical anomaly detection and adversarial training, successfully mitigated poisoning effects, improving model robustness and restoring accuracy levels by an average of $15-20 \\%$. The findings further demonstrate that ensemble learning techniques provide an additional layer of resilience, reducing false positives and false negatives caused by adversarial data injections. The findings of this paper contribute to the broader understanding of adversarial machine learning and provide actionable insights for practitioners in industries facing emerging threats to AI-based systems. By addressing the challenges of data poisoning attacks, this study aims to improve the security and reliability of AI models, ultimately fostering greater trust in AI technologies across critical applications.",
+      "published": "2025-03-12",
+      "url": "https://www.semanticscholar.org/paper/898e535ba4ebce0377abe00023e722c29d66fdd2",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "authors": [
+        "Yi Yu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.32657/10356/201674",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Robustness of Deep Learning Models Against Adversarial Attacks",
+      "paper_indices": [
+        1,
+        2
+      ],
+      "summary": "This cluster focuses on enhancing the robustness of deep neural networks (DNNs) in image super-resolution and adversarial example attacks. Paper 1 introduces a framework that utilizes frequency domain analysis to mitigate adversarial perturbations, while Paper 2 develops a method for crafting imperceptible adversarial examples that consider human perception, aiming to improve the robustness of DNNs against such attacks.",
+      "limitations": "Both papers highlight the challenge of balancing the removal of adversarial noise with the preservation of image quality. Additionally, the effectiveness of the proposed methods in diverse real-world scenarios and against various types of adversarial attacks remains to be fully validated.",
+      "gap_relevance": "This cluster identifies the need for further research into the interplay between adversarial robustness and perceptual quality in DNNs, suggesting potential avenues for developing more resilient models that can withstand adversarial attacks while maintaining performance in practical applications."
+    },
+    {
+      "theme": "Defense Mechanisms Against Data Poisoning in AI Systems",
+      "paper_indices": [
+        3,
+        4,
+        5
+      ],
+      "summary": "This cluster investigates various strategies to detect and mitigate data poisoning attacks on AI models, particularly in recommendation systems and computer vision. The proposed methods include a dual-defense framework combining robust loss functions and GAN-based detection, as well as novel algorithms for anomaly detection and robust optimization. Experimental results demonstrate significant improvements in model resilience against data poisoning, with reduced attack success rates and maintained performance metrics.",
+      "limitations": "The studies primarily focus on specific datasets and may not generalize across all applications. Additionally, the effectiveness of the proposed defenses in real-world scenarios and under varying attack strategies remains to be fully validated. The absence of an abstract for one paper limits comprehensive understanding of its contributions.",
+      "gap_relevance": "This cluster highlights the urgent need for robust defense mechanisms in AI systems, addressing a critical research gap in cybersecurity. It provides foundational insights and methodologies that can guide future research in enhancing the resilience of AI models against adversarial threats."
+    }
+  ],
+  "evidence_notes": [],
+  "summary": null,
+  "scholarly_positioning": null,
+  "domain_router": null,
+  "research_scope": null,
+  "concept_definition": null,
+  "technical_feasibility": null,
+  "gap": null,
+  "question": null,
+  "theoretical_mechanism": null,
+  "hypothesis": null,
+  "operationalization_causal_check": null,
+  "methodology": null,
+  "novelty_contribution": null,
+  "failure_analysis": null,
+  "proposal_logic_graph": null,
+  "proposal": "This proposal aims to develop a robust AI framework that integrates advanced detection and defense mechanisms against both data poisoning and adversarial attacks. While existing works, such as the dual-defense framework proposed by Dang et al. (2026) and the detection strategies outlined by Kure et al. (2025), focus on either recommendation systems or specific detection methods, there remains a gap in creating a unified approach that addresses multiple attack vectors across various AI applications. The objective is to design a comprehensive system that employs a hybrid model combining frequency domain analysis, as suggested by Yue et al. (2022), with a robust anomaly detection mechanism to identify and mitigate the effects of poisoned data. This methodology will leverage Generative Adversarial Networks (GANs) for enhanced detection accuracy, while also incorporating robust loss functions to maintain model performance. The expected contribution is a novel framework that not only improves resilience against adversarial perturbations but also adapts to the evolving nature of data poisoning attacks, thereby enhancing the security and reliability of AI systems. This approach extends existing literature by integrating multiple defense strategies into a cohesive model that addresses the complexities of real-world AI vulnerabilities.",
+  "draft_proposal": null,
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 3,
+    "logic": 3,
+    "novelty": 3,
+    "feasibility": 2,
+    "literature_alignment": 3,
+    "phd_level_quality": 3,
+    "presentation": 3,
+    "weighted_total": 43.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 6.0,
+        "level": "6-8: mostly descriptive or application-oriented framing",
+        "justification": "The proposal identifies a relevant topic in AI security but lacks a precise and operationally defined research problem. The framing is more application-oriented than research-driven, failing to articulate a clear research question. Major weaknesses: Vague novelty claims and unclear variable definitions hinder the understanding of the research scope. The proposal does not adequately define key concepts such as 'robustness' or 'data poisoning'. Next band requirements: To improve, the proposal needs a clearly articulated research question and operational definitions of key concepts that delineate the boundaries of the research."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 7.0,
+        "level": "6-8: several disconnected components or shallow justification",
+        "justification": "The proposal presents a general idea of a hybrid model but lacks coherent logical connections between the problem, hypothesis, and methodology. Assumptions regarding the effectiveness of the proposed methods are not scientifically justified. Major weaknesses: The reasoning chain is fragmented, and there is insufficient justification for how the proposed methods will effectively address the stated problem. Next band requirements: A more robust logical flow is needed, linking the hypothesis to the methodology with clear scientific justification for each assumption."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 10.0,
+        "level": "6-11: limited novelty; mostly recombination of existing ideas",
+        "justification": "While the proposal aims to integrate various defense mechanisms, it does not present a genuinely original contribution to the field. The novelty appears to be in the combination of existing techniques rather than in introducing new theoretical frameworks or mechanisms. Major weaknesses: The proposal lacks a clear theoretical contribution and does not advance understanding in the field beyond existing literature. Next band requirements: To achieve higher novelty, the proposal should introduce new theoretical insights or frameworks that extend current knowledge in AI security."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 5.0,
+        "level": "3-5: major feasibility or validity concerns",
+        "justification": "The proposal lacks detailed methodology and does not provide a clear experimental design. There are significant concerns regarding the realism of the proposed methods and their evaluation metrics. Major weaknesses: Insufficient detail on how the proposed framework will be tested, including sample sizes, controls, and evaluation metrics. Next band requirements: A detailed experimental design with clear baselines, operationalized variables, and robust evaluation metrics is necessary."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 8.0,
+        "level": "6-8: limited synthesis or weak gap justification",
+        "justification": "The proposal references relevant literature but does not critically engage with it or clearly identify genuine gaps. The positioning lacks depth and does not sufficiently explain why existing work is inadequate. Major weaknesses: The proposal does not adequately synthesize prior work or articulate the specific contributions that the proposed research will make. Next band requirements: A more thorough engagement with existing literature, including a critical analysis of gaps and unresolved issues, is needed."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 4.0,
+        "level": "3-4: technically competent but conceptually shallow",
+        "justification": "The proposal demonstrates some understanding of the topic but lacks depth in theoretical sophistication and mechanism-level reasoning. The discussion of limitations is minimal. Major weaknesses: Conceptual rigor is lacking, and there is insufficient discussion of potential failure cases or trade-offs. Next band requirements: To improve, the proposal should provide a deeper theoretical analysis and articulate broader implications of the research."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 3.0,
+        "level": "3: generally clear but inconsistent or repetitive",
+        "justification": "The proposal is somewhat clear but suffers from inconsistencies in terminology and structure. The writing lacks conciseness and precision. Major weaknesses: The organization of ideas is not coherent, making it difficult to follow the main arguments. Next band requirements: Improving clarity, organization, and precision in writing will enhance the overall presentation."
+      }
+    ],
+    "comments": "Total score: 43.0/100. Academic level: Master's-level. Major weaknesses: Vague problem definition and research question.; Fragmented logical reasoning and unsupported assumptions.; Limited novelty and theoretical contribution.; Weak experimental design and feasibility concerns.; Insufficient engagement with existing literature. Required improvements for true PhD-level quality: Clearly define the research problem and operationalize key concepts.; Establish coherent logical connections between hypothesis and methodology.; Introduce original theoretical contributions or frameworks.; Develop a detailed and realistic experimental design.; Engage more critically with existing literature and identify genuine gaps. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant revisions to meet the standards expected for doctoral research."
+  },
+  "baseline": {
+    "proposal": "This proposal aims to develop a robust AI framework that integrates advanced detection and defense mechanisms against both data poisoning and adversarial attacks. While existing works, such as the dual-defense framework proposed by Dang et al. (2026) and the detection strategies outlined by Kure et al. (2025), focus on either recommendation systems or specific detection methods, there remains a gap in creating a unified approach that addresses multiple attack vectors across various AI applications. The objective is to design a comprehensive system that employs a hybrid model combining frequency domain analysis, as suggested by Yue et al. (2022), with a robust anomaly detection mechanism to identify and mitigate the effects of poisoned data. This methodology will leverage Generative Adversarial Networks (GANs) for enhanced detection accuracy, while also incorporating robust loss functions to maintain model performance. The expected contribution is a novel framework that not only improves resilience against adversarial perturbations but also adapts to the evolving nature of data poisoning attacks, thereby enhancing the security and reliability of AI systems. This approach extends existing literature by integrating multiple defense strategies into a cohesive model that addresses the complexities of real-world AI vulnerabilities.",
+    "evaluation": {
+      "clarity": 3,
+      "logic": 3,
+      "novelty": 3,
+      "feasibility": 2,
+      "literature_alignment": 3,
+      "phd_level_quality": 3,
+      "presentation": 3,
+      "weighted_total": 43.0,
+      "rubric_scores": [
+        {
+          "criterion": "Research Clarity & Problem Definition",
+          "weight": 15,
+          "score": 6.0,
+          "level": "6-8: mostly descriptive or application-oriented framing",
+          "justification": "The proposal identifies a relevant topic in AI security but lacks a precise and operationally defined research problem. The framing is more application-oriented than research-driven, failing to articulate a clear research question. Major weaknesses: Vague novelty claims and unclear variable definitions hinder the understanding of the research scope. The proposal does not adequately define key concepts such as 'robustness' or 'data poisoning'. Next band requirements: To improve, the proposal needs a clearly articulated research question and operational definitions of key concepts that delineate the boundaries of the research."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "weight": 15,
+          "score": 7.0,
+          "level": "6-8: several disconnected components or shallow justification",
+          "justification": "The proposal presents a general idea of a hybrid model but lacks coherent logical connections between the problem, hypothesis, and methodology. Assumptions regarding the effectiveness of the proposed methods are not scientifically justified. Major weaknesses: The reasoning chain is fragmented, and there is insufficient justification for how the proposed methods will effectively address the stated problem. Next band requirements: A more robust logical flow is needed, linking the hypothesis to the methodology with clear scientific justification for each assumption."
+        },
+        {
+          "criterion": "Novelty & Research Contribution",
+          "weight": 20,
+          "score": 10.0,
+          "level": "6-11: limited novelty; mostly recombination of existing ideas",
+          "justification": "While the proposal aims to integrate various defense mechanisms, it does not present a genuinely original contribution to the field. The novelty appears to be in the combination of existing techniques rather than in introducing new theoretical frameworks or mechanisms. Major weaknesses: The proposal lacks a clear theoretical contribution and does not advance understanding in the field beyond existing literature. Next band requirements: To achieve higher novelty, the proposal should introduce new theoretical insights or frameworks that extend current knowledge in AI security."
+        },
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "weight": 20,
+          "score": 5.0,
+          "level": "3-5: major feasibility or validity concerns",
+          "justification": "The proposal lacks detailed methodology and does not provide a clear experimental design. There are significant concerns regarding the realism of the proposed methods and their evaluation metrics. Major weaknesses: Insufficient detail on how the proposed framework will be tested, including sample sizes, controls, and evaluation metrics. Next band requirements: A detailed experimental design with clear baselines, operationalized variables, and robust evaluation metrics is necessary."
+        },
+        {
+          "criterion": "Literature Alignment & Scholarly Positioning",
+          "weight": 15,
+          "score": 8.0,
+          "level": "6-8: limited synthesis or weak gap justification",
+          "justification": "The proposal references relevant literature but does not critically engage with it or clearly identify genuine gaps. The positioning lacks depth and does not sufficiently explain why existing work is inadequate. Major weaknesses: The proposal does not adequately synthesize prior work or articulate the specific contributions that the proposed research will make. Next band requirements: A more thorough engagement with existing literature, including a critical analysis of gaps and unresolved issues, is needed."
+        },
+        {
+          "criterion": "PhD-Level Academic Depth",
+          "weight": 10,
+          "score": 4.0,
+          "level": "3-4: technically competent but conceptually shallow",
+          "justification": "The proposal demonstrates some understanding of the topic but lacks depth in theoretical sophistication and mechanism-level reasoning. The discussion of limitations is minimal. Major weaknesses: Conceptual rigor is lacking, and there is insufficient discussion of potential failure cases or trade-offs. Next band requirements: To improve, the proposal should provide a deeper theoretical analysis and articulate broader implications of the research."
+        },
+        {
+          "criterion": "Presentation & Academic Communication",
+          "weight": 5,
+          "score": 3.0,
+          "level": "3: generally clear but inconsistent or repetitive",
+          "justification": "The proposal is somewhat clear but suffers from inconsistencies in terminology and structure. The writing lacks conciseness and precision. Major weaknesses: The organization of ideas is not coherent, making it difficult to follow the main arguments. Next band requirements: Improving clarity, organization, and precision in writing will enhance the overall presentation."
+        }
+      ],
+      "comments": "Total score: 43.0/100. Academic level: Master's-level. Major weaknesses: Vague problem definition and research question.; Fragmented logical reasoning and unsupported assumptions.; Limited novelty and theoretical contribution.; Weak experimental design and feasibility concerns.; Insufficient engagement with existing literature. Required improvements for true PhD-level quality: Clearly define the research problem and operationalize key concepts.; Establish coherent logical connections between hypothesis and methodology.; Introduce original theoretical contributions or frameworks.; Develop a detailed and realistic experimental design.; Engage more critically with existing literature and identify genuine gaps. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant revisions to meet the standards expected for doctoral research."
+    }
+  },
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_mode": "raw_source_order"
+  },
+  "metrics": {
+    "condition": "baseline_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+    "retrieval_snapshot_id": "20260527T051347Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-5",
+    "latency_ms": 51496,
+    "prompt_tokens": 6304,
+    "completion_tokens": 1902,
+    "total_tokens": 8206,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

@@ -291,6 +291,9 @@ Generated reasoning chain:
 Summary:
 {stage_data.get("summary", "")}
 
+Literature tension graph:
+{stage_data.get("literature_tension_graph", "")}
+
 Scholarly positioning:
 {stage_data.get("scholarly_positioning", "")}
 
@@ -312,6 +315,15 @@ Gap:
 Question:
 {stage_data.get("question", "")}
 
+Research problem validity check:
+{stage_data.get("research_problem_validity_check", "")}
+
+Research problem blueprint:
+{stage_data.get("research_problem_blueprint", "")}
+
+Blueprint compliance check:
+{stage_data.get("blueprint_compliance_check", "")}
+
 Theoretical mechanism:
 {stage_data.get("theoretical_mechanism", "")}
 
@@ -326,6 +338,21 @@ Methodology:
 
 Novelty and contribution:
 {stage_data.get("novelty_contribution", "")}
+
+Contribution type router:
+{stage_data.get("contribution_type_router", "")}
+
+PhD contribution design:
+{stage_data.get("phd_contribution_design", "")}
+
+Pre-proposal reviewer attack:
+{stage_data.get("pre_proposal_critique", "")}
+
+Bad proposal pattern detector:
+{stage_data.get("bad_proposal_pattern_detector", "")}
+
+Evidence-claim alignment:
+{stage_data.get("evidence_claim_alignment", "")}
 
 Failure analysis:
 {stage_data.get("failure_analysis", "")}

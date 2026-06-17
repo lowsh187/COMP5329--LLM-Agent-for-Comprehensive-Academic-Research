@@ -1,0 +1,229 @@
+{
+  "experiment_id": "20260527T194209Z",
+  "run_index": 3,
+  "topic": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "condition": "multi_stage_without_retrieval",
+  "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "retrieval_snapshot_id": null,
+  "papers": [],
+  "literature_themes": [],
+  "evidence_notes": [],
+  "summary": "Recent literature emphasizes the need for robust AI systems that can withstand data poisoning and adversarial attacks. Techniques such as adversarial training, anomaly detection, and the use of ensemble methods have been proposed to enhance model resilience. Additionally, theoretical frameworks are being developed to better understand the vulnerabilities of AI systems, while empirical studies demonstrate varying degrees of success in mitigating these risks. Overall, the field is moving towards integrating defensive strategies into the AI development lifecycle to ensure greater security and reliability.",
+  "scholarly_positioning": "While existing approaches such as adversarial training and ensemble methods have made strides in enhancing AI robustness, they often fall short in addressing the evolving nature of data poisoning and adversarial attacks, particularly in dynamic environments. Current methodologies frequently lack a comprehensive theoretical framework that integrates these defensive strategies into a cohesive lifecycle, leaving significant gaps in understanding the underlying vulnerabilities of AI systems. Moreover, empirical studies reveal inconsistent effectiveness across different contexts, highlighting the need for a more unified approach. This proposed research aims to bridge these gaps by developing a novel framework that not only enhances resilience against known threats but also anticipates and mitigates emerging risks, thereby contributing to the broader discourse on AI security and reliability.",
+  "domain_router": "{\n  \"domain\": [\n    \"machine-learning method development\",\n    \"other\"\n  ],\n  \"methodology_template\": \"Theoretical framework development, empirical studies, and integration of defensive strategies into AI lifecycle.\"\n}",
+  "research_scope": "This study will focus on developing a robust AI framework specifically for image classification tasks in dynamic environments, targeting convolutional neural networks (CNNs) as the model type. The evaluation period will span six months, during which the framework will be tested against both simulated and real-world data poisoning and adversarial attack scenarios. A control group will consist of standard CNN models without the proposed framework, allowing for a comparative analysis of resilience. Primary outcomes will include the models' accuracy and robustness metrics under attack conditions, while secondary outcomes will assess the adaptability of the framework to new types of adversarial threats. This research aims to provide a comprehensive understanding of vulnerabilities in AI systems and enhance their reliability in practical applications.",
+  "concept_definition": "{\n  \"Robust AI Systems\": \"AI models designed to maintain performance and reliability despite adversarial attacks and data poisoning.\",\n  \"Data Poisoning\": \"A type of attack where malicious data is injected into the training set to mislead the learning process.\",\n  \"Adversarial Attacks\": \"Techniques used to deceive AI models by providing inputs specifically crafted to cause incorrect outputs.\",\n  \"Convolutional Neural Networks (CNNs)\": \"A class of deep learning models particularly effective for image classification tasks, utilizing convolutional layers to extract features from images.\",\n  \"Dynamic Environments\": \"Settings where data and conditions change over time, requiring AI systems to adapt continuously.\",\n  \"Empirical Studies\": \"Research involving the collection and analysis of data to test hypotheses or frameworks in real-world scenarios.\",\n  \"Defensive Strategies\": \"Techniques integrated into the AI lifecycle to enhance resilience against attacks, such as adversarial training and anomaly detection.\",\n  \"Accuracy Metrics\": \"Quantitative measures of how often the AI model correctly classifies inputs.\",\n  \"Robustness Metrics\": \"Measures of an AI model's ability to maintain performance under adversarial conditions.\",\n  \"Adaptability\": \"The capability of the AI framework to adjust to new and unforeseen adversarial threats.\",\n  \"Comparative Analysis\": \"A method of evaluating the performance of different models or frameworks against each other to determine effectiveness.\",\n  \"Vulnerabilities\": \"Weaknesses in AI systems that can be exploited by adversarial attacks or data poisoning.\",\n  \"Reliability\": \"The degree to which an AI system consistently performs as expected in practical applications.\"\n}",
+  "technical_feasibility": "The proposed study is technically feasible but requires access to open-source CNN models for effective experimentation and validation of the robustness framework. Additionally, labeled datasets for both simulated and real-world scenarios are necessary to evaluate the models' performance accurately. GPU resources will be essential for training and testing the CNNs efficiently. Since the study does not involve human participants or user trust evaluation, ethics approval is not required. To enhance adaptability testing, consider including diverse datasets that reflect dynamic environments. If only API models are available, the design should shift towards black-box evaluation methods to assess robustness without internal state access.",
+  "gap": "Prior studies have demonstrated the effectiveness of adversarial training and ensemble methods in enhancing AI robustness in static environments; however, they treat the dynamic nature of data poisoning and adversarial attacks as fixed, leaving unclear whether these methods can adapt to evolving threats in real-world applications. This matters practically because the security and reliability of AI systems are critical in dynamic settings where threats continuously change; therefore, this study investigates the development of a novel framework for image classification tasks that enhances resilience against both known and emerging adversarial threats.",
+  "question": "How does the proposed robust AI framework for convolutional neural networks enhance resilience against both known and emerging adversarial threats in image classification tasks compared to standard CNN models in dynamic environments?",
+  "theoretical_mechanism": "The proposed robust AI framework enhances resilience against adversarial threats (dependent variable) by integrating defensive strategies (independent variable) into the convolutional neural network (CNN) architecture. The mediator in this causal chain is the representation features that improve the model's ability to detect and respond to adversarial inputs. The theoretical framework is grounded in adversarial training and anomaly detection, which serve to strengthen the model's defenses. A moderator could be the dynamic nature of the environment, which influences the effectiveness of the defensive strategies. System-level outcomes include reduced unsafe response rates and improved robustness metrics, while user-level outcomes, such as trust and satisfaction, are influenced by perceived transparency in the model's decision-making process. Assumptions requiring empirical validation include the adaptability of the framework to new adversarial threats and the effectiveness of the integrated strategies in varying dynamic conditions.",
+  "hypothesis": "Integrating defensive strategies into the convolutional neural network architecture (independent variable) will result in significantly higher robustness metrics (primary dependent variable) compared to standard CNN models (comparison/control), mediated by improved representation features, particularly in dynamic environments.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name                     | Role        | Measurement Instrument                     | Data Source           | Timing            |\n|------------------------------------|-------------|-------------------------------------------|-----------------------|-------------------|\n| Defensive Strategies                | IV          | Integration of techniques (adversarial training, anomaly detection) | Framework documentation | Pre-implementation |\n| Robustness Metrics                 | DV          | Accuracy metrics, robustness metrics      | Model performance logs  | Post-implementation |\n| Representation Features             | Mediator    | Probing accuracy, feature sparsity       | Model internal states   | During training    |\n| Dynamic Environment                 | Moderator   | Environmental variability assessments     | Simulation data        | Throughout study   |\n| Unsafe Response Rate                | Output-level | Response classification metrics           | Model evaluation logs   | Post-implementation |\n| User Trust                         | User-level   | Surveys, trust calibration                | Participant feedback    | Post-implementation |\n\nCausal Pathway: The integration of defensive strategies (IV) enhances representation features (mediator), leading to improved robustness metrics (DV) in dynamic environments (moderator). \n\nLikely Confounds: Variability in data quality, external environmental changes, and model architecture differences. \n\nClaim Boundaries: The study claims that the proposed framework improves robustness metrics compared to standard CNNs, but it does not claim that all adversarial threats can be mitigated or that the framework is universally applicable across all dynamic environments. \n\nWhat Cannot Be Concluded: Causal relationships cannot be definitively established due to potential confounding variables and the complexity of real-world applications.",
+  "methodology": "This study will employ a comparative analysis of a novel robust AI framework against standard convolutional neural networks (CNNs) in image classification tasks. The experimental design will involve training both models on labeled datasets that simulate dynamic environments, incorporating data poisoning and adversarial attacks. Key operationalized variables include defensive strategies as the independent variable, robustness metrics as the dependent variable, and representation features as the mediator. Evaluation metrics will focus on accuracy and robustness under attack conditions, with statistical analysis to validate improvements in the proposed framework. To control for confounding variables, the study will ensure consistent data quality and environmental conditions across experiments. Reproducibility will be enhanced by documenting the model architectures and training procedures, while scope control will limit the study to specific types of adversarial threats relevant to image classification. The evaluation will span six months, allowing for thorough testing and adaptation of the framework to emerging threats.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces a comprehensive theoretical framework that integrates adversarial training and anomaly detection into the CNN architecture, enhancing the understanding of how defensive strategies can be systematically applied to improve AI resilience in dynamic environments.\",\n  \"technical_contribution\": \"The research develops a novel mechanism for dynamically adapting CNNs to evolving adversarial threats through the integration of representation features, which improves the model's detection and response capabilities to both data poisoning and adversarial attacks.\",\n  \"empirical_contribution\": \"By conducting a comparative analysis of the proposed framework against standard CNNs over a six-month evaluation period, the study provides empirical evidence of improved robustness metrics and adaptability to new adversarial threats, contributing to the body of knowledge on AI security.\",\n  \"practical_deployment_contribution\": \"The findings will inform deployment guidelines for robust AI systems in real-world applications, emphasizing the importance of continuous adaptation and monitoring in dynamic environments, thus enhancing the reliability and security of AI-driven image classification systems.\"\n}",
+  "phd_contribution_design": "This research proposes a novel theoretical framework that systematically integrates adversarial training and anomaly detection into convolutional neural networks (CNNs) to enhance their resilience against evolving adversarial threats in dynamic environments. The mechanism-level claim is that this integration improves representation features, thereby enabling the model to detect and respond to both data poisoning and adversarial attacks more effectively than standard CNNs. Existing literature fails to provide a cohesive framework that addresses the adaptability of defensive strategies in real-world applications, leaving a gap in understanding how these strategies can be dynamically applied. The falsifiable scientific claim is that the proposed framework will yield significantly higher robustness metrics compared to standard CNNs, with the strongest baseline being the performance of traditional CNNs without integrated defenses. Strong evidence supporting this claim would include statistically significant improvements in robustness metrics under various attack scenarios. A negative or null result would suggest that the integrated strategies do not enhance resilience as hypothesized, prompting a reevaluation of the theoretical framework and its applicability to dynamic environments.",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"Data Poisoning\",\n      \"risk\": \"Malicious data may compromise model training.\",\n      \"mitigation_strategy\": \"Implement continuous data validation and anomaly detection mechanisms.\"\n    },\n    {\n      \"failure_mode\": \"Adversarial Attacks\",\n      \"risk\": \"Models may remain vulnerable to new attack vectors.\",\n      \"mitigation_strategy\": \"Regularly update the defensive strategies and retrain models with new adversarial examples.\"\n    },\n    {\n      \"failure_mode\": \"Model Overfitting\",\n      \"risk\": \"Framework may perform well on training data but poorly on unseen data.\",\n      \"mitigation_strategy\": \"Use cross-validation and regularization techniques during model training.\"\n    },\n    {\n      \"failure_mode\": \"Dynamic Environment Adaptability\",\n      \"risk\": \"Framework may not adapt effectively to rapidly changing data distributions.\",\n      \"mitigation_strategy\": \"Incorporate online learning techniques to allow models to update continuously.\"\n    },\n    {\n      \"failure_mode\": \"Low Engagement with Framework\",\n      \"risk\": \"Limited adoption of the proposed framework by practitioners.\",\n      \"mitigation_strategy\": \"Provide comprehensive documentation and user-friendly interfaces for implementation.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretations\",\n      \"risk\": \"Results may be misinterpreted as definitive proof of robustness.\",\n      \"mitigation_strategy\": \"Clearly communicate the limitations and scope of the findings in all reports.\"\n    },\n    {\n      \"failure_mode\": \"Ethical and Safety Risks\",\n      \"risk\": \"Potential misuse of the framework for malicious purposes.\",\n      \"mitigation_strategy\": \"Establish guidelines for ethical use and conduct regular audits of applications.\"\n    },\n    {\n      \"failure_mode\": \"Data Sparsity\",\n      \"risk\": \"Insufficient data for training may lead to unreliable model performance.\",\n      \"mitigation_strategy\": \"Augment datasets with synthetic data and ensure diverse data collection.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong - The evidence notes highlight the inadequacies of current methodologies in addressing dynamic adversarial threats, directly supporting the identified research gap.",
+    "domain_to_method": "Fits - The selected methodologies (theoretical framework development, empirical studies) align well with the domain of machine-learning method development.",
+    "concept_to_metric": "Yes - Core concepts such as robustness metrics and defensive strategies are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Feasible - The methodology is realistic given the requirements for model access, data, and computational resources.",
+    "scope_to_gap": "Specific - The study scope focuses on image classification in dynamic environments, making the gap more precise.",
+    "gap_to_question": "Direct - The gap in understanding adaptability leads directly to the research question about enhancing resilience.",
+    "question_to_hypothesis": "Clear - The research question logically leads to the hypothesis regarding the effectiveness of the proposed framework.",
+    "hypothesis_to_methodology": "Aligned - The methodology is designed to test the hypothesis by comparing robustness metrics between the proposed framework and standard CNNs.",
+    "methodology_to_evaluation": "Comprehensive - The evaluation metrics will effectively answer the research question by assessing performance under attack conditions.",
+    "contribution_to_test": "Yes - The PhD contribution design is tested through the comparative analysis and evaluation metrics outlined in the methodology.",
+    "weak_links": [
+      "Potential variability in environmental conditions may not be fully controlled.",
+      "The adaptability of the framework to unforeseen adversarial threats remains to be empirically validated."
+    ]
+  },
+  "proposal": "This research proposal aims to develop a robust AI framework for convolutional neural networks (CNNs) specifically targeting image classification tasks in dynamic environments, addressing critical issues of data poisoning and adversarial attacks. Key concepts include 'Robust AI Systems' as models maintaining performance despite adversarial conditions, 'Data Poisoning' as malicious data injection, and 'Adversarial Attacks' as deceptive input techniques. The study is technically feasible, requiring access to specific open-source CNN models and labeled datasets, with no need for ethics approval due to the absence of human participants. Positioned within the literature, this research identifies a gap in existing methodologies that inadequately address the adaptability of defensive strategies in evolving contexts, particularly in real-world applications where threats continuously change. The central research question investigates how the proposed framework enhances resilience against both known and emerging adversarial threats compared to standard CNNs. The theoretical mechanism posits that integrating defensive strategies improves representation features, leading to enhanced robustness metrics (system-level) and fostering user trust through perceived transparency (user-level). The falsifiable hypothesis states that the proposed framework will yield significantly higher robustness metrics compared to standard CNNs, with specific operationalized constructs including defensive strategies (IV) measured through integration techniques, robustness metrics (DV) assessed via accuracy and robustness under attack conditions, and representation features (mediator) evaluated through probing accuracy and feature sparsity. The methodology includes a comparative analysis of the proposed framework against standard CNNs, controlling for data quality and environmental conditions, with a six-month evaluation period allowing for thorough testing and adaptation to emerging threats. Expected contributions include theoretical insights into AI security, empirical evidence of improved robustness, and practical guidelines for deploying robust AI systems, while acknowledging limitations such as potential model overfitting and adaptability challenges, alongside failure modes like data poisoning and adversarial attacks, with tailored mitigation strategies for each identified risk.",
+  "draft_proposal": "This research proposal aims to develop a robust AI framework for convolutional neural networks (CNNs) specifically targeting image classification tasks in dynamic environments, addressing the critical issues of data poisoning and adversarial attacks. Key concepts include 'Robust AI Systems' as models maintaining performance despite adversarial conditions, 'Data Poisoning' as malicious data injection, and 'Adversarial Attacks' as deceptive input techniques. The study is technically feasible, requiring access to open-source CNN models and labeled datasets, with no need for ethics approval due to the absence of human participants. Positioned within the literature, this research identifies a gap in existing methodologies that inadequately address the adaptability of defensive strategies in evolving contexts. The central research question investigates how the proposed framework enhances resilience against adversarial threats compared to standard CNNs. The theoretical mechanism posits that integrating defensive strategies improves representation features, leading to enhanced robustness metrics (system-level) and fostering user trust through perceived transparency (user-level). The falsifiable hypothesis states that the proposed framework will yield significantly higher robustness metrics compared to standard CNNs. Construct operationalization will involve measuring defensive strategies (IV), robustness metrics (DV), and representation features (mediator) through model performance logs and internal state assessments. The methodology includes a comparative analysis of the proposed framework against standard CNNs, controlling for data quality and environmental conditions. The PhD contribution design emphasizes a novel theoretical framework that systematically integrates adversarial training and anomaly detection into CNNs, enhancing resilience against evolving threats. Expected contributions include theoretical insights into AI security, empirical evidence of improved robustness, and practical guidelines for deploying robust AI systems. The study's novelty lies in its comprehensive approach to integrating defensive strategies in dynamic environments, addressing limitations such as potential model overfitting and adaptability challenges, while also outlining failure modes and mitigation strategies.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The gap is valid as it highlights the inadequacy of existing methods to address evolving threats in dynamic environments.",
+      "literature_grounding": "The gap is grounded in recent literature but could benefit from more specific citations to demonstrate the limitations of current approaches.",
+      "meaningfulness": "The gap is meaningful as it addresses a critical issue in AI security, particularly in real-world applications.",
+      "already_solved_risk": "There is a risk that some aspects of the gap may have been addressed in recent studies, necessitating a thorough literature review to ensure originality."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but lacks a critical comparative analysis that highlights unresolved tensions.",
+      "unresolved_tensions": "It does not sufficiently identify the tensions between existing methodologies and the proposed framework, which could strengthen its positioning.",
+      "positioning_quality": "The positioning is adequate but could be improved by explicitly contrasting the proposed framework with specific existing models."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The domain of machine learning method development is appropriate for the proposed research.",
+      "methodology_template_fit": "The methodology template aligns well with the research domain, focusing on theoretical and empirical aspects.",
+      "template_transfer_risk": "There is minimal risk of inappropriate template transfer, as the proposed methods are relevant to the domain."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is specific, focusing on image classification tasks, but could clarify the types of adversarial threats considered.",
+      "population_or_task_definition": "The task definition is clear, targeting CNNs, but the population aspect could be better defined.",
+      "intervention_and_comparison_definition": "The intervention and comparison definitions are concrete, but the control group could be elaborated further.",
+      "outcome_definition": "Primary and secondary outcomes are defined, yet more detail on how adaptability will be measured is needed."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Most technical terms are well-defined, but terms like 'representation features' could use more operational clarity.",
+      "implementation_specificity": "The definitions are generally specific, but some terms lack practical examples of implementation.",
+      "level_of_analysis_clarity": "The level of analysis is clear, focusing on model performance, but could benefit from more explicit connections to user-level outcomes."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to open-source CNN models is feasible, but specific models should be identified for clarity.",
+      "data_and_compute_requirements": "The data and compute requirements are realistic, but the need for diverse datasets should be emphasized.",
+      "human_or_multilingual_resources": "No human participants are involved, which simplifies feasibility, but multilingual validation could be considered for broader applicability.",
+      "feasible_adjustments": "Adjustments such as using black-box evaluation methods are appropriate if API models are the only option."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on the framework's effectiveness.",
+      "scope_appropriateness": "The scope is appropriate for a PhD study, addressing a significant issue in AI security.",
+      "variable_clarity": "Variables are mostly clear, but the distinction between known and emerging threats could be more explicit."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The mechanism is well-articulated, explaining how defensive strategies improve resilience.",
+      "theoretical_framing": "The theoretical framing is grounded in relevant literature, but could benefit from a more detailed explanation of the underlying theories.",
+      "assumption_transparency": "Assumptions are stated but require further elaboration to clarify their implications for the research."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable and aligns with the research question.",
+      "mechanism_grounding": "It is grounded in the proposed theoretical mechanism but could specify the expected magnitude of improvements.",
+      "measurable_outcome": "Measurable outcomes are defined, but the metrics for adaptability need clearer operationalization."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Most constructs have appropriate measurement instruments, but some lack clarity on how they will be assessed.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but the operationalization of user-level outcomes needs more detail.",
+      "causal_identification": "The causal pathway is outlined, but confounding variables should be explicitly identified.",
+      "confound_awareness": "There is awareness of confounds, but a more detailed plan for controlling them is necessary.",
+      "claim_boundaries": "Claim boundaries are generally clear, but the limitations of the framework should be more explicitly stated."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline is appropriate, but the rationale for choosing specific standard CNNs should be elaborated.",
+      "metric_validity": "Metrics are valid, but the choice of statistical tests for analysis should be specified.",
+      "statistical_or_evaluation_validity": "Evaluation validity is strong, but the statistical methods for analysis need more detail.",
+      "reproducibility": "Reproducibility is addressed, but detailed documentation of procedures should be emphasized.",
+      "confound_control": "Confound control is acknowledged, but specific strategies for managing variability should be detailed.",
+      "risk_analysis": "Risk analysis is present, but a more comprehensive assessment of potential methodological risks is needed."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is significant, but should be framed more explicitly against existing theories.",
+      "methodological_novelty": "Methodological novelty is present, but clearer distinctions from existing methods would enhance clarity.",
+      "practical_novelty": "Practical contributions are stated, but specific applications of the findings should be highlighted.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal should emphasize unique aspects of the framework."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but mitigation strategies should be more detailed and tailored to each mode.",
+      "limitation_depth": "Limitations are acknowledged, but a deeper exploration of potential impacts on findings is needed.",
+      "risk_mitigation": "Mitigation strategies are present but should include more proactive measures for ethical risks."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contributions are generally clear but could be articulated more sharply to highlight their significance.",
+      "novelty_type": "The novelty type is primarily theoretical and methodological.",
+      "coherence": "The proposal is coherent, but transitions between sections could be smoother.",
+      "limitation_awareness": "Limitation awareness is adequate, but should include potential implications of negative results.",
+      "academic_communication": "Academic communication is strong, but could benefit from more precise language in some areas."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap logically leads to the research question, establishing relevance.",
+      "question_to_hypothesis": "The question effectively informs the hypothesis, maintaining alignment.",
+      "hypothesis_to_method": "The hypothesis is testable by the proposed methods, ensuring empirical validity.",
+      "method_to_evaluation": "The methodology is designed to evaluate the research question, supporting the overall coherence."
+    },
+    "revision_plan": "Revise the gap stage to ensure it is grounded in specific literature and clearly articulates its significance. Enhance the scholarly positioning by critically comparing existing methodologies and identifying unresolved tensions. Clarify the operationalization of adaptability and user-level outcomes to strengthen the research scope and theoretical mechanism."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 77.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal presents a clear research problem focused on developing a robust AI framework against adversarial threats. However, some key concepts like 'dynamic environments' could be more precisely defined to enhance clarity. Major weaknesses: The operational definitions of 'dynamic environments' and 'robustness metrics' lack specificity, which may hinder the clarity of the research boundaries. Next band requirements: To move into the next band, the proposal needs to provide more precise operational definitions for key concepts and articulate the research boundaries more clearly."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal demonstrates a logical flow from problem identification to methodology. However, some assumptions regarding the adaptability of the framework to new threats are not sufficiently justified. Major weaknesses: The causal claims linking defensive strategies to improved robustness metrics lack empirical support, and the transitions between hypothesis and methodology could be stronger. Next band requirements: To achieve a higher score, the proposal should provide stronger empirical justification for assumptions and ensure that the methodology directly tests the stated hypotheses."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 15.0,
+        "level": "15-17: clear novelty with meaningful research differentiation",
+        "justification": "The proposal introduces a novel theoretical framework that integrates existing techniques in a new way, addressing a significant gap in the literature regarding adaptability in dynamic environments. Major weaknesses: While the framework is innovative, the proposal could further clarify how it distinctly advances the field beyond existing methods. Next band requirements: To reach the next band, the proposal should explicitly articulate how the framework provides a unique contribution that extends beyond existing literature."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology is generally sound and feasible, with a clear plan for comparative analysis. However, details on baseline selection and statistical analysis methods are insufficient. Major weaknesses: The proposal lacks detailed justification for the choice of baselines and does not sufficiently address potential confounding variables. Next band requirements: To improve, the proposal needs to provide a more robust experimental design, including clear statistical methods and a comprehensive risk assessment."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 13.0,
+        "level": "12-13: strong literature grounding with good comparative analysis",
+        "justification": "The proposal identifies relevant gaps in the literature and positions the research well within the current discourse on AI robustness. Major weaknesses: The engagement with prior work could be deepened, particularly in contrasting methodologies and addressing unresolved tensions. Next band requirements: To achieve a higher score, the proposal should provide a more critical synthesis of existing literature, highlighting specific methodological shortcomings."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 8.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates a good understanding of theoretical mechanisms but lacks depth in discussing limitations and failure cases. Major weaknesses: There is insufficient discussion on the implications of potential negative results and a lack of awareness of broader research implications. Next band requirements: To improve, the proposal should include a more thorough discussion of limitations and potential failure modes, along with their implications for the research."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-written and organized, with a clear academic tone. However, some sections could benefit from improved clarity and conciseness. Major weaknesses: Certain terminologies are used inconsistently, and some sentences are overly complex, which may hinder readability. Next band requirements: To achieve a higher score, the proposal should focus on refining language for clarity and ensuring consistent terminology throughout."
+      }
+    ],
+    "comments": "Total score: 77.0/100. Academic level: Master's-level. Major strengths: Clear identification of a significant research gap in AI robustness.; Novel integration of existing techniques into a theoretical framework.; Strong alignment with current literature on adversarial attacks. Major weaknesses: Insufficient operational definitions for key concepts.; Weak empirical justification for causal claims.; Lack of detailed methodological rigor and risk assessment. Required improvements for true PhD-level quality: Provide precise operational definitions for all key concepts.; Strengthen empirical justification for assumptions and causal claims.; Enhance methodological rigor with detailed statistical analysis plans. Final verdict: The proposal demonstrates potential but lacks the depth and rigor expected at the PhD level. Significant improvements are needed to meet the standards of publishable research."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_mode": "disabled_for_multi_stage_without_retrieval",
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [],
+      "max_similarity": null,
+      "mean_similarity": null
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [],
+      "max_similarity": null,
+      "mean_similarity": null
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_without_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+    "retrieval_snapshot_id": null,
+    "latency_ms": 151799,
+    "prompt_tokens": 35333,
+    "completion_tokens": 6702,
+    "total_tokens": 42035,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

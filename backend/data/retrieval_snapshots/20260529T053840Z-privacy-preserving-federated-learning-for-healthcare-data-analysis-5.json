@@ -1,0 +1,76 @@
+{
+  "snapshot_id": "20260529T053840Z-privacy-preserving-federated-learning-for-healthcare-data-analysis-5",
+  "topic": "Privacy-Preserving Federated Learning for Healthcare Data Analysis",
+  "retrieval_query": "Privacy-Preserving Federated Learning for Healthcare Data Analysis",
+  "max_papers": 5,
+  "retrieved_at": "20260529T053840Z",
+  "papers": [
+    {
+      "title": "Federated Learning for Privacy Preserving in Healthcare Data Analysis",
+      "authors": [
+        "Atharv Pawar",
+        "Sweta Jain",
+        "Aryan Dhait",
+        "Atharva Nagbhidkar",
+        "Arya Narlawar"
+      ],
+      "abstract": "During this era of exponential growth in data volume, the most onerous challenge facing healthcare today is how to harness voluminous amounts of sensitive patient information to drive advances in medical research and improvement in patient care without ever moving this same data. Federated Learning thus provides a solution that enables decentralised machine learning and helps in collaborative model training without direct sharing of raw data. The present paper provides depth of coverage on the investments made by Federated Learning in healthcare and goes on to detail clearly the underlying concepts, model aggregation methodologies, and implementation with privacy-preserving research protocols. Putting forward the central advantages, such as strong data privacy preservation, the possibility of personalization in model training, and model development scalability with efficiency, the present paper marks Federated Learning as an unparalleled tool for healthcare data analysis. This study has conclusively identified the potential of federated learning to transform healthcare: secure, collaborative, and data-driven medical research with supreme improvement potential for patient outcomes.",
+      "published": "2024-12-20",
+      "url": "https://www.semanticscholar.org/paper/e58a5eeb214a79bc7a3c8a8cfea11f53b0b167c1",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Federated Learning for Privacy-Preserving Health Data Analysis: Enhancing Security and Personalization in Healthcare 4.0",
+      "authors": [
+        "S. Goyal",
+        "A. Rajawat",
+        "Hayyan Nassar Waked"
+      ],
+      "abstract": "The Federated Learning (FL), which is very important for privacy-preserving health data analysis, stands out as a breakthrough in Healthcare 4.0 arena. Centralized models, which are more traditional in nature present a huge threat to patient confidentiality as they rely on sensitive data being saved and processed through centralized hubs. Federated Learning tackles these worries by conducting local data processing on devices and sharing model updates rather than raw datasets. This method actually increases the security of patient data and that can additionally comply with strict Data protection laws. FL also enables healthcare customization to specific populations or even patients without sacrificing privacy. Healthcare providers can use the massive amount of data to better diagnose, treat patients and improve patient care while protecting confidentiality by integrating FL into Healthcare 4.0. In this paper, we review how Federated Learning can potentially transform data privacy and personalization in healthcare, along with the current challenges that must be tackled before these benefits are realized.",
+      "published": "2024-12-08",
+      "url": "https://www.semanticscholar.org/paper/9c21c18ec3cd7515b0819df4b5324112de96a5c0",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A privacy-enhanced framework for collaborative Big Data analysis in healthcare using adaptive federated learning aggregation",
+      "authors": [
+        "Rahul Haripriya",
+        "Nilay Khare",
+        "Manish Pandey",
+        "Sreemoyee Biswas"
+      ],
+      "abstract": "Abstract was not available from Semantic Scholar.",
+      "published": "2025-05-06",
+      "url": "https://www.semanticscholar.org/paper/f5440bd2f80fbab6c7e6d99c48f437abd208066b",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A Comparative Analysis of Federated Learning and Privacy-Preserving Techniques in Healthcare AI",
+      "authors": [
+        "Yogesh Kumar Sharma",
+        "Deepika Amol Ajalkar",
+        "Smitha Nayak",
+        "Jayashri Prashant Shinde"
+      ],
+      "abstract": "AI might conduct screening and assessment in the event that medical expertise is lacking in a setting with limited resources. Because algorithms are involved, even the most rapid AI decisions are methodical in comparison with human decision-making. In this chapter, the authors provide a thorough literature review on data privacy for healthcare AI system development. In order to facilitate safer translational AI research, they offer a comprehensive review of the privacy issues data owners have when sharing datasets with researchers. They go over the many forms of attacks and how they might jeopardize user privacy. They also go into detail about several possible ways to fix these privacy problems.",
+      "published": "2024-4-19",
+      "url": "https://doi.org/10.4018/979-8-3693-1874-4.ch001",
+      "source": "Crossref"
+    },
+    {
+      "title": "Federated Learning for Privacy-Preserving Healthcare Data Analysis in the Age of Cybersecurity Threats",
+      "authors": [
+        "S. P",
+        "S. S.",
+        "N. Deepika",
+        "Ginni Nijhawan",
+        "A. Alawadi",
+        "S. M.V"
+      ],
+      "abstract": "This examination explores joined picking up gathering appraisals, unequivocally United Averaging (FedAvg), Weighted Consolidated Averaging (FedAvg-W), Bound together Learning with Adaptable Learning Rate (FedAdapt), and Secure Combination for Brought Learning (SecAgg), inside the space of assertion saving clinical benefits data assessment. The reason for the organized assessments was to assess their performance in terms of accuracy, evidence coverage and communication speed. This article provides a comparative evaluation to help practitioners select the most appropriate algorithm for clinical reasoning applications. The results show that FedAvg-W achieves much higher accuracy than other algorithms especially when used in locations with varying data attributes implying that it can adapt to the changes. In relation to this, a method called FedAdapt mixes quickly while maintaining high accuracy by way of dynamically changing learning rate limits with respect to particular instances of distribution information. A secure aggregation framework based on homomorphic encryption guarantees exact compliance. The review provides subtle experiences into space-related works, such as health informatics and federated learning. On one hand, SecAgg fulfills a basic requirement for ensuring and preserving medical benefits data while on the other side, FedAdapt's flexibility concerns the anticipated scalability of clinical evaluation applications.",
+      "published": "2023-12-29",
+      "url": "https://www.semanticscholar.org/paper/d2bdaf6ca125f33d39831f6e5ec0959b774b6d24",
+      "source": "Semantic Scholar"
+    }
+  ]
+}

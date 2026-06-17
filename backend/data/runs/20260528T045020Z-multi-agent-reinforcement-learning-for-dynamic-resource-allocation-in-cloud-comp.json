@@ -1,0 +1,228 @@
+{
+  "experiment_id": "20260527T210506Z",
+  "run_index": 2,
+  "topic": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+  "retrieval_snapshot_id": "20260527T210828Z-multi-agent-reinforcement-learning-for-dynamic-resource-allocation-in-cloud-comp-5",
+  "papers": [
+    {
+      "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Md Naoroj Jaman",
+        "Altanshagai Sarangerel",
+        "Tsogtsaikhan Boorchi",
+        "Orgil Erdene-Ochir",
+        "Delgerbayar Usukhjargal",
+        "Vonekham Laovang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-5",
+      "url": "https://doi.org/10.55248/gengpi.6.0525.1787",
+      "source": "Crossref"
+    },
+    {
+      "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+      "authors": [
+        "P. Vijay",
+        "Gunja Sri Vamshi",
+        "H. Siddhant Haridas",
+        "V. Shiva Ram Reddy"
+      ],
+      "abstract": "Cloud computing workloads are projected to grow by 23.1% annually, with over 80% of enterprises adopting multi-cloud strategies, creating a pressing need for optimal virtual machine (VM) resource allocation to ensure cost efficiency and performance. However, existing allocation strategies suffer from static optimization limitations and inefficient adaptation to dynamic workloads, leading to frequent resource underutilization and service delays. To address these issues, this work proposes a novel Multi-Agent Deep Reinforcement Learning-Based Adaptive Harris Hawks Optimization (MADRL-AHHO) algorithm for cloud resource allocation using the VM Resource Allocation dataset (VM-0 to VM-5 classes). Initially, the dataset is preprocessed through normalization and feature selection to reduce dimensionality and noise. Feature extraction is enhanced using a Convolutional Neural Network (CNN) integrated with Firefly Optimization (CNN-FFO), which is benchmarked for learning capacity and solution convergence. However, performance limitations in CNN-FFO under dynamic load conditions are overcome by integrating CNN with Adaptive Harris Hawks Optimization (CNN-AHHO), which dynamically adjusts its exploration and exploitation capabilities based on multi-agent reinforcement feedback. The agents interact with the environment to learn optimal VM allocation policies by maximizing resource utilization and minimizing SLA violations. Experimental results demonstrate that CNN-AHHO outperforms CNN-FFO and traditional machine learning methods in terms of allocation accuracy, convergence rate, and computational efficiency, thereby offering a robust and adaptive solution for cloud infrastructure management.",
+      "published": "2025-07-14",
+      "url": "https://www.semanticscholar.org/paper/f1497925cb53eaeaa737ea60b4c3f6f860baf25d",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+      "authors": [
+        "Shijing Yuan",
+        "Xiangfei Chen",
+        "Suchuan Xing",
+        "Jie Li",
+        "Hongyang Chen",
+        "Zhi Liu",
+        "Song Guo"
+      ],
+      "abstract": "Cloud-edge-end (CEE) collaboration has demonstrated significant potential in video streaming analysis. However, dynamic wireless environments, lack of incentive mechanisms, and constrained resources (e.g., transmission power, bandwidth, and computing resources) remain the primary bottlenecks for achieving efficient CEE-based video processing. To address these challenges, this paper focuses on a multi-user CEE scenario with dynamic wireless channels and investigates the joint optimization of adaptive incentives, cooperative offloading, and resource allocation. We propose a novel framework, called JROC, to motivate edge devices (EDs) to participate in collaborative computation within CEE, thereby enhancing system utility. Specifically, JROC encompasses a smart contract-based adaptive incentive mechanism and an Adaptive Transformer-based multi-agent reinforcement Learning Algorithm (ATLA). The incentive mechanism leverages blockchain to ensure trustworthy and automated incentive distribution, while ATLA captures long-term dependencies and global state features among agents to guide video tasks in dynamic environments through adaptive compression, cooperative offloading, and resource allocation. Moreover, we discuss key steps for deploying the proposed algorithm in a real CEE prototype, including lightweight actor inference at the terminal side and training at the edge. Experimental results based on a real-world operator dataset show that, compared to existing methods, JROC achieves higher long-term system utility while maintaining favorable scalability, thereby validating its effectiveness in resource-constrained and under-incentivized CEE video streaming scenarios.",
+      "published": "2026",
+      "url": "https://www.semanticscholar.org/paper/39b39d612b65f8c5525fdddd9ab7d84b752e474d",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+      "authors": [
+        "Bibo Zhang",
+        "Ilario Filippini"
+      ],
+      "abstract": "MmWaves have been envisioned as a promising direction to provide Gbps wireless access. However, they are susceptible to high path losses and blockages, which directional antennas can only partially mitigate. That makes mmWave networks coverage-limited, thus requiring dense deployments. Integrated access and backhaul (IAB) architectures have emerged as a cost-effective solution for network densification. Resource allocation in mmWave IAB networks must face big challenges to cope with heavy temporal dynamics, such as intermittent links caused by user mobility and blockages from moving obstacles. This makes it extremely difficult to find optimal and adaptive solutions. In this article, exploiting the distributed structure of the problem, we propose a Multi-Agent Reinforcement Learning (MARL) framework to optimize user throughput via flow routing and link scheduling in mmWave IAB networks characterized by user mobility and link outages generated by moving obstacles. The proposed approach implicitly captures the environment dynamics, coordinates the interference, and manages the buffer levels of IAB relay nodes. We design different MARL components, considering full-duplex and half-duplex IAB-nodes. In addition, we provide a communication and coordination scheme for RL agents in an online training framework, addressing the feasibility issues of practical systems. Numerical results show the effectiveness of the proposed approach.",
+      "published": "2022-05-12",
+      "url": "http://arxiv.org/abs/2205.06011v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+      "authors": [
+        "Xu Chen",
+        "Wenzhong Li",
+        "Sanglu Lu",
+        "Zhi Zhou",
+        "Xiaoming Fu"
+      ],
+      "abstract": "Mobile-edge cloud computing is a new paradigm to provide cloud computing capabilities at the edge of pervasive radio access networks in close proximity to mobile users. Aiming at provisioning flexible on-demand mobile-edge cloud service, in this paper we propose a comprehensive framework consisting of a resource-efficient computation offloading mechanism for users and a joint communication and computation (JCC) resource allocation mechanism for network operator. Specifically, we first study the resource-efficient computation offloading problem for a user, in order to reduce user's resource occupation by determining its optimal communication and computation resource profile with minimum resource occupation and meanwhile satisfying the QoS constraint. We then tackle the critical problem of user admission control for JCC resource allocation, in order to properly select the set of users for resource demand satisfaction. We show the admission control problem is NP-hard, and hence develop an efficient approximation solution of a low complexity by carefully designing the user ranking criteria and rigourously derive its performance guarantee. To prevent the manipulation that some users may untruthfully report their valuations in acquiring mobile-edge cloud service, we further resort to the powerful tool of critical value approach to design truthful pricing scheme for JCC resource allocation. Extensive performance evaluation demonstrates that the proposed schemes can achieve superior performance for on-demand mobile-edge cloud computing.",
+      "published": "2018-06-08",
+      "url": "http://arxiv.org/abs/1806.03124v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Optimizing Resource Allocation in Cloud and Edge Computing Systems",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "summary": "This cluster of papers focuses on enhancing resource allocation strategies in cloud-based and mobile-edge computing environments through advanced algorithms, particularly leveraging multi-agent reinforcement learning (MARL) and optimization techniques. The studies propose novel frameworks and algorithms, such as MADRL-AHHO and JROC, to address challenges like dynamic workloads, user incentives, and resource constraints, ultimately aiming to improve efficiency and performance in resource allocation.",
+      "limitations": "The cluster highlights limitations in existing static optimization methods and the challenges posed by dynamic environments, such as fluctuating workloads and resource availability. Additionally, issues related to the complexity of user admission control and the performance of proposed algorithms under varying conditions remain unresolved.",
+      "gap_relevance": "This cluster identifies significant gaps in the current understanding of adaptive resource allocation mechanisms, particularly in the context of multi-cloud strategies and mobile-edge computing. By exploring innovative approaches like MARL and incentive mechanisms, it lays the groundwork for future research aimed at developing more robust and efficient resource management solutions."
+    },
+    {
+      "theme": "Resource Allocation in mmWave IAB Networks Using MARL",
+      "paper_indices": [
+        4
+      ],
+      "summary": "This cluster focuses on optimizing resource allocation in mmWave Integrated Access and Backhaul (IAB) networks through a Multi-Agent Reinforcement Learning (MARL) framework. It addresses challenges posed by user mobility and intermittent links due to blockages, aiming to enhance user throughput by managing flow routing and link scheduling effectively.",
+      "limitations": "The proposed MARL approach may face limitations in scalability and adaptability to varying network conditions. Additionally, the complexity of real-world environments and the need for extensive training data for the MARL agents could hinder practical implementation.",
+      "gap_relevance": "This cluster highlights the need for advanced adaptive solutions in resource allocation for mmWave networks, which can guide future research in developing more robust algorithms that can handle dynamic environments and improve network performance."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+      "problem": "Resource allocation in cloud-based deep learning systems.",
+      "method": "Multi-Agent Reinforcement Learning.",
+      "evidence": "Not available.",
+      "limitation": "Abstract was not available; details on methodology and findings are unclear.",
+      "gap_relevance": "Potential to explore specific MARL techniques for optimizing resource allocation in cloud environments."
+    },
+    {
+      "paper_id": "P2",
+      "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+      "problem": "Static optimization limitations in existing cloud resource allocation strategies.",
+      "method": "Multi-Agent Deep Reinforcement Learning with Adaptive Harris Hawks Optimization.",
+      "evidence": "Proposed algorithm outperforms traditional methods in allocation accuracy and computational efficiency.",
+      "limitation": "Performance under extreme dynamic load conditions needs further exploration.",
+      "gap_relevance": "Highlights the need for adaptive algorithms in dynamic cloud environments, suggesting a focus on real-time resource allocation."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+      "problem": "Challenges in resource allocation and incentive mechanisms in cloud-edge-end video streaming.",
+      "method": "Adaptive Transformer-based Multi-Agent Reinforcement Learning Algorithm (ATLA) with smart contract-based incentives.",
+      "evidence": "Achieves higher long-term system utility in resource-constrained environments.",
+      "limitation": "Implementation complexity and real-world deployment considerations are not fully addressed.",
+      "gap_relevance": "Identifies the need for incentive mechanisms in resource allocation, relevant for enhancing collaboration in cloud resource management."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+      "problem": "Resource allocation challenges in mmWave networks due to user mobility and link outages.",
+      "method": "Multi-Agent Reinforcement Learning for flow routing and link scheduling.",
+      "evidence": "Demonstrates effectiveness in optimizing user throughput under dynamic conditions.",
+      "limitation": "Focuses on specific network conditions; generalizability to other cloud scenarios is uncertain.",
+      "gap_relevance": "Suggests exploration of mobility-aware resource allocation strategies in broader cloud computing contexts."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+      "problem": "Provisioning flexible on-demand mobile-edge cloud services.",
+      "method": "Resource-efficient computation offloading and joint communication and computation resource allocation.",
+      "evidence": "Proposes an efficient approximation solution for user admission control.",
+      "limitation": "NP-hard problem; performance guarantees may not hold under all conditions.",
+      "gap_relevance": "Indicates a need for efficient algorithms in mobile-edge computing, relevant for dynamic resource allocation in cloud environments."
+    }
+  ],
+  "summary": "Existing literature related to Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing suggests active interest in applying LLMs to support academic or educational workflows, but reported outcomes depend on task design, evaluation criteria, and quality of retrieved evidence.",
+  "scholarly_positioning": "Prior work often demonstrates task-specific LLM assistance, but less often compares how staged research reasoning changes proposal quality under controlled evaluation.",
+  "domain_router": "Fallback routing classifies the project as an LLM-agent evaluation and academic workflow prototype, so the appropriate method is a controlled comparison between generation conditions rather than a clinical intervention design.",
+  "research_scope": "The fallback scope is a controlled evaluation of an academic research agent for one user-provided topic, comparing a raw single-prompt baseline with structured multi-stage generation using the same retrieved-paper set and the same PhD-level rubric.",
+  "concept_definition": "The core concepts are proposal quality, literature grounding, staged reasoning, and baseline comparison; each should be measured through rubric scores, citation use, completeness, and condition-level outputs.",
+  "technical_feasibility": "The fallback design only requires retrieved metadata, saved run logs, LLM generation, and rubric scoring; it does not require hidden-state access, human-subject trials, or GPU-heavy model training.",
+  "gap": "A key gap is the limited comparison between direct single-prompt generation and a structured, literature-augmented multi-stage workflow.",
+  "question": "How can a literature-augmented multi-stage LLM workflow improve the clarity, feasibility, and literature alignment of research proposals about Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing?",
+  "theoretical_mechanism": "Separating literature synthesis, gap formation, hypothesis design, and method planning should reduce cognitive overload and make intermediate assumptions easier to inspect.",
+  "hypothesis": "A staged pipeline that separates literature summary, gap identification, question generation, methodology design, and evaluation will produce more coherent proposals than a single prompt.",
+  "operationalization_causal_check": "Proposal quality can be operationalized through rubric scores for clarity, coherence, novelty, feasibility, literature alignment, academic depth, and communication, while causal claims should be limited to observed differences between controlled generation conditions.",
+  "methodology": "Build a lightweight prototype, retrieve a small set of arXiv papers, generate outputs through independent prompt templates, and compare the final proposal with a single-prompt baseline using a manual rubric and GPT-assisted self-evaluation.",
+  "novelty_contribution": "The fallback contribution is methodological: it decomposes proposal generation into inspectable research-reasoning stages and compares that workflow against a raw single-prompt baseline.",
+  "phd_contribution_design": "The fallback PhD-level contribution design is to test whether explicit intermediate reasoning stages improve proposal quality beyond surface fluency, using controlled comparisons, rubric scores, and failure analysis to separate research-depth gains from formatting gains.",
+  "pre_proposal_critique": "The strongest fallback reviewer objection is that the contribution could remain a workflow engineering demonstration rather than a research contribution; the proposal must therefore define what staged reasoning changes, how this is measured, and what result would falsify the claim.",
+  "failure_analysis": "The workflow may fail when retrieval is weak, when the LLM overstates novelty, or when the evaluator rewards polished writing over genuine research contribution.",
+  "proposal_logic_graph": null,
+  "proposal": "This project develops an LLM-based Academic Research Agent for Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "draft_proposal": "This project develops an LLM-based Academic Research Agent for Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 5,
+    "literature_alignment": 3,
+    "phd_level_quality": null,
+    "presentation": null,
+    "weighted_total": null,
+    "rubric_scores": [],
+    "comments": "Fallback evaluation indicates a clear and feasible proposal structure. Literature alignment should be reassessed after successful arXiv retrieval and real LLM generation."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+        "similarity": 0.7735
+      },
+      {
+        "original_index": 3,
+        "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+        "similarity": 0.7158
+      },
+      {
+        "original_index": 4,
+        "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+        "similarity": 0.6269
+      },
+      {
+        "original_index": 1,
+        "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+        "similarity": 0.5633
+      },
+      {
+        "original_index": 2,
+        "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+        "similarity": 0.5536
+      }
+    ]
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+    "retrieval_snapshot_id": "20260527T210828Z-multi-agent-reinforcement-learning-for-dynamic-resource-allocation-in-cloud-comp-5",
+    "latency_ms": 27718741,
+    "prompt_tokens": 17862,
+    "completion_tokens": 2652,
+    "total_tokens": 20514,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": "APIConnectionError: Connection error."
+  }
+}

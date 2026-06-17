@@ -1,0 +1,170 @@
+{
+  "experiment_id": "20260528T103531Z",
+  "run_index": 3,
+  "topic": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "retrieval_snapshot_id": "20260528T103935Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-3",
+  "papers": [
+    {
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "authors": [
+        "Xiaocui Dang",
+        "Priyadarsi Nanda",
+        "Heng Xu",
+        "Haiyu Deng",
+        "Chunpeng Ge"
+      ],
+      "abstract": "Deep learning-based recommendation systems are highly vulnerable to data poisoning attacks, where adversaries manipulate user interactions to degrade model integrity. We hypothesize that combining an active robust loss with a passive GAN-based detection will significantly reduce poisoning impact in recommendation systems without sacrificing utility. We propose a robust and adaptive dual-defense framework: the active defense integrates a crafted loss function to mitigate poisoning effects while maintaining model performance. The passive defense employs a Generative Adversarial Network (GAN)-based detection model to identify and filter poisoned data, enhancing detection accuracy and system security. The framework supports classical matrix factorization (MF) model and large language model (LLM)-based pipelines and scales to large datasets. Extensive experiments across multiple real-world datasets at varying poison rates show that our method outperforms representative defenses, consistently reducing attack success without sacrificing recommendation quality. The framework also admits a federated instantiation, where robust training and GAN-based detection run on clients and only privacy-preserving summaries are aggregated. The proposed method significantly improves the robustness and adaptability of recommendation systems under data poisoning attacks.",
+      "published": "2026-04-19",
+      "url": "https://www.semanticscholar.org/paper/d6186eae94ca6b0692cad55298509226885c6271",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "authors": [
+        "Yi Yu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.32657/10356/201674",
+      "source": "Crossref"
+    },
+    {
+      "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+      "authors": [
+        "Jiutao Yue",
+        "Haofeng Li",
+        "Pengxu Wei",
+        "Guanbin Li",
+        "Liang Lin"
+      ],
+      "abstract": "Recently deep neural networks (DNNs) have achieved significant success in real-world image super-resolution (SR). However, adversarial image samples with quasi-imperceptible noises could threaten deep learning SR models. In this paper, we propose a robust deep learning framework for real-world SR that randomly erases potential adversarial noises in the frequency domain of input images or features. The rationale is that on the SR task clean images or features have a different pattern from the attacked ones in the frequency domain. Observing that existing adversarial attacks usually add high-frequency noises to input images, we introduce a novel random frequency mask module that blocks out high-frequency components possibly containing the harmful perturbations in a stochastic manner. Since the frequency masking may not only destroys the adversarial perturbations but also affects the sharp details in a clean image, we further develop an adversarial sample classifier based on the frequency domain of images to determine if applying the proposed mask module. Based on the above ideas, we devise a novel real-world image SR framework that combines the proposed frequency mask modules and the proposed adversarial classifier with an existing super-resolution backbone network. Experiments show that our proposed method is more insensitive to adversarial attacks and presents more stable SR results than existing models and defenses.",
+      "published": "2022-07-31",
+      "url": "http://arxiv.org/abs/2208.00428v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Defense Mechanisms Against Data Poisoning in Machine Learning",
+      "paper_indices": [
+        1,
+        2
+      ],
+      "summary": "This cluster primarily investigates the vulnerabilities of machine learning models, particularly recommendation systems and computer vision models, to data poisoning attacks. It highlights the development of a dual-defense framework that combines active robust loss functions and GAN-based detection to enhance model integrity and security while maintaining performance. The research demonstrates significant improvements in mitigating the impact of poisoning attacks across various datasets.",
+      "limitations": "The second paper lacks an abstract, limiting the understanding of its contributions and findings. Additionally, the effectiveness of the proposed frameworks in diverse real-world scenarios and their scalability beyond the tested datasets remain to be fully explored.",
+      "gap_relevance": "This cluster supports the identification of research gaps related to the robustness of machine learning models against adversarial threats, particularly in the context of data poisoning. It opens avenues for further exploration of hybrid defense mechanisms and their applicability across different domains."
+    },
+    {
+      "theme": "Robustness in Image Super-Resolution against Adversarial Attacks",
+      "paper_indices": [
+        3
+      ],
+      "summary": "This cluster focuses on enhancing the robustness of deep learning models for real-world image super-resolution (SR) against adversarial attacks. It introduces a novel framework that utilizes frequency domain analysis to identify and mitigate adversarial perturbations, specifically targeting high-frequency noise that typically characterizes such attacks. The proposed method includes a random frequency mask module and an adversarial sample classifier to improve the resilience of SR models.",
+      "limitations": "The proposed framework may inadvertently affect the sharpness of clean images due to frequency masking, and the effectiveness of the adversarial sample classifier in diverse scenarios remains to be fully validated. Additionally, the approach may not generalize well to all types of adversarial attacks or different image domains.",
+      "gap_relevance": "This cluster highlights the need for further research into the balance between robustness and image quality in SR tasks, identifying a gap in current methodologies that inadequately address the trade-off between defending against adversarial attacks and maintaining high-resolution image fidelity."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "problem": "Data poisoning attacks in deep learning-based recommendation systems.",
+      "method": "A dual-defense framework combining an active robust loss function and a GAN-based detection model.",
+      "evidence": "The framework significantly reduces the impact of poisoning while maintaining recommendation quality across various datasets.",
+      "limitation": "The framework's effectiveness in other domains outside recommendation systems is not evaluated.",
+      "gap_relevance": "Highlights the need for adaptable defense mechanisms in diverse AI applications beyond recommendation systems."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "problem": "Vulnerability of computer vision models to various attacks including data poisoning.",
+      "method": "Not specified due to lack of abstract.",
+      "evidence": "Not specified due to lack of abstract.",
+      "limitation": "Lack of detailed methodology and findings limits its applicability.",
+      "gap_relevance": "Identifies a broad area of vulnerability in AI models, suggesting a need for comprehensive defense strategies."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+      "problem": "Adversarial attacks on deep learning models for image super-resolution.",
+      "method": "A framework using random frequency masking and an adversarial sample classifier.",
+      "evidence": "The proposed method shows improved resilience to adversarial attacks and stable super-resolution results.",
+      "limitation": "The approach may inadvertently affect image details, indicating a trade-off between defense and quality.",
+      "gap_relevance": "Demonstrates the need for innovative defenses in image processing tasks, which can inform broader AI robustness strategies."
+    }
+  ],
+  "summary": "Existing literature related to Robust AI Systems Against Data Poisoning and Adversarial Attacks suggests active interest in applying LLMs to support academic or educational workflows, but reported outcomes depend on task design, evaluation criteria, and quality of retrieved evidence.",
+  "literature_tension_graph": "Fallback tension graph: the literature often treats staged reasoning, retrieval grounding, and proposal quality as separately useful, but it remains unresolved whether staged reasoning improves research-depth judgments rather than only making outputs more complete or fluent.",
+  "scholarly_positioning": "Prior work often demonstrates task-specific LLM assistance, but less often compares how staged research reasoning changes proposal quality under controlled evaluation.",
+  "domain_router": "Fallback routing classifies the project as an LLM-agent evaluation and academic workflow prototype, so the appropriate method is a controlled comparison between generation conditions rather than a clinical intervention design.",
+  "research_scope": "The fallback scope is a controlled evaluation of an academic research agent for one user-provided topic, comparing a raw single-prompt baseline with structured multi-stage generation using the same retrieved-paper set and the same PhD-level rubric.",
+  "concept_definition": "The core concepts are proposal quality, literature grounding, staged reasoning, and baseline comparison; each should be measured through rubric scores, citation use, completeness, and condition-level outputs.",
+  "technical_feasibility": "The fallback design only requires retrieved metadata, saved run logs, LLM generation, and rubric scoring; it does not require hidden-state access, human-subject trials, or GPU-heavy model training.",
+  "gap": "A key gap is the limited comparison between direct single-prompt generation and a structured, literature-augmented multi-stage workflow.",
+  "question": "How can a literature-augmented multi-stage LLM workflow improve the clarity, feasibility, and literature alignment of research proposals about Robust AI Systems Against Data Poisoning and Adversarial Attacks?",
+  "research_problem_validity_check": "The fallback problem is feasible and testable, but its PhD-level value depends on framing the work as a study of how staged reasoning changes research-depth judgments rather than as another proposal generator.",
+  "theoretical_mechanism": "Separating literature synthesis, gap formation, hypothesis design, and method planning should reduce cognitive overload and make intermediate assumptions easier to inspect.",
+  "hypothesis": "A staged pipeline that separates literature summary, gap identification, question generation, methodology design, and evaluation will produce more coherent proposals than a single prompt.",
+  "operationalization_causal_check": "Proposal quality can be operationalized through rubric scores for clarity, coherence, novelty, feasibility, literature alignment, academic depth, and communication, while causal claims should be limited to observed differences between controlled generation conditions.",
+  "methodology": "Build a lightweight prototype, retrieve a small set of arXiv papers, generate outputs through independent prompt templates, and compare the final proposal with a single-prompt baseline using a manual rubric and GPT-assisted self-evaluation.",
+  "novelty_contribution": "The fallback contribution is methodological: it decomposes proposal generation into inspectable research-reasoning stages and compares that workflow against a raw single-prompt baseline.",
+  "contribution_type_router": "Primary contribution type: evaluation framework with a methodological component. The proposal should emphasize how staged reasoning is measured and avoid claiming a broad autonomous research system.",
+  "phd_contribution_design": "The fallback PhD-level contribution design is to test whether explicit intermediate reasoning stages improve proposal quality beyond surface fluency, using controlled comparisons, rubric scores, and failure analysis to separate research-depth gains from formatting gains.",
+  "pre_proposal_critique": "The strongest fallback reviewer objection is that the contribution could remain a workflow engineering demonstration rather than a research contribution; the proposal must therefore define what staged reasoning changes, how this is measured, and what result would falsify the claim.",
+  "failure_analysis": "The workflow may fail when retrieval is weak, when the LLM overstates novelty, or when the evaluator rewards polished writing over genuine research contribution.",
+  "proposal_logic_graph": null,
+  "proposal": "This project develops an LLM-based Academic Research Agent for Robust AI Systems Against Data Poisoning and Adversarial Attacks. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "draft_proposal": "This project develops an LLM-based Academic Research Agent for Robust AI Systems Against Data Poisoning and Adversarial Attacks. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 5,
+    "literature_alignment": 3,
+    "phd_level_quality": null,
+    "presentation": null,
+    "weighted_total": null,
+    "rubric_scores": [],
+    "comments": "Fallback evaluation indicates a clear and feasible proposal structure. Literature alignment should be reassessed after successful arXiv retrieval and real LLM generation."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 2,
+        "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+        "similarity": 0.7005
+      },
+      {
+        "original_index": 3,
+        "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+        "similarity": 0.615
+      },
+      {
+        "original_index": 1,
+        "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+        "similarity": 0.4663
+      }
+    ]
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+    "retrieval_snapshot_id": "20260528T103935Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-3",
+    "latency_ms": 112722,
+    "prompt_tokens": 35654,
+    "completion_tokens": 4294,
+    "total_tokens": 39948,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": "KeyError: 'literature_tension_graph'"
+  }
+}

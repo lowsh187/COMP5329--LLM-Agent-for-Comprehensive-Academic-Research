@@ -13,7 +13,7 @@ class LLMClient:
         self.completion_tokens = 0
         self.total_tokens = 0
         self.client = (
-            AsyncOpenAI(api_key=settings.llm_api_key, base_url=settings.llm_base_url, timeout=45.0)
+            AsyncOpenAI(api_key=settings.llm_api_key, base_url=settings.llm_base_url, timeout=settings.llm_timeout_seconds)
             if self.enabled
             else None
         )
@@ -33,7 +33,7 @@ class LLMClient:
                 ],
             )
         except APITimeoutError as exc:
-            raise TimeoutError("LLM request timed out after 45 seconds") from exc
+            raise TimeoutError(f"LLM request timed out after {settings.llm_timeout_seconds:g} seconds") from exc
 
         content = response.choices[0].message.content or "{}"
         if response.usage:

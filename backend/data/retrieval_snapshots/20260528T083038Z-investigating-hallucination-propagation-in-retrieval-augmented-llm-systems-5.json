@@ -1,0 +1,76 @@
+{
+  "snapshot_id": "20260528T083038Z-investigating-hallucination-propagation-in-retrieval-augmented-llm-systems-5",
+  "topic": "Investigating Hallucination Propagation in Retrieval-Augmented LLM Systems",
+  "retrieval_query": "Investigating Hallucination Propagation in Retrieval-Augmented LLM Systems",
+  "max_papers": 5,
+  "retrieved_at": "20260528T083038Z",
+  "papers": [
+    {
+      "title": "Detecting Hallucinations in Retrieval-Augmented Generation via Semantic-level Internal Reasoning Graph",
+      "authors": [
+        "Jianpeng Hu",
+        "Yanzeng Li",
+        "Jialun Zhong",
+        "Wenfa Qi",
+        "Lei Zou"
+      ],
+      "abstract": "The Retrieval-augmented generation (RAG) system based on Large language model (LLM) has made significant progress. It can effectively reduce factuality hallucinations, but faithfulness hallucinations still exist. Previous methods for detecting faithfulness hallucinations either neglect to capture the models'internal reasoning processes or handle those features coarsely, making it difficult for discriminators to learn. This paper proposes a semantic-level internal reasoning graph-based method for detecting faithfulness hallucination. Specifically, we first extend the layer-wise relevance propagation algorithm from the token level to the semantic level, constructing an internal reasoning graph based on attribution vectors. This provides a more faithful semantic-level representation of dependency. Furthermore, we design a general framework based on a small pre-trained language model to utilize the dependencies in LLM's reasoning for training and hallucination detection, which can dynamically adjust the pass rate of correct samples through a threshold. Experimental results demonstrate that our method achieves better overall performance compared to state-of-the-art baselines on RAGTruth and Dolly-15k.",
+      "published": "2026-01-06",
+      "url": "https://www.semanticscholar.org/paper/c5f9f5899cf1de985da36e7c8ad4efc612af945b",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A Self-Reflective Retrieval Augmented Generation System to Eliminate Hallucination in LLM Generation",
+      "authors": [
+        "Haotong Hu",
+        "Garret Washburn"
+      ],
+      "abstract": "In a Retrieval Augmented Generation system, the possibility of hallucination is ever prevalent, as it has been increasingly common for an AI model to produce inaccurate generations given an input, which can become increasingly more devastating for a RAG system due to its node-like generation. To solve this problem, we introduced a series of selfreflective nodes, creating a self-RAG model. To create our program, we established a series of nodes that utilized ChatGPT for generation as well as the Langchain python library and its workflow functions to piece together the nodes. A major challenge faced during the planning and development stages was the creation of the self-reflective nodes within the workflow, as these proved to be difficult to implement. To test the accuracy and capacity of this proposed Self-RAG model, multiple experiments were carried out and the result ensures a quality generation. This model should be implemented because it avoids misleading and inaccurate answers.",
+      "published": "2024-7-30",
+      "url": "https://doi.org/10.5121/csit.2024.141402",
+      "source": "Crossref"
+    },
+    {
+      "title": "LLM-powered threat intelligence: a retrieval-augmented generation approach for cyber attack investigation",
+      "authors": [
+        "Abeer Alhuzali"
+      ],
+      "abstract": "Threat intelligence involves collecting, analyzing, and disseminating information about cyber threats to help organizations proactively defend against attacks. However, manually investigating cyberattacks using Cyber Threat Intelligence (CTI) data is challenging due to its heterogeneity, complexity, and volume. While Large Language Models (LLMs) offer potential for automating attack investigation, they suffer from hallucinations, outdated knowledge, and technical misinterpretations. To address these limitations, we propose a Retrieval-Augmented Generation (RAG)-based LLM system called RAGIntel, which enhances accuracy by retrieving and leveraging structured threat intelligence from MITRE ATT&CK. Our approach employs a hybrid retrieval algorithm with reranking and compression strategies to provide precise, context-aware responses. We evaluated RAGIntel on 339 attack investigation queries drawn from diverse benchmarks, using multiple evaluation metrics, and found that it delivers performance comparable to that of standalone LLMs. This study advances automated attack investigation by leveraging RAG-based LLMs, providing a scalable, accurate, and up-to-date solution for cybersecurity analysts.",
+      "published": "2025-11-14",
+      "url": "https://www.semanticscholar.org/paper/d41bf3eeb8da72257eea05929477900b961ab20b",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Trustworthiness in Retrieval-Augmented Generation Systems: A Survey",
+      "authors": [
+        "Yujia Zhou",
+        "Yan Liu",
+        "Xiaoxi Li",
+        "Jiajie Jin",
+        "Hongjin Qian",
+        "Zheng Liu",
+        "Chaozhuo Li",
+        "Zhicheng Dou",
+        "Tsung-Yi Ho",
+        "Philip S. Yu"
+      ],
+      "abstract": "Retrieval-Augmented Generation (RAG) has quickly grown into a pivotal paradigm in the development of Large Language Models (LLMs). Although existing research mainly emphasizes accuracy and efficiency, the trustworthiness of RAG systems remains insufficiently explored. RAG can improve LLM reliability by grounding responses in external and up-to-date knowledge, reducing hallucinations. However, unreliable retrieval or improper knowledge utilization may still lead to undesirable outputs. To address these concerns, we propose a unified framework, Trust-RAG Compass, that assesses the trustworthiness of RAG systems across six key dimensions: factuality, robustness, fairness, transparency, accountability, and privacy. Within this framework, we provide a thorough review of the existing literature along each dimension. Furthermore, we introduce an evaluation benchmark, TRC Bench (\\underline{T}rust-\\underline{R}AG \\underline{C}ompass \\underline{Bench}mark), regarding the six dimensions and conduct comprehensive evaluations for a variety of proprietary and open-source models. Our results shed light on the performance gaps between different types of LLMs across varying dimensions of trustworthiness. Finally, we identify key challenges and promising directions for future research based on our findings. Through this work, we aim to provide a structured foundation for subsequent investigations and practical guidance for developing trustworthy RAG systems in real-world scenarios.",
+      "published": "2024-09-16",
+      "url": "https://www.semanticscholar.org/paper/273c145ea080f277839b89628c255017fc0e1e7c",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Investigating the performance of Retrieval-Augmented Generation and fine-tuning for the development of AI-driven knowledge-based systems",
+      "authors": [
+        "Róbert Lakatos",
+        "P. Pollner",
+        "András Hajdu",
+        "Tamás Joó"
+      ],
+      "abstract": "Generative large language models (LLMs) have revolutionized the development of knowledge-based systems, enabling new possibilities in applications like ChatGPT, Bing, and Gemini. Two key strategies for domain adaptation in these systems are Domain-Specific Fine-Tuning (DFT) and Retrieval-Augmented Generation (RAG). In this study, we evaluate the performance of RAG and DFT on several LLM architectures, including GPT-J-6B, OPT-6.7B, LLaMA, and LLaMA-2. We use the ROUGE, BLEU, and METEOR scores to evaluate the performance of the models. We also measure the performance of the models with our own designed cosine similarity-based Coverage Score (CS). Our results, based on experiments across multiple datasets, show that RAG-based systems consistently outperform those fine-tuned with DFT. Specifically, RAG models outperform DFT by an average of 17% in ROUGE, 13% in BLEU, and 36% in CS. At the same time, DFT achieves only a modest advantage in METEOR, suggesting slightly better creative capabilities. We also highlight the challenges of integrating RAG with DFT, as such integration can lead to performance degradation. Furthermore, we propose a simplified RAG-based architecture that maximizes efficiency and reduces hallucination, underscoring the advantages of RAG in building reliable, domain-adapted knowledge systems.",
+      "published": "2024-03-12",
+      "url": "https://www.semanticscholar.org/paper/1b6c568f3b8c10f4f887d2f0487c7c0ad46093e4",
+      "source": "Semantic Scholar"
+    }
+  ]
+}

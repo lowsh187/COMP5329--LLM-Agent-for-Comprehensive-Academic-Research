@@ -1,0 +1,46 @@
+Task: Check whether the proposed research problem is valid and worth pursuing at PhD level.
+
+Topic:
+{topic}
+
+Retrieved papers and agent profile guidance:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Literature tension graph:
+{literature_tension_graph}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Validity requirements:
+- Decide whether the research problem is non-trivial, theoretically meaningful, empirically testable, and worth committee attention.
+- Identify if the question is too broad, too obvious, too engineering-oriented, or not falsifiable.
+- Name the strongest reason a PhD committee might reject the problem.
+- State the exact reframing needed to make the problem deeper and more research-worthy.
+- Preserve feasibility, but prefer narrower depth over broad coverage.
+
+Return JSON with exactly this key:
+{{
+  "research_problem_validity_check": "A strict validity check in 5-8 sentences covering non-triviality, theoretical meaning, empirical testability, committee interest, rejection risk, and the required reframing."
+}}

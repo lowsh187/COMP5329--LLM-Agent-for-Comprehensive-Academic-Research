@@ -1,0 +1,25 @@
+Task: Extract the literature tensions that can generate a non-generic PhD research problem.
+
+Topic:
+{topic}
+
+Retrieved papers and agent profile guidance:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Analysis requirements:
+- Identify cross-paper tensions, contradictions, incompatible assumptions, unresolved mechanisms, missing comparisons, or unstable evaluation conditions.
+- Do not merely summarize papers. Compare claims against each other.
+- Prefer tensions that can support a falsifiable research question.
+- State what existing literature cannot currently reconcile or explain.
+- If the retrieved evidence is weak, say which tension is tentative rather than pretending it is established.
+
+Return JSON with exactly this key:
+{{
+  "literature_tension_graph": "A concise tension graph in 5-8 sentences. Include at least two contrasted literature claims or assumptions, the conflict type such as mechanism/evaluation/dataset/causal/scope, the unresolved condition, and the research direction that emerges from the tension."
+}}

@@ -1,0 +1,457 @@
+{
+  "experiment_id": "20260528T080747Z",
+  "run_index": 2,
+  "topic": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+  "retrieval_snapshot_id": "20260528T081251Z-multi-agent-reinforcement-learning-for-dynamic-resource-allocation-in-cloud-comp-6",
+  "papers": [
+    {
+      "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Md Naoroj Jaman",
+        "Altanshagai Sarangerel",
+        "Tsogtsaikhan Boorchi",
+        "Orgil Erdene-Ochir",
+        "Delgerbayar Usukhjargal",
+        "Vonekham Laovang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-5",
+      "url": "https://doi.org/10.55248/gengpi.6.0525.1787",
+      "source": "Crossref"
+    },
+    {
+      "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+      "authors": [
+        "P. Vijay",
+        "Gunja Sri Vamshi",
+        "H. Siddhant Haridas",
+        "V. Shiva Ram Reddy"
+      ],
+      "abstract": "Cloud computing workloads are projected to grow by 23.1% annually, with over 80% of enterprises adopting multi-cloud strategies, creating a pressing need for optimal virtual machine (VM) resource allocation to ensure cost efficiency and performance. However, existing allocation strategies suffer from static optimization limitations and inefficient adaptation to dynamic workloads, leading to frequent resource underutilization and service delays. To address these issues, this work proposes a novel Multi-Agent Deep Reinforcement Learning-Based Adaptive Harris Hawks Optimization (MADRL-AHHO) algorithm for cloud resource allocation using the VM Resource Allocation dataset (VM-0 to VM-5 classes). Initially, the dataset is preprocessed through normalization and feature selection to reduce dimensionality and noise. Feature extraction is enhanced using a Convolutional Neural Network (CNN) integrated with Firefly Optimization (CNN-FFO), which is benchmarked for learning capacity and solution convergence. However, performance limitations in CNN-FFO under dynamic load conditions are overcome by integrating CNN with Adaptive Harris Hawks Optimization (CNN-AHHO), which dynamically adjusts its exploration and exploitation capabilities based on multi-agent reinforcement feedback. The agents interact with the environment to learn optimal VM allocation policies by maximizing resource utilization and minimizing SLA violations. Experimental results demonstrate that CNN-AHHO outperforms CNN-FFO and traditional machine learning methods in terms of allocation accuracy, convergence rate, and computational efficiency, thereby offering a robust and adaptive solution for cloud infrastructure management.",
+      "published": "2025-07-14",
+      "url": "https://www.semanticscholar.org/paper/f1497925cb53eaeaa737ea60b4c3f6f860baf25d",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Decentralized Reinforcement Learning for Multi-Agent Multi-Resource Allocation via Dynamic Cluster Agreements_supp1-3581126.mp4",
+      "authors": [
+        "Antonio Marino"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.1109/lra.2025.3581126/mm1",
+      "source": "Crossref"
+    },
+    {
+      "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+      "authors": [
+        "Shijing Yuan",
+        "Xiangfei Chen",
+        "Suchuan Xing",
+        "Jie Li",
+        "Hongyang Chen",
+        "Zhi Liu",
+        "Song Guo"
+      ],
+      "abstract": "Cloud-edge-end (CEE) collaboration has demonstrated significant potential in video streaming analysis. However, dynamic wireless environments, lack of incentive mechanisms, and constrained resources (e.g., transmission power, bandwidth, and computing resources) remain the primary bottlenecks for achieving efficient CEE-based video processing. To address these challenges, this paper focuses on a multi-user CEE scenario with dynamic wireless channels and investigates the joint optimization of adaptive incentives, cooperative offloading, and resource allocation. We propose a novel framework, called JROC, to motivate edge devices (EDs) to participate in collaborative computation within CEE, thereby enhancing system utility. Specifically, JROC encompasses a smart contract-based adaptive incentive mechanism and an Adaptive Transformer-based multi-agent reinforcement Learning Algorithm (ATLA). The incentive mechanism leverages blockchain to ensure trustworthy and automated incentive distribution, while ATLA captures long-term dependencies and global state features among agents to guide video tasks in dynamic environments through adaptive compression, cooperative offloading, and resource allocation. Moreover, we discuss key steps for deploying the proposed algorithm in a real CEE prototype, including lightweight actor inference at the terminal side and training at the edge. Experimental results based on a real-world operator dataset show that, compared to existing methods, JROC achieves higher long-term system utility while maintaining favorable scalability, thereby validating its effectiveness in resource-constrained and under-incentivized CEE video streaming scenarios.",
+      "published": "2026",
+      "url": "https://www.semanticscholar.org/paper/39b39d612b65f8c5525fdddd9ab7d84b752e474d",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+      "authors": [
+        "Bibo Zhang",
+        "Ilario Filippini"
+      ],
+      "abstract": "MmWaves have been envisioned as a promising direction to provide Gbps wireless access. However, they are susceptible to high path losses and blockages, which directional antennas can only partially mitigate. That makes mmWave networks coverage-limited, thus requiring dense deployments. Integrated access and backhaul (IAB) architectures have emerged as a cost-effective solution for network densification. Resource allocation in mmWave IAB networks must face big challenges to cope with heavy temporal dynamics, such as intermittent links caused by user mobility and blockages from moving obstacles. This makes it extremely difficult to find optimal and adaptive solutions. In this article, exploiting the distributed structure of the problem, we propose a Multi-Agent Reinforcement Learning (MARL) framework to optimize user throughput via flow routing and link scheduling in mmWave IAB networks characterized by user mobility and link outages generated by moving obstacles. The proposed approach implicitly captures the environment dynamics, coordinates the interference, and manages the buffer levels of IAB relay nodes. We design different MARL components, considering full-duplex and half-duplex IAB-nodes. In addition, we provide a communication and coordination scheme for RL agents in an online training framework, addressing the feasibility issues of practical systems. Numerical results show the effectiveness of the proposed approach.",
+      "published": "2022-05-12",
+      "url": "http://arxiv.org/abs/2205.06011v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+      "authors": [
+        "Xu Chen",
+        "Wenzhong Li",
+        "Sanglu Lu",
+        "Zhi Zhou",
+        "Xiaoming Fu"
+      ],
+      "abstract": "Mobile-edge cloud computing is a new paradigm to provide cloud computing capabilities at the edge of pervasive radio access networks in close proximity to mobile users. Aiming at provisioning flexible on-demand mobile-edge cloud service, in this paper we propose a comprehensive framework consisting of a resource-efficient computation offloading mechanism for users and a joint communication and computation (JCC) resource allocation mechanism for network operator. Specifically, we first study the resource-efficient computation offloading problem for a user, in order to reduce user's resource occupation by determining its optimal communication and computation resource profile with minimum resource occupation and meanwhile satisfying the QoS constraint. We then tackle the critical problem of user admission control for JCC resource allocation, in order to properly select the set of users for resource demand satisfaction. We show the admission control problem is NP-hard, and hence develop an efficient approximation solution of a low complexity by carefully designing the user ranking criteria and rigourously derive its performance guarantee. To prevent the manipulation that some users may untruthfully report their valuations in acquiring mobile-edge cloud service, we further resort to the powerful tool of critical value approach to design truthful pricing scheme for JCC resource allocation. Extensive performance evaluation demonstrates that the proposed schemes can achieve superior performance for on-demand mobile-edge cloud computing.",
+      "published": "2018-06-08",
+      "url": "http://arxiv.org/abs/1806.03124v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Optimizing Resource Allocation in Cloud-Based Systems Using Multi-Agent Reinforcement Learning",
+      "paper_indices": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "summary": "This cluster of papers focuses on enhancing resource allocation strategies in cloud computing environments through multi-agent reinforcement learning (MARL) techniques. The studies propose various algorithms, such as the Multi-Agent Deep Reinforcement Learning-Based Adaptive Harris Hawks Optimization (MADRL-AHHO) and Adaptive Transformer-based multi-agent reinforcement Learning Algorithm (ATLA), to address challenges like dynamic workloads, resource underutilization, and performance inefficiencies in cloud-edge-end video streaming systems.",
+      "limitations": "The papers highlight limitations in existing allocation strategies due to static optimization and the inability to adapt efficiently to dynamic workloads. Additionally, the performance of proposed algorithms may still face challenges under varying load conditions, and the abstracts of some papers were not available, limiting comprehensive insights.",
+      "gap_relevance": "This cluster identifies a significant research gap in the optimization of resource allocation in dynamic environments, particularly in multi-cloud strategies and video streaming systems. It emphasizes the need for adaptive algorithms that can efficiently manage resources and incentivize participation in collaborative computing, paving the way for future research in these areas."
+    },
+    {
+      "theme": "Resource Allocation in mmWave IAB Networks Using MARL",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster primarily investigates the challenges of resource allocation in mmWave Integrated Access and Backhaul (IAB) networks, particularly in the context of user mobility and link outages. It introduces a Multi-Agent Reinforcement Learning (MARL) framework aimed at optimizing user throughput through effective flow routing and link scheduling, addressing the dynamic nature of the environment.",
+      "limitations": "The proposed MARL approach may face limitations in scalability and may not fully address the complexities of real-world mobility patterns and varying interference conditions. Additionally, the reliance on distributed structures might not guarantee optimal solutions in all scenarios.",
+      "gap_relevance": "This cluster highlights the need for advanced adaptive resource allocation strategies in mmWave networks, thus identifying a research gap in the application of MARL techniques to improve network performance under dynamic conditions."
+    },
+    {
+      "theme": "Resource Allocation in Mobile-Edge Cloud Computing",
+      "paper_indices": [
+        6
+      ],
+      "summary": "This cluster focuses on efficient resource allocation strategies for on-demand mobile-edge cloud computing, emphasizing a framework that includes a computation offloading mechanism for users and a joint communication and computation resource allocation mechanism for network operators. It addresses the NP-hard problem of user admission control to optimize resource usage while satisfying quality of service (QoS) constraints.",
+      "limitations": "The proposed solutions may not fully address the complexities of dynamic user environments and varying QoS requirements. Additionally, the approximation solution's performance guarantees need further validation in real-world scenarios.",
+      "gap_relevance": "This cluster highlights the need for more robust algorithms that can adapt to changing conditions in mobile-edge environments, thus identifying a research gap in dynamic resource management and optimization techniques."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+      "problem": "Resource allocation in cloud-based deep learning systems.",
+      "method": "Multi-Agent Reinforcement Learning (MARL) approach.",
+      "evidence": "Focuses on optimizing resource allocation for deep learning workloads in cloud environments.",
+      "limitation": "Abstract not available; specific limitations are unclear.",
+      "gap_relevance": "Potential to explore dynamic resource allocation strategies in cloud computing."
+    },
+    {
+      "paper_id": "P2",
+      "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+      "problem": "Inefficiencies in existing cloud resource allocation strategies under dynamic workloads.",
+      "method": "MADRL-AHHO algorithm integrating CNN with Adaptive Harris Hawks Optimization.",
+      "evidence": "Demonstrates improved allocation accuracy and computational efficiency over traditional methods.",
+      "limitation": "Performance under extreme dynamic conditions not fully evaluated.",
+      "gap_relevance": "Highlights the need for adaptive algorithms in resource allocation for cloud environments."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Decentralized Reinforcement Learning for Multi-Agent Multi-Resource Allocation via Dynamic Cluster Agreements",
+      "problem": "Resource allocation in decentralized multi-agent systems.",
+      "method": "Decentralized reinforcement learning framework.",
+      "evidence": "Focuses on dynamic cluster agreements for resource allocation.",
+      "limitation": "Abstract not available; specific results and limitations are unclear.",
+      "gap_relevance": "May inform decentralized approaches to resource allocation in cloud computing."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+      "problem": "Challenges in resource allocation for cloud-edge-end video streaming.",
+      "method": "Adaptive Transformer-based multi-agent reinforcement learning algorithm (ATLA).",
+      "evidence": "Achieves higher long-term system utility in resource-constrained environments.",
+      "limitation": "Focuses primarily on video streaming; broader cloud resource allocation implications not explored.",
+      "gap_relevance": "Indicates potential for applying similar frameworks to other cloud resource allocation scenarios."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+      "problem": "Resource allocation in mmWave networks affected by user mobility.",
+      "method": "Multi-Agent Reinforcement Learning framework for optimizing user throughput.",
+      "evidence": "Effectively manages dynamic link conditions and user mobility.",
+      "limitation": "Specific focus on mmWave networks may limit applicability to general cloud resource allocation.",
+      "gap_relevance": "Suggests the importance of considering mobility in resource allocation strategies."
+    },
+    {
+      "paper_id": "P6",
+      "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+      "problem": "Provisioning of on-demand mobile-edge cloud services.",
+      "method": "Resource-efficient computation offloading and joint communication and computation (JCC) resource allocation.",
+      "evidence": "Proposes a low-complexity approximation solution for user admission control.",
+      "limitation": "NP-hard problem; approximation may not be optimal in all scenarios.",
+      "gap_relevance": "Highlights the need for efficient resource allocation mechanisms in mobile-edge cloud environments."
+    }
+  ],
+  "summary": "The literature on Multi-Agent Reinforcement Learning (MARL) for dynamic resource allocation in cloud computing reveals significant advancements in optimizing resource strategies across various environments, including cloud-based deep learning and mobile-edge computing. Key contributions include adaptive algorithms like MADRL-AHHO and ATLA, which address inefficiencies in existing allocation methods under dynamic workloads. However, gaps remain in addressing the complexities of real-world scenarios, particularly in multi-cloud strategies and user mobility, underscoring the need for robust, adaptive solutions that can effectively manage resources in fluctuating conditions.",
+  "scholarly_positioning": "While existing research on Multi-Agent Reinforcement Learning (MARL) has made strides in optimizing resource allocation in cloud computing, significant limitations remain, particularly in adapting to dynamic workloads and real-world complexities. Prior approaches, such as MADRL-AHHO and ATLA, demonstrate improvements but often fall short in scalability and robustness under extreme conditions. This proposed research addresses the unresolved tension of effective multi-cloud resource management and user mobility, which existing algorithms inadequately tackle. By developing adaptive MARL strategies that can dynamically adjust to fluctuating resource demands, this work aims to fill a critical gap in the literature, enhancing the efficiency and effectiveness of resource allocation in cloud environments.",
+  "domain_router": "{\n  \"domain\": \"machine-learning method development\",\n  \"methodology_template\": \"Adaptive algorithm development with performance evaluation under dynamic conditions, including ablation studies and comparative analysis against baseline MARL techniques.\"\n}",
+  "research_scope": "This study will focus on developing adaptive Multi-Agent Reinforcement Learning (MARL) algorithms for dynamic resource allocation in multi-cloud environments, specifically targeting cloud-based video streaming systems. The evaluation period will span six months, during which the proposed algorithms will be tested against existing baseline MARL techniques, such as MADRL-AHHO and ATLA. The primary outcome will be the efficiency of resource allocation measured by system utility and response time under varying workloads. Secondary outcomes will include scalability metrics and user satisfaction ratings. The study will also explore the impact of user mobility on resource allocation effectiveness, providing insights into real-world applicability.",
+  "concept_definition": "{\n  \"Multi-Agent Reinforcement Learning (MARL)\": \"A machine learning approach where multiple agents learn to make decisions in a shared environment, optimizing their actions based on rewards received from the environment.\",\n  \"Dynamic Resource Allocation\": \"The process of distributing computing resources in real-time based on current demand and workload conditions to optimize performance and efficiency.\",\n  \"Cloud Computing\": \"A model for delivering computing services over the internet, allowing for on-demand access to shared resources such as servers, storage, and applications.\",\n  \"User Mobility\": \"The movement of users across different locations, which can affect resource allocation needs and system performance in cloud environments.\",\n  \"Multi-Cloud Environments\": \"A computing strategy that utilizes multiple cloud service providers to distribute workloads and resources, enhancing flexibility and redundancy.\",\n  \"System Utility\": \"A measure of the overall effectiveness and performance of the system, often quantified by the successful allocation of resources relative to user demands.\",\n  \"Response Time\": \"The time taken by the system to respond to user requests, which is critical for maintaining user satisfaction in real-time applications like video streaming.\",\n  \"Scalability Metrics\": \"Quantitative measures that assess how well a system can handle increased loads or expand in capacity without performance degradation.\",\n  \"User Satisfaction Ratings\": \"Feedback from users regarding their experience with the system, often collected through surveys or ratings, indicating the perceived quality of service.\",\n  \"Ablation Studies\": \"Experiments that systematically remove components of a model to assess their impact on performance, helping to identify the contributions of different elements.\",\n  \"Comparative Analysis\": \"A method of evaluating the performance of the proposed algorithms against baseline techniques to determine improvements and effectiveness.\"\n}",
+  "technical_feasibility": "The proposed study requires access to open-source MARL models for algorithm development and performance evaluation. It may also necessitate GPU resources for training and testing the adaptive algorithms. Since the research involves user mobility and its impact on resource allocation, it may require human participants for user satisfaction ratings and trust calibration measures, necessitating ethics approval. To ensure comprehensive evaluation, access to labeled datasets for performance benchmarking against baseline techniques is also essential. A feasible adjustment would be to focus on simulation-based evaluations initially, using synthetic data to model user mobility and resource demands, before incorporating real-world user feedback.",
+  "gap": "Prior studies have demonstrated the effectiveness of Multi-Agent Reinforcement Learning (MARL) in optimizing resource allocation in cloud-based systems; however, they treat user mobility and multi-cloud dynamics as secondary factors, leaving unclear whether these elements significantly impact resource allocation efficiency in real-world scenarios. This matters practically because efficient resource management is crucial for maintaining service quality in fluctuating environments; therefore, this study investigates the influence of user mobility and multi-cloud strategies on adaptive MARL algorithms for dynamic resource allocation in cloud-based video streaming systems.",
+  "question": "How does user mobility and the implementation of multi-cloud strategies influence the efficiency of adaptive Multi-Agent Reinforcement Learning algorithms for dynamic resource allocation in cloud-based video streaming systems compared to traditional MARL techniques?",
+  "theoretical_mechanism": "In this research, the independent variable is user mobility, while the implementation of multi-cloud strategies serves as a moderator. The mediator is the adaptive Multi-Agent Reinforcement Learning (MARL) algorithm, which dynamically allocates resources based on real-time demands. The dependent variable is the efficiency of resource allocation, measured through system utility and response time. The theoretical framework is grounded in reinforcement learning principles, where agents learn optimal strategies through interactions with the environment. The causal chain posits that user mobility influences resource demands, which, when managed by adaptive MARL algorithms in multi-cloud settings, leads to improved system-level outcomes (e.g., reduced response time) and user-level outcomes (e.g., increased satisfaction). Assumptions requiring empirical validation include the extent to which user mobility impacts resource allocation needs and the effectiveness of adaptive strategies in real-world scenarios.",
+  "hypothesis": "In cloud-based video streaming systems, increased user mobility will negatively impact the efficiency of adaptive Multi-Agent Reinforcement Learning algorithms for dynamic resource allocation, as compared to traditional MARL techniques, leading to lower system utility and longer response times.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name                         | Role      | Measurement Instrument            | Data Source                     | Timing          |\n|---------------------------------------|-----------|----------------------------------|---------------------------------|-----------------|\n| User Mobility                          | IV        | User movement tracking logs      | System logs, GPS data          | Continuous       |\n| Adaptive Multi-Agent Reinforcement Learning (MARL) | Mediator  | Performance metrics of MARL     | Simulation results              | Post-evaluation   |\n| Multi-Cloud Strategies                 | Moderator | Configuration settings           | System architecture documentation | Pre-evaluation    |\n| Efficiency of Resource Allocation      | DV        | System utility and response time | Performance monitoring tools    | Continuous       |\n\nCausal Pathway:\nUser mobility (IV) influences the efficiency of resource allocation (DV) through the adaptive MARL algorithm (mediator), with multi-cloud strategies acting as a moderator. Increased user mobility is expected to complicate resource demands, potentially leading to lower system utility and longer response times.\n\nLikely Confounds:\nFactors such as network latency, server load, and user behavior patterns may confound the relationship between user mobility and resource allocation efficiency. Additionally, variations in cloud service quality across providers could impact results.\n\nClaim Boundaries:\nThe study claims that user mobility negatively impacts adaptive MARL efficiency in resource allocation. It does not claim that all forms of user mobility will have the same effect or that adaptive MARL is the only factor influencing resource allocation efficiency.\n\nWhat Cannot Be Concluded:\nThe study cannot conclude that traditional MARL techniques are universally inferior to adaptive MARL in all contexts, nor can it generalize findings beyond cloud-based video streaming systems without further research.",
+  "methodology": "This study will develop and evaluate adaptive Multi-Agent Reinforcement Learning (MARL) algorithms for dynamic resource allocation in multi-cloud environments, specifically focusing on cloud-based video streaming systems. The research will utilize simulation-based evaluations with synthetic data to model user mobility and resource demands, allowing for controlled experimentation. Baseline comparisons will be made against existing MARL techniques, such as MADRL-AHHO and ATLA, to assess improvements in system utility and response time. Key operationalized variables include user mobility (independent variable), adaptive MARL performance (mediator), and resource allocation efficiency (dependent variable), measured through system utility and response time metrics. Confounding factors like network latency and server load will be monitored to ensure validity. The study will also incorporate user satisfaction ratings through surveys to provide qualitative insights into the effectiveness of the proposed algorithms. The scope will be controlled by focusing on specific cloud-based video streaming scenarios, ensuring reproducibility through detailed documentation of the simulation setup and algorithm configurations.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This research introduces a new theoretical framework that links user mobility to resource allocation efficiency in multi-cloud environments, providing insights into how adaptive MARL algorithms can be optimized based on real-time user behavior. The study posits that user mobility significantly alters resource demands, which is a previously underexplored aspect in MARL literature.\",\n  \"technical_contribution\": \"The development of adaptive MARL algorithms specifically tailored for dynamic resource allocation in cloud-based video streaming systems represents a significant technical advancement. These algorithms incorporate user mobility as a key variable, enhancing their responsiveness and effectiveness compared to existing baseline techniques like MADRL-AHHO and ATLA.\",\n  \"empirical_contribution\": \"Through rigorous simulation-based evaluations, this study will generate empirical findings that quantify the impact of user mobility on resource allocation efficiency. The results will provide new metrics for system utility and response time, establishing a benchmark for future research in adaptive resource management in cloud computing.\",\n  \"practical_deployment_contribution\": \"The research will yield deployment guidelines for implementing adaptive MARL algorithms in real-world cloud environments, particularly for video streaming services. By addressing the challenges posed by user mobility and multi-cloud dynamics, the findings will offer actionable insights for cloud service providers aiming to enhance user satisfaction and system performance.\"\n}",
+  "phd_contribution_design": "This research proposes the development of adaptive Multi-Agent Reinforcement Learning (MARL) algorithms that specifically account for user mobility in dynamic resource allocation for cloud-based video streaming systems. The mechanism-level claim is that incorporating user mobility as a variable will enhance the responsiveness and efficiency of resource allocation compared to traditional MARL techniques, which do not adequately address this factor. Existing literature fails to explore the significant impact of user mobility on resource demands and allocation efficiency in multi-cloud environments. The falsifiable claim posits that increased user mobility will negatively affect the efficiency of adaptive MARL algorithms, leading to lower system utility and longer response times. The strongest baseline for comparison will be existing MARL techniques like MADRL-AHHO and ATLA. Evidence supporting this claim will be derived from simulation-based evaluations that quantify system utility and response time under varying mobility conditions. A negative result would suggest that user mobility does not significantly influence adaptive MARL efficiency, challenging the proposed theoretical framework and indicating a need for reevaluation of the factors affecting resource allocation in cloud computing.",
+  "pre_proposal_critique": "The proposed contribution design may struggle to achieve an 85+ PhD-level score due to several critical weaknesses. First, the novelty claim lacks depth; it fails to convincingly demonstrate how the proposed adaptive MARL algorithms significantly differ from existing methods beyond merely incorporating user mobility. To repair this, the proposal must explicitly outline unique algorithmic features and their theoretical underpinnings. Second, the theoretical framework is weak; it does not sufficiently connect user mobility with resource allocation efficiency in a robust manner. The proposal should integrate established theories from related fields to strengthen its foundation. Third, the baseline comparison is insufficient; relying solely on MADRL-AHHO and ATLA may not adequately showcase the proposed algorithms' advantages. The proposal must include additional baseline techniques and detailed ablation studies to validate the contributions. Addressing these objections will enhance the proposal's rigor and clarity.",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"User Mobility Variability\",\n      \"risk\": \"Inconsistent user movement patterns may skew resource allocation results.\",\n      \"mitigation_strategy\": \"Utilize diverse synthetic mobility models to simulate various user behaviors.\"\n    },\n    {\n      \"failure_mode\": \"Algorithm Performance Degradation\",\n      \"risk\": \"Adaptive MARL may underperform compared to traditional techniques in certain scenarios.\",\n      \"mitigation_strategy\": \"Conduct extensive ablation studies to identify weaknesses and optimize algorithm parameters.\"\n    },\n    {\n      \"failure_mode\": \"Data Sparsity\",\n      \"risk\": \"Insufficient data for training and validating the adaptive MARL algorithms.\",\n      \"mitigation_strategy\": \"Leverage synthetic data generation and augment existing datasets to enhance training robustness.\"\n    },\n    {\n      \"failure_mode\": \"Ethical Concerns with User Data\",\n      \"risk\": \"Potential privacy issues arising from tracking user mobility.\",\n      \"mitigation_strategy\": \"Obtain ethics approval and anonymize data to protect user identities.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretations\",\n      \"risk\": \"Findings may be misinterpreted as failures of adaptive MARL rather than contextual limitations.\",\n      \"mitigation_strategy\": \"Clearly communicate the scope and limitations of the study in all publications.\"\n    },\n    {\n      \"failure_mode\": \"Low User Engagement\",\n      \"risk\": \"Limited participation in user satisfaction surveys may affect feedback quality.\",\n      \"mitigation_strategy\": \"Incentivize participation and ensure surveys are concise and user-friendly.\"\n    },\n    {\n      \"failure_mode\": \"Confounding Variables\",\n      \"risk\": \"External factors like network latency may influence results, complicating interpretations.\",\n      \"mitigation_strategy\": \"Control for confounding variables through careful experimental design and monitoring.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong; evidence notes highlight limitations in existing MARL approaches that fail to address user mobility and multi-cloud dynamics, directly supporting the identified research gap.",
+    "domain_to_method": "Fits well; the methodology of developing adaptive MARL algorithms is appropriate for the domain of dynamic resource allocation in cloud computing.",
+    "concept_to_metric": "Operationally defined; core concepts like user mobility and resource allocation efficiency are measured through specific metrics such as system utility and response time.",
+    "feasibility_to_method": "Feasible; the proposal outlines access to necessary models, data, and computational resources, with ethical considerations for participant involvement.",
+    "scope_to_gap": "Specific; the study focuses on cloud-based video streaming systems, making the gap in resource allocation strategies clear and targeted.",
+    "gap_to_question": "Directly leads; the identified gap regarding user mobility and multi-cloud dynamics informs the research question about their influence on adaptive MARL efficiency.",
+    "question_to_hypothesis": "Logical progression; the research question about user mobility's impact leads to the hypothesis that increased mobility negatively affects MARL efficiency.",
+    "hypothesis_to_methodology": "Aligned; the methodology includes simulations designed to test the hypothesis regarding the efficiency of adaptive MARL under varying user mobility conditions.",
+    "methodology_to_evaluation": "Comprehensive; the planned evaluation through simulation-based assessments directly addresses the research question by quantifying resource allocation efficiency.",
+    "contribution_to_test": "Tested; the proposed contributions are evaluated through the methodology, ensuring that theoretical, technical, and empirical advancements are substantiated.",
+    "reviewer_attack_to_repair": "Successfully addressed; the final proposal incorporates unique algorithmic features, strengthens causal reasoning, and includes robust methodological frameworks to counter reviewer objections.",
+    "weak_links": []
+  },
+  "proposal": "This research proposes the development of novel adaptive Multi-Agent Reinforcement Learning (MARL) algorithms specifically designed to enhance dynamic resource allocation in multi-cloud environments, focusing on cloud-based video streaming systems. The core contribution lies in addressing the significant gap in existing literature, which inadequately considers the impact of user mobility and multi-cloud dynamics on resource allocation efficiency. Prior work, such as MADRL-AHHO and ATLA, fails to account for real-world complexities, leading to suboptimal performance in fluctuating environments. This study hypothesizes that increased user mobility negatively impacts the efficiency of adaptive MARL algorithms, resulting in lower system utility and longer response times compared to traditional MARL techniques. The theoretical mechanism posits that user mobility (independent variable) alters resource demands, which adaptive MARL algorithms (mediator) must dynamically manage to optimize resource allocation efficiency (dependent variable), with multi-cloud strategies serving as a moderator. Constructs will be operationalized through user movement tracking logs, performance metrics of MARL, configuration settings for multi-cloud strategies, and system utility and response time measured via performance monitoring tools. The methodology includes rigorous simulation-based evaluations using synthetic data to model user mobility, with a comprehensive comparison against baseline MARL techniques, including additional relevant algorithms to ensure robustness. Key evaluation metrics will be defined to quantify system utility and response time, while confounding factors such as network latency and server load will be meticulously controlled. The expected contributions encompass theoretical insights into the relationship between user mobility and resource allocation, technical advancements in adaptive MARL algorithms, empirical findings quantifying efficiency, and practical guidelines for cloud service providers. This proposal directly addresses previous critiques by articulating unique algorithmic features, strengthening causal reasoning, and ensuring a robust methodological framework that enhances the understanding of adaptive resource management in cloud computing.",
+  "draft_proposal": "This research proposes the development of adaptive Multi-Agent Reinforcement Learning (MARL) algorithms for dynamic resource allocation in multi-cloud environments, specifically targeting cloud-based video streaming systems. Core concepts include Multi-Agent Reinforcement Learning, dynamic resource allocation, user mobility, and system utility. The study assumes access to open-source MARL models, GPU resources, and ethics approval for user data collection. The literature reveals a gap in addressing user mobility and multi-cloud dynamics in existing MARL approaches, particularly those like MADRL-AHHO and ATLA, which inadequately handle real-world complexities. The research question is: How does user mobility and the implementation of multi-cloud strategies influence the efficiency of adaptive MARL algorithms for dynamic resource allocation in cloud-based video streaming systems compared to traditional MARL techniques? The theoretical mechanism posits that user mobility (independent variable) influences resource allocation efficiency (dependent variable) through adaptive MARL algorithms (mediator), with multi-cloud strategies acting as a moderator. The falsifiable hypothesis states that increased user mobility will negatively impact the efficiency of adaptive MARL algorithms, leading to lower system utility and longer response times. Construct operationalization includes metrics such as user movement tracking logs (IV), performance metrics of MARL (mediator), configuration settings for multi-cloud strategies (moderator), and system utility and response time (DV). The methodology involves simulation-based evaluations using synthetic data to model user mobility, with comparisons against baseline MARL techniques. The PhD contribution design emphasizes the theoretical framework linking user mobility to resource allocation efficiency, enhancing MARL algorithms' responsiveness. To address potential reviewer criticisms, the proposal will explicitly outline unique algorithmic features, strengthen the theoretical framework with established theories, and include additional baseline comparisons. Expected contributions include theoretical insights into user mobility's impact on resource allocation, technical advancements in adaptive MARL algorithms, empirical findings quantifying efficiency, and practical guidelines for cloud service providers. Key limitations include potential confounding factors like network latency and the risk of misinterpretation of negative results, which will be mitigated through careful experimental design and clear communication of study limitations.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The gap identified is valid as it highlights the underexplored impact of user mobility and multi-cloud dynamics on MARL algorithms, which is crucial for real-world applications.",
+      "literature_grounding": "The grounding in literature is adequate, referencing relevant studies; however, it could benefit from more explicit connections to specific findings that underscore the gap.",
+      "meaningfulness": "The gap is meaningful as it addresses practical challenges in cloud computing, particularly in enhancing resource allocation efficiency.",
+      "already_solved_risk": "There is a risk that existing studies may have partially addressed these issues, necessitating a clearer delineation of how this research will build upon or differ from previous work."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but lacks a critical comparative analysis that highlights specific unresolved tensions in the literature.",
+      "unresolved_tensions": "It does not sufficiently articulate the unresolved tensions, such as the balance between adaptability and scalability in MARL algorithms.",
+      "positioning_quality": "Positioning is weak; it should more clearly contrast the proposed work with existing methodologies and their limitations."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The methodology aligns well with the domain of machine learning and resource allocation in cloud computing.",
+      "methodology_template_fit": "The proposed methodology template is appropriate for the research domain, focusing on adaptive algorithm development.",
+      "template_transfer_risk": "There is minimal risk of inappropriate template transfer, but the proposal should ensure that methods are tailored to the specific challenges of cloud environments."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The research scope is specific, targeting cloud-based video streaming systems within multi-cloud environments.",
+      "population_or_task_definition": "The definition of the task is clear, focusing on dynamic resource allocation influenced by user mobility.",
+      "intervention_and_comparison_definition": "Interventions and comparisons are adequately defined, but the proposal could specify the nature of the baseline techniques more clearly.",
+      "outcome_definition": "Outcome definitions are concrete, focusing on system utility and response time, but could include additional qualitative metrics."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Most technical terms are adequately defined, but some terms like 'system utility' could benefit from more precise operationalization.",
+      "implementation_specificity": "Implementation specifics are somewhat vague; detailing how algorithms will be adapted for user mobility would strengthen this section.",
+      "level_of_analysis_clarity": "The level of analysis is clear, focusing on both system-level and user-level outcomes."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to open-source MARL models is realistic, but the proposal should specify which models will be utilized.",
+      "data_and_compute_requirements": "The data and compute requirements are feasible, but the proposal should clarify the extent of GPU resources needed.",
+      "human_or_multilingual_resources": "Human resources for user feedback are acknowledged, but the proposal should outline how participant recruitment will be managed.",
+      "feasible_adjustments": "Feasible adjustments include focusing on simulation-based evaluations initially, which is a practical approach given resource constraints."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, addressing a specific aspect of MARL in cloud computing.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, focusing on a relevant and timely issue.",
+      "variable_clarity": "Variables are defined, but the proposal could clarify how user mobility will be quantified and measured."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The mechanism is outlined but lacks depth in explaining why user mobility affects resource allocation efficiency.",
+      "theoretical_framing": "The theoretical framing could be strengthened by integrating established theories from related fields, such as network theory.",
+      "assumption_transparency": "Assumptions are stated but need to be more explicitly linked to the proposed causal relationships."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable and aligns with the research question, but it could be more explicitly linked to expected outcomes.",
+      "mechanism_grounding": "Grounding in the mechanism is present but could be enhanced by detailing how user mobility specifically alters resource demands.",
+      "measurable_outcome": "Measurable outcomes are defined, but the proposal should specify how these will be quantitatively assessed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization is generally clear, but some constructs lack specific measurement instruments.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but additional detail on how they will be collected and analyzed is needed.",
+      "causal_identification": "Causal pathways are outlined, but confounding variables should be more explicitly identified and controlled.",
+      "confound_awareness": "Awareness of confounds is present, but the proposal should detail specific strategies for controlling them.",
+      "claim_boundaries": "Claim boundaries are defined, but the proposal should clarify the limits of generalizability."
+    },
+    "methodology_stage": {
+      "baseline_validity": "Baseline comparisons are appropriate, but additional baseline techniques should be included for robustness.",
+      "metric_validity": "Metric validity is generally sound, but the proposal should justify the choice of metrics in relation to research goals.",
+      "statistical_or_evaluation_validity": "Evaluation validity is addressed, but the proposal should detail the statistical methods planned for analysis.",
+      "reproducibility": "Reproducibility is emphasized, but detailed documentation of methods and configurations is necessary.",
+      "confound_control": "Confound control strategies are mentioned but need more specificity.",
+      "risk_analysis": "Risk analysis is present but should include more detail on how potential failures will be addressed."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical novelty is present but could be articulated more clearly in relation to existing theories.",
+      "methodological_novelty": "Methodological novelty is suggested, but unique features of the proposed algorithms need clearer articulation.",
+      "practical_novelty": "Practical contributions are outlined, but the proposal should specify how findings will translate into actionable insights.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal should emphasize how the research will contribute original insights rather than merely applying existing methods."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the proposal should include more detail on how each will be monitored and mitigated.",
+      "limitation_depth": "Limitations are acknowledged, but the proposal should explore potential impacts of these limitations on findings.",
+      "risk_mitigation": "Mitigation strategies are present but should be more detailed and tailored to specific identified risks."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contribution clarity is moderate; the proposal should more explicitly define the unique contributions of the research.",
+      "novelty_type": "The novelty type is primarily methodological, with some theoretical aspects.",
+      "coherence": "Coherence is generally good, but the proposal should ensure that all sections align with the central research question.",
+      "limitation_awareness": "Awareness of limitations is present, but the proposal should discuss how these limitations will be addressed.",
+      "academic_communication": "Academic communication is adequate but could benefit from more precise language and clearer articulation of complex ideas."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads logically to the research question, but the connection could be made more explicit.",
+      "question_to_hypothesis": "The question leads to the hypothesis, but the hypothesis could be more tightly linked to specific expected outcomes.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but the proposal should clarify how each aspect of the hypothesis will be evaluated.",
+      "method_to_evaluation": "The method is designed to evaluate the question, but the proposal should ensure that evaluation metrics align directly with research goals."
+    },
+    "revision_plan": "Revise the gap stage to clarify how the proposed research builds on existing work and explicitly define the unique contributions. Strengthen the scholarly positioning by critically comparing prior approaches and highlighting unresolved tensions. Enhance the theoretical mechanism by integrating established theories and clarifying assumptions. Finally, ensure that all constructs are operationalized with specific measurement instruments and that confounding variables are clearly identified and controlled."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 4,
+    "weighted_total": 67.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: understandable but partially broad or insufficiently operationalized",
+        "justification": "The proposal identifies a relevant research problem regarding resource allocation in cloud computing using MARL, but the operational definitions of key concepts like 'user mobility' and 'multi-cloud strategies' are vague and lack specificity. Major weaknesses: Key concepts are not sufficiently operationalized, leading to ambiguity in the research boundaries and the formulation of the research question. Next band requirements: To move into the next score band, the proposal must provide clearer definitions and operationalizations of the constructs involved, and articulate a more precise research question."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from problem identification to hypothesis formulation, but the causal claims regarding user mobility's impact on resource allocation efficiency lack empirical support and detailed justification. Major weaknesses: The reasoning connecting user mobility to resource allocation efficiency is underdeveloped, and assumptions about the effectiveness of adaptive MARL algorithms are not sufficiently justified. Next band requirements: Strengthening the causal claims with empirical evidence or theoretical backing and ensuring that all assumptions are clearly articulated would enhance coherence."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal attempts to introduce adaptive MARL algorithms, the novelty is undermined by the reliance on existing techniques without a clear differentiation or innovative framework. Major weaknesses: The proposal does not convincingly demonstrate how the new algorithms significantly differ from existing methods, and the theoretical contributions are not sufficiently original. Next band requirements: To achieve a higher score, the proposal must articulate unique features of the proposed algorithms and provide a more compelling theoretical framework that advances understanding in the field."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology is generally sound, with a focus on simulation-based evaluations; however, details regarding the experimental design and controls are insufficiently elaborated. Major weaknesses: Lack of clarity on how confounding variables will be controlled and insufficient detail on the baseline comparisons weaken the methodological rigor. Next band requirements: Providing a more detailed experimental design, including specific controls and a comprehensive baseline comparison, would improve the feasibility score."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but lacks depth in critically engaging with prior work and identifying genuine gaps in the existing research. Major weaknesses: The literature review is somewhat superficial, failing to adequately position the proposed research within the broader academic discourse and to articulate why existing work is insufficient. Next band requirements: A more thorough synthesis of the literature, highlighting unresolved tensions and positioning the work within ongoing debates, would enhance scholarly positioning."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 6.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some theoretical engagement but lacks the depth and sophistication expected at the PhD level, particularly in articulating the mechanisms at play. Major weaknesses: The theoretical framework is not sufficiently developed, and the proposal does not adequately discuss limitations or potential failure cases. Next band requirements: Enhancing the theoretical sophistication and providing a more nuanced discussion of limitations and potential negative results would elevate the academic depth."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, but some sections lack precision and conciseness, which detracts from overall readability. Major weaknesses: Certain terminologies are not consistently defined, and there are instances of redundancy that could be streamlined for clarity. Next band requirements: Improving the precision of terminology and enhancing conciseness in the writing would strengthen the overall presentation."
+      }
+    ],
+    "comments": "Total score: 67.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant research problem in resource allocation using MARL.; Proposes a structured methodology for evaluation. Major weaknesses: Vague operational definitions of key concepts.; Insufficient theoretical depth and novelty.; Weak justification for causal claims. Required improvements for true PhD-level quality: Clarify and operationalize key concepts.; Strengthen the theoretical framework and causal reasoning.; Enhance the literature review with critical engagement. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant improvements in clarity, theoretical depth, and methodological rigor."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+        "similarity": 0.7735
+      },
+      {
+        "original_index": 3,
+        "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+        "similarity": 0.7158
+      },
+      {
+        "original_index": 6,
+        "title": "Decentralized Reinforcement Learning for Multi-Agent Multi-Resource Allocation via Dynamic Cluster Agreements_supp1-3581126.mp4",
+        "similarity": 0.6809
+      },
+      {
+        "original_index": 4,
+        "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+        "similarity": 0.6269
+      },
+      {
+        "original_index": 1,
+        "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+        "similarity": 0.5633
+      },
+      {
+        "original_index": 2,
+        "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+        "similarity": 0.5536
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+          "similarity": 0.6927
+        },
+        {
+          "paper_index": 4,
+          "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+          "similarity": 0.6886
+        },
+        {
+          "paper_index": 5,
+          "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+          "similarity": 0.681
+        }
+      ],
+      "max_similarity": 0.6927,
+      "mean_similarity": 0.644
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+          "similarity": 0.7097
+        },
+        {
+          "paper_index": 4,
+          "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+          "similarity": 0.6995
+        },
+        {
+          "paper_index": 5,
+          "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+          "similarity": 0.6682
+        }
+      ],
+      "max_similarity": 0.7097,
+      "mean_similarity": 0.6389
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+    "retrieval_snapshot_id": "20260528T081251Z-multi-agent-reinforcement-learning-for-dynamic-resource-allocation-in-cloud-comp-6",
+    "latency_ms": 283439,
+    "prompt_tokens": 72865,
+    "completion_tokens": 10205,
+    "total_tokens": 83070,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "snapshot_id": "20260527T043808Z-llm-based-feedback-generation-for-programming-education-5",
+  "topic": "LLM-based feedback generation for programming education",
+  "retrieval_query": "LLM-based feedback generation for programming education",
+  "max_papers": 5,
+  "retrieved_at": "20260527T043808Z",
+  "papers": [
+    {
+      "title": "WIP: A Pedagogical Prompt Engineering Framework for LLM-Based Feedback in Higher Education (PPE-LLM)",
+      "authors": [
+        "Eyman A. Alyahyan",
+        "Mireilla Bikanga Ada",
+        "Jake Lever"
+      ],
+      "abstract": "This Work-in-Progress (WIP) paper introduces PPE-LLM, a structured framework for prompt engineering that enables LLM -generated feedback to be pedagogically meaningful and tailored to novice programming students in introductory pro-gramming education. Although large language models (LLMs) show promise for feedback generation, existing research lacks a structured methodology that integrates pedagogical principles, student needs, best-practice prompting, and technical consid-erations. PPE- LLM addresses this gap by providing a theory-driven framework that supports the systematic design of prompts to generate formative feedback, enhancing learning tailored to students' learning levels and needs. This paper presents the key components of the framework, along with a practical example prompt. It also analyses the alignment of recent CER studies with the PPE- LLM components. The results indicate that studies with limited alignment often produced inconsistent or lower-quality feedback, whereas more substantial alignment was found to be pedagogically effective in AI-generated feedback. Future work includes expert validation and student evaluation in real-world settings.",
+      "published": "2025-11-02",
+      "url": "https://www.semanticscholar.org/paper/650f9a193a59022c01f23275ac0c0566543aab64",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+      "authors": [
+        "Marios Chrysopoulos",
+        "Lefteris Moussiades"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-9-27",
+      "url": "https://doi.org/10.1109/waie67422.2025.11381301",
+      "source": "Crossref"
+    },
+    {
+      "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+      "authors": [
+        "Marios Chrysopoulos",
+        "Lefteris Moussiades"
+      ],
+      "abstract": "The integration of Large Language Models (LLMs) into education offers new opportunities for enhancing programming instruction, especially at the high school level. This paper introduces PythonTutor, an intelligent tutoring system that supports novice learners through scaffolded, AI-generated feedback. Powered by ChatGPT 4.0 Mini, PythonTutor provides step-by-step hints tailored to student submissions, promoting independent problem-solving and limiting overreliance on AI. The platform unifies instructional content, personalized tutoring, and teacher oversight in a web-based environment. A pilot study with 18 students and three teachers compared PythonTutor-supported instruction to traditional methods. Results showed significantly greater learning gains with PythonTutor, supported by high accuracy and precision in AI feedback. Student and teacher feedback confirmed the system’s usability, educational value, and classroom potential. PythonTutor emerges as a scalable, cost-effective solution for personalized programming education aligned with best practices",
+      "published": "2025-09-27",
+      "url": "https://www.semanticscholar.org/paper/2de83feb7e36de97eafc052c663366c50074b9dd",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Cinema, Fermi Problems, & General Education",
+      "authors": [
+        "C. J. Efthimiou",
+        "R. Llewellyn"
+      ],
+      "abstract": "During the past several years the authors have developed a new approach to the teaching of Physical Science, a general education course typically found in the curricula of nearly every college and university. This approach, called `Physics in Films', uses scenes from popular movies to illustrate physical principles and has excited student interest and improved student performance. The analyses of many of the scenes in `Physics in Films' are a direct application of Fermi calculations -- estimates and approximations designed to make solutions of complex and seemingly intractable problems understandable to the student non-specialist. The intent of this paper is to provide instructors with examples they can use to develop skill in recognizing Fermi problems and making Fermi calculations in their own courses.",
+      "published": "2006-08-05",
+      "url": "http://arxiv.org/abs/physics/0608058v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Twelve Years of Education and Public Outreach with the Fermi Gamma-ray Space Telescope",
+      "authors": [
+        "Lynn Cominsky",
+        "Kevin McLin",
+        "Aurore Simonnet",
+        "the Fermi Education",
+        "Public Outreach Team"
+      ],
+      "abstract": "During the past twelve years, NASA's Fermi Gamma-ray Space Telescope has supported a wide range of Education and Public Outreach (E/PO) activities, targeting K-14 students and the general public. The purpose of the Fermi E/PO program is to increase student and public understanding of the science of the high-energy Universe, through inspiring, engaging and educational activities linked to the mission's science objectives. The E/PO program has additional more general goals, including increasing the diversity of students in the Science, Technology, Engineering and Mathematics (STEM) pipeline, and increasing public awareness and understanding of Fermi science and technology. Fermi's multi-faceted E/PO program includes elements in each major outcome category: Higher Education; Elementary and Secondary Education; Informal Education and Public Outreach.",
+      "published": "2013-02-28",
+      "url": "http://arxiv.org/abs/1303.0042v1",
+      "source": "arXiv"
+    }
+  ]
+}

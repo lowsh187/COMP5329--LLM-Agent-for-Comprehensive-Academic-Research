@@ -1,0 +1,64 @@
+{
+  "snapshot_id": "20260529T054438Z-ai-driven-detection-of-advanced-persistent-threats-in-enterprise-networks-5",
+  "topic": "AI-Driven Detection of Advanced Persistent Threats in Enterprise Networks",
+  "retrieval_query": "AI-Driven Detection of Advanced Persistent Threats in Enterprise Networks",
+  "max_papers": 5,
+  "retrieved_at": "20260529T054438Z",
+  "papers": [
+    {
+      "title": "AI-Driven Threat Intelligence for Predicting Advanced Persistent Attacks in Cloud-Based IT Services",
+      "authors": [
+        "Yogish Pai U"
+      ],
+      "abstract": "The adoption of cloud-based IT services has transformed modern enterprise operations, offering flexibility and scalability. However, this evolution has also introduced significant security challenges, particularly from Advanced Persistent Threats (APTs), which are sophisticated, stealthy, and often long-lasting attacks designed to bypass conventional defence mechanisms. Addressing such threats requires a forward-looking approach that emphasizes prediction and early intervention rather than reactive countermeasures. This research presents an innovative artificial intelligence (AI)-based framework that combines threat intelligence with deep learning models to anticipate and detect APTs in cloud environments. The proposed system employs Long Short-Term Memory Autoencoders (LSTM-AE) to uncover abnormal patterns in system behaviours by analysing multiple data sources, including network traffic, system logs, and threat intelligence feeds. The framework is trained and evaluated using publicly available datasets such as CICIDS 2017, along with custom cloud log data. The results highlight the model's ability to achieve high detection accuracy while minimizing false positive rates, outperforming traditional intrusion detection approaches. By integrating contextual threat intelligence with AI-based behavioural analysis, the framework enhances real-time situational awareness and supports proactive cybersecurity measures. This study contributes a scalable and adaptive solution for strengthening cloud infrastructure against evolving and complex threat scenarios.",
+      "published": "2025-05-28",
+      "url": "https://www.semanticscholar.org/paper/02fbe14d3f826e3f689ccd86b2d84d7c33548c33",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "AI-Driven Deception Systems for Advanced Persistent Threat (APT) Mitigation",
+      "authors": [
+        "Abdullahel Hadi",
+        "Syed Nurul Islam",
+        "A. Khan",
+        "Muhammad Ismaeel Khan",
+        "Manu Kumar Misra",
+        "Aftab Arif"
+      ],
+      "abstract": "APTs can be considered as one of the most significant problems of contemporary cybersecurity because they are unnoticed, persistent and adaptive. Conventional defence systems have been found to be ineffective in detecting and countering these advanced attacks with the attacker exploiting trickery and evasion tools to circumvent the traditional security measures. In this paper, the researcher suggests an AI-led deception engine to actively counter APTs using dynamic and context-adaptable defence mechanisms. The system combines machine learning, generative adversarial deception models, and autonomous response agents to form adaptive decoys, mislead adversarial reconnaissance, and disrupt lateral movement in enterprise networks. The framework improves the detection accuracy and minimizes the false positives by constantly examining attacker behaviour and updating the deception artifacts in real time. As shown by experimental validation, the suggested system is able to not only increase resilience to changing APT campaigns but also to offer quantifiable improvements in attack dwell-time and rates of system compromise. The results note the opportunities of integrating the deception technologies with the AI to form proactive, intelligent, and sustainable defence mechanisms of the critical infrastructures.",
+      "published": "2025-10-24",
+      "url": "https://www.semanticscholar.org/paper/b1c48ccfa8b6a4f71f1f699f0356b3c49f3e68bd",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "AI-Augmented Intrusion Detection Systems for Mitigating Advanced Persistent Threats in Cyber-Physical Manufacturing Networks",
+      "authors": [
+        "Yoheswari S"
+      ],
+      "abstract": "Cyber-Physical Manufacturing Networks (CPMNs) are increasingly exposed to sophisticated cyberattacks, particularly Advanced Persistent Threats (APTs), which stealthily compromise system integrity over extended periods. Conventional intrusion detection systems often struggle to identify such adaptive and stealthy threats in real time, necessitating more intelligent and dynamic security solutions. This paper explores AI-augmented intrusion detection systems designed to enhance threat detection accuracy and response efficiency within CPMNs. The study elaborates on how machine learning algorithms and deep learning models can analyse diverse network and sensor data to detect anomalous behaviours indicative of APTs. It further discusses the architecture of such AI-driven IDS frameworks, highlighting their ability to adapt to evolving attack patterns and reduce false positives. Real-world manufacturing use cases are examined to demonstrate the practical effectiveness and challenges in deployment. The findings emphasize that integrating AI with traditional IDS offers a robust defence mechanism that supports continuous monitoring and proactive mitigation, crucial for maintaining operational continuity and safety in manufacturing environments. The study concludes by outlining future directions for enhancing AI model explainability, scalability, and resilience in increasingly complex cyber-physical manufacturing landscapes.",
+      "published": "2025-10-6",
+      "url": "https://doi.org/10.20944/preprints202510.0470.v1",
+      "source": "Crossref"
+    },
+    {
+      "title": "AI Tool for Detecting Behavioural Anomalies in Organisational Networks",
+      "authors": [
+        "Akhil Shaikh"
+      ],
+      "abstract": "The increasing sophistication of cyber threats has rendered traditional signature-based and rule-based security mechanisms insufficient for protecting modern organisations. Advanced Persistent Threats (APTs), insider threats, and zero-day attacks often evade conventional detection systems by mimicking legitimate user behaviour. Behavioural Anomaly Detection (BAD), powered by Artificial Intelligence (AI) and Machine Learning (ML), has emerged as a critical cybersecurity approach that focuses on identifying deviations from normal behavioural patterns rather than known attack signatures. This paper explores the design, implementation, and effectiveness of AI-driven behavioural anomaly detection tools as a cybersecurity solution for organisations. We present a conceptual framework, discuss commonly used machine learning techniques, evaluate advantages and limitations, and highlight real-world applicability within cloud and enterprise environments. The findings indicate that behavioural anomaly detection significantly enhances organisational security posture by enabling early threat detection, reducing dwell time, and improving resilience against evolving cyber threats.",
+      "published": "2026-04-10",
+      "url": "https://www.semanticscholar.org/paper/333ac0b393c20d42d7d8060e2d7b2ca151e9a40e",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Cognitive Cyber Defense Applying Artificial General Intelligence to Predict and Counteract Advanced Persistent Threats",
+      "authors": [
+        "Akash Parasumanna Sridhar"
+      ],
+      "abstract": "This document presents the Cognitive-Generative Défense Framework (CGDF), which applies Artificial General Intelligence (AGI) principles to the next generation of cyber defense methodologies and anticipates, counters, and adjusts to Advanced Persistent Threats (APTs). This research, building from hands on Proof-0f-Concept (POC) evaluations of AI-integrated cyber defense tools in enterprise settings, combines operational functional knowledge with cognitive computational frameworks. In these evaluations, the effectiveness of behavioral analytics, anomaly detection, and adaptive learning models for threat identification and mitigation in dynamic, complex, and evolving threats was studied. It was noted that AI-embedded and rule-driven cyber defense architectures adequately situate problem diagnostic reasoning within the scope of adaptability situational frameworks. To counter the above, CGDF combines the Cognitive Threat Prediction Module with the Game-Theoretic Counteraction Engine (GTCE). Cognitive synthesis models, in real time and dynamic Aaron space. In contrast, GTCE generates mathematical models of defensive APTS as partially observable strategic games to calculate, optimally, dynamic counteraction measures. APT’ lifecycles simulated within and across APT networks showed CGDF reduced Adaptive Response Time (ART) and Detection Rate (DR) far beyond any remaining legacy AI/ML. This work aims to merge practical enterprise learnings with AGI-inspired cognition to achieve self-regulating, resilient cyber defence systems. This accomplishes the author’s vision towards the future of intelligent, autonomous, and reliable cybersecurity for pervasive computing ecosystems.",
+      "published": "2025-12-15",
+      "url": "https://www.semanticscholar.org/paper/a49d1d72a0eed0abca394aaaa2698e6e8b9e8528",
+      "source": "Semantic Scholar"
+    }
+  ]
+}

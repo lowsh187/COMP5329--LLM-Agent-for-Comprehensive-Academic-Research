@@ -1,0 +1,76 @@
+{
+  "snapshot_id": "20260529T054117Z-human-ai-collaboration-in-scientific-research-proposal-generation-5",
+  "topic": "Human-AI Collaboration in Scientific Research Proposal Generation",
+  "retrieval_query": "Human-AI Collaboration in Scientific Research Proposal Generation",
+  "max_papers": 5,
+  "retrieved_at": "20260529T054117Z",
+  "papers": [
+    {
+      "title": "Human–AI Collaboration for Scientific Discovery",
+      "authors": [
+        "Shuo Zhao",
+        "Yang Liu",
+        "Jiayu Wan",
+        "Tan Tang",
+        "Xin Li"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-10-31",
+      "url": "https://doi.org/10.1017/9781009587877.011",
+      "source": "Crossref"
+    },
+    {
+      "title": "SciSciGPT: advancing human–AI collaboration in the science of science",
+      "authors": [
+        "Erzhuo Shao",
+        "Yifang Wang",
+        "Yifan Qian",
+        "Zhenyu Pan",
+        "Han Liu",
+        "Dashun Wang"
+      ],
+      "abstract": "We introduce SciSciGPT, an open-source, prototype artificial intelligence (AI) collaborator that uses the domain of science of science as a testbed to explore the potential of large language model-powered research tools. SciSciGPT automates complex workflows, supports diverse analytical approaches, accelerates research prototyping and iteration and facilitates reproducibility. Through case studies, we demonstrate its ability to streamline a wide range of empirical and analytical research tasks while highlighting its broader potential to advance research. We further propose a large language model agent capability maturity model for human–AI collaboration, envisioning a roadmap to further improve and expand upon frameworks such as SciSciGPT. As AI capabilities continue to evolve, frameworks such as SciSciGPT may play increasingly pivotal roles in scientific research and discovery. At the same time, these new advances also raise critical challenges, from ensuring transparency and ethical use to balancing human and AI contributions. Addressing these issues may shape the future of scientific inquiry and inform how we train the next generation of scientists to thrive in an increasingly AI-integrated research ecosystem.",
+      "published": "2025-04-07",
+      "url": "https://www.semanticscholar.org/paper/5b3e4513796d86ddf6ae8dfee6793af3d45cffe8",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "XtraGPT: Context-Aware and Controllable Academic Paper Revision via Human-AI Collaboration",
+      "authors": [
+        "Nuo Chen",
+        "Andre Lin Huikai",
+        "Jiaying Wu",
+        "Junyi Hou",
+        "Zining Zhang",
+        "Qian Wang",
+        "Xidong Wang",
+        "Bingsheng He"
+      ],
+      "abstract": "Despite the growing adoption of large language models (LLMs) in academic workflows, their capabilities remain limited in supporting high-quality scientific writing. Most existing systems are designed for general-purpose scientific text generation and fail to meet the sophisticated demands of research communication beyond surface-level polishing, for example, maintaining conceptual coherence across sections. Furthermore, academic writing is inherently iterative and revision-driven, a process that is not well supported by direct prompting-based paradigms. To address these scenarios, we propose a human-AI collaboration framework for academic paper revision, centered on criteria-guided intent alignment and context-aware modeling. To validate the framework, we curate a dataset of 7,000 research papers from top-tier venues, annotated with 140,000 instruction--response pairs that reflect realistic, section-level scientific revisions. We instantiate the framework in XtraGPT, the first suite of open-source LLMs (1.5B to 14B parameters) specifically fine-tuned for context-aware academic paper revision. Extensive experiments show that XtraGPT significantly outperforms same-scale baselines and rivals the quality of proprietary counterparts. Both automated preference assessments and human evaluations confirm the effectiveness of XtraGPT in improving scientific drafts. Our code and models are available at https://github.com/Xtra-Computing/XtraGPT and https://huggingface.co/collections/Xtra-Computing/xtragpt.",
+      "published": "2025-05-16",
+      "url": "https://www.semanticscholar.org/paper/89dd03435fc867fa05945550d42232b4232e717b",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+      "authors": [
+        "Chaeyeon Lim"
+      ],
+      "abstract": "While generative artificial intelligence (Gen AI) increasingly transforms academic environments, a critical gap exists in understanding and mitigating human biases in AI interactions, such as anchoring and confirmation bias. This position paper advocates for metacognitive AI literacy interventions to help university students critically engage with AI and address biases across the Human-AI interaction workflows. The paper presents the importance of considering (1) metacognitive support with deliberate friction focusing on human bias; (2) bi-directional Human-AI interaction intervention addressing both input formulation and output interpretation; and (3) adaptive scaffolding that responds to diverse user engagement patterns. These frameworks are illustrated through ongoing work on \"DeBiasMe,\" AIED (AI in Education) interventions designed to enhance awareness of cognitive biases while empowering user agency in AI interactions. The paper invites multiple stakeholders to engage in discussions on design and evaluation methods for scaffolding mechanisms, bias visualization, and analysis frameworks. This position contributes to the emerging field of AI-augmented learning by emphasizing the critical role of metacognition in helping students navigate the complex interaction between human, statistical, and systemic biases in AI use while highlighting how cognitive adaptation to AI systems must be explicitly integrated into comprehensive AI literacy frameworks.",
+      "published": "2025-04-23",
+      "url": "http://arxiv.org/abs/2504.16770v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+      "authors": [
+        "Katelyn Xiaoying Mei",
+        "Nic Weber"
+      ],
+      "abstract": "The recent rapid advancement of LLM-based AI systems has accelerated our search and production of information. While the advantages brought by these systems seemingly improve the performance or efficiency of human activities, they do not necessarily enhance human capabilities. Recent research has started to examine the impact of generative AI on individuals' cognitive abilities, especially critical thinking. Based on definitions of critical thinking across psychology and education, this position paper proposes the distinction between demonstrated and performed critical thinking in the era of generative AI and discusses the implication of this distinction in research and development of AI systems that aim to augment human critical thinking.",
+      "published": "2025-04-20",
+      "url": "http://arxiv.org/abs/2504.14689v1",
+      "source": "arXiv"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "experiment_id": "20260527T210506Z",
+  "run_index": 1,
+  "topic": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "retrieval_snapshot_id": "20260527T210508Z-interpretable-and-controllable-large-language-models-for-high-stakes-decision-ma-5",
+  "papers": [
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-5",
+      "url": "https://doi.org/10.55248/gengpi.6.0525.1615",
+      "source": "Crossref"
+    },
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "— Large Language Models (LLMs) are revolutionizing healthcare by enhancing clinical documentation, diagnostics, and decision-making. However, their opaque ”black-box” nature poses significant challenges in high-stakes medical contexts, where trust, accountability, and interpretability are paramount. This paper investigates strategies to enhance the interpretability of LLMs in healthcare, drawing on insights from an Explainable AI (XAI) review paper [1]. We explore post-hoc explanation methods (e.g., SHAP, LIME), hybrid human-AI frameworks, and inherently transparent architectures like neurosymbolic models. Key challenges—such as bias, hallucinations, regulatory compliance, and computational complexity—are analyzed. We propose that structured prompting techniques, such as Chain-of-Thought (CoT) augmented with diagnostic reasoning [2], can align LLM outputs with clinical reasoning processes, improving transparency without sacrificing accuracy. By integrating findings from XAI literature, this study evaluates how interpretable LLMs can bridge the trust gap between AI systems and clinicians, ensuring ethical, fair, and practical deployment in real-world healthcare settings. Future research directions focus on balancing predictive performance with explainability and meeting regulatory standards.",
+      "published": "2025-05-01",
+      "url": "https://www.semanticscholar.org/paper/12115434fdfa47869ea6f3c24c5bd82ba99ced65",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+      "authors": [
+        "Sravan Kumar Chittimalla",
+        "Leela Krishna Potluri"
+      ],
+      "abstract": "In high-stakes decision-making, such as healthcare diagnostics, financial forecasting, and legal judgments, trust and transparency are key in AI systems. LLMs have indeed proved to be very capable in processing and generating human-like text, making them invaluable tools in these critical sectors. However, the opacity of their decision-making processes poses a significant challenge for accountability and ethical compliance. This paper introduces comprehensive Explainable AI frameworks tailored for LLMs with the goal of improving their interpretability and reliability for high-stakes environments. Using publicly available real-world datasets, we systematically study the effectiveness of various XAI techniques, including attention visualization, feature importance mapping, and counterfactual explanations. Our findings point to the fact that such embedding serves not only to demystify the decision pathways of LLMs but also to bring their operations in line with regulatory standards and stakeholder expectations. This research makes its contribution to responsible LLM deployment in situations where mistakes have significant consequences by closing the gap between sophisticated AI capabilities and the need for transparent decision-making. The proposed XAI frameworks will, in the end, be a starting point for trust, ethics, and wider acceptance of AI-driven solutions in high-stakes domains.",
+      "published": "2025-03-14",
+      "url": "https://www.semanticscholar.org/paper/274553ea5cea8efab6698af85c99eb73784256ec",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Does Interpretability of Knowledge Tracing Models Support Teacher Decision Making?",
+      "authors": [
+        "Adia Khalid",
+        "Alina Deriyeva",
+        "Benjamin Paassen"
+      ],
+      "abstract": "Knowledge tracing (KT) models are a crucial basis for pedagogical decision-making, namely which task to select next for a learner and when to stop teaching a particular skill. Given the high stakes of pedagogical decisions, KT models are typically required to be interpretable, in the sense that they should implement an explicit model of human learning and provide explicit estimates of learners' abilities. However, to our knowledge, no study to date has investigated whether the interpretability of KT models actually helps human teachers to make teaching decisions. We address this gap. First, we perform a simulation study to show that, indeed, decisions based on interpretable KT models achieve mastery faster compared to decisions based on a non-interpretable model. Second, we repeat the study but ask $N=12$ human teachers to make the teaching decisions based on the information provided by KT models. As expected, teachers rate interpretable KT models higher in terms of usability and trustworthiness. However, the number of tasks needed until mastery hardly differs between KT models. This suggests that the relationship between model interpretability and teacher decisions is not straightforward: teachers do not solely rely on KT models to make decisions and further research is needed to investigate how learners and teachers actually understand and use KT models.",
+      "published": "2025-11-04",
+      "url": "http://arxiv.org/abs/2511.02718v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Generative Models in Decision Making: A Survey",
+      "authors": [
+        "Xinyu Shao",
+        "Jianping Zhang",
+        "Haozhi Wang",
+        "Leo Maxime Brunswic",
+        "Kaiwen Zhou",
+        "Jiqian Dong",
+        "Kaiyang Guo",
+        "Zhitang Chen",
+        "Jun Wang",
+        "Jianye Hao",
+        "Xiu Li",
+        "Yinchuan Li"
+      ],
+      "abstract": "Generative models have fundamentally reshaped the landscape of decision-making, reframing the problem from pure scalar reward maximization to high-fidelity trajectory generation and distribution matching. This paradigm shift addresses intrinsic limitations in classical Reinforcement Learning (RL), particularly the limited expressivity of standard unimodal policy distributions in capturing complex, multi-modal behaviors embedded in diverse datasets. However, current literature often treats these models as isolated algorithmic improvements, rarely synthesizing them into a single comprehensive framework. This survey proposes a principled taxonomy grounding generative decision-making within the probabilistic framework of Control as Inference. By performing a variational factorization of the trajectory posterior, we conceptualize four distinct functional roles: Controllers for amortized policy inference, Modelers for dynamics priors, Optimizers for iterative trajectory refinement, and Evaluators for trajectory guidance and value assessment. Unlike existing architecture-centric reviews, this function-centric framework allows us to critically analyze representative generative families across distinct dimensions. Furthermore, we examine deployment in high-stakes domains, specifically Embodied AI, Autonomous Driving, and AI for Science, highlighting systemic risks such as dynamics hallucination in world models and proxy exploitation. Finally, we chart the path toward Generalist Physical Intelligence, identifying pivotal challenges in inference efficiency, trustworthiness, and the emergence of Physical Foundation Models.",
+      "published": "2025-02-24",
+      "url": "http://arxiv.org/abs/2502.17100v4",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Interpretability of AI Models in High-Stakes Decision-Making",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "This cluster of papers investigates the importance of interpretability in large language models (LLMs) and knowledge tracing (KT) models within high-stakes environments such as healthcare and education. It highlights various strategies and frameworks for enhancing the transparency and accountability of AI systems, including Explainable AI (XAI) techniques and structured prompting methods. The findings suggest that improving interpretability can bridge the trust gap between AI systems and human decision-makers, thereby fostering ethical and effective deployment.",
+      "limitations": "Despite the focus on interpretability, challenges such as bias, hallucinations, regulatory compliance, and computational complexity remain unresolved. Additionally, the relationship between model interpretability and actual decision-making efficacy in educational settings is not straightforward, as demonstrated by the mixed results in teacher decision-making studies.",
+      "gap_relevance": "This cluster identifies critical gaps in understanding how interpretability influences decision-making processes across different domains. It underscores the need for further research into the practical implications of AI interpretability and its impact on user trust and decision outcomes."
+    },
+    {
+      "theme": "Generative Models in Decision-Making Frameworks",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster primarily explores the integration of generative models into decision-making processes, emphasizing a shift from traditional reward maximization to trajectory generation and distribution matching. It introduces a comprehensive taxonomy that categorizes generative models into four functional roles—Controllers, Modelers, Optimizers, and Evaluators—within a probabilistic framework, enhancing the understanding of their application in complex decision-making scenarios.",
+      "limitations": "The literature often treats generative models as isolated improvements rather than integrating them into a unified framework. Additionally, there is a lack of empirical validation for the proposed functional roles and their effectiveness in real-world applications.",
+      "gap_relevance": "This cluster highlights the need for a cohesive framework that synthesizes generative models in decision-making, identifying gaps in current research regarding their integration and practical application, which can guide future studies in enhancing decision-making methodologies."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "problem": "Enhancing interpretability of LLMs in healthcare to address trust and accountability issues.",
+      "method": "Exploration of post-hoc explanation methods (SHAP, LIME), hybrid human-AI frameworks, and neurosymbolic models.",
+      "evidence": "Structured prompting techniques like Chain-of-Thought can improve transparency and align LLM outputs with clinical reasoning.",
+      "limitation": "Challenges such as bias, hallucinations, and regulatory compliance remain unaddressed.",
+      "gap_relevance": "Identifies the need for balancing predictive performance with explainability in LLMs."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+      "problem": "Opacity of LLM decision-making processes in high-stakes environments undermines accountability.",
+      "method": "Systematic study of XAI techniques including attention visualization and counterfactual explanations using real-world datasets.",
+      "evidence": "XAI frameworks can demystify LLM decision pathways and align operations with regulatory standards.",
+      "limitation": "The effectiveness of proposed frameworks in diverse high-stakes contexts is not fully explored.",
+      "gap_relevance": "Highlights the need for responsible LLM deployment and transparency in decision-making."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Does Interpretability of Knowledge Tracing Models Support Teacher Decision Making?",
+      "problem": "Investigating the impact of KT model interpretability on pedagogical decision-making.",
+      "method": "Simulation study comparing interpretable and non-interpretable KT models, followed by a human teacher evaluation.",
+      "evidence": "Teachers rated interpretable models higher in usability and trustworthiness, but mastery rates were similar.",
+      "limitation": "The relationship between model interpretability and decision-making is complex and requires further investigation.",
+      "gap_relevance": "Suggests the need for deeper understanding of how interpretability influences decision-making in educational contexts."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Generative Models in Decision Making: A Survey",
+      "problem": "Limitations of classical RL in capturing complex behaviors in decision-making.",
+      "method": "Proposed a taxonomy of generative decision-making within a probabilistic framework, analyzing various generative families.",
+      "evidence": "Generative models can enhance decision-making by addressing limitations in traditional approaches.",
+      "limitation": "Current literature lacks a comprehensive synthesis of generative models and their applications in high-stakes domains.",
+      "gap_relevance": "Identifies the need for a unified framework to analyze generative models in high-stakes decision-making."
+    }
+  ],
+  "summary": "The literature on interpretable and controllable large language models (LLMs) for high-stakes decision-making emphasizes the critical role of interpretability in fostering trust and accountability, particularly in healthcare and educational contexts. Various frameworks, including Explainable AI (XAI) techniques, are proposed to enhance transparency, yet challenges such as bias and regulatory compliance persist. Additionally, the integration of generative models into decision-making processes is explored, highlighting the need for a cohesive framework to synthesize their roles and improve practical applications. Overall, significant gaps remain in understanding the interplay between model interpretability and decision efficacy across diverse high-stakes environments.",
+  "scholarly_positioning": "Prior research has established the importance of interpretability in large language models (LLMs) for high-stakes decision-making, particularly through the lens of Explainable AI (XAI) techniques. However, existing frameworks often fail to address the complex interplay between interpretability, bias, and regulatory compliance, leaving significant gaps in understanding how these factors influence decision efficacy. Moreover, while generative models have been introduced as potential enhancements to decision-making processes, their integration remains fragmented and lacks empirical validation. This proposed research aims to synthesize interpretability and generative modeling within a unified framework, addressing unresolved tensions and advancing the discourse on ethical AI deployment in critical domains such as healthcare and education.",
+  "domain_router": "{\n  \"domain\": [\n    \"LLM safety/AI evaluation\",\n    \"HCI/user trust\",\n    \"social science/policy/ethics\"\n  ],\n  \"methodology\": {\n    \"interpretability\": [\n      \"baseline comparisons\",\n      \"output-level explanation/filtering\",\n      \"representation-level method comparisons\"\n    ],\n    \"generative_models\": [\n      \"empirical validation studies\",\n      \"cohesive framework synthesis\"\n    ],\n    \"user_trust\": [\n      \"controlled between-subject explanation conditions\",\n      \"trust calibration measures\"\n    ]\n  }\n}",
+  "research_scope": "This study will investigate the impact of interpretable large language models (LLMs) on decision-making efficacy among healthcare professionals in clinical settings, specifically focusing on diagnostic decision support for chronic disease management. The AI intervention will involve a hybrid human-AI framework utilizing Explainable AI (XAI) techniques, such as attention visualization and counterfactual explanations, over a six-month evaluation period. A controlled between-subject design will compare outcomes between healthcare professionals using interpretable LLMs and those using traditional, non-interpretable models. Primary outcomes will include decision accuracy and confidence levels, while secondary outcomes will assess user trust and perceived usability of the AI systems. This research aims to provide empirical validation of the relationship between model interpretability and decision-making effectiveness in high-stakes healthcare environments.",
+  "concept_definition": "A compact concept definition table in plain text. 1. LLM Interpretability: The ability to understand how large language models (LLMs) make decisions, focusing on models like GPT-3 and BERT. 2. Hidden States/Internal Activations: The internal representations of data processed by LLMs, which can be accessed and analyzed to understand model behavior. 3. Internal Representations: The encoded information within the model that reflects its understanding of input data. 4. Interpretability Methods: Techniques such as probing (analyzing model layers), attribution (assigning importance to input features), attention visualization (showing focus areas in input), activation steering (manipulating activations for insights), and explanation generation (creating human-readable justifications). 5. Explanation Audience: The target of explanations, which can be researchers (for model improvement), systems (for automated feedback), or users (for decision support). 6. Safety Outcomes: Metrics to evaluate model safety, including unsafe response rate (frequency of harmful outputs), over-refusal (excessive avoidance of providing answers), jailbreak success (ability to bypass safety constraints), harmful compliance (adherence to harmful prompts), and refusal precision/recall (accuracy of model refusals). 7. User Trust: The degree of confidence users have in AI outputs, measured by trust calibration (alignment of perceived and actual trust), blind trust (unquestioning reliance), perceived transparency (clarity of model operations), and appropriate reliance (using AI outputs judiciously in decision-making).",
+  "technical_feasibility": "The study requires access to open-source LLMs for hidden state extraction and interpretability analysis. It also needs labeled datasets for training and validation, human participants for trust calibration and usability assessments, and ethics approval for conducting research involving healthcare professionals. GPU resources will be necessary for model training and evaluation. Additionally, annotation protocols will be required for interpreting model outputs and user feedback. If only API models are available, the design should be adjusted to focus on output-level explanations rather than hidden state analysis. A feasible adjustment would be to utilize existing open-source models while ensuring compliance with ethical standards for human subject research.",
+  "gap": "Prior studies have demonstrated the importance of interpretability in large language models (LLMs) for decision-making in high-stakes healthcare contexts; however, they treat the relationship between interpretability and actual decision-making efficacy as unresolved, leaving unclear whether enhanced interpretability affects diagnostic accuracy and user trust. This matters practically because effective AI deployment in healthcare relies on both trust and accurate decision-making outcomes. Therefore, this study investigates the impact of interpretable LLMs on decision-making efficacy among healthcare professionals in clinical settings, specifically focusing on diagnostic decision support for chronic disease management.",
+  "question": "How does the use of interpretable large language models (LLMs) compared to traditional non-interpretable models affect diagnostic decision-making efficacy and user trust among healthcare professionals in chronic disease management?",
+  "theoretical_mechanism": "The independent variable is the type of language model used (interpretable LLMs vs. traditional non-interpretable models). The mediator for system-level outcomes, such as unsafe response rate and refusal accuracy, is the representation features and safety detection mechanisms that enhance interpretability. User-level outcomes, including trust and satisfaction, are mediated by psychological mechanisms like perceived transparency and calibrated trust. The theoretical framework is grounded in Explainable AI (XAI) principles, which posit that increased interpretability leads to improved decision-making efficacy. The causal chain suggests that interpretable models improve system safety and user trust, ultimately enhancing decision-making outcomes in chronic disease management. Assumptions requiring empirical validation include the direct impact of model interpretability on decision accuracy and the relationship between perceived transparency and user trust.",
+  "hypothesis": "Healthcare professionals using interpretable large language models (LLMs) will demonstrate higher diagnostic decision-making efficacy, as measured by decision accuracy, compared to those using traditional non-interpretable models, with perceived transparency mediating this relationship.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n1. Construct Name: Type of Language Model\n   Role: IV\n   Measurement Instrument: Model type (interpretable vs. non-interpretable)\n   Data Source: AI model repository\n   Timing: Pre-intervention\n\n2. Construct Name: Diagnostic Decision-Making Efficacy\n   Role: DV\n   Measurement Instrument: Decision accuracy (percentage correct)\n   Data Source: Clinical task performance logs\n   Timing: Post-intervention\n\n3. Construct Name: Perceived Transparency\n   Role: Mediator\n   Measurement Instrument: User survey (Likert scale)\n   Data Source: Participant feedback\n   Timing: Post-intervention\n\n4. Construct Name: User Trust\n   Role: Mediator\n   Measurement Instrument: Trust calibration (alignment of perceived and actual trust)\n   Data Source: User survey\n   Timing: Post-intervention\n\nCausal Pathway:\nThe independent variable (IV) is the type of language model (interpretable LLMs vs. traditional non-interpretable models). The mediators are perceived transparency and user trust, which influence the dependent variable (DV) of diagnostic decision-making efficacy. The hypothesis posits that higher perceived transparency from interpretable models leads to greater user trust, which in turn enhances decision-making efficacy.\n\nLikely Confounds:\nPotential confounds include individual differences in healthcare professionals' experience with AI, baseline trust levels, and familiarity with chronic disease management.\n\nClaim Boundaries:\nThe study can claim that interpretable LLMs improve decision-making efficacy through enhanced user trust and perceived transparency. However, it cannot conclude causation without ruling out confounding variables or establishing a direct causal mechanism. Additionally, the findings may not generalize beyond chronic disease management contexts.",
+  "methodology": "This study will employ a controlled between-subject design to evaluate the impact of interpretable large language models (LLMs) on diagnostic decision-making efficacy among healthcare professionals. Participants will be randomly assigned to either an intervention group using interpretable LLMs with Explainable AI (XAI) techniques (e.g., attention visualization) or a control group using traditional non-interpretable models. The primary outcomes will include decision accuracy, measured through clinical task performance logs, and user trust, assessed via trust calibration surveys post-intervention. To control for confounding variables, participant experience with AI and baseline trust levels will be measured and accounted for in the analysis. Statistical analyses will include ANOVA to compare decision-making efficacy between groups, ensuring reproducibility through detailed documentation of procedures and data handling. This methodology aims to provide empirical evidence on the relationship between model interpretability and decision-making outcomes in chronic disease management, addressing critical gaps identified in the literature.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study advances the theoretical understanding of the interplay between model interpretability and decision-making efficacy in high-stakes healthcare contexts, proposing a causal chain that links interpretable LLMs to improved diagnostic accuracy and user trust through enhanced perceived transparency.\",\n  \"technical_contribution\": \"The research introduces a hybrid human-AI framework that integrates Explainable AI techniques, such as attention visualization and counterfactual explanations, specifically tailored for chronic disease management, thereby providing a new methodological approach to model interpretability in healthcare.\",\n  \"empirical_contribution\": \"By employing a controlled between-subject design, this study generates empirical evidence on the effects of interpretable LLMs versus traditional models on decision accuracy and user trust, filling a critical gap in existing literature regarding the actual impact of interpretability on decision-making outcomes.\",\n  \"practical_deployment_contribution\": \"The findings will inform practical guidelines for deploying interpretable LLMs in clinical settings, emphasizing the importance of user trust and decision accuracy, thus providing actionable insights for healthcare professionals in adopting AI tools for diagnostic support.\"\n}",
+  "phd_contribution_design": "This research proposes a novel hybrid human-AI framework that integrates Explainable AI techniques to enhance the interpretability of large language models (LLMs) in chronic disease management, thereby improving diagnostic decision-making efficacy. The mechanism-level claim posits that increased model interpretability leads to enhanced user trust through perceived transparency, which in turn positively influences decision accuracy. Existing literature fails to adequately measure the direct impact of interpretability on decision-making outcomes, particularly in high-stakes healthcare contexts. The falsifiable claim is that healthcare professionals using interpretable LLMs will demonstrate significantly higher diagnostic accuracy compared to those using traditional non-interpretable models. The strongest baseline for comparison will be traditional models without interpretability features, while an ablation study could isolate the effects of specific XAI techniques. The evidence standard will involve statistical significance in decision accuracy and trust calibration metrics. A negative or null result would suggest that interpretability does not significantly influence decision-making efficacy, challenging the assumption that enhanced transparency directly correlates with improved outcomes in high-stakes environments.",
+  "pre_proposal_critique": "The proposed contribution design may struggle to achieve an 85+ PhD-level score due to several critical weaknesses. First, the novelty claim lacks specificity; it does not sufficiently differentiate the proposed framework from existing XAI techniques, necessitating a clearer articulation of unique contributions. Second, the theoretical grounding is shallow; the proposal should integrate more robust theoretical frameworks that connect interpretability to decision-making efficacy beyond mere correlation. Third, the metrics for assessing decision accuracy and user trust are vague and may not adequately capture the nuanced impacts of interpretability; the proposal must define precise, validated metrics and consider including qualitative assessments to enrich the findings. To address these objections, the draft must enhance the novelty section with a detailed comparison to existing frameworks, strengthen the theoretical foundation by referencing established decision-making theories, and refine the operationalization of metrics to ensure they are both valid and comprehensive.",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"Interpretability Misalignment\",\n      \"risk\": \"Healthcare professionals may misinterpret model explanations, leading to incorrect decisions.\",\n      \"mitigation_strategy\": \"Provide comprehensive training on interpretability methods and conduct user testing to refine explanations.\"\n    },\n    {\n      \"failure_mode\": \"Data Sparsity\",\n      \"risk\": \"Insufficient labeled datasets may limit model training and validation, affecting performance.\",\n      \"mitigation_strategy\": \"Utilize data augmentation techniques and collaborate with healthcare institutions to gather diverse datasets.\"\n    },\n    {\n      \"failure_mode\": \"Low User Engagement\",\n      \"risk\": \"Healthcare professionals may not engage with the AI system, reducing the study's effectiveness.\",\n      \"mitigation_strategy\": \"Incorporate user feedback in the design phase to enhance usability and relevance of the AI system.\"\n    },\n    {\n      \"failure_mode\": \"Confounding Variables\",\n      \"risk\": \"Individual differences in experience or trust levels may skew results.\",\n      \"mitigation_strategy\": \"Randomly assign participants and control for baseline trust and experience in the analysis.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretation\",\n      \"risk\": \"Findings may suggest no benefit from interpretable LLMs, leading to misinterpretation of the research's value.\",\n      \"mitigation_strategy\": \"Clearly communicate the limitations of the study and the context of findings in discussions and publications.\"\n    },\n    {\n      \"failure_mode\": \"Ethical Concerns\",\n      \"risk\": \"Potential ethical issues arise from using AI in sensitive healthcare settings.\",\n      \"mitigation_strategy\": \"Obtain ethics approval and ensure compliance with ethical guidelines throughout the research process.\"\n    },\n    {\n      \"failure_mode\": \"Safety Risks\",\n      \"risk\": \"The AI model may produce harmful or biased outputs that affect patient care.\",\n      \"mitigation_strategy\": \"Implement rigorous safety evaluations and monitoring of model outputs before deployment.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong: Evidence notes highlight the need for understanding interpretability's influence on decision-making processes, directly supporting the identified gap.",
+    "domain_to_method": "Fits: The selected methodologies for interpretability and generative models align with the high-stakes decision-making domain.",
+    "concept_to_metric": "Yes: Core concepts like decision-making efficacy and user trust are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Feasible: The method is feasible with access to open-source models, labeled datasets, and necessary resources for participant engagement.",
+    "scope_to_gap": "Specific: The study scope focuses on chronic disease management, making the gap specific and relevant.",
+    "gap_to_question": "Direct: The gap regarding the impact of interpretability on decision-making efficacy leads to the formulated research question.",
+    "question_to_hypothesis": "Direct: The research question logically leads to the hypothesis regarding the efficacy of interpretable models.",
+    "hypothesis_to_methodology": "Aligned: The methodology is designed to test the hypothesis through controlled comparisons of model types.",
+    "methodology_to_evaluation": "Direct: The planned evaluation using statistical analyses will effectively answer the research question.",
+    "contribution_to_test": "Yes: The PhD contribution design is tested through the proposed methodology and evaluation framework.",
+    "reviewer_attack_to_repair": "Yes: The final proposal addresses reviewer objections by clarifying unique contributions, strengthening theoretical grounding, and refining metrics.",
+    "weak_links": [
+      "Potential confounding variables related to individual differences among healthcare professionals may still pose a risk.",
+      "Generalizability of findings beyond chronic disease management contexts remains uncertain."
+    ]
+  },
+  "proposal": "This research investigates the impact of interpretable large language models (LLMs) on diagnostic decision-making efficacy among healthcare professionals in chronic disease management, utilizing a hybrid human-AI framework that incorporates Explainable AI (XAI) techniques, such as attention visualization and counterfactual explanations. Key concepts include LLM interpretability, defined as the ability to understand model decision-making processes, and user trust, measured by confidence in AI outputs. The study will employ open-source LLMs for hidden state extraction and requires access to labeled datasets, ethics approval for human subject research, and GPU resources for model training. Scholarly positioning emphasizes the necessity of addressing gaps in the interplay between interpretability, bias, and regulatory compliance in high-stakes environments, highlighting that while previous studies have explored interpretability, they often fail to empirically validate its influence on decision-making efficacy. The research question is: How does the use of interpretable LLMs compared to traditional non-interpretable models affect diagnostic decision-making efficacy and user trust among healthcare professionals? The theoretical mechanism posits that interpretable models enhance system-level outcomes (e.g., unsafe response rate) through improved representation features, while user-level outcomes (e.g., trust) are mediated by perceived transparency. The falsifiable hypothesis states that healthcare professionals using interpretable LLMs will demonstrate higher diagnostic decision-making efficacy, measured by decision accuracy, compared to those using traditional models. Constructs will be operationalized through metrics such as decision accuracy (percentage correct), perceived transparency (Likert scale survey), and user trust (trust calibration). A controlled between-subject design will compare outcomes between groups, with statistical analyses including ANOVA to ensure robust findings. The PhD contribution design introduces a novel methodological approach by integrating XAI techniques specifically for chronic disease management, addressing critiques from pre-proposal reviews by clarifying the unique contributions of the framework, strengthening theoretical grounding, and refining metrics for assessing decision accuracy and user trust. Expected contributions include advancing theoretical understanding of interpretability in healthcare, providing empirical evidence on the efficacy of interpretable LLMs, and offering practical guidelines for AI deployment in clinical settings. Key limitations include potential confounding variables related to individual differences among healthcare professionals and the challenge of generalizing findings beyond chronic disease management contexts.",
+  "draft_proposal": "This research aims to investigate the impact of interpretable large language models (LLMs) on diagnostic decision-making efficacy among healthcare professionals in chronic disease management, utilizing a hybrid human-AI framework that incorporates Explainable AI (XAI) techniques such as attention visualization and counterfactual explanations. Key concepts include LLM interpretability, which refers to understanding model decision-making processes, and user trust, defined as the confidence users have in AI outputs. The study will employ open-source LLMs for hidden state extraction, requiring access to labeled datasets and ethics approval for human subject research. Scholarly positioning highlights the necessity of addressing gaps in the interplay between interpretability, bias, and regulatory compliance in high-stakes environments. The literature indicates a critical need for empirical validation of how interpretability influences decision outcomes, leading to the research question: How does the use of interpretable LLMs compared to traditional non-interpretable models affect diagnostic decision-making efficacy and user trust among healthcare professionals? The theoretical mechanism posits that interpretable models enhance system-level outcomes (e.g., unsafe response rate) through improved representation features, while user-level outcomes (e.g., trust) are mediated by perceived transparency. The falsifiable hypothesis states that healthcare professionals using interpretable LLMs will demonstrate higher diagnostic decision-making efficacy, measured by decision accuracy, compared to those using traditional models. Constructs will be operationalized through metrics such as decision accuracy (percentage correct), perceived transparency (Likert scale survey), and user trust (trust calibration). A controlled between-subject design will compare outcomes between groups, with statistical analyses including ANOVA to ensure robust findings. The PhD contribution design introduces a novel methodological approach by integrating XAI techniques specifically for chronic disease management, addressing critiques from pre-proposal reviews by clarifying the unique contributions of the framework, strengthening theoretical grounding, and refining metrics for assessing decision accuracy and user trust. Expected contributions include advancing theoretical understanding of interpretability in healthcare, providing empirical evidence on the efficacy of interpretable LLMs, and offering practical guidelines for AI deployment in clinical settings. Key limitations include potential confounding variables related to individual differences among healthcare professionals and the challenge of generalizing findings beyond chronic disease management contexts.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The gap identified is valid as it highlights the unresolved relationship between interpretability and decision-making efficacy in healthcare, a critical area for AI deployment.",
+      "literature_grounding": "The proposal references relevant literature but could benefit from a more detailed examination of how existing studies have approached this gap and their limitations.",
+      "meaningfulness": "The gap is meaningful as it addresses practical implications for AI in healthcare, emphasizing the need for trust and accuracy in high-stakes environments.",
+      "already_solved_risk": "There is a risk that previous studies may have addressed aspects of this gap, particularly regarding interpretability's influence on trust; a clearer differentiation from existing work is needed."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior work but lacks a critical comparative analysis that highlights how the proposed research builds on or diverges from existing studies.",
+      "unresolved_tensions": "It identifies tensions around interpretability and bias but does not sufficiently explore how these tensions impact decision-making outcomes.",
+      "positioning_quality": "The positioning is adequate but could be strengthened by explicitly stating how the proposed research fills the identified gaps."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The methodology aligns well with the domain of LLM safety and user trust in healthcare.",
+      "methodology_template_fit": "The chosen methodologies are appropriate for the research questions posed.",
+      "template_transfer_risk": "There is minimal risk of inappropriate template transfer, but ensuring the methods are tailored to the specific healthcare context is crucial."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is specific, focusing on chronic disease management, but could benefit from clearer definitions of the intervention and control conditions.",
+      "population_or_task_definition": "The target population is well-defined as healthcare professionals, but the specific tasks they will perform need clearer articulation.",
+      "intervention_and_comparison_definition": "The intervention (interpretable LLMs) and comparison (traditional models) are defined, but details on the implementation of these models are needed.",
+      "outcome_definition": "Outcomes are generally well-defined, but additional metrics for user trust could enhance the evaluation."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Key technical terms are defined, but some definitions, such as 'safety outcomes,' could be more precise.",
+      "implementation_specificity": "Definitions lack specificity regarding how concepts will be operationalized in the study.",
+      "level_of_analysis_clarity": "The proposal should clarify the level of analysis for each construct to ensure alignment with research goals."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to open-source models is feasible, but reliance on proprietary APIs may limit the study's depth.",
+      "data_and_compute_requirements": "The requirements for labeled datasets and GPU resources are realistic, but the proposal should outline backup plans if these resources are unavailable.",
+      "human_or_multilingual_resources": "The need for human participants is acknowledged, but recruitment strategies should be elaborated.",
+      "feasible_adjustments": "Adjustments for API usage are noted, but more detailed contingency plans for data access should be included."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on the impact of interpretable LLMs.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, addressing a significant issue in healthcare.",
+      "variable_clarity": "Variables are generally clear, but the proposal should ensure that all constructs are explicitly defined and measurable."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The proposed mechanism is sound but could benefit from a more detailed explanation of how mediators interact with the independent and dependent variables.",
+      "theoretical_framing": "The theoretical framing is grounded in XAI principles, but integrating additional decision-making theories could enhance depth.",
+      "assumption_transparency": "Assumptions are stated but should be more explicitly linked to the proposed mechanisms."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable and clearly states expected outcomes.",
+      "mechanism_grounding": "The grounding in mechanisms is present but could be strengthened by linking specific mediators to expected outcomes.",
+      "measurable_outcome": "Outcomes are measurable, but the proposal should specify how decision accuracy will be quantified."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Each construct is operationalized, but the proposal should ensure that all measurement instruments are validated.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but qualitative assessments could provide richer data.",
+      "causal_identification": "The causal pathway is outlined but should include more detail on how confounds will be controlled.",
+      "confound_awareness": "Confounding variables are acknowledged, but strategies for controlling them should be more explicit.",
+      "claim_boundaries": "Claim boundaries are defined but should clarify the limits of generalizability beyond the specific context."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline control is appropriate, but more justification for the choice of traditional models is needed.",
+      "metric_validity": "Metrics are valid but should be further detailed to ensure they capture the nuances of decision-making.",
+      "statistical_or_evaluation_validity": "Statistical methods are appropriate, but the proposal should outline how they will ensure robustness.",
+      "reproducibility": "Reproducibility is addressed, but detailed protocols for data handling and analysis should be included.",
+      "confound_control": "Confound control strategies are mentioned but need more elaboration.",
+      "risk_analysis": "Risk analysis is present, but should include more comprehensive mitigation strategies."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is present but should explicitly state how it advances existing theories.",
+      "methodological_novelty": "Methodological contributions are mentioned but need clearer articulation of their uniqueness.",
+      "practical_novelty": "Practical contributions are outlined, but the proposal should specify how they will be implemented in real-world settings.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal must clearly differentiate its contributions from existing literature."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the analysis could be more comprehensive in addressing potential pitfalls.",
+      "limitation_depth": "Limitations are acknowledged, but the depth of analysis could be improved.",
+      "risk_mitigation": "Mitigation strategies are proposed but should be more detailed and actionable."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "The contributions are generally clear but could benefit from more explicit articulation of their significance.",
+      "novelty_type": "The novelty is primarily methodological, with some theoretical aspects.",
+      "coherence": "The proposal is coherent but could improve flow by better linking sections.",
+      "limitation_awareness": "Limitations are recognized, but a more thorough discussion of their implications is needed.",
+      "academic_communication": "Academic communication is generally effective but could be enhanced by clearer definitions and explanations."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads logically to the research question, but the connection could be made more explicit.",
+      "question_to_hypothesis": "The question leads to a clear hypothesis, maintaining alignment.",
+      "hypothesis_to_method": "The hypothesis is testable by the proposed method, but clarity on specific metrics is needed.",
+      "method_to_evaluation": "The method is designed to evaluate the question, but further detail on evaluation criteria is necessary."
+    },
+    "revision_plan": "Revise the gap stage to clarify how the proposed research differentiates from existing studies. Strengthen the scholarly positioning by providing a comparative analysis of prior approaches. Enhance the operationalization stage by ensuring all constructs have validated measurement instruments and clear definitions."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 69.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: understandable but partially broad or insufficiently operationalized",
+        "justification": "The research problem is framed around the impact of interpretable LLMs on decision-making efficacy, which is relevant. However, the operational definitions of key concepts like 'interpretability' and 'user trust' lack sufficient specificity, making it difficult to assess the clarity of the research boundaries. Major weaknesses: Key concepts are not fully operationalized, leading to ambiguity in how they will be measured and assessed. The framing does not sufficiently distinguish this as a genuine research problem rather than an application idea. Next band requirements: To move into the next score band, the proposal needs to provide clearer operational definitions of key concepts and articulate a more focused research question that delineates the boundaries of the study."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from the research question to the hypothesis and methodology. However, the causal claims regarding the relationship between interpretability and decision-making efficacy are not sufficiently justified, and the assumptions made require empirical validation. Major weaknesses: There are unsupported assumptions about the direct impact of interpretability on decision accuracy. The transitions between the theoretical framework and the proposed methodology could be strengthened. Next band requirements: To improve, the proposal should provide more robust justification for causal claims and ensure that the evaluation tests the stated hypothesis more directly."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal attempts to synthesize interpretability and generative modeling, it does not sufficiently differentiate its contributions from existing XAI frameworks. The novelty in methodology is present but lacks a clear articulation of how it advances the field. Major weaknesses: The novelty claims are vague, and the proposal does not introduce a fundamentally new framework or theory. It primarily combines existing concepts without providing a strong theoretical or empirical advancement. Next band requirements: To achieve a higher score, the proposal must clearly articulate unique contributions and demonstrate how the research advances theoretical understanding or introduces new frameworks."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The proposed methodology is generally sound, with a controlled design and appropriate metrics. However, there are concerns regarding the operationalization of constructs and potential confounding variables that need to be addressed. Major weaknesses: The proposal lacks detailed plans for controlling confounding variables and does not sufficiently justify the choice of evaluation metrics. Additionally, the feasibility of accessing necessary datasets and resources is not fully addressed. Next band requirements: To improve, the proposal should provide a more detailed plan for controlling confounding factors and justifying the choice of evaluation metrics."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal engages with relevant literature but lacks depth in critical synthesis. It identifies gaps but does not sufficiently situate the research within broader debates or articulate why existing work is insufficient. Major weaknesses: The literature review is somewhat superficial and does not critically engage with competing approaches or unresolved tensions in the field. Next band requirements: To elevate the score, the proposal should provide a more critical analysis of existing literature and articulate how the proposed research addresses specific gaps."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication but lacks depth in discussing the mechanisms by which interpretability affects decision-making. The awareness of limitations is present but could be more robust. Major weaknesses: The proposal does not sufficiently explain the theoretical mechanisms at play or discuss potential trade-offs and limitations in detail. Next band requirements: To improve, the proposal should deepen the discussion of theoretical mechanisms and limitations, moving beyond implementation-focused reasoning."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The writing is generally clear and organized, with a professional tone. However, some areas could benefit from greater precision and conciseness. Major weaknesses: There are instances of repetitive phrasing and a lack of precision in terminology that detracts from overall clarity. Next band requirements: To achieve a higher score, the proposal should refine language for precision and reduce redundancy."
+      }
+    ],
+    "comments": "Total score: 69.0/100. Academic level: Master-level. Major strengths: Clear research question focused on a relevant and timely issue.; Proposed methodology includes a controlled experimental design. Major weaknesses: Insufficient operationalization of key concepts.; Vague novelty claims and lack of differentiation from existing frameworks.; Weak justification for causal claims and potential confounding variables. Required improvements for true PhD-level quality: Enhance operational definitions and clarity of key concepts.; Articulate unique contributions and theoretical advancements more clearly.; Strengthen the justification for causal claims and control for confounding variables. Final verdict: The proposal demonstrates some elements of PhD-level research maturity but lacks the depth, rigor, and originality required for a strong PhD proposal. Significant improvements are necessary to elevate it to publishable quality."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+        "similarity": 0.7215
+      },
+      {
+        "original_index": 3,
+        "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+        "similarity": 0.6861
+      },
+      {
+        "original_index": 4,
+        "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+        "similarity": 0.678
+      },
+      {
+        "original_index": 1,
+        "title": "Does Interpretability of Knowledge Tracing Models Support Teacher Decision Making?",
+        "similarity": 0.504
+      },
+      {
+        "original_index": 2,
+        "title": "Generative Models in Decision Making: A Survey",
+        "similarity": 0.4767
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+          "similarity": 0.8486
+        },
+        {
+          "paper_index": 3,
+          "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+          "similarity": 0.757
+        },
+        {
+          "paper_index": 1,
+          "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+          "similarity": 0.7251
+        }
+      ],
+      "max_similarity": 0.8486,
+      "mean_similarity": 0.669
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+          "similarity": 0.82
+        },
+        {
+          "paper_index": 3,
+          "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+          "similarity": 0.7524
+        },
+        {
+          "paper_index": 1,
+          "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+          "similarity": 0.7205
+        }
+      ],
+      "max_similarity": 0.82,
+      "mean_similarity": 0.6531
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+    "retrieval_snapshot_id": "20260527T210508Z-interpretable-and-controllable-large-language-models-for-high-stakes-decision-ma-5",
+    "latency_ms": 200871,
+    "prompt_tokens": 56906,
+    "completion_tokens": 8535,
+    "total_tokens": 65441,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

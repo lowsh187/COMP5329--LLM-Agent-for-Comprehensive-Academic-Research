@@ -1,0 +1,52 @@
+Task: Convert the research-judgement outputs into a compact structured blueprint that must control the final proposal.
+
+Topic:
+{topic}
+
+Retrieved papers:
+{papers_context}
+
+Literature tension graph:
+{literature_tension_graph}
+
+Research problem validity check:
+{research_problem_validity_check}
+
+Contribution type router:
+{contribution_type_router}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Methodology:
+{methodology}
+
+PhD contribution design:
+{phd_contribution_design}
+
+Return JSON with exactly this key:
+{{
+  "research_problem_blueprint": {{
+    "single_sentence_thesis": "One sentence stating the exact research claim the proposal must defend.",
+    "core_gap": "One precise unresolved gap, not a generic topic gap.",
+    "literature_tension": "The cross-paper tension or unresolved condition that makes the problem necessary.",
+    "phd_level_contribution": "The concrete theoretical, methodological, or empirical contribution that would matter to a PhD committee.",
+    "falsifiable_hypothesis": "A testable hypothesis with clear variables or comparison.",
+    "mechanism": "The mechanism-level explanation for why the proposed intervention, model, or analysis should work.",
+    "strongest_baseline": "The most credible baseline, control, comparison, or ablation the proposal must use.",
+    "negative_result_meaning": "What a null or negative result would mean scientifically.",
+    "score_limiting_risk": "The single most likely reason a strict reviewer would keep this proposal below 85.",
+    "minimum_evidence_required": ["Evidence claim 1 the final proposal must ground in the literature.", "Evidence claim 2 the final proposal must ground in the literature."],
+    "proposal_must_include": ["Required element 1 for a strong final proposal.", "Required element 2 for a strong final proposal."],
+    "proposal_must_avoid": ["Failure pattern 1 to avoid.", "Failure pattern 2 to avoid."]
+  }}
+}}

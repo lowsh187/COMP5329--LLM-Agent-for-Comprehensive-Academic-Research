@@ -1,0 +1,264 @@
+{
+  "experiment_id": "20260527T050907Z",
+  "run_index": 4,
+  "topic": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "condition": "baseline_with_retrieval",
+  "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "retrieval_snapshot_id": "20260527T051438Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-5",
+  "papers": [
+    {
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "authors": [
+        "Sergey Oladyshkin",
+        "Timothy Praditia",
+        "Ilja Kröker",
+        "Farid Mohammadi",
+        "Wolfgang Nowak",
+        "Sebastian Otte"
+      ],
+      "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks.",
+      "published": "2023-06-26",
+      "url": "http://arxiv.org/abs/2306.14753v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+      "authors": [
+        "Jader Abreu",
+        "Luis Fred",
+        "David Macêdo",
+        "Cleber Zanchettin"
+      ],
+      "abstract": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in the architecture efficiently and not take into account the contexting importance of words and sentences. In this paper, we propose a new approach based on a combination of convolutional neural networks, gated recurrent units, and attention mechanisms for document classification tasks. The main contribution of this work is the use of convolution layers to extract more meaningful, generalizable and abstract features by the hierarchical representation. The proposed method in this paper improves the results of the current attention-based approaches for document classification.",
+      "published": "2019-01-20",
+      "url": "http://arxiv.org/abs/1901.06610v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Combining machine learning, simulations and experiments for improved glass design",
+      "authors": [
+        "N. Krishnan"
+      ],
+      "abstract": "The design of novel glasses with tailored properties remains a grand challenge in materials science, traditionally requiring extensive trial-and-error experimentation. This talk presents a comprehensive framework that integrates machine learning, atomistic simulations, and targeted experiments to accelerate the discovery and optimization of glass compositions. We demonstrate how large-scale machine learning models trained on experimental databases can predict glass properties across nearly the entire periodic table, enabling rapid screening of promising compositions. These predictions are refined through physics-informed graph neural networks that capture atomic-scale interactions and energy conservation principles, providing deeper insights into structure-property relationships. The framework is enhanced by automated knowledge extraction from scientific literature using our materials-specific language model (MatSciBERT) and natural language processing techniques. We showcase practical applications including the development of radiation-resistant nuclear waste glasses, scratch-resistant display glasses, and specialty glasses for space applications. The talk concludes by highlighting how this integrated approach has led to the discovery of novel glass compositions with superior properties, validated through experimental synthesis and characterization. Our results demonstrate that the synergistic combination of artificial intelligence, computational modeling, and experimental validation can significantly accelerate the glass design process while reducing resource requirements and environmental impact.",
+      "published": "2025-08-18",
+      "url": "https://www.semanticscholar.org/paper/5739ffec13cb5c6eee5de597836c43be75d6e4a3",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "An Accurate and Efficient Approach to Knowledge Extraction from Scientific Publications Using Structured Ontology Models, Graph Neural Networks, and Large Language Models",
+      "authors": [
+        "T. V. Ivanisenko",
+        "P. Demenkov",
+        "V. Ivanisenko"
+      ],
+      "abstract": "The rapid growth of biomedical literature makes it challenging for researchers to stay current. Integrating knowledge from various sources is crucial for studying complex biological systems. Traditional text-mining methods often have limited accuracy because they don’t capture semantic and contextual nuances. Deep-learning models can be computationally expensive and typically have low interpretability, though efforts in explainable AI aim to mitigate this. Furthermore, transformer-based models have a tendency to produce false or made-up information—a problem known as hallucination—which is especially prevalent in large language models (LLMs). This study proposes a hybrid approach combining text-mining techniques with graph neural networks (GNNs) and fine-tuned large language models (LLMs) to extend biomedical knowledge graphs and interpret predicted edges based on published literature. An LLM is used to validate predictions and provide explanations. Evaluated on a corpus of experimentally confirmed protein interactions, the approach achieved a Matthews correlation coefficient (MCC) of 0.772. Applied to insomnia, the approach identified 25 interactions between 32 human proteins absent in known knowledge bases, including regulatory interactions between MAOA and 5-HT2C, binding between ADAM22 and 14-3-3 proteins, which is implicated in neurological diseases, and a circadian regulatory loop involving RORB and NR1D1. The hybrid GNN-LLM method analyzes biomedical literature efficiency to uncover potential molecular interactions for complex disorders. It can accelerate therapeutic target discovery by focusing expert verification on the most relevant automatically extracted information.",
+      "published": "2024-11-01",
+      "url": "https://www.semanticscholar.org/paper/0572345cd64163f7e2507fec739d5577dd106504",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+      "authors": [
+        "Rui Xue",
+        "Haoyu Han",
+        "Tong Zhao",
+        "Neil Shah",
+        "Jiliang Tang",
+        "Xiaorui Liu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023-8-6",
+      "url": "https://doi.org/10.1145/3580305.3599565",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Advancements in Neural Network Architectures and Knowledge Extraction Techniques",
+      "paper_indices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "summary": "This cluster of papers explores innovative approaches to enhance neural network architectures, particularly in deep learning and document classification, while also addressing the challenges of knowledge extraction from scientific literature. Key contributions include the application of chaos theory to deep neural networks, the development of hierarchical attentional hybrid models for document classification, and a hybrid approach combining graph neural networks with large language models for biomedical knowledge extraction.",
+      "limitations": "Despite the advancements, the papers highlight limitations such as the interpretability of deep learning models, the potential for inaccuracies in large language models, and the need for better integration of document structure in classification tasks. Additionally, the absence of an abstract for one paper limits the understanding of its contributions.",
+      "gap_relevance": "This cluster provides insights into the current limitations of existing neural network models and knowledge extraction methods, thereby identifying research gaps related to model interpretability, accuracy, and the integration of contextual information in document classification and knowledge extraction."
+    },
+    {
+      "theme": "Integrating Machine Learning in Glass Design",
+      "paper_indices": [
+        3
+      ],
+      "summary": "This cluster focuses on the integration of machine learning, atomistic simulations, and experimental methods to enhance the design and optimization of glass materials. It highlights the use of large-scale machine learning models to predict glass properties and refine these predictions using advanced neural networks, ultimately leading to the development of specialized glass compositions for various applications.",
+      "limitations": "The reliance on extensive experimental databases for training machine learning models may limit the applicability of the framework to novel glass compositions not represented in existing data. Additionally, the complexity of atomic-scale interactions may pose challenges in accurately capturing all relevant factors influencing glass properties.",
+      "gap_relevance": "This cluster provides a foundation for identifying research gaps in the field of materials science, particularly in the development of novel glass materials. It emphasizes the need for further exploration of machine learning applications and the integration of diverse data sources to enhance predictive capabilities and accelerate material discovery."
+    }
+  ],
+  "evidence_notes": [],
+  "summary": null,
+  "scholarly_positioning": null,
+  "domain_router": null,
+  "research_scope": null,
+  "concept_definition": null,
+  "technical_feasibility": null,
+  "gap": null,
+  "question": null,
+  "theoretical_mechanism": null,
+  "hypothesis": null,
+  "operationalization_causal_check": null,
+  "methodology": null,
+  "novelty_contribution": null,
+  "failure_analysis": null,
+  "proposal_logic_graph": null,
+  "proposal": "This proposal aims to leverage Graph Neural Networks (GNNs) for large-scale knowledge discovery in scientific literature, addressing the limitations of traditional text-mining methods that often fail to capture semantic nuances. While existing approaches, such as those presented in Ivanisenko et al. (2024), utilize GNNs in conjunction with large language models (LLMs) for biomedical knowledge extraction, they do not fully exploit the potential of GNNs in integrating diverse scientific domains. Our objective is to develop a hybrid GNN framework that incorporates hierarchical attention mechanisms, akin to those in Abreu et al. (2019), to enhance the contextual understanding of documents while maintaining interpretability. This methodology will involve training GNNs on a comprehensive corpus of scientific literature, allowing for the extraction of relationships and insights across various fields. The expected contribution includes a robust system for automated knowledge extraction that not only identifies novel connections between scientific concepts but also provides explanations for its predictions, addressing the issue of hallucination noted in LLMs. This approach extends the work of Krishnan (2025) by applying GNNs to a broader scope of scientific literature beyond materials science, thus filling a critical gap in the current literature.",
+  "draft_proposal": null,
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 3,
+    "logic": 3,
+    "novelty": 3,
+    "feasibility": 3,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 3,
+    "weighted_total": 57.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 9.0,
+        "level": "9-11: understandable but partially broad or insufficiently operationalized",
+        "justification": "The proposal identifies a relevant research problem in knowledge discovery using GNNs but lacks precise operational definitions of key concepts and boundaries. The motivation is somewhat clear but does not sufficiently articulate the specific research question. Major weaknesses: The proposal does not define key concepts like 'knowledge discovery' or 'semantic nuances' operationally, making it difficult to assess the scope and implications of the research. Next band requirements: To move into the next band, the proposal needs to clearly define its key concepts and articulate a specific, research-driven question that delineates its boundaries."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 8.0,
+        "level": "6-8: several disconnected components or shallow justification",
+        "justification": "The proposal presents a general idea of using GNNs but lacks a coherent flow from problem identification to methodology. The logical connections between the hypothesis and proposed methods are weak. Major weaknesses: There is insufficient justification for the proposed methodology, and the assumptions regarding the effectiveness of GNNs in this context are not scientifically supported. Next band requirements: To improve, the proposal must establish a clear logical flow connecting the research problem, hypothesis, and methodology, with scientifically justified assumptions."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal aims to extend existing GNN applications, it does not introduce a significantly novel theoretical framework or mechanism. The contribution appears to be an incremental improvement rather than a groundbreaking advancement. Major weaknesses: The proposal lacks a clear differentiation from existing work, particularly in how it builds on or diverges from Ivanisenko et al. (2024) and Krishnan (2025). Next band requirements: To achieve a higher score, the proposal should articulate a unique theoretical contribution or framework that advances the field beyond existing literature."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 10.0,
+        "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+        "justification": "The proposal does not provide sufficient detail on the experimental design, including baselines, evaluation metrics, or controls. It lacks a robust plan for testing the proposed methodology. Major weaknesses: There is no discussion of sample size, potential confounds, or ethical considerations, which raises concerns about the feasibility of the proposed research. Next band requirements: To improve, the proposal must include a detailed experimental design with justified baselines, clear evaluation metrics, and a plan for handling confounding variables."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but lacks depth in its engagement and critical analysis. It does not adequately identify genuine gaps or situate the work within broader debates. Major weaknesses: The literature review is superficial, failing to critically synthesize prior work or articulate why existing approaches are insufficient. Next band requirements: To enhance this criterion, the proposal should provide a more thorough literature review that critically engages with existing research and identifies specific gaps."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 5.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some awareness of theoretical mechanisms but lacks depth in discussing the implications and limitations of the proposed approach. Major weaknesses: There is insufficient discussion of the theoretical underpinnings of the proposed methodology and its broader implications for the field. Next band requirements: To achieve a higher score, the proposal should demonstrate deeper theoretical sophistication and a clearer articulation of the mechanisms at play."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 3.0,
+        "level": "3: generally clear but inconsistent or repetitive",
+        "justification": "The proposal is generally understandable but suffers from a lack of clarity in some sections and could benefit from more concise language. Major weaknesses: The writing lacks precision in terminology and could be better organized to enhance readability. Next band requirements: To improve, the proposal should focus on refining its language, improving structural organization, and ensuring clarity throughout."
+      }
+    ],
+    "comments": "Total score: 57.0/100. Academic level: Master's-level. Major weaknesses: Lacks clear operational definitions of key concepts.; Weak logical coherence and justification for methodology.; Moderate novelty with insufficient theoretical contribution.; Inadequate experimental design and feasibility considerations.; Superficial engagement with existing literature. Required improvements for true PhD-level quality: Clearly define key concepts and articulate specific research questions.; Establish a coherent logical flow from problem to methodology.; Articulate a unique theoretical contribution that advances the field.; Provide a detailed experimental design with justified baselines and metrics.; Engage deeply with literature to identify genuine gaps and situate the work. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant improvements across multiple criteria to reach that standard."
+  },
+  "baseline": {
+    "proposal": "This proposal aims to leverage Graph Neural Networks (GNNs) for large-scale knowledge discovery in scientific literature, addressing the limitations of traditional text-mining methods that often fail to capture semantic nuances. While existing approaches, such as those presented in Ivanisenko et al. (2024), utilize GNNs in conjunction with large language models (LLMs) for biomedical knowledge extraction, they do not fully exploit the potential of GNNs in integrating diverse scientific domains. Our objective is to develop a hybrid GNN framework that incorporates hierarchical attention mechanisms, akin to those in Abreu et al. (2019), to enhance the contextual understanding of documents while maintaining interpretability. This methodology will involve training GNNs on a comprehensive corpus of scientific literature, allowing for the extraction of relationships and insights across various fields. The expected contribution includes a robust system for automated knowledge extraction that not only identifies novel connections between scientific concepts but also provides explanations for its predictions, addressing the issue of hallucination noted in LLMs. This approach extends the work of Krishnan (2025) by applying GNNs to a broader scope of scientific literature beyond materials science, thus filling a critical gap in the current literature.",
+    "evaluation": {
+      "clarity": 3,
+      "logic": 3,
+      "novelty": 3,
+      "feasibility": 3,
+      "literature_alignment": 4,
+      "phd_level_quality": 3,
+      "presentation": 3,
+      "weighted_total": 57.0,
+      "rubric_scores": [
+        {
+          "criterion": "Research Clarity & Problem Definition",
+          "weight": 15,
+          "score": 9.0,
+          "level": "9-11: understandable but partially broad or insufficiently operationalized",
+          "justification": "The proposal identifies a relevant research problem in knowledge discovery using GNNs but lacks precise operational definitions of key concepts and boundaries. The motivation is somewhat clear but does not sufficiently articulate the specific research question. Major weaknesses: The proposal does not define key concepts like 'knowledge discovery' or 'semantic nuances' operationally, making it difficult to assess the scope and implications of the research. Next band requirements: To move into the next band, the proposal needs to clearly define its key concepts and articulate a specific, research-driven question that delineates its boundaries."
+        },
+        {
+          "criterion": "Logical Coherence & Multi-Stage Reasoning",
+          "weight": 15,
+          "score": 8.0,
+          "level": "6-8: several disconnected components or shallow justification",
+          "justification": "The proposal presents a general idea of using GNNs but lacks a coherent flow from problem identification to methodology. The logical connections between the hypothesis and proposed methods are weak. Major weaknesses: There is insufficient justification for the proposed methodology, and the assumptions regarding the effectiveness of GNNs in this context are not scientifically supported. Next band requirements: To improve, the proposal must establish a clear logical flow connecting the research problem, hypothesis, and methodology, with scientifically justified assumptions."
+        },
+        {
+          "criterion": "Novelty & Research Contribution",
+          "weight": 20,
+          "score": 12.0,
+          "level": "12-14: moderate novelty but partially derivative",
+          "justification": "While the proposal aims to extend existing GNN applications, it does not introduce a significantly novel theoretical framework or mechanism. The contribution appears to be an incremental improvement rather than a groundbreaking advancement. Major weaknesses: The proposal lacks a clear differentiation from existing work, particularly in how it builds on or diverges from Ivanisenko et al. (2024) and Krishnan (2025). Next band requirements: To achieve a higher score, the proposal should articulate a unique theoretical contribution or framework that advances the field beyond existing literature."
+        },
+        {
+          "criterion": "Feasibility & Experimental Design",
+          "weight": 20,
+          "score": 10.0,
+          "level": "6-11: weak controls, weak baselines, or shallow evaluation",
+          "justification": "The proposal does not provide sufficient detail on the experimental design, including baselines, evaluation metrics, or controls. It lacks a robust plan for testing the proposed methodology. Major weaknesses: There is no discussion of sample size, potential confounds, or ethical considerations, which raises concerns about the feasibility of the proposed research. Next band requirements: To improve, the proposal must include a detailed experimental design with justified baselines, clear evaluation metrics, and a plan for handling confounding variables."
+        },
+        {
+          "criterion": "Literature Alignment & Scholarly Positioning",
+          "weight": 15,
+          "score": 10.0,
+          "level": "9-11: relevant literature used but somewhat surface-level",
+          "justification": "The proposal references relevant literature but lacks depth in its engagement and critical analysis. It does not adequately identify genuine gaps or situate the work within broader debates. Major weaknesses: The literature review is superficial, failing to critically synthesize prior work or articulate why existing approaches are insufficient. Next band requirements: To enhance this criterion, the proposal should provide a more thorough literature review that critically engages with existing research and identifies specific gaps."
+        },
+        {
+          "criterion": "PhD-Level Academic Depth",
+          "weight": 10,
+          "score": 5.0,
+          "level": "5-6: strong master-level but limited theoretical depth",
+          "justification": "The proposal demonstrates some awareness of theoretical mechanisms but lacks depth in discussing the implications and limitations of the proposed approach. Major weaknesses: There is insufficient discussion of the theoretical underpinnings of the proposed methodology and its broader implications for the field. Next band requirements: To achieve a higher score, the proposal should demonstrate deeper theoretical sophistication and a clearer articulation of the mechanisms at play."
+        },
+        {
+          "criterion": "Presentation & Academic Communication",
+          "weight": 5,
+          "score": 3.0,
+          "level": "3: generally clear but inconsistent or repetitive",
+          "justification": "The proposal is generally understandable but suffers from a lack of clarity in some sections and could benefit from more concise language. Major weaknesses: The writing lacks precision in terminology and could be better organized to enhance readability. Next band requirements: To improve, the proposal should focus on refining its language, improving structural organization, and ensuring clarity throughout."
+        }
+      ],
+      "comments": "Total score: 57.0/100. Academic level: Master's-level. Major weaknesses: Lacks clear operational definitions of key concepts.; Weak logical coherence and justification for methodology.; Moderate novelty with insufficient theoretical contribution.; Inadequate experimental design and feasibility considerations.; Superficial engagement with existing literature. Required improvements for true PhD-level quality: Clearly define key concepts and articulate specific research questions.; Establish a coherent logical flow from problem to methodology.; Articulate a unique theoretical contribution that advances the field.; Provide a detailed experimental design with justified baselines and metrics.; Engage deeply with literature to identify genuine gaps and situate the work. Final verdict: The proposal does not demonstrate genuine PhD-level research maturity and requires significant improvements across multiple criteria to reach that standard."
+    }
+  },
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_mode": "raw_source_order"
+  },
+  "metrics": {
+    "condition": "baseline_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+    "retrieval_snapshot_id": "20260527T051438Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-5",
+    "latency_ms": 53748,
+    "prompt_tokens": 6523,
+    "completion_tokens": 1980,
+    "total_tokens": 8503,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}
