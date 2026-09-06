@@ -1,14 +1,31 @@
 # Academic Research Agent · 学术研究智能体
 
-**From a research topic to an evidence-informed, testable research proposal.**  
+[中文](#chinese) | [English](#english)
+
+<a id="chinese"></a>
+## 中文
+
+[Switch to English](#english)
+
 **从研究主题出发，形成有文献依据、可检验的研究方案。**
 
-[中文介绍](#中文介绍) · [English](#english) · [快速开始 / Quick start](#quick-start) · [API](#api)
+本文对应 `agent-rl-learning` 分支已实现的研究原型。
 
-> 本文依据 `agent-rl-learning` 分支的当前实现编写。项目是已具备前后端、研究生成流程和策略学习接口的研究原型；历史实验结果与功能实现状态分别说明。  
-> This README describes the current implementation on `agent-rl-learning`: a research prototype with a frontend, a research-generation backend, and strategy-learning APIs. Implementation status and historical experimental evidence are reported separately.
+### 团队分工与个人贡献
 
-## 中文介绍
+#### Member A — 王士鸿（Shihong Wang）· 核心开发
+
+- **系统与后端**：系统架构、后端开发、模型与文献 API 集成、Prompt Engineering、Agent 工作流及最终系统整合。
+- **RL learning 设计**：设计 Agent 层的强化学习式策略优化流程，组织训练 episode、运行反馈与学习状态持久化；不更新 LLM 参数。
+- **Policy 制定与策略空间设计**：设计质量优先的 epsilon-greedy bandit policy，定义检索深度、提示风格、流程模式和目标修订等策略配置，以及探索与策略变体机制。
+- **奖励与反馈机制**：设计质量、目标接近程度、资源成本和回退状态的奖励信号，结合弱项标签更新评分维度关注权重，指导后续生成。
+- **评价与验证**：研究评价框架、单提示词与多阶段对照实验，以及质量、稳定性和成本分析。
+
+代码入口：[研究流程](backend/app/pipeline.py)、[提示模板](backend/prompts/)、[文献检索](backend/app/literature_client.py)、[模型接入](backend/app/llm_client.py)、[Policy 与策略学习](backend/app/agent_rl.py)、[训练流程](backend/app/agent_training.py)、[评价规则](backend/app/rubric.py)、[对照实验](backend/app/experiment.py)。
+
+#### Member B — 朱宴岚（Yanlan Zhu）· 前端与测试支持
+
+负责前端界面、结果可视化、前后端联调、测试、评价支持与问题修复。代码入口：[frontend/src/](frontend/src/)。
 
 ### 项目定位与使用范围
 
@@ -70,7 +87,186 @@ Academic Research Agent 面向科研选题与研究方案设计。用户输入�
 - 前端演示数据与后端回退结果用于联调，不能计入真实实验结论。文献回退结果也可能进入缓存，重新检索时需检查对应缓存。
 - 当前以本地运行和 JSON 文件保存状态为主，尚未提供用户认证、数据库或后台任务队列。
 
+### 快速开始
+
+从包含 `backend/` 和 `frontend/` 的仓库根目录开始。以下命令使用 Windows PowerShell，需要 Python 3.10+ 和兼容 Vite 6 的 Node.js/npm 环境。
+
+#### 1. 后端
+
+```powershell
+cd backend
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+首次配置时，在 `backend/` 运行 `Copy-Item .env.example .env`。如果 `.env` 已存在，保留原配置。编辑该文件，替换以下占位值：
+
+```dotenv
+LLM_API_KEY=your-api-key
+LLM_BASE_URL=https://your-provider.example/v1
+LLM_MODEL=your-chat-model
+EMBEDDING_MODEL=your-supported-embedding-model
+SEMANTIC_SCHOLAR_API_KEY=
+LLM_TEMPERATURE=0.3
+```
+
+聊天与 embedding 共用 API key 和服务地址。需要服务支持所填 embedding 模型，否则退回本地哈希向量；Semantic Scholar key 可选。未配置 LLM key 时，后端回退结果仅用于联调。
+
+启动后端：
+
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+```
+
+交互 API 文档：[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)。
+
+#### 2. 前端
+
+在新终端中，从仓库根目录运行：
+
+```powershell
+cd frontend
+npm install
+npm run dev -- --host 127.0.0.1
+```
+
+打开 [http://127.0.0.1:5173](http://127.0.0.1:5173)。界面默认启用演示数据；真实运行时，取消勾选 **Use demo data while backend is unavailable**，然后输入主题运行。`Experiment` 页面支持条件选择和重复运行。
+
+如需更改后端地址，在 `frontend/.env.local` 设置 `VITE_API_BASE_URL=http://127.0.0.1:8000` 并重启前端。前端构建检查命令为 `npm run build`。
+
+### API
+
+| 方法 | 路径 | 用途 |
+| --- | --- | --- |
+| GET | `/health` | 健康检查 |
+| POST | `/api/research/run` | 单次研究生成 |
+| POST | `/api/experiment/run` | 多条件重复对比 |
+| GET | `/api/agent/policy` | 查看策略与关注权重 |
+| POST | `/api/agent/train` | 执行训练并保存策略 |
+
+#### 运行条件
+
+| `condition` | 实际行为 |
+| --- | --- |
+| `baseline_with_retrieval` | 历史名称；当前为无检索的单提示词基线 |
+| `multi_stage_with_retrieval` | 默认条件：文献增强的多阶段流程 |
+| `multi_stage_without_retrieval` | 无文献输入的多阶段对照 |
+| `multi_stage_group_selection` | 带检索及关键阶段候选选择 |
+
+`main_comparison` 是兼容模式，在多阶段结果中附带 baseline。显式条件对比请使用 `/api/experiment/run`。
+
+#### 生成研究方案
+
+向 `POST /api/research/run` 提交：
+
+```json
+{
+  "topic": "LLM-based feedback generation for programming education",
+  "max_papers": 5,
+  "condition": "multi_stage_with_retrieval",
+  "prompt_profile": "compact_85",
+  "pipeline_mode": "judgement_light",
+  "target_revision": true
+}
+```
+
+```powershell
+$researchBody = @{
+    topic = "LLM-based feedback generation for programming education"
+    max_papers = 5
+    condition = "multi_stage_with_retrieval"
+    prompt_profile = "compact_85"
+    pipeline_mode = "judgement_light"
+    target_revision = $true
+} | ConvertTo-Json
+Invoke-RestMethod -Uri "http://127.0.0.1:8000/api/research/run" -Method Post -ContentType "application/json" -Body $researchBody
+```
+
+`max_papers` 接受 1–10；`pipeline_mode` 默认 `full`，也支持 `judgement_light`；`target_revision` 默认 `false`。响应包含论文、中间研究字段、proposal、评价和运行指标，部分字段随模式为空。
+
+#### 对照实验
+
+向 `POST /api/experiment/run` 提交：
+
+```json
+{
+  "topic": "LLM-based feedback generation for programming education",
+  "max_papers": 5,
+  "conditions": [
+    "baseline_with_retrieval",
+    "multi_stage_with_retrieval",
+    "multi_stage_without_retrieval",
+    "multi_stage_group_selection"
+  ],
+  "repeats": 2
+}
+```
+
+条件与重复运行顺序执行，检索条件复用该实验的论文集合。响应包括逐次结果、质量对比与稳定性/成本表。此接口使用默认流程配置，不接收 `pipeline_mode` 和 `prompt_profile`。
+
+#### 策略学习
+
+向 `POST /api/agent/train` 提交：
+
+```json
+{
+  "topics": [
+    "LLM-based feedback generation for programming education",
+    "Retrieval augmented generation for academic literature review"
+  ],
+  "episodes": 4,
+  "max_papers": 5,
+  "epsilon": 0.2,
+  "warm_start": true,
+  "warm_start_max_runs": 60
+}
+```
+
+训练调用模型并更新 `backend/data/agent_policy.json`。`warm_start` 利用历史运行补充统计；设为 `false` 仍加载已有策略，不会清空状态。实际文献数量由所选策略优先决定。普通研究接口按请求参数运行，不自动使用 bandit 选择策略。
+
+完整字段以运行中后端的 `/docs` 和[数据模型](backend/app/models.py)为准。
+
+### 项目结构与文档
+
+| 路径 | 内容 |
+| --- | --- |
+| `backend/app/` | API、检索、研究流程、策略学习及评价 |
+| `backend/prompts/` | 各阶段提示模板 |
+| `backend/docs/` | Agent 技术说明 |
+| `frontend/src/` | 界面、API 客户端、类型及演示数据 |
+| `backend/data/cache/literature/` | 文献缓存 |
+| `backend/data/retrieval_snapshots/` | 检索快照 |
+| `backend/data/runs/` | 逐次研究结果 |
+| `backend/data/agent_policy.json` | 策略统计与关注权重 |
+
+实现细节见 [Agent 技术说明](backend/docs/agent_rl_learning_summary.md#chinese)。
+
+---
+
+<a id="english"></a>
 ## English
+
+[切换到中文](#chinese)
+
+**From a research topic to an evidence-informed, testable research proposal.**
+
+This guide describes the research prototype implemented on `agent-rl-learning`.
+
+### Team and contributions
+
+#### Member A — Shihong Wang · Lead developer
+
+- **System and backend:** system architecture, backend development, model and literature API integration, prompt engineering, agent workflows, and final system integration.
+- **RL learning design:** design of the agent-level reinforcement-style optimization loop, including training episodes, runtime feedback, and persistent learning state, without updating LLM weights.
+- **Policy and strategy-space design:** a quality-oriented epsilon-greedy bandit policy, strategy configurations for retrieval depth, prompt profiles, pipeline modes, and target revision, plus exploration and strategy-variant mechanisms.
+- **Reward and feedback design:** reward signals covering quality, target proximity, resource costs, and fallback behavior; weakness-driven updates to rubric attention weights that guide subsequent generation.
+- **Evaluation and validation:** the research evaluation framework, single-prompt and multi-stage comparisons, and quality, stability, and cost analysis.
+
+Source entry points: [research pipeline](backend/app/pipeline.py), [prompt templates](backend/prompts/), [literature retrieval](backend/app/literature_client.py), [model client](backend/app/llm_client.py), [policy and strategy learning](backend/app/agent_rl.py), [training loop](backend/app/agent_training.py), [evaluation rubric](backend/app/rubric.py), and [comparison experiments](backend/app/experiment.py).
+
+#### Member B — Yanlan Zhu · Frontend and testing support
+
+Responsible for frontend UI, result visualization, frontend–backend integration, testing, evaluation support, and bug fixing. Source entry point: [frontend/src/](frontend/src/).
 
 ### Purpose and scope
 
@@ -132,23 +328,19 @@ Current limitations:
 - Demo data and backend fallback outputs support integration testing, not empirical quality claims. Retrieval fallback results can also be cached; inspect the matching cache when requesting fresh evidence.
 - The implementation targets local use with JSON state; user authentication, a database, and a background job queue are not provided.
 
-<a id="quick-start"></a>
-## 快速开始 / Quick start
+### Quick start
 
-以下命令使用 Windows PowerShell。从包含 `backend/` 和 `frontend/` 的仓库根目录开始。需要 Python 3.10+（代码语法要求）以及可运行本项目 Vite 6 的 Node.js/npm 环境。  
-The commands below use Windows PowerShell, starting at the repository root containing `backend/` and `frontend/`. Use Python 3.10+ as required by the code syntax, and a Node.js/npm environment compatible with the project's Vite 6 dependency.
+Start at the repository root containing `backend/` and `frontend/`. These Windows PowerShell commands require Python 3.10+ and a Node.js/npm environment compatible with Vite 6.
 
-### 1. 后端 / Backend
+#### 1. Backend
 
 ```powershell
 cd backend
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-Copy-Item .env.example .env
 ```
 
-编辑 `backend/.env`，将以下占位值替换为你的服务配置。若文件已存在，保留原配置，不必重复复制。  
-Edit `backend/.env`, replacing these placeholders with your provider settings. If it already exists, keep your configuration instead of copying over it.
+For first-time setup, run `Copy-Item .env.example .env` in `backend/`. Preserve an existing `.env` instead of overwriting it. Replace these placeholders with your provider settings:
 
 ```dotenv
 LLM_API_KEY=your-api-key
@@ -159,18 +351,18 @@ SEMANTIC_SCHOLAR_API_KEY=
 LLM_TEMPERATURE=0.3
 ```
 
-聊天与 embedding 使用同一套 API key 和服务地址；请确认服务提供所填 embedding 模型，否则系统将使用本地哈希回退。Semantic Scholar key 可选。未配置 LLM key 时可使用后端回退结果进行联调，但不是真实模型生成。  
-Chat and embeddings share the API key and endpoint. Configure an embedding model supported by that provider, or local hashing will be used. The Semantic Scholar key is optional. Without an LLM key, backend fallback outputs support integration testing rather than real model generation.
+Chat and embeddings share the API key and endpoint. Configure a supported embedding model or the system will fall back to local hashing vectors. The Semantic Scholar key is optional. Without an LLM key, backend fallback output is for integration testing.
+
+Start the backend:
 
 ```powershell
 .\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-交互 API 文档 / Interactive API docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+Interactive API docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
 
-### 2. 前端 / Frontend
+#### 2. Frontend
 
-在新的终端中，从仓库根目录运行：  
 In a second terminal, start from the repository root:
 
 ```powershell
@@ -179,38 +371,34 @@ npm install
 npm run dev -- --host 127.0.0.1
 ```
 
-打开 [http://127.0.0.1:5173](http://127.0.0.1:5173)。界面默认启用演示数据；连接真实后端时，取消勾选 **Use demo data while backend is unavailable**，输入主题并运行。`Experiment` 页面支持选择条件与重复次数。  
-Open [http://127.0.0.1:5173](http://127.0.0.1:5173). Demo mode is enabled by default. Uncheck **Use demo data while backend is unavailable** to use the backend, enter a topic, and run. The `Experiment` page supports condition selection and repeated runs.
+Open [http://127.0.0.1:5173](http://127.0.0.1:5173). Demo mode is enabled by default. Uncheck **Use demo data while backend is unavailable** for real backend requests, then enter a topic and run. The `Experiment` page supports condition selection and repeated runs.
 
-如需更改后端地址，在 `frontend/.env.local` 中设置 `VITE_API_BASE_URL=http://127.0.0.1:8000`，然后重启前端。  
-To change the backend address, set `VITE_API_BASE_URL=http://127.0.0.1:8000` in `frontend/.env.local` and restart the frontend.
+To change the backend address, set `VITE_API_BASE_URL=http://127.0.0.1:8000` in `frontend/.env.local` and restart the frontend. Run `npm run build` to check the frontend build.
 
-## API
+### API
 
-| Method | Endpoint | 用途 / Purpose |
+| Method | Endpoint | Purpose |
 | --- | --- | --- |
-| GET | `/health` | 健康检查 / Health check |
-| POST | `/api/research/run` | 单次研究生成 / Single research run |
-| POST | `/api/experiment/run` | 多条件重复对比 / Repeated condition comparisons |
-| GET | `/api/agent/policy` | 查看策略与关注权重 / Inspect policy and attention weights |
-| POST | `/api/agent/train` | 执行学习 episode 并保存策略 / Run learning episodes and persist the policy |
+| GET | `/health` | Health check |
+| POST | `/api/research/run` | Single research run |
+| POST | `/api/experiment/run` | Repeated condition comparisons |
+| GET | `/api/agent/policy` | Inspect policy and attention weights |
+| POST | `/api/agent/train` | Run learning episodes and persist the policy |
 
-### 运行模式 / Research conditions
+#### Research conditions
 
-| `condition` | 实际行为 / Actual behavior |
+| `condition` | Actual behavior |
 | --- | --- |
-| `baseline_with_retrieval` | 历史命名；当前为不检索文献的单提示词基线 / Legacy name: currently a single-prompt baseline without retrieval |
-| `multi_stage_with_retrieval` | 文献增强的多阶段流程，默认条件 / Literature-grounded multi-stage pipeline; default |
-| `multi_stage_without_retrieval` | 无文献输入的多阶段对照 / Multi-stage control without literature input |
-| `multi_stage_group_selection` | 带检索与关键阶段候选选择 / Retrieval with candidate selection at key stages |
+| `baseline_with_retrieval` | Legacy name: a single-prompt baseline without retrieval |
+| `multi_stage_with_retrieval` | Default: literature-grounded multi-stage generation |
+| `multi_stage_without_retrieval` | Multi-stage control without literature input |
+| `multi_stage_group_selection` | Retrieval and candidate selection at key stages |
 
-`main_comparison` 是保留的单次运行兼容模式，会在多阶段结果中附带 baseline；正式条件对比可使用 `/api/experiment/run`。  
-`main_comparison` remains a legacy single-run mode that includes a baseline alongside multi-stage output. Use `/api/experiment/run` for explicit condition comparisons.
+`main_comparison` is a legacy mode that includes a baseline alongside multi-stage output. Use `/api/experiment/run` for explicit condition comparisons.
 
-### 生成研究方案 / Generate a proposal
+#### Generate a proposal
 
-在 `/docs` 中向 `/api/research/run` 提交以下 JSON，或使用下方 PowerShell 示例。  
-Submit this JSON to `/api/research/run` through `/docs`, or use the PowerShell example below.
+Submit to `POST /api/research/run`:
 
 ```json
 {
@@ -235,12 +423,11 @@ $researchBody = @{
 Invoke-RestMethod -Uri "http://127.0.0.1:8000/api/research/run" -Method Post -ContentType "application/json" -Body $researchBody
 ```
 
-`max_papers` 接受 1–10；`pipeline_mode` 默认 `full`，可选 `judgement_light`；`target_revision` 默认 `false`。响应包括 `papers`、中间研究字段、`proposal`、`evaluation` 和 `metrics`，部分字段随模式省略或为空。  
-`max_papers` accepts 1–10; `pipeline_mode` defaults to `full` and also supports `judgement_light`; `target_revision` defaults to `false`. Responses include `papers`, intermediate research fields, `proposal`, `evaluation`, and `metrics`, with some fields omitted or empty depending on the mode.
+`max_papers` accepts 1–10; `pipeline_mode` defaults to `full` and also supports `judgement_light`; `target_revision` defaults to `false`. Responses include papers, intermediate research fields, a proposal, evaluation, and metrics, with some fields empty depending on the mode.
 
-### 对照实验 / Comparison experiment
+#### Comparison experiment
 
-提交至 / Submit to `POST /api/experiment/run`:
+Submit to `POST /api/experiment/run`:
 
 ```json
 {
@@ -256,12 +443,11 @@ Invoke-RestMethod -Uri "http://127.0.0.1:8000/api/research/run" -Method Post -Co
 }
 ```
 
-条件与重复运行顺序执行；检索条件复用同一实验的论文集合。返回逐次结果、质量对比与稳定性/成本表。此接口目前使用默认流程参数，不接收 `pipeline_mode` 或 `prompt_profile`。  
-Conditions and repeats run sequentially; retrieval-enabled conditions reuse the experiment's paper set. The response includes individual runs, quality comparisons, and stability/cost tables. This endpoint currently uses default pipeline settings and does not accept `pipeline_mode` or `prompt_profile`.
+Conditions and repeats run sequentially. Retrieval-enabled conditions reuse the experiment's paper set. The response includes individual runs, quality comparisons, and stability/cost tables. This endpoint uses default pipeline settings and does not accept `pipeline_mode` or `prompt_profile`.
 
-### 策略学习 / Strategy learning
+#### Strategy learning
 
-提交至 / Submit to `POST /api/agent/train`:
+Submit to `POST /api/agent/train`:
 
 ```json
 {
@@ -277,42 +463,21 @@ Conditions and repeats run sequentially; retrieval-enabled conditions reuse the 
 }
 ```
 
-训练会调用模型并更新 `backend/data/agent_policy.json`。`warm_start` 从历史运行补充策略统计；`warm_start: false` 仍加载已有策略，不会清空状态。实际文献数量由所选策略优先决定。普通 `/api/research/run` 按请求参数执行，不自动调用 bandit 选择策略。  
-Training calls the model and updates `backend/data/agent_policy.json`. Warm start incorporates historical runs; `warm_start: false` still loads the existing policy rather than resetting it. The selected strategy takes precedence for retrieval depth. Ordinary `/api/research/run` calls follow request parameters and do not automatically invoke bandit strategy selection.
+Training calls the model and updates `backend/data/agent_policy.json`. Warm start incorporates historical runs; `warm_start: false` still loads the existing policy rather than resetting it. The selected strategy takes precedence for retrieval depth. Ordinary research requests follow explicit parameters without automatic bandit selection.
 
-## 项目结构 / Repository structure
+For complete fields, use the running backend's `/docs` and the [data models](backend/app/models.py).
 
-```text
-.
-├── README.md
-├── backend/
-│   ├── app/
-│   │   ├── main.py                 # API endpoints
-│   │   ├── pipeline.py             # Research orchestration
-│   │   ├── literature_client.py    # Multi-source retrieval
-│   │   ├── literature_clustering.py# Embeddings and clustering
-│   │   ├── llm_client.py           # Compatible model client
-│   │   ├── experiment.py           # Condition comparisons
-│   │   ├── agent_rl.py             # Strategy policy and feedback
-│   │   ├── agent_training.py       # Learning episodes
-│   │   ├── rubric.py              # Evaluation rubric
-│   │   └── models.py              # Request/response schemas
-│   ├── prompts/                   # Stage prompt templates
-│   ├── docs/                      # Historical learning/experiment notes
-│   ├── data/                      # Runtime records and policy state
-│   ├── .env.example
-│   └── requirements.txt
-└── frontend/
-    ├── src/                       # UI, API client, types, demo data
-    └── package.json
-```
+### Repository structure and documentation
 
-运行记录 / Runtime records:
+| Path | Contents |
+| --- | --- |
+| `backend/app/` | APIs, retrieval, research pipelines, strategy learning, and evaluation |
+| `backend/prompts/` | Stage prompt templates |
+| `backend/docs/` | Agent technical documentation |
+| `frontend/src/` | UI, API client, types, and demo data |
+| `backend/data/cache/literature/` | Literature cache |
+| `backend/data/retrieval_snapshots/` | Retrieval snapshots |
+| `backend/data/runs/` | Individual research outputs |
+| `backend/data/agent_policy.json` | Policy statistics and attention weights |
 
-- `backend/data/cache/literature/`: 文献缓存 / Literature cache.
-- `backend/data/retrieval_snapshots/`: 检索快照 / Retrieval snapshots.
-- `backend/data/runs/`: 逐次研究结果 / Individual research outputs.
-- `backend/data/agent_policy.json`: 策略统计与关注权重 / Policy statistics and attention weights.
-
-更多实现背景见 [Agent learning notes](backend/docs/agent_rl_learning_summary.md) 和 [Historical experiment results](backend/docs/recent_agent_experiment_results.md)。这些文档记录特定开发阶段，部分建议（例如实现轻量模式）已被当前代码落实。  
-See [Agent learning notes](backend/docs/agent_rl_learning_summary.md) and [Historical experiment results](backend/docs/recent_agent_experiment_results.md) for development context. They describe particular milestones; some proposed changes, including lightweight mode, are already implemented in the current code.
+See [Agent technical notes](backend/docs/agent_rl_learning_summary.md#english) for implementation details.

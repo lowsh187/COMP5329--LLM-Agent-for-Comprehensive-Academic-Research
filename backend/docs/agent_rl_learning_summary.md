@@ -1,496 +1,219 @@
-# Agent RL Learning Summary
+# Agent 技术说明 · Agent Technical Notes
 
-Branch: `agent-rl-learning`
+[中文](#chinese) | [English](#english)
 
-This project implements agent-level reinforcement-style learning for an academic research proposal agent. It does not tune LLM parameters. Instead, it learns how to choose external agent strategies, prompt profiles, retrieval depth, target-revision behavior, and rubric attention focus.
+<a id="chinese"></a>
+## 中文
 
-## Goal
+[Switch to English](#english)
 
-The current optimization goal is not average reward. The agent is designed to search for higher proposal quality scores, especially scores approaching or exceeding the strict PhD-level target of `85/100`.
+本文对应 `agent-rl-learning` 分支的当前实现。安装、环境变量、团队分工与 API 请求示例统一见[主 README](../../README.md#chinese)。本文说明实现机制，不报告当前版本的实验成绩。
 
-The agent learns from each training episode:
+### 1. 架构与范围
 
-- which strategy was selected
-- which prompt profile was used
-- how many papers were retrieved
-- whether target revision was enabled
-- final rubric score
-- token and latency cost
-- fallback/error status
-- weakness tags from the evaluator
-- attention weights over rubric dimensions
+系统以 Python 显式编排检索、研究生成、检查、修订和评价。学习发生在 Agent 的外部执行策略层，不更新 LLM 参数，也不使用模型微调。普通研究请求按照显式参数运行；训练接口才负责选择策略并更新学习状态。
 
-## Main Training Endpoint
+| 模块 | 职责 |
+| --- | --- |
+| [pipeline.py](../app/pipeline.py) | 提示链、候选选择、蓝图、修订和评价 |
+| [agent_rl.py](../app/agent_rl.py) | 策略定义、选择、奖励、弱项反馈及持久化 |
+| [agent_training.py](../app/agent_training.py) | 训练 episode 的执行和策略更新 |
+| [literature_clustering.py](../app/literature_clustering.py) | 向量重排、聚类和候选语义对齐 |
+| [experiment.py](../app/experiment.py) | 重复条件对比及质量、稳定性和成本汇总 |
+| [models.py](../app/models.py) | API 与策略的数据结构 |
 
-Training endpoint:
-
-```text
-POST /api/agent/train
-```
-
-Example command from `backend`:
-
-```cmd
-..\frontend\.venv\Scripts\python.exe -c "import json, urllib.request; topics=json.load(open('data/agent_training_topics.json', encoding='utf-8')); data=json.dumps({'topics':topics,'episodes':4,'max_papers':5,'epsilon':0.2,'warm_start':True}).encode('utf-8'); req=urllib.request.Request('http://127.0.0.1:8000/api/agent/train', data=data, headers={'Content-Type':'application/json'}, method='POST'); print(urllib.request.urlopen(req, timeout=7200).read().decode('utf-8'))"
-```
-
-Policy endpoint:
+### 2. 学习闭环
 
 ```text
-GET /api/agent/policy
+加载策略并按需利用历史记录热启动
+  -> 选择执行策略
+  -> 运行研究流程
+  -> 评价质量并收集成本与回退指标
+  -> 提取弱项标签并更新关注权重
+  -> 更新策略统计并探索变体
+  -> 继续训练并保存策略
 ```
 
-## Policy Mechanism
+算法名称为 `epsilon_greedy_quality_max_bandit`。未探索策略优先；其余选择结合 epsilon 探索和质量优先排序。统计包括 `best_quality`、`last_quality`、平均质量、奖励、token、耗时和回退率。排序强调已观察的高质量结果，并考虑目标策略加成、探索及较小的成本影响；它不是仅按平均奖励选择的标准 bandit 实验。
 
-The current policy algorithm is:
+奖励记录质量、目标接近程度、质量纪录提升、完整度，以及 token、延迟和回退惩罚。代码中的 `85` 是内部目标参数，不是已达到的质量承诺。奖励细节以 `compute_reward` 为准。
 
-```text
-epsilon_greedy_quality_max_bandit
-```
-
-It is an epsilon-greedy bandit over agent strategies, but the ranking is quality-max oriented.
-
-The policy prioritizes:
-
-1. `best_quality`
-2. `last_quality`
-3. target-oriented strategy bonus
-4. low-count exploration bonus
-5. fallback rate
-6. tiny token/latency tie-breaker
-
-This means the agent is encouraged to find a higher observed quality score, not merely a stable average reward.
-
-## Strategy State
-
-Each strategy contains:
+### 3. 策略配置
 
 ```json
 {
-  "strategy_id": "multi_stage_p5_compact_85",
+  "strategy_id": "multi_stage_p5_judgement_light",
   "condition": "multi_stage_with_retrieval",
   "max_papers": 5,
-  "description": "...",
   "prompt_profile": "compact_85",
-  "cost_profile": "quality",
+  "pipeline_mode": "judgement_light",
+  "cost_profile": "judgement_light",
   "target_revision": true
 }
 ```
 
-The main default strategies are:
+当前内置策略：
 
 - `multi_stage_p3_balanced`
 - `multi_stage_p5_quality`
 - `multi_stage_p5_compact_85`
+- `multi_stage_p5_judgement_light`
+- `multi_stage_p5_judgement_light_target_85_phd`
 - `multi_stage_no_retrieval_p0`
 - `group_selection_p3_balanced`
 - `group_selection_p5_quality`
 
-The agent can dynamically generate additional strategies, such as:
+策略可按运行反馈产生文献数量、提示风格或修订配置变体。轻量模式会限制部分文献扩展，并将轻量策略归一到规范 ID，以减少重复策略。已有策略加载时也会进行归一化，因此实际配置应通过 `GET /api/agent/policy` 查看，不能只依赖策略名称推断。
 
-- paper-count mutations: `p4`, `p6`, `p7`, `p8`
-- cost-saving variants
-- target-85 variants
-- prompt-profile variants
-- compact-85 variants
-- group-selection variants
+`baseline_with_retrieval` 是历史名称：当前实际为无检索的单提示词基线，不在内置训练策略列表中。`multi_stage_without_retrieval` 同样不把文献传入研究生成流程。
 
-## Reward Mechanism
+### 4. 评分关注权重
 
-Reward is still recorded, but it is not the main policy objective. Quality score is more important.
+系统使用七个维度：`clarity`、`logic`、`novelty`、`feasibility`、`literature_alignment`、`phd_level_quality`、`presentation`。每次训练从评分和弱项标签更新权重，再把优先关注维度注入下一次提示。
 
-Reward currently includes:
+这是一种外部提示控制机制，不是 Transformer 内部 attention。`phd_level_quality` 是内部 rubric 标签，不代表专家认证。
 
-- `quality_reward`
-- `high_score_bonus`
-- `target_score_bonus`
-- `quality_record_bonus`
-- `near_target_bonus`
-- `target_gap_penalty`
-- `token_penalty`
-- `latency_penalty`
-- `completeness_bonus`
-- `fallback_penalty`
+提示风格在 `PROMPT_PROFILE_GUIDANCE` 中定义，包括 `strict_phd`、`target_85_phd`、`compact_85`、`novelty_focused`、`methodology_focused`、`literature_grounded`、`causal_rigor`、`cost_saving` 和 `candidate_selection`。
 
-Important behavior:
+### 5. 研究蓝图与轻量模式
 
-- If a run exceeds the previous trusted global best quality, `quality_record_bonus` is added.
-- Scores close to or above 85 receive additional target-related bonuses.
-- Token and latency penalties are intentionally small relative to quality, but still visible.
-- Fallbacks are penalized.
+研究生成包含文献主题与证据、学术定位与张力分析、问题有效性检查、机制与假设、方法与贡献设计，以及 proposal 生成。候选选择模式在缺口、假设和方法阶段比较多个方案。
 
-## Warm Start Cleaning
+[研究蓝图模板](../prompts/research_problem_blueprint.txt)将研究判断转成结构化约束，包括机制、最强基线、负结果意义、必要证据，以及必须包含或避免的内容。蓝图已接入普通多阶段与候选选择流程。
 
-Warm start uses recent run history, but old unreliable high scores are filtered.
+| 环节 | `full` | `judgement_light` |
+| --- | --- | --- |
+| 研究判断与结构化蓝图 | 保留 | 保留 |
+| 写作前批评 | 执行 | 跳过 |
+| 不良模式和证据主张检查 | 执行 | 跳过 |
+| 通用草稿批评与修订 | 执行 | 跳过 |
+| 蓝图遵循检查 | 不执行 | 执行 |
+| 目标诊断与修订 | 按 `target_revision` | 按 `target_revision` |
+| 逻辑图和最终评价 | 执行 | 执行 |
 
-Current behavior:
+上述比较适用于多阶段及候选选择流程，不适用于单提示词基线。轻量模式的目标是减少冗余检查并保留核心研究判断；实现完成并不证明质量提升或成本降低。
 
-- default warm start max runs: `60`
-- trusted warm-start score cap: `90`
-- scores above the trusted cap are ignored during warm start
-- existing polluted policy values are normalized on load
+### 6. 运行与持久化
 
-This prevents earlier evaluator/fallback artifacts such as `100/100` from dominating the quality-max policy.
+- `POST /api/agent/train`：执行训练并保存策略
+- `GET /api/agent/policy`：查看策略统计与关注权重
+- `backend/data/agent_policy.json`：策略状态
+- `backend/data/runs/`：逐次研究输出
+- `backend/data/retrieval_snapshots/`：文献快照
 
-## Agent-Level Attention
+`warm_start` 默认从最多 60 条历史运行补充统计，并过滤超过信任上限的历史评分。该过滤是启发式清理，不等于验证评分可信度。`warm_start: false` 仍会加载已有策略，不会重置训练。
 
-The agent includes an external attention mechanism over rubric dimensions.
+可通过 `strategy_ids` 指定已有策略；训练按给定列表轮换，此时不使用自动 bandit 选择。主题也按列表轮换，设计对比时应确保各策略覆盖相同主题，避免把主题差异误当策略收益。
 
-This is not transformer attention and does not modify LLM internals. It is a learned prompt-control signal.
+### 7. 验证边界
 
-Attention dimensions:
+评价由模型及内部 rubric 产生，应结合原文证据和人工审阅解释。检索缓存、局部 embedding 回退、生成回退和历史策略状态都可能影响比较。`metrics.fallback_reason` 不能覆盖所有局部降级，需要同时查看日志和论文来源。
+
+---
+
+<a id="english"></a>
+## English
+
+[切换到中文](#chinese)
+
+This document describes the current implementation on `agent-rl-learning`. See the [main README](../../README.md) for setup, environment variables, team attribution, and API examples. This document explains mechanisms rather than reporting current benchmark results.
+
+### 1. Architecture and scope
+
+Python explicitly orchestrates retrieval, research generation, checks, revision, and evaluation. Learning operates on external execution strategies without updating or fine-tuning LLM weights. Ordinary research requests follow explicit parameters; the training endpoint selects strategies and updates learning state.
+
+| Module | Responsibility |
+| --- | --- |
+| [pipeline.py](../app/pipeline.py) | Prompt chains, candidate selection, blueprints, revision, and evaluation |
+| [agent_rl.py](../app/agent_rl.py) | Strategy definitions, selection, rewards, weakness feedback, and persistence |
+| [agent_training.py](../app/agent_training.py) | Learning episode execution and policy updates |
+| [literature_clustering.py](../app/literature_clustering.py) | Vector reranking, clustering, and candidate alignment |
+| [experiment.py](../app/experiment.py) | Repeated comparisons and quality, stability, and cost summaries |
+| [models.py](../app/models.py) | API and policy data structures |
+
+### 2. Learning loop
+
+```text
+Load policy / optional historical warm start
+  -> Select a strategy
+  -> Run the research pipeline
+  -> Evaluate quality and collect cost/fallback metrics
+  -> Derive weakness tags and update attention weights
+  -> Update strategy statistics and explore variants
+  -> Continue episodes and save policy
+```
+
+The algorithm is named `epsilon_greedy_quality_max_bandit`. Unexplored strategies are prioritized; subsequent selection combines epsilon exploration with quality-oriented ranking. Statistics track best, latest, and mean quality, rewards, tokens, latency, and fallback rates. Ranking emphasizes high observed quality with target-strategy bonuses, exploration, and small cost effects, rather than selecting solely by mean reward.
+
+Rewards record quality, target proximity, improvements over previous records, completeness, and token, latency, and fallback penalties. The code's `85` is an internal target parameter, not an achieved quality guarantee. See `compute_reward` for the exact calculation.
+
+### 3. Strategy configuration
 
 ```json
 {
-  "clarity": 0.12,
-  "logic": 0.15,
-  "novelty": 0.20,
-  "feasibility": 0.15,
-  "literature_alignment": 0.13,
-  "phd_level_quality": 0.20,
-  "presentation": 0.05
+  "strategy_id": "multi_stage_p5_judgement_light",
+  "condition": "multi_stage_with_retrieval",
+  "max_papers": 5,
+  "prompt_profile": "compact_85",
+  "pipeline_mode": "judgement_light",
+  "cost_profile": "judgement_light",
+  "target_revision": true
 }
 ```
 
-After each episode, attention is updated from:
+Built-in strategies:
 
-- low rubric scores
-- weakness tags
-- whether the total score is below 85
-
-The next episode receives prompt guidance such as:
-
-```text
-Agent attention focus: prioritize the highest-weight rubric dimensions in this run.
-Current top attention weights are novelty=0.20, phd_level_quality=0.20, logic=0.15.
-Spend proposal detail and revision effort on these dimensions first.
-Keep lower-weight dimensions adequate but concise.
-Do not add generic content unless it directly improves the attention-focused rubric dimensions.
-```
-
-This gives the agent a persistent learning signal about what to improve next.
-
-## Prompt Profiles
-
-Prompt profiles are stored in `app/pipeline.py` as `PROMPT_PROFILE_GUIDANCE`.
-
-Current profiles:
-
-### `strict_phd`
-
-General PhD-level standards:
-
-- specificity
-- theoretical depth
-- methodological rigor
-- realistic contribution claims
-
-### `target_85_phd`
-
-Explicitly optimizes for a strict score of 85 or above.
-
-Focus:
-
-- concrete novelty
-- why prior work is insufficient
-- mechanism-level explanation
-- baselines
-- ablations
-- controls
-- measurable variables
-- data sources
-- evaluation metrics
-- failure cases
-- literature tensions
-- realistic claim boundaries
-
-### `compact_85`
-
-High-score compact strategy.
-
-Focus:
-
-- one precise literature gap
-- one concrete contribution
-- one falsifiable hypothesis
-- one mechanism-level explanation
-- one strongest baseline or ablation set
-- one metric family
-- one negative-result interpretation
-
-Purpose:
-
-- reduce clutter
-- avoid overlong proposal paragraphs
-- avoid citation dumping
-- avoid generic AI-for-X claims
-
-### `novelty_focused`
-
-Focuses on non-generic research gap and clear contribution.
-
-### `methodology_focused`
-
-Focuses on:
-
-- rigorous experimental design
-- valid baselines
-- reproducibility
-- ablations
-- measurable variables
-- evaluation metrics
-
-### `literature_grounded`
-
-Focuses on:
-
-- critical synthesis
-- scholarly positioning
-- explicit links between claims and evidence
-
-### `causal_rigor`
-
-Focuses on:
-
-- operationalized constructs
-- causal mechanisms
-- confound control
-- claim boundaries
-
-### `cost_saving`
-
-Focuses on concise stages and less redundant text.
-
-### `candidate_selection`
-
-Used in group-selection mode to generate and compare alternatives.
-
-## Pipeline Conditions
-
-The agent can run these conditions:
-
-### `multi_stage_with_retrieval`
-
-Uses retrieved literature and full multi-stage reasoning.
-
-### `multi_stage_without_retrieval`
-
-Runs multi-stage reasoning without retrieved papers.
-
-### `multi_stage_group_selection`
-
-Generates candidate outputs for selected stages and chooses among them.
-
-### `baseline_with_retrieval`
-
-Currently treated as a baseline/control style condition. It is not part of the agent learning strategy set.
-
-## Main Multi-Stage Pipeline
-
-For `multi_stage_with_retrieval`, the current stage order is:
-
-1. literature search
-2. literature clustering
-3. evidence notes
-4. literature summary
-5. scholarly positioning
-6. literature tension graph
-7. domain router
-8. research scope
-9. research gap
-10. concept definition
-11. technical feasibility
-12. research question
-13. research problem validity check
-14. theoretical mechanism
-15. hypothesis
-16. operationalization and causal check
-17. methodology
-18. novelty and contribution
-19. contribution type router
-20. PhD contribution design
-21. pre-proposal critique
-22. failure analysis
-23. proposal draft
-24. bad proposal pattern detector
-25. evidence-claim alignment
-26. proposal critique
-27. proposal revision
-28. target-85 rubric diagnosis, if `target_revision=true`
-29. target-85 proposal revision, if `target_revision=true`
-30. proposal logic graph
-31. final rubric evaluation
-
-## Group-Selection Pipeline
-
-For `multi_stage_group_selection`, the agent uses candidate selection for:
-
-- research gap
-- hypothesis
-- methodology
-
-Then it continues through:
-
-- novelty and contribution
-- PhD contribution design
-- pre-proposal critique
-- failure analysis
-- proposal
-- proposal critique/revision
-- optional target-85 diagnosis/revision
-- logic graph
-- final evaluation
-
-## Prompt Files
-
-Prompt files are in `backend/prompts`.
-
-Current prompt files:
-
-- `baseline.txt`
-- `bad_proposal_pattern_detector.txt`
-- `concept_definition.txt`
-- `domain_router.txt`
-- `evaluation.txt`
-- `evidence_notes.txt`
-- `evidence_claim_alignment.txt`
-- `failure_analysis.txt`
-- `hypothesis.txt`
-- `literature_summary.txt`
-- `literature_tension_graph.txt`
-- `methodology.txt`
-- `novelty_contribution.txt`
-- `operationalization_causal_check.txt`
-- `phd_contribution_design.txt`
-- `pre_proposal_critique.txt`
-- `proposal.txt`
-- `proposal_critique.txt`
-- `proposal_logic_graph.txt`
-- `proposal_revision.txt`
-- `research_gap.txt`
-- `research_problem_validity_check.txt`
-- `research_question.txt`
-- `research_scope.txt`
-- `scholarly_positioning.txt`
-- `target_85_revision.txt`
-- `technical_feasibility.txt`
-- `theoretical_mechanism.txt`
-
-## Research Judgement Modules
-
-Three modules were added to shift the system from proposal-form optimization toward research-problem formation:
-
-- `literature_tension_graph.txt`: extracts cross-paper tensions, contradictions, incompatible assumptions, unresolved mechanisms, and unstable evaluation conditions.
-- `research_problem_validity_check.txt`: checks whether the question is non-trivial, theoretically meaningful, empirically testable, and worth PhD-level committee attention.
-- `contribution_type_router.txt`: routes the proposal to one primary contribution type, such as theoretical, methodological, empirical, benchmark/dataset, system, or evaluation framework.
-- `bad_proposal_pattern_detector.txt`: detects generic AI-proposal failure patterns, such as generic gap, method-first framing, overclaiming novelty, weak baseline, and citation decoration.
-- `evidence_claim_alignment.txt`: checks whether core proposal claims are actually supported by retrieved evidence and identifies claims that must be narrowed, hedged, or better grounded.
-
-These modules make the proposal path closer to:
-
-```text
-literature tension
--> valid research problem
--> contribution type
--> mechanism
--> hypothesis
--> methodology
--> proposal
-```
-
-## Important New Prompts
-
-### `phd_contribution_design.txt`
-
-Creates a contribution skeleton before the proposal is drafted.
-
-It asks for:
-
-- concrete theoretical or methodological contribution
-- mechanism-level claim
-- what literature cannot explain, measure, compare, or validate
-- falsifiable scientific claim
-- strongest baseline/control/ablation
-- negative-result interpretation
-
-### `pre_proposal_critique.txt`
-
-Attacks the contribution design before drafting.
-
-It asks:
-
-- why the contribution might still fail to reach 85+
-- what the three most damaging reviewer objections are
-- what exact repairs are required before drafting
-
-### `target_85_revision.txt`
-
-Runs a final target-85 revision after a temporary rubric diagnosis.
-
-It uses:
-
-- strict rubric diagnosis
-- current proposal
-- contribution design
-- pre-proposal critique
-- target-85 requirements
-
-## Weakness Tags
-
-Weakness tags are derived from rubric scores and weighted total.
-
-Possible tags:
-
-- `clarity`
-- `logic`
-- `novelty`
-- `feasibility`
-- `literature_alignment`
-- `phd_level_quality`
-- `presentation`
-
-These tags drive:
-
-- prompt-profile mutation
-- attention update
-- strategy mutation
-- compact-85 exploration
-- target-85 exploration
-
-## Current Observed Behavior
-
-Recent training has shown:
-
-- the agent often reaches `76-78`
-- the trusted best score is around `78`
-- larger retrieval depth does not reliably improve quality
-- `p6/p7/p8` can increase cost without breaking the quality ceiling
-- attention has shifted toward `phd_level_quality` and `novelty`
-- `compact_85` is being explored, but has not yet exceeded the trusted best score
-
-## Practical Recommendation
-
-For the next experiments:
-
-- avoid increasing papers beyond 5 unless needed
-- compare stable p5 strategies
-- watch `quality_record_bonus`
-- watch `attention_weights`
-- treat any score above 78 as important progress
-- if score reaches 79+, inspect that run's saved JSON carefully
-
-Useful strategies to compare:
-
+- `multi_stage_p3_balanced`
 - `multi_stage_p5_quality`
-- `multi_stage_no_retrieval_p0`
 - `multi_stage_p5_compact_85`
-- `multi_stage_p5_compact_85_target_85_phd`
+- `multi_stage_p5_judgement_light`
+- `multi_stage_p5_judgement_light_target_85_phd`
+- `multi_stage_no_retrieval_p0`
+- `group_selection_p3_balanced`
 - `group_selection_p5_quality`
 
-## How To Explain This In A Report
+Feedback can generate variants in retrieval depth, prompt profile, or revision settings. Lightweight mode restricts some retrieval expansion and canonicalizes lightweight strategy IDs to reduce duplicates. Existing policies are also normalized on load; inspect `GET /api/agent/policy` rather than inferring configuration solely from a strategy name.
 
-A concise description:
+`baseline_with_retrieval` is a legacy name: it currently runs a single-prompt baseline without retrieval and is absent from the built-in training strategy list. `multi_stage_without_retrieval` likewise supplies no literature to generation.
 
-```text
-The system implements reinforcement-style agent learning without updating LLM parameters. The agent learns an external policy over research-generation strategies, prompt profiles, retrieval depth, target-revision behavior, and rubric attention weights. After each episode, a strict PhD-level evaluator provides quality scores and weakness signals. These signals update the strategy bandit, quality-max policy state, and attention distribution over rubric dimensions. The next episode uses the learned policy to select a strategy and injects attention-guided prompt guidance into the pipeline.
-```
+### 4. Rubric attention weights
+
+The seven dimensions are `clarity`, `logic`, `novelty`, `feasibility`, `literature_alignment`, `phd_level_quality`, and `presentation`. Training updates weights from scores and weakness tags, then injects priority dimensions into subsequent prompts.
+
+This is external prompt control, not internal Transformer attention. `phd_level_quality` is an internal rubric label, not expert certification.
+
+Prompt profiles are defined in `PROMPT_PROFILE_GUIDANCE`: `strict_phd`, `target_85_phd`, `compact_85`, `novelty_focused`, `methodology_focused`, `literature_grounded`, `causal_rigor`, `cost_saving`, and `candidate_selection`.
+
+### 5. Research blueprints and lightweight mode
+
+Generation covers literature themes and evidence, scholarly positioning and tensions, problem validity, mechanisms and hypotheses, methodology and contribution design, and proposal drafting. Candidate-selection mode compares alternatives at the gap, hypothesis, and methodology stages.
+
+The [research blueprint template](../prompts/research_problem_blueprint.txt) turns research judgement into structured constraints covering mechanisms, the strongest baseline, negative-result interpretation, required evidence, and elements to include or avoid. Blueprints are integrated into both ordinary multi-stage and candidate-selection paths.
+
+| Stage | `full` | `judgement_light` |
+| --- | --- | --- |
+| Research judgement and blueprint | Included | Included |
+| Pre-proposal critique | Executed | Skipped |
+| Bad-pattern and evidence–claim checks | Executed | Skipped |
+| General draft critique and revision | Executed | Skipped |
+| Blueprint compliance check | Not executed | Executed |
+| Target diagnosis and revision | Controlled by `target_revision` | Controlled by `target_revision` |
+| Logic graph and final evaluation | Executed | Executed |
+
+This comparison applies to multi-stage and candidate-selection paths, not the single-prompt baseline. Lightweight mode aims to reduce redundant checks while retaining research judgement; implementation alone does not establish quality improvements or cost reductions.
+
+### 6. Execution and persistence
+
+- `POST /api/agent/train`: Run training and save the policy.
+- `GET /api/agent/policy`: Inspect strategy statistics and attention weights.
+- `backend/data/agent_policy.json`: Policy state.
+- `backend/data/runs/`: Individual research outputs.
+- `backend/data/retrieval_snapshots/`: Literature snapshots.
+
+Warm start incorporates up to 60 historical runs by default and filters historical scores above a trust cap. This is heuristic cleaning, not score validation. `warm_start: false` still loads the existing policy and does not reset training.
+
+Providing `strategy_ids` cycles through existing strategies instead of automatic bandit selection. Topics also cycle through their list; comparisons should give strategies the same topic coverage to avoid confusing topic differences with strategy gains.
+
+### 7. Validation boundaries
+
+Evaluation comes from a model and an internal rubric and should be interpreted alongside source evidence and human review. Retrieval caches, local embedding fallback, generation fallback, and historical policy state can affect comparisons. Inspect logs and paper sources as well as `metrics.fallback_reason`, which does not capture every local degradation.
