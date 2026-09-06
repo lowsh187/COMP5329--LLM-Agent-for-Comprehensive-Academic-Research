@@ -1,0 +1,386 @@
+{
+  "experiment_id": "20260527T043756Z",
+  "run_index": 1,
+  "topic": "LLM-based feedback generation for programming education",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "LLM-based feedback generation for programming education",
+  "retrieval_snapshot_id": "20260527T043808Z-llm-based-feedback-generation-for-programming-education-5",
+  "papers": [
+    {
+      "title": "WIP: A Pedagogical Prompt Engineering Framework for LLM-Based Feedback in Higher Education (PPE-LLM)",
+      "authors": [
+        "Eyman A. Alyahyan",
+        "Mireilla Bikanga Ada",
+        "Jake Lever"
+      ],
+      "abstract": "This Work-in-Progress (WIP) paper introduces PPE-LLM, a structured framework for prompt engineering that enables LLM -generated feedback to be pedagogically meaningful and tailored to novice programming students in introductory pro-gramming education. Although large language models (LLMs) show promise for feedback generation, existing research lacks a structured methodology that integrates pedagogical principles, student needs, best-practice prompting, and technical consid-erations. PPE- LLM addresses this gap by providing a theory-driven framework that supports the systematic design of prompts to generate formative feedback, enhancing learning tailored to students' learning levels and needs. This paper presents the key components of the framework, along with a practical example prompt. It also analyses the alignment of recent CER studies with the PPE- LLM components. The results indicate that studies with limited alignment often produced inconsistent or lower-quality feedback, whereas more substantial alignment was found to be pedagogically effective in AI-generated feedback. Future work includes expert validation and student evaluation in real-world settings.",
+      "published": "2025-11-02",
+      "url": "https://www.semanticscholar.org/paper/650f9a193a59022c01f23275ac0c0566543aab64",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+      "authors": [
+        "Marios Chrysopoulos",
+        "Lefteris Moussiades"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-9-27",
+      "url": "https://doi.org/10.1109/waie67422.2025.11381301",
+      "source": "Crossref"
+    },
+    {
+      "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+      "authors": [
+        "Marios Chrysopoulos",
+        "Lefteris Moussiades"
+      ],
+      "abstract": "The integration of Large Language Models (LLMs) into education offers new opportunities for enhancing programming instruction, especially at the high school level. This paper introduces PythonTutor, an intelligent tutoring system that supports novice learners through scaffolded, AI-generated feedback. Powered by ChatGPT 4.0 Mini, PythonTutor provides step-by-step hints tailored to student submissions, promoting independent problem-solving and limiting overreliance on AI. The platform unifies instructional content, personalized tutoring, and teacher oversight in a web-based environment. A pilot study with 18 students and three teachers compared PythonTutor-supported instruction to traditional methods. Results showed significantly greater learning gains with PythonTutor, supported by high accuracy and precision in AI feedback. Student and teacher feedback confirmed the system’s usability, educational value, and classroom potential. PythonTutor emerges as a scalable, cost-effective solution for personalized programming education aligned with best practices",
+      "published": "2025-09-27",
+      "url": "https://www.semanticscholar.org/paper/2de83feb7e36de97eafc052c663366c50074b9dd",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Cinema, Fermi Problems, & General Education",
+      "authors": [
+        "C. J. Efthimiou",
+        "R. Llewellyn"
+      ],
+      "abstract": "During the past several years the authors have developed a new approach to the teaching of Physical Science, a general education course typically found in the curricula of nearly every college and university. This approach, called `Physics in Films', uses scenes from popular movies to illustrate physical principles and has excited student interest and improved student performance. The analyses of many of the scenes in `Physics in Films' are a direct application of Fermi calculations -- estimates and approximations designed to make solutions of complex and seemingly intractable problems understandable to the student non-specialist. The intent of this paper is to provide instructors with examples they can use to develop skill in recognizing Fermi problems and making Fermi calculations in their own courses.",
+      "published": "2006-08-05",
+      "url": "http://arxiv.org/abs/physics/0608058v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Twelve Years of Education and Public Outreach with the Fermi Gamma-ray Space Telescope",
+      "authors": [
+        "Lynn Cominsky",
+        "Kevin McLin",
+        "Aurore Simonnet",
+        "the Fermi Education",
+        "Public Outreach Team"
+      ],
+      "abstract": "During the past twelve years, NASA's Fermi Gamma-ray Space Telescope has supported a wide range of Education and Public Outreach (E/PO) activities, targeting K-14 students and the general public. The purpose of the Fermi E/PO program is to increase student and public understanding of the science of the high-energy Universe, through inspiring, engaging and educational activities linked to the mission's science objectives. The E/PO program has additional more general goals, including increasing the diversity of students in the Science, Technology, Engineering and Mathematics (STEM) pipeline, and increasing public awareness and understanding of Fermi science and technology. Fermi's multi-faceted E/PO program includes elements in each major outcome category: Higher Education; Elementary and Secondary Education; Informal Education and Public Outreach.",
+      "published": "2013-02-28",
+      "url": "http://arxiv.org/abs/1303.0042v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Leveraging LLMs for Enhanced Programming Education",
+      "paper_indices": [
+        1,
+        2,
+        3
+      ],
+      "summary": "This cluster of papers explores the integration of Large Language Models (LLMs) in programming education, focusing on their potential to provide tailored feedback and hints for novice learners. The first paper introduces the PPE-LLM framework, which emphasizes a structured approach to prompt engineering for generating pedagogically meaningful feedback. The second and third papers discuss the PythonTutor system, which utilizes LLMs to offer scaffolded hints and personalized tutoring, demonstrating significant learning gains compared to traditional methods.",
+      "limitations": "The cluster highlights a lack of comprehensive empirical studies validating the frameworks and systems in diverse educational settings. Additionally, the second paper lacks an abstract, limiting insights into its contributions. There is also a need for expert validation and real-world evaluations to ensure the effectiveness of the proposed frameworks and systems.",
+      "gap_relevance": "This cluster identifies a research gap in the systematic application of pedagogical principles in LLM-based feedback mechanisms. By presenting structured frameworks and practical implementations, it supports the identification of effective strategies for enhancing programming education through AI, paving the way for further exploration and validation in various educational contexts."
+    },
+    {
+      "theme": "Fermi Problems in Education and Outreach",
+      "paper_indices": [
+        4,
+        5
+      ],
+      "summary": "This cluster explores innovative educational approaches using Fermi problems, particularly through the integration of popular media and outreach initiatives linked to the Fermi Gamma-ray Space Telescope. It highlights the effectiveness of using films to teach physical science concepts and the role of education and public outreach programs in enhancing understanding of high-energy astrophysics among diverse audiences.",
+      "limitations": "The studies may lack longitudinal data on the long-term impact of these educational methods on student performance and engagement. Additionally, there may be challenges in measuring the effectiveness of outreach programs in terms of actual increases in STEM participation and understanding.",
+      "gap_relevance": "This cluster identifies a gap in the application of Fermi problems in diverse educational contexts and suggests further research into effective strategies for integrating these concepts into curricula, as well as the impact of outreach programs on public engagement with science."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "WIP: A Pedagogical Prompt Engineering Framework for LLM-Based Feedback in Higher Education (PPE-LLM)",
+      "problem": "Lack of structured methodology for integrating pedagogical principles into LLM-generated feedback for novice programming students.",
+      "method": "Introduces the PPE-LLM framework for prompt engineering, focusing on systematic design of prompts for formative feedback.",
+      "evidence": "Studies with substantial alignment to PPE-LLM components produced more effective AI-generated feedback.",
+      "limitation": "Future work includes expert validation and student evaluation in real-world settings, indicating current findings are preliminary.",
+      "gap_relevance": "Addresses the need for a structured approach in LLM feedback generation, highlighting the importance of pedagogical alignment."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+      "problem": "Need for effective feedback mechanisms in high school programming education.",
+      "method": "Introduces PythonTutor, an intelligent tutoring system that provides AI-generated hints tailored to student submissions.",
+      "evidence": "Pilot study showed significantly greater learning gains with PythonTutor compared to traditional methods.",
+      "limitation": "Limited sample size in pilot study (18 students), which may affect generalizability of results.",
+      "gap_relevance": "Demonstrates the potential of LLMs in enhancing programming education, suggesting further exploration of scalable solutions."
+    }
+  ],
+  "summary": "The literature on LLM-based feedback generation for programming education highlights the integration of Large Language Models (LLMs) to provide tailored feedback, particularly through frameworks like PPE-LLM and systems such as PythonTutor. These studies indicate significant learning gains compared to traditional methods, yet they face limitations in empirical validation and expert evaluation. There is a notable gap in systematically applying pedagogical principles to LLM feedback mechanisms, suggesting a need for further exploration and real-world assessments.",
+  "scholarly_positioning": "While prior approaches, such as the PPE-LLM framework and PythonTutor system, demonstrate the potential of LLMs to enhance programming education through tailored feedback, they are hindered by a lack of comprehensive empirical validation and expert evaluation across diverse educational contexts. Existing studies primarily focus on isolated implementations without a systematic application of pedagogical principles, leaving unresolved tensions regarding the effectiveness and scalability of these solutions. Furthermore, the limited sample sizes and preliminary nature of findings underscore the insufficiency of current work in establishing robust, generalizable frameworks for LLM-based feedback. This proposed research aims to address these gaps by rigorously validating LLM feedback mechanisms in real-world settings, thereby contributing to a broader discourse on the integration of AI in educational practices.",
+  "domain_router": "{\n  \"domain\": \"other\",\n  \"methodology_template\": \"Empirical validation through controlled studies, including qualitative assessments of user feedback and learning outcomes, alongside expert evaluation in real-world educational settings.\"\n}",
+  "research_scope": "This study will empirically validate the effectiveness of the PPE-LLM framework and the PythonTutor system in enhancing programming education among high school students learning Python. The evaluation period will span one academic semester, during which students will receive LLM-generated feedback on their coding assignments. A control group will utilize traditional feedback methods, allowing for a comparative analysis of learning outcomes. Primary outcomes will include improvements in coding proficiency measured through pre- and post-tests, while secondary outcomes will assess student engagement and satisfaction through qualitative surveys. The study aims to provide robust evidence for the scalability and pedagogical alignment of LLM-based feedback mechanisms in diverse educational settings.",
+  "concept_definition": "{\n  \"LLM\": \"Large Language Model, specifically models like GPT-3 or similar architectures that generate human-like text based on input prompts.\",\n  \"PPE-LLM framework\": \"A pedagogical framework integrating LLMs to provide personalized feedback in programming education, focusing on enhancing learning outcomes.\",\n  \"PythonTutor system\": \"An educational tool that visualizes code execution to help students understand programming concepts and debug their code.\",\n  \"Empirical validation\": \"The process of testing the effectiveness of the PPE-LLM framework and PythonTutor through controlled studies, measuring actual learning outcomes and user feedback.\",\n  \"Pre- and post-tests\": \"Standardized assessments administered before and after the intervention to measure improvements in coding proficiency.\",\n  \"Qualitative surveys\": \"Open-ended questionnaires designed to gather student feedback on engagement and satisfaction with the LLM-generated feedback.\",\n  \"Control group\": \"A group of students receiving traditional feedback methods, used as a benchmark to compare the effectiveness of LLM-generated feedback.\",\n  \"Learning outcomes\": \"The measurable improvements in students' programming skills and knowledge as a result of the educational intervention.\",\n  \"Student engagement\": \"The level of interest and participation of students in the programming course, assessed through qualitative feedback.\",\n  \"Pedagogical alignment\": \"The degree to which LLM-generated feedback is consistent with educational goals and teaching methods, impacting student learning.\",\n  \"Interpretability\": \"The ability to understand how LLMs generate responses, often assessed through methods like attention visualization or explanation generation.\",\n  \"User trust\": \"The confidence users have in the LLM's feedback, influenced by perceived transparency and reliability of the feedback provided.\"\n}",
+  "technical_feasibility": "The study requires access to open-source LLMs for interpretability analysis and hidden state extraction, as well as human participants for qualitative surveys and user trust assessments, necessitating ethics approval. It also requires GPU resources for model deployment and testing. Additionally, labeled datasets for training and evaluation may be needed, along with annotation protocols for qualitative feedback analysis. A feasible adjustment would be to utilize an existing API model for initial evaluations while focusing on output-level explanations, thereby reducing the need for hidden-state access.",
+  "gap": "Prior studies have demonstrated the potential of LLMs to enhance programming education through tailored feedback in contexts such as high school settings; however, they treat the empirical validation of these frameworks as secondary, leaving unclear whether the pedagogical alignment of LLM-generated feedback affects learning outcomes and student engagement; this matters practically because effective feedback mechanisms are crucial for improving student performance in programming; therefore, this study investigates the effectiveness of the PPE-LLM framework and PythonTutor system in real-world educational settings over an academic semester.",
+  "question": "How does the implementation of the PPE-LLM framework and PythonTutor system, compared to traditional feedback methods, affect coding proficiency and student engagement among high school students learning Python over one academic semester?",
+  "theoretical_mechanism": "The independent variable is the type of feedback method (LLM-based vs. traditional). The mediator is the pedagogical alignment of the feedback provided, which influences the learning outcomes. The moderator is the level of student engagement, which may affect how feedback is received and utilized. The dependent variables are coding proficiency and student engagement. The theoretical framework is grounded in constructivist learning theories, suggesting that personalized feedback enhances learning through active engagement. The causal chain posits that LLM-generated feedback, when pedagogically aligned, improves coding proficiency by fostering deeper understanding, while higher engagement levels further amplify this effect. Assumptions requiring empirical validation include the effectiveness of LLM feedback in diverse educational contexts and the impact of engagement on learning outcomes.",
+  "hypothesis": "High school students receiving LLM-generated feedback through the PPE-LLM framework will demonstrate greater improvements in coding proficiency compared to those receiving traditional feedback methods, with the effect being mediated by the pedagogical alignment of the feedback.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name               | Role      | Measurement Instrument                 | Data Source               | Timing                |\n|------------------------------|-----------|---------------------------------------|--------------------------|-----------------------|\n| Type of Feedback Method      | IV        | Feedback method categorization        | Experimental groups       | Throughout semester    |\n| Pedagogical Alignment        | Mediator  | Alignment assessment rubric           | Expert evaluation         | Mid-semester          |\n| Student Engagement           | Moderator | Qualitative surveys                   | Student feedback          | End of semester        |\n| Coding Proficiency           | DV        | Pre- and post-tests                  | Student performance logs   | Start and end of semester |\n\nCausal Pathway: The type of feedback method (LLM-based vs. traditional) influences the pedagogical alignment of the feedback, which in turn affects coding proficiency. Student engagement moderates this relationship by impacting how effectively the feedback is received and utilized.\n\nLikely Confounds: Variability in student prior knowledge, motivation levels, and external support may confound the results. Additionally, differences in instructor engagement and teaching methods across groups could influence outcomes.\n\nClaim Boundaries: The study can claim that LLM-generated feedback enhances coding proficiency through pedagogical alignment, moderated by engagement levels. However, it cannot conclude causation beyond the scope of the study's context, nor can it generalize findings to all educational settings or programming languages without further research.",
+  "methodology": "This study will employ a controlled experimental design involving two groups of high school students learning Python: one receiving LLM-generated feedback through the PPE-LLM framework and the other receiving traditional feedback methods. Participants will be assessed using pre- and post-tests to measure coding proficiency, while qualitative surveys will gauge student engagement and satisfaction. The pedagogical alignment of the feedback will be evaluated mid-semester through expert assessments. Statistical analyses will compare learning outcomes between groups, controlling for potential confounds such as prior knowledge and motivation. The study aims to ensure reproducibility by following a structured protocol for feedback delivery and assessment, while the scope will be limited to one academic semester to maintain focus and feasibility.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces a nuanced understanding of the pedagogical alignment of LLM-generated feedback, proposing a theoretical mechanism that links feedback type to learning outcomes through student engagement, thereby extending constructivist learning theories in programming education.\",\n  \"technical_contribution\": \"The research develops and validates the PPE-LLM framework, integrating LLMs with the PythonTutor system to provide personalized, context-aware feedback, which enhances interpretability and user trust through structured feedback delivery protocols.\",\n  \"empirical_contribution\": \"By conducting a controlled study over an academic semester, this research provides robust empirical evidence on the effectiveness of LLM-generated feedback compared to traditional methods, measuring both coding proficiency and student engagement through validated pre- and post-tests and qualitative surveys.\",\n  \"practical_deployment_contribution\": \"The study offers deployment guidelines for integrating LLM-based feedback mechanisms in high school programming curricula, addressing scalability and pedagogical alignment, which can inform educators and institutions looking to implement AI-driven educational tools effectively.\"\n}",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"LLM-generated feedback lacks pedagogical alignment\",\n      \"risk\": \"Feedback may not align with educational goals, leading to ineffective learning.\",\n      \"mitigation_strategy\": \"Conduct mid-semester expert evaluations to assess alignment and adjust feedback mechanisms accordingly.\"\n    },\n    {\n      \"failure_mode\": \"Low student engagement\",\n      \"risk\": \"Students may not interact with the LLM-generated feedback, reducing its effectiveness.\",\n      \"mitigation_strategy\": \"Incorporate engaging elements in feedback delivery and monitor engagement levels through qualitative surveys.\"\n    },\n    {\n      \"failure_mode\": \"Data sparsity in qualitative feedback\",\n      \"risk\": \"Insufficient qualitative data may hinder comprehensive analysis of student experiences.\",\n      \"mitigation_strategy\": \"Encourage detailed feedback through structured prompts in surveys and incentivize participation.\"\n    },\n    {\n      \"failure_mode\": \"Negative interpretation of results\",\n      \"risk\": \"Findings may be misinterpreted as LLM feedback being ineffective.\",\n      \"mitigation_strategy\": \"Clearly communicate the study's limitations and contextual factors in all reporting and discussions.\"\n    },\n    {\n      \"failure_mode\": \"Ethical concerns regarding data collection\",\n      \"risk\": \"Potential violations of student privacy or consent issues.\",\n      \"mitigation_strategy\": \"Obtain ethics approval prior to the study and ensure informed consent is collected from all participants.\"\n    },\n    {\n      \"failure_mode\": \"Variability in prior knowledge and motivation\",\n      \"risk\": \"Confounding factors may skew results, affecting the validity of conclusions.\",\n      \"mitigation_strategy\": \"Control for prior knowledge and motivation through stratified random sampling and statistical adjustments.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong; the literature highlights a lack of empirical studies validating LLM frameworks, directly supporting the identified gap.",
+    "domain_to_method": "Fits well; the empirical validation methodology aligns with the educational domain.",
+    "concept_to_metric": "Well-defined; core concepts like coding proficiency and pedagogical alignment are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Feasible; access to LLMs, data collection methods, and participant engagement strategies are outlined.",
+    "scope_to_gap": "Specific; the study scope focuses on high school programming education, addressing the identified gap in pedagogical integration.",
+    "gap_to_question": "Direct; the gap in empirical validation leads to the research question about the effectiveness of LLM feedback.",
+    "question_to_hypothesis": "Logical; the research question about comparing feedback methods leads to the hypothesis regarding LLM feedback effectiveness.",
+    "hypothesis_to_methodology": "Aligned; the methodology includes controlled studies to test the hypothesis on coding proficiency improvements.",
+    "methodology_to_evaluation": "Clear; the planned evaluation through pre- and post-tests, alongside qualitative surveys, directly answers the research question.",
+    "weak_links": [
+      "Potential variability in student prior knowledge and motivation may not be fully controlled.",
+      "Limited generalizability of findings to other educational contexts or programming languages."
+    ]
+  },
+  "proposal": "This research proposal aims to empirically validate the effectiveness of LLM-based feedback mechanisms, specifically the PPE-LLM framework and the PythonTutor system, in enhancing programming education for high school students learning Python through structured coding assignments over one academic semester. Key concepts such as LLM (Large Language Model), pedagogical alignment, and coding proficiency will be operationally defined to ensure clarity. The motivation for this study stems from the significant learning gains reported in existing literature, yet there remains a critical gap in empirical validation and pedagogical integration of LLM-generated feedback, particularly in diverse educational contexts. The central research question investigates how LLM-generated feedback compares to traditional methods in terms of coding proficiency and student engagement. The theoretical mechanism posits that the type of feedback influences pedagogical alignment (mediator), which in turn affects learning outcomes (dependent variable), moderated by student engagement (moderator). The falsifiable hypothesis states that students receiving LLM-generated feedback will show greater improvements in coding proficiency than those receiving traditional feedback methods, with pedagogical alignment mediating this effect. Constructs will be operationalized using pre- and post-tests for coding proficiency, qualitative surveys for student engagement, and expert evaluations for pedagogical alignment. A controlled experimental design will ensure comparability between groups, with traditional feedback serving as a baseline. The study will employ valid metrics and statistical controls to address potential confounds such as prior knowledge and motivation, ensuring robust empirical evidence. The expected contributions include theoretical advancements in understanding LLM feedback mechanisms, technical validation of the PPE-LLM framework, empirical evidence of its effectiveness, and practical guidelines for educators. Key limitations may include variability in student prior knowledge and engagement levels, which will be addressed through stratified sampling and statistical controls, alongside a comprehensive risk analysis of potential failure modes such as misalignment of feedback and low engagement levels.",
+  "draft_proposal": "This research proposal aims to empirically validate the effectiveness of LLM-based feedback mechanisms, specifically the PPE-LLM framework and the PythonTutor system, in enhancing programming education for high school students learning Python over one academic semester. The study will define key concepts such as LLM (Large Language Model), pedagogical alignment, and coding proficiency, while assuming access to open-source LLMs and ethical approval for participant involvement. Background literature indicates significant learning gains from LLM feedback but highlights a lack of empirical validation and pedagogical integration, creating a gap this study seeks to address. The central research question investigates how LLM-generated feedback compares to traditional methods in terms of coding proficiency and student engagement. The theoretical mechanism posits that the type of feedback influences pedagogical alignment, which in turn affects learning outcomes, moderated by student engagement. The falsifiable hypothesis states that students receiving LLM-generated feedback will show greater improvements in coding proficiency than those receiving traditional feedback, with pedagogical alignment mediating this effect. Construct operationalization will include pre- and post-tests for coding proficiency, qualitative surveys for student engagement, and expert evaluations for pedagogical alignment. A controlled experimental design will ensure comparability between groups, with traditional feedback serving as a baseline. Expected contributions include theoretical advancements in understanding LLM feedback mechanisms, technical validation of the PPE-LLM framework, empirical evidence of its effectiveness, and practical guidelines for educators. Key limitations may include variability in student prior knowledge and engagement levels, which will be addressed through stratified sampling and statistical controls.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap is valid as it highlights the need for empirical validation of LLM-based feedback mechanisms in programming education, which is currently underexplored.",
+      "literature_grounding": "The literature grounding is adequate, referencing existing frameworks like PPE-LLM and systems like PythonTutor, but could benefit from a more extensive review of empirical studies.",
+      "meaningfulness": "The gap is meaningful as it addresses a critical need for effective feedback mechanisms in programming education, which directly impacts student learning outcomes.",
+      "already_solved_risk": "There is a risk that the retrieved work may have partially addressed the gap, particularly in terms of empirical validation, necessitating a clear differentiation of this study's unique contributions."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but lacks a critical comparative analysis that highlights specific unresolved tensions in the literature.",
+      "unresolved_tensions": "Unresolved tensions regarding the effectiveness and scalability of LLM feedback mechanisms are not sufficiently articulated, weakening the scholarly positioning.",
+      "positioning_quality": "Overall positioning is moderate; it needs a deeper critique of existing frameworks to strengthen the argument for the proposed research."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The domain of programming education is appropriate for the proposed research, aligning well with the focus on LLMs.",
+      "methodology_template_fit": "The methodology template aligns with the empirical nature of the research, but could specify qualitative methods more distinctly.",
+      "template_transfer_risk": "There is a low risk of inappropriate template transfer, as the methodology is tailored to the educational context."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is specific, focusing on high school students learning Python, but could further clarify the nature of the programming tasks involved.",
+      "population_or_task_definition": "The population is well-defined, but the task definition could specify the types of coding assignments used in the study.",
+      "intervention_and_comparison_definition": "The intervention and comparison are clearly defined, although more detail on traditional feedback methods would enhance clarity.",
+      "outcome_definition": "Outcome definitions are concrete, focusing on coding proficiency and student engagement, but could benefit from specifying measurement tools."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Technical terms are generally well-defined, but concepts like 'pedagogical alignment' could be operationalized more explicitly.",
+      "implementation_specificity": "Implementation specifics are somewhat vague, particularly regarding how feedback will be delivered and assessed.",
+      "level_of_analysis_clarity": "The level of analysis is clear, focusing on individual student outcomes, but could benefit from a broader contextual analysis."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to open-source LLMs is realistic, but the need for hidden state extraction may complicate implementation.",
+      "data_and_compute_requirements": "Data and compute requirements are feasible, but reliance on GPU resources should be explicitly addressed in terms of availability.",
+      "human_or_multilingual_resources": "Human resources for qualitative surveys are realistic, but multilingual validation is not mentioned, which could limit generalizability.",
+      "feasible_adjustments": "Utilizing existing API models for initial evaluations is a feasible adjustment that could simplify the study."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on the comparative effectiveness of feedback methods.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, but could be narrowed to specific programming concepts for deeper insights.",
+      "variable_clarity": "Variables are generally clear, but the distinction between coding proficiency and engagement could be more explicitly defined."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The theoretical mechanism is articulated but lacks depth in explaining how pedagogical alignment specifically influences learning outcomes.",
+      "theoretical_framing": "The framing is grounded in constructivist theories, but could integrate additional educational theories for a more robust foundation.",
+      "assumption_transparency": "Assumptions are stated but could be more explicitly linked to the empirical validation process."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable and aligns with the research question, but could specify the expected magnitude of improvement.",
+      "mechanism_grounding": "The hypothesis is grounded in the proposed theoretical mechanism, but should clarify how engagement mediates the effect.",
+      "measurable_outcome": "Measurable outcomes are defined, but the metrics for engagement could be more specific."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization is generally clear, but some constructs lack specific measurement instruments.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but could benefit from more detailed descriptions of assessment tools.",
+      "causal_identification": "Causal identification is outlined, but the pathway could be more explicitly detailed to enhance clarity.",
+      "confound_awareness": "Confound awareness is present, but strategies for controlling confounds could be elaborated.",
+      "claim_boundaries": "Claim boundaries are defined, but should emphasize the limitations of generalizability more clearly."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline validity is appropriate, but should clarify the nature of traditional feedback methods used.",
+      "metric_validity": "Metric validity is implied but should be explicitly stated for each measurement tool.",
+      "statistical_or_evaluation_validity": "Statistical validity is not sufficiently addressed; details on the statistical methods to be used are needed.",
+      "reproducibility": "Reproducibility is a concern; a detailed protocol for implementation should be included.",
+      "confound_control": "Confound control strategies are mentioned but lack specificity on implementation.",
+      "risk_analysis": "Risk analysis is present but could benefit from a more systematic approach to identifying potential pitfalls."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is significant but could be more explicitly articulated in terms of its implications for existing theories.",
+      "methodological_novelty": "Methodological contributions are present but should emphasize innovative aspects of the research design.",
+      "practical_novelty": "Practical contributions are clear, but deployment guidelines could be more detailed.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal should emphasize unique aspects of the research."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the analysis could be more comprehensive in addressing potential risks.",
+      "limitation_depth": "Limitation depth is adequate but should include more specific examples of potential challenges.",
+      "risk_mitigation": "Mitigation strategies are mentioned but could be more detailed in terms of implementation."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contribution clarity is moderate; the proposal should more explicitly state how it advances the field.",
+      "novelty_type": "methodological",
+      "coherence": "Coherence is generally good, but sections could be better integrated to enhance flow.",
+      "limitation_awareness": "Limitation awareness is present but should be more explicitly stated in the context of the proposed research.",
+      "academic_communication": "Academic communication is clear, but could benefit from a more formal tone in certain sections."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads logically to the research question, establishing a clear rationale for the study.",
+      "question_to_hypothesis": "The question leads to a well-defined hypothesis, though more specificity in expected outcomes would strengthen this link.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but the methodology could be more explicitly linked to the hypothesis.",
+      "method_to_evaluation": "The evaluation can answer the question, but clarity on how metrics will be analyzed is needed."
+    },
+    "revision_plan": "Revise the gap stage to clarify how this study uniquely addresses unresolved issues in the literature. Strengthen the scholarly positioning by integrating a critical analysis of existing frameworks. Enhance the methodology section by detailing statistical methods and ensuring all constructs have clear measurement instruments."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 78.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal articulates a clear research problem regarding the integration of LLMs in programming education, but it lacks a detailed operationalization of key concepts like 'pedagogical alignment' and 'student engagement'. Major weaknesses: The definitions of key constructs are somewhat vague and could benefit from more precise operationalization, particularly in how pedagogical alignment is assessed. Next band requirements: To move into the next band, the proposal should provide more detailed operational definitions and a clearer articulation of the research boundaries."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 13.0,
+        "level": "12-13: mostly coherent with minor reasoning gaps",
+        "justification": "The proposal presents a logical flow from problem identification to hypothesis formulation, but some assumptions, particularly regarding the effectiveness of LLM-generated feedback, require stronger empirical backing. Major weaknesses: The causal claims about the impact of pedagogical alignment on learning outcomes are not sufficiently justified with existing literature. Next band requirements: Stronger empirical justification for causal claims and a clearer connection between the hypothesis and the proposed methodology are needed."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal introduces the PPE-LLM framework and aims to validate it, but the novelty is somewhat limited as it builds on existing frameworks without a significant theoretical advancement. Major weaknesses: The proposal does not sufficiently differentiate itself from existing literature on LLMs in education, lacking a clear theoretical contribution. Next band requirements: To achieve a higher score, the proposal should articulate a more distinct theoretical contribution and demonstrate how it advances understanding in the field."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 15.0,
+        "level": "15-17: strong design with manageable limitations",
+        "justification": "The proposal outlines a controlled experimental design with valid metrics and statistical controls, but it could benefit from a more robust discussion of potential confounds. Major weaknesses: While the design is generally sound, the handling of confounding variables could be more thoroughly addressed. Next band requirements: A more comprehensive risk assessment and clearer strategies for controlling confounding variables would enhance the proposal's feasibility."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong literature grounding with good comparative analysis",
+        "justification": "The proposal engages with relevant literature but lacks a deep critical synthesis that situates the work within broader research debates. Major weaknesses: There is insufficient discussion of competing approaches and unresolved tensions in the literature. Next band requirements: A more thorough comparative analysis of methodologies and a clearer identification of gaps in existing research would improve this criterion."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 8.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication but lacks depth in discussing the mechanisms underlying the proposed relationships. Major weaknesses: The discussion of limitations and potential failure cases is not sufficiently detailed. Next band requirements: A more thorough exploration of theoretical mechanisms and limitations would elevate the academic depth."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-written and organized, but there are areas where clarity could be improved. Major weaknesses: Some terminology is used imprecisely, and the overall structure could be more concise. Next band requirements: Improving precision in terminology and enhancing conciseness would strengthen the presentation."
+      }
+    ],
+    "comments": "Total score: 78.0/100. Academic level: Master's-level. Major strengths: Clear identification of a relevant research problem.; Well-structured experimental design.; Engagement with existing literature. Major weaknesses: Vague operational definitions of key constructs.; Insufficient theoretical contribution.; Limited discussion of confounding variables. Required improvements for true PhD-level quality: Enhance operational definitions and clarity of key concepts.; Strengthen empirical justification for causal claims.; Provide a more distinct theoretical contribution. Final verdict: The proposal demonstrates potential but requires significant refinement to meet PhD-level research maturity."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 4,
+        "title": "WIP: A Pedagogical Prompt Engineering Framework for LLM-Based Feedback in Higher Education (PPE-LLM)",
+        "similarity": 0.7041
+      },
+      {
+        "original_index": 5,
+        "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+        "similarity": 0.6505
+      },
+      {
+        "original_index": 3,
+        "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+        "similarity": 0.6031
+      },
+      {
+        "original_index": 2,
+        "title": "Cinema, Fermi Problems, & General Education",
+        "similarity": 0.2835
+      },
+      {
+        "original_index": 1,
+        "title": "Twelve Years of Education and Public Outreach with the Fermi Gamma-ray Space Telescope",
+        "similarity": 0.2625
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 1,
+          "title": "WIP: A Pedagogical Prompt Engineering Framework for LLM-Based Feedback in Higher Education (PPE-LLM)",
+          "similarity": 0.7715
+        },
+        {
+          "paper_index": 3,
+          "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+          "similarity": 0.6721
+        },
+        {
+          "paper_index": 2,
+          "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+          "similarity": 0.5465
+        }
+      ],
+      "max_similarity": 0.7715,
+      "mean_similarity": 0.5172
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 1,
+          "title": "WIP: A Pedagogical Prompt Engineering Framework for LLM-Based Feedback in Higher Education (PPE-LLM)",
+          "similarity": 0.703
+        },
+        {
+          "paper_index": 3,
+          "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+          "similarity": 0.6072
+        },
+        {
+          "paper_index": 2,
+          "title": "Enhancing High School Programming Education Through LLM-Based Hint Generation",
+          "similarity": 0.4739
+        }
+      ],
+      "max_similarity": 0.703,
+      "mean_similarity": 0.4723
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "LLM-based feedback generation for programming education",
+    "retrieval_snapshot_id": "20260527T043808Z-llm-based-feedback-generation-for-programming-education-5",
+    "latency_ms": 180307,
+    "prompt_tokens": 40523,
+    "completion_tokens": 7010,
+    "total_tokens": 47533,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

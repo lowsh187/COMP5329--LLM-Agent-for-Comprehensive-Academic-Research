@@ -9,6 +9,9 @@ Retrieved papers:
 Summary:
 {summary}
 
+Literature tension graph:
+{literature_tension_graph}
+
 Gap:
 {gap}
 
@@ -30,6 +33,9 @@ Technical feasibility:
 Question:
 {question}
 
+Research problem validity check:
+{research_problem_validity_check}
+
 Theoretical mechanism:
 {theoretical_mechanism}
 
@@ -45,8 +51,23 @@ Methodology:
 Novelty and contribution:
 {novelty_contribution}
 
+Contribution type router:
+{contribution_type_router}
+
 Failure analysis:
 {failure_analysis}
+
+PhD contribution design:
+{phd_contribution_design}
+
+Pre-proposal reviewer attack:
+{pre_proposal_critique}
+
+Bad proposal pattern detector:
+{bad_proposal_pattern_detector}
+
+Evidence-claim alignment:
+{evidence_claim_alignment}
 
 Draft proposal:
 {proposal}
@@ -68,6 +89,10 @@ Diagnose concrete weaknesses in each stage:
 - Failure analysis stage: validity threats, ethical/safety risks, negative-result interpretation, and mitigation.
 - Proposal stage: contribution clarity, type of novelty, coherence, limitation awareness, and academic communication.
 - Cross-stage alignment: whether the gap leads to the question, the question leads to the hypothesis, the hypothesis is testable by the method, and the evaluation can answer the question.
+- PhD contribution design: whether the core contribution is more than AI-for-X, has a mechanism-level scientific claim, is tested against strong baselines or ablations, and explains what negative evidence would mean.
+- Pre-proposal attack response: whether the proposal visibly repairs the most damaging objections raised before drafting.
+- Research judgement: whether the proposal emerges from a real literature tension, passes the validity check, and stays faithful to one primary contribution type.
+- Bad-pattern and evidence repair: whether the proposal avoids generic AI-proposal failure modes and whether core claims are actually supported by retrieved evidence.
 
 Be specific and actionable. If a stage is strong, say why briefly; if it is weak, explain the failure mode and what should be revised.
 

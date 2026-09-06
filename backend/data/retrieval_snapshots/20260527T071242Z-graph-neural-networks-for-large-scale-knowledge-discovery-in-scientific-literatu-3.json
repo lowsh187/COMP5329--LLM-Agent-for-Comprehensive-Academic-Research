@@ -1,0 +1,49 @@
+{
+  "snapshot_id": "20260527T071242Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-3",
+  "topic": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "max_papers": 3,
+  "retrieved_at": "20260527T071242Z",
+  "papers": [
+    {
+      "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+      "authors": [
+        "Rui Xue",
+        "Haoyu Han",
+        "Tong Zhao",
+        "Neil Shah",
+        "Jiliang Tang",
+        "Xiaorui Liu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023-8-6",
+      "url": "https://doi.org/10.1145/3580305.3599565",
+      "source": "Crossref"
+    },
+    {
+      "title": "Combining machine learning, simulations and experiments for improved glass design",
+      "authors": [
+        "N. Krishnan"
+      ],
+      "abstract": "The design of novel glasses with tailored properties remains a grand challenge in materials science, traditionally requiring extensive trial-and-error experimentation. This talk presents a comprehensive framework that integrates machine learning, atomistic simulations, and targeted experiments to accelerate the discovery and optimization of glass compositions. We demonstrate how large-scale machine learning models trained on experimental databases can predict glass properties across nearly the entire periodic table, enabling rapid screening of promising compositions. These predictions are refined through physics-informed graph neural networks that capture atomic-scale interactions and energy conservation principles, providing deeper insights into structure-property relationships. The framework is enhanced by automated knowledge extraction from scientific literature using our materials-specific language model (MatSciBERT) and natural language processing techniques. We showcase practical applications including the development of radiation-resistant nuclear waste glasses, scratch-resistant display glasses, and specialty glasses for space applications. The talk concludes by highlighting how this integrated approach has led to the discovery of novel glass compositions with superior properties, validated through experimental synthesis and characterization. Our results demonstrate that the synergistic combination of artificial intelligence, computational modeling, and experimental validation can significantly accelerate the glass design process while reducing resource requirements and environmental impact.",
+      "published": "2025-08-18",
+      "url": "https://www.semanticscholar.org/paper/5739ffec13cb5c6eee5de597836c43be75d6e4a3",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "authors": [
+        "Sergey Oladyshkin",
+        "Timothy Praditia",
+        "Ilja Kröker",
+        "Farid Mohammadi",
+        "Wolfgang Nowak",
+        "Sebastian Otte"
+      ],
+      "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks.",
+      "published": "2023-06-26",
+      "url": "http://arxiv.org/abs/2306.14753v1",
+      "source": "arXiv"
+    }
+  ]
+}

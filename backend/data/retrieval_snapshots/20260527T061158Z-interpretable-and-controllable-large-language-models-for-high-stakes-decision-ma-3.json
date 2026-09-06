@@ -1,0 +1,44 @@
+{
+  "snapshot_id": "20260527T061158Z-interpretable-and-controllable-large-language-models-for-high-stakes-decision-ma-3",
+  "topic": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "retrieval_query": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "max_papers": 3,
+  "retrieved_at": "20260527T061158Z",
+  "papers": [
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-5",
+      "url": "https://doi.org/10.55248/gengpi.6.0525.1615",
+      "source": "Crossref"
+    },
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "— Large Language Models (LLMs) are revolutionizing healthcare by enhancing clinical documentation, diagnostics, and decision-making. However, their opaque ”black-box” nature poses significant challenges in high-stakes medical contexts, where trust, accountability, and interpretability are paramount. This paper investigates strategies to enhance the interpretability of LLMs in healthcare, drawing on insights from an Explainable AI (XAI) review paper [1]. We explore post-hoc explanation methods (e.g., SHAP, LIME), hybrid human-AI frameworks, and inherently transparent architectures like neurosymbolic models. Key challenges—such as bias, hallucinations, regulatory compliance, and computational complexity—are analyzed. We propose that structured prompting techniques, such as Chain-of-Thought (CoT) augmented with diagnostic reasoning [2], can align LLM outputs with clinical reasoning processes, improving transparency without sacrificing accuracy. By integrating findings from XAI literature, this study evaluates how interpretable LLMs can bridge the trust gap between AI systems and clinicians, ensuring ethical, fair, and practical deployment in real-world healthcare settings. Future research directions focus on balancing predictive performance with explainability and meeting regulatory standards.",
+      "published": "2025-05-01",
+      "url": "https://www.semanticscholar.org/paper/12115434fdfa47869ea6f3c24c5bd82ba99ced65",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+      "authors": [
+        "Sravan Kumar Chittimalla",
+        "Leela Krishna Potluri"
+      ],
+      "abstract": "In high-stakes decision-making, such as healthcare diagnostics, financial forecasting, and legal judgments, trust and transparency are key in AI systems. LLMs have indeed proved to be very capable in processing and generating human-like text, making them invaluable tools in these critical sectors. However, the opacity of their decision-making processes poses a significant challenge for accountability and ethical compliance. This paper introduces comprehensive Explainable AI frameworks tailored for LLMs with the goal of improving their interpretability and reliability for high-stakes environments. Using publicly available real-world datasets, we systematically study the effectiveness of various XAI techniques, including attention visualization, feature importance mapping, and counterfactual explanations. Our findings point to the fact that such embedding serves not only to demystify the decision pathways of LLMs but also to bring their operations in line with regulatory standards and stakeholder expectations. This research makes its contribution to responsible LLM deployment in situations where mistakes have significant consequences by closing the gap between sophisticated AI capabilities and the need for transparent decision-making. The proposed XAI frameworks will, in the end, be a starting point for trust, ethics, and wider acceptance of AI-driven solutions in high-stakes domains.",
+      "published": "2025-03-14",
+      "url": "https://www.semanticscholar.org/paper/274553ea5cea8efab6698af85c99eb73784256ec",
+      "source": "Semantic Scholar"
+    }
+  ]
+}

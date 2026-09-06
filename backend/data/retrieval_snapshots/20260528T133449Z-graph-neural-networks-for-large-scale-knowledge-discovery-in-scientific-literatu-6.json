@@ -1,0 +1,84 @@
+{
+  "snapshot_id": "20260528T133449Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-6",
+  "topic": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "max_papers": 6,
+  "retrieved_at": "20260528T133449Z",
+  "papers": [
+    {
+      "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+      "authors": [
+        "Rui Xue",
+        "Haoyu Han",
+        "Tong Zhao",
+        "Neil Shah",
+        "Jiliang Tang",
+        "Xiaorui Liu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023-8-6",
+      "url": "https://doi.org/10.1145/3580305.3599565",
+      "source": "Crossref"
+    },
+    {
+      "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+      "authors": [
+        "Dimitar Peshevski",
+        "Riste Stojanov",
+        "Dimitar Trajanov"
+      ],
+      "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages using dedicated agents: ontology creation and expansion, ontology refinement, and knowledge graph population. This agent-based approach ensures semantic coherence, scalability, and high-quality output without relying on predefined schemas or handcrafted extraction rules. We evaluate the system on a real-world dataset of air conditioner product descriptions, demonstrating strong performance in both ontology generation and KG population. The framework achieves over 97\\% property coverage and minimal redundancy, validating its effectiveness and practical applicability. Our work highlights the potential of LLMs to automate structured knowledge extraction in retail, providing a scalable path toward intelligent product data integration and utilization.",
+      "published": "2025-11-14",
+      "url": "http://arxiv.org/abs/2511.11017v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Dynamic Graph Neural Networks",
+      "authors": [
+        "Yugang Ji"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-16174-2_5",
+      "source": "Crossref"
+    },
+    {
+      "title": "Hyperbolic Graph Neural Networks",
+      "authors": [
+        "Yiding Zhang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-16174-2_6",
+      "source": "Crossref"
+    },
+    {
+      "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+      "authors": [
+        "Jader Abreu",
+        "Luis Fred",
+        "David Macêdo",
+        "Cleber Zanchettin"
+      ],
+      "abstract": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in the architecture efficiently and not take into account the contexting importance of words and sentences. In this paper, we propose a new approach based on a combination of convolutional neural networks, gated recurrent units, and attention mechanisms for document classification tasks. The main contribution of this work is the use of convolution layers to extract more meaningful, generalizable and abstract features by the hierarchical representation. The proposed method in this paper improves the results of the current attention-based approaches for document classification.",
+      "published": "2019-01-20",
+      "url": "http://arxiv.org/abs/1901.06610v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "authors": [
+        "Sergey Oladyshkin",
+        "Timothy Praditia",
+        "Ilja Kröker",
+        "Farid Mohammadi",
+        "Wolfgang Nowak",
+        "Sebastian Otte"
+      ],
+      "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks.",
+      "published": "2023-06-26",
+      "url": "http://arxiv.org/abs/2306.14753v1",
+      "source": "arXiv"
+    }
+  ]
+}

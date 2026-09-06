@@ -1,0 +1,106 @@
+Task: Perform a final target-85 revision of the academic research proposal.
+
+Topic:
+{topic}
+
+Retrieved papers and agent profile guidance:
+{papers_context}
+
+Summary:
+{summary}
+
+Literature tension graph:
+{literature_tension_graph}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Gap:
+{gap}
+
+Question:
+{question}
+
+Research problem validity check:
+{research_problem_validity_check}
+
+Research problem blueprint:
+{research_problem_blueprint}
+
+Blueprint compliance check:
+{blueprint_compliance_check}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Operationalization and causal check:
+{operationalization_causal_check}
+
+Methodology:
+{methodology}
+
+Novelty and contribution:
+{novelty_contribution}
+
+Contribution type router:
+{contribution_type_router}
+
+Failure analysis:
+{failure_analysis}
+
+PhD contribution design:
+{phd_contribution_design}
+
+Pre-proposal reviewer attack:
+{pre_proposal_critique}
+
+Bad proposal pattern detector:
+{bad_proposal_pattern_detector}
+
+Evidence-claim alignment:
+{evidence_claim_alignment}
+
+Current revised proposal:
+{proposal}
+
+Strict rubric diagnosis before final revision:
+{target_diagnosis}
+
+Final revision goal:
+Revise the proposal so it is more likely to score 85 or above under a strict PhD-level rubric. Do not merely polish wording. Use the rubric diagnosis above as the primary repair plan. Prioritize the lowest-scoring dimensions first, then preserve already strong dimensions.
+
+Target-85 requirements:
+- Make the concrete novelty explicit: what is new, why prior work is insufficient, and what scientific understanding changes if the project succeeds.
+- Tie the gap to retrieved literature through unresolved limitations, tensions, missing comparisons, or weak evaluation practice.
+- Strengthen the theoretical or mechanistic explanation for why the proposed intervention, model, framework, or system should work.
+- Make the methodology reviewer-proof: baselines or controls, data or participants, variables, metrics, ablations, validation, reproducibility, risk checks, and failure cases.
+- Operationalize abstract constructs before using them as outcomes or causal claims.
+- Strengthen the PhD contribution design if the diagnosis says the proposal is still generic, derivative, or implementation-heavy.
+- Verify that the final paragraph directly answers the strongest pre-proposal reviewer objections.
+- Make the final revision feel scientifically inevitable from the literature tension, validity check, and selected contribution type.
+- Preserve the blueprint's single_sentence_thesis, strongest_baseline, negative_result_meaning, and score_limiting_risk repair.
+- If the blueprint compliance check names a missing element, repair that element directly.
+- Eliminate detected bad proposal patterns and weaken, narrow, or support claims that failed evidence alignment.
+- Keep the scope feasible for a PhD project and avoid broad AI-for-X framing.
+- Preserve one coherent proposal paragraph with dense research content.
+- Make the revision visibly address the diagnosis rather than adding generic detail.
+
+Return JSON with exactly this key:
+{{
+  "revised_proposal": "The final target-85 proposal paragraph."
+}}

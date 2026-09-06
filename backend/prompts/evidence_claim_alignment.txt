@@ -1,0 +1,46 @@
+Task: Check whether the proposal's core claims are supported by retrieved evidence.
+
+Topic:
+{topic}
+
+Retrieved papers and agent profile guidance:
+{papers_context}
+
+Evidence grounding:
+Gap supporting paper ids: {supporting_paper_ids}
+Gap evidence reasoning: {evidence_reasoning}
+Methodology supporting paper ids: {methodology_supporting_paper_ids}
+Baseline reasoning: {baseline_reasoning}
+
+Literature tension graph:
+{literature_tension_graph}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Research problem validity check:
+{research_problem_validity_check}
+
+Contribution type router:
+{contribution_type_router}
+
+PhD contribution design:
+{phd_contribution_design}
+
+Proposal draft:
+{proposal}
+
+Alignment requirements:
+- Extract the proposal's most important claims: literature gap, mechanism, novelty, method feasibility, baseline/comparison, expected contribution.
+- For each claim, judge whether retrieved evidence supports it strongly, weakly, or not at all.
+- Flag claims that sound scholarly but are not grounded in retrieved papers.
+- Identify where the proposal should hedge, narrow, cite evidence, or change the claim.
+- Do not invent citations or paper ids.
+
+Return JSON with exactly this key:
+{{
+  "evidence_claim_alignment": "A concise evidence-claim alignment report in 5-8 sentences. Name unsupported or weakly supported claims and state exact repairs for revision."
+}}

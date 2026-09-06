@@ -1,0 +1,136 @@
+{
+  "experiment_id": "20260528T113253Z",
+  "run_index": 4,
+  "topic": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "retrieval_snapshot_id": "20260528T113825Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-2",
+  "papers": [
+    {
+      "title": "Combining machine learning, simulations and experiments for improved glass design",
+      "authors": [
+        "N. Krishnan"
+      ],
+      "abstract": "The design of novel glasses with tailored properties remains a grand challenge in materials science, traditionally requiring extensive trial-and-error experimentation. This talk presents a comprehensive framework that integrates machine learning, atomistic simulations, and targeted experiments to accelerate the discovery and optimization of glass compositions. We demonstrate how large-scale machine learning models trained on experimental databases can predict glass properties across nearly the entire periodic table, enabling rapid screening of promising compositions. These predictions are refined through physics-informed graph neural networks that capture atomic-scale interactions and energy conservation principles, providing deeper insights into structure-property relationships. The framework is enhanced by automated knowledge extraction from scientific literature using our materials-specific language model (MatSciBERT) and natural language processing techniques. We showcase practical applications including the development of radiation-resistant nuclear waste glasses, scratch-resistant display glasses, and specialty glasses for space applications. The talk concludes by highlighting how this integrated approach has led to the discovery of novel glass compositions with superior properties, validated through experimental synthesis and characterization. Our results demonstrate that the synergistic combination of artificial intelligence, computational modeling, and experimental validation can significantly accelerate the glass design process while reducing resource requirements and environmental impact.",
+      "published": "2025-08-18",
+      "url": "https://www.semanticscholar.org/paper/5739ffec13cb5c6eee5de597836c43be75d6e4a3",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "authors": [
+        "Sergey Oladyshkin",
+        "Timothy Praditia",
+        "Ilja Kröker",
+        "Farid Mohammadi",
+        "Wolfgang Nowak",
+        "Sebastian Otte"
+      ],
+      "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks.",
+      "published": "2023-06-26",
+      "url": "http://arxiv.org/abs/2306.14753v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Integration of Machine Learning and Experimental Techniques in Materials Science",
+      "paper_indices": [
+        1,
+        2
+      ],
+      "summary": "This cluster explores the application of machine learning and advanced computational methods to enhance the design and optimization of materials, particularly glasses. It highlights a framework that combines machine learning, simulations, and experiments to predict and refine glass properties, as well as the potential of deep learning approaches informed by chaos theory to improve neural network architectures in various scientific applications.",
+      "limitations": "The integration of machine learning with experimental techniques may still face challenges related to data quality, the complexity of material behavior, and the need for extensive computational resources. Additionally, the theoretical foundations of deep learning approaches in the context of chaos theory require further exploration and validation.",
+      "gap_relevance": "This cluster identifies a research gap in the need for more robust frameworks that effectively combine machine learning with experimental data to accelerate material discovery. It also points to the potential for innovative neural network structures that could enhance predictive capabilities in various scientific domains."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Combining machine learning, simulations and experiments for improved glass design",
+      "problem": "Accelerating the discovery and optimization of glass compositions in materials science.",
+      "method": "Integration of machine learning, atomistic simulations, and targeted experiments, utilizing graph neural networks and a materials-specific language model (MatSciBERT).",
+      "evidence": "Demonstrated the ability to predict glass properties across the periodic table and refine predictions using physics-informed graph neural networks.",
+      "limitation": "The framework's reliance on existing experimental databases may limit its applicability to novel materials not represented in the data.",
+      "gap_relevance": "Highlights the need for enhanced methodologies in knowledge extraction and prediction modeling in materials science, suggesting potential for further exploration in graph neural networks for knowledge discovery."
+    },
+    {
+      "paper_id": "P2",
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "problem": "Limitations in conventional deep artificial neural networks (DANNs) regarding neural signal processing and representation.",
+      "method": "Proposes a new perspective on DANNs using polynomial chaos expansion (PCE) to construct multi-variate orthonormal representations.",
+      "evidence": "Identified that conventional DANNs may lead to redundant representations due to their reliance on Gaussian distributions of neural signals.",
+      "limitation": "The proposed method may require extensive validation and comparison against conventional DANNs to establish its effectiveness.",
+      "gap_relevance": "Suggests a novel approach to improve neural network architectures, which could be applied to enhance graph neural networks for knowledge discovery in scientific literature."
+    }
+  ],
+  "summary": "Existing literature related to Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature suggests active interest in applying LLMs to support academic or educational workflows, but reported outcomes depend on task design, evaluation criteria, and quality of retrieved evidence.",
+  "literature_tension_graph": "Fallback tension graph: the literature often treats staged reasoning, retrieval grounding, and proposal quality as separately useful, but it remains unresolved whether staged reasoning improves research-depth judgments rather than only making outputs more complete or fluent.",
+  "scholarly_positioning": "Prior work often demonstrates task-specific LLM assistance, but less often compares how staged research reasoning changes proposal quality under controlled evaluation.",
+  "domain_router": "Fallback routing classifies the project as an LLM-agent evaluation and academic workflow prototype, so the appropriate method is a controlled comparison between generation conditions rather than a clinical intervention design.",
+  "research_scope": "The fallback scope is a controlled evaluation of an academic research agent for one user-provided topic, comparing a raw single-prompt baseline with structured multi-stage generation using the same retrieved-paper set and the same PhD-level rubric.",
+  "concept_definition": "The core concepts are proposal quality, literature grounding, staged reasoning, and baseline comparison; each should be measured through rubric scores, citation use, completeness, and condition-level outputs.",
+  "technical_feasibility": "The fallback design only requires retrieved metadata, saved run logs, LLM generation, and rubric scoring; it does not require hidden-state access, human-subject trials, or GPU-heavy model training.",
+  "gap": "A key gap is the limited comparison between direct single-prompt generation and a structured, literature-augmented multi-stage workflow.",
+  "question": "How can a literature-augmented multi-stage LLM workflow improve the clarity, feasibility, and literature alignment of research proposals about Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature?",
+  "research_problem_validity_check": "The fallback problem is feasible and testable, but its PhD-level value depends on framing the work as a study of how staged reasoning changes research-depth judgments rather than as another proposal generator.",
+  "theoretical_mechanism": "Separating literature synthesis, gap formation, hypothesis design, and method planning should reduce cognitive overload and make intermediate assumptions easier to inspect.",
+  "hypothesis": "A staged pipeline that separates literature summary, gap identification, question generation, methodology design, and evaluation will produce more coherent proposals than a single prompt.",
+  "operationalization_causal_check": "Proposal quality can be operationalized through rubric scores for clarity, coherence, novelty, feasibility, literature alignment, academic depth, and communication, while causal claims should be limited to observed differences between controlled generation conditions.",
+  "methodology": "Build a lightweight prototype, retrieve a small set of arXiv papers, generate outputs through independent prompt templates, and compare the final proposal with a single-prompt baseline using a manual rubric and GPT-assisted self-evaluation.",
+  "novelty_contribution": "The fallback contribution is methodological: it decomposes proposal generation into inspectable research-reasoning stages and compares that workflow against a raw single-prompt baseline.",
+  "contribution_type_router": "Primary contribution type: evaluation framework with a methodological component. The proposal should emphasize how staged reasoning is measured and avoid claiming a broad autonomous research system.",
+  "phd_contribution_design": "The fallback PhD-level contribution design is to test whether explicit intermediate reasoning stages improve proposal quality beyond surface fluency, using controlled comparisons, rubric scores, and failure analysis to separate research-depth gains from formatting gains.",
+  "pre_proposal_critique": "The strongest fallback reviewer objection is that the contribution could remain a workflow engineering demonstration rather than a research contribution; the proposal must therefore define what staged reasoning changes, how this is measured, and what result would falsify the claim.",
+  "failure_analysis": "The workflow may fail when retrieval is weak, when the LLM overstates novelty, or when the evaluator rewards polished writing over genuine research contribution.",
+  "bad_proposal_pattern_detector": "Fallback detector: likely risks include generic gap framing, method-first reasoning, weak baseline definition, and claims that overstate research contribution beyond the available evidence.",
+  "evidence_claim_alignment": "Fallback alignment: core claims require explicit evidence links before they should be treated as strongly supported; unsupported novelty or feasibility claims should be narrowed.",
+  "proposal_logic_graph": null,
+  "proposal": "This project develops an LLM-based Academic Research Agent for Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "draft_proposal": "This project develops an LLM-based Academic Research Agent for Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 5,
+    "literature_alignment": 3,
+    "phd_level_quality": null,
+    "presentation": null,
+    "weighted_total": null,
+    "rubric_scores": [],
+    "comments": "Fallback evaluation indicates a clear and feasible proposal structure. Literature alignment should be reassessed after successful arXiv retrieval and real LLM generation."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 2,
+        "title": "Combining machine learning, simulations and experiments for improved glass design",
+        "similarity": 0.3125
+      },
+      {
+        "original_index": 1,
+        "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+        "similarity": 0.3004
+      }
+    ]
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+    "retrieval_snapshot_id": "20260528T113825Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-2",
+    "latency_ms": 101702,
+    "prompt_tokens": 32765,
+    "completion_tokens": 4111,
+    "total_tokens": 36876,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": "KeyError: 'research_problem_validity_check'"
+  }
+}

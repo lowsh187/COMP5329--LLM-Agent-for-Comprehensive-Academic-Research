@@ -27,6 +27,9 @@ Technical feasibility:
 Research question:
 {question}
 
+Research problem validity check:
+{research_problem_validity_check}
+
 Return JSON with exactly this key:
 {{
   "theoretical_mechanism": "A concise mechanism-level explanation in 4-7 sentences. Explicitly identify the independent variable, mediator, moderator, dependent variable, theoretical framework or conceptual lens, and causal chain. Separate system-level outcomes from user-level outcomes. System-level outcomes such as unsafe response rate, refusal accuracy, jailbreak success, or controllability must be mediated by technical mechanisms such as representation features, safety detection, steering, filters, or monitors. User-level outcomes such as trust, satisfaction, and reliance must be mediated by psychological or behavioural mechanisms such as perceived transparency or calibrated trust. Do not use user trust as a mediator for model-generated unsafe response rate unless user behaviour directly affects the model output. State assumptions that require empirical validation."

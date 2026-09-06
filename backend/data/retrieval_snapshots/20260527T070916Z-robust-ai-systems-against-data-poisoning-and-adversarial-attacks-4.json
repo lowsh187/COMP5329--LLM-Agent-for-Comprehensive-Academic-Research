@@ -1,0 +1,60 @@
+{
+  "snapshot_id": "20260527T070916Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-4",
+  "topic": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "max_papers": 4,
+  "retrieved_at": "20260527T070916Z",
+  "papers": [
+    {
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "authors": [
+        "Xiaocui Dang",
+        "Priyadarsi Nanda",
+        "Heng Xu",
+        "Haiyu Deng",
+        "Chunpeng Ge"
+      ],
+      "abstract": "Deep learning-based recommendation systems are highly vulnerable to data poisoning attacks, where adversaries manipulate user interactions to degrade model integrity. We hypothesize that combining an active robust loss with a passive GAN-based detection will significantly reduce poisoning impact in recommendation systems without sacrificing utility. We propose a robust and adaptive dual-defense framework: the active defense integrates a crafted loss function to mitigate poisoning effects while maintaining model performance. The passive defense employs a Generative Adversarial Network (GAN)-based detection model to identify and filter poisoned data, enhancing detection accuracy and system security. The framework supports classical matrix factorization (MF) model and large language model (LLM)-based pipelines and scales to large datasets. Extensive experiments across multiple real-world datasets at varying poison rates show that our method outperforms representative defenses, consistently reducing attack success without sacrificing recommendation quality. The framework also admits a federated instantiation, where robust training and GAN-based detection run on clients and only privacy-preserving summaries are aggregated. The proposed method significantly improves the robustness and adaptability of recommendation systems under data poisoning attacks.",
+      "published": "2026-04-19",
+      "url": "https://www.semanticscholar.org/paper/d6186eae94ca6b0692cad55298509226885c6271",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "authors": [
+        "Yi Yu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.32657/10356/201674",
+      "source": "Crossref"
+    },
+    {
+      "title": "Towards Imperceptible and Robust Adversarial Example Attacks against Neural Networks",
+      "authors": [
+        "Bo Luo",
+        "Yannan Liu",
+        "Lingxiao Wei",
+        "Qiang Xu"
+      ],
+      "abstract": "Machine learning systems based on deep neural networks, being able to produce state-of-the-art results on various perception tasks, have gained mainstream adoption in many applications. However, they are shown to be vulnerable to adversarial example attack, which generates malicious output by adding slight perturbations to the input. Previous adversarial example crafting methods, however, use simple metrics to evaluate the distances between the original examples and the adversarial ones, which could be easily detected by human eyes. In addition, these attacks are often not robust due to the inevitable noises and deviation in the physical world. In this work, we present a new adversarial example attack crafting method, which takes the human perceptual system into consideration and maximizes the noise tolerance of the crafted adversarial example. Experimental results demonstrate the efficacy of the proposed technique.",
+      "published": "2018-01-15",
+      "url": "http://arxiv.org/abs/1801.04693v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+      "authors": [
+        "Jiutao Yue",
+        "Haofeng Li",
+        "Pengxu Wei",
+        "Guanbin Li",
+        "Liang Lin"
+      ],
+      "abstract": "Recently deep neural networks (DNNs) have achieved significant success in real-world image super-resolution (SR). However, adversarial image samples with quasi-imperceptible noises could threaten deep learning SR models. In this paper, we propose a robust deep learning framework for real-world SR that randomly erases potential adversarial noises in the frequency domain of input images or features. The rationale is that on the SR task clean images or features have a different pattern from the attacked ones in the frequency domain. Observing that existing adversarial attacks usually add high-frequency noises to input images, we introduce a novel random frequency mask module that blocks out high-frequency components possibly containing the harmful perturbations in a stochastic manner. Since the frequency masking may not only destroys the adversarial perturbations but also affects the sharp details in a clean image, we further develop an adversarial sample classifier based on the frequency domain of images to determine if applying the proposed mask module. Based on the above ideas, we devise a novel real-world image SR framework that combines the proposed frequency mask modules and the proposed adversarial classifier with an existing super-resolution backbone network. Experiments show that our proposed method is more insensitive to adversarial attacks and presents more stable SR results than existing models and defenses.",
+      "published": "2022-07-31",
+      "url": "http://arxiv.org/abs/2208.00428v1",
+      "source": "arXiv"
+    }
+  ]
+}

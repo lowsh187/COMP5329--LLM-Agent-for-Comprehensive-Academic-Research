@@ -1,0 +1,44 @@
+Task: Detect AI-generated bad proposal patterns before revision.
+
+Topic:
+{topic}
+
+Retrieved papers and agent profile guidance:
+{papers_context}
+
+Literature tension graph:
+{literature_tension_graph}
+
+Research problem validity check:
+{research_problem_validity_check}
+
+Contribution type router:
+{contribution_type_router}
+
+PhD contribution design:
+{phd_contribution_design}
+
+Pre-proposal reviewer attack:
+{pre_proposal_critique}
+
+Proposal draft:
+{proposal}
+
+Bad pattern checklist:
+- generic gap
+- method-first proposal
+- overclaiming novelty
+- fake or hand-wavy causal mechanism
+- unclear dependent variable
+- too many contributions
+- weak or missing baseline
+- missing ablation/control logic
+- no negative-result interpretation
+- citation decoration without evidence
+- broad AI-for-X framing
+- evaluation metrics that do not test the central claim
+
+Return JSON with exactly this key:
+{{
+  "bad_proposal_pattern_detector": "A strict detector report in 5-8 sentences. Name detected bad proposal patterns, explain why they limit the score, and state the exact repairs required in revision. If no major pattern is detected, say what should be preserved and what minor risks remain."
+}}

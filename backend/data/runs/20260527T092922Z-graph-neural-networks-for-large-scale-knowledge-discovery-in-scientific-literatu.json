@@ -1,0 +1,479 @@
+{
+  "experiment_id": "20260527T091358Z",
+  "run_index": 4,
+  "topic": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "retrieval_snapshot_id": "20260527T092345Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-7",
+  "papers": [
+    {
+      "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+      "authors": [
+        "Rui Xue",
+        "Haoyu Han",
+        "Tong Zhao",
+        "Neil Shah",
+        "Jiliang Tang",
+        "Xiaorui Liu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023-8-6",
+      "url": "https://doi.org/10.1145/3580305.3599565",
+      "source": "Crossref"
+    },
+    {
+      "title": "An Accurate and Efficient Approach to Knowledge Extraction from Scientific Publications Using Structured Ontology Models, Graph Neural Networks, and Large Language Models",
+      "authors": [
+        "T. V. Ivanisenko",
+        "P. Demenkov",
+        "V. Ivanisenko"
+      ],
+      "abstract": "The rapid growth of biomedical literature makes it challenging for researchers to stay current. Integrating knowledge from various sources is crucial for studying complex biological systems. Traditional text-mining methods often have limited accuracy because they don’t capture semantic and contextual nuances. Deep-learning models can be computationally expensive and typically have low interpretability, though efforts in explainable AI aim to mitigate this. Furthermore, transformer-based models have a tendency to produce false or made-up information—a problem known as hallucination—which is especially prevalent in large language models (LLMs). This study proposes a hybrid approach combining text-mining techniques with graph neural networks (GNNs) and fine-tuned large language models (LLMs) to extend biomedical knowledge graphs and interpret predicted edges based on published literature. An LLM is used to validate predictions and provide explanations. Evaluated on a corpus of experimentally confirmed protein interactions, the approach achieved a Matthews correlation coefficient (MCC) of 0.772. Applied to insomnia, the approach identified 25 interactions between 32 human proteins absent in known knowledge bases, including regulatory interactions between MAOA and 5-HT2C, binding between ADAM22 and 14-3-3 proteins, which is implicated in neurological diseases, and a circadian regulatory loop involving RORB and NR1D1. The hybrid GNN-LLM method analyzes biomedical literature efficiency to uncover potential molecular interactions for complex disorders. It can accelerate therapeutic target discovery by focusing expert verification on the most relevant automatically extracted information.",
+      "published": "2024-11-01",
+      "url": "https://www.semanticscholar.org/paper/0572345cd64163f7e2507fec739d5577dd106504",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+      "authors": [
+        "Dimitar Peshevski",
+        "Riste Stojanov",
+        "Dimitar Trajanov"
+      ],
+      "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages using dedicated agents: ontology creation and expansion, ontology refinement, and knowledge graph population. This agent-based approach ensures semantic coherence, scalability, and high-quality output without relying on predefined schemas or handcrafted extraction rules. We evaluate the system on a real-world dataset of air conditioner product descriptions, demonstrating strong performance in both ontology generation and KG population. The framework achieves over 97\\% property coverage and minimal redundancy, validating its effectiveness and practical applicability. Our work highlights the potential of LLMs to automate structured knowledge extraction in retail, providing a scalable path toward intelligent product data integration and utilization.",
+      "published": "2025-11-14",
+      "url": "http://arxiv.org/abs/2511.11017v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hyperbolic Graph Neural Networks",
+      "authors": [
+        "Yiding Zhang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-16174-2_6",
+      "source": "Crossref"
+    },
+    {
+      "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+      "authors": [
+        "Jader Abreu",
+        "Luis Fred",
+        "David Macêdo",
+        "Cleber Zanchettin"
+      ],
+      "abstract": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in the architecture efficiently and not take into account the contexting importance of words and sentences. In this paper, we propose a new approach based on a combination of convolutional neural networks, gated recurrent units, and attention mechanisms for document classification tasks. The main contribution of this work is the use of convolution layers to extract more meaningful, generalizable and abstract features by the hierarchical representation. The proposed method in this paper improves the results of the current attention-based approaches for document classification.",
+      "published": "2019-01-20",
+      "url": "http://arxiv.org/abs/1901.06610v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Combining machine learning, simulations and experiments for improved glass design",
+      "authors": [
+        "N. Krishnan"
+      ],
+      "abstract": "The design of novel glasses with tailored properties remains a grand challenge in materials science, traditionally requiring extensive trial-and-error experimentation. This talk presents a comprehensive framework that integrates machine learning, atomistic simulations, and targeted experiments to accelerate the discovery and optimization of glass compositions. We demonstrate how large-scale machine learning models trained on experimental databases can predict glass properties across nearly the entire periodic table, enabling rapid screening of promising compositions. These predictions are refined through physics-informed graph neural networks that capture atomic-scale interactions and energy conservation principles, providing deeper insights into structure-property relationships. The framework is enhanced by automated knowledge extraction from scientific literature using our materials-specific language model (MatSciBERT) and natural language processing techniques. We showcase practical applications including the development of radiation-resistant nuclear waste glasses, scratch-resistant display glasses, and specialty glasses for space applications. The talk concludes by highlighting how this integrated approach has led to the discovery of novel glass compositions with superior properties, validated through experimental synthesis and characterization. Our results demonstrate that the synergistic combination of artificial intelligence, computational modeling, and experimental validation can significantly accelerate the glass design process while reducing resource requirements and environmental impact.",
+      "published": "2025-08-18",
+      "url": "https://www.semanticscholar.org/paper/5739ffec13cb5c6eee5de597836c43be75d6e4a3",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "authors": [
+        "Sergey Oladyshkin",
+        "Timothy Praditia",
+        "Ilja Kröker",
+        "Farid Mohammadi",
+        "Wolfgang Nowak",
+        "Sebastian Otte"
+      ],
+      "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks.",
+      "published": "2023-06-26",
+      "url": "http://arxiv.org/abs/2306.14753v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Advancements in Graph Neural Networks and Knowledge Extraction Techniques",
+      "paper_indices": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "summary": "This cluster primarily explores the application of Graph Neural Networks (GNNs) and Large Language Models (LLMs) in knowledge extraction and construction of knowledge graphs across various domains, including biomedical literature and e-commerce. The studies highlight hybrid approaches that combine traditional text-mining methods with advanced AI techniques to improve accuracy, interpretability, and efficiency in extracting and organizing knowledge from unstructured data.",
+      "limitations": "Several papers in this cluster indicate limitations such as the computational expense of deep learning models, low interpretability, and issues with hallucination in LLMs. Additionally, the complexity of constructing knowledge graphs remains a challenge, particularly in ensuring semantic coherence and scalability without predefined schemas.",
+      "gap_relevance": "This cluster can support research gap identification by emphasizing the need for improved methodologies that address the limitations of current models, particularly in enhancing the accuracy and interpretability of knowledge extraction processes. It also highlights the potential for further exploration of automated frameworks for knowledge graph construction in various domains."
+    },
+    {
+      "theme": "Integrative Approaches in Glass Design Using Machine Learning",
+      "paper_indices": [
+        6
+      ],
+      "summary": "This cluster focuses on the integration of machine learning, atomistic simulations, and experimental methods to enhance the design and optimization of glass materials. It highlights the use of large-scale machine learning models and physics-informed graph neural networks to predict and refine glass properties, enabling rapid composition screening and practical applications in various fields such as nuclear waste management and aerospace.",
+      "limitations": "The reliance on extensive experimental databases for training machine learning models may limit the applicability of the framework to less-studied glass compositions. Additionally, the complexity of atomic-scale interactions may not be fully captured, and the integration of automated knowledge extraction techniques may face challenges in accuracy and relevance.",
+      "gap_relevance": "This cluster supports research gap identification by demonstrating the potential of combining computational and experimental approaches in materials science, particularly in the underexplored area of tailored glass properties, thus paving the way for future studies in optimizing material design methodologies."
+    },
+    {
+      "theme": "Integration of Chaos Theory in Deep Learning",
+      "paper_indices": [
+        7
+      ],
+      "summary": "This cluster explores the intersection of Deep Artificial Neural Networks (DANN) and data-driven homogeneous chaos theory, proposing that the neural signal processing in DANNs can be analyzed through the lens of polynomial chaos expansion (PCE). The research suggests that the conventional linear response mechanisms in DANNs can be reinterpreted as first-degree multivariate polynomials, potentially enhancing the understanding and performance of deep learning architectures.",
+      "limitations": "The cluster does not address practical implementations of the proposed chaos theory framework in existing DANN architectures, nor does it provide empirical validation of the theoretical insights. Additionally, the complexity of integrating chaos theory into current deep learning practices remains unexplored.",
+      "gap_relevance": "This cluster identifies a research gap in the application of chaos theory to improve DANNs, suggesting that further exploration could lead to novel architectures and methodologies that enhance the capabilities of deep learning models in various applications."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+      "problem": "Exploration of advancements and challenges in large-scale graph neural networks.",
+      "method": "Review of existing literature and theoretical frameworks.",
+      "evidence": "Identifies new frontiers in GNN applications but lacks specific experimental validation.",
+      "limitation": "Absence of empirical data or case studies to support theoretical claims.",
+      "gap_relevance": "Highlights the need for empirical studies to validate theoretical advancements in GNNs."
+    },
+    {
+      "paper_id": "P2",
+      "title": "An Accurate and Efficient Approach to Knowledge Extraction from Scientific Publications Using Structured Ontology Models, Graph Neural Networks, and Large Language Models",
+      "problem": "Challenges in accurately extracting knowledge from biomedical literature.",
+      "method": "Hybrid approach combining GNNs and LLMs for knowledge extraction and validation.",
+      "evidence": "Achieved a Matthews correlation coefficient (MCC) of 0.772 in identifying novel protein interactions.",
+      "limitation": "Focuses primarily on biomedical literature, limiting generalizability to other domains.",
+      "gap_relevance": "Demonstrates the potential of GNNs in knowledge extraction, suggesting exploration in other scientific fields."
+    },
+    {
+      "paper_id": "P3",
+      "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+      "problem": "Challenges in constructing knowledge graphs from unstructured product data.",
+      "method": "AI agent-driven framework utilizing LLMs for ontology creation and KG population.",
+      "evidence": "Achieved over 97% property coverage in knowledge graph construction from product descriptions.",
+      "limitation": "Evaluation limited to a specific dataset of air conditioner products, may not generalize.",
+      "gap_relevance": "Indicates a need for frameworks that apply GNNs in diverse domains beyond e-commerce."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Hyperbolic Graph Neural Networks",
+      "problem": "Exploration of hyperbolic geometry in graph neural networks.",
+      "method": "Theoretical exploration of hyperbolic GNNs without empirical validation.",
+      "evidence": "Proposes new theoretical models but lacks practical applications or case studies.",
+      "limitation": "No empirical results to demonstrate the effectiveness of hyperbolic GNNs.",
+      "gap_relevance": "Suggests a research gap in applying hyperbolic GNNs to real-world knowledge discovery tasks."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+      "problem": "Inefficiencies in document classification methods that do not leverage document structure.",
+      "method": "Combination of CNNs, GRUs, and attention mechanisms for improved classification.",
+      "evidence": "Proposes a new architecture that improves classification results over existing methods.",
+      "limitation": "Focuses on document classification rather than knowledge extraction from scientific literature.",
+      "gap_relevance": "Highlights the potential for integrating hierarchical structures in GNNs for knowledge discovery."
+    },
+    {
+      "paper_id": "P6",
+      "title": "Combining machine learning, simulations and experiments for improved glass design",
+      "problem": "Challenges in the design of novel glasses through traditional experimental methods.",
+      "method": "Integrated framework using ML, simulations, and literature extraction for material discovery.",
+      "evidence": "Demonstrated rapid screening of glass compositions through a hybrid approach.",
+      "limitation": "Focuses on materials science, not directly applicable to literature-based knowledge extraction.",
+      "gap_relevance": "Suggests methodologies that could be adapted for knowledge discovery in scientific literature."
+    },
+    {
+      "paper_id": "P7",
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "problem": "Limitations of conventional DANNs in neural signal processing.",
+      "method": "Proposes a new framework using polynomial chaos theory for DANNs.",
+      "evidence": "Introduces a novel perspective on neural signal processing that could enhance DANN performance.",
+      "limitation": "Theoretical framework lacks empirical validation and application to specific tasks.",
+      "gap_relevance": "Indicates a potential for applying chaos theory concepts to improve GNNs in knowledge extraction."
+    }
+  ],
+  "summary": "The literature on Graph Neural Networks (GNNs) for knowledge discovery emphasizes advancements in hybrid methodologies combining GNNs and Large Language Models (LLMs) for effective knowledge extraction across various domains, notably biomedical literature. However, challenges such as high computational costs, low interpretability, and the complexity of knowledge graph construction remain prevalent. Research gaps are identified in the need for empirical validation of theoretical models and the exploration of GNN applications beyond specific domains, suggesting a potential for innovative frameworks that enhance accuracy and efficiency in knowledge extraction processes.",
+  "scholarly_positioning": "While existing research has made significant strides in utilizing Graph Neural Networks (GNNs) and Large Language Models (LLMs) for knowledge extraction, notable limitations persist, particularly regarding computational efficiency and interpretability. Prior methodologies often focus narrowly on specific domains, such as biomedical literature, which restricts their applicability and generalizability. Furthermore, the lack of empirical validation for theoretical advancements in GNNs underscores a critical gap in the literature. This proposed research aims to address these unresolved tensions by developing a robust framework that not only enhances the accuracy and efficiency of knowledge extraction across diverse scientific domains but also incorporates automated knowledge graph construction methodologies, thereby contributing to a more comprehensive understanding of GNN applications in large-scale knowledge discovery.",
+  "domain_router": "{\n  \"domain\": \"machine-learning method development\",\n  \"methodology_template\": {\n    \"approach\": \"Hybrid methodology combining empirical validation with theoretical exploration\",\n    \"baselines\": [\n      \"Existing GNN models for knowledge extraction\",\n      \"Traditional text-mining methods\"\n    ],\n    \"ablations\": [\n      \"Removing LLM integration\",\n      \"Simplifying GNN architectures\"\n    ],\n    \"controls\": [\n      \"Dataset diversity across scientific domains\",\n      \"Computational resource allocation\"\n    ],\n    \"measurable_variables\": [\n      \"Accuracy of knowledge extraction (e.g., MCC)\",\n      \"Interpretability scores\",\n      \"Computational efficiency metrics\"\n    ],\n    \"data_sources\": [\n      \"Biomedical literature datasets\",\n      \"E-commerce product data\",\n      \"Scientific publications across various fields\"\n    ],\n    \"evaluation_metrics\": [\n      \"Matthews correlation coefficient (MCC)\",\n      \"F1 score\",\n      \"Processing time for knowledge graph construction\"\n    ],\n    \"likely_failure_cases\": [\n      \"Insufficient training data for diverse domains\",\n      \"High computational costs leading to model inefficiency\",\n      \"Low interpretability hindering user trust in knowledge extraction\"\n    ]\n  }\n}",
+  "research_scope": "This study will investigate the application of a hybrid Graph Neural Network (GNN) framework integrated with Large Language Models (LLMs) for knowledge extraction from scientific literature across multiple domains, including biomedical and e-commerce. The evaluation period will span six months, during which the framework's performance will be compared against existing GNN models and traditional text-mining methods. The primary outcome will be the accuracy of knowledge extraction, measured by the Matthews correlation coefficient (MCC), while secondary outcomes will include interpretability scores and computational efficiency metrics. The study will utilize diverse datasets from biomedical literature and e-commerce product descriptions to ensure generalizability. Controls will involve varying computational resource allocations to assess model efficiency under different conditions.",
+  "concept_definition": "{\n  \"Graph_Neural_Networks\": \"A class of neural networks designed to process data structured as graphs, enabling the extraction of relationships and features from node and edge representations.\",\n  \"Knowledge_Extraction\": \"The process of identifying and retrieving structured information from unstructured data sources, such as scientific literature.\",\n  \"Large_Language_Models\": \"Advanced neural network models trained on vast text corpora to understand and generate human-like text, often used for natural language processing tasks.\",\n  \"Hybrid_Methodology\": \"An approach that combines empirical validation of models with theoretical exploration to enhance understanding and application of machine learning techniques.\",\n  \"Matthews_Correlation_Coefficient\": \"A performance metric used to evaluate the accuracy of binary classifications, taking into account true and false positives and negatives.\",\n  \"Interpretability\": \"The degree to which a model's predictions can be understood by humans, often assessed through methods like probing and attention visualization.\",\n  \"Computational_Efficiency\": \"A measure of the resources required by a model to perform its tasks, including time and computational power.\",\n  \"Dataset_Diversity\": \"The inclusion of varied data sources across different domains to ensure that the model can generalize well to new, unseen data.\",\n  \"Probing\": \"An interpretability method that analyzes internal representations of a model to understand how it processes information.\",\n  \"Attention_Visualization\": \"A technique used to visualize which parts of the input data the model focuses on when making predictions, aiding in interpretability.\",\n  \"User_Trust\": \"The level of confidence users have in the model's outputs, which can be influenced by perceived transparency and reliability of the model's explanations.\",\n  \"Safety_Monitor\": \"A mechanism to evaluate and mitigate risks associated with model outputs, ensuring that responses do not lead to harmful consequences.\",\n  \"Unsafe_Response_Rate\": \"The frequency at which a model generates outputs that are deemed unsafe or inappropriate, impacting user trust and safety.\",\n  \"Trust_Calibration\": \"The alignment between a user's confidence in a model's predictions and the actual accuracy of those predictions, crucial for establishing reliability.\"\n}",
+  "technical_feasibility": "The study requires access to open-source models for both GNNs and LLMs to facilitate hidden state extraction and internal representation analysis. It also necessitates labeled datasets for training and evaluation, as well as GPU resources for computational efficiency. If user trust is a focus, a human-subject design will be needed, along with appropriate trust calibration measures. To address potential gaps, consider revising the design to utilize output-level explanations if only API models are available, or ensure access to open-source LLMs for deeper analysis.",
+  "gap": "Prior studies have demonstrated the effectiveness of hybrid methodologies combining Graph Neural Networks (GNNs) and Large Language Models (LLMs) for knowledge extraction in biomedical literature; however, they treat the empirical validation of theoretical advancements as secondary, leaving unclear whether these models can generalize effectively across diverse scientific domains. This matters practically because a lack of empirical evidence may hinder the adoption of these models in broader applications. Therefore, this study investigates the performance of a hybrid GNN framework integrated with LLMs for knowledge extraction across multiple domains, including e-commerce and biomedical literature.",
+  "question": "How does the performance of a hybrid Graph Neural Network framework integrated with Large Language Models for knowledge extraction compare to traditional text-mining methods in terms of accuracy, interpretability, and computational efficiency across diverse scientific domains, including biomedical literature and e-commerce?",
+  "theoretical_mechanism": "The proposed research investigates the causal chain where the independent variable is the hybrid Graph Neural Network (GNN) framework integrated with Large Language Models (LLMs). The mediator in this process is the enhanced representation features derived from the GNN-LLM integration, which facilitate improved knowledge extraction. The dependent variable is the accuracy of knowledge extraction, measured by metrics such as the Matthews correlation coefficient (MCC). System-level outcomes, including computational efficiency and unsafe response rates, are influenced by technical mechanisms like safety detection and filters. User-level outcomes, such as trust and satisfaction, are mediated by psychological mechanisms like perceived transparency and calibrated trust. Assumptions requiring empirical validation include the effectiveness of the hybrid framework across diverse domains and the relationship between model interpretability and user trust.",
+  "hypothesis": "The integration of a hybrid Graph Neural Network framework with Large Language Models (independent variable) will result in significantly higher accuracy of knowledge extraction (primary dependent variable) compared to traditional text-mining methods (baseline), mediated by enhanced representation features, leading to improved interpretability and computational efficiency.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name                        | Role        | Measurement Instrument                | Data Source                          | Timing          |\n|--------------------------------------|-------------|--------------------------------------|--------------------------------------|-----------------|\n| Hybrid GNN-LLM Framework             | IV          | Model performance metrics             | Open-source GNN and LLM models       | During evaluation|\n| Enhanced Representation Features      | Mediator    | Probing accuracy, feature sparsity   | Model outputs                          | During evaluation|\n| Accuracy of Knowledge Extraction      | DV          | Matthews correlation coefficient (MCC)| Labeled datasets from literature      | After model training|\n| Interpretability                      | Mediator    | Interpretability scores               | Model outputs                          | After model training|\n| Computational Efficiency              | Mediator    | Processing time metrics               | Model outputs                          | During evaluation|\n| Unsafe Response Rate                 | Output-level | Response classification metrics       | Model outputs                          | During evaluation|\n| User Trust                           | User-level   | Surveys, trust calibration            | User feedback                          | Post-evaluation |\n\nCausal Pathway:\nThe hybrid GNN-LLM framework (IV) enhances representation features (mediator), which leads to improved accuracy of knowledge extraction (DV), mediated by interpretability and computational efficiency. Unsafe response rate is an output-level variable that influences user trust (user-level).\n\nLikely Confounds:\n- Variability in dataset quality across domains.\n- Differences in computational resources allocated to models.\n\nClaim Boundaries:\n- The study claims that the hybrid framework improves knowledge extraction accuracy compared to traditional methods but does not claim causation beyond the specified metrics.\n- It cannot conclude that the framework is universally superior across all scientific domains without further empirical evidence.\n- User trust is influenced by factors beyond interpretability and may require additional exploration of psychological mechanisms.",
+  "methodology": "This study will employ a hybrid Graph Neural Network (GNN) framework integrated with Large Language Models (LLMs) to extract knowledge from scientific literature across diverse domains, specifically biomedical and e-commerce. The procedure involves training the hybrid model on labeled datasets sourced from both domains, followed by a comparative evaluation against existing GNN models and traditional text-mining methods. Key operationalized variables include the accuracy of knowledge extraction, measured by the Matthews correlation coefficient (MCC), interpretability scores derived from probing methods, and computational efficiency metrics. Evaluation metrics will also include F1 score and processing time for knowledge graph construction. To control for confounding variables, the study will ensure dataset diversity and vary computational resource allocations during model training. The reproducibility of results will be supported by utilizing open-source models and publicly available datasets. The scope is limited to the performance of the hybrid framework in knowledge extraction tasks, without generalizing beyond the tested domains.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces a novel integration mechanism between Graph Neural Networks (GNNs) and Large Language Models (LLMs) that enhances representation learning for knowledge extraction, providing a theoretical framework that elucidates the causal relationships between model architecture and knowledge accuracy across diverse domains.\",\n  \"technical_contribution\": \"The research develops a hybrid GNN-LLM framework that incorporates advanced safety detection mechanisms and interpretability techniques, such as probing and attention visualization, to improve user trust and model transparency, addressing limitations in existing GNN methodologies.\",\n  \"empirical_contribution\": \"By evaluating the hybrid framework against traditional text-mining methods and existing GNN models using diverse datasets from biomedical and e-commerce domains, this study generates empirical evidence on the effectiveness and generalizability of the proposed approach, quantified through metrics like the Matthews correlation coefficient (MCC) and interpretability scores.\",\n  \"practical_deployment_contribution\": \"The findings will inform deployment guidelines for knowledge extraction systems in scientific literature, emphasizing the importance of computational efficiency and user trust calibration, thereby providing actionable insights for practitioners seeking to implement GNN-LLM frameworks in real-world applications.\"\n}",
+  "failure_analysis": "{\n  \"risks\": [\n    {\n      \"failure_mode\": \"Insufficient training data for diverse domains\",\n      \"mitigation_strategy\": \"Utilize data augmentation techniques and transfer learning to enhance model training across domains.\"\n    },\n    {\n      \"failure_mode\": \"High computational costs leading to model inefficiency\",\n      \"mitigation_strategy\": \"Optimize model architecture and implement resource allocation strategies to balance performance and efficiency.\"\n    },\n    {\n      \"failure_mode\": \"Low interpretability hindering user trust in knowledge extraction\",\n      \"mitigation_strategy\": \"Incorporate interpretability methods such as probing and attention visualization to enhance model transparency.\"\n    },\n    {\n      \"failure_mode\": \"Variability in dataset quality across domains\",\n      \"mitigation_strategy\": \"Implement strict data quality assessment protocols and use diverse, high-quality datasets for training.\"\n    },\n    {\n      \"failure_mode\": \"Negative result interpretations due to lack of empirical validation\",\n      \"mitigation_strategy\": \"Conduct thorough comparative analyses and provide comprehensive reporting of results to contextualize findings.\"\n    },\n    {\n      \"failure_mode\": \"Ethical or safety risks associated with model outputs\",\n      \"mitigation_strategy\": \"Establish a safety monitor to evaluate outputs and implement guidelines for responsible AI usage.\"\n    },\n    {\n      \"failure_mode\": \"Low user engagement or trust in model outputs\",\n      \"mitigation_strategy\": \"Engage users through feedback mechanisms and iterative improvements based on user experiences and trust calibration.\"\n    },\n    {\n      \"failure_mode\": \"Data sparsity affecting model training\",\n      \"mitigation_strategy\": \"Leverage synthetic data generation and cross-domain knowledge transfer to enrich training datasets.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong link; evidence notes highlight limitations in existing GNN and LLM methodologies, emphasizing the need for improved accuracy and generalizability.",
+    "domain_to_method": "Fits well; the hybrid methodology is suitable for knowledge extraction in scientific literature.",
+    "concept_to_metric": "Operationally defined; core concepts like accuracy, interpretability, and computational efficiency are measured appropriately.",
+    "feasibility_to_method": "Feasible; access to open-source models and datasets is confirmed, along with necessary computational resources.",
+    "scope_to_gap": "Specific; the study focuses on knowledge extraction across diverse domains, addressing the identified gap.",
+    "gap_to_question": "Direct link; the gap in empirical validation and generalizability informs the research question about hybrid framework performance.",
+    "question_to_hypothesis": "Logical progression; the research question leads to the hypothesis that the hybrid framework will outperform traditional methods.",
+    "hypothesis_to_methodology": "Aligned; the methodology is designed to empirically test the hypothesis through comparative evaluations.",
+    "methodology_to_evaluation": "Directly addresses the research question; evaluation metrics are tailored to assess the effectiveness of the proposed methodology.",
+    "weak_links": [
+      "Potential variability in dataset quality across domains may affect generalizability.",
+      "Insufficient empirical validation of theoretical advancements in GNNs could weaken claims."
+    ]
+  },
+  "proposal": "This research proposal aims to develop a hybrid Graph Neural Network (GNN) framework integrated with Large Language Models (LLMs) for large-scale knowledge discovery in scientific literature, specifically targeting biomedical and e-commerce domains. Key concepts such as GNNs, knowledge extraction, and interpretability are defined operationally to ensure clarity. The motivation stems from significant advancements in GNNs and LLMs, yet existing literature reveals a critical gap in empirical validation and generalizability across diverse scientific fields. This study seeks to address these limitations by investigating the performance of the hybrid GNN-LLM framework against traditional text-mining methods, with the research question positing that the hybrid framework will yield higher accuracy, interpretability, and computational efficiency in knowledge extraction tasks. The theoretical mechanism outlines a causal pathway where enhanced representation features from the GNN-LLM integration serve as mediators for improved accuracy, while system-level outcomes such as computational efficiency and user trust are influenced by technical mechanisms like safety detection. A falsifiable hypothesis asserts that the hybrid framework will significantly outperform traditional methods in knowledge extraction accuracy, as measured by the Matthews correlation coefficient (MCC) and interpretability scores. Methodologically, the study will employ diverse datasets, control for computational resource allocation, and utilize evaluation metrics such as F1 score and processing time for knowledge graph construction. Expected contributions include theoretical advancements in GNN-LLM integration, technical innovations in safety detection and interpretability, empirical evidence on the framework's effectiveness, and practical guidelines for deploying knowledge extraction systems. Key limitations include potential data sparsity, high computational costs, and variability in dataset quality, which will be mitigated through data augmentation and optimization strategies.",
+  "draft_proposal": "This research proposal aims to develop a hybrid Graph Neural Network (GNN) framework integrated with Large Language Models (LLMs) for large-scale knowledge discovery in scientific literature, focusing on biomedical and e-commerce domains. The study will define key concepts such as GNNs, knowledge extraction, and interpretability, while ensuring technical feasibility through access to open-source models and labeled datasets. Building on existing literature, which highlights significant advancements in GNNs and LLMs yet identifies gaps in empirical validation and generalizability, this study seeks to address these issues through a rigorous comparative evaluation of the hybrid framework against traditional text-mining methods. The research question posits that the hybrid GNN-LLM framework will yield higher accuracy, interpretability, and computational efficiency in knowledge extraction tasks. The theoretical mechanism outlines a causal pathway where enhanced representation features from the GNN-LLM integration mediate improved accuracy, with system-level outcomes influencing computational efficiency and user trust. A falsifiable hypothesis asserts that the hybrid framework will significantly outperform traditional methods in knowledge extraction accuracy, as measured by the Matthews correlation coefficient (MCC) and interpretability scores. Methodologically, the study will employ diverse datasets, control for computational resource allocation, and utilize evaluation metrics such as F1 score and processing time for knowledge graph construction. Expected contributions include theoretical advancements in GNN-LLM integration, technical innovations in safety detection and interpretability, empirical evidence on the framework's effectiveness, and practical guidelines for deploying knowledge extraction systems. Key limitations include potential data sparsity, high computational costs, and variability in dataset quality, which will be mitigated through data augmentation and optimization strategies.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap is valid as it addresses the lack of empirical validation for hybrid GNN and LLM approaches in diverse domains.",
+      "literature_grounding": "The gap is grounded in the literature, referencing specific limitations in existing studies; however, it could benefit from more direct citations.",
+      "meaningfulness": "The gap is meaningful as it highlights practical implications for knowledge extraction in various scientific fields.",
+      "already_solved_risk": "There is a risk that some existing studies may have addressed aspects of the gap, particularly in biomedical literature, which could lead to redundancy."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior work but lacks a critical comparative analysis that highlights how the proposed research uniquely addresses unresolved issues.",
+      "unresolved_tensions": "It identifies tensions in computational efficiency and interpretability but does not sufficiently explore how these tensions impact the field.",
+      "positioning_quality": "The positioning is adequate but could be strengthened by explicitly contrasting the proposed approach with specific limitations of existing methodologies."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The methodology aligns well with the domain of machine learning and knowledge extraction.",
+      "methodology_template_fit": "The hybrid approach is appropriate for the research domain, but the proposal could clarify how it diverges from traditional methods.",
+      "template_transfer_risk": "There is a moderate risk of inappropriate template transfer if the hybrid methodology does not adequately address domain-specific challenges."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is generally specific but could be more precise regarding the types of knowledge to be extracted.",
+      "population_or_task_definition": "The definition of the population and tasks is clear, focusing on biomedical literature and e-commerce.",
+      "intervention_and_comparison_definition": "The intervention (hybrid GNN-LLM framework) and comparison (traditional methods) are well-defined.",
+      "outcome_definition": "Outcome definitions are concrete, focusing on accuracy, interpretability, and efficiency metrics."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Key technical terms are defined, but some terms like 'interpretability' could benefit from more precise operational definitions.",
+      "implementation_specificity": "The definitions are somewhat general; more specificity regarding how concepts will be implemented in the study is needed.",
+      "level_of_analysis_clarity": "The level of analysis is clear, focusing on model performance and user trust."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to open-source models is feasible, but the proposal should specify which models will be used.",
+      "data_and_compute_requirements": "The data and computational requirements are realistic but could be elaborated to include specific GPU needs.",
+      "human_or_multilingual_resources": "Human resources for user trust studies are mentioned but need clearer ethical considerations.",
+      "feasible_adjustments": "Adjustments for potential data limitations are mentioned but could be more detailed."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, guiding empirical investigation effectively.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, focusing on significant knowledge extraction challenges.",
+      "variable_clarity": "Variables are defined, but clarity could be improved regarding how they will be measured."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The proposed mechanism outlines a causal pathway but lacks depth in explaining why the integration should yield improved outcomes.",
+      "theoretical_framing": "The theoretical framing is present but could be strengthened by referencing established theories in knowledge extraction.",
+      "assumption_transparency": "Assumptions are stated but need more transparency regarding their empirical validation."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable and aligns with the research question.",
+      "mechanism_grounding": "It is grounded in the proposed theoretical mechanism but could benefit from clearer links to specific metrics.",
+      "measurable_outcome": "Measurable outcomes are identified, but additional clarity on how they will be assessed is needed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization is detailed, but some constructs lack specific measurement instruments.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but additional metrics for user trust could enhance the study.",
+      "causal_identification": "Causal pathways are identified, but confounding variables need clearer strategies for control.",
+      "confound_awareness": "There is awareness of potential confounds, but specific strategies for their management are lacking.",
+      "claim_boundaries": "Claim boundaries are articulated, but could be more explicit regarding the limits of generalizability."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The proposed baselines are valid but should include more detail on their selection criteria.",
+      "metric_validity": "Metrics are appropriate for the study's aims but could benefit from validation against existing benchmarks.",
+      "statistical_or_evaluation_validity": "Evaluation methods are mentioned, but statistical analysis plans need more detail.",
+      "reproducibility": "Reproducibility is considered, but the proposal should outline specific protocols for data sharing.",
+      "confound_control": "Confound control strategies are mentioned but need more specificity.",
+      "risk_analysis": "Risk analysis is present but could be expanded to include more potential failure modes."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is present but could be more explicitly stated in terms of its uniqueness.",
+      "methodological_novelty": "Methodological contributions are implied but should be clearly articulated.",
+      "practical_novelty": "Practical contributions are mentioned but need more specificity regarding their application.",
+      "derivativeness_risk": "There is a risk of derivativeness if the contributions are not clearly distinguished from existing work."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but mitigation strategies need to be more detailed.",
+      "limitation_depth": "Limitations are acknowledged but could be explored in greater depth.",
+      "risk_mitigation": "Mitigation strategies are mentioned but need clearer implementation plans."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contributions are generally clear but could be more explicitly linked to the research question.",
+      "novelty_type": "integration",
+      "coherence": "The proposal is coherent but could benefit from tighter connections between sections.",
+      "limitation_awareness": "Awareness of limitations is present but could be more thorough.",
+      "academic_communication": "The communication is generally effective but could be improved with clearer language in some sections."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads logically to the research question, but the connection could be made more explicit.",
+      "question_to_hypothesis": "The question leads to the hypothesis effectively, maintaining coherence.",
+      "hypothesis_to_method": "The hypothesis is testable by the proposed method, but clarity could be improved.",
+      "method_to_evaluation": "The evaluation is aligned with the method, but specific metrics need clearer justification."
+    },
+    "revision_plan": "Revise the gap stage to ensure clarity on how the proposed research uniquely addresses existing limitations. Strengthen the scholarly positioning by providing a critical comparative analysis of prior work. Enhance the theoretical mechanism by elaborating on the causal relationships and assumptions. Finally, ensure that all constructs are operationally defined with specific measurement instruments."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 77.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal presents a clear research problem regarding the integration of GNNs and LLMs for knowledge extraction. However, while key concepts are defined, the operational definitions could be more precise, particularly regarding the boundaries of knowledge extraction across domains. Major weaknesses: Operational definitions of constructs like 'knowledge extraction' and 'interpretability' lack depth and specificity, which could lead to ambiguity in research outcomes. Next band requirements: To move into the next band, the proposal needs to provide more explicit operational definitions and clarify the boundaries of the research problem, ensuring that it is framed as a genuine research question rather than an application idea."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 13.0,
+        "level": "12-13: mostly coherent with minor reasoning gaps",
+        "justification": "The proposal demonstrates a logical flow from problem identification to hypothesis formulation. However, some assumptions regarding the effectiveness of the hybrid framework need stronger empirical justification. Major weaknesses: The causal claims regarding the hybrid framework's superiority over traditional methods lack sufficient empirical backing and could benefit from a more detailed exploration of the proposed mechanisms. Next band requirements: To achieve a higher score, the proposal must provide more robust empirical evidence supporting the causal claims and clarify the connections between the theoretical framework and the proposed methodology."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 15.0,
+        "level": "15-17: clear novelty with meaningful research differentiation",
+        "justification": "The proposal introduces a hybrid GNN-LLM framework, which is a novel approach to knowledge extraction. It addresses existing gaps in empirical validation and generalizability, showcasing significant potential for theoretical and practical contributions. Major weaknesses: While the novelty is clear, the proposal could further elaborate on how it differentiates from existing methodologies beyond just combining GNNs and LLMs. Next band requirements: To elevate the score, the proposal should articulate a more distinct theoretical framework that delineates how this integration advances the field beyond existing approaches."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology is generally sound, with clear identification of baselines and evaluation metrics. However, the proposal lacks detailed plans for controlling confounding variables and ensuring reproducibility. Major weaknesses: The proposal does not sufficiently address potential confounds or provide a comprehensive plan for data quality assessment across diverse datasets. Next band requirements: To improve, the proposal must include a more robust experimental design that explicitly addresses confounding variables and outlines steps for ensuring reproducibility."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but lacks a deep engagement with competing approaches and does not sufficiently identify unresolved tensions in the existing research. Major weaknesses: There is a tendency towards summarizing existing work rather than critically analyzing it, which weakens the scholarly positioning. Next band requirements: To advance to the next band, the proposal should provide a critical synthesis of the literature, highlighting gaps and unresolved issues more explicitly."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 8.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical depth, particularly in the proposed mechanisms. However, it lacks a thorough discussion of limitations and failure cases. Major weaknesses: The discussion of limitations is minimal, and there is insufficient exploration of potential failure modes and their implications for the research. Next band requirements: To achieve a higher score, the proposal needs to engage more deeply with theoretical implications, limitations, and potential failure cases."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, with an academic tone. However, some sections could be more concise and precise in terminology. Major weaknesses: There are instances of redundancy and some imprecise terminology that could confuse readers. Next band requirements: To improve, the proposal should enhance clarity and conciseness in writing, ensuring that all terminology is used precisely."
+      }
+    ],
+    "comments": "Total score: 77.0/100. Academic level: Master's-level. Major strengths: Clear identification of a novel research problem.; Strong potential for theoretical and practical contributions.; Well-defined methodology with relevant evaluation metrics. Major weaknesses: Insufficient operational definitions of key concepts.; Lack of empirical justification for causal claims.; Limited engagement with existing literature. Required improvements for true PhD-level quality: Provide explicit operational definitions and clarify research boundaries.; Strengthen empirical justification for causal claims.; Engage more critically with the literature to identify unresolved tensions. Final verdict: The proposal demonstrates potential but lacks the depth and rigor expected at the PhD level. It requires significant improvements in theoretical framing, empirical justification, and literature engagement to reach genuine PhD-level research maturity."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 6,
+        "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+        "similarity": 0.6131
+      },
+      {
+        "original_index": 5,
+        "title": "An Accurate and Efficient Approach to Knowledge Extraction from Scientific Publications Using Structured Ontology Models, Graph Neural Networks, and Large Language Models",
+        "similarity": 0.6087
+      },
+      {
+        "original_index": 3,
+        "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+        "similarity": 0.4683
+      },
+      {
+        "original_index": 7,
+        "title": "Hyperbolic Graph Neural Networks",
+        "similarity": 0.4394
+      },
+      {
+        "original_index": 2,
+        "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+        "similarity": 0.4023
+      },
+      {
+        "original_index": 4,
+        "title": "Combining machine learning, simulations and experiments for improved glass design",
+        "similarity": 0.3125
+      },
+      {
+        "original_index": 1,
+        "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+        "similarity": 0.3004
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "An Accurate and Efficient Approach to Knowledge Extraction from Scientific Publications Using Structured Ontology Models, Graph Neural Networks, and Large Language Models",
+          "similarity": 0.7588
+        },
+        {
+          "paper_index": 3,
+          "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+          "similarity": 0.5576
+        },
+        {
+          "paper_index": 1,
+          "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+          "similarity": 0.4826
+        }
+      ],
+      "max_similarity": 0.7588,
+      "mean_similarity": 0.4804
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "An Accurate and Efficient Approach to Knowledge Extraction from Scientific Publications Using Structured Ontology Models, Graph Neural Networks, and Large Language Models",
+          "similarity": 0.774
+        },
+        {
+          "paper_index": 3,
+          "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+          "similarity": 0.5698
+        },
+        {
+          "paper_index": 1,
+          "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+          "similarity": 0.4823
+        }
+      ],
+      "max_similarity": 0.774,
+      "mean_similarity": 0.4871
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+    "retrieval_snapshot_id": "20260527T092345Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-7",
+    "latency_ms": 337978,
+    "prompt_tokens": 57349,
+    "completion_tokens": 8414,
+    "total_tokens": 65763,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

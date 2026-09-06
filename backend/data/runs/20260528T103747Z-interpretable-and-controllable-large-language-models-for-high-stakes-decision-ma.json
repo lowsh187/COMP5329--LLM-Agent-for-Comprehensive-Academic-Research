@@ -1,0 +1,221 @@
+{
+  "experiment_id": "20260528T103531Z",
+  "run_index": 1,
+  "topic": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "retrieval_snapshot_id": "20260528T103533Z-interpretable-and-controllable-large-language-models-for-high-stakes-decision-ma-5",
+  "papers": [
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-5",
+      "url": "https://doi.org/10.55248/gengpi.6.0525.1615",
+      "source": "Crossref"
+    },
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "— Large Language Models (LLMs) are revolutionizing healthcare by enhancing clinical documentation, diagnostics, and decision-making. However, their opaque ”black-box” nature poses significant challenges in high-stakes medical contexts, where trust, accountability, and interpretability are paramount. This paper investigates strategies to enhance the interpretability of LLMs in healthcare, drawing on insights from an Explainable AI (XAI) review paper [1]. We explore post-hoc explanation methods (e.g., SHAP, LIME), hybrid human-AI frameworks, and inherently transparent architectures like neurosymbolic models. Key challenges—such as bias, hallucinations, regulatory compliance, and computational complexity—are analyzed. We propose that structured prompting techniques, such as Chain-of-Thought (CoT) augmented with diagnostic reasoning [2], can align LLM outputs with clinical reasoning processes, improving transparency without sacrificing accuracy. By integrating findings from XAI literature, this study evaluates how interpretable LLMs can bridge the trust gap between AI systems and clinicians, ensuring ethical, fair, and practical deployment in real-world healthcare settings. Future research directions focus on balancing predictive performance with explainability and meeting regulatory standards.",
+      "published": "2025-05-01",
+      "url": "https://www.semanticscholar.org/paper/12115434fdfa47869ea6f3c24c5bd82ba99ced65",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+      "authors": [
+        "Sravan Kumar Chittimalla",
+        "Leela Krishna Potluri"
+      ],
+      "abstract": "In high-stakes decision-making, such as healthcare diagnostics, financial forecasting, and legal judgments, trust and transparency are key in AI systems. LLMs have indeed proved to be very capable in processing and generating human-like text, making them invaluable tools in these critical sectors. However, the opacity of their decision-making processes poses a significant challenge for accountability and ethical compliance. This paper introduces comprehensive Explainable AI frameworks tailored for LLMs with the goal of improving their interpretability and reliability for high-stakes environments. Using publicly available real-world datasets, we systematically study the effectiveness of various XAI techniques, including attention visualization, feature importance mapping, and counterfactual explanations. Our findings point to the fact that such embedding serves not only to demystify the decision pathways of LLMs but also to bring their operations in line with regulatory standards and stakeholder expectations. This research makes its contribution to responsible LLM deployment in situations where mistakes have significant consequences by closing the gap between sophisticated AI capabilities and the need for transparent decision-making. The proposed XAI frameworks will, in the end, be a starting point for trust, ethics, and wider acceptance of AI-driven solutions in high-stakes domains.",
+      "published": "2025-03-14",
+      "url": "https://www.semanticscholar.org/paper/274553ea5cea8efab6698af85c99eb73784256ec",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Does Interpretability of Knowledge Tracing Models Support Teacher Decision Making?",
+      "authors": [
+        "Adia Khalid",
+        "Alina Deriyeva",
+        "Benjamin Paassen"
+      ],
+      "abstract": "Knowledge tracing (KT) models are a crucial basis for pedagogical decision-making, namely which task to select next for a learner and when to stop teaching a particular skill. Given the high stakes of pedagogical decisions, KT models are typically required to be interpretable, in the sense that they should implement an explicit model of human learning and provide explicit estimates of learners' abilities. However, to our knowledge, no study to date has investigated whether the interpretability of KT models actually helps human teachers to make teaching decisions. We address this gap. First, we perform a simulation study to show that, indeed, decisions based on interpretable KT models achieve mastery faster compared to decisions based on a non-interpretable model. Second, we repeat the study but ask $N=12$ human teachers to make the teaching decisions based on the information provided by KT models. As expected, teachers rate interpretable KT models higher in terms of usability and trustworthiness. However, the number of tasks needed until mastery hardly differs between KT models. This suggests that the relationship between model interpretability and teacher decisions is not straightforward: teachers do not solely rely on KT models to make decisions and further research is needed to investigate how learners and teachers actually understand and use KT models.",
+      "published": "2025-11-04",
+      "url": "http://arxiv.org/abs/2511.02718v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Generative Models in Decision Making: A Survey",
+      "authors": [
+        "Xinyu Shao",
+        "Jianping Zhang",
+        "Haozhi Wang",
+        "Leo Maxime Brunswic",
+        "Kaiwen Zhou",
+        "Jiqian Dong",
+        "Kaiyang Guo",
+        "Zhitang Chen",
+        "Jun Wang",
+        "Jianye Hao",
+        "Xiu Li",
+        "Yinchuan Li"
+      ],
+      "abstract": "Generative models have fundamentally reshaped the landscape of decision-making, reframing the problem from pure scalar reward maximization to high-fidelity trajectory generation and distribution matching. This paradigm shift addresses intrinsic limitations in classical Reinforcement Learning (RL), particularly the limited expressivity of standard unimodal policy distributions in capturing complex, multi-modal behaviors embedded in diverse datasets. However, current literature often treats these models as isolated algorithmic improvements, rarely synthesizing them into a single comprehensive framework. This survey proposes a principled taxonomy grounding generative decision-making within the probabilistic framework of Control as Inference. By performing a variational factorization of the trajectory posterior, we conceptualize four distinct functional roles: Controllers for amortized policy inference, Modelers for dynamics priors, Optimizers for iterative trajectory refinement, and Evaluators for trajectory guidance and value assessment. Unlike existing architecture-centric reviews, this function-centric framework allows us to critically analyze representative generative families across distinct dimensions. Furthermore, we examine deployment in high-stakes domains, specifically Embodied AI, Autonomous Driving, and AI for Science, highlighting systemic risks such as dynamics hallucination in world models and proxy exploitation. Finally, we chart the path toward Generalist Physical Intelligence, identifying pivotal challenges in inference efficiency, trustworthiness, and the emergence of Physical Foundation Models.",
+      "published": "2025-02-24",
+      "url": "http://arxiv.org/abs/2502.17100v4",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Interpretability of AI Models in High-Stakes Decision-Making",
+      "paper_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "This cluster of papers primarily investigates the importance of interpretability in large language models (LLMs) and knowledge tracing (KT) models within high-stakes environments such as healthcare and education. The studies emphasize the need for transparent AI systems to enhance trust and accountability, exploring various Explainable AI (XAI) techniques to improve model interpretability and align AI outputs with human reasoning processes. Findings indicate that interpretable models can facilitate better decision-making and adherence to ethical standards.",
+      "limitations": "The cluster highlights challenges such as bias, hallucinations, regulatory compliance, and the computational complexity of implementing interpretable models. Additionally, while some studies show that interpretable models are preferred, they also reveal that the impact on actual decision-making outcomes may not be as significant as expected, indicating a need for further exploration of this relationship.",
+      "gap_relevance": "This cluster supports research gap identification by addressing the need for effective interpretability in AI systems used in critical decision-making contexts. It opens avenues for future research on enhancing the usability of interpretable models and understanding the nuances of how interpretability influences human decision-making processes."
+    },
+    {
+      "theme": "Generative Models in Decision-Making Frameworks",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster primarily explores the integration of generative models into decision-making processes, emphasizing a shift from traditional reward maximization to trajectory generation and distribution matching. It introduces a taxonomy that categorizes generative decision-making into four functional roles: Controllers, Modelers, Optimizers, and Evaluators, thereby providing a comprehensive framework for understanding their applications in probabilistic control.",
+      "limitations": "The literature often treats generative models as isolated improvements rather than synthesizing them into a cohesive framework. Additionally, there is a lack of empirical validation of the proposed functional roles and their effectiveness in real-world scenarios.",
+      "gap_relevance": "This cluster highlights the need for further research on integrating generative models into a unified framework, which can help identify gaps in current methodologies and inspire new approaches to complex decision-making challenges."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "problem": "Enhancing interpretability of LLMs in healthcare to address trust and accountability issues.",
+      "method": "Exploration of post-hoc explanation methods (SHAP, LIME), hybrid human-AI frameworks, and neurosymbolic models.",
+      "evidence": "Structured prompting techniques like Chain-of-Thought can align LLM outputs with clinical reasoning, improving transparency.",
+      "limitation": "Challenges such as bias, hallucinations, and regulatory compliance remain unresolved.",
+      "gap_relevance": "Identifies the need for balancing predictive performance with explainability in high-stakes healthcare."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+      "problem": "Opacity of LLM decision-making processes in high-stakes environments like healthcare.",
+      "method": "Systematic study of XAI techniques including attention visualization and counterfactual explanations using real-world datasets.",
+      "evidence": "XAI frameworks can demystify LLM decision pathways and align operations with regulatory standards.",
+      "limitation": "The study does not address the integration of these frameworks into existing LLMs.",
+      "gap_relevance": "Highlights the need for responsible deployment of LLMs in high-stakes domains, focusing on transparency."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Does Interpretability of Knowledge Tracing Models Support Teacher Decision Making?",
+      "problem": "Investigating the impact of KT model interpretability on pedagogical decision-making.",
+      "method": "Simulation study comparing interpretable and non-interpretable KT models; human teacher evaluations.",
+      "evidence": "Teachers rated interpretable models higher in usability and trust, but mastery rates were similar across model types.",
+      "limitation": "The relationship between model interpretability and decision-making is complex and not fully understood.",
+      "gap_relevance": "Suggests further research is needed on how teachers utilize KT models, relevant for LLM interpretability."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Generative Models in Decision Making: A Survey",
+      "problem": "Limitations of classical RL in capturing complex behaviors for decision-making.",
+      "method": "Proposed a taxonomy of generative decision-making within a probabilistic framework.",
+      "evidence": "Identifies functional roles of generative models that can enhance decision-making processes.",
+      "limitation": "Current literature lacks synthesis of generative models into a comprehensive framework for high-stakes applications.",
+      "gap_relevance": "Points to the need for a unified approach to generative models in high-stakes decision-making contexts."
+    }
+  ],
+  "summary": "Existing literature related to Interpretable and Controllable Large Language Models for High-Stakes Decision-Making suggests active interest in applying LLMs to support academic or educational workflows, but reported outcomes depend on task design, evaluation criteria, and quality of retrieved evidence.",
+  "literature_tension_graph": "Fallback tension graph: the literature often treats staged reasoning, retrieval grounding, and proposal quality as separately useful, but it remains unresolved whether staged reasoning improves research-depth judgments rather than only making outputs more complete or fluent.",
+  "scholarly_positioning": "Prior work often demonstrates task-specific LLM assistance, but less often compares how staged research reasoning changes proposal quality under controlled evaluation.",
+  "domain_router": "Fallback routing classifies the project as an LLM-agent evaluation and academic workflow prototype, so the appropriate method is a controlled comparison between generation conditions rather than a clinical intervention design.",
+  "research_scope": "The fallback scope is a controlled evaluation of an academic research agent for one user-provided topic, comparing a raw single-prompt baseline with structured multi-stage generation using the same retrieved-paper set and the same PhD-level rubric.",
+  "concept_definition": "The core concepts are proposal quality, literature grounding, staged reasoning, and baseline comparison; each should be measured through rubric scores, citation use, completeness, and condition-level outputs.",
+  "technical_feasibility": "The fallback design only requires retrieved metadata, saved run logs, LLM generation, and rubric scoring; it does not require hidden-state access, human-subject trials, or GPU-heavy model training.",
+  "gap": "A key gap is the limited comparison between direct single-prompt generation and a structured, literature-augmented multi-stage workflow.",
+  "question": "How can a literature-augmented multi-stage LLM workflow improve the clarity, feasibility, and literature alignment of research proposals about Interpretable and Controllable Large Language Models for High-Stakes Decision-Making?",
+  "research_problem_validity_check": "The fallback problem is feasible and testable, but its PhD-level value depends on framing the work as a study of how staged reasoning changes research-depth judgments rather than as another proposal generator.",
+  "theoretical_mechanism": "Separating literature synthesis, gap formation, hypothesis design, and method planning should reduce cognitive overload and make intermediate assumptions easier to inspect.",
+  "hypothesis": "A staged pipeline that separates literature summary, gap identification, question generation, methodology design, and evaluation will produce more coherent proposals than a single prompt.",
+  "operationalization_causal_check": "Proposal quality can be operationalized through rubric scores for clarity, coherence, novelty, feasibility, literature alignment, academic depth, and communication, while causal claims should be limited to observed differences between controlled generation conditions.",
+  "methodology": "Build a lightweight prototype, retrieve a small set of arXiv papers, generate outputs through independent prompt templates, and compare the final proposal with a single-prompt baseline using a manual rubric and GPT-assisted self-evaluation.",
+  "novelty_contribution": "The fallback contribution is methodological: it decomposes proposal generation into inspectable research-reasoning stages and compares that workflow against a raw single-prompt baseline.",
+  "contribution_type_router": "Primary contribution type: evaluation framework with a methodological component. The proposal should emphasize how staged reasoning is measured and avoid claiming a broad autonomous research system.",
+  "phd_contribution_design": "The fallback PhD-level contribution design is to test whether explicit intermediate reasoning stages improve proposal quality beyond surface fluency, using controlled comparisons, rubric scores, and failure analysis to separate research-depth gains from formatting gains.",
+  "pre_proposal_critique": "The strongest fallback reviewer objection is that the contribution could remain a workflow engineering demonstration rather than a research contribution; the proposal must therefore define what staged reasoning changes, how this is measured, and what result would falsify the claim.",
+  "failure_analysis": "The workflow may fail when retrieval is weak, when the LLM overstates novelty, or when the evaluator rewards polished writing over genuine research contribution.",
+  "proposal_logic_graph": null,
+  "proposal": "This project develops an LLM-based Academic Research Agent for Interpretable and Controllable Large Language Models for High-Stakes Decision-Making. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "draft_proposal": "This project develops an LLM-based Academic Research Agent for Interpretable and Controllable Large Language Models for High-Stakes Decision-Making. The system retrieves relevant literature, summarizes evidence, identifies research gaps, generates a research question and hypothesis, suggests a feasible methodology, drafts a proposal, and evaluates output quality. The expected contribution is a stable, modular workflow for literature-grounded academic ideation.",
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 5,
+    "literature_alignment": 3,
+    "phd_level_quality": null,
+    "presentation": null,
+    "weighted_total": null,
+    "rubric_scores": [],
+    "comments": "Fallback evaluation indicates a clear and feasible proposal structure. Literature alignment should be reassessed after successful arXiv retrieval and real LLM generation."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+        "similarity": 0.7215
+      },
+      {
+        "original_index": 3,
+        "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+        "similarity": 0.6861
+      },
+      {
+        "original_index": 4,
+        "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+        "similarity": 0.678
+      },
+      {
+        "original_index": 1,
+        "title": "Does Interpretability of Knowledge Tracing Models Support Teacher Decision Making?",
+        "similarity": 0.504
+      },
+      {
+        "original_index": 2,
+        "title": "Generative Models in Decision Making: A Survey",
+        "similarity": 0.4767
+      }
+    ]
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+    "retrieval_snapshot_id": "20260528T103533Z-interpretable-and-controllable-large-language-models-for-high-stakes-decision-ma-5",
+    "latency_ms": 135688,
+    "prompt_tokens": 41653,
+    "completion_tokens": 4853,
+    "total_tokens": 46506,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": "KeyError: 'literature_tension_graph'"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "snapshot_id": "20260527T080723Z-interpretable-and-controllable-large-language-models-for-high-stakes-decision-ma-5",
+  "topic": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "retrieval_query": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "max_papers": 5,
+  "retrieved_at": "20260527T080723Z",
+  "papers": [
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-5",
+      "url": "https://doi.org/10.55248/gengpi.6.0525.1615",
+      "source": "Crossref"
+    },
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "— Large Language Models (LLMs) are revolutionizing healthcare by enhancing clinical documentation, diagnostics, and decision-making. However, their opaque ”black-box” nature poses significant challenges in high-stakes medical contexts, where trust, accountability, and interpretability are paramount. This paper investigates strategies to enhance the interpretability of LLMs in healthcare, drawing on insights from an Explainable AI (XAI) review paper [1]. We explore post-hoc explanation methods (e.g., SHAP, LIME), hybrid human-AI frameworks, and inherently transparent architectures like neurosymbolic models. Key challenges—such as bias, hallucinations, regulatory compliance, and computational complexity—are analyzed. We propose that structured prompting techniques, such as Chain-of-Thought (CoT) augmented with diagnostic reasoning [2], can align LLM outputs with clinical reasoning processes, improving transparency without sacrificing accuracy. By integrating findings from XAI literature, this study evaluates how interpretable LLMs can bridge the trust gap between AI systems and clinicians, ensuring ethical, fair, and practical deployment in real-world healthcare settings. Future research directions focus on balancing predictive performance with explainability and meeting regulatory standards.",
+      "published": "2025-05-01",
+      "url": "https://www.semanticscholar.org/paper/12115434fdfa47869ea6f3c24c5bd82ba99ced65",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+      "authors": [
+        "Sravan Kumar Chittimalla",
+        "Leela Krishna Potluri"
+      ],
+      "abstract": "In high-stakes decision-making, such as healthcare diagnostics, financial forecasting, and legal judgments, trust and transparency are key in AI systems. LLMs have indeed proved to be very capable in processing and generating human-like text, making them invaluable tools in these critical sectors. However, the opacity of their decision-making processes poses a significant challenge for accountability and ethical compliance. This paper introduces comprehensive Explainable AI frameworks tailored for LLMs with the goal of improving their interpretability and reliability for high-stakes environments. Using publicly available real-world datasets, we systematically study the effectiveness of various XAI techniques, including attention visualization, feature importance mapping, and counterfactual explanations. Our findings point to the fact that such embedding serves not only to demystify the decision pathways of LLMs but also to bring their operations in line with regulatory standards and stakeholder expectations. This research makes its contribution to responsible LLM deployment in situations where mistakes have significant consequences by closing the gap between sophisticated AI capabilities and the need for transparent decision-making. The proposed XAI frameworks will, in the end, be a starting point for trust, ethics, and wider acceptance of AI-driven solutions in high-stakes domains.",
+      "published": "2025-03-14",
+      "url": "https://www.semanticscholar.org/paper/274553ea5cea8efab6698af85c99eb73784256ec",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Does Interpretability of Knowledge Tracing Models Support Teacher Decision Making?",
+      "authors": [
+        "Adia Khalid",
+        "Alina Deriyeva",
+        "Benjamin Paassen"
+      ],
+      "abstract": "Knowledge tracing (KT) models are a crucial basis for pedagogical decision-making, namely which task to select next for a learner and when to stop teaching a particular skill. Given the high stakes of pedagogical decisions, KT models are typically required to be interpretable, in the sense that they should implement an explicit model of human learning and provide explicit estimates of learners' abilities. However, to our knowledge, no study to date has investigated whether the interpretability of KT models actually helps human teachers to make teaching decisions. We address this gap. First, we perform a simulation study to show that, indeed, decisions based on interpretable KT models achieve mastery faster compared to decisions based on a non-interpretable model. Second, we repeat the study but ask $N=12$ human teachers to make the teaching decisions based on the information provided by KT models. As expected, teachers rate interpretable KT models higher in terms of usability and trustworthiness. However, the number of tasks needed until mastery hardly differs between KT models. This suggests that the relationship between model interpretability and teacher decisions is not straightforward: teachers do not solely rely on KT models to make decisions and further research is needed to investigate how learners and teachers actually understand and use KT models.",
+      "published": "2025-11-04",
+      "url": "http://arxiv.org/abs/2511.02718v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Generative Models in Decision Making: A Survey",
+      "authors": [
+        "Xinyu Shao",
+        "Jianping Zhang",
+        "Haozhi Wang",
+        "Leo Maxime Brunswic",
+        "Kaiwen Zhou",
+        "Jiqian Dong",
+        "Kaiyang Guo",
+        "Zhitang Chen",
+        "Jun Wang",
+        "Jianye Hao",
+        "Xiu Li",
+        "Yinchuan Li"
+      ],
+      "abstract": "Generative models have fundamentally reshaped the landscape of decision-making, reframing the problem from pure scalar reward maximization to high-fidelity trajectory generation and distribution matching. This paradigm shift addresses intrinsic limitations in classical Reinforcement Learning (RL), particularly the limited expressivity of standard unimodal policy distributions in capturing complex, multi-modal behaviors embedded in diverse datasets. However, current literature often treats these models as isolated algorithmic improvements, rarely synthesizing them into a single comprehensive framework. This survey proposes a principled taxonomy grounding generative decision-making within the probabilistic framework of Control as Inference. By performing a variational factorization of the trajectory posterior, we conceptualize four distinct functional roles: Controllers for amortized policy inference, Modelers for dynamics priors, Optimizers for iterative trajectory refinement, and Evaluators for trajectory guidance and value assessment. Unlike existing architecture-centric reviews, this function-centric framework allows us to critically analyze representative generative families across distinct dimensions. Furthermore, we examine deployment in high-stakes domains, specifically Embodied AI, Autonomous Driving, and AI for Science, highlighting systemic risks such as dynamics hallucination in world models and proxy exploitation. Finally, we chart the path toward Generalist Physical Intelligence, identifying pivotal challenges in inference efficiency, trustworthiness, and the emergence of Physical Foundation Models.",
+      "published": "2025-02-24",
+      "url": "http://arxiv.org/abs/2502.17100v4",
+      "source": "arXiv"
+    }
+  ]
+}

@@ -12,6 +12,9 @@ Literature summary:
 Scholarly positioning:
 {scholarly_positioning}
 
+Literature tension graph:
+{literature_tension_graph}
+
 Domain and methodology routing:
 {domain_router}
 
@@ -20,7 +23,7 @@ Research scope:
 
 Return JSON with exactly these keys:
 {{
-  "gap": "A specific and feasible empirical research gap in 2-4 sentences. Use this structure: prior studies have demonstrated A in context B; however, they treat C as fixed, secondary, or unresolved, leaving unclear whether D affects E; this matters theoretically or practically because F; therefore this study investigates G within the defined scope. The gap must not be a generic future-work statement.",
+  "gap": "A specific and feasible empirical research gap in 2-4 sentences. Use this structure: prior studies have demonstrated A in context B; however, the literature tension graph shows unresolved tension C, leaving unclear whether D affects E under condition F; this matters theoretically or practically because G; therefore this study investigates H within the defined scope. The gap must emerge from a literature tension, not a generic future-work statement.",
   "supporting_paper_ids": ["P1"],
   "evidence_reasoning": "Explain how the listed paper ids support this gap. If evidence is weak, state that the gap is tentative."
 }}

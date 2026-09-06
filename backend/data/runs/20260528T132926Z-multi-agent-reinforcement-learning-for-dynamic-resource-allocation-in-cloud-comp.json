@@ -1,0 +1,470 @@
+{
+  "experiment_id": "20260528T131848Z",
+  "run_index": 2,
+  "topic": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+  "retrieval_snapshot_id": "20260528T132416Z-multi-agent-reinforcement-learning-for-dynamic-resource-allocation-in-cloud-comp-6",
+  "papers": [
+    {
+      "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Md Naoroj Jaman",
+        "Altanshagai Sarangerel",
+        "Tsogtsaikhan Boorchi",
+        "Orgil Erdene-Ochir",
+        "Delgerbayar Usukhjargal",
+        "Vonekham Laovang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-5",
+      "url": "https://doi.org/10.55248/gengpi.6.0525.1787",
+      "source": "Crossref"
+    },
+    {
+      "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+      "authors": [
+        "P. Vijay",
+        "Gunja Sri Vamshi",
+        "H. Siddhant Haridas",
+        "V. Shiva Ram Reddy"
+      ],
+      "abstract": "Cloud computing workloads are projected to grow by 23.1% annually, with over 80% of enterprises adopting multi-cloud strategies, creating a pressing need for optimal virtual machine (VM) resource allocation to ensure cost efficiency and performance. However, existing allocation strategies suffer from static optimization limitations and inefficient adaptation to dynamic workloads, leading to frequent resource underutilization and service delays. To address these issues, this work proposes a novel Multi-Agent Deep Reinforcement Learning-Based Adaptive Harris Hawks Optimization (MADRL-AHHO) algorithm for cloud resource allocation using the VM Resource Allocation dataset (VM-0 to VM-5 classes). Initially, the dataset is preprocessed through normalization and feature selection to reduce dimensionality and noise. Feature extraction is enhanced using a Convolutional Neural Network (CNN) integrated with Firefly Optimization (CNN-FFO), which is benchmarked for learning capacity and solution convergence. However, performance limitations in CNN-FFO under dynamic load conditions are overcome by integrating CNN with Adaptive Harris Hawks Optimization (CNN-AHHO), which dynamically adjusts its exploration and exploitation capabilities based on multi-agent reinforcement feedback. The agents interact with the environment to learn optimal VM allocation policies by maximizing resource utilization and minimizing SLA violations. Experimental results demonstrate that CNN-AHHO outperforms CNN-FFO and traditional machine learning methods in terms of allocation accuracy, convergence rate, and computational efficiency, thereby offering a robust and adaptive solution for cloud infrastructure management.",
+      "published": "2025-07-14",
+      "url": "https://www.semanticscholar.org/paper/f1497925cb53eaeaa737ea60b4c3f6f860baf25d",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Decentralized Reinforcement Learning for Multi-Agent Multi-Resource Allocation via Dynamic Cluster Agreements_supp1-3581126.mp4",
+      "authors": [
+        "Antonio Marino"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.1109/lra.2025.3581126/mm1",
+      "source": "Crossref"
+    },
+    {
+      "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+      "authors": [
+        "Shijing Yuan",
+        "Xiangfei Chen",
+        "Suchuan Xing",
+        "Jie Li",
+        "Hongyang Chen",
+        "Zhi Liu",
+        "Song Guo"
+      ],
+      "abstract": "Cloud-edge-end (CEE) collaboration has demonstrated significant potential in video streaming analysis. However, dynamic wireless environments, lack of incentive mechanisms, and constrained resources (e.g., transmission power, bandwidth, and computing resources) remain the primary bottlenecks for achieving efficient CEE-based video processing. To address these challenges, this paper focuses on a multi-user CEE scenario with dynamic wireless channels and investigates the joint optimization of adaptive incentives, cooperative offloading, and resource allocation. We propose a novel framework, called JROC, to motivate edge devices (EDs) to participate in collaborative computation within CEE, thereby enhancing system utility. Specifically, JROC encompasses a smart contract-based adaptive incentive mechanism and an Adaptive Transformer-based multi-agent reinforcement Learning Algorithm (ATLA). The incentive mechanism leverages blockchain to ensure trustworthy and automated incentive distribution, while ATLA captures long-term dependencies and global state features among agents to guide video tasks in dynamic environments through adaptive compression, cooperative offloading, and resource allocation. Moreover, we discuss key steps for deploying the proposed algorithm in a real CEE prototype, including lightweight actor inference at the terminal side and training at the edge. Experimental results based on a real-world operator dataset show that, compared to existing methods, JROC achieves higher long-term system utility while maintaining favorable scalability, thereby validating its effectiveness in resource-constrained and under-incentivized CEE video streaming scenarios.",
+      "published": "2026",
+      "url": "https://www.semanticscholar.org/paper/39b39d612b65f8c5525fdddd9ab7d84b752e474d",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+      "authors": [
+        "Bibo Zhang",
+        "Ilario Filippini"
+      ],
+      "abstract": "MmWaves have been envisioned as a promising direction to provide Gbps wireless access. However, they are susceptible to high path losses and blockages, which directional antennas can only partially mitigate. That makes mmWave networks coverage-limited, thus requiring dense deployments. Integrated access and backhaul (IAB) architectures have emerged as a cost-effective solution for network densification. Resource allocation in mmWave IAB networks must face big challenges to cope with heavy temporal dynamics, such as intermittent links caused by user mobility and blockages from moving obstacles. This makes it extremely difficult to find optimal and adaptive solutions. In this article, exploiting the distributed structure of the problem, we propose a Multi-Agent Reinforcement Learning (MARL) framework to optimize user throughput via flow routing and link scheduling in mmWave IAB networks characterized by user mobility and link outages generated by moving obstacles. The proposed approach implicitly captures the environment dynamics, coordinates the interference, and manages the buffer levels of IAB relay nodes. We design different MARL components, considering full-duplex and half-duplex IAB-nodes. In addition, we provide a communication and coordination scheme for RL agents in an online training framework, addressing the feasibility issues of practical systems. Numerical results show the effectiveness of the proposed approach.",
+      "published": "2022-05-12",
+      "url": "http://arxiv.org/abs/2205.06011v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+      "authors": [
+        "Xu Chen",
+        "Wenzhong Li",
+        "Sanglu Lu",
+        "Zhi Zhou",
+        "Xiaoming Fu"
+      ],
+      "abstract": "Mobile-edge cloud computing is a new paradigm to provide cloud computing capabilities at the edge of pervasive radio access networks in close proximity to mobile users. Aiming at provisioning flexible on-demand mobile-edge cloud service, in this paper we propose a comprehensive framework consisting of a resource-efficient computation offloading mechanism for users and a joint communication and computation (JCC) resource allocation mechanism for network operator. Specifically, we first study the resource-efficient computation offloading problem for a user, in order to reduce user's resource occupation by determining its optimal communication and computation resource profile with minimum resource occupation and meanwhile satisfying the QoS constraint. We then tackle the critical problem of user admission control for JCC resource allocation, in order to properly select the set of users for resource demand satisfaction. We show the admission control problem is NP-hard, and hence develop an efficient approximation solution of a low complexity by carefully designing the user ranking criteria and rigourously derive its performance guarantee. To prevent the manipulation that some users may untruthfully report their valuations in acquiring mobile-edge cloud service, we further resort to the powerful tool of critical value approach to design truthful pricing scheme for JCC resource allocation. Extensive performance evaluation demonstrates that the proposed schemes can achieve superior performance for on-demand mobile-edge cloud computing.",
+      "published": "2018-06-08",
+      "url": "http://arxiv.org/abs/1806.03124v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Optimizing Resource Allocation in Cloud-Based Systems Using Multi-Agent Reinforcement Learning",
+      "paper_indices": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "summary": "This cluster of papers focuses on enhancing resource allocation strategies in cloud computing environments through multi-agent reinforcement learning (MARL) techniques. The studies propose various algorithms, such as the Multi-Agent Deep Reinforcement Learning-Based Adaptive Harris Hawks Optimization (MADRL-AHHO) and Adaptive Transformer-based multi-agent reinforcement Learning Algorithm (ATLA), to address challenges like dynamic workloads and resource constraints in cloud-edge-end video streaming systems. The research emphasizes the need for adaptive, efficient, and scalable solutions to optimize virtual machine resource allocation and improve overall system performance.",
+      "limitations": "The cluster lacks comprehensive abstracts for some papers, which limits the understanding of their methodologies and findings. Additionally, existing strategies may still face challenges in fully adapting to highly dynamic environments and ensuring optimal performance across diverse workloads. There is also a need for further exploration of incentive mechanisms and their effectiveness in motivating participation in collaborative resource allocation.",
+      "gap_relevance": "This cluster highlights the ongoing challenges in resource allocation within cloud computing and multi-agent systems, identifying gaps in current methodologies that require innovative solutions. It supports research gap identification by emphasizing the need for adaptive algorithms that can efficiently handle dynamic workloads and resource constraints, as well as the integration of incentive mechanisms to enhance collaborative efforts in resource optimization."
+    },
+    {
+      "theme": "Resource Allocation in mmWave IAB Networks Using MARL",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster primarily investigates the challenges of resource allocation in mmWave Integrated Access and Backhaul (IAB) networks, particularly under conditions of user mobility and link outages. It introduces a Multi-Agent Reinforcement Learning (MARL) framework aimed at optimizing user throughput through effective flow routing and link scheduling, addressing the dynamic nature of the environment and interference management.",
+      "limitations": "The proposed MARL approach may face limitations in scalability and computational complexity, especially in highly dynamic environments with numerous users and obstacles. Additionally, the effectiveness of the solution in real-world scenarios and its adaptability to varying network conditions remain to be validated.",
+      "gap_relevance": "This cluster highlights the need for advanced resource allocation strategies in mmWave networks, particularly in the context of mobility and dynamic link conditions, thus identifying a research gap in the application of machine learning techniques to enhance network performance under such challenges."
+    },
+    {
+      "theme": "Resource Allocation in Mobile-Edge Cloud Computing",
+      "paper_indices": [
+        6
+      ],
+      "summary": "This cluster primarily investigates efficient resource allocation mechanisms in mobile-edge cloud computing, focusing on computation offloading and joint communication and computation (JCC) strategies to optimize resource utilization while maintaining quality of service (QoS) for users. It highlights the NP-hard nature of user admission control and proposes an efficient approximation solution to address this challenge.",
+      "limitations": "The proposed solutions may not fully account for dynamic user behavior and varying network conditions, which could affect the robustness of the resource allocation mechanisms. Additionally, the approximation solution's performance guarantees need further empirical validation in real-world scenarios.",
+      "gap_relevance": "This cluster identifies critical challenges in resource allocation for mobile-edge computing, providing insights that can inform future research on adaptive and scalable resource management strategies to bridge existing gaps in the literature."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+      "problem": "Resource allocation in cloud-based deep learning systems.",
+      "method": "Multi-Agent Reinforcement Learning.",
+      "evidence": "Focuses on optimizing resource allocation in cloud environments.",
+      "limitation": "Abstract not available; details on methodology and results are unclear.",
+      "gap_relevance": "Identifies the need for adaptive resource allocation strategies in cloud computing."
+    },
+    {
+      "paper_id": "P2",
+      "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+      "problem": "Static optimization limitations in existing cloud resource allocation strategies.",
+      "method": "MADRL-AHHO algorithm, feature extraction using CNN and Firefly Optimization.",
+      "evidence": "Demonstrates improved resource allocation accuracy and efficiency.",
+      "limitation": "Performance under extreme dynamic load conditions not fully explored.",
+      "gap_relevance": "Highlights the need for adaptive algorithms that can handle dynamic workloads effectively."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Decentralized Reinforcement Learning for Multi-Agent Multi-Resource Allocation via Dynamic Cluster Agreements",
+      "problem": "Multi-resource allocation in decentralized systems.",
+      "method": "Decentralized Reinforcement Learning.",
+      "evidence": "Addresses the need for dynamic cluster agreements in resource allocation.",
+      "limitation": "Abstract not available; specific methodologies and results are unclear.",
+      "gap_relevance": "Suggests potential for decentralized approaches in resource allocation, which is underexplored."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+      "problem": "Resource allocation challenges in cloud-edge-end video streaming.",
+      "method": "Adaptive Transformer-based Multi-Agent Reinforcement Learning Algorithm (ATLA).",
+      "evidence": "Proposes a framework that enhances system utility through adaptive incentives and resource allocation.",
+      "limitation": "Real-world deployment steps discussed, but practical implementation challenges are not detailed.",
+      "gap_relevance": "Indicates the need for scalable solutions in resource allocation across cloud and edge environments."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+      "problem": "Resource allocation in mmWave networks affected by user mobility.",
+      "method": "Multi-Agent Reinforcement Learning framework for flow routing and link scheduling.",
+      "evidence": "Effectively optimizes user throughput in dynamic environments.",
+      "limitation": "Focuses on specific network conditions; broader applicability remains to be tested.",
+      "gap_relevance": "Demonstrates the potential of MARL in addressing mobility challenges in resource allocation."
+    },
+    {
+      "paper_id": "P6",
+      "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+      "problem": "Resource allocation for mobile-edge cloud services.",
+      "method": "Resource-efficient computation offloading and joint communication/computation resource allocation.",
+      "evidence": "Proposes a low-complexity approximation solution for user admission control.",
+      "limitation": "NP-hard problem; approximation may not guarantee optimal solutions.",
+      "gap_relevance": "Highlights the need for efficient resource allocation mechanisms in mobile-edge computing."
+    }
+  ],
+  "summary": "The retrieved literature explores the application of Multi-Agent Reinforcement Learning (MARL) for dynamic resource allocation in cloud computing, emphasizing the need for adaptive algorithms to optimize performance under varying workloads and conditions. Key contributions include the development of novel algorithms like MADRL-AHHO and ATLA, which address challenges in cloud-edge environments and mobile-edge computing. However, gaps remain in the scalability of these approaches and their effectiveness in real-world scenarios, particularly in highly dynamic settings. Future research should focus on integrating incentive mechanisms to enhance collaborative resource allocation efforts.",
+  "literature_tension_graph": "Existing literature on Multi-Agent Reinforcement Learning (MARL) for resource allocation in cloud computing presents conflicting assumptions regarding scalability and adaptability. While studies like P2 and P4 propose advanced algorithms that improve resource allocation accuracy, they do not adequately address performance under extreme dynamic load conditions, suggesting a mechanism conflict. Furthermore, P5 emphasizes user mobility in mmWave networks, yet lacks validation of its applicability to broader cloud environments, indicating a scope conflict. This unresolved condition highlights a need for research that integrates incentive mechanisms into MARL frameworks to enhance collaborative resource allocation, particularly in highly dynamic and diverse workloads.",
+  "scholarly_positioning": "Prior approaches utilizing Multi-Agent Reinforcement Learning (MARL) for resource allocation in cloud computing have made significant strides, particularly with algorithms like MADRL-AHHO and ATLA. However, these methods often struggle with scalability and adaptability in highly dynamic environments, leaving a gap in their practical applicability. Existing literature has not sufficiently addressed the integration of incentive mechanisms that could enhance collaboration among agents, which is crucial for optimizing resource allocation under varying workloads. This proposed research aims to fill these gaps by developing a robust MARL framework that not only adapts to dynamic conditions but also incorporates incentive structures to motivate cooperative behavior, thereby advancing the discourse on efficient resource management in cloud computing.",
+  "domain_router": "other, machine-learning method development",
+  "research_scope": "This study will focus on optimizing dynamic resource allocation in cloud computing environments using a Multi-Agent Reinforcement Learning (MARL) framework. The target domain will be cloud-based systems managing video streaming workloads, where the evaluation period will span six months to assess algorithm performance under varying user demands. The intervention will involve the development of an Adaptive Transformer-based MARL algorithm that integrates incentive mechanisms to enhance agent collaboration. The baseline for comparison will be existing resource allocation strategies, specifically the MADRL-AHHO algorithm. Primary outcomes will include resource allocation efficiency and system throughput, while secondary outcomes will assess the adaptability of the algorithm to dynamic workloads and the effectiveness of incentive structures in promoting cooperative behavior among agents.",
+  "concept_definition": "1. Multi-Agent Reinforcement Learning (MARL): A framework where multiple agents learn to make decisions in an environment to maximize cumulative rewards through interactions and collaboration. 2. Dynamic Resource Allocation: The process of distributing computing resources (e.g., CPU, memory) in real-time based on current demand and workload variations. 3. Cloud Computing: A model that enables on-demand access to a shared pool of configurable computing resources over the internet. 4. Adaptive Transformer-based MARL Algorithm: A machine learning model that utilizes transformer architecture to enhance the learning and decision-making capabilities of agents in a MARL setting, adapting to changing conditions. 5. Incentive Mechanisms: Strategies designed to encourage agents to cooperate and share resources effectively, improving overall system performance. 6. Resource Allocation Efficiency: A measure of how well resources are utilized to meet workload demands, typically assessed by comparing allocated resources to actual usage. 7. System Throughput: The amount of work or data processed by the system in a given time frame, indicating performance levels. 8. Scalability: The ability of the MARL algorithm to maintain performance as the number of agents or workload increases. 9. Adaptability: The capability of the algorithm to adjust its strategies in response to changing workloads and user demands. 10. Cooperative Behavior: Actions taken by agents that are aligned with the collective goal of improving resource management, often enhanced through incentive structures.",
+  "technical_feasibility": "The proposed study is technically feasible as it primarily involves algorithm development and simulation within a cloud computing environment. It does not require open-source model access, hidden state extraction, or labeled datasets, as it focuses on the development of a new MARL algorithm. However, it will require GPU resources for training the Adaptive Transformer-based MARL algorithm. Since the study does not involve human participants or user trust assessments, ethics approval is not necessary. To enhance the study, access to cloud computing infrastructure for real-time resource allocation simulations would be beneficial.",
+  "gap": "Prior studies have demonstrated the effectiveness of Multi-Agent Reinforcement Learning (MARL) algorithms like MADRL-AHHO and ATLA in optimizing resource allocation in cloud computing environments; however, the literature tension graph shows unresolved tension regarding their scalability and adaptability in highly dynamic settings, leaving unclear whether integrating incentive mechanisms affects collaborative resource allocation efficiency under varying workloads; this matters practically because enhancing cooperation among agents could significantly improve resource management in real-world applications; therefore, this study investigates the integration of incentive structures within a MARL framework for dynamic resource allocation in cloud-based video streaming systems.",
+  "question": "How does the integration of incentive mechanisms within an Adaptive Transformer-based Multi-Agent Reinforcement Learning framework affect resource allocation efficiency and system throughput in cloud-based video streaming systems compared to the MADRL-AHHO algorithm under varying user demands?",
+  "research_problem_validity_check": "The proposed research problem is non-trivial as it addresses the integration of incentive mechanisms within a Multi-Agent Reinforcement Learning (MARL) framework, a topic that remains underexplored in the context of dynamic resource allocation in cloud computing. It holds theoretical significance by potentially advancing the understanding of cooperative behavior among agents and its impact on resource management efficiency. The research question is empirically testable through simulations, allowing for measurable outcomes related to resource allocation efficiency and system throughput. This topic is likely to garner committee interest due to its relevance in optimizing cloud-based systems, particularly in the growing area of video streaming. However, the strongest reason for potential rejection could be the perceived narrow focus on incentive mechanisms, which may be viewed as too specific. To enhance the depth and research-worthiness, the problem could be reframed to explore broader implications of MARL in diverse cloud environments, including varying workloads and user behaviors, thereby increasing its applicability and significance.",
+  "theoretical_mechanism": "The proposed research investigates the integration of incentive mechanisms (independent variable) within an Adaptive Transformer-based Multi-Agent Reinforcement Learning (MARL) framework, which serves as the theoretical framework. The mediator in this causal chain is the cooperative behavior among agents, which is expected to enhance resource allocation efficiency (dependent variable) and system throughput (dependent variable). The moderator could be the dynamic workload variations that influence the effectiveness of the incentive mechanisms. The system-level outcomes include resource allocation efficiency and system throughput, while user-level outcomes may involve user satisfaction with the service. The assumptions that require empirical validation include the effectiveness of incentive mechanisms in promoting cooperation and the adaptability of the MARL framework under varying workloads.",
+  "hypothesis": "Integrating incentive mechanisms within an Adaptive Transformer-based Multi-Agent Reinforcement Learning framework will significantly improve resource allocation efficiency compared to the MADRL-AHHO algorithm, with cooperative behavior among agents mediating this effect, particularly under varying user demands.",
+  "operationalization_causal_check": "Construct Operationalization Table: \n1. Construct Name: Incentive Mechanisms \n   Role: IV \n   Measurement Instrument: Algorithm performance metrics \n   Data Source: Simulation logs \n   Timing: During algorithm execution \n\n2. Construct Name: Cooperative Behavior \n   Role: Mediator \n   Measurement Instrument: Agent interaction logs \n   Data Source: Simulation logs \n   Timing: During algorithm execution \n\n3. Construct Name: Resource Allocation Efficiency \n   Role: DV \n   Measurement Instrument: Resource utilization metrics \n   Data Source: Simulation logs \n   Timing: Post-simulation analysis \n\n4. Construct Name: System Throughput \n   Role: DV \n   Measurement Instrument: Data processing rate metrics \n   Data Source: Simulation logs \n   Timing: Post-simulation analysis \n\n5. Construct Name: Dynamic Workload Variations \n   Role: Moderator \n   Measurement Instrument: Workload pattern metrics \n   Data Source: Simulation parameters \n   Timing: During algorithm execution \n\nCausal Pathway: The integration of incentive mechanisms (IV) is expected to enhance cooperative behavior (mediator), which in turn improves resource allocation efficiency and system throughput (DVs). Dynamic workload variations (moderator) may influence the effectiveness of incentive mechanisms. \n\nLikely Confounds: External factors such as network latency, hardware performance, and initial agent configurations could confound results. \n\nClaim Boundaries: The study claims that incentive mechanisms enhance cooperative behavior and resource allocation efficiency in MARL frameworks under dynamic workloads. However, it cannot conclude causation beyond the observed correlations, nor can it generalize findings to all cloud computing scenarios without further validation. Additionally, user-level outcomes such as satisfaction are not directly measured in this study.",
+  "methodology": "This study will employ a simulation-based approach to evaluate the performance of an Adaptive Transformer-based Multi-Agent Reinforcement Learning (MARL) algorithm integrated with incentive mechanisms for dynamic resource allocation in cloud-based video streaming systems. The intervention will be compared against the MADRL-AHHO algorithm, which serves as the baseline. Key operationalized variables include resource allocation efficiency and system throughput, measured through simulation logs during execution and post-simulation analysis. The evaluation metrics will focus on resource utilization and data processing rates, ensuring robust statistical reasoning through comparative analysis. To control for confounding variables, factors such as network latency and hardware performance will be monitored and standardized across simulations. The study will also ensure reproducibility by documenting the simulation parameters and algorithm configurations used in the experiments. The scope will be limited to cloud-based environments with dynamic workloads, specifically targeting video streaming applications.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces the concept of integrating incentive mechanisms within an Adaptive Transformer-based Multi-Agent Reinforcement Learning (MARL) framework, providing a new theoretical lens for understanding cooperative behavior among agents in dynamic resource allocation scenarios.\",\n  \"technical_contribution\": \"The development of the Adaptive Transformer-based MARL algorithm represents a significant technical advancement, enhancing agent decision-making capabilities and adaptability to fluctuating workloads, which is a departure from existing algorithms like MADRL-AHHO that lack these features.\",\n  \"empirical_contribution\": \"Through a six-month simulation study, this research will empirically validate the effectiveness of incentive structures in promoting cooperation among agents, measuring their impact on resource allocation efficiency and system throughput, thereby generating new insights into agent collaboration dynamics.\",\n  \"practical_deployment_contribution\": \"The findings will provide actionable guidelines for deploying the Adaptive Transformer-based MARL algorithm in real-world cloud-based video streaming systems, specifically addressing scalability and adaptability challenges that have hindered previous MARL approaches in dynamic environments.\"\n}",
+  "contribution_type_router": "The primary contribution type for this proposal is theoretical. This fits well with the identified tension in the literature regarding the integration of incentive mechanisms within Multi-Agent Reinforcement Learning (MARL) frameworks for resource allocation in dynamic cloud environments. Emphasizing the novel theoretical lens on cooperative behavior among agents will address the existing gaps and unresolved tensions in scalability and adaptability. The proposal should avoid overly technical engineering details that detract from the theoretical implications and focus on empirical validation. By centering on the theoretical contribution, the research can significantly advance the understanding of collaborative resource management in cloud computing.",
+  "phd_contribution_design": "This study proposes the integration of incentive mechanisms within an Adaptive Transformer-based Multi-Agent Reinforcement Learning (MARL) framework to enhance cooperative behavior among agents for dynamic resource allocation in cloud-based video streaming systems. The mechanism-level claim is that incentivizing agents will improve their collaboration, leading to more efficient resource allocation and higher system throughput compared to existing methods. Current literature lacks a comprehensive understanding of how incentive structures can influence agent cooperation and resource management in highly dynamic environments. The falsifiable claim is that the proposed framework will demonstrate a statistically significant improvement in resource allocation efficiency over the MADRL-AHHO algorithm under varying user demands. The strongest baseline for comparison will be the MADRL-AHHO algorithm, which does not incorporate incentive mechanisms. Evidence will be measured through simulation logs, focusing on resource utilization and system throughput metrics. A negative result, indicating no significant improvement, would suggest that incentive mechanisms may not be effective in enhancing cooperation among agents, challenging the theoretical framework of cooperative behavior in MARL.",
+  "pre_proposal_critique": "The proposed contribution design may struggle to achieve an 85+ PhD-level score due to several critical weaknesses. First, the novelty claim is generic, as it lacks a clear distinction from existing MARL frameworks; the proposal must explicitly articulate how the integration of incentive mechanisms uniquely advances the field. Second, the theoretical foundation appears weak, with insufficient exploration of existing literature on cooperative behavior in MARL; a comprehensive literature review that contextualizes the research within established theories is essential. Lastly, the baseline comparison with the MADRL-AHHO algorithm is inadequate; the proposal should include additional baselines or ablation studies to robustly validate the effectiveness of the proposed framework. Addressing these objections will significantly enhance the clarity, depth, and rigor of the research design.",
+  "failure_analysis": "{\n  \"failure_modes\": [\n    {\n      \"risk\": \"Scalability Issues\",\n      \"mitigation_strategy\": \"Implement hierarchical agent structures to manage increased workload and agent numbers efficiently.\"\n    },\n    {\n      \"risk\": \"Adaptability Limitations\",\n      \"mitigation_strategy\": \"Incorporate continual learning mechanisms to allow agents to adapt to changing workloads dynamically.\"\n    },\n    {\n      \"risk\": \"Data Sparsity\",\n      \"mitigation_strategy\": \"Utilize data augmentation techniques to enhance the diversity of training scenarios and improve learning robustness.\"\n    },\n    {\n      \"risk\": \"Negative Result Interpretations\",\n      \"mitigation_strategy\": \"Conduct thorough sensitivity analyses to understand the impact of various parameters on outcomes and provide clear contextual explanations.\"\n    },\n    {\n      \"risk\": \"Ethical Concerns\",\n      \"mitigation_strategy\": \"Ensure transparency in algorithm decision-making processes and maintain compliance with data privacy regulations.\"\n    },\n    {\n      \"risk\": \"Low Agent Engagement\",\n      \"mitigation_strategy\": \"Design incentive mechanisms that are compelling enough to encourage active participation and collaboration among agents.\"\n    },\n    {\n      \"risk\": \"Hardware Performance Variability\",\n      \"mitigation_strategy\": \"Standardize hardware configurations and conduct tests across multiple setups to ensure consistent performance evaluations.\"\n    },\n    {\n      \"risk\": \"Initial Configuration Bias\",\n      \"mitigation_strategy\": \"Randomize initial agent configurations across simulations to minimize bias and ensure generalizability of results.\"\n    }\n  ]\n}",
+  "bad_proposal_pattern_detector": "The proposal exhibits several bad patterns that could limit its score. Firstly, it presents a generic gap by failing to clearly articulate how the integration of incentive mechanisms uniquely advances the field of MARL, which undermines its novelty claim. Additionally, the proposal is method-first, focusing on the framework without sufficiently grounding it in theoretical context. The causal mechanism is vague, lacking a clear explanation of how incentive mechanisms will enhance cooperation among agents. The dependent variable, resource allocation efficiency, is not clearly defined or operationalized, which could lead to ambiguity in evaluation. Furthermore, the baseline comparison with the MADRL-AHHO algorithm is weak, as it does not include additional baselines or ablation studies for validation. To improve the proposal, it should explicitly define the research gap, strengthen the theoretical foundation, clarify the causal mechanisms, and include robust baseline comparisons and control logic. Addressing these issues will significantly enhance clarity, depth, and rigor, thereby improving the overall quality of the research design.",
+  "evidence_claim_alignment": "The proposal's literature gap regarding the integration of incentive mechanisms within MARL frameworks is strongly supported by evidence from papers P2 and P4, which highlight unresolved challenges in scalability and adaptability. The mechanism of enhancing cooperative behavior through incentives is also well-grounded, as it directly addresses the limitations noted in the retrieved literature. However, the claim of significant improvement over the MADRL-AHHO algorithm could be considered weakly supported, as empirical validation under extreme dynamic conditions remains untested in existing studies. The proposal should hedge this claim by emphasizing the exploratory nature of the research and the need for further empirical validation. The method's feasibility is supported by the simulation-based approach, but the proposal should clarify how it will address potential scalability issues. The expected contribution is theoretically sound, but it could benefit from a more explicit connection to the empirical evidence regarding cooperative behavior in MARL, particularly in dynamic environments.",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong; evidence notes highlight the need for integrating incentive mechanisms in MARL frameworks, directly addressing the identified gap.",
+    "tension_to_problem": "Yes; the research problem arises from conflicting assumptions in the literature regarding scalability and adaptability of MARL algorithms.",
+    "problem_validity": "Yes; the validity check confirms that the research question is non-trivial, testable, and relevant for PhD-level inquiry.",
+    "contribution_type_alignment": "Coherent; the theoretical contribution aligns with the research question, mechanism, method, and evaluation.",
+    "domain_to_method": "Fits well; simulation-based methodology is appropriate for the cloud computing domain.",
+    "concept_to_metric": "Yes; core concepts are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Feasible; method does not require inaccessible models or data, and GPU resources are manageable.",
+    "scope_to_gap": "Specific enough; the study scope directly addresses the gap in literature regarding incentive mechanisms.",
+    "gap_to_question": "The gap leads to the research question by emphasizing the need for collaborative resource management in dynamic environments.",
+    "question_to_hypothesis": "The question logically leads to the hypothesis by positing that incentive mechanisms will enhance resource allocation efficiency.",
+    "hypothesis_to_methodology": "Methodology is designed to test the hypothesis through comparative simulations.",
+    "methodology_to_evaluation": "Planned evaluation directly answers the research question by measuring resource allocation efficiency and system throughput.",
+    "contribution_to_test": "Yes; the methodology and evaluation are structured to test the proposed contributions.",
+    "reviewer_attack_to_repair": "The final proposal addresses the strongest pre-proposal objections by clarifying novelty and enhancing baseline comparisons.",
+    "bad_pattern_repair": "Yes; the proposal avoids generic claims and method-first patterns, focusing on theoretical implications.",
+    "evidence_claim_alignment": "Core claims are well-supported by retrieved evidence, with appropriate narrowing of focus.",
+    "weak_links": [
+      "Potential need for additional empirical validation under extreme dynamic conditions.",
+      "Clarification on how incentive mechanisms specifically enhance cooperative behavior among agents."
+    ]
+  },
+  "proposal": "This research proposal aims to enhance dynamic resource allocation in cloud computing environments, specifically within cloud-based video streaming systems, by developing an Adaptive Transformer-based Multi-Agent Reinforcement Learning (MARL) framework that integrates incentive mechanisms to foster agent collaboration. The novelty of this study lies in its focus on the integration of incentive structures, which has been insufficiently explored in existing MARL literature, particularly in addressing scalability and adaptability challenges faced by algorithms like MADRL-AHHO. Prior work has demonstrated the effectiveness of MARL in optimizing resource allocation; however, it often overlooks how cooperative behavior among agents can be incentivized to improve performance under dynamic workloads. This research will operationalize key constructs, defining 'resource allocation efficiency' as the ratio of utilized resources to available resources during peak demand, and 'incentive mechanisms' as strategies designed to enhance agent collaboration through shared rewards. The central research question is: How does the integration of incentive mechanisms within an Adaptive Transformer-based MARL framework affect resource allocation efficiency and system throughput compared to the MADRL-AHHO algorithm under varying user demands? The methodology involves a simulation-based approach, comparing the proposed framework against the MADRL-AHHO algorithm and incorporating additional ablation studies to validate the effectiveness of incentive structures. Metrics such as resource utilization and data processing rates will be measured through simulation logs, with controls for confounding variables like network latency. This study's theoretical contribution will advance understanding of cooperative behavior in MARL frameworks, while its empirical validation will provide actionable insights for real-world deployment in cloud-based systems, addressing the critical gap in literature regarding the role of incentives in enhancing collaborative resource management.",
+  "draft_proposal": "This research proposal aims to optimize dynamic resource allocation in cloud computing environments, specifically targeting cloud-based video streaming systems, through the development of an Adaptive Transformer-based Multi-Agent Reinforcement Learning (MARL) framework that integrates incentive mechanisms to enhance agent collaboration. Key concepts include Multi-Agent Reinforcement Learning (MARL), dynamic resource allocation, cloud computing, and incentive mechanisms, all of which are crucial for addressing the challenges of scalability and adaptability in resource management. The study is technically feasible, relying on simulation-based evaluations without the need for extensive data access or human participant involvement. Scholarly positioning highlights the existing gaps in the literature regarding the effectiveness of MARL algorithms like MADRL-AHHO under dynamic conditions, particularly the lack of incentive structures to promote cooperation among agents. The central research question is: How does the integration of incentive mechanisms within an Adaptive Transformer-based MARL framework affect resource allocation efficiency and system throughput in cloud-based video streaming systems compared to the MADRL-AHHO algorithm under varying user demands? The theoretical mechanism posits that integrating incentive mechanisms (independent variable) will enhance cooperative behavior (mediator), leading to improved resource allocation efficiency and system throughput (dependent variables). The hypothesis is that this integration will significantly outperform the MADRL-AHHO algorithm, particularly under varying user demands. Constructs will be operationalized through simulation logs, measuring metrics such as resource utilization and data processing rates, with controls for network latency and hardware performance. The PhD contribution design emphasizes the theoretical advancement of understanding cooperative behavior in MARL frameworks, addressing the identified gaps in the literature. To strengthen the proposal against potential critiques, a comprehensive literature review will be included to clarify the novelty of the research, and additional baselines will be considered for robust validation of the proposed framework. The expected contributions are theoretical, technical, empirical, and practical, providing insights into agent collaboration dynamics and offering actionable guidelines for real-world deployment. Key limitations include potential scalability issues and adaptability limitations, which will be mitigated through hierarchical agent structures and continual learning mechanisms.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The gap is valid as it addresses the integration of incentive mechanisms in MARL frameworks, which is underexplored in existing literature.",
+      "literature_grounding": "The gap is grounded in the literature, particularly referencing unresolved issues in scalability and adaptability of MARL algorithms.",
+      "meaningfulness": "The gap is meaningful as it targets practical improvements in resource allocation efficiency, which is critical for real-world applications.",
+      "already_solved_risk": "There is a risk that existing studies may have partially addressed this gap, particularly in incentive mechanisms, thus necessitating a clearer distinction of how this research will advance the field."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior work but lacks a critical comparative analysis that highlights specific unresolved tensions.",
+      "unresolved_tensions": "It does not adequately identify or articulate the tensions between existing MARL approaches and their limitations in dynamic environments.",
+      "positioning_quality": "The positioning is weak; it needs to better articulate how the proposed research builds on and diverges from existing studies."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The methodology aligns well with the domain of cloud computing and MARL.",
+      "methodology_template_fit": "The simulation-based approach is appropriate for the research questions posed.",
+      "template_transfer_risk": "There is minimal risk of inappropriate template transfer as the methods are tailored to the specific research context."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is somewhat specific, but could benefit from clearer definitions of the target population and conditions.",
+      "population_or_task_definition": "The task of resource allocation in cloud-based video streaming is defined, but the population of agents could be better specified.",
+      "intervention_and_comparison_definition": "The intervention and comparison with MADRL-AHHO are clear, but additional baselines would strengthen the design.",
+      "outcome_definition": "Outcomes are defined but could be more explicitly linked to specific metrics for clarity."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Key terms like 'incentive mechanisms' and 'cooperative behavior' need clearer operational definitions.",
+      "implementation_specificity": "The proposal lacks specificity on how these concepts will be implemented in the algorithm.",
+      "level_of_analysis_clarity": "The level of analysis is appropriate, but the definitions should be more precise to avoid ambiguity."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "The proposal does not require external model access, which is feasible.",
+      "data_and_compute_requirements": "GPU resources are mentioned, but the specifics of computational needs should be detailed.",
+      "human_or_multilingual_resources": "No human participants are involved, making this aspect feasible.",
+      "feasible_adjustments": "Adjustments for scalability and adaptability are mentioned but need more detail on implementation."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable within the proposed framework.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, focusing on a specific application of MARL.",
+      "variable_clarity": "Variables are defined, but the clarity of how they interact could be improved."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The mechanism linking incentive mechanisms to cooperative behavior is stated but lacks depth in theoretical grounding.",
+      "theoretical_framing": "The framing of the theoretical mechanism could be strengthened with references to relevant theories in cooperative behavior.",
+      "assumption_transparency": "Assumptions are not clearly stated, which could lead to misunderstandings about the theoretical basis."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it could be more explicitly linked to measurable outcomes.",
+      "mechanism_grounding": "Grounding in the mechanism is present but needs to be articulated more clearly.",
+      "measurable_outcome": "Measurable outcomes are mentioned, but should be more explicitly defined in terms of metrics."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization of constructs is outlined but lacks detail on measurement instruments.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but should be more clearly defined.",
+      "causal_identification": "Causal pathways are suggested but need clearer articulation of how constructs interact.",
+      "confound_awareness": "Confounds are mentioned, but strategies for controlling them should be more explicitly detailed.",
+      "claim_boundaries": "Claim boundaries are vague and should clarify the limits of generalizability."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline comparison with MADRL-AHHO is valid, but additional baselines would strengthen the methodology.",
+      "metric_validity": "Metrics are relevant but need to be explicitly linked to the research questions.",
+      "statistical_or_evaluation_validity": "Statistical validity is implied but should be more explicitly stated.",
+      "reproducibility": "Reproducibility considerations are mentioned but need more detail on how simulations will be documented.",
+      "confound_control": "Control for confounds is acknowledged but requires more specific strategies.",
+      "risk_analysis": "Risk analysis is present but should include more detail on potential failure modes."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is present but lacks specificity in how it advances existing theories.",
+      "methodological_novelty": "Methodological contributions are implied but need clearer articulation.",
+      "practical_novelty": "Practical contributions are mentioned but should be more explicitly connected to real-world applications.",
+      "derivativeness_risk": "There is a risk of derivativeness if the proposal does not clearly distinguish its contributions from existing work."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified but need more depth in potential impacts.",
+      "limitation_depth": "Limitations are acknowledged but should be more thoroughly explored.",
+      "risk_mitigation": "Mitigation strategies are mentioned but require more specificity."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "The contributions are generally clear but could be articulated more precisely.",
+      "novelty_type": "The novelty type is primarily theoretical, but should also emphasize methodological aspects.",
+      "coherence": "The proposal is coherent but would benefit from tighter integration of sections.",
+      "limitation_awareness": "Awareness of limitations is present but should be more explicit.",
+      "academic_communication": "Communication is generally clear but could be more concise in some areas."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads to the question, but the connection could be more explicitly articulated.",
+      "question_to_hypothesis": "The question leads to the hypothesis logically.",
+      "hypothesis_to_method": "The hypothesis is testable by the method proposed.",
+      "method_to_evaluation": "The method is aligned with the evaluation but needs clearer metrics."
+    },
+    "revision_plan": "Revise the gap stage to clarify how the proposed research uniquely addresses existing literature. Strengthen the scholarly positioning by critically comparing unresolved tensions in prior work. Enhance the theoretical mechanism section by clearly stating assumptions and providing deeper theoretical grounding. Finally, detail the operationalization of constructs and metrics to ensure clarity and alignment with the research question."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 73.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal defines a relevant research problem in dynamic resource allocation using MARL, but lacks precise operational definitions for key constructs like 'resource allocation efficiency' and 'incentive mechanisms'. Major weaknesses: Key concepts are not sufficiently operationalized, and the framing of the research gap could be clearer in terms of its theoretical implications. Next band requirements: To move into the next band, the proposal needs clearer definitions of constructs and a more explicit articulation of the theoretical significance of the research gap."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from problem to hypothesis, but lacks rigorous justification for the causal claims regarding incentive mechanisms enhancing cooperation. Major weaknesses: The assumptions about the effectiveness of incentive mechanisms are not well-supported by existing literature, leading to potential gaps in logical coherence. Next band requirements: Strengthening the justification for causal claims and ensuring that all assumptions are backed by empirical evidence would enhance coherence."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal introduces the integration of incentive mechanisms within MARL, which is a relevant contribution, but the novelty is somewhat diluted by the reliance on existing algorithms without a clear differentiation. Major weaknesses: The novelty claim lacks a comprehensive exploration of how this integration uniquely advances the field beyond existing work. Next band requirements: To achieve a higher score, the proposal must clearly articulate how the integration of incentives provides a new theoretical framework that significantly differs from existing approaches."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 15.0,
+        "level": "15-17: strong design with manageable limitations",
+        "justification": "The methodology is clearly outlined with a simulation-based approach, and the proposal includes controls for confounding variables, but it could benefit from more robust baseline comparisons. Major weaknesses: The baseline comparison with MADRL-AHHO is insufficiently detailed; additional ablation studies would strengthen the evaluation design. Next band requirements: Incorporating more diverse baselines and providing detailed justification for the chosen evaluation metrics would enhance feasibility."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but lacks a deep critical synthesis of existing work and does not sufficiently identify unresolved tensions. Major weaknesses: The literature review is not comprehensive enough to position the research within broader debates, and the identification of gaps is somewhat superficial. Next band requirements: A more thorough engagement with existing literature, including critical comparisons and identification of unresolved issues, would improve scholarly positioning."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication but lacks depth in discussing the mechanisms and limitations of the proposed framework. Major weaknesses: The discussion of theoretical mechanisms is vague, and the proposal does not adequately address potential limitations or failure modes. Next band requirements: Enhancing the discussion of theoretical mechanisms and explicitly addressing limitations would strengthen the academic depth."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The writing is generally clear and organized, but there are areas where precision and conciseness could be improved. Major weaknesses: Some terminology is not precisely defined, and the overall structure could be more streamlined for clarity. Next band requirements: Improving the precision of terminology and enhancing the overall structure for better readability would elevate the presentation quality."
+      }
+    ],
+    "comments": "Total score: 73.0/100. Academic level: Master's-level. Major strengths: Clear identification of a relevant research problem in dynamic resource allocation.; Well-defined methodology with a simulation-based approach. Major weaknesses: Insufficient operationalization of key constructs.; Weak justification for causal claims regarding incentive mechanisms. Required improvements for true PhD-level quality: Strengthen the theoretical framing and operational definitions of constructs.; Enhance the literature review to provide a deeper critical synthesis. Final verdict: The proposal demonstrates potential but lacks the rigor and depth expected of genuine PhD-level research maturity."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+        "similarity": 0.7735
+      },
+      {
+        "original_index": 3,
+        "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+        "similarity": 0.7158
+      },
+      {
+        "original_index": 6,
+        "title": "Decentralized Reinforcement Learning for Multi-Agent Multi-Resource Allocation via Dynamic Cluster Agreements_supp1-3581126.mp4",
+        "similarity": 0.6809
+      },
+      {
+        "original_index": 4,
+        "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+        "similarity": 0.6269
+      },
+      {
+        "original_index": 1,
+        "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+        "similarity": 0.5633
+      },
+      {
+        "original_index": 2,
+        "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+        "similarity": 0.5536
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 4,
+          "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+          "similarity": 0.7235
+        },
+        {
+          "paper_index": 2,
+          "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+          "similarity": 0.7181
+        },
+        {
+          "paper_index": 1,
+          "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+          "similarity": 0.6553
+        }
+      ],
+      "max_similarity": 0.7235,
+      "mean_similarity": 0.649
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 4,
+          "title": "Transformer-Based Scalable Multi-Agent Reinforcement Learning for Joint Resource Optimization in Cloud–Edge–End Video Streaming Systems",
+          "similarity": 0.7061
+        },
+        {
+          "paper_index": 2,
+          "title": "OPTIMIZING CLOUD RESOURCE ALLOCATION USING MULTI AGENT DEEP REINFORCEMENT LEARNING-BASED ADAPTIVE HHO ALGORITHM",
+          "similarity": 0.7001
+        },
+        {
+          "paper_index": 1,
+          "title": "Optimizing Resource Allocation in Cloud-Based Deep Learning Systems Using Multi-Agent Reinforcement Learning",
+          "similarity": 0.6231
+        }
+      ],
+      "max_similarity": 0.7061,
+      "mean_similarity": 0.6145
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Multi-Agent Reinforcement Learning for Dynamic Resource Allocation in Cloud Computing",
+    "retrieval_snapshot_id": "20260528T132416Z-multi-agent-reinforcement-learning-for-dynamic-resource-allocation-in-cloud-comp-6",
+    "latency_ms": 310706,
+    "prompt_tokens": 91137,
+    "completion_tokens": 10634,
+    "total_tokens": 101771,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

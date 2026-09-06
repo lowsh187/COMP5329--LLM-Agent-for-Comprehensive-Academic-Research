@@ -1,0 +1,362 @@
+{
+  "experiment_id": "20260529T005536Z",
+  "run_index": 6,
+  "topic": "Human-AI Collaboration in Scientific Research Proposal Generation",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Human-AI Collaboration in Scientific Research Proposal Generation",
+  "retrieval_snapshot_id": "20260529T011740Z-human-ai-collaboration-in-scientific-research-proposal-generation-5",
+  "papers": [
+    {
+      "title": "Human–AI Collaboration for Scientific Discovery",
+      "authors": [
+        "Shuo Zhao",
+        "Yang Liu",
+        "Jiayu Wan",
+        "Tan Tang",
+        "Xin Li"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-10-31",
+      "url": "https://doi.org/10.1017/9781009587877.011",
+      "source": "Crossref"
+    },
+    {
+      "title": "SciSciGPT: advancing human–AI collaboration in the science of science",
+      "authors": [
+        "Erzhuo Shao",
+        "Yifang Wang",
+        "Yifan Qian",
+        "Zhenyu Pan",
+        "Han Liu",
+        "Dashun Wang"
+      ],
+      "abstract": "We introduce SciSciGPT, an open-source, prototype artificial intelligence (AI) collaborator that uses the domain of science of science as a testbed to explore the potential of large language model-powered research tools. SciSciGPT automates complex workflows, supports diverse analytical approaches, accelerates research prototyping and iteration and facilitates reproducibility. Through case studies, we demonstrate its ability to streamline a wide range of empirical and analytical research tasks while highlighting its broader potential to advance research. We further propose a large language model agent capability maturity model for human–AI collaboration, envisioning a roadmap to further improve and expand upon frameworks such as SciSciGPT. As AI capabilities continue to evolve, frameworks such as SciSciGPT may play increasingly pivotal roles in scientific research and discovery. At the same time, these new advances also raise critical challenges, from ensuring transparency and ethical use to balancing human and AI contributions. Addressing these issues may shape the future of scientific inquiry and inform how we train the next generation of scientists to thrive in an increasingly AI-integrated research ecosystem.",
+      "published": "2025-04-07",
+      "url": "https://www.semanticscholar.org/paper/5b3e4513796d86ddf6ae8dfee6793af3d45cffe8",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "XtraGPT: Context-Aware and Controllable Academic Paper Revision via Human-AI Collaboration",
+      "authors": [
+        "Nuo Chen",
+        "Andre Lin Huikai",
+        "Jiaying Wu",
+        "Junyi Hou",
+        "Zining Zhang",
+        "Qian Wang",
+        "Xidong Wang",
+        "Bingsheng He"
+      ],
+      "abstract": "Despite the growing adoption of large language models (LLMs) in academic workflows, their capabilities remain limited in supporting high-quality scientific writing. Most existing systems are designed for general-purpose scientific text generation and fail to meet the sophisticated demands of research communication beyond surface-level polishing, for example, maintaining conceptual coherence across sections. Furthermore, academic writing is inherently iterative and revision-driven, a process that is not well supported by direct prompting-based paradigms. To address these scenarios, we propose a human-AI collaboration framework for academic paper revision, centered on criteria-guided intent alignment and context-aware modeling. To validate the framework, we curate a dataset of 7,000 research papers from top-tier venues, annotated with 140,000 instruction--response pairs that reflect realistic, section-level scientific revisions. We instantiate the framework in XtraGPT, the first suite of open-source LLMs (1.5B to 14B parameters) specifically fine-tuned for context-aware academic paper revision. Extensive experiments show that XtraGPT significantly outperforms same-scale baselines and rivals the quality of proprietary counterparts. Both automated preference assessments and human evaluations confirm the effectiveness of XtraGPT in improving scientific drafts. Our code and models are available at https://github.com/Xtra-Computing/XtraGPT and https://huggingface.co/collections/Xtra-Computing/xtragpt.",
+      "published": "2025-05-16",
+      "url": "https://www.semanticscholar.org/paper/89dd03435fc867fa05945550d42232b4232e717b",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+      "authors": [
+        "Chaeyeon Lim"
+      ],
+      "abstract": "While generative artificial intelligence (Gen AI) increasingly transforms academic environments, a critical gap exists in understanding and mitigating human biases in AI interactions, such as anchoring and confirmation bias. This position paper advocates for metacognitive AI literacy interventions to help university students critically engage with AI and address biases across the Human-AI interaction workflows. The paper presents the importance of considering (1) metacognitive support with deliberate friction focusing on human bias; (2) bi-directional Human-AI interaction intervention addressing both input formulation and output interpretation; and (3) adaptive scaffolding that responds to diverse user engagement patterns. These frameworks are illustrated through ongoing work on \"DeBiasMe,\" AIED (AI in Education) interventions designed to enhance awareness of cognitive biases while empowering user agency in AI interactions. The paper invites multiple stakeholders to engage in discussions on design and evaluation methods for scaffolding mechanisms, bias visualization, and analysis frameworks. This position contributes to the emerging field of AI-augmented learning by emphasizing the critical role of metacognition in helping students navigate the complex interaction between human, statistical, and systemic biases in AI use while highlighting how cognitive adaptation to AI systems must be explicitly integrated into comprehensive AI literacy frameworks.",
+      "published": "2025-04-23",
+      "url": "http://arxiv.org/abs/2504.16770v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+      "authors": [
+        "Katelyn Xiaoying Mei",
+        "Nic Weber"
+      ],
+      "abstract": "The recent rapid advancement of LLM-based AI systems has accelerated our search and production of information. While the advantages brought by these systems seemingly improve the performance or efficiency of human activities, they do not necessarily enhance human capabilities. Recent research has started to examine the impact of generative AI on individuals' cognitive abilities, especially critical thinking. Based on definitions of critical thinking across psychology and education, this position paper proposes the distinction between demonstrated and performed critical thinking in the era of generative AI and discusses the implication of this distinction in research and development of AI systems that aim to augment human critical thinking.",
+      "published": "2025-04-20",
+      "url": "http://arxiv.org/abs/2504.14689v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Human-AI Collaboration in Scientific Research",
+      "paper_indices": [
+        1
+      ],
+      "summary": "This cluster primarily investigates the role of human-AI collaboration in enhancing scientific discovery processes, focusing on how AI tools can augment human capabilities in research activities.",
+      "limitations": "The cluster lacks comprehensive empirical data and case studies, making it difficult to generalize findings across different scientific domains. Additionally, the ethical implications of such collaborations remain underexplored.",
+      "gap_relevance": "This cluster highlights the need for further research into the effectiveness of various AI tools in different scientific contexts, thereby identifying gaps in understanding how to best integrate AI into research workflows."
+    },
+    {
+      "theme": "Human-AI Collaboration in Academic Research",
+      "paper_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "This cluster explores various frameworks and tools designed to enhance human-AI collaboration in academic research. Papers introduce systems like SciSciGPT and XtraGPT, which automate research workflows and support academic writing revisions, respectively. Additionally, the cluster addresses the need for de-biasing interventions in AI interactions and examines the impact of generative AI on critical thinking skills, proposing frameworks for better integration of AI in educational contexts.",
+      "limitations": "The cluster highlights challenges such as ensuring transparency and ethical use of AI, addressing biases in human-AI interactions, and the need for adaptive scaffolding in AI systems. There is also a recognition that while AI can improve efficiency, it does not necessarily enhance critical thinking capabilities.",
+      "gap_relevance": "This cluster identifies gaps in understanding the nuanced roles of AI in academic workflows, particularly in maintaining conceptual coherence in writing and addressing cognitive biases. It invites further research into effective design and evaluation methods for AI systems that genuinely augment human capabilities and critical thinking."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Human–AI Collaboration for Scientific Discovery",
+      "problem": "Exploration of human-AI collaboration in scientific discovery processes.",
+      "method": "Not specified in the abstract.",
+      "evidence": "Highlights the potential of AI in enhancing scientific discovery.",
+      "limitation": "Lack of detailed methodology and empirical evidence.",
+      "gap_relevance": "Identifies the need for structured frameworks to enhance human-AI collaboration in research."
+    },
+    {
+      "paper_id": "P2",
+      "title": "SciSciGPT: advancing human–AI collaboration in the science of science",
+      "problem": "Automation of complex workflows in scientific research using AI.",
+      "method": "Introduces SciSciGPT, an AI tool for automating research tasks and a capability maturity model.",
+      "evidence": "Demonstrates improved efficiency in empirical and analytical research tasks.",
+      "limitation": "Challenges related to transparency, ethical use, and balancing contributions are not fully addressed.",
+      "gap_relevance": "Provides a framework for future research on enhancing AI capabilities in scientific inquiry."
+    },
+    {
+      "paper_id": "P3",
+      "title": "XtraGPT: Context-Aware and Controllable Academic Paper Revision via Human-AI Collaboration",
+      "problem": "Limitations of existing LLMs in supporting high-quality scientific writing.",
+      "method": "Develops a framework for academic paper revision with a curated dataset and context-aware modeling.",
+      "evidence": "XtraGPT outperforms existing models in improving scientific drafts.",
+      "limitation": "Focuses primarily on revision rather than initial proposal generation.",
+      "gap_relevance": "Suggests the need for AI tools that support the entire research writing process, including proposal generation."
+    },
+    {
+      "paper_id": "P4",
+      "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+      "problem": "Human biases in AI interactions affecting research outcomes.",
+      "method": "Advocates for metacognitive AI literacy interventions to address biases.",
+      "evidence": "Emphasizes the importance of understanding biases in Human-AI workflows.",
+      "limitation": "Focuses on educational settings rather than direct research applications.",
+      "gap_relevance": "Highlights the need for frameworks that mitigate biases in AI-assisted research proposal generation."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+      "problem": "Impact of generative AI on critical thinking abilities in research.",
+      "method": "Proposes a distinction between demonstrated and performed critical thinking.",
+      "evidence": "Discusses implications for AI systems designed to enhance critical thinking.",
+      "limitation": "Lacks empirical studies to support the proposed distinctions.",
+      "gap_relevance": "Indicates a need for research on how AI can effectively augment critical thinking in the context of proposal generation."
+    }
+  ],
+  "summary": "The literature on human-AI collaboration in scientific research proposal generation reveals a significant focus on enhancing discovery processes and automating workflows through tools like SciSciGPT and XtraGPT. However, gaps remain in empirical validation, ethical considerations, and the integration of AI in proposal generation specifically. Future research should address these limitations by developing frameworks that mitigate biases and enhance critical thinking while ensuring transparency and effective collaboration between human researchers and AI systems.",
+  "literature_tension_graph": "The literature reveals a tension between the claims of P2, which asserts that AI tools like SciSciGPT can automate complex workflows and improve efficiency, and P3, which highlights that existing LLMs primarily focus on revision rather than initial proposal generation. This presents a mechanism conflict, as the effectiveness of AI in enhancing the entire research writing process remains unvalidated. Additionally, P4 emphasizes the need for de-biasing interventions in AI interactions, suggesting that biases can significantly affect research outcomes, while P5 proposes that generative AI may not necessarily enhance critical thinking. This indicates an unresolved evaluation condition regarding the impact of AI on cognitive processes in proposal generation. The emerging research direction should focus on developing frameworks that integrate AI in the initial stages of proposal writing while addressing biases and enhancing critical thinking capabilities, thereby reconciling these conflicting claims.",
+  "scholarly_positioning": "While existing literature on human-AI collaboration in scientific research primarily emphasizes enhancing discovery processes and automating workflows, significant gaps remain in empirical validation and ethical considerations, particularly in the context of proposal generation. Current frameworks, such as SciSciGPT and XtraGPT, focus on specific tasks but do not comprehensively address the integration of AI in the initial stages of research writing. This oversight creates unresolved tensions regarding the effectiveness of AI tools in fostering critical thinking and mitigating biases in research proposals. Therefore, the proposed research aims to develop a structured framework for AI-assisted proposal generation that not only enhances efficiency but also ensures ethical transparency and supports critical cognitive processes, thereby contributing to the broader discourse on responsible AI integration in scientific inquiry.",
+  "domain_router": "{\n  \"domain\": [\n    \"HCI/user trust\",\n    \"social science/policy/ethics\",\n    \"other\"\n  ],\n  \"methodology_template\": {\n    \"design\": \"Controlled between-subject studies\",\n    \"evaluation\": \"Trust calibration measures and qualitative assessments of AI-assisted proposal generation\",\n    \"focus\": \"Empirical validation of AI tool effectiveness in enhancing critical thinking and mitigating biases\"\n  }\n}",
+  "research_scope": "This study will investigate the effectiveness of the XtraGPT AI system in enhancing the proposal generation process within academic research settings, targeting graduate students and early-career researchers in STEM fields. The evaluation period will span six months, during which participants will engage in controlled between-subject studies comparing AI-assisted proposal generation against traditional methods. The primary outcome will be the quality of research proposals, assessed through peer review metrics, while secondary outcomes will include measures of critical thinking and bias mitigation, evaluated through qualitative assessments and trust calibration measures. This research aims to provide empirical validation of AI's role in fostering critical cognitive processes and ethical transparency in scientific inquiry.",
+  "concept_definition": "{\n  \"Human-AI Collaboration\": \"The interaction between human researchers and AI systems to enhance research processes, specifically in generating research proposals.\",\n  \"AI-assisted Proposal Generation\": \"The use of AI tools, such as XtraGPT, to aid researchers in creating research proposals by providing suggestions, structure, and content generation.\",\n  \"Trust Calibration\": \"The process of aligning user trust in AI systems with the actual performance and reliability of those systems, ensuring users have appropriate reliance on AI outputs.\",\n  \"Critical Thinking\": \"The cognitive process of analyzing and evaluating information to form reasoned judgments, which the study aims to enhance through AI assistance.\",\n  \"Bias Mitigation\": \"Strategies employed to reduce cognitive biases in proposal generation, ensuring that the proposals are fair and objective, potentially aided by AI insights.\",\n  \"Peer Review Metrics\": \"Quantitative and qualitative measures used to evaluate the quality of research proposals, including originality, significance, and clarity, often assessed by expert reviewers.\",\n  \"Qualitative Assessments\": \"Non-numerical evaluations of participants' experiences and perceptions regarding the AI-assisted proposal generation process, providing insights into user trust and effectiveness.\",\n  \"Controlled Between-Subject Studies\": \"Experimental design where different groups of participants are exposed to either AI-assisted or traditional proposal generation methods to compare outcomes.\",\n  \"Empirical Validation\": \"The process of testing and confirming the effectiveness of AI tools through systematic observation and measurement in real-world research settings.\",\n  \"Interpretability\": \"The degree to which AI systems can provide understandable and transparent explanations for their outputs, relevant for users to trust and effectively utilize AI-generated proposals.\",\n  \"Safety Outcomes\": \"Metrics that assess the risk of AI systems producing harmful or misleading outputs, including measures like unsafe response rate and harmful compliance.\",\n  \"User Trust\": \"The confidence users have in the AI system's ability to perform reliably and ethically, influenced by factors such as perceived transparency and trust calibration.\"\n}",
+  "technical_feasibility": "The study requires human participants for controlled between-subject studies, necessitating ethics approval. It also needs access to the XtraGPT AI system, which may involve using an API model, thus requiring adjustments toward output-level explanation or black-box evaluation if hidden states are not accessible. Trust calibration measures will require a human-subject design. Additionally, GPU resources may be necessary for running AI models efficiently. No specific mention of labeled datasets or multilingual prompt sets is needed, but peer review metrics must be defined clearly. A feasible adjustment would be to ensure that the AI system used is compatible with the study's design, possibly by confirming access to necessary model features or exploring alternative models if required.",
+  "gap": "Prior studies have demonstrated the potential of AI tools like SciSciGPT to automate workflows in scientific research; however, the literature tension graph shows unresolved tension regarding the effectiveness of AI in enhancing the initial stages of proposal generation, leaving unclear whether AI can genuinely support critical thinking and mitigate biases in this context. This matters practically because effective proposal generation is crucial for securing funding and advancing scientific inquiry; therefore, this study investigates the effectiveness of AI-assisted proposal generation in enhancing critical thinking and addressing biases within academic research settings.",
+  "question": "How does the use of the XtraGPT AI system for proposal generation compare to traditional methods in enhancing critical thinking and mitigating biases among graduate students and early-career researchers in STEM fields?",
+  "research_problem_validity_check": "The proposed research problem on Human-AI collaboration in scientific research proposal generation is non-trivial and theoretically meaningful, as it addresses significant gaps in existing literature regarding the integration of AI in the initial stages of research writing. It is empirically testable through controlled studies comparing AI-assisted and traditional methods, which aligns with current interests in enhancing research efficiency and ethical considerations. However, the PhD committee might reject the problem if it perceives the focus on AI tools as overly engineering-oriented without sufficient theoretical depth. To strengthen the research question, it could be reframed to explicitly include the exploration of ethical implications and the development of a framework for critical thinking enhancement, thereby deepening its relevance and significance in the academic discourse on responsible AI integration.",
+  "research_problem_blueprint": {
+    "core_gap": "The effectiveness of AI in enhancing the initial stages of research proposal generation remains unvalidated, particularly regarding its impact on critical thinking and bias mitigation.",
+    "literature_tension": "There is a conflict between claims that AI tools like SciSciGPT can automate workflows and the observation that existing models primarily focus on revision rather than initial proposal generation.",
+    "phd_level_contribution": "Empirical evidence on the effectiveness of the XtraGPT AI system in improving proposal quality and cognitive processes among graduate students and early-career researchers.",
+    "falsifiable_hypothesis": "Graduate students and early-career researchers using the XtraGPT AI system for proposal generation will produce higher quality research proposals compared to those using traditional methods, with critical thinking enhancement positively influencing proposal quality.",
+    "mechanism": "AI assistance improves proposal quality through structured support and insights, leading to better critical thinking outcomes, mediated by the AI's representation features and interpretability.",
+    "minimum_evidence_required": [
+      "Evidence of improved proposal quality through peer review metrics comparing AI-assisted and traditional methods.",
+      "Qualitative assessments demonstrating enhancement of critical thinking and bias mitigation in the AI-assisted group."
+    ],
+    "proposal_must_include": [
+      "A controlled between-subject design comparing AI-assisted and traditional proposal generation methods.",
+      "Statistical analyses to determine the significance of differences in proposal quality and mediation analysis for critical thinking."
+    ],
+    "proposal_must_avoid": [
+      "Overly technical engineering details that detract from empirical validation and theoretical implications.",
+      "Generic framing that dilutes the novelty of the research focus on AI's role in proposal generation."
+    ]
+  },
+  "theoretical_mechanism": "In this study, the independent variable is the method of proposal generation (AI-assisted vs. traditional). The mediator is the enhancement of critical thinking and bias mitigation facilitated by the AI system (XtraGPT), which influences the quality of research proposals (dependent variable). The theoretical framework is grounded in Human-Computer Interaction and cognitive psychology, focusing on how AI tools can augment human cognitive processes. The causal chain posits that AI assistance improves proposal quality through structured support and insights, leading to better critical thinking outcomes. System-level outcomes, such as the quality of proposals, are mediated by the AI's representation features and interpretability, while user-level outcomes, like satisfaction and reliance, are mediated by perceived transparency and calibrated trust. Assumptions requiring empirical validation include the effectiveness of XtraGPT in enhancing cognitive processes and the relationship between perceived transparency and user satisfaction.",
+  "hypothesis": "Graduate students and early-career researchers using the XtraGPT AI system for proposal generation (independent variable) will produce higher quality research proposals (primary dependent variable) compared to those using traditional methods (comparison/control), with the enhancement of critical thinking (mediator) positively influencing the proposal quality.",
+  "operationalization_causal_check": "{\n  \"constructs\": [\n    {\n      \"construct_name\": \"Proposal Generation Method\",\n      \"role\": \"IV\",\n      \"measurement_instrument\": \"Method type (AI-assisted vs. traditional)\",\n      \"data_source\": \"Participant assignment\",\n      \"timing\": \"During proposal generation phase\"\n    },\n    {\n      \"construct_name\": \"Proposal Quality\",\n      \"role\": \"DV\",\n      \"measurement_instrument\": \"Peer review metrics (originality, significance, clarity)\",\n      \"data_source\": \"Expert reviewers' evaluations\",\n      \"timing\": \"Post-proposal submission\"\n    },\n    {\n      \"construct_name\": \"Critical Thinking Enhancement\",\n      \"role\": \"Mediator\",\n      \"measurement_instrument\": \"Qualitative assessments and trust calibration measures\",\n      \"data_source\": \"Participant surveys and interviews\",\n      \"timing\": \"After proposal generation\"\n    }\n  ],\n  \"causal_pathway\": \"AI-assisted proposal generation (IV) enhances critical thinking (mediator), leading to higher quality proposals (DV).\",\n  \"likely_confounds\": [\n    \"Participant prior experience with AI tools\",\n    \"Variability in peer reviewer standards\",\n    \"Individual differences in cognitive abilities\"\n  ],\n  \"claim_boundaries\": \"The study can claim a relationship between AI assistance and proposal quality, mediated by critical thinking, but cannot establish causation definitively due to potential confounds.\",\n  \"what_cannot_be_concluded\": \"The study cannot conclude that AI tools universally enhance critical thinking across all contexts or that improvements in proposal quality are solely due to AI assistance.\"\n}",
+  "methodology": "This study will employ a controlled between-subject design, engaging graduate students and early-career researchers in STEM fields. Participants will be randomly assigned to either the AI-assisted proposal generation group using the XtraGPT system or a traditional proposal generation group. The primary outcome, proposal quality, will be assessed using peer review metrics focusing on originality, significance, and clarity, evaluated by expert reviewers post-submission. Secondary outcomes will include qualitative assessments of critical thinking enhancement and bias mitigation through participant surveys and interviews conducted after proposal generation. To control for confounding variables, prior experience with AI tools and variability in peer reviewer standards will be monitored. The study will ensure reproducibility by maintaining consistent evaluation criteria and procedures across all participants. Statistical analyses will be conducted to determine the significance of differences in proposal quality between groups, with mediation analysis to explore the role of critical thinking enhancement.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces a theoretical mechanism linking AI-assisted proposal generation to enhanced critical thinking and bias mitigation, grounded in Human-Computer Interaction and cognitive psychology frameworks. It posits that AI tools like XtraGPT can augment cognitive processes, thereby improving proposal quality through structured support.\",\n  \"technical_contribution\": \"The research develops a specific methodology for evaluating AI-assisted proposal generation, including the operationalization of peer review metrics tailored to assess originality, significance, and clarity in research proposals. This technical framework enables a rigorous comparison between AI-assisted and traditional methods.\",\n  \"empirical_contribution\": \"By conducting controlled between-subject studies, this research provides empirical evidence on the effectiveness of the XtraGPT AI system in enhancing proposal quality and fostering critical thinking among graduate students and early-career researchers. The findings will clarify the role of AI in mitigating biases during the proposal generation process.\",\n  \"practical_deployment_contribution\": \"The study offers deployment guidelines for integrating AI tools in academic research settings, emphasizing ethical transparency and trust calibration. It aims to inform best practices for using AI in the early stages of research writing, ensuring that researchers can leverage AI effectively while maintaining cognitive integrity.\"\n}",
+  "contribution_type_router": "The primary contribution type for this proposal is empirical. This choice aligns with the identified gaps in the literature regarding the effectiveness of AI in enhancing proposal generation and critical thinking, as highlighted in the literature tension graph. The proposal must emphasize the rigorous evaluation of the XtraGPT AI system through controlled studies, providing empirical evidence on its impact on proposal quality and cognitive processes. It should avoid overly technical engineering details that detract from the focus on empirical validation and theoretical implications. By centering on empirical contributions, the research can address practical concerns in academic settings while contributing to the broader discourse on responsible AI integration.",
+  "phd_contribution_design": "This research proposes a structured framework for AI-assisted proposal generation that enhances critical thinking and mitigates biases among graduate students and early-career researchers in STEM fields. The mechanism posits that AI tools like XtraGPT can augment cognitive processes, leading to improved proposal quality through structured support and insights. Existing literature fails to empirically validate the effectiveness of AI in the initial stages of research writing, particularly in proposal generation, leaving a gap in understanding how AI can genuinely support critical cognitive processes. The falsifiable claim is that participants using XtraGPT will produce higher quality proposals compared to those using traditional methods, with critical thinking enhancement serving as a mediator. The strongest baseline for comparison will be traditional proposal generation methods, ensuring a rigorous evaluation of AI's impact. Evidence will be established through peer review metrics and qualitative assessments, providing a robust standard for validating the findings. A negative result, where no significant difference in proposal quality is observed, would challenge the assumption that AI tools can enhance cognitive processes and necessitate a reevaluation of their role in academic research.",
+  "pre_proposal_critique": "Skipped in judgement_light mode; the proposal is constrained by research_problem_blueprint.",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"Participant Engagement\",\n      \"risk\": \"Low engagement from participants may lead to insufficient data quality.\",\n      \"mitigation_strategy\": \"Implement incentives for participation and ensure clear communication of the study's importance.\"\n    },\n    {\n      \"failure_mode\": \"Data Sparsity\",\n      \"risk\": \"Limited participant diversity may result in non-generalizable findings.\",\n      \"mitigation_strategy\": \"Recruit a diverse participant pool across various institutions and backgrounds.\"\n    },\n    {\n      \"failure_mode\": \"Validity Threats\",\n      \"risk\": \"Confounding variables may skew results, affecting the validity of conclusions.\",\n      \"mitigation_strategy\": \"Monitor and control for confounding factors such as prior experience with AI tools.\"\n    },\n    {\n      \"failure_mode\": \"Bias in Peer Review\",\n      \"risk\": \"Peer reviewers may have biases that affect the evaluation of proposals.\",\n      \"mitigation_strategy\": \"Use a diverse panel of reviewers and blind review processes to minimize bias.\"\n    },\n    {\n      \"failure_mode\": \"Ethical Risks\",\n      \"risk\": \"Potential misuse of AI-generated content or ethical concerns regarding AI transparency.\",\n      \"mitigation_strategy\": \"Ensure clear guidelines on the ethical use of AI outputs and provide training on AI transparency.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretations\",\n      \"risk\": \"Findings may be misinterpreted as AI being ineffective in enhancing proposal quality.\",\n      \"mitigation_strategy\": \"Clearly communicate the study's limitations and the context of findings in all reports.\"\n    },\n    {\n      \"failure_mode\": \"Safety Outcomes\",\n      \"risk\": \"AI may produce misleading or harmful outputs affecting proposal integrity.\",\n      \"mitigation_strategy\": \"Implement rigorous testing of AI outputs for safety and reliability before participant use.\"\n    }\n  ]\n}",
+  "bad_proposal_pattern_detector": "Skipped in judgement_light mode.",
+  "evidence_claim_alignment": "Skipped in judgement_light mode.",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong link; evidence notes highlight the need for structured frameworks to enhance human-AI collaboration in proposal generation.",
+    "tension_to_problem": "Yes, the research problem arises from real tensions between the capabilities of AI tools and their limitations in proposal generation.",
+    "problem_validity": "Yes, the validity check confirms the research question is non-trivial, testable, and relevant for PhD-level inquiry.",
+    "contribution_type_alignment": "Yes, the empirical contribution aligns with the research question, mechanism, method, and evaluation.",
+    "domain_to_method": "Yes, the controlled between-subject design fits the HCI and cognitive psychology domain.",
+    "concept_to_metric": "Yes, core concepts are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Yes, the methodology is feasible given the requirements for model access, participant engagement, and data collection.",
+    "scope_to_gap": "Yes, the study scope is specific enough to address the identified gap in AI-assisted proposal generation.",
+    "gap_to_question": "The gap regarding AI's role in initial proposal stages directly informs the research question.",
+    "question_to_hypothesis": "The research question leads to the hypothesis by positing that AI assistance will enhance proposal quality.",
+    "hypothesis_to_methodology": "The methodology tests the hypothesis by comparing AI-assisted and traditional methods in proposal generation.",
+    "methodology_to_evaluation": "The planned evaluation assesses proposal quality and critical thinking, directly answering the research question.",
+    "contribution_to_test": "Yes, the PhD contribution design is tested through the methodology and evaluation.",
+    "reviewer_attack_to_repair": "Yes, the proposal addresses potential reviewer objections by emphasizing empirical validation and ethical considerations.",
+    "bad_pattern_repair": "Yes, the proposal avoids generic claims and maintains focus on empirical contributions without overclaiming.",
+    "evidence_claim_alignment": "Yes, core claims are supported by the retrieved evidence and are appropriately narrowed.",
+    "weak_links": []
+  },
+  "proposal": "This research aims to empirically investigate the effectiveness of the XtraGPT AI system in enhancing the initial stages of research proposal generation, specifically focusing on its impact on critical thinking and bias mitigation among graduate students and early-career researchers in STEM fields. Prior work, such as the automation of workflows by tools like SciSciGPT, has not adequately addressed the integration of AI in proposal generation, leaving a significant gap in understanding how AI can genuinely augment cognitive processes. This study will provide a novel theoretical framework linking AI-assisted proposal generation to enhanced critical thinking, positing that structured AI support improves proposal quality through cognitive augmentation. The methodology will employ a controlled between-subject design, with participants randomly assigned to either the AI-assisted group or a traditional proposal generation group. Proposal quality will be assessed using peer review metrics focusing on originality, significance, and clarity, while critical thinking enhancement will be measured through qualitative assessments and trust calibration measures. To ensure reproducibility and control for confounding variables, such as prior experience with AI tools and variability in peer reviewer standards, detailed plans for statistical analysis will be implemented, including mediation analysis to explore the role of critical thinking as a mediator. This research will clarify the role of AI in mitigating biases during proposal generation and provide empirical evidence on its effectiveness, thus contributing to the broader discourse on responsible AI integration in scientific inquiry.",
+  "draft_proposal": "This research aims to address the core gap in understanding the effectiveness of AI in enhancing the initial stages of research proposal generation, particularly regarding its impact on critical thinking and bias mitigation. The literature tension highlights conflicting claims about AI tools like SciSciGPT automating workflows versus their focus on revision, indicating a need for empirical validation in proposal generation contexts. The proposed study will provide PhD-level contributions by generating empirical evidence on the effectiveness of the XtraGPT AI system in improving proposal quality and cognitive processes among graduate students and early-career researchers in STEM fields. The falsifiable hypothesis posits that participants using XtraGPT will produce higher quality research proposals compared to those using traditional methods, with critical thinking enhancement serving as a mediator. The mechanism suggests that AI assistance improves proposal quality through structured support and insights, leading to better critical thinking outcomes. Minimum evidence required includes improved proposal quality through peer review metrics and qualitative assessments demonstrating enhancement of critical thinking and bias mitigation in the AI-assisted group. The proposal must include a controlled between-subject design comparing AI-assisted and traditional proposal generation methods and statistical analyses to determine significance in proposal quality differences. It must avoid overly technical engineering details and generic framing that dilutes the novelty of the research focus. The study will operationalize constructs such as Proposal Generation Method (IV), Proposal Quality (DV), and Critical Thinking Enhancement (Mediator) using peer review metrics and qualitative assessments. Methodology will involve controlled between-subject studies with domain-appropriate controls for prior experience with AI tools and variability in peer reviewer standards. The theoretical contribution lies in linking AI-assisted proposal generation to enhanced cognitive processes, while the empirical contribution will provide evidence on the role of AI in mitigating biases and enhancing critical thinking. Expected contributions include practical guidelines for integrating AI tools in academic research settings, emphasizing ethical transparency and trust calibration. Key limitations include potential confounds such as participant prior experience and biases in peer review, which will be monitored and controlled throughout the study.",
+  "proposal_critique": null,
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 78.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal clearly identifies the research problem of AI-assisted proposal generation but lacks a more explicit operational definition of how critical thinking and bias mitigation will be measured. Major weaknesses: The operational definitions of key constructs like 'critical thinking enhancement' and 'bias mitigation' are somewhat vague and could benefit from more precise metrics or indicators. Next band requirements: To achieve a higher score, the proposal needs to provide clearer operational definitions and a more detailed explanation of the research boundaries."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 13.0,
+        "level": "12-13: mostly coherent with minor reasoning gaps",
+        "justification": "The proposal presents a logical flow from the research problem to the hypothesis and methodology, but some assumptions regarding the effectiveness of AI tools lack empirical backing. Major weaknesses: The causal claims regarding AI's impact on critical thinking and proposal quality need stronger justification and empirical support. Next band requirements: Strengthening the empirical justification for causal claims and ensuring that all assumptions are backed by literature would improve coherence."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 15.0,
+        "level": "15-17: clear novelty with meaningful research differentiation",
+        "justification": "The proposal introduces a theoretically grounded mechanism linking AI-assisted proposal generation to cognitive processes, which is a meaningful contribution to the field. Major weaknesses: While the theoretical contribution is clear, the proposal could further differentiate itself by presenting unique methodologies or frameworks that have not been previously explored. Next band requirements: To reach a higher score, the proposal should articulate a more distinct methodological innovation or a novel theoretical framework."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology is generally sound with a controlled design, but there are concerns regarding the operationalization of variables and the handling of confounds. Major weaknesses: The proposal lacks detailed plans for addressing potential confounding variables and ensuring the reproducibility of results. Next band requirements: Providing a more robust plan for controlling confounding factors and detailing the statistical analysis methods would enhance feasibility."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong literature grounding with good comparative analysis",
+        "justification": "The proposal engages with relevant literature and identifies gaps effectively, but it could benefit from a deeper critical synthesis of existing work. Major weaknesses: The literature review is somewhat surface-level and does not sufficiently address competing approaches or unresolved tensions in the field. Next band requirements: A more thorough comparative analysis of methodologies and a clearer identification of unresolved tensions would improve scholarly positioning."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 8.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical depth but lacks comprehensive discussion of limitations and failure cases. Major weaknesses: There is insufficient discussion on the limitations of the proposed methodology and the potential for negative results. Next band requirements: Incorporating a more detailed discussion of limitations and failure analysis would enhance academic depth."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, but some terminology could be more precise. Major weaknesses: There are minor inconsistencies in terminology and some areas where clarity could be improved. Next band requirements: Improving precision in terminology and ensuring conciseness would enhance overall communication."
+      }
+    ],
+    "comments": "Total score: 78.0/100. Academic level: Master's-level. Major strengths: Clear identification of a relevant research problem.; Theoretical contribution linking AI to cognitive processes.; Well-structured methodology with a controlled design. Major weaknesses: Vague operational definitions of key constructs.; Insufficient empirical justification for causal claims.; Limited depth in literature review and scholarly positioning. Required improvements for true PhD-level quality: Provide clearer operational definitions and metrics for key constructs.; Strengthen empirical justification for causal claims.; Enhance the literature review with deeper critical synthesis and comparative analysis. Final verdict: The proposal demonstrates potential but lacks the rigor and depth expected of genuine PhD-level research maturity."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 5,
+        "title": "Human–AI Collaboration for Scientific Discovery",
+        "similarity": 0.6837
+      },
+      {
+        "original_index": 3,
+        "title": "SciSciGPT: advancing human–AI collaboration in the science of science",
+        "similarity": 0.6129
+      },
+      {
+        "original_index": 4,
+        "title": "XtraGPT: Context-Aware and Controllable Academic Paper Revision via Human-AI Collaboration",
+        "similarity": 0.5804
+      },
+      {
+        "original_index": 2,
+        "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+        "similarity": 0.5182
+      },
+      {
+        "original_index": 1,
+        "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+        "similarity": 0.5046
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "SciSciGPT: advancing human–AI collaboration in the science of science",
+          "similarity": 0.6665
+        },
+        {
+          "paper_index": 5,
+          "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+          "similarity": 0.6187
+        },
+        {
+          "paper_index": 4,
+          "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+          "similarity": 0.6062
+        }
+      ],
+      "max_similarity": 0.6665,
+      "mean_similarity": 0.5906
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 3,
+          "title": "XtraGPT: Context-Aware and Controllable Academic Paper Revision via Human-AI Collaboration",
+          "similarity": 0.6115
+        },
+        {
+          "paper_index": 5,
+          "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+          "similarity": 0.5642
+        },
+        {
+          "paper_index": 2,
+          "title": "SciSciGPT: advancing human–AI collaboration in the science of science",
+          "similarity": 0.5456
+        }
+      ],
+      "max_similarity": 0.6115,
+      "mean_similarity": 0.5402
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Human-AI Collaboration in Scientific Research Proposal Generation",
+    "retrieval_snapshot_id": "20260529T011740Z-human-ai-collaboration-in-scientific-research-proposal-generation-5",
+    "latency_ms": 184791,
+    "prompt_tokens": 65662,
+    "completion_tokens": 8164,
+    "total_tokens": 73826,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

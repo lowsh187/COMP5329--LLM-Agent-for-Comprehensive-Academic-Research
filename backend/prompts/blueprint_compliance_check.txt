@@ -1,0 +1,20 @@
+Task: Check whether the final proposal obeys the research problem blueprint.
+
+Topic:
+{topic}
+
+Research problem blueprint:
+{research_problem_blueprint}
+
+Proposal:
+{proposal}
+
+Return JSON with exactly this key:
+{{
+  "blueprint_compliance_check": {{
+    "complies": true,
+    "missing_blueprint_element": "The single most important blueprint element that is absent or weak. Use 'none' if nothing important is missing.",
+    "score_limiting_risk_status": "Whether the proposal avoids the blueprint's score_limiting_risk.",
+    "one_sentence_repair": "One concise repair instruction for target revision."
+  }}
+}}

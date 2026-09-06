@@ -1,0 +1,466 @@
+{
+  "experiment_id": "20260528T131848Z",
+  "run_index": 4,
+  "topic": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+  "retrieval_snapshot_id": "20260528T133449Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-6",
+  "papers": [
+    {
+      "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+      "authors": [
+        "Rui Xue",
+        "Haoyu Han",
+        "Tong Zhao",
+        "Neil Shah",
+        "Jiliang Tang",
+        "Xiaorui Liu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023-8-6",
+      "url": "https://doi.org/10.1145/3580305.3599565",
+      "source": "Crossref"
+    },
+    {
+      "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+      "authors": [
+        "Dimitar Peshevski",
+        "Riste Stojanov",
+        "Dimitar Trajanov"
+      ],
+      "abstract": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages using dedicated agents: ontology creation and expansion, ontology refinement, and knowledge graph population. This agent-based approach ensures semantic coherence, scalability, and high-quality output without relying on predefined schemas or handcrafted extraction rules. We evaluate the system on a real-world dataset of air conditioner product descriptions, demonstrating strong performance in both ontology generation and KG population. The framework achieves over 97\\% property coverage and minimal redundancy, validating its effectiveness and practical applicability. Our work highlights the potential of LLMs to automate structured knowledge extraction in retail, providing a scalable path toward intelligent product data integration and utilization.",
+      "published": "2025-11-14",
+      "url": "http://arxiv.org/abs/2511.11017v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Dynamic Graph Neural Networks",
+      "authors": [
+        "Yugang Ji"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-16174-2_5",
+      "source": "Crossref"
+    },
+    {
+      "title": "Hyperbolic Graph Neural Networks",
+      "authors": [
+        "Yiding Zhang"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-16174-2_6",
+      "source": "Crossref"
+    },
+    {
+      "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+      "authors": [
+        "Jader Abreu",
+        "Luis Fred",
+        "David Macêdo",
+        "Cleber Zanchettin"
+      ],
+      "abstract": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in the architecture efficiently and not take into account the contexting importance of words and sentences. In this paper, we propose a new approach based on a combination of convolutional neural networks, gated recurrent units, and attention mechanisms for document classification tasks. The main contribution of this work is the use of convolution layers to extract more meaningful, generalizable and abstract features by the hierarchical representation. The proposed method in this paper improves the results of the current attention-based approaches for document classification.",
+      "published": "2019-01-20",
+      "url": "http://arxiv.org/abs/1901.06610v2",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "authors": [
+        "Sergey Oladyshkin",
+        "Timothy Praditia",
+        "Ilja Kröker",
+        "Farid Mohammadi",
+        "Wolfgang Nowak",
+        "Sebastian Otte"
+      ],
+      "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks.",
+      "published": "2023-06-26",
+      "url": "http://arxiv.org/abs/2306.14753v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Advancements in Graph Neural Networks and Document Classification",
+      "paper_indices": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "summary": "This cluster explores various advancements in graph neural networks, including large-scale implementations, dynamic adaptations, and hyperbolic structures. Additionally, it presents a novel approach to document classification that integrates convolutional neural networks, gated recurrent units, and attention mechanisms to better utilize document structure and context.",
+      "limitations": "The abstracts for several papers are unavailable, limiting the understanding of their contributions and findings. Furthermore, the integration of knowledge about document structure in existing models remains a challenge.",
+      "gap_relevance": "This cluster highlights the need for improved methodologies in graph neural networks and document classification, suggesting potential areas for future research to address the limitations in current models and explore new architectures."
+    },
+    {
+      "theme": "Automated Knowledge Graph Construction in E-Commerce",
+      "paper_indices": [
+        2
+      ],
+      "summary": "This cluster focuses on the development of an AI agent-driven framework for the automated construction of product knowledge graphs from unstructured data in e-commerce. It highlights the use of Large Language Models to enhance the efficiency and quality of ontology creation, refinement, and knowledge graph population, achieving high property coverage and minimal redundancy.",
+      "limitations": "The framework's reliance on specific datasets for evaluation may limit its generalizability to other product categories or domains. Additionally, the performance in highly diverse or complex product descriptions remains to be assessed.",
+      "gap_relevance": "This cluster addresses the gap in automated methods for knowledge graph construction, providing a scalable solution that could inspire further research into AI-driven data organization and retrieval in various domains beyond e-commerce."
+    },
+    {
+      "theme": "Integration of Chaos Theory in Deep Learning",
+      "paper_indices": [
+        6
+      ],
+      "summary": "This cluster explores the application of homogeneous chaos theory to enhance the understanding and performance of Deep Artificial Neural Networks (DANNs). It suggests that the neural signal processing in DANNs can be analyzed through the lens of polynomial chaos expansion, proposing a new perspective on the linear response mechanisms of neural nodes.",
+      "limitations": "The current research primarily focuses on theoretical frameworks without extensive empirical validation. Additionally, the practical implications of integrating chaos theory into existing DANN architectures remain underexplored.",
+      "gap_relevance": "This cluster identifies a potential research gap in the intersection of chaos theory and deep learning, suggesting that further investigation could lead to improved DANN designs and performance metrics, thereby advancing the field of artificial intelligence."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+      "problem": "Exploration of advancements and challenges in large-scale graph neural networks.",
+      "method": "Not specified in the abstract.",
+      "evidence": "Identifies new frontiers in the application of graph neural networks.",
+      "limitation": "Lacks detailed methodology and specific findings due to unavailable abstract.",
+      "gap_relevance": "Highlights the need for further exploration of methodologies in large-scale GNNs, which can inform knowledge discovery in scientific literature."
+    },
+    {
+      "paper_id": "P2",
+      "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+      "problem": "Challenges in constructing product-specific knowledge graphs from unstructured data.",
+      "method": "AI agent-driven framework utilizing Large Language Models in three stages: ontology creation, refinement, and KG population.",
+      "evidence": "Achieves over 97% property coverage and minimal redundancy in knowledge graph construction.",
+      "limitation": "Focused on a specific domain (e-commerce), may not generalize to other fields.",
+      "gap_relevance": "Demonstrates a scalable method for knowledge extraction that could be adapted for scientific literature."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Dynamic Graph Neural Networks",
+      "problem": "Dynamic changes in graph structures and their impact on neural network performance.",
+      "method": "Not specified in the abstract.",
+      "evidence": "Addresses the need for adaptability in graph neural networks.",
+      "limitation": "Lacks specific experimental results or applications.",
+      "gap_relevance": "Indicates a potential research area in adapting GNNs for dynamic scientific literature contexts."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Hyperbolic Graph Neural Networks",
+      "problem": "Limitations of traditional graph representations in capturing hierarchical relationships.",
+      "method": "Not specified in the abstract.",
+      "evidence": "Proposes hyperbolic geometry as a solution for better representation.",
+      "limitation": "No empirical validation or application examples provided.",
+      "gap_relevance": "Suggests exploration of hyperbolic approaches in knowledge representation for scientific literature."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+      "problem": "Inefficiencies in current document classification methods regarding structure and context.",
+      "method": "Combines convolutional neural networks, gated recurrent units, and attention mechanisms.",
+      "evidence": "Improves classification results by leveraging hierarchical representation.",
+      "limitation": "Focuses on document classification without direct application to knowledge graphs.",
+      "gap_relevance": "Provides insights on incorporating document structure into GNNs for better knowledge discovery."
+    },
+    {
+      "paper_id": "P6",
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network",
+      "problem": "Limitations in conventional deep learning architectures regarding neural signal processing.",
+      "method": "Proposes a new framework based on polynomial chaos theory for neural networks.",
+      "evidence": "Suggests improvements in neural signal representation and reduces redundancy.",
+      "limitation": "Theoretical framework lacking practical application examples.",
+      "gap_relevance": "Encourages exploration of advanced neural network architectures for enhanced knowledge extraction in scientific literature."
+    }
+  ],
+  "summary": "The literature on Graph Neural Networks (GNNs) for large-scale knowledge discovery reveals significant advancements in document classification through hybrid neural architectures, yet highlights limitations in methodology and empirical validation. Notably, an AI-driven framework for automated knowledge graph construction in e-commerce demonstrates a scalable approach but lacks generalizability across domains. Additionally, the integration of chaos theory into deep learning presents a theoretical gap that could enhance neural network performance, suggesting a need for further empirical exploration in this intersection.",
+  "literature_tension_graph": "The literature reveals a tension between the advancements in hybrid neural architectures for document classification, which improve efficiency but lack empirical validation, and the theoretical frameworks proposed for integrating chaos theory into deep learning, which remain largely unexplored in practical applications. This presents a mechanism conflict where existing models do not leverage advanced mathematical frameworks effectively. Additionally, the AI-driven framework for knowledge graph construction in e-commerce demonstrates high property coverage but is limited in generalizability to other domains, indicating a scope conflict. The unresolved condition is the need for a GNN architecture that can adapt dynamically while integrating chaos theory principles. This suggests a research direction focused on developing a novel GNN model that empirically tests the integration of chaos theory to enhance knowledge extraction across diverse scientific literature.",
+  "scholarly_positioning": "While advancements in Graph Neural Networks (GNNs) have improved document classification through hybrid architectures, existing methodologies often lack empirical validation and struggle with dynamic adaptations necessary for large-scale knowledge discovery in scientific literature. The AI-driven framework for automated knowledge graph construction, though scalable, is limited by its domain specificity, indicating a gap in generalizable approaches across diverse fields. Furthermore, the theoretical integration of chaos theory into deep learning remains underexplored, suggesting that current models do not fully leverage advanced mathematical frameworks to enhance performance. This proposed research aims to address these limitations by developing a novel GNN architecture that incorporates chaos theory principles, thereby advancing the efficiency and effectiveness of knowledge extraction in scientific literature.",
+  "domain_router": "machine-learning method development; methodology template: Develop a novel GNN architecture incorporating chaos theory principles, utilizing empirical validation through ablation studies and performance metrics to evaluate knowledge extraction efficiency in scientific literature.",
+  "research_scope": "This study will develop a novel Graph Neural Network (GNN) architecture that integrates chaos theory principles to enhance knowledge extraction from scientific literature. The target domain will be large-scale document classification and knowledge graph construction, focusing on empirical validation through ablation studies over a 12-month evaluation period. The baseline for comparison will be existing hybrid neural architectures without chaos theory integration. Primary outcomes will include improvements in classification accuracy and knowledge graph completeness, while secondary outcomes will assess the adaptability of the GNN to dynamic changes in document structure. This research aims to provide a generalizable framework applicable across various scientific domains.",
+  "concept_definition": "1. Graph Neural Networks (GNNs): A type of neural network designed to process graph-structured data, allowing for the extraction of relationships and features from nodes and edges in a graph. 2. Chaos Theory: A branch of mathematics focusing on systems that are highly sensitive to initial conditions, leading to unpredictable behavior; in this context, it is integrated into GNNs to potentially improve adaptability and performance in knowledge extraction. 3. Document Classification: The process of categorizing documents into predefined classes based on their content, which is evaluated through classification accuracy metrics. 4. Knowledge Graph Construction: The creation of a graph-based representation of knowledge that captures entities and their relationships, assessed for completeness and accuracy. 5. Ablation Studies: Experimental procedures that involve systematically removing components of the GNN architecture to evaluate the impact on performance metrics, helping to isolate the effects of chaos theory integration. 6. Performance Metrics: Quantitative measures used to evaluate the effectiveness of the GNN, including classification accuracy, knowledge graph completeness, and adaptability to changes in document structure. 7. Empirical Validation: The process of testing the proposed GNN architecture against real-world data to confirm its effectiveness and reliability. 8. Hybrid Neural Architectures: Neural network models that combine different types of architectures (e.g., CNNs, RNNs) to leverage their strengths for tasks like document classification. 9. Dynamic Document Structures: Variations in the format and organization of documents over time, which the GNN must adapt to for effective knowledge extraction. 10. Generalizable Framework: A methodological structure that can be applied across various scientific domains, ensuring broad applicability of the research findings.",
+  "technical_feasibility": "The proposed study requires access to labeled datasets for training and evaluation of the GNN architecture, as well as GPU resources for model training and empirical validation. Additionally, it may benefit from open-source model access to facilitate integration of chaos theory principles into the GNN. If internal representations are to be studied, access to hidden states of the models would be necessary. The study does not appear to require human participants, ethics approval, or multilingual prompt sets, as it focuses on document classification and knowledge graph construction. A feasible adjustment would be to ensure access to appropriate labeled datasets and GPU resources, and to consider using existing open-source GNN frameworks to support the research objectives.",
+  "gap": "Prior studies have demonstrated advancements in hybrid neural architectures for document classification in the context of Graph Neural Networks (GNNs); however, the literature tension graph shows unresolved tension between the need for empirical validation and the theoretical integration of chaos theory into deep learning, leaving unclear whether chaos theory principles can enhance GNN performance in knowledge extraction under dynamic document structures; this matters theoretically because it could lead to improved methodologies in knowledge discovery; therefore, this study investigates the integration of chaos theory principles into GNN architectures to enhance knowledge extraction from scientific literature within the defined scope.",
+  "question": "How does the integration of chaos theory principles into Graph Neural Networks improve knowledge extraction efficiency in large-scale document classification and knowledge graph construction compared to existing hybrid neural architectures?",
+  "research_problem_validity_check": "The proposed research problem is non-trivial as it addresses the integration of chaos theory into Graph Neural Networks (GNNs), a relatively unexplored area with potential implications for knowledge extraction in scientific literature. Theoretically, it offers a meaningful contribution by bridging advanced mathematical concepts with practical applications in machine learning. The research question is empirically testable through the proposed methodologies, including ablation studies and performance metrics. This topic is likely to capture committee interest due to its innovative approach and relevance to current challenges in document classification and knowledge graph construction. However, the strongest reason for potential rejection could be the perceived complexity of integrating chaos theory into GNNs, which may raise concerns about feasibility. To enhance the research's depth and worthiness, the problem could be reframed to focus specifically on quantifying the impact of chaos theory integration on adaptability in dynamic document structures, thereby narrowing the scope while maintaining theoretical richness.",
+  "theoretical_mechanism": "The proposed research investigates the integration of chaos theory principles (independent variable) into Graph Neural Networks (GNNs) as a means to enhance knowledge extraction efficiency (dependent variable) in large-scale document classification and knowledge graph construction. The theoretical framework posits that chaos theory can improve the adaptability of GNNs (mediator) to dynamic document structures, thereby facilitating more effective knowledge extraction. The causal chain suggests that the incorporation of chaos theory leads to improved representation features within the GNN, which in turn enhances performance metrics such as classification accuracy and knowledge graph completeness. System-level outcomes include increased adaptability and performance metrics, while user-level outcomes focus on the overall effectiveness of knowledge extraction processes. Assumptions requiring empirical validation include the premise that chaos theory principles can be effectively integrated into GNN architectures and that this integration will yield measurable improvements in adaptability and performance.",
+  "hypothesis": "Integrating chaos theory principles into Graph Neural Networks (independent variable) will result in significantly higher classification accuracy and knowledge graph completeness (primary dependent variables) compared to existing hybrid neural architectures (baseline), with improved adaptability to dynamic document structures (mediator) enhancing overall knowledge extraction efficiency.",
+  "operationalization_causal_check": "{\n  \"constructs\": [\n    {\n      \"construct_name\": \"Chaos Theory Principles\",\n      \"role\": \"IV\",\n      \"measurement_instrument\": \"Integration framework metrics\",\n      \"data_source\": \"GNN architecture implementation\",\n      \"timing\": \"During model development and evaluation\"\n    },\n    {\n      \"construct_name\": \"Graph Neural Networks (GNNs)\",\n      \"role\": \"Mediator\",\n      \"measurement_instrument\": \"Performance metrics (e.g., representation accuracy)\",\n      \"data_source\": \"Model training and evaluation datasets\",\n      \"timing\": \"Throughout the 12-month evaluation period\"\n    },\n    {\n      \"construct_name\": \"Knowledge Extraction Efficiency\",\n      \"role\": \"DV\",\n      \"measurement_instrument\": \"Classification accuracy and knowledge graph completeness metrics\",\n      \"data_source\": \"Evaluation datasets and knowledge graph outputs\",\n      \"timing\": \"Post model evaluation\"\n    },\n    {\n      \"construct_name\": \"Adaptability to Dynamic Document Structures\",\n      \"role\": \"Mediator\",\n      \"measurement_instrument\": \"Adaptation performance metrics\",\n      \"data_source\": \"Dynamic document datasets\",\n      \"timing\": \"During and after model evaluation\"\n    },\n    {\n      \"construct_name\": \"Existing Hybrid Neural Architectures\",\n      \"role\": \"Baseline\",\n      \"measurement_instrument\": \"Comparison metrics\",\n      \"data_source\": \"Benchmark datasets\",\n      \"timing\": \"During comparative analysis\"\n    }\n  ],\n  \"causal_pathway\": \"Integration of chaos theory principles (IV) enhances GNN performance (Mediator), leading to improved knowledge extraction efficiency (DV).\",\n  \"likely_confounds\": \"Variability in dataset quality, differences in model training conditions, and potential biases in labeled data.\",\n  \"claim_boundaries\": \"The findings will be specific to the integration of chaos theory into GNNs for document classification and knowledge graph construction; generalizability to other domains requires further investigation.\",\n  \"what_cannot_be_concluded\": \"Causation cannot be definitively established without controlling for all confounding variables; the study cannot conclude that chaos theory principles will universally improve all GNN applications.\"\n}",
+  "methodology": "This study will develop a novel Graph Neural Network (GNN) architecture that integrates chaos theory principles to enhance knowledge extraction from scientific literature. The methodology involves training the GNN on labeled datasets of scientific documents, with a focus on large-scale document classification and knowledge graph construction. An ablation study will be conducted to compare the proposed GNN against existing hybrid neural architectures, specifically evaluating classification accuracy and knowledge graph completeness as primary metrics. Adaptability to dynamic document structures will be assessed using performance metrics during and after model evaluation. Controls for confounding variables will include dataset quality and model training conditions, ensuring reproducibility through the use of standardized datasets and open-source frameworks. The scope will be limited to scientific literature, with findings contextualized within this domain to ensure clarity and relevance.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This research introduces a theoretical framework that integrates chaos theory principles into Graph Neural Networks (GNNs), positing that such integration enhances the adaptability of GNNs to dynamic document structures, thereby improving knowledge extraction efficiency.\",\n  \"technical_contribution\": \"The study develops a unique GNN architecture that incorporates chaos theory mechanisms, creating a new method for processing and classifying scientific literature that is distinct from existing hybrid neural architectures.\",\n  \"empirical_contribution\": \"Through rigorous ablation studies, this research empirically validates the effectiveness of the proposed GNN architecture against baseline models, providing new performance metrics for classification accuracy and knowledge graph completeness in large-scale document classification.\",\n  \"practical_deployment_contribution\": \"The findings will yield a deployment guideline for implementing chaos theory-enhanced GNNs in automated knowledge graph construction, offering a scalable approach applicable across various scientific domains, thus addressing the limitations of current AI-driven frameworks.\"\n}",
+  "contribution_type_router": "The primary contribution type for this proposal is theoretical. This fits well with the identified tension in the literature regarding the integration of chaos theory into Graph Neural Networks (GNNs) and the need for empirical validation of such frameworks. The proposal must emphasize the innovative theoretical framework that connects chaos theory with GNN adaptability and knowledge extraction efficiency. It should avoid overly technical details that detract from the theoretical implications and instead focus on how this integration can lead to improved methodologies in knowledge discovery. By grounding the research in a theoretical context, it can effectively address the gaps identified in existing literature while providing a clear pathway for empirical validation.",
+  "phd_contribution_design": "This research proposes a novel Graph Neural Network (GNN) architecture that integrates chaos theory principles to enhance knowledge extraction efficiency in large-scale document classification and knowledge graph construction. The mechanism-level claim posits that chaos theory improves GNN adaptability to dynamic document structures, leading to better representation features and performance metrics. Existing literature lacks empirical validation of chaos theory integration in GNNs, leaving a gap in understanding its potential benefits for knowledge discovery. The falsifiable claim is that the proposed GNN will achieve significantly higher classification accuracy and knowledge graph completeness compared to existing hybrid neural architectures. The strongest baseline for comparison will be established through ablation studies against current hybrid models without chaos theory integration. Evidence for the hypothesis will be measured through performance metrics, including classification accuracy and knowledge graph completeness. A negative result would suggest that chaos theory principles do not enhance GNN performance, indicating the need for alternative methodologies in knowledge extraction.",
+  "pre_proposal_critique": "This contribution design may struggle to achieve an 85+ PhD-level score due to several critical weaknesses. First, the novelty claim is undermined by a lack of clear differentiation from existing hybrid architectures, necessitating a more robust articulation of how chaos theory integration uniquely enhances GNNs. Second, the theoretical framework lacks depth; it must provide a more comprehensive explanation of how chaos theory specifically influences GNN adaptability and performance. Lastly, the proposal does not sufficiently address empirical validation; it should include detailed plans for ablation studies that explicitly isolate the effects of chaos theory integration. To repair these issues, the proposal must clarify the unique contributions of chaos theory, deepen the theoretical rationale, and outline specific ablation methodologies to validate the claims effectively.",
+  "failure_analysis": "{\n  \"risks\": [\n    {\n      \"failure_mode\": \"Data Sparsity\",\n      \"risk\": \"Insufficient labeled datasets may lead to overfitting and poor generalization.\",\n      \"mitigation_strategy\": \"Utilize data augmentation techniques and transfer learning from related domains to enhance dataset size and diversity.\"\n    },\n    {\n      \"failure_mode\": \"Model Overfitting\",\n      \"risk\": \"The GNN may perform well on training data but poorly on unseen data.\",\n      \"mitigation_strategy\": \"Implement regularization techniques and conduct thorough cross-validation to ensure model robustness.\"\n    },\n    {\n      \"failure_mode\": \"Integration Challenges\",\n      \"risk\": \"Difficulties in effectively integrating chaos theory principles into GNN architecture may hinder performance improvements.\",\n      \"mitigation_strategy\": \"Conduct preliminary studies to identify optimal integration methods and iteratively refine the architecture based on empirical feedback.\"\n    },\n    {\n      \"failure_mode\": \"Dynamic Document Structure Adaptability\",\n      \"risk\": \"The GNN may struggle to adapt to changes in document formats, affecting knowledge extraction.\",\n      \"mitigation_strategy\": \"Incorporate adaptive learning techniques and continuously update the model with new document structures during the evaluation period.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretations\",\n      \"risk\": \"Findings may be misinterpreted as chaos theory being ineffective if improvements are marginal.\",\n      \"mitigation_strategy\": \"Clearly communicate the limitations of the study and contextualize results within the scope of existing literature.\"\n    },\n    {\n      \"failure_mode\": \"Validity Threats\",\n      \"risk\": \"Confounding variables may skew results, leading to inaccurate conclusions about the effectiveness of chaos theory integration.\",\n      \"mitigation_strategy\": \"Control for confounding factors through standardized datasets and rigorous experimental design to enhance internal validity.\"\n    },\n    {\n      \"failure_mode\": \"Low Engagement with Findings\",\n      \"risk\": \"Limited interest from the scientific community may reduce the impact of the research.\",\n      \"mitigation_strategy\": \"Engage with stakeholders early in the research process and disseminate findings through workshops, conferences, and publications.\"\n    }\n  ]\n}",
+  "bad_proposal_pattern_detector": "The proposal exhibits several bad patterns, including overclaiming novelty and a weak baseline. The novelty claim lacks a clear differentiation from existing hybrid architectures, which could lead to skepticism regarding its originality. Additionally, the proposal does not sufficiently outline the ablation studies that would isolate the effects of chaos theory integration, weakening the empirical validation aspect. The causal mechanism is presented in a somewhat vague manner, which may hinder clarity and testability. To improve the proposal, it is essential to clearly articulate how chaos theory uniquely enhances GNNs, provide a robust plan for ablation studies, and refine the theoretical rationale to ensure a strong connection between chaos theory and GNN adaptability. Addressing these issues will enhance the proposal's clarity, novelty, and feasibility, increasing its potential score.",
+  "evidence_claim_alignment": "The proposal's literature gap regarding the integration of chaos theory into GNNs is supported weakly by P1, which highlights the need for improved methodologies in large-scale GNNs but lacks empirical validation. The mechanism claiming that chaos theory enhances GNN adaptability is not strongly supported by the retrieved evidence, particularly as P6 focuses on theoretical frameworks without practical applications. The novelty of the proposed integration of chaos theory is not explicitly grounded in the retrieved papers, suggesting a need for clearer citations to support this claim. The method feasibility is implied but should be hedged by specifying dataset availability and computational resources. The baseline comparison against existing hybrid architectures is well-founded through P5, which discusses hybrid neural architectures, but needs to clarify how the proposed GNN will differ. Overall, the proposal should narrow its claims about chaos theory integration and provide more concrete evidence from the literature to strengthen its theoretical contributions and empirical validation plans.",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Tentative; P1 highlights the need for improved methodologies in GNNs, but lacks empirical validation.",
+    "tension_to_problem": "Yes; the research problem arises from the tension between existing hybrid architectures' limitations and the theoretical integration of chaos theory.",
+    "problem_validity": "Yes; the validity check confirms the research question is non-trivial, testable, and relevant for PhD-level research.",
+    "contribution_type_alignment": "Yes; the theoretical contribution aligns with the research question and proposed methodology.",
+    "domain_to_method": "Yes; the methodology of developing a GNN architecture fits the domain of knowledge extraction in scientific literature.",
+    "concept_to_metric": "Yes; core concepts like knowledge extraction efficiency are operationally defined and measured through classification accuracy and completeness.",
+    "feasibility_to_method": "Yes; the method is feasible given access to datasets and computational resources.",
+    "scope_to_gap": "Yes; the study scope is specific to the integration of chaos theory into GNNs, addressing the identified gap.",
+    "gap_to_question": "The gap regarding chaos theory integration leads to the research question on its impact on GNN performance.",
+    "question_to_hypothesis": "The research question logically leads to the hypothesis that chaos theory integration will enhance performance metrics.",
+    "hypothesis_to_methodology": "The methodology includes ablation studies to empirically test the hypothesis regarding performance improvements.",
+    "methodology_to_evaluation": "The planned evaluation through performance metrics directly answers the research question about knowledge extraction efficiency.",
+    "contribution_to_test": "Yes; the PhD contribution design is tested through the proposed methodology and evaluation metrics.",
+    "reviewer_attack_to_repair": "Yes; the final proposal addresses reviewer concerns about novelty and empirical validation.",
+    "bad_pattern_repair": "Yes; the proposal avoids generic claims and overreaching assertions, focusing on specific contributions.",
+    "evidence_claim_alignment": "Yes; core claims are supported by retrieved evidence, though some links could be strengthened.",
+    "weak_links": [
+      "The link between chaos theory principles and specific GNN performance metrics could be more explicitly detailed.",
+      "Further empirical support for the integration of chaos theory into GNNs is needed."
+    ]
+  },
+  "proposal": "This research proposes to develop a novel Graph Neural Network (GNN) architecture that integrates chaos theory principles to enhance knowledge extraction efficiency in large-scale document classification and knowledge graph construction within scientific literature. Current hybrid architectures often lack adaptability to dynamic document structures and empirical validation, which limits their effectiveness in knowledge discovery. The identified gap highlights the theoretical integration of chaos theory into GNNs, which remains underexplored in empirical studies, necessitating a focused investigation. The research question is: How does the integration of chaos theory principles into GNNs improve knowledge extraction efficiency in large-scale document classification compared to existing hybrid architectures? The theoretical mechanism posits that chaos theory enhances GNN adaptability to dynamic document structures, leading to improved knowledge extraction efficiency and better representation features. The falsifiable hypothesis states that the proposed GNN will achieve significantly higher classification accuracy and knowledge graph completeness compared to existing hybrid architectures. Constructs will be operationalized through metrics such as classification accuracy (percentage of correctly classified documents) and knowledge graph completeness (coverage of entities and relationships), utilizing performance evaluations against a baseline of existing hybrid models. The methodology involves training the GNN on labeled datasets, conducting rigorous ablation studies to isolate the effects of chaos theory integration, and assessing adaptability through performance metrics. Validity will be ensured by controlling for confounding variables, employing standardized datasets, and utilizing open-source frameworks to enhance reproducibility. The expected contributions include theoretical advancements in GNN adaptability, technical innovations in chaos theory integration, empirical validation of performance metrics, and practical deployment guidelines for knowledge graph construction. Key limitations include potential data sparsity, model overfitting, integration challenges, and adaptability issues, which will be mitigated through robust experimental design and stakeholder engagement. This research aims to fill the critical gap in the literature by providing a comprehensive understanding of how chaos theory can uniquely enhance GNN performance, thereby advancing methodologies in knowledge extraction.",
+  "draft_proposal": "This research proposes to develop a novel Graph Neural Network (GNN) architecture that integrates chaos theory principles to enhance knowledge extraction efficiency in large-scale document classification and knowledge graph construction. The study will focus on scientific literature, utilizing defined concepts such as GNNs, chaos theory, document classification, and knowledge graph construction. Technical feasibility assumes access to labeled datasets and GPU resources for model training. The scholarly positioning highlights the gap in empirical validation of chaos theory integration within GNNs, as existing hybrid architectures lack adaptability and generalizability. The research question investigates how chaos theory integration improves knowledge extraction efficiency compared to existing models. The theoretical mechanism posits that chaos theory enhances GNN adaptability (mediator) to dynamic document structures, leading to improved knowledge extraction efficiency (dependent variable) and better representation features. The falsifiable hypothesis states that the proposed GNN will achieve significantly higher classification accuracy and knowledge graph completeness compared to existing hybrid architectures. Construct operationalization includes metrics for chaos theory integration, GNN performance, knowledge extraction efficiency, and adaptability. The methodology involves training the GNN on labeled datasets, conducting ablation studies against hybrid architectures, and assessing adaptability through performance metrics. The PhD contribution design emphasizes the theoretical integration of chaos theory into GNNs, addressing the literature gap and providing a framework for empirical validation. To address potential reviewer concerns, the proposal will clarify the unique contributions of chaos theory, deepen the theoretical rationale, and outline specific ablation methodologies for validation. The expected contributions include theoretical advancements in GNN adaptability, technical innovations in chaos theory integration, empirical validation of performance metrics, and practical deployment guidelines for knowledge graph construction. Key limitations include potential data sparsity, model overfitting, integration challenges, and adaptability issues, which will be mitigated through robust experimental design and stakeholder engagement.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding the integration of chaos theory into GNNs is valid but lacks strong empirical grounding from the retrieved literature, which primarily discusses theoretical frameworks without practical applications.",
+      "literature_grounding": "The literature grounding is weak; while it identifies a gap, it does not sufficiently leverage existing studies that explore chaos theory or GNNs to substantiate the need for this research.",
+      "meaningfulness": "The gap is meaningful as it addresses a theoretical integration that could enhance knowledge extraction, but it needs clearer articulation of its significance in advancing the field.",
+      "already_solved_risk": "There is a risk that existing works may have already addressed aspects of this gap, particularly in hybrid architectures, which could diminish the novelty of the proposal."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but lacks a critical comparative synthesis that highlights how existing methodologies fail to address the identified tensions.",
+      "unresolved_tensions": "Unresolved tensions between the theoretical integration of chaos theory and the empirical validation of GNNs are not adequately articulated, weakening the scholarly positioning.",
+      "positioning_quality": "The positioning quality is moderate; it identifies relevant literature but does not critically engage with it to highlight gaps and unresolved issues."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The methodology aligns with the domain of machine learning and knowledge extraction, focusing on GNNs.",
+      "methodology_template_fit": "The proposed methodology fits within the domain but could benefit from more specific techniques tailored to chaos theory integration.",
+      "template_transfer_risk": "There is a risk of inappropriate template transfer if methodologies from unrelated domains are applied without adaptation to the specific challenges of GNNs."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is somewhat specific but could be further refined to clearly define the types of documents and knowledge graphs being targeted.",
+      "population_or_task_definition": "The population/task definition is vague; it should specify the types of scientific literature and the criteria for document selection.",
+      "intervention_and_comparison_definition": "The intervention (chaos theory integration) and comparison (existing hybrid architectures) are defined, but the specific implementation details need clarity.",
+      "outcome_definition": "Outcome definitions are present but should specify how improvements in classification accuracy and knowledge graph completeness will be measured."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Technical terms such as 'chaos theory' and 'GNNs' are defined, but additional terms related to adaptability and performance metrics need clearer operational definitions.",
+      "implementation_specificity": "The proposal lacks specificity in how chaos theory will be operationalized within the GNN architecture.",
+      "level_of_analysis_clarity": "The level of analysis is appropriate for a PhD study, but clearer definitions of constructs would enhance clarity."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to necessary models and datasets is assumed but should be explicitly confirmed to ensure feasibility.",
+      "data_and_compute_requirements": "Data and compute requirements are realistic, but the proposal should specify the types of datasets needed for training and evaluation.",
+      "human_or_multilingual_resources": "No human participants or multilingual resources are required, which simplifies feasibility.",
+      "feasible_adjustments": "Adjustments may include identifying open-source datasets and frameworks to ensure the research can be conducted within available resources."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on the impact of chaos theory on GNN performance.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, addressing a significant gap in the literature.",
+      "variable_clarity": "The variables are defined, but clarity could be improved regarding how they will be measured and analyzed."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The proposed mechanism lacks depth; it should more explicitly explain how chaos theory enhances GNN adaptability and performance.",
+      "theoretical_framing": "The theoretical framing is present but needs to connect chaos theory principles directly to GNN performance improvements.",
+      "assumption_transparency": "Assumptions about the integration of chaos theory and its expected effects on GNNs need to be more clearly stated."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it should specify the conditions under which chaos theory integration would not yield improvements.",
+      "mechanism_grounding": "The grounding of the hypothesis in the proposed mechanism is weak; it should explicitly link chaos theory principles to expected outcomes.",
+      "measurable_outcome": "Measurable outcomes are defined, but the proposal should detail how these will be quantitatively assessed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Constructs are operationalized, but the proposal should specify the measurement instruments for each variable.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but clarity on how they will be collected and analyzed is needed.",
+      "causal_identification": "Causal identification is present, but the proposal should articulate how confounding variables will be controlled.",
+      "confound_awareness": "There is some awareness of confounding variables, but more detail on how they will be managed is necessary.",
+      "claim_boundaries": "Claim boundaries are defined, but the proposal should clarify the limits of generalizability."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline validity is reasonable, but the proposal should specify how existing hybrid architectures will be selected for comparison.",
+      "metric_validity": "Metric validity is implied but should be explicitly stated to ensure robustness in evaluation.",
+      "statistical_or_evaluation_validity": "Statistical validity needs more detail on the methods that will be used for analysis.",
+      "reproducibility": "Reproducibility is addressed, but the proposal should outline specific protocols for data handling and model training.",
+      "confound_control": "Confound control measures are mentioned but need to be elaborated for clarity.",
+      "risk_analysis": "Risk analysis is present but could benefit from a more detailed exploration of potential methodological challenges."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical novelty is present but needs to be articulated more clearly to differentiate it from existing works.",
+      "methodological_novelty": "Methodological novelty is implied but should be explicitly stated to highlight unique aspects of the proposed approach.",
+      "practical_novelty": "Practical novelty is suggested but requires clearer articulation of how the findings will be applied in real-world contexts.",
+      "derivativeness_risk": "There is a risk of derivativeness if the proposal does not clearly differentiate its contributions from existing literature."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the proposal should include more specific strategies for mitigation.",
+      "limitation_depth": "Limitation depth is adequate, but the proposal should acknowledge potential biases in data and methodology.",
+      "risk_mitigation": "Risk mitigation strategies are present but need to be more detailed to ensure robustness."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contribution clarity is moderate; the proposal should emphasize unique contributions more distinctly.",
+      "novelty_type": "theoretical",
+      "coherence": "Coherence is generally good, but some sections could be more tightly integrated.",
+      "limitation_awareness": "Limitation awareness is present but should be expanded to include potential biases and external factors.",
+      "academic_communication": "Academic communication is adequate but could be improved with clearer articulation of complex concepts."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads to the question, but the connection could be made more explicit.",
+      "question_to_hypothesis": "The question leads to the hypothesis logically, but the hypothesis needs clearer grounding in the proposed mechanism.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but more detail on the methodology is needed to ensure alignment.",
+      "method_to_evaluation": "The method can evaluate the hypothesis, but clarity on evaluation metrics is necessary."
+    },
+    "revision_plan": "Revise the gap stage to strengthen literature grounding and clarify the significance of the identified gap. Enhance the theoretical mechanism section to explicitly connect chaos theory principles to GNN performance. Improve the methodology section by detailing the ablation studies and specifying how constructs will be operationalized and measured."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 67.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: understandable but partially broad or insufficiently operationalized",
+        "justification": "The proposal identifies a relevant research problem regarding the integration of chaos theory into GNNs, but lacks precise operational definitions for key concepts and does not sufficiently delineate the boundaries of the research scope. Major weaknesses: Key concepts such as 'knowledge extraction efficiency' and 'adaptability' are not clearly operationalized, leading to ambiguity in the research question. The proposal also does not sufficiently differentiate the research problem from existing applications. Next band requirements: To move into the next band, the proposal must provide clear operational definitions of constructs and explicitly outline the research boundaries, ensuring that the problem is framed as a genuine research inquiry rather than an application idea."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from the research problem to the hypothesis, but there are gaps in the justification of assumptions, particularly regarding the causal mechanisms linking chaos theory and GNN performance. Major weaknesses: The causal claims regarding chaos theory's impact on GNN adaptability are not sufficiently supported by empirical evidence or theoretical grounding, leading to potential weaknesses in the logical coherence of the argument. Next band requirements: To improve, the proposal needs to provide stronger theoretical justification for the causal claims and ensure that all components of the reasoning chain are clearly connected and supported by literature."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal suggests an interesting integration of chaos theory into GNNs, but the novelty is undermined by a lack of clear differentiation from existing hybrid architectures and insufficient theoretical depth. Major weaknesses: The contribution is framed as novel but lacks a compelling argument for how it advances the field beyond existing methodologies. The proposal does not adequately address how chaos theory uniquely enhances GNNs. Next band requirements: To achieve a higher score, the proposal must articulate a clearer theoretical framework that distinguishes its contributions from existing work and demonstrates how the integration of chaos theory leads to significant advancements in GNN performance."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 13.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodological framework is outlined, but lacks detailed plans for ablation studies and empirical validation, which are crucial for assessing the proposed GNN's performance. Major weaknesses: The proposal does not sufficiently detail the experimental design, including how confounding variables will be controlled and how reproducibility will be ensured. The baseline comparisons are not clearly defined. Next band requirements: To improve, the proposal should provide a comprehensive experimental design, including specific plans for ablation studies, baseline definitions, and strategies for controlling confounding variables."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but does not deeply engage with it or clearly identify genuine gaps in existing research. The positioning relative to competing approaches is weak. Major weaknesses: The literature review lacks critical synthesis and does not sufficiently explain why existing work is inadequate. There is a missed opportunity to situate the research within broader debates in the field. Next band requirements: To enhance this criterion, the proposal must provide a more thorough literature review that critically engages with prior work and clearly articulates the research gaps that the proposed study addresses."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical sophistication, but lacks depth in discussing the mechanisms by which chaos theory is expected to influence GNN performance. Major weaknesses: The theoretical mechanisms are not fully articulated, and the proposal does not adequately discuss limitations or potential failure cases, which are essential for PhD-level research. Next band requirements: To achieve a higher score, the proposal must provide a more in-depth discussion of the theoretical mechanisms and limitations, as well as a more sophisticated understanding of the implications of the research."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, but some sections could benefit from greater conciseness and precision in terminology. Major weaknesses: There are instances of redundancy and vague phrasing that detract from the overall clarity of the proposal. Next band requirements: To improve, the proposal should focus on enhancing clarity and conciseness, ensuring that all terminology is precise and that the writing is free from unnecessary repetition."
+      }
+    ],
+    "comments": "Total score: 67.0/100. Academic level: Master's-level. Major strengths: The proposal identifies a relevant and timely research problem.; It demonstrates a clear understanding of the integration of chaos theory into GNNs. Major weaknesses: Lacks clear operational definitions and boundaries for key concepts.; Insufficient theoretical depth and empirical validation plans.; Weak literature engagement and positioning. Required improvements for true PhD-level quality: Provide clear operational definitions and boundaries for the research problem.; Strengthen the theoretical framework and causal claims with empirical support.; Enhance the literature review to critically engage with prior work and identify genuine gaps. Final verdict: The proposal demonstrates potential but lacks the depth and rigor required for genuine PhD-level research maturity. Significant improvements are needed in clarity, theoretical grounding, and empirical validation."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 3,
+        "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+        "similarity": 0.6131
+      },
+      {
+        "original_index": 5,
+        "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+        "similarity": 0.4683
+      },
+      {
+        "original_index": 6,
+        "title": "Dynamic Graph Neural Networks",
+        "similarity": 0.4661
+      },
+      {
+        "original_index": 4,
+        "title": "Hyperbolic Graph Neural Networks",
+        "similarity": 0.4394
+      },
+      {
+        "original_index": 2,
+        "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+        "similarity": 0.4023
+      },
+      {
+        "original_index": 1,
+        "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+        "similarity": 0.3004
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 5,
+          "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+          "similarity": 0.5977
+        },
+        {
+          "paper_index": 6,
+          "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+          "similarity": 0.5335
+        },
+        {
+          "paper_index": 1,
+          "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+          "similarity": 0.4866
+        }
+      ],
+      "max_similarity": 0.5977,
+      "mean_similarity": 0.479
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 5,
+          "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+          "similarity": 0.5455
+        },
+        {
+          "paper_index": 1,
+          "title": "Large-Scale Graph Neural Networks: The Past and New Frontiers",
+          "similarity": 0.5238
+        },
+        {
+          "paper_index": 6,
+          "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+          "similarity": 0.493
+        }
+      ],
+      "max_similarity": 0.5455,
+      "mean_similarity": 0.4779
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Graph Neural Networks for Large-Scale Knowledge Discovery in Scientific Literature",
+    "retrieval_snapshot_id": "20260528T133449Z-graph-neural-networks-for-large-scale-knowledge-discovery-in-scientific-literatu-6",
+    "latency_ms": 331943,
+    "prompt_tokens": 89689,
+    "completion_tokens": 11098,
+    "total_tokens": 100787,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

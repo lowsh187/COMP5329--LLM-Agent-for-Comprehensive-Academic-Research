@@ -22,14 +22,20 @@ QUALITY_METRICS = [
 async def run_single_topic_experiment(request: ExperimentRequest) -> ExperimentResult:
     experiment_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     retrieval_query = clean_retrieval_query(request.topic)
-    papers = await search_literature(request.topic, request.max_papers)
-    retrieval_snapshot_id = save_retrieval_snapshot(
-        request.topic,
-        request.max_papers,
-        papers,
-        retrieval_query,
-    )
-    print(f"[experiment] shared retrieval snapshot: {retrieval_snapshot_id}", flush=True)
+    retrieval_conditions = [condition for condition in request.conditions if condition != "baseline_with_retrieval"]
+    papers = []
+    retrieval_snapshot_id = None
+    if retrieval_conditions:
+        papers = await search_literature(request.topic, request.max_papers)
+        retrieval_snapshot_id = save_retrieval_snapshot(
+            request.topic,
+            request.max_papers,
+            papers,
+            retrieval_query,
+        )
+        print(f"[experiment] shared retrieval snapshot: {retrieval_snapshot_id}", flush=True)
+    else:
+        print("[experiment] retrieval skipped because all conditions are single-prompt baselines", flush=True)
     runs: list[ResearchResult] = []
 
     for condition in request.conditions:
@@ -46,8 +52,8 @@ async def run_single_topic_experiment(request: ExperimentRequest) -> ExperimentR
                     experiment_id=experiment_id,
                     run_index=run_index,
                 ),
-                papers_override=papers,
-                retrieval_snapshot_id_override=retrieval_snapshot_id,
+                papers_override=papers if condition != "baseline_with_retrieval" else None,
+                retrieval_snapshot_id_override=retrieval_snapshot_id if condition != "baseline_with_retrieval" else None,
             )
             runs.append(result)
 

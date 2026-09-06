@@ -1,0 +1,54 @@
+Task: Route the proposal to one primary PhD contribution type.
+
+Topic:
+{topic}
+
+Retrieved papers and agent profile guidance:
+{papers_context}
+
+Literature summary:
+{summary}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Literature tension graph:
+{literature_tension_graph}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Research problem validity check:
+{research_problem_validity_check}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Methodology:
+{methodology}
+
+Novelty and contribution:
+{novelty_contribution}
+
+Routing requirements:
+- Choose one primary contribution type: theoretical, methodological, empirical, benchmark/dataset, system, evaluation framework, or mixed-but-dominated-by-one.
+- Explain why this type is the right fit for the tension graph and research question.
+- State what the proposal must emphasize and what it should avoid.
+- If the idea is mainly a system contribution, require a research-level evaluation framework or mechanism claim so it does not become mere engineering.
+
+Return JSON with exactly this key:
+{{
+  "contribution_type_router": "A concise contribution routing decision in 4-7 sentences naming the primary contribution type, why it fits, what must be emphasized, and what must be avoided."
+}}

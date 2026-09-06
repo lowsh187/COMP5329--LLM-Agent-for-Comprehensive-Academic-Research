@@ -1,0 +1,758 @@
+{
+  "experiment_id": "20260527T061144Z",
+  "run_index": 1,
+  "topic": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "condition": "multi_stage_group_selection",
+  "retrieval_query": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+  "retrieval_snapshot_id": "20260527T061158Z-interpretable-and-controllable-large-language-models-for-high-stakes-decision-ma-3",
+  "papers": [
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2025-5",
+      "url": "https://doi.org/10.55248/gengpi.6.0525.1615",
+      "source": "Crossref"
+    },
+    {
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "authors": [
+        "Krunal Wankhade",
+        "Devesh Jain",
+        "Sakshi Suryavanshi"
+      ],
+      "abstract": "— Large Language Models (LLMs) are revolutionizing healthcare by enhancing clinical documentation, diagnostics, and decision-making. However, their opaque ”black-box” nature poses significant challenges in high-stakes medical contexts, where trust, accountability, and interpretability are paramount. This paper investigates strategies to enhance the interpretability of LLMs in healthcare, drawing on insights from an Explainable AI (XAI) review paper [1]. We explore post-hoc explanation methods (e.g., SHAP, LIME), hybrid human-AI frameworks, and inherently transparent architectures like neurosymbolic models. Key challenges—such as bias, hallucinations, regulatory compliance, and computational complexity—are analyzed. We propose that structured prompting techniques, such as Chain-of-Thought (CoT) augmented with diagnostic reasoning [2], can align LLM outputs with clinical reasoning processes, improving transparency without sacrificing accuracy. By integrating findings from XAI literature, this study evaluates how interpretable LLMs can bridge the trust gap between AI systems and clinicians, ensuring ethical, fair, and practical deployment in real-world healthcare settings. Future research directions focus on balancing predictive performance with explainability and meeting regulatory standards.",
+      "published": "2025-05-01",
+      "url": "https://www.semanticscholar.org/paper/12115434fdfa47869ea6f3c24c5bd82ba99ced65",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+      "authors": [
+        "Sravan Kumar Chittimalla",
+        "Leela Krishna Potluri"
+      ],
+      "abstract": "In high-stakes decision-making, such as healthcare diagnostics, financial forecasting, and legal judgments, trust and transparency are key in AI systems. LLMs have indeed proved to be very capable in processing and generating human-like text, making them invaluable tools in these critical sectors. However, the opacity of their decision-making processes poses a significant challenge for accountability and ethical compliance. This paper introduces comprehensive Explainable AI frameworks tailored for LLMs with the goal of improving their interpretability and reliability for high-stakes environments. Using publicly available real-world datasets, we systematically study the effectiveness of various XAI techniques, including attention visualization, feature importance mapping, and counterfactual explanations. Our findings point to the fact that such embedding serves not only to demystify the decision pathways of LLMs but also to bring their operations in line with regulatory standards and stakeholder expectations. This research makes its contribution to responsible LLM deployment in situations where mistakes have significant consequences by closing the gap between sophisticated AI capabilities and the need for transparent decision-making. The proposed XAI frameworks will, in the end, be a starting point for trust, ethics, and wider acceptance of AI-driven solutions in high-stakes domains.",
+      "published": "2025-03-14",
+      "url": "https://www.semanticscholar.org/paper/274553ea5cea8efab6698af85c99eb73784256ec",
+      "source": "Semantic Scholar"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Interpretable AI in Healthcare Decision-Making",
+      "paper_indices": [
+        1
+      ],
+      "summary": "This cluster primarily investigates the development of interpretable large language models (LLMs) tailored for high-stakes decision-making in healthcare. It emphasizes the importance of explainable artificial intelligence (XAI) in enhancing trust and understanding among healthcare professionals when utilizing AI-driven insights.",
+      "limitations": "The cluster lacks comprehensive empirical studies demonstrating the effectiveness of these interpretable models in real-world healthcare settings. Additionally, there is a need for more diverse datasets to evaluate the models' performance across various demographics and medical conditions.",
+      "gap_relevance": "This cluster highlights the critical need for research focused on the interpretability of AI in healthcare, addressing the gap in understanding how LLMs can be effectively integrated into clinical workflows while ensuring transparency and accountability."
+    },
+    {
+      "theme": "Interpretability of Large Language Models in High-Stakes Decision-Making",
+      "paper_indices": [
+        2,
+        3
+      ],
+      "summary": "This cluster investigates the challenges and strategies for enhancing the interpretability of Large Language Models (LLMs) in high-stakes environments like healthcare, finance, and law. It emphasizes the importance of trust and transparency in AI systems, proposing various Explainable AI (XAI) frameworks and techniques such as post-hoc explanation methods, attention visualization, and structured prompting to improve accountability and ethical compliance.",
+      "limitations": "Key limitations include the persistent challenges of bias, hallucinations, and computational complexity in LLMs, as well as the need for regulatory compliance. The effectiveness of proposed XAI techniques in real-world applications remains to be fully validated.",
+      "gap_relevance": "This cluster highlights the need for further research into the integration of interpretability techniques in LLMs, addressing the gap between advanced AI capabilities and the ethical requirements of high-stakes decision-making, thereby guiding future studies on responsible AI deployment."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+      "problem": "The opaque nature of LLMs in high-stakes medical contexts, impacting trust and accountability.",
+      "method": "Exploration of post-hoc explanation methods (SHAP, LIME), hybrid human-AI frameworks, and neurosymbolic models.",
+      "evidence": "Structured prompting techniques like Chain-of-Thought can enhance interpretability without sacrificing accuracy.",
+      "limitation": "Challenges such as bias, hallucinations, and computational complexity remain unresolved.",
+      "gap_relevance": "Supports the need for methodologies that balance interpretability and predictive performance in LLMs."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+      "problem": "The opacity of LLM decision-making processes in critical sectors like healthcare and finance.",
+      "method": "Systematic study of XAI techniques including attention visualization, feature importance mapping, and counterfactual explanations using real-world datasets.",
+      "evidence": "XAI techniques can demystify LLM decision pathways and align operations with regulatory standards.",
+      "limitation": "The effectiveness of XAI frameworks in diverse real-world applications has not been fully evaluated.",
+      "gap_relevance": "Highlights the need for comprehensive frameworks that ensure ethical compliance and transparency in AI systems."
+    }
+  ],
+  "summary": "The retrieved literature emphasizes the development and challenges of interpretable large language models (LLMs) for high-stakes decision-making, particularly in healthcare and finance. Key themes include the necessity of explainable AI (XAI) to enhance trust and transparency, alongside various proposed frameworks and techniques for improving interpretability. However, limitations such as unresolved biases, hallucinations, and the need for empirical validation in diverse real-world contexts highlight significant gaps in current research, underscoring the importance of balancing interpretability with predictive performance.",
+  "scholarly_positioning": "Current research on interpretable large language models (LLMs) for high-stakes decision-making has primarily focused on enhancing trust and transparency through various Explainable AI (XAI) techniques. However, existing studies often overlook the empirical validation of these methods in diverse real-world settings, particularly in healthcare and finance, where the stakes are significantly high. Furthermore, unresolved issues such as bias, hallucinations, and computational complexity persist, limiting the practical applicability of proposed frameworks. This proposed research aims to address these critical gaps by developing robust methodologies that not only enhance interpretability but also ensure ethical compliance and predictive performance, thereby contributing to the broader discourse on responsible AI deployment in high-stakes environments.",
+  "domain_router": "{\n  \"domain\": [\n    \"LLM safety/AI evaluation\",\n    \"HCI/user trust\",\n    \"social science/policy/ethics\"\n  ],\n  \"methodology_template\": {\n    \"interpretability\": [\n      \"baseline comparisons\",\n      \"output-level explanation/filtering\",\n      \"representation-level method comparisons\"\n    ],\n    \"HCI_user_trust\": [\n      \"controlled between-subject explanation conditions\",\n      \"trust calibration measures\"\n    ],\n    \"LLM_safety\": [\n      \"benchmark evaluation\",\n      \"ablation studies\",\n      \"human evaluation\"\n    ]\n  }\n}",
+  "research_scope": "This study will investigate the effectiveness of interpretable large language models (LLMs) in enhancing decision-making for patients with diabetes in clinical settings. The intervention will involve the deployment of a neurosymbolic model that utilizes post-hoc explanation methods, such as SHAP and attention visualization, over a six-month evaluation period. A controlled between-subject design will compare outcomes between healthcare professionals using the interpretable LLM and those using standard LLM outputs. Primary outcomes will include trust calibration measures and decision accuracy in patient management, while secondary outcomes will assess user satisfaction and perceived transparency of AI insights. This research aims to provide empirical validation of XAI techniques in real-world healthcare applications, addressing existing gaps in interpretability and ethical compliance.",
+  "concept_definition": "Interpretability refers to the degree to which a model's internal workings and outputs can be understood by humans. In this study, we focus on interpretable large language models (LLMs) such as neurosymbolic models, which allow access to hidden states and internal activations. Internal representations are the model's internal features that capture data patterns. We utilize interpretability methods like SHAP (Shapley Additive Explanations) for attribution, attention visualization to highlight relevant input features, and probing to assess model understanding. Safety outcomes include metrics like unsafe response rate (the frequency of harmful outputs), over-refusal (excessive refusal to provide information), and harmful compliance (adherence to unsafe requests). User trust is operationalized through trust calibration (alignment of user expectations with model performance), perceived transparency (how clear users find the model's reasoning), and appropriate reliance (the degree to which users depend on model outputs in decision-making). Controllability refers to the ability to guide model behavior towards desired outcomes, while alignment ensures that model objectives are consistent with human values. Fairness addresses the equitable treatment of all user groups by the model.",
+  "technical_feasibility": "The study requires access to open-source LLMs or models that allow hidden state extraction for interpretability analysis. Additionally, it necessitates labeled datasets for training and evaluation, as well as human participants for trust calibration measures. Ethics approval is mandatory due to the involvement of healthcare professionals and patient-related data. GPU resources will be needed for model training and evaluation. The design should ensure that appropriate reliance and trust calibration measures are implemented. If only API models are available, the design should be adjusted to focus on output-level explanations or black-box evaluations. Overall, the study is technically feasible with the identified resources, but access to open-source models is critical for the interpretability aspect.",
+  "gap": "Investigate the integration of interpretable LLMs in clinical workflows for diabetes management, focusing on the empirical validation of XAI techniques in enhancing decision accuracy and user trust among healthcare professionals.",
+  "question": "How does the use of interpretable large language models, specifically neurosymbolic models utilizing SHAP and attention visualization, impact decision accuracy and user trust among healthcare professionals managing diabetes compared to standard LLM outputs in clinical settings?",
+  "theoretical_mechanism": "The independent variable is the use of interpretable large language models (LLMs), specifically neurosymbolic models utilizing SHAP and attention visualization. The mediator for system-level outcomes, such as unsafe response rate and decision accuracy, is the model's representation features and safety detection mechanisms, which enhance the interpretability and controllability of the model. User-level outcomes, including trust and satisfaction, are mediated by psychological mechanisms such as perceived transparency and calibrated trust. The moderator in this framework could be the clinical context or user experience level, which may influence how healthcare professionals interact with the model outputs. The causal chain suggests that improved interpretability leads to better decision-making and user trust, ultimately enhancing patient management outcomes. Assumptions requiring empirical validation include that increased interpretability directly correlates with reduced unsafe outputs and that user trust significantly influences reliance on model recommendations.",
+  "hypothesis": "The integration of interpretable large language models (LLMs) in diabetes management will significantly improve decision accuracy and user trust among healthcare professionals compared to standard LLM outputs.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name                  | Role       | Measurement Instrument           | Data Source                  | Timing         |\n|---------------------------------|------------|----------------------------------|------------------------------|----------------|\n| Interpretable LLMs             | IV         | Model outputs with SHAP & Attention | Clinical decision logs       | Pre/Post study  |\n| Decision Accuracy               | DV         | Task performance metrics         | Clinical outcomes data       | Post intervention|\n| User Trust                      | DV         | Trust calibration survey         | Healthcare professionals     | Post intervention|\n| Perceived Transparency          | Mediator   | User feedback survey            | Healthcare professionals     | Post intervention|\n| Unsafe Response Rate            | Mediator   | Response classification metrics  | Model evaluation logs        | Continuous      |\n| Appropriate Reliance            | Mediator   | Behavioral logs                 | Clinical decision logs       | Continuous      |\n\nCausal Pathway: The use of interpretable LLMs (IV) enhances decision accuracy (DV) and user trust (DV) through improved perceived transparency (mediator) and reduced unsafe response rate (mediator). \n\nLikely Confounds: User experience level, clinical context, and prior exposure to AI tools may influence outcomes. \n\nClaim Boundaries: The study can claim a correlation between interpretability and improved outcomes but cannot definitively establish causation without controlling for confounding variables. \n\nWhat Cannot Be Concluded: The study cannot conclude that all interpretable LLMs will universally improve decision-making across all healthcare contexts or that trust will always lead to reliance without further investigation.",
+  "methodology": "Implement a controlled between-subject design where healthcare professionals utilize either interpretable LLMs with SHAP and attention visualization or standard LLM outputs. Measure decision accuracy and user trust through surveys and clinical decision logs over a six-month period.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces a novel theoretical framework that links the interpretability of neurosymbolic large language models (LLMs) to enhanced decision-making outcomes in clinical settings, specifically for diabetes management. It posits that increased interpretability mediates user trust and decision accuracy through psychological mechanisms like perceived transparency.\",\n  \"technical_contribution\": \"The research develops and validates a new methodology for integrating SHAP and attention visualization techniques into clinical workflows, providing a systematic approach to enhance the interpretability of LLMs in high-stakes environments. This includes the creation of a robust evaluation metric for measuring trust calibration and decision accuracy.\",\n  \"empirical_contribution\": \"The study empirically validates the effectiveness of interpretable LLMs in real-world healthcare applications, providing quantitative evidence of improved decision accuracy and user trust among healthcare professionals compared to standard LLM outputs. It generates a unique dataset of decision logs and user feedback over a six-month period, contributing to the understanding of AI's role in clinical decision-making.\",\n  \"practical_deployment_contribution\": \"This research offers concrete deployment guidelines for the integration of interpretable LLMs in diabetes management, addressing ethical compliance and user training needs. It provides actionable insights into how healthcare professionals can effectively utilize AI-driven insights while maintaining trust and transparency in patient care.\"\n}",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"Model Misinterpretation\",\n      \"risk\": \"Healthcare professionals may misinterpret model outputs, leading to incorrect clinical decisions.\",\n      \"mitigation_strategy\": \"Provide comprehensive training on model interpretability and conduct regular workshops to enhance understanding.\"\n    },\n    {\n      \"failure_mode\": \"Data Sparsity\",\n      \"risk\": \"Insufficient labeled data may limit the model's training and evaluation, affecting its performance.\",\n      \"mitigation_strategy\": \"Augment datasets with synthetic data and collaborate with healthcare institutions for diverse data collection.\"\n    },\n    {\n      \"failure_mode\": \"User Engagement\",\n      \"risk\": \"Low engagement from healthcare professionals could result in inadequate data for trust calibration measures.\",\n      \"mitigation_strategy\": \"Incentivize participation through feedback loops and highlight the benefits of using interpretable LLMs in clinical practice.\"\n    },\n    {\n      \"failure_mode\": \"Ethical Concerns\",\n      \"risk\": \"Potential biases in model outputs may lead to unfair treatment of certain patient groups.\",\n      \"mitigation_strategy\": \"Implement fairness audits and ensure diverse representation in training datasets to minimize bias.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretation\",\n      \"risk\": \"Results may indicate no significant improvement, leading to skepticism about the utility of interpretable LLMs.\",\n      \"mitigation_strategy\": \"Frame findings within the context of existing literature and emphasize the need for further research.\"\n    },\n    {\n      \"failure_mode\": \"Safety Risks\",\n      \"risk\": \"The model may generate unsafe or harmful recommendations, impacting patient safety.\",\n      \"mitigation_strategy\": \"Establish rigorous evaluation protocols for unsafe response rates and implement a feedback mechanism for real-time monitoring.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong - Evidence notes highlight the need for empirical validation of XAI techniques in healthcare, directly supporting the identified gap.",
+    "domain_to_method": "Strong - The selected methodology aligns well with the domain of LLM safety and user trust in high-stakes decision-making.",
+    "concept_to_metric": "Strong - Core concepts such as interpretability, decision accuracy, and user trust are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Strong - The methodology is feasible given the outlined resources, including access to models and participant requirements.",
+    "scope_to_gap": "Strong - The study scope specifically targets diabetes management, making the gap more precise.",
+    "gap_to_question": "Strong - The identified gap in empirical validation leads directly to the research question about the impact of interpretable LLMs.",
+    "question_to_hypothesis": "Strong - The research question logically leads to the hypothesis regarding the expected improvements in decision accuracy and user trust.",
+    "hypothesis_to_methodology": "Strong - The methodology is designed to test the hypothesis through a controlled comparison of outcomes.",
+    "methodology_to_evaluation": "Strong - The planned evaluation through surveys and clinical logs directly addresses the research question.",
+    "weak_links": []
+  },
+  "proposal": "This research proposal aims to investigate the effectiveness of interpretable large language models (LLMs), specifically neurosymbolic models employing SHAP and attention visualization, in enhancing decision-making for diabetes management in clinical settings. Interpretability is defined as the extent to which model outputs can be understood by users, focusing on internal representations and post-hoc explanation methods. The study is technically feasible, requiring access to open-source LLMs, labeled datasets, and ethics approval for involving healthcare professionals. Current literature highlights a gap in empirical validation of Explainable AI (XAI) techniques in diabetes management, where trust and transparency are crucial, particularly given the unique challenges of managing chronic conditions. The central research question is: How does the use of interpretable LLMs impact decision accuracy and user trust among healthcare professionals managing diabetes compared to standard LLM outputs? The theoretical mechanism posits that improved interpretability enhances decision accuracy (system-level outcome) and user trust (user-level outcome) through perceived transparency and reduced unsafe response rates as mediators. The hypothesis is that the integration of interpretable LLMs will significantly improve decision accuracy and user trust compared to standard outputs. Constructs will be operationalized through metrics such as decision accuracy from clinical outcomes, user trust via calibration surveys, and perceived transparency through user feedback. A controlled between-subject design will be implemented over six months, comparing outcomes between healthcare professionals using interpretable LLMs and those using standard outputs. Expected contributions include a novel theoretical framework linking interpretability to decision-making outcomes, a validated methodology for integrating XAI techniques into clinical workflows, and empirical evidence of improved user trust and decision accuracy. Key limitations include potential biases in model outputs and the challenge of generalizing findings across diverse healthcare contexts, alongside risks of model misinterpretation and data sparsity that will be mitigated through comprehensive training and collaboration with healthcare institutions.",
+  "draft_proposal": "This research proposal aims to investigate the effectiveness of interpretable large language models (LLMs), specifically neurosymbolic models employing SHAP and attention visualization, in enhancing decision-making for diabetes management in clinical settings. Interpretability is defined as the extent to which model outputs can be understood by users, with a focus on internal representations and post-hoc explanation methods. The study is technically feasible, requiring access to open-source LLMs, labeled datasets, and ethics approval for involving healthcare professionals. Current literature highlights a gap in empirical validation of Explainable AI (XAI) techniques in high-stakes environments like healthcare, where trust and transparency are crucial. The central research question is: How does the use of interpretable LLMs impact decision accuracy and user trust among healthcare professionals compared to standard LLM outputs? The theoretical mechanism posits that improved interpretability enhances decision accuracy (system-level outcome) and user trust (user-level outcome) through perceived transparency and reduced unsafe response rates as mediators. The hypothesis is that the integration of interpretable LLMs will significantly improve decision accuracy and user trust compared to standard outputs. Constructs will be operationalized through metrics such as decision accuracy from clinical outcomes, user trust via calibration surveys, and perceived transparency through user feedback. A controlled between-subject design will be implemented over six months, comparing outcomes between healthcare professionals using interpretable LLMs and those using standard outputs. Expected contributions include a novel theoretical framework linking interpretability to decision-making outcomes, a validated methodology for integrating XAI techniques into clinical workflows, and empirical evidence of improved user trust and decision accuracy. Key limitations include potential biases in model outputs and the challenge of generalizing findings across diverse healthcare contexts.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The gap identified is relevant but lacks specificity regarding the unique challenges in diabetes management compared to other high-stakes areas.",
+      "literature_grounding": "While the literature is cited, the proposal could benefit from a more detailed analysis of existing studies that have addressed similar gaps.",
+      "meaningfulness": "The gap is meaningful as it addresses a critical need for empirical validation in a high-stakes context, but it could be more narrowly defined.",
+      "already_solved_risk": "There is a risk that existing literature may have already addressed some aspects of this gap, particularly in healthcare AI applications."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior work but does not critically compare methodologies or findings, missing an opportunity to highlight unresolved issues.",
+      "unresolved_tensions": "It fails to identify specific tensions in the literature, such as the trade-off between interpretability and predictive performance.",
+      "positioning_quality": "The positioning is weak as it does not sufficiently articulate how the proposed research builds on or diverges from existing studies."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The chosen domain of healthcare and decision-making is appropriate and relevant to the research question.",
+      "methodology_template_fit": "The methodology template aligns with the domain, but it could be more explicitly justified in terms of its appropriateness for the specific context of diabetes management.",
+      "template_transfer_risk": "There is a risk of inappropriate template transfer if the methods are not tailored to the unique challenges of the healthcare setting."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is defined but could be more specific regarding the exact nature of diabetes management tasks being studied.",
+      "population_or_task_definition": "The population is identified, but the specific tasks or decisions made by healthcare professionals need clearer articulation.",
+      "intervention_and_comparison_definition": "The intervention is well-defined, but the comparison to standard LLM outputs should clarify what constitutes 'standard'.",
+      "outcome_definition": "Outcomes are generally defined, but more detail on how decision accuracy will be measured is needed."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Terms like interpretability and safety are mentioned but not sufficiently operationally defined for clarity.",
+      "implementation_specificity": "The implementation of concepts like trust and controllability lacks detail on how they will be measured in practice.",
+      "level_of_analysis_clarity": "The proposal should clarify the level of analysis for each construct to ensure alignment with the research question."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to open-source models is feasible, but reliance on them may limit the study's generalizability.",
+      "data_and_compute_requirements": "The data and compute requirements are realistic, but the proposal should address potential challenges in obtaining diverse datasets.",
+      "human_or_multilingual_resources": "Human resources for trust calibration measures are mentioned, but the recruitment strategy needs further elaboration.",
+      "feasible_adjustments": "If only API models are available, the proposal should outline alternative methods for achieving interpretability."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, but it could be more focused on specific outcomes.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level study, but it needs to ensure it does not overreach.",
+      "variable_clarity": "Variables are generally clear, but the proposal should explicitly define how each will be measured."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The theoretical mechanism is outlined but lacks depth in explaining how mediators will function in practice.",
+      "theoretical_framing": "The framing could benefit from a stronger theoretical basis linking interpretability to decision-making outcomes.",
+      "assumption_transparency": "Assumptions are mentioned but need to be more explicitly stated and justified."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it could be more specific regarding the expected outcomes.",
+      "mechanism_grounding": "The grounding in mechanisms is present but requires more detail on how these mechanisms will be tested.",
+      "measurable_outcome": "Measurable outcomes are identified, but the proposal should clarify how they will be quantitatively assessed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization is outlined, but specific instruments for measurement need clearer identification.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but more detail on how they will be validated is needed.",
+      "causal_identification": "Causal pathways are identified, but the proposal should clarify how confounding variables will be controlled.",
+      "confound_awareness": "Awareness of potential confounds is present, but strategies for controlling them need elaboration.",
+      "claim_boundaries": "Claim boundaries are mentioned, but the proposal should specify the limits of generalizability."
+    },
+    "methodology_stage": {
+      "baseline_validity": "Baseline validity is addressed, but the proposal should justify the choice of control conditions.",
+      "metric_validity": "Metric validity is implied but needs explicit validation strategies.",
+      "statistical_or_evaluation_validity": "Statistical validity is not sufficiently discussed; the proposal should outline the statistical methods to be used.",
+      "reproducibility": "Reproducibility is a concern; the proposal should detail how methods will be documented.",
+      "confound_control": "Control for confounds is mentioned but lacks specific strategies.",
+      "risk_analysis": "Risk analysis is present, but it should include more detail on how risks will be monitored throughout the study."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is present but could be more explicitly articulated.",
+      "methodological_novelty": "Methodological contributions are implied but should be more clearly defined.",
+      "practical_novelty": "Practical contributions are mentioned but need to be detailed in terms of deployment guidelines.",
+      "derivativeness_risk": "There is a risk of derivativeness if the contributions are not sufficiently differentiated from existing literature."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but mitigation strategies need to be more specific and actionable.",
+      "limitation_depth": "Limitations are acknowledged, but the proposal should explore their implications for the study's findings.",
+      "risk_mitigation": "Mitigation strategies are mentioned but need to be more robust and detailed."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contributions are generally clear but could benefit from more specificity in how they address identified gaps.",
+      "novelty_type": "The novelty type is somewhat unclear; it needs to be categorized more distinctly.",
+      "coherence": "The proposal is coherent but could improve in logical flow between sections.",
+      "limitation_awareness": "Awareness of limitations is present but should be more comprehensive.",
+      "academic_communication": "The communication is generally clear, but technical jargon should be minimized for broader accessibility."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads to the question, but the connection could be more explicitly articulated.",
+      "question_to_hypothesis": "The question leads to the hypothesis logically, but the hypothesis could be more specific.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but the methodology needs to ensure it can adequately address the hypothesis.",
+      "method_to_evaluation": "The evaluation can answer the question, but the proposal should clarify how each outcome will be assessed."
+    },
+    "revision_plan": "Revise the gap stage to specify the unique challenges of diabetes management. Strengthen the scholarly positioning by critically comparing methodologies and identifying unresolved tensions. Clarify the operationalization of constructs and ensure that measurement instruments are explicitly defined. Enhance the theoretical mechanism by providing a more robust framework linking interpretability to decision-making outcomes."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 76.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal clearly defines the research problem of enhancing decision-making in diabetes management through interpretable LLMs. However, while the motivation is articulated, the operational definitions of key concepts like 'interpretability' and 'user trust' could be more precise. Major weaknesses: The definitions of key constructs are somewhat vague and could benefit from more rigorous operationalization. The boundaries of the research could also be more explicitly stated to avoid overlap with existing studies. Next band requirements: To move into the next band, the proposal needs to provide clearer operational definitions of key concepts and explicitly delineate the research boundaries."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from problem identification to methodology. However, some assumptions, particularly regarding the causal relationships between interpretability and decision-making, lack empirical support. Major weaknesses: The causal claims made in the theoretical mechanism are not sufficiently justified with existing literature, and the transitions between sections could be improved for better coherence. Next band requirements: To achieve a higher score, the proposal must provide stronger empirical justification for causal claims and improve the logical transitions between components."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 15.0,
+        "level": "15-17: clear novelty with meaningful research differentiation",
+        "justification": "The proposal introduces a novel theoretical framework linking interpretability to decision-making outcomes, which is a meaningful contribution to the field of AI in healthcare. It also proposes a validated methodology for integrating XAI techniques. Major weaknesses: While the novelty is clear, the proposal could further differentiate itself by addressing how it builds upon or diverges from existing frameworks in more detail. Next band requirements: To reach the highest band, the proposal should explicitly articulate how it advances existing theories or frameworks in the literature."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The proposed methodology is generally sound and technically feasible, with clear metrics for evaluation. However, there are concerns regarding the robustness of controls and potential confounding variables. Major weaknesses: The proposal lacks detailed plans for controlling confounding variables and ensuring the robustness of evaluation metrics. Additionally, the reliance on specific datasets could limit generalizability. Next band requirements: To improve, the proposal should include more comprehensive plans for controlling confounding variables and enhancing the robustness of the evaluation design."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong literature grounding with good comparative analysis",
+        "justification": "The proposal engages with relevant literature and identifies gaps effectively. However, it could benefit from a deeper comparative analysis of methodologies used in existing studies. Major weaknesses: The literature review is somewhat surface-level and lacks a critical synthesis that positions the proposed research within broader debates in the field. Next band requirements: To achieve a higher score, the proposal should provide a more in-depth comparative analysis of existing methodologies and articulate how the proposed research addresses unresolved tensions."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 8.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates a good understanding of theoretical mechanisms and operationalization but lacks depth in discussing limitations and failure cases. Major weaknesses: The discussion of limitations is superficial, and there is insufficient attention to potential failure modes and their implications for the research. Next band requirements: To improve, the proposal should include a more thorough discussion of limitations and potential failure cases, demonstrating a deeper engagement with the complexities of the research."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, with a professional tone. However, some sections could benefit from improved conciseness and clarity. Major weaknesses: There are instances of repetitive language and some sections that could be more concise, impacting overall readability. Next band requirements: To achieve a higher score, the proposal should focus on enhancing conciseness and eliminating repetitive elements."
+      }
+    ],
+    "comments": "Total score: 76.0/100. Academic level: Master-level. Major strengths: Clear identification of a relevant research problem.; Novel theoretical framework linking interpretability to decision-making outcomes.; Feasible methodology with defined evaluation metrics. Major weaknesses: Vague operational definitions of key constructs.; Insufficient empirical justification for causal claims.; Limited depth in literature engagement and discussion of limitations. Required improvements for true PhD-level quality: Provide clearer operational definitions of key concepts.; Strengthen empirical justification for causal claims.; Enhance depth of literature engagement and discussion of limitations. Final verdict: The proposal demonstrates potential for PhD-level research but currently lacks the depth and rigor required for true PhD maturity."
+  },
+  "baseline": null,
+  "group_selection": {
+    "gap": {
+      "candidates": [
+        {
+          "id": "gap_1",
+          "text": "Investigate the integration of interpretable LLMs in clinical workflows for diabetes management, focusing on the empirical validation of XAI techniques in enhancing decision accuracy and user trust among healthcare professionals.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 4,
+            "novelty": 3,
+            "feasibility": 4
+          },
+          "total": 15,
+          "reason": "This candidate is specific about the application context and aligns well with existing literature, while also being feasible.",
+          "llm_total": 15.0,
+          "anchor_similarity": 0.6616,
+          "literature_similarity": 0.7207,
+          "embedding_alignment": 0.6912,
+          "combined_total": 18.456
+        },
+        {
+          "id": "gap_2",
+          "text": "Explore the impact of bias and hallucinations in interpretable LLMs on decision-making in healthcare, proposing methodologies to mitigate these issues while ensuring compliance with ethical standards.",
+          "supporting_paper_ids": [
+            "P1"
+          ],
+          "scores": {
+            "specificity": 3,
+            "literature_grounding": 4,
+            "novelty": 4,
+            "feasibility": 3
+          },
+          "total": 14,
+          "reason": "This candidate addresses critical issues of bias and hallucinations, making it novel, but lacks specificity in application.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.6633,
+          "literature_similarity": 0.6759,
+          "embedding_alignment": 0.6696,
+          "combined_total": 17.348
+        },
+        {
+          "id": "gap_3",
+          "text": "Assess the effectiveness of structured prompting techniques in improving the interpretability and accountability of LLMs in high-stakes decision-making across various sectors, including healthcare and finance.",
+          "supporting_paper_ids": [
+            "P2"
+          ],
+          "scores": {
+            "specificity": 3,
+            "literature_grounding": 3,
+            "novelty": 3,
+            "feasibility": 4
+          },
+          "total": 13,
+          "reason": "While this candidate is feasible and addresses a relevant topic, it is less specific and grounded in the healthcare context compared to the others.",
+          "llm_total": 13.0,
+          "anchor_similarity": 0.6283,
+          "literature_similarity": 0.6368,
+          "embedding_alignment": 0.6325,
+          "combined_total": 16.163
+        }
+      ],
+      "selected_id": "gap_1",
+      "selected_text": "Investigate the integration of interpretable LLMs in clinical workflows for diabetes management, focusing on the empirical validation of XAI techniques in enhancing decision accuracy and user trust among healthcare professionals.",
+      "criteria": [
+        "specificity",
+        "literature_grounding",
+        "novelty",
+        "feasibility"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "hypothesis": {
+      "candidates": [
+        {
+          "id": "hypothesis_1",
+          "text": "The integration of interpretable large language models (LLMs) in diabetes management will significantly improve decision accuracy and user trust among healthcare professionals compared to standard LLM outputs.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 5,
+            "clarity": 4,
+            "methodological_implication": 5
+          },
+          "total": 18,
+          "reason": "This hypothesis directly addresses the identified gap and is clear, with strong methodological implications for empirical testing.",
+          "llm_total": 18.0,
+          "anchor_similarity": 0.76,
+          "literature_similarity": 0.7274,
+          "embedding_alignment": 0.7437,
+          "combined_total": 21.718
+        },
+        {
+          "id": "hypothesis_2",
+          "text": "Healthcare professionals using neurosymbolic models with SHAP and attention visualization will report higher perceived transparency and trust in AI-driven insights than those using traditional LLMs.",
+          "supporting_paper_ids": [
+            "P1"
+          ],
+          "scores": {
+            "testability": 5,
+            "alignment_with_gap": 4,
+            "clarity": 5,
+            "methodological_implication": 4
+          },
+          "total": 18,
+          "reason": "This hypothesis is highly testable and clear, focusing on user perceptions, but slightly less aligned with the gap on decision accuracy.",
+          "llm_total": 18.0,
+          "anchor_similarity": 0.691,
+          "literature_similarity": 0.6466,
+          "embedding_alignment": 0.6688,
+          "combined_total": 21.344
+        },
+        {
+          "id": "hypothesis_3",
+          "text": "The use of interpretable LLMs will reduce the unsafe response rate in clinical decision-making for diabetes management compared to standard LLMs.",
+          "supporting_paper_ids": [
+            "P2"
+          ],
+          "scores": {
+            "testability": 3,
+            "alignment_with_gap": 5,
+            "clarity": 3,
+            "methodological_implication": 3
+          },
+          "total": 14,
+          "reason": "While this hypothesis aligns well with the gap, it is less clear and testable compared to the others.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.6902,
+          "literature_similarity": 0.616,
+          "embedding_alignment": 0.6531,
+          "combined_total": 17.265
+        }
+      ],
+      "selected_id": "hypothesis_1",
+      "selected_text": "The integration of interpretable large language models (LLMs) in diabetes management will significantly improve decision accuracy and user trust among healthcare professionals compared to standard LLM outputs.",
+      "criteria": [
+        "testability",
+        "alignment_with_gap",
+        "clarity",
+        "methodological_implication"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "methodology": {
+      "candidates": [
+        {
+          "id": "methodology_1",
+          "text": "Implement a controlled between-subject design where healthcare professionals utilize either interpretable LLMs with SHAP and attention visualization or standard LLM outputs. Measure decision accuracy and user trust through surveys and clinical decision logs over a six-month period.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 5,
+            "evaluation_metrics": 4,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 5
+          },
+          "total": 22,
+          "reason": "This methodology is highly feasible with clear metrics and strong alignment with the hypothesis.",
+          "llm_total": 22.0,
+          "anchor_similarity": 0.7443,
+          "literature_similarity": 0.648,
+          "embedding_alignment": 0.6961,
+          "combined_total": 25.48
+        },
+        {
+          "id": "methodology_2",
+          "text": "Conduct a longitudinal study involving multiple healthcare settings to assess the impact of interpretable LLMs on decision-making. Use mixed methods, including qualitative interviews and quantitative surveys, to evaluate user trust and decision accuracy.",
+          "supporting_paper_ids": [
+            "P1"
+          ],
+          "scores": {
+            "feasibility": 3,
+            "baseline_design": 4,
+            "evaluation_metrics": 5,
+            "scope_control": 3,
+            "alignment_with_hypothesis": 4
+          },
+          "total": 19,
+          "reason": "While comprehensive, the longitudinal design may introduce complexities that affect feasibility.",
+          "llm_total": 19.0,
+          "anchor_similarity": 0.7399,
+          "literature_similarity": 0.6784,
+          "embedding_alignment": 0.7092,
+          "combined_total": 22.546
+        },
+        {
+          "id": "methodology_3",
+          "text": "Develop a simulation-based study where healthcare professionals interact with a virtual environment using interpretable LLMs. Measure trust calibration and decision accuracy through simulated patient scenarios and feedback.",
+          "supporting_paper_ids": [
+            "P2"
+          ],
+          "scores": {
+            "feasibility": 2,
+            "baseline_design": 3,
+            "evaluation_metrics": 3,
+            "scope_control": 2,
+            "alignment_with_hypothesis": 3
+          },
+          "total": 13,
+          "reason": "This approach is innovative but lacks feasibility and control compared to other methodologies.",
+          "llm_total": 13.0,
+          "anchor_similarity": 0.6266,
+          "literature_similarity": 0.589,
+          "embedding_alignment": 0.6078,
+          "combined_total": 16.039
+        }
+      ],
+      "selected_id": "methodology_1",
+      "selected_text": "Implement a controlled between-subject design where healthcare professionals utilize either interpretable LLMs with SHAP and attention visualization or standard LLM outputs. Measure decision accuracy and user trust through surveys and clinical decision logs over a six-month period.",
+      "criteria": [
+        "feasibility",
+        "baseline_design",
+        "evaluation_metrics",
+        "scope_control",
+        "alignment_with_hypothesis"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    }
+  },
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 2,
+        "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+        "similarity": 0.7215
+      },
+      {
+        "original_index": 1,
+        "title": "Developing Interpretable Large Language Models for High-Stakes Decision-Making in Healthcare: Insights from an XAI Review Perspective",
+        "similarity": 0.6861
+      },
+      {
+        "original_index": 3,
+        "title": "Explainable AI Frameworks for Large Language Models in High-Stakes Decision-Making",
+        "similarity": 0.678
+      }
+    ],
+    "group_selection": {
+      "gap": {
+        "candidates": [
+          {
+            "id": "gap_1",
+            "text": "Investigate the integration of interpretable LLMs in clinical workflows for diabetes management, focusing on the empirical validation of XAI techniques in enhancing decision accuracy and user trust among healthcare professionals.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "specificity": 4,
+              "literature_grounding": 4,
+              "novelty": 3,
+              "feasibility": 4
+            },
+            "total": 15,
+            "reason": "This candidate is specific about the application context and aligns well with existing literature, while also being feasible.",
+            "llm_total": 15.0,
+            "anchor_similarity": 0.6616,
+            "literature_similarity": 0.7207,
+            "embedding_alignment": 0.6912,
+            "combined_total": 18.456
+          },
+          {
+            "id": "gap_2",
+            "text": "Explore the impact of bias and hallucinations in interpretable LLMs on decision-making in healthcare, proposing methodologies to mitigate these issues while ensuring compliance with ethical standards.",
+            "supporting_paper_ids": [
+              "P1"
+            ],
+            "scores": {
+              "specificity": 3,
+              "literature_grounding": 4,
+              "novelty": 4,
+              "feasibility": 3
+            },
+            "total": 14,
+            "reason": "This candidate addresses critical issues of bias and hallucinations, making it novel, but lacks specificity in application.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.6633,
+            "literature_similarity": 0.6759,
+            "embedding_alignment": 0.6696,
+            "combined_total": 17.348
+          },
+          {
+            "id": "gap_3",
+            "text": "Assess the effectiveness of structured prompting techniques in improving the interpretability and accountability of LLMs in high-stakes decision-making across various sectors, including healthcare and finance.",
+            "supporting_paper_ids": [
+              "P2"
+            ],
+            "scores": {
+              "specificity": 3,
+              "literature_grounding": 3,
+              "novelty": 3,
+              "feasibility": 4
+            },
+            "total": 13,
+            "reason": "While this candidate is feasible and addresses a relevant topic, it is less specific and grounded in the healthcare context compared to the others.",
+            "llm_total": 13.0,
+            "anchor_similarity": 0.6283,
+            "literature_similarity": 0.6368,
+            "embedding_alignment": 0.6325,
+            "combined_total": 16.163
+          }
+        ],
+        "selected_id": "gap_1",
+        "selected_text": "Investigate the integration of interpretable LLMs in clinical workflows for diabetes management, focusing on the empirical validation of XAI techniques in enhancing decision accuracy and user trust among healthcare professionals.",
+        "criteria": [
+          "specificity",
+          "literature_grounding",
+          "novelty",
+          "feasibility"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "hypothesis": {
+        "candidates": [
+          {
+            "id": "hypothesis_1",
+            "text": "The integration of interpretable large language models (LLMs) in diabetes management will significantly improve decision accuracy and user trust among healthcare professionals compared to standard LLM outputs.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "testability": 4,
+              "alignment_with_gap": 5,
+              "clarity": 4,
+              "methodological_implication": 5
+            },
+            "total": 18,
+            "reason": "This hypothesis directly addresses the identified gap and is clear, with strong methodological implications for empirical testing.",
+            "llm_total": 18.0,
+            "anchor_similarity": 0.76,
+            "literature_similarity": 0.7274,
+            "embedding_alignment": 0.7437,
+            "combined_total": 21.718
+          },
+          {
+            "id": "hypothesis_2",
+            "text": "Healthcare professionals using neurosymbolic models with SHAP and attention visualization will report higher perceived transparency and trust in AI-driven insights than those using traditional LLMs.",
+            "supporting_paper_ids": [
+              "P1"
+            ],
+            "scores": {
+              "testability": 5,
+              "alignment_with_gap": 4,
+              "clarity": 5,
+              "methodological_implication": 4
+            },
+            "total": 18,
+            "reason": "This hypothesis is highly testable and clear, focusing on user perceptions, but slightly less aligned with the gap on decision accuracy.",
+            "llm_total": 18.0,
+            "anchor_similarity": 0.691,
+            "literature_similarity": 0.6466,
+            "embedding_alignment": 0.6688,
+            "combined_total": 21.344
+          },
+          {
+            "id": "hypothesis_3",
+            "text": "The use of interpretable LLMs will reduce the unsafe response rate in clinical decision-making for diabetes management compared to standard LLMs.",
+            "supporting_paper_ids": [
+              "P2"
+            ],
+            "scores": {
+              "testability": 3,
+              "alignment_with_gap": 5,
+              "clarity": 3,
+              "methodological_implication": 3
+            },
+            "total": 14,
+            "reason": "While this hypothesis aligns well with the gap, it is less clear and testable compared to the others.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.6902,
+            "literature_similarity": 0.616,
+            "embedding_alignment": 0.6531,
+            "combined_total": 17.265
+          }
+        ],
+        "selected_id": "hypothesis_1",
+        "selected_text": "The integration of interpretable large language models (LLMs) in diabetes management will significantly improve decision accuracy and user trust among healthcare professionals compared to standard LLM outputs.",
+        "criteria": [
+          "testability",
+          "alignment_with_gap",
+          "clarity",
+          "methodological_implication"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "methodology": {
+        "candidates": [
+          {
+            "id": "methodology_1",
+            "text": "Implement a controlled between-subject design where healthcare professionals utilize either interpretable LLMs with SHAP and attention visualization or standard LLM outputs. Measure decision accuracy and user trust through surveys and clinical decision logs over a six-month period.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "feasibility": 4,
+              "baseline_design": 5,
+              "evaluation_metrics": 4,
+              "scope_control": 4,
+              "alignment_with_hypothesis": 5
+            },
+            "total": 22,
+            "reason": "This methodology is highly feasible with clear metrics and strong alignment with the hypothesis.",
+            "llm_total": 22.0,
+            "anchor_similarity": 0.7443,
+            "literature_similarity": 0.648,
+            "embedding_alignment": 0.6961,
+            "combined_total": 25.48
+          },
+          {
+            "id": "methodology_2",
+            "text": "Conduct a longitudinal study involving multiple healthcare settings to assess the impact of interpretable LLMs on decision-making. Use mixed methods, including qualitative interviews and quantitative surveys, to evaluate user trust and decision accuracy.",
+            "supporting_paper_ids": [
+              "P1"
+            ],
+            "scores": {
+              "feasibility": 3,
+              "baseline_design": 4,
+              "evaluation_metrics": 5,
+              "scope_control": 3,
+              "alignment_with_hypothesis": 4
+            },
+            "total": 19,
+            "reason": "While comprehensive, the longitudinal design may introduce complexities that affect feasibility.",
+            "llm_total": 19.0,
+            "anchor_similarity": 0.7399,
+            "literature_similarity": 0.6784,
+            "embedding_alignment": 0.7092,
+            "combined_total": 22.546
+          },
+          {
+            "id": "methodology_3",
+            "text": "Develop a simulation-based study where healthcare professionals interact with a virtual environment using interpretable LLMs. Measure trust calibration and decision accuracy through simulated patient scenarios and feedback.",
+            "supporting_paper_ids": [
+              "P2"
+            ],
+            "scores": {
+              "feasibility": 2,
+              "baseline_design": 3,
+              "evaluation_metrics": 3,
+              "scope_control": 2,
+              "alignment_with_hypothesis": 3
+            },
+            "total": 13,
+            "reason": "This approach is innovative but lacks feasibility and control compared to other methodologies.",
+            "llm_total": 13.0,
+            "anchor_similarity": 0.6266,
+            "literature_similarity": 0.589,
+            "embedding_alignment": 0.6078,
+            "combined_total": 16.039
+          }
+        ],
+        "selected_id": "methodology_1",
+        "selected_text": "Implement a controlled between-subject design where healthcare professionals utilize either interpretable LLMs with SHAP and attention visualization or standard LLM outputs. Measure decision accuracy and user trust through surveys and clinical decision logs over a six-month period.",
+        "criteria": [
+          "feasibility",
+          "baseline_design",
+          "evaluation_metrics",
+          "scope_control",
+          "alignment_with_hypothesis"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      }
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_group_selection",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Interpretable and Controllable Large Language Models for High-Stakes Decision-Making",
+    "retrieval_snapshot_id": "20260527T061158Z-interpretable-and-controllable-large-language-models-for-high-stakes-decision-ma-3",
+    "latency_ms": 190324,
+    "prompt_tokens": 40511,
+    "completion_tokens": 8268,
+    "total_tokens": 48779,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

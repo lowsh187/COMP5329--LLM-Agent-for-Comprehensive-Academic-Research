@@ -1,0 +1,64 @@
+Task: Attack the PhD contribution design before the final proposal is drafted.
+
+Topic:
+{topic}
+
+Retrieved papers and agent profile guidance:
+{papers_context}
+
+Summary:
+{summary}
+
+Scholarly positioning:
+{scholarly_positioning}
+
+Domain and methodology routing:
+{domain_router}
+
+Research scope:
+{research_scope}
+
+Concept definitions:
+{concept_definition}
+
+Technical feasibility:
+{technical_feasibility}
+
+Research gap:
+{gap}
+
+Research question:
+{question}
+
+Theoretical mechanism:
+{theoretical_mechanism}
+
+Hypothesis:
+{hypothesis}
+
+Operationalization and causal check:
+{operationalization_causal_check}
+
+Methodology:
+{methodology}
+
+Novelty and contribution:
+{novelty_contribution}
+
+Contribution type router:
+{contribution_type_router}
+
+PhD contribution design:
+{phd_contribution_design}
+
+Reviewer attack requirements:
+- Identify why this contribution design might still fail to reach an 85+ PhD-level score.
+- Attack generic novelty, weak theory, shallow literature positioning, untestable claims, weak baselines, missing ablations, invalid metrics, overclaiming, feasibility gaps, and unclear negative-result interpretation.
+- Name the three most damaging reviewer objections.
+- For each objection, state the exact repair that the proposal draft must include.
+- Be strict and specific; do not praise unless it helps identify what to preserve.
+
+Return JSON with exactly this key:
+{{
+  "pre_proposal_critique": "A concise but strict pre-proposal reviewer attack in 5-8 sentences, including the three most damaging objections and exact repairs required before drafting."
+}}

@@ -1,0 +1,429 @@
+{
+  "experiment_id": "20260528T131848Z",
+  "run_index": 3,
+  "topic": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "retrieval_snapshot_id": "20260528T132927Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-5",
+  "papers": [
+    {
+      "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+      "authors": [
+        "H. Kure",
+        "Pradipta Sarkar",
+        "A. Ndanusa",
+        "Augustine O. Nwajana"
+      ],
+      "abstract": "This paper investigates the critical issue of data poisoning attacks on AI models, a growing concern in the ever-evolving landscape of artificial intelligence and cybersecurity. As advanced technology systems become increasingly prevalent across various sectors, the need for robust defence mechanisms against adversarial attacks becomes paramount. The study aims to develop and evaluate novel techniques for detecting and preventing data poisoning attacks, focusing on both theoretical frameworks and practical applications. Through a comprehensive literature review, experimental validation using the CIFAR-10 and Insurance Claims datasets, and the development of innovative algorithms, this paper seeks to enhance the resilience of AI models against malicious data manipulation. The study explores various methods, including anomaly detection, robust optimization strategies, and ensemble learning, to identify and mitigate the effects of poisoned data during model training. Experimental results indicate that data poisoning significantly degrades model performance, reducing classification accuracy by up to 27 % in image recognition tasks (CIFAR-10) and 22 % in fraud detection models (Insurance Claims dataset). The proposed defence mechanisms, including statistical anomaly detection and adversarial training, successfully mitigated poisoning effects, improving model robustness and restoring accuracy levels by an average of $15-20 \\%$. The findings further demonstrate that ensemble learning techniques provide an additional layer of resilience, reducing false positives and false negatives caused by adversarial data injections. The findings of this paper contribute to the broader understanding of adversarial machine learning and provide actionable insights for practitioners in industries facing emerging threats to AI-based systems. By addressing the challenges of data poisoning attacks, this study aims to improve the security and reliability of AI models, ultimately fostering greater trust in AI technologies across critical applications.",
+      "published": "2025-03-12",
+      "url": "https://www.semanticscholar.org/paper/898e535ba4ebce0377abe00023e722c29d66fdd2",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "authors": [
+        "Xiaocui Dang",
+        "Priyadarsi Nanda",
+        "Heng Xu",
+        "Haiyu Deng",
+        "Chunpeng Ge"
+      ],
+      "abstract": "Deep learning-based recommendation systems are highly vulnerable to data poisoning attacks, where adversaries manipulate user interactions to degrade model integrity. We hypothesize that combining an active robust loss with a passive GAN-based detection will significantly reduce poisoning impact in recommendation systems without sacrificing utility. We propose a robust and adaptive dual-defense framework: the active defense integrates a crafted loss function to mitigate poisoning effects while maintaining model performance. The passive defense employs a Generative Adversarial Network (GAN)-based detection model to identify and filter poisoned data, enhancing detection accuracy and system security. The framework supports classical matrix factorization (MF) model and large language model (LLM)-based pipelines and scales to large datasets. Extensive experiments across multiple real-world datasets at varying poison rates show that our method outperforms representative defenses, consistently reducing attack success without sacrificing recommendation quality. The framework also admits a federated instantiation, where robust training and GAN-based detection run on clients and only privacy-preserving summaries are aggregated. The proposed method significantly improves the robustness and adaptability of recommendation systems under data poisoning attacks.",
+      "published": "2026-04-19",
+      "url": "https://www.semanticscholar.org/paper/d6186eae94ca6b0692cad55298509226885c6271",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "authors": [
+        "Yi Yu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.32657/10356/201674",
+      "source": "Crossref"
+    },
+    {
+      "title": "Towards Imperceptible and Robust Adversarial Example Attacks against Neural Networks",
+      "authors": [
+        "Bo Luo",
+        "Yannan Liu",
+        "Lingxiao Wei",
+        "Qiang Xu"
+      ],
+      "abstract": "Machine learning systems based on deep neural networks, being able to produce state-of-the-art results on various perception tasks, have gained mainstream adoption in many applications. However, they are shown to be vulnerable to adversarial example attack, which generates malicious output by adding slight perturbations to the input. Previous adversarial example crafting methods, however, use simple metrics to evaluate the distances between the original examples and the adversarial ones, which could be easily detected by human eyes. In addition, these attacks are often not robust due to the inevitable noises and deviation in the physical world. In this work, we present a new adversarial example attack crafting method, which takes the human perceptual system into consideration and maximizes the noise tolerance of the crafted adversarial example. Experimental results demonstrate the efficacy of the proposed technique.",
+      "published": "2018-01-15",
+      "url": "http://arxiv.org/abs/1801.04693v1",
+      "source": "arXiv"
+    },
+    {
+      "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+      "authors": [
+        "Jiutao Yue",
+        "Haofeng Li",
+        "Pengxu Wei",
+        "Guanbin Li",
+        "Liang Lin"
+      ],
+      "abstract": "Recently deep neural networks (DNNs) have achieved significant success in real-world image super-resolution (SR). However, adversarial image samples with quasi-imperceptible noises could threaten deep learning SR models. In this paper, we propose a robust deep learning framework for real-world SR that randomly erases potential adversarial noises in the frequency domain of input images or features. The rationale is that on the SR task clean images or features have a different pattern from the attacked ones in the frequency domain. Observing that existing adversarial attacks usually add high-frequency noises to input images, we introduce a novel random frequency mask module that blocks out high-frequency components possibly containing the harmful perturbations in a stochastic manner. Since the frequency masking may not only destroys the adversarial perturbations but also affects the sharp details in a clean image, we further develop an adversarial sample classifier based on the frequency domain of images to determine if applying the proposed mask module. Based on the above ideas, we devise a novel real-world image SR framework that combines the proposed frequency mask modules and the proposed adversarial classifier with an existing super-resolution backbone network. Experiments show that our proposed method is more insensitive to adversarial attacks and presents more stable SR results than existing models and defenses.",
+      "published": "2022-07-31",
+      "url": "http://arxiv.org/abs/2208.00428v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Defensive Strategies Against Data Poisoning in AI Models",
+      "paper_indices": [
+        1,
+        2,
+        3
+      ],
+      "summary": "This cluster of papers focuses on the detection and prevention of data poisoning attacks on AI models, particularly in the contexts of image recognition and recommendation systems. The studies propose various innovative techniques, including anomaly detection, robust optimization, and dual-defense frameworks that combine active and passive defenses, to enhance model resilience against malicious data manipulation. Experimental results indicate significant degradation in model performance due to data poisoning, highlighting the necessity for robust defense mechanisms.",
+      "limitations": "The cluster lacks comprehensive exploration of the long-term effectiveness of proposed defenses and their adaptability across diverse datasets and attack scenarios. Additionally, one paper did not provide an abstract, limiting insights into its contributions.",
+      "gap_relevance": "This cluster can support research gap identification by emphasizing the need for more generalized and scalable defense mechanisms against data poisoning, particularly in emerging AI applications and varied operational environments."
+    },
+    {
+      "theme": "Adversarial Robustness in Deep Learning Applications",
+      "paper_indices": [
+        4,
+        5
+      ],
+      "summary": "This cluster of papers focuses on enhancing the robustness of deep learning models against adversarial attacks, particularly in the context of image processing tasks. The first paper introduces a method for crafting adversarial examples that are imperceptible to humans while maximizing noise tolerance. The second paper presents a framework for image super-resolution that employs frequency domain techniques to mitigate the impact of adversarial noise, demonstrating a proactive approach to defend against such attacks.",
+      "limitations": "Both papers highlight the challenge of balancing the removal of adversarial perturbations with the preservation of image quality. The methods proposed may still be susceptible to more sophisticated adversarial strategies and do not fully address the generalizability of the solutions across diverse datasets and real-world scenarios.",
+      "gap_relevance": "This cluster identifies a critical research gap in developing robust defenses against adversarial attacks in deep learning, particularly in practical applications like image super-resolution. It underscores the need for further exploration of perceptual metrics and advanced noise mitigation techniques to enhance model resilience."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+      "problem": "Data poisoning attacks on AI models.",
+      "method": "Novel techniques for detection and prevention, including anomaly detection and ensemble learning, validated on CIFAR-10 and Insurance Claims datasets.",
+      "evidence": "Data poisoning reduced model performance by up to 27% in image recognition tasks; proposed defenses improved robustness by 15-20%.",
+      "limitation": "Focus on specific datasets may limit generalizability; needs broader application testing.",
+      "gap_relevance": "Highlights the need for comprehensive defense mechanisms against data poisoning, suggesting further exploration of ensemble methods."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "problem": "Vulnerability of recommendation systems to data poisoning attacks.",
+      "method": "A dual-defense framework combining active robust loss and GAN-based detection.",
+      "evidence": "The framework consistently reduced attack success while maintaining recommendation quality across various datasets.",
+      "limitation": "Limited to recommendation systems; effectiveness in other AI applications remains untested.",
+      "gap_relevance": "Indicates potential for adapting dual-defense strategies to other AI domains facing data poisoning."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "problem": "Vulnerability of computer vision models to various attacks.",
+      "method": "Exploration of defense mechanisms (specifics not detailed).",
+      "evidence": "No specific evidence provided due to lack of abstract.",
+      "limitation": "Lack of detailed methodology and findings limits applicability.",
+      "gap_relevance": "Calls for more detailed studies on defense mechanisms in computer vision to fill knowledge gaps."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Towards Imperceptible and Robust Adversarial Example Attacks against Neural Networks",
+      "problem": "Vulnerability of neural networks to adversarial example attacks.",
+      "method": "New adversarial example crafting method considering human perceptual systems.",
+      "evidence": "Demonstrated efficacy of the proposed technique in generating robust adversarial examples.",
+      "limitation": "Focus on attack crafting rather than defense strategies; lacks evaluation of real-world applicability.",
+      "gap_relevance": "Suggests a need for developing robust defenses against newly crafted adversarial examples."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+      "problem": "Threats to image super-resolution models from adversarial samples.",
+      "method": "Framework using frequency domain analysis and adversarial sample classification.",
+      "evidence": "Proposed method showed improved resilience to adversarial attacks compared to existing models.",
+      "limitation": "May affect image quality; needs further evaluation on diverse datasets.",
+      "gap_relevance": "Points to the necessity of integrating frequency domain techniques in defenses against adversarial attacks."
+    }
+  ],
+  "summary": "The retrieved literature highlights two primary themes: defensive strategies against data poisoning and adversarial robustness in deep learning. The first theme emphasizes the need for comprehensive and scalable defense mechanisms against data poisoning, with proposed techniques showing promise but limited generalizability. The second theme identifies critical gaps in developing robust defenses against adversarial attacks, particularly in image processing, suggesting further exploration of perceptual metrics and advanced noise mitigation techniques to enhance model resilience.",
+  "literature_tension_graph": "The existing literature presents a tension between the proposed dual-defense frameworks against data poisoning, which show promise in specific contexts like recommendation systems, and the lack of generalizability across diverse AI applications. This conflict is primarily evaluative, as the effectiveness of these defenses remains untested in broader operational environments. Additionally, while adversarial robustness techniques focus on crafting imperceptible attacks, they do not adequately address the preservation of image quality during defense, leading to unresolved questions about the trade-offs between robustness and performance. This suggests a research direction aimed at developing adaptable, scalable defense mechanisms that integrate insights from both data poisoning and adversarial robustness, potentially leading to more universally applicable solutions.",
+  "scholarly_positioning": "Existing research has advanced defensive strategies against data poisoning and adversarial attacks, yet significant limitations persist regarding the generalizability and long-term effectiveness of these defenses across diverse datasets and operational contexts. While some studies propose innovative detection and dual-defense frameworks, they often lack comprehensive evaluation in real-world scenarios, leaving a gap in understanding their adaptability. Furthermore, the focus on specific applications, such as image recognition and recommendation systems, underscores an unresolved tension in developing universally applicable solutions. This proposed research aims to bridge these gaps by exploring scalable defense mechanisms that integrate insights from both data poisoning and adversarial robustness, thus contributing to the broader discourse on resilient AI systems.",
+  "domain_router": "{\n  \"domain\": \"machine-learning method development\",\n  \"methodology_template\": \"Ablation studies and benchmark evaluation of defense mechanisms against data poisoning and adversarial attacks in deep learning models.\"\n}",
+  "research_scope": "This study will focus on enhancing the robustness of deep learning models used in image recognition tasks against data poisoning and adversarial attacks. The target population will include convolutional neural networks (CNNs) trained on benchmark datasets such as CIFAR-10 and ImageNet. The intervention will involve the development and evaluation of a dual-defense framework that integrates anomaly detection and frequency domain analysis over a study period of six months. The comparison group will consist of standard CNN architectures without the proposed defenses. Primary outcomes will include model accuracy and resilience to both data poisoning and adversarial perturbations, while secondary outcomes will assess the generalizability of the defense mechanisms across different datasets and attack scenarios.",
+  "concept_definition": "{\n  \"data_poisoning\": \"A malicious technique where attackers inject misleading or harmful data into the training set of machine learning models, aiming to degrade model performance.\",\n  \"adversarial_attacks\": \"Deliberate perturbations made to input data that cause machine learning models to make incorrect predictions, often imperceptible to humans.\",\n  \"robustness\": \"The ability of a machine learning model to maintain performance despite the presence of adversarial inputs or corrupted training data.\",\n  \"deep_learning_models\": \"Neural networks with multiple layers (e.g., CNNs) designed to learn representations from data, particularly effective in image recognition tasks.\",\n  \"convolutional_neural_networks\": \"A class of deep learning models specifically designed for processing structured grid data like images, utilizing convolutional layers to capture spatial hierarchies.\",\n  \"anomaly_detection\": \"A technique used to identify unusual patterns that do not conform to expected behavior, which can indicate data poisoning or other threats.\",\n  \"frequency_domain_analysis\": \"A method that analyzes the frequency components of data, allowing for the identification of anomalies and patterns that may not be visible in the time domain.\",\n  \"dual-defense_framework\": \"An integrated approach that combines multiple defense mechanisms (anomaly detection and frequency domain analysis) to enhance model resilience against attacks.\",\n  \"benchmark_datasets\": \"Standardized datasets (e.g., CIFAR-10, ImageNet) used for evaluating the performance of machine learning models, providing a common ground for comparison.\",\n  \"model_accuracy\": \"The proportion of correct predictions made by a model compared to the total predictions, serving as a primary measure of performance.\",\n  \"generalizability\": \"The ability of a model or defense mechanism to perform well across different datasets and attack scenarios, indicating its robustness.\",\n  \"study_period\": \"The duration (six months) allocated for conducting experiments, developing defenses, and evaluating outcomes in the research.\"\n}",
+  "technical_feasibility": "The proposed study is technically feasible as it primarily involves the development and evaluation of defense mechanisms within deep learning models, specifically convolutional neural networks (CNNs). It requires access to benchmark datasets like CIFAR-10 and ImageNet, which are publicly available. The study does not necessitate open-source model access or hidden state extraction since it focuses on model performance evaluation rather than internal representation analysis. GPU resources will be needed for training and evaluating the models. There is no requirement for human participants or ethics approval, as the research does not involve user interaction or sensitive data. Annotation protocols are not necessary for the benchmark datasets. A feasible adjustment would be to ensure access to sufficient GPU resources for the six-month study period to conduct the experiments effectively.",
+  "gap": "Prior studies have demonstrated the effectiveness of dual-defense frameworks against data poisoning in recommendation systems; however, the literature tension graph shows unresolved tension regarding the generalizability of these defenses across diverse AI applications, leaving unclear whether such frameworks can be effectively adapted to other contexts like image recognition under varying attack scenarios; this matters practically because the success of AI systems in real-world applications hinges on their resilience to diverse threats; therefore, this study investigates the adaptability and effectiveness of a dual-defense framework integrating anomaly detection and frequency domain analysis in enhancing the robustness of convolutional neural networks against both data poisoning and adversarial attacks within the defined scope.",
+  "question": "How does the integration of anomaly detection and frequency domain analysis in a dual-defense framework enhance the robustness of convolutional neural networks against data poisoning and adversarial attacks in image recognition tasks compared to standard CNN architectures?",
+  "research_problem_validity_check": "The proposed research problem is non-trivial as it addresses the significant challenge of enhancing the robustness of AI systems against data poisoning and adversarial attacks, which are critical issues in machine learning. It holds theoretical meaning by integrating concepts from both data poisoning and adversarial robustness, contributing to the broader discourse on resilient AI systems. The research question is empirically testable through the development and evaluation of a dual-defense framework, making it suitable for PhD-level inquiry. However, the committee might reject the problem if it perceives the focus on dual-defense frameworks as too narrow or engineering-oriented without sufficient theoretical underpinning. To deepen the research, the problem could be reframed to explore the underlying mechanisms of how anomaly detection and frequency domain analysis interact within the dual-defense framework, thus enhancing its theoretical contribution and relevance to diverse AI applications.",
+  "theoretical_mechanism": "The proposed research investigates how the integration of anomaly detection (independent variable) and frequency domain analysis (mediator) within a dual-defense framework influences the robustness of convolutional neural networks (dependent variable) against data poisoning and adversarial attacks. The theoretical framework is grounded in resilience theory, which posits that enhancing model defenses can mitigate the impact of malicious inputs. The causal chain suggests that effective anomaly detection identifies harmful data patterns, while frequency domain analysis provides insights into underlying data structures, collectively improving model performance. System-level outcomes include reduced unsafe response rates and improved model accuracy, mediated by technical mechanisms like enhanced feature representation and noise filtering. Assumptions requiring empirical validation include the effectiveness of the dual-defense framework across diverse datasets and the interaction effects between the two defense mechanisms.",
+  "hypothesis": "The integration of anomaly detection as an independent variable within a dual-defense framework will significantly enhance the robustness of convolutional neural networks (CNNs) against data poisoning and adversarial attacks, compared to standard CNN architectures, leading to improved model accuracy as the primary dependent variable.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name               | Role     | Measurement Instrument          | Data Source                | Timing           |\n|------------------------------|----------|--------------------------------|---------------------------|------------------|\n| Anomaly Detection             | IV       | Anomaly detection algorithms    | Model training data       | During training   |\n| Frequency Domain Analysis     | Mediator | Frequency analysis metrics      | Model training data       | During training   |\n| Robustness                   | DV       | Model accuracy metrics         | Benchmark datasets        | Post-training     |\n| Data Poisoning               | Confound | Data integrity checks          | Training data             | Pre-training      |\n| Adversarial Attacks          | Confound | Adversarial attack simulations  | Test data                 | During evaluation  |\n\nCausal Pathway: The integration of anomaly detection (IV) improves the identification of harmful data patterns, which, when analyzed through frequency domain analysis (mediator), enhances the robustness (DV) of CNNs against data poisoning and adversarial attacks. \n\nLikely Confounds: Data poisoning and adversarial attacks may vary in their impact based on dataset characteristics and model architecture, which can confound the results if not controlled. \n\nClaim Boundaries: The study claims that the dual-defense framework improves robustness in specific contexts (image recognition tasks) and datasets (CIFAR-10, ImageNet). It does not claim universal applicability across all AI applications or datasets. \n\nWhat Cannot Be Concluded: The study cannot conclude that the dual-defense framework is the only or the best solution for enhancing robustness against all forms of attacks or in all AI applications.",
+  "methodology": "This study will employ a benchmark evaluation methodology focusing on convolutional neural networks (CNNs) trained on CIFAR-10 and ImageNet datasets. The experimental design will include a dual-defense framework integrating anomaly detection and frequency domain analysis, compared against standard CNN architectures without these defenses. The primary operationalized variables will be model accuracy (dependent variable) and the effectiveness of anomaly detection (independent variable) and frequency domain analysis (mediator). Evaluation metrics will include model accuracy and resilience to both data poisoning and adversarial attacks, assessed through controlled simulations. Confounding variables such as dataset characteristics and attack types will be monitored to ensure validity. The study will ensure reproducibility by utilizing publicly available datasets and standardized training protocols. The scope will be controlled by focusing exclusively on image recognition tasks, allowing for a clear assessment of the dual-defense framework's effectiveness.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study advances resilience theory by empirically demonstrating how the integration of anomaly detection and frequency domain analysis enhances the robustness of convolutional neural networks against data poisoning and adversarial attacks, establishing a new causal framework for understanding model resilience.\",\n  \"technical_contribution\": \"The research introduces a dual-defense framework specifically tailored for image recognition tasks, combining anomaly detection and frequency domain analysis, which has not been previously explored in the context of CNNs, thereby providing a new methodological approach to enhance model robustness.\",\n  \"empirical_contribution\": \"Through rigorous benchmark evaluations on CIFAR-10 and ImageNet, the study provides empirical evidence of improved model accuracy and resilience against diverse attack scenarios, contributing new insights into the effectiveness of dual-defense mechanisms in real-world applications.\",\n  \"practical_deployment_contribution\": \"The findings will yield actionable guidelines for deploying robust AI systems in image recognition tasks, demonstrating how the dual-defense framework can be effectively implemented to mitigate risks associated with data poisoning and adversarial attacks, thus addressing a critical gap in operational AI resilience.\"\n}",
+  "contribution_type_router": "The primary contribution type for this proposal is theoretical. This fits well with the identified tension in the literature regarding the generalizability of dual-defense frameworks across diverse AI applications, particularly in image recognition. The proposal must emphasize the integration of anomaly detection and frequency domain analysis as a novel theoretical framework that enhances model resilience against data poisoning and adversarial attacks. It should avoid overly technical engineering details that detract from the theoretical implications and broader applicability of the findings. By focusing on the theoretical advancements, the research can contribute significantly to the understanding of resilience in AI systems.",
+  "phd_contribution_design": "This research proposes a dual-defense framework that integrates anomaly detection and frequency domain analysis to enhance the robustness of convolutional neural networks (CNNs) against data poisoning and adversarial attacks in image recognition tasks. The mechanism-level claim posits that effective anomaly detection identifies harmful data patterns, while frequency domain analysis improves feature representation, collectively enhancing model resilience. Existing literature fails to comprehensively address the adaptability of dual-defense strategies across diverse AI applications, particularly in image recognition contexts. The falsifiable claim is that the proposed framework will significantly improve model accuracy compared to standard CNN architectures. The strongest baseline for comparison will be standard CNNs without defense mechanisms. Evidence supporting the claim will include benchmark evaluations demonstrating improved accuracy and resilience on CIFAR-10 and ImageNet datasets. A negative result, indicating no significant improvement, would suggest limitations in the dual-defense framework's applicability and call for further exploration of alternative defense strategies.",
+  "pre_proposal_critique": "The proposed contribution design may struggle to achieve an 85+ PhD-level score due to several critical weaknesses. First, the novelty of the dual-defense framework lacks sufficient differentiation from existing methods, as similar approaches have been explored without clear advancements; thus, a more explicit articulation of how this framework uniquely addresses the identified gaps is necessary. Second, the theoretical underpinnings are weak, as the causal mechanisms between anomaly detection and model robustness are not rigorously defined; the proposal must provide a more robust theoretical framework that connects these concepts with empirical evidence. Third, the baseline comparison is insufficiently detailed; simply comparing against standard CNNs does not adequately demonstrate the framework's effectiveness; the proposal should include ablation studies to isolate the contributions of each defense mechanism and validate their combined impact on robustness. Addressing these objections will significantly enhance the proposal's clarity, depth, and overall feasibility.",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"Data Poisoning\",\n      \"risk\": \"Malicious data injection could degrade model performance.\",\n      \"mitigation_strategy\": \"Implement robust anomaly detection algorithms to identify and filter out poisoned data during training.\"\n    },\n    {\n      \"failure_mode\": \"Adversarial Attacks\",\n      \"risk\": \"Model vulnerability to adversarial perturbations may lead to incorrect predictions.\",\n      \"mitigation_strategy\": \"Incorporate adversarial training techniques alongside the dual-defense framework to enhance model resilience.\"\n    },\n    {\n      \"failure_mode\": \"Generalizability Issues\",\n      \"risk\": \"Defense mechanisms may not perform well across diverse datasets and attack scenarios.\",\n      \"mitigation_strategy\": \"Conduct extensive evaluations on multiple benchmark datasets to assess the adaptability of the dual-defense framework.\"\n    },\n    {\n      \"failure_mode\": \"Model Overfitting\",\n      \"risk\": \"The model may become too specialized to training data, reducing its effectiveness on unseen data.\",\n      \"mitigation_strategy\": \"Utilize regularization techniques and cross-validation to ensure the model maintains generalization capabilities.\"\n    },\n    {\n      \"failure_mode\": \"Validity Threats\",\n      \"risk\": \"Confounding variables may skew results and lead to incorrect conclusions.\",\n      \"mitigation_strategy\": \"Carefully control for confounding variables and conduct sensitivity analyses to validate findings.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretations\",\n      \"risk\": \"Failure to achieve expected improvements may be misinterpreted as ineffectiveness of the framework.\",\n      \"mitigation_strategy\": \"Clearly communicate the limitations of the study and the specific contexts in which the dual-defense framework is applicable.\"\n    },\n    {\n      \"failure_mode\": \"Resource Constraints\",\n      \"risk\": \"Insufficient GPU resources may hinder model training and evaluation.\",\n      \"mitigation_strategy\": \"Ensure access to adequate computational resources prior to the study and consider cloud-based solutions if necessary.\"\n    },\n    {\n      \"failure_mode\": \"Ethical Risks\",\n      \"risk\": \"Potential misuse of the developed defenses for malicious purposes.\",\n      \"mitigation_strategy\": \"Establish guidelines for ethical use and promote responsible AI practices within the research community.\"\n    }\n  ]\n}",
+  "bad_proposal_pattern_detector": "The proposal exhibits several bad patterns that could limit its score. Firstly, it presents a generic gap by failing to clearly articulate how the dual-defense framework uniquely addresses the identified issues, which undermines its novelty. Additionally, there is an overclaiming of novelty without sufficient differentiation from existing methods, which could lead to skepticism from reviewers. The causal mechanism linking anomaly detection and model robustness is described in a hand-wavy manner, lacking rigorous definition, which weakens theoretical underpinnings. Furthermore, the baseline comparison is weak, as it does not adequately demonstrate the framework's effectiveness against existing methods; including ablation studies is essential. Lastly, the proposal lacks a clear negative-result interpretation, which is crucial for understanding the limitations of the approach. To improve, the proposal should explicitly define the unique contributions of the dual-defense framework, strengthen the theoretical framework with empirical evidence, detail the baseline comparisons, include ablation studies, and address potential negative results comprehensively.",
+  "evidence_claim_alignment": "The proposal's literature gap regarding the generalizability of dual-defense frameworks is strongly supported by Paper P1, which emphasizes the need for adaptable solutions across various AI contexts. The mechanism of integrating anomaly detection and frequency domain analysis is feasible, but the proposal should hedge its claims about effectiveness by citing specific results from P1 and P2 that demonstrate improved robustness. The novelty of the dual-defense framework is weakly supported; while it combines existing methods, the proposal should clarify how this integration differs from previous approaches. The baseline comparison with standard CNNs is appropriate, but the proposal should explicitly mention the performance metrics used in P1 and P2 to strengthen this claim. The expected contribution is theoretically grounded, yet it could benefit from a more detailed discussion of how it builds on the findings of existing literature, particularly regarding the adaptability of defenses in diverse AI applications.",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong; evidence notes P1 and P2 highlight the lack of generalizability in dual-defense frameworks, supporting the identified gap.",
+    "tension_to_problem": "Strong; the research problem arises from the tension between existing dual-defense strategies and their limited applicability across diverse AI contexts.",
+    "problem_validity": "Valid; the research question is non-trivial, testable, and relevant for PhD-level inquiry as it addresses significant challenges in AI resilience.",
+    "contribution_type_alignment": "Coherent; the theoretical contribution aligns with the research question, mechanism, method, and evaluation focus on resilience.",
+    "domain_to_method": "Fits well; the selected methodology of ablation studies and benchmark evaluation is appropriate for the machine learning domain.",
+    "concept_to_metric": "Well-defined; core concepts such as robustness and model accuracy are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Feasible; the method is achievable given access to public datasets and necessary computational resources.",
+    "scope_to_gap": "Specific; the study scope effectively narrows the gap to focus on image recognition tasks, enhancing clarity.",
+    "gap_to_question": "Direct; the gap regarding adaptability leads to the research question investigating the dual-defense framework's effectiveness.",
+    "question_to_hypothesis": "Logical; the research question directly informs the hypothesis about the dual-defense framework's impact on robustness.",
+    "hypothesis_to_methodology": "Aligned; the methodology is designed to test the hypothesis through comparative evaluations of model performance.",
+    "methodology_to_evaluation": "Clear; the planned evaluation through benchmark datasets will directly answer the research question regarding model resilience.",
+    "contribution_to_test": "Tested; the PhD contribution design is directly assessed through the methodology and evaluation metrics.",
+    "reviewer_attack_to_repair": "Repairs made; the final proposal addresses pre-proposal objections by clarifying unique contributions and strengthening theoretical underpinnings.",
+    "bad_pattern_repair": "Removed; the proposal avoids generic claims, overclaiming, and weak baseline comparisons, focusing on specific contributions.",
+    "evidence_claim_alignment": "Strong; core claims are well-supported by retrieved evidence, particularly from P1 and P2.",
+    "weak_links": []
+  },
+  "proposal": "This research aims to enhance the robustness of convolutional neural networks (CNNs) against data poisoning and adversarial attacks in image recognition tasks by developing a novel dual-defense framework that integrates anomaly detection and frequency domain analysis. Current literature highlights a significant gap in the generalizability of dual-defense strategies across diverse AI applications, particularly in image recognition, where existing methods often fail to demonstrate adaptability and comprehensive evaluation in varied operational contexts. This study posits that effective anomaly detection identifies harmful patterns in training data (independent variable), while frequency domain analysis enhances feature representation (mediator), collectively leading to improved model resilience (dependent variable) against both data poisoning and adversarial attacks. The hypothesis is that the proposed dual-defense framework will significantly outperform standard CNN architectures in terms of model accuracy and resilience. Constructs will be operationalized through metrics such as model accuracy and robustness, with careful controls for dataset characteristics and attack types. The methodology will include rigorous ablation studies to isolate the contributions of each defense mechanism, ensuring robust baseline comparisons against standard CNNs. Validity will be maintained through monitoring confounding variables and employing statistical methods for evaluation. Expected contributions include advancing resilience theory by empirically demonstrating the effectiveness of integrated defense mechanisms, providing actionable guidelines for deploying robust AI systems, and addressing critical gaps in operational AI resilience. This research directly responds to the limitations of existing frameworks by offering a comprehensive evaluation of the dual-defense approach, thereby enhancing theoretical understanding and practical applications in AI resilience.",
+  "draft_proposal": "This research proposes to enhance the robustness of convolutional neural networks (CNNs) against data poisoning and adversarial attacks in image recognition tasks by developing a dual-defense framework that integrates anomaly detection and frequency domain analysis. The study will focus on benchmark datasets such as CIFAR-10 and ImageNet, employing a methodology that includes ablation studies to isolate the contributions of each defense mechanism. Key concepts include data poisoning as malicious data injection, adversarial attacks as perturbations that mislead models, and robustness as the ability to maintain performance under attack. The study is technically feasible, relying on publicly available datasets and GPU resources, and aims to bridge the gap in existing literature regarding the generalizability of defense mechanisms. The research question posits how the integration of the proposed defenses enhances CNN robustness compared to standard architectures. The theoretical mechanism suggests that effective anomaly detection identifies harmful patterns, while frequency domain analysis improves feature representation, leading to enhanced model resilience. The hypothesis is that the dual-defense framework will significantly improve model accuracy. Constructs will be operationalized through metrics such as model accuracy and resilience, with controls for dataset characteristics and attack types. This research aims to contribute theoretically by establishing a new causal framework for understanding model resilience, while also addressing the identified weaknesses in existing literature by clearly articulating the unique contributions of the dual-defense framework and providing rigorous empirical validation through comprehensive evaluations. Expected contributions include theoretical advancements in resilience theory, technical innovations in defense mechanisms, and practical guidelines for deploying robust AI systems. Key limitations include potential generalizability issues and the risk of overfitting, which will be mitigated through extensive evaluations across diverse datasets and careful monitoring of confounding variables.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding the generalizability of dual-defense frameworks is valid, but it lacks specificity in how it directly relates to the proposed research.",
+      "literature_grounding": "The gap is somewhat grounded in the literature, particularly in the context of data poisoning and adversarial attacks, but it could benefit from more explicit citations to support its significance.",
+      "meaningfulness": "The gap is meaningful as it addresses practical concerns in AI resilience, but it risks being perceived as generic without a clear articulation of unique contributions.",
+      "already_solved_risk": "There is a risk that existing literature may have already addressed aspects of this gap, particularly regarding dual-defense strategies, which needs clearer differentiation."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior approaches but lacks a critical comparative analysis that highlights unresolved tensions and contradictions in the literature.",
+      "unresolved_tensions": "While it mentions tensions, it does not sufficiently explore how these tensions impact the development of robust AI systems.",
+      "positioning_quality": "Positioning is weak; it needs a more thorough discussion of how the proposed research builds on and diverges from existing studies."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The domain of machine learning method development is appropriate for the proposed research.",
+      "methodology_template_fit": "The methodology template aligns with the research domain, focusing on empirical evaluation of defense mechanisms.",
+      "template_transfer_risk": "There is minimal risk of inappropriate template transfer, but the methodology could be more explicitly tailored to the unique aspects of the proposed dual-defense framework."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is adequately defined, focusing on convolutional neural networks in image recognition tasks.",
+      "population_or_task_definition": "The population and task definitions are clear, targeting specific datasets like CIFAR-10 and ImageNet.",
+      "intervention_and_comparison_definition": "The intervention and comparison groups are well-defined, but the control mechanisms could be elaborated further.",
+      "outcome_definition": "Primary and secondary outcomes are specified, but the metrics for assessing resilience could be more explicitly detailed."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Key technical terms are defined, but some definitions could be more precise, particularly regarding robustness and anomaly detection.",
+      "implementation_specificity": "Implementation specifics are somewhat vague; more detail on how the dual-defense framework will be operationalized is needed.",
+      "level_of_analysis_clarity": "The level of analysis is appropriate, focusing on model performance, but could benefit from clearer links to theoretical constructs."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to required models is feasible, as the study relies on publicly available datasets.",
+      "data_and_compute_requirements": "GPU resources are necessary, and the proposal should ensure adequate access for the study duration.",
+      "human_or_multilingual_resources": "No human participants are involved, which simplifies feasibility concerns.",
+      "feasible_adjustments": "Consideration of cloud-based solutions for GPU access could enhance feasibility."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on the integration of two defense mechanisms.",
+      "scope_appropriateness": "The scope is appropriate for a PhD-level inquiry, addressing a significant challenge in AI.",
+      "variable_clarity": "Variables are generally clear, but the interaction between them could be better articulated."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The theoretical mechanism is outlined but lacks depth; it should more explicitly connect the independent and dependent variables.",
+      "theoretical_framing": "The framing around resilience theory is present but could be strengthened with more empirical support.",
+      "assumption_transparency": "Assumptions are not clearly stated, which could lead to misunderstandings about the framework's applicability."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it should specify measurable outcomes more explicitly.",
+      "mechanism_grounding": "Grounding in causal mechanisms is present but needs more rigorous definition.",
+      "measurable_outcome": "Outcomes are measurable, but clarity on how they will be assessed is needed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization is outlined, but specific measurement instruments should be detailed.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but clarity on how they will be applied is needed.",
+      "causal_identification": "Causal pathways are mentioned but require more explicit connections between constructs.",
+      "confound_awareness": "Confounding variables are acknowledged, but strategies for control should be more robust.",
+      "claim_boundaries": "Claim boundaries are somewhat defined but need clearer limitations regarding the framework's applicability."
+    },
+    "methodology_stage": {
+      "baseline_validity": "Baseline comparisons are appropriate, but they should include more detailed descriptions of the control conditions.",
+      "metric_validity": "Metrics are valid for assessing model performance but could benefit from additional validation strategies.",
+      "statistical_or_evaluation_validity": "Evaluation validity is generally sound, but the proposal should detail statistical methods to be used.",
+      "reproducibility": "Reproducibility is supported by the use of public datasets, but specific protocols should be outlined.",
+      "confound_control": "Confound control strategies need to be more explicitly defined to ensure validity.",
+      "risk_analysis": "Risk analysis is present but should include more detailed mitigation strategies for identified risks."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is present but requires clearer articulation of its uniqueness.",
+      "methodological_novelty": "Methodological contributions are implied but should be explicitly stated to highlight innovation.",
+      "practical_novelty": "Practical contributions are mentioned but could be more specific regarding implementation.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal should emphasize how it builds on existing work without replicating it."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but mitigation strategies should be more detailed and actionable.",
+      "limitation_depth": "Limitations are acknowledged, but the depth of discussion could be improved.",
+      "risk_mitigation": "Mitigation strategies are present but need to be more comprehensive to address potential risks."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contribution clarity is moderate; the proposal should emphasize unique aspects more strongly.",
+      "novelty_type": "theoretical",
+      "coherence": "Coherence is generally good, but some sections could be better integrated.",
+      "limitation_awareness": "Awareness of limitations is present but should be more explicit.",
+      "academic_communication": "Communication is adequate but could benefit from a more formal academic tone."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads to the question, but the connection could be made more explicit.",
+      "question_to_hypothesis": "The question logically leads to the hypothesis, maintaining clarity.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but clarity on operationalization is needed.",
+      "method_to_evaluation": "The method is designed to evaluate the question, but specific metrics should be detailed."
+    },
+    "revision_plan": "Revise the gap stage to clarify the uniqueness of the proposed research and its significance. Strengthen the theoretical mechanism by explicitly stating assumptions and connecting variables. Enhance the methodology section by detailing control conditions and statistical methods to be used. Finally, improve the clarity of contributions by emphasizing theoretical and practical innovations."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 3,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 3,
+    "presentation": 4,
+    "weighted_total": 67.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: understandable but partially broad or insufficiently operationalized",
+        "justification": "The proposal identifies a relevant research problem regarding the robustness of CNNs against data poisoning and adversarial attacks. However, the operational definitions of key concepts like 'robustness' and 'dual-defense framework' are somewhat vague, lacking specificity in how these constructs will be measured and evaluated. Major weaknesses: Key concepts are not clearly operationalized, and the research boundaries are not well defined, making it difficult to ascertain the scope of the study. Next band requirements: To move into the next band, the proposal should provide precise operational definitions for all key constructs and clearly delineate the research boundaries."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal outlines a logical progression from problem identification to hypothesis formulation. However, the causal claims linking anomaly detection and frequency domain analysis to improved robustness are not sufficiently supported by empirical evidence. Major weaknesses: Weak transitions between the theoretical framework and the proposed methodology; assumptions regarding the effectiveness of the dual-defense framework are not scientifically justified. Next band requirements: Strengthening the causal claims with empirical evidence from existing literature and providing clearer connections between each stage of reasoning would improve coherence."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 12.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "While the proposal attempts to introduce a dual-defense framework, it largely combines existing methods without sufficiently demonstrating how this integration offers a novel theoretical or methodological contribution. Major weaknesses: Lacks a clear articulation of how the proposed framework differs from existing literature, leading to questions about its originality. Next band requirements: To achieve a higher score, the proposal must clearly define the unique contributions of the dual-defense framework and how it advances understanding in the field."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology is generally sound, with a clear plan for ablation studies and benchmark evaluations. However, it lacks detailed descriptions of the evaluation metrics and potential confounding factors. Major weaknesses: Insufficient detail on how confounding variables will be controlled and how the evaluation metrics will be operationalized. Next band requirements: Providing a more comprehensive methodology with explicit details on evaluation metrics and controls would enhance feasibility."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but does not engage deeply with it or critically analyze existing gaps, leading to a superficial understanding of the research context. Major weaknesses: Lacks critical synthesis of the literature and fails to identify unresolved tensions or contradictions in existing research. Next band requirements: A more thorough engagement with the literature, including a critical analysis of existing gaps and positioning relative to competing approaches, is needed."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 6.0,
+        "level": "5-6: strong master-level but limited theoretical depth",
+        "justification": "The proposal demonstrates some theoretical understanding but lacks depth in discussing the mechanisms underlying the proposed framework and its broader implications. Major weaknesses: Limited discussion of trade-offs, limitations, and failure cases, which are crucial for PhD-level research. Next band requirements: Incorporating a more sophisticated theoretical discussion and addressing potential limitations and failure cases would enhance academic depth."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, but some sections could benefit from improved conciseness and precision. Major weaknesses: Occasional repetition and lack of clarity in terminology detract from overall readability. Next band requirements: Refining the language for clarity and conciseness would improve the presentation quality."
+      }
+    ],
+    "comments": "Total score: 67.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant and timely research problem.; Proposes a structured methodology with plans for ablation studies. Major weaknesses: Vague operational definitions of key concepts.; Insufficient theoretical grounding and novelty.; Lack of depth in literature engagement and academic discussion. Required improvements for true PhD-level quality: Provide clearer operational definitions and research boundaries.; Strengthen theoretical underpinnings and causal claims.; Engage more deeply with the literature and articulate unique contributions. Final verdict: The proposal demonstrates potential but lacks the rigor and depth expected of genuine PhD-level research maturity."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 4,
+        "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+        "similarity": 0.7651
+      },
+      {
+        "original_index": 3,
+        "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+        "similarity": 0.7005
+      },
+      {
+        "original_index": 5,
+        "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+        "similarity": 0.615
+      },
+      {
+        "original_index": 2,
+        "title": "Towards Imperceptible and Robust Adversarial Example Attacks against Neural Networks",
+        "similarity": 0.5906
+      },
+      {
+        "original_index": 1,
+        "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+        "similarity": 0.4663
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 2,
+          "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+          "similarity": 0.6983
+        },
+        {
+          "paper_index": 1,
+          "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+          "similarity": 0.676
+        },
+        {
+          "paper_index": 3,
+          "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+          "similarity": 0.6227
+        }
+      ],
+      "max_similarity": 0.6983,
+      "mean_similarity": 0.6195
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 3,
+          "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+          "similarity": 0.5704
+        },
+        {
+          "paper_index": 1,
+          "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+          "similarity": 0.5533
+        },
+        {
+          "paper_index": 4,
+          "title": "Towards Imperceptible and Robust Adversarial Example Attacks against Neural Networks",
+          "similarity": 0.5025
+        }
+      ],
+      "max_similarity": 0.5704,
+      "mean_similarity": 0.5136
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+    "retrieval_snapshot_id": "20260528T132927Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-5",
+    "latency_ms": 315269,
+    "prompt_tokens": 88158,
+    "completion_tokens": 10669,
+    "total_tokens": 98827,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

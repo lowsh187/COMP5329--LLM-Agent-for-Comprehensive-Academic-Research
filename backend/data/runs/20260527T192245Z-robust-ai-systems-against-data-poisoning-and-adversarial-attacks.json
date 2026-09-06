@@ -1,0 +1,873 @@
+{
+  "experiment_id": "20260527T191121Z",
+  "run_index": 3,
+  "topic": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "condition": "multi_stage_group_selection",
+  "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "retrieval_snapshot_id": "20260527T191843Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-6",
+  "papers": [
+    {
+      "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+      "authors": [
+        "H. Kure",
+        "Pradipta Sarkar",
+        "A. Ndanusa",
+        "Augustine O. Nwajana"
+      ],
+      "abstract": "This paper investigates the critical issue of data poisoning attacks on AI models, a growing concern in the ever-evolving landscape of artificial intelligence and cybersecurity. As advanced technology systems become increasingly prevalent across various sectors, the need for robust defence mechanisms against adversarial attacks becomes paramount. The study aims to develop and evaluate novel techniques for detecting and preventing data poisoning attacks, focusing on both theoretical frameworks and practical applications. Through a comprehensive literature review, experimental validation using the CIFAR-10 and Insurance Claims datasets, and the development of innovative algorithms, this paper seeks to enhance the resilience of AI models against malicious data manipulation. The study explores various methods, including anomaly detection, robust optimization strategies, and ensemble learning, to identify and mitigate the effects of poisoned data during model training. Experimental results indicate that data poisoning significantly degrades model performance, reducing classification accuracy by up to 27 % in image recognition tasks (CIFAR-10) and 22 % in fraud detection models (Insurance Claims dataset). The proposed defence mechanisms, including statistical anomaly detection and adversarial training, successfully mitigated poisoning effects, improving model robustness and restoring accuracy levels by an average of $15-20 \\%$. The findings further demonstrate that ensemble learning techniques provide an additional layer of resilience, reducing false positives and false negatives caused by adversarial data injections. The findings of this paper contribute to the broader understanding of adversarial machine learning and provide actionable insights for practitioners in industries facing emerging threats to AI-based systems. By addressing the challenges of data poisoning attacks, this study aims to improve the security and reliability of AI models, ultimately fostering greater trust in AI technologies across critical applications.",
+      "published": "2025-03-12",
+      "url": "https://www.semanticscholar.org/paper/898e535ba4ebce0377abe00023e722c29d66fdd2",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "authors": [
+        "Xiaocui Dang",
+        "Priyadarsi Nanda",
+        "Heng Xu",
+        "Haiyu Deng",
+        "Chunpeng Ge"
+      ],
+      "abstract": "Deep learning-based recommendation systems are highly vulnerable to data poisoning attacks, where adversaries manipulate user interactions to degrade model integrity. We hypothesize that combining an active robust loss with a passive GAN-based detection will significantly reduce poisoning impact in recommendation systems without sacrificing utility. We propose a robust and adaptive dual-defense framework: the active defense integrates a crafted loss function to mitigate poisoning effects while maintaining model performance. The passive defense employs a Generative Adversarial Network (GAN)-based detection model to identify and filter poisoned data, enhancing detection accuracy and system security. The framework supports classical matrix factorization (MF) model and large language model (LLM)-based pipelines and scales to large datasets. Extensive experiments across multiple real-world datasets at varying poison rates show that our method outperforms representative defenses, consistently reducing attack success without sacrificing recommendation quality. The framework also admits a federated instantiation, where robust training and GAN-based detection run on clients and only privacy-preserving summaries are aggregated. The proposed method significantly improves the robustness and adaptability of recommendation systems under data poisoning attacks.",
+      "published": "2026-04-19",
+      "url": "https://www.semanticscholar.org/paper/d6186eae94ca6b0692cad55298509226885c6271",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Adaptive AI-Driven Learning Architecture for Real Time Detection and Prevention of Data Poisoning and Model Evasion Attacks",
+      "authors": [
+        "Paul Okanda",
+        "Sarah Muriithi"
+      ],
+      "abstract": "Artificial intelligence (AI) has been integrated into cybersecurity systems particularly in cyber threat intelligence (CTI) and has significantly enhanced the detection, analysis, and mitigation of sophisticated cyber threats in real time in organisations. Unlike traditional static defence mechanisms, which rely on fixed rules or offline retraining, the proposed architecture empowers continuous dynamic learning capabilities to identify and mitigate attacks as they unfold ensuring the integrity and reliability of AI-driven CTI systems. AI models to self-heal and harden against evolving adversarial tactics. The primary goal is to enhance CTI operations by providing timely, accurate threat detection and robust mitigation thereby reducing the window of opportunity for attackers and improving overall cybersecurity posture. This article presents a comprehensive adaptive learning architecture with formalised threat models, architectural specifications, and empirical validation. Experimental evaluation using benchmark datasets (CIC-IDS2017 and VirusTotal) demonstrates that the system achieves 43.7% higher evasion detection accuracy than traditional static anomaly detectors, while maintaining processing latency below 5 milliseconds. The architecture successfully detects 89.1% of poisoning attacks and reduces false positive rates by 37.5% relative to baseline methods. The key contributions of this article include the design of an integrated adaptive learning system that simultaneously detects and prevents both data poisoning and model evasion attacks within cybersecurity AI models.",
+      "published": "2026-05-04",
+      "url": "https://www.semanticscholar.org/paper/5d8a8c4f0f0aee759876601d381364a7c945fa80",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Navigating the Adversarial Environment: Understanding and Mitigating Poisoning Attacks Through Robust Adversarial Training",
+      "authors": [
+        "S Suriya",
+        "R Harshada"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4757373",
+      "source": "Crossref"
+    },
+    {
+      "title": "Resilient Autonomy: Securing Intelligent Systems Against Adversarial Attacks",
+      "authors": [
+        "Pavan Nutalapati",
+        "Isan Sahoo",
+        "Deepak Kole",
+        "Rakesh Keshava",
+        "Milan Parikh",
+        "Girish Ashok Gajwani",
+        "B. Harve"
+      ],
+      "abstract": "As autonomous systems become central to mission-critical operations, their ability to withstand adversarial threats is crucial to ensuring trust, safety, and uninterrupted functionality. This paper introduces a comprehensive framework for resilient autonomy that proactively prevents, detects, and mitigates key adversarial challenges, including sensor spoofing, sensor manipulation, and machine learning model poisoning. We present a layered defense architecture that integrates adversarial robust learning, real-time anomaly detection, and secure control strategies to maintain reliable autonomous behavior in compromised environments. Our hybrid resilience model addresses both inference-time perturbations and upstream vulnerabilities in data acquisition and processing pipelines. The system employs adaptive decision logic and decentralized failover mechanisms to dynamically reconfigure operations upon detection of anomalies or suspicious behavior, thus preserving mission continuity. In addition, we embed explainable AI modules to enhance transparency, facilitate system diagnostics, and support operator trust. We validate the proposed framework using a suite of simulated adversarial scenarios across diverse autonomous agents, including drones, mobile robots, and vehicle models. Results demonstrate significant gains in threat resistance, operational stability, and recovery time when compared to conventional defenses. This work lays the foundation for building self-reliant, attack-aware autonomous systems that are capable of sustaining functionality under adversarial uncertainty.",
+      "published": "2025-08-26",
+      "url": "https://www.semanticscholar.org/paper/2fe6a1170f6d6266d3744cd63a92ae1cdb0ca222",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "authors": [
+        "Yi Yu"
+      ],
+      "abstract": "Abstract was not available from Crossref.",
+      "published": null,
+      "url": "https://doi.org/10.32657/10356/201674",
+      "source": "Crossref"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Defending AI Models Against Data Poisoning Attacks",
+      "paper_indices": [
+        1,
+        3,
+        2
+      ],
+      "summary": "This cluster of papers focuses on various strategies for detecting and preventing data poisoning attacks on AI models, particularly in the contexts of cybersecurity and recommendation systems. The studies propose innovative frameworks and architectures that enhance the resilience of AI systems against adversarial manipulations, employing techniques such as anomaly detection, robust optimization, and dual-defense mechanisms. Experimental results demonstrate significant improvements in detection accuracy and model performance, highlighting the effectiveness of these approaches in real-world applications.",
+      "limitations": "While the proposed methods show promising results, they may still face challenges in scalability, adaptability to evolving attack strategies, and the need for extensive computational resources. Additionally, the reliance on specific datasets for validation may limit the generalizability of the findings across diverse applications and environments.",
+      "gap_relevance": "This cluster highlights critical gaps in existing defenses against data poisoning, particularly in the dynamic nature of cyber threats. By addressing these gaps, future research can explore more adaptive and scalable solutions, potentially leading to improved security measures in AI-driven systems."
+    },
+    {
+      "theme": "Adversarial Attacks and Defense Mechanisms in Machine Learning",
+      "paper_indices": [
+        4,
+        6
+      ],
+      "summary": "This cluster primarily investigates the vulnerabilities of machine learning models, particularly in computer vision, against various forms of adversarial attacks, including data poisoning and backdoor attacks. It emphasizes the importance of robust adversarial training as a potential defense strategy.",
+      "limitations": "The abstracts of the papers are not available, limiting the understanding of specific methodologies and findings. Additionally, there may be a lack of empirical validation of proposed defense mechanisms in real-world scenarios.",
+      "gap_relevance": "This cluster highlights critical areas of vulnerability in machine learning systems, which can guide future research in developing more effective defense strategies and understanding the broader implications of adversarial attacks."
+    },
+    {
+      "theme": "Resilient Autonomy in Intelligent Systems",
+      "paper_indices": [
+        5
+      ],
+      "summary": "This cluster primarily investigates the development of frameworks and architectures that enhance the resilience of autonomous systems against various adversarial threats. It emphasizes proactive measures for prevention, detection, and mitigation of attacks such as sensor spoofing and model poisoning, integrating robust learning, anomaly detection, and secure control strategies to maintain reliable operations in compromised environments.",
+      "limitations": "The proposed frameworks may not fully account for all possible adversarial scenarios, especially those that are highly dynamic or novel. Additionally, the effectiveness of the resilience strategies in real-world applications remains to be thoroughly validated, and the computational overhead of implementing these systems in real-time settings could pose challenges.",
+      "gap_relevance": "This cluster highlights the need for further research into adaptive resilience mechanisms and the integration of explainable AI in autonomous systems, identifying gaps in current methodologies that could be explored to enhance trust and safety in intelligent systems."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+      "problem": "Data poisoning attacks on AI models.",
+      "method": "Novel techniques for detection and prevention, including anomaly detection and ensemble learning, validated on CIFAR-10 and Insurance Claims datasets.",
+      "evidence": "Data poisoning reduced classification accuracy by up to 27% and proposed defenses improved robustness by 15-20%.",
+      "limitation": "Focus on specific datasets may limit generalizability of findings.",
+      "gap_relevance": "Highlights the need for broader application of defense mechanisms across diverse AI models."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "problem": "Vulnerability of recommendation systems to data poisoning attacks.",
+      "method": "A dual-defense framework combining active robust loss and GAN-based detection.",
+      "evidence": "Method consistently reduced attack success while maintaining recommendation quality across multiple datasets.",
+      "limitation": "Limited to recommendation systems; applicability to other AI domains is unclear.",
+      "gap_relevance": "Suggests exploration of dual-defense strategies in other AI applications beyond recommendations."
+    },
+    {
+      "paper_id": "P3",
+      "title": "Adaptive AI-Driven Learning Architecture for Real Time Detection and Prevention of Data Poisoning and Model Evasion Attacks",
+      "problem": "Real-time detection and prevention of data poisoning and model evasion attacks.",
+      "method": "Adaptive learning architecture with empirical validation on CIC-IDS2017 and VirusTotal datasets.",
+      "evidence": "Achieved 43.7% higher evasion detection accuracy and detected 89.1% of poisoning attacks.",
+      "limitation": "Performance metrics may vary with different datasets and attack types.",
+      "gap_relevance": "Indicates potential for developing adaptive systems that can evolve with emerging threats."
+    },
+    {
+      "paper_id": "P4",
+      "title": "Navigating the Adversarial Environment: Understanding and Mitigating Poisoning Attacks Through Robust Adversarial Training",
+      "problem": "Understanding and mitigating poisoning attacks.",
+      "method": "Robust adversarial training techniques.",
+      "evidence": "No specific evidence provided due to lack of abstract.",
+      "limitation": "Lack of empirical data or detailed methodology in the paper.",
+      "gap_relevance": "Calls for further investigation into adversarial training methods and their effectiveness against various attack vectors."
+    },
+    {
+      "paper_id": "P5",
+      "title": "Resilient Autonomy: Securing Intelligent Systems Against Adversarial Attacks",
+      "problem": "Adversarial threats to autonomous systems.",
+      "method": "Layered defense architecture integrating robust learning and anomaly detection.",
+      "evidence": "Demonstrated significant gains in threat resistance and operational stability in simulated adversarial scenarios.",
+      "limitation": "Validation limited to simulated environments; real-world applicability needs assessment.",
+      "gap_relevance": "Encourages exploration of resilience frameworks in real-world autonomous systems facing adversarial challenges."
+    },
+    {
+      "paper_id": "P6",
+      "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+      "problem": "Vulnerability of computer vision models to various attacks.",
+      "method": "Exploration of defense mechanisms against data poisoning and adversarial attacks.",
+      "evidence": "No specific evidence provided due to lack of abstract.",
+      "limitation": "Insufficient details on methodologies or results.",
+      "gap_relevance": "Highlights the need for comprehensive studies on defense mechanisms in computer vision applications."
+    }
+  ],
+  "summary": "The literature reveals a focused effort on enhancing AI resilience against data poisoning and adversarial attacks through innovative frameworks and techniques, such as anomaly detection and robust adversarial training. However, existing methods often struggle with scalability, adaptability, and empirical validation across diverse applications, highlighting critical gaps in their generalizability and real-world effectiveness. Future research should prioritize adaptive resilience mechanisms and the integration of explainable AI to address these limitations and improve security in intelligent systems.",
+  "scholarly_positioning": "Prior approaches to enhancing AI resilience against data poisoning and adversarial attacks, such as robust adversarial training and dual-defense frameworks, often exhibit limitations in scalability and adaptability to evolving attack strategies. Notably, while these methods demonstrate improvements in specific contexts, their generalizability across diverse applications remains unproven, leaving a significant gap in real-world applicability. Furthermore, existing frameworks frequently lack empirical validation in dynamic environments, highlighting the need for adaptive mechanisms that can evolve alongside emerging threats. This proposed research aims to develop a novel adaptive AI-driven learning architecture that not only addresses these limitations but also integrates explainable AI principles, thereby contributing to a deeper understanding of resilience in intelligent systems and setting a new standard for security measures in the field.",
+  "domain_router": "{\n  \"domain\": \"machine-learning method development\",\n  \"methodology_template\": {\n    \"study_design\": \"Experimental validation with controlled datasets\",\n    \"baseline_comparisons\": [\n      \"Existing robust adversarial training methods\",\n      \"Current dual-defense frameworks\"\n    ],\n    \"ablations\": [\n      \"Removing explainable AI components\",\n      \"Testing adaptive mechanisms in isolation\"\n    ],\n    \"controls\": [\n      \"Static vs. dynamic attack scenarios\",\n      \"Different types of data poisoning attacks\"\n    ],\n    \"measurable_variables\": [\n      \"Detection accuracy\",\n      \"Model performance metrics (e.g., F1 score, precision, recall)\",\n      \"Robustness against various attack types\"\n    ],\n    \"data_sources\": [\n      \"CIFAR-10\",\n      \"CIC-IDS2017\",\n      \"VirusTotal\",\n      \"Insurance Claims datasets\"\n    ],\n    \"evaluation_metrics\": [\n      \"Detection success rate\",\n      \"Impact on model accuracy\",\n      \"Scalability of the proposed methods\"\n    ],\n    \"likely_failure_cases\": [\n      \"Inability to generalize across unseen attack types\",\n      \"Performance degradation in real-time applications\",\n      \"Computational resource limitations affecting scalability\"\n    ]\n  }\n}",
+  "research_scope": "This study will focus on enhancing the resilience of machine learning models, specifically in the domain of cybersecurity, against data poisoning and adversarial attacks. The target population will include AI-driven recommendation systems and intrusion detection systems, with an evaluation period of six months. The proposed intervention will be an adaptive AI-driven learning architecture that integrates explainable AI principles and employs robust anomaly detection techniques. The baseline for comparison will consist of existing robust adversarial training methods and current dual-defense frameworks. Primary outcomes will include detection accuracy and model performance metrics such as F1 score, precision, and recall, while secondary outcomes will assess the scalability and adaptability of the proposed methods across various attack types and dynamic environments.",
+  "concept_definition": "{\n  \"robustness\": \"The ability of a machine learning model to maintain performance when subjected to data poisoning or adversarial attacks.\",\n  \"data poisoning\": \"An attack where malicious data is introduced into the training set to corrupt the learning process of the model.\",\n  \"adversarial attacks\": \"Techniques that manipulate input data to deceive machine learning models into making incorrect predictions.\",\n  \"explainable AI (XAI)\": \"Methods that make the decision-making process of AI systems understandable to humans, often through visualizations or textual explanations.\",\n  \"adaptive AI-driven learning architecture\": \"A system that adjusts its learning strategies based on incoming data and environmental changes to enhance resilience against attacks.\",\n  \"anomaly detection\": \"Techniques used to identify unusual patterns that do not conform to expected behavior, often used to detect intrusions or fraud.\",\n  \"detection accuracy\": \"The percentage of correctly identified instances (true positives and true negatives) out of all instances evaluated.\",\n  \"F1 score\": \"A measure of a model's accuracy that considers both precision and recall, calculated as the harmonic mean of the two.\",\n  \"precision\": \"The ratio of true positive predictions to the total predicted positives, indicating the accuracy of positive predictions.\",\n  \"recall\": \"The ratio of true positive predictions to the total actual positives, indicating the model's ability to identify all relevant instances.\",\n  \"scalability\": \"The capability of the proposed methods to maintain performance as the size of the data or complexity of the environment increases.\",\n  \"dynamic environments\": \"Settings where the data and conditions change over time, requiring models to adapt continuously.\",\n  \"empirical validation\": \"The process of testing and confirming the effectiveness of a model or framework through experiments and real-world data.\",\n  \"trust calibration\": \"The alignment of a user's trust in a system with the system's actual performance, ensuring users have appropriate reliance on the AI's outputs.\",\n  \"unsafe response rate\": \"The frequency at which an AI system produces harmful or undesirable outputs in response to inputs.\"\n}",
+  "technical_feasibility": "The proposed study requires access to labeled datasets (CIFAR-10, CIC-IDS2017, VirusTotal, Insurance Claims datasets) and may benefit from GPU resources for model training and evaluation. Since the research involves evaluating user trust in AI systems, it will require a human-subject design and appropriate trust calibration measures. If internal representations are to be studied, access to open-source models or hidden-state extraction will be necessary. If only API models are available, the design should be adjusted to focus on output-level explanations or black-box evaluations. Overall, the study is feasible with the right access to resources and adjustments in methodology.",
+  "gap": "The lack of empirical validation for resilience frameworks in real-world settings poses a significant gap. Future studies should focus on testing adaptive AI-driven architectures in dynamic environments to assess their effectiveness against diverse adversarial attacks.",
+  "question": "How does the implementation of an adaptive AI-driven learning architecture, incorporating explainable AI principles and robust anomaly detection techniques, improve detection accuracy and model performance in AI-driven recommendation systems compared to existing robust adversarial training methods and dual-defense frameworks against data poisoning and adversarial attacks?",
+  "theoretical_mechanism": "The proposed research posits that the implementation of an adaptive AI-driven learning architecture (independent variable) enhances detection accuracy and model performance (dependent variable) in AI-driven recommendation systems. This improvement is mediated by robust anomaly detection techniques and explainable AI principles, which facilitate better model interpretability and adaptability to evolving threats. The theoretical framework is grounded in resilience theory, suggesting that adaptive mechanisms can effectively respond to dynamic environments. System-level outcomes, such as unsafe response rate, are influenced by technical mechanisms like safety detection and filters, while user-level outcomes, such as trust and satisfaction, are shaped by perceived transparency and calibrated trust. Assumptions requiring empirical validation include the effectiveness of adaptive mechanisms in real-time applications and the relationship between explainability and user trust in AI systems.",
+  "hypothesis": "The integration of robust anomaly detection techniques within an adaptive AI-driven learning architecture will lead to improved resilience against data poisoning and adversarial attacks in recommendation systems.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name                         | Role      | Measurement Instrument         | Data Source       | Timing               |\n|---------------------------------------|-----------|-------------------------------|-------------------|----------------------|\n| Adaptive AI-driven learning architecture | IV        | Model performance metrics      | CIFAR-10          | During evaluation     |\n| Robust anomaly detection techniques    | Mediator  | Detection accuracy metrics     | CIC-IDS2017       | During evaluation     |\n| Detection accuracy                     | DV        | F1 score, precision, recall    | VirusTotal        | During evaluation     |\n| Unsafe response rate                   | DV        | Response classification metrics | Insurance Claims   | During evaluation     |\n| Trust calibration                      | User-level | Surveys, trust calibration     | User feedback      | Post-evaluation       |\n\nCausal Pathway: The adaptive AI-driven learning architecture (IV) enhances detection accuracy (DV) through robust anomaly detection techniques (mediator), leading to improved resilience against data poisoning and adversarial attacks. \n\nLikely Confounds: Variability in datasets, differences in attack types, user trust variability, and environmental changes may confound results. \n\nClaim Boundaries: The study claims that the adaptive architecture improves detection accuracy via anomaly detection; however, it cannot conclude causality without ruling out all confounding variables. Additionally, the study cannot generalize findings beyond the tested datasets and environments. The relationship between explainability and user trust is also not directly tested, limiting conclusions about user-level outcomes.",
+  "methodology": "Implement a dual-defense framework combining robust anomaly detection and explainable AI principles, validated on CIFAR-10 and CIC-IDS2017 datasets. This framework will compare detection accuracy against existing robust adversarial training methods and assess scalability through controlled experiments in dynamic environments.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces a theoretical framework that links adaptive AI-driven learning architectures with resilience theory, positing that such architectures can enhance detection accuracy in dynamic environments through robust anomaly detection and explainable AI principles.\",\n  \"technical_contribution\": \"The research proposes a dual-defense framework that integrates robust anomaly detection techniques with explainable AI components, creating a new mechanism that improves model interpretability and adaptability against evolving adversarial attacks.\",\n  \"empirical_contribution\": \"Empirical validation will be conducted using diverse datasets (CIFAR-10, CIC-IDS2017) to assess the effectiveness of the proposed framework, providing new findings on detection accuracy and model performance metrics in real-world dynamic environments.\",\n  \"practical_deployment_contribution\": \"The study aims to establish deployment guidelines for adaptive AI systems in cybersecurity applications, focusing on how to maintain model performance and user trust in the face of real-time data poisoning and adversarial threats.\"\n}",
+  "phd_contribution_design": "This research proposes a novel adaptive AI-driven learning architecture that integrates robust anomaly detection and explainable AI principles to enhance detection accuracy against data poisoning and adversarial attacks in recommendation systems. The mechanism-level claim is that by adapting to dynamic environments, the architecture improves model interpretability and resilience, addressing limitations in existing frameworks that lack empirical validation in real-world settings. The literature fails to adequately explain how adaptive mechanisms can evolve with emerging threats, which this study aims to clarify. A falsifiable claim is that the proposed framework will demonstrate a statistically significant improvement in detection accuracy compared to existing robust adversarial training methods. The strongest baseline for comparison will be current dual-defense frameworks, while ablation studies will isolate the impact of explainable AI components. Evidence will be evaluated through metrics such as F1 score and precision across diverse datasets. A negative result would suggest that the adaptive mechanisms do not significantly enhance resilience, challenging the theoretical framework and necessitating a reevaluation of the relationship between adaptability and model performance.",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"Inability to generalize across unseen attack types\",\n      \"risk\": \"The model may perform poorly against novel adversarial techniques not represented in training data.\",\n      \"mitigation_strategy\": \"Incorporate continuous learning mechanisms and regularly update the training dataset with new attack vectors.\"\n    },\n    {\n      \"failure_mode\": \"Performance degradation in real-time applications\",\n      \"risk\": \"The adaptive architecture may introduce latency or resource overhead, affecting user experience.\",\n      \"mitigation_strategy\": \"Optimize model architecture for efficiency and conduct performance benchmarking under realistic conditions.\"\n    },\n    {\n      \"failure_mode\": \"Computational resource limitations affecting scalability\",\n      \"risk\": \"Insufficient computational resources may hinder the model's ability to scale with increased data volume.\",\n      \"mitigation_strategy\": \"Utilize cloud-based resources or distributed computing to ensure adequate processing power.\"\n    },\n    {\n      \"failure_mode\": \"Variability in datasets\",\n      \"risk\": \"Differences in dataset characteristics may lead to biased results or overfitting.\",\n      \"mitigation_strategy\": \"Employ cross-validation techniques and ensure diverse dataset representation during training.\"\n    },\n    {\n      \"failure_mode\": \"User trust variability\",\n      \"risk\": \"Inconsistent user trust levels may skew evaluation of the model's effectiveness.\",\n      \"mitigation_strategy\": \"Implement standardized trust calibration measures and conduct user surveys to assess trust levels.\"\n    },\n    {\n      \"failure_mode\": \"Negative result interpretations\",\n      \"risk\": \"Results may be misinterpreted as evidence of ineffectiveness rather than limitations of the methodology.\",\n      \"mitigation_strategy\": \"Provide comprehensive analysis and context for findings, emphasizing limitations and areas for future research.\"\n    },\n    {\n      \"failure_mode\": \"Ethical or safety risks\",\n      \"risk\": \"The model may produce harmful outputs or exacerbate biases present in training data.\",\n      \"mitigation_strategy\": \"Incorporate ethical guidelines in model development and conduct thorough bias assessments before deployment.\"\n    },\n    {\n      \"failure_mode\": \"Low engagement or data sparsity\",\n      \"risk\": \"Insufficient user engagement or limited data availability may affect model training and evaluation.\",\n      \"mitigation_strategy\": \"Enhance data collection strategies and encourage user participation through incentives or feedback mechanisms.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong - Evidence notes highlight limitations in existing defenses against data poisoning and adversarial attacks, directly supporting the identified gaps.",
+    "domain_to_method": "Fits - The selected methodology of developing an adaptive AI-driven learning architecture aligns well with the domain of machine learning resilience.",
+    "concept_to_metric": "Yes - Core concepts such as detection accuracy and unsafe response rate are operationally defined and measured appropriately.",
+    "feasibility_to_method": "Feasible - The method is feasible given access to datasets, computational resources, and the design of user trust assessments.",
+    "scope_to_gap": "Specific - The study scope is tailored to address the gap in empirical validation of adaptive mechanisms in dynamic environments.",
+    "gap_to_question": "Direct - The identified gap in existing frameworks leads to the research question focused on improving detection accuracy and model performance.",
+    "question_to_hypothesis": "Logical - The research question logically leads to the hypothesis that the proposed architecture will enhance detection accuracy.",
+    "hypothesis_to_methodology": "Aligned - The methodology is designed to test the hypothesis through comparative analysis against existing frameworks.",
+    "methodology_to_evaluation": "Comprehensive - The planned evaluation using metrics such as F1 score and precision directly answers the research question.",
+    "contribution_to_test": "Yes - The PhD contribution design is tested through the proposed methodology and evaluation metrics.",
+    "weak_links": [
+      "Potential generalization issues across unseen attack types may not be fully addressed.",
+      "Variability in user trust levels could skew evaluation outcomes."
+    ]
+  },
+  "proposal": "This research proposal aims to develop a novel adaptive AI-driven learning architecture that enhances the resilience of machine learning models in cybersecurity against data poisoning and adversarial attacks, specifically targeting AI-driven recommendation systems and intrusion detection systems. The proposed architecture will integrate robust anomaly detection techniques and explainable AI (XAI) principles to improve model interpretability and adaptability in dynamic environments. Key concepts include robustness (the ability to maintain performance under attack), data poisoning (malicious data corrupting the training process), adversarial attacks (input manipulations deceiving models), and anomaly detection (identifying unusual patterns). The study will utilize labeled datasets such as CIFAR-10, CIC-IDS2017, VirusTotal, and Insurance Claims, with a focus on empirical validation in dynamic environments. The scholarly positioning highlights the limitations of existing frameworks, which often lack scalability and adaptability, emphasizing the need for empirical validation of adaptive mechanisms in real-world applications. Specifically, existing methods fail to adequately address the evolving nature of adversarial threats and often lack comprehensive empirical grounding, leaving a significant gap in understanding how adaptive mechanisms can effectively respond to these challenges. The research question investigates how the proposed architecture improves detection accuracy and model performance compared to existing robust adversarial training methods and dual-defense frameworks. The theoretical mechanism posits that robust anomaly detection techniques mediate the relationship between the adaptive architecture (independent variable) and improved detection accuracy (dependent variable), influencing system-level outcomes like unsafe response rates and user-level outcomes such as trust. The falsifiable hypothesis asserts that the proposed framework will significantly enhance detection accuracy relative to existing methods, with operationalized constructs including detection accuracy (measured by F1 score and precision), unsafe response rate (measured through response classification metrics), and trust calibration (assessed via user surveys). The methodology will implement a dual-defense framework, comparing performance against baseline methods while controlling for static and dynamic attack scenarios, and will include specific statistical methods such as ANOVA and regression analysis to ensure robust evaluation of results. The expected contributions include theoretical insights linking adaptive architectures with resilience theory, technical advancements through the proposed dual-defense framework, and empirical findings validating the framework across diverse datasets. Key limitations include potential generalization issues across unseen attack types and variability in user trust, which will be addressed through robust experimental design and trust calibration measures, ensuring a comprehensive understanding of the architecture's effectiveness.",
+  "draft_proposal": "This research proposal aims to develop a novel adaptive AI-driven learning architecture that enhances the resilience of machine learning models in cybersecurity against data poisoning and adversarial attacks. The study will focus on AI-driven recommendation systems and intrusion detection systems, utilizing datasets such as CIFAR-10, CIC-IDS2017, VirusTotal, and Insurance Claims. Key concepts include robustness, data poisoning, adversarial attacks, explainable AI (XAI), and anomaly detection. The technical feasibility of the study hinges on access to labeled datasets and computational resources for model training. The scholarly positioning highlights the limitations of existing frameworks in scalability and adaptability, emphasizing the need for empirical validation in dynamic environments. The identified research gap is the lack of effective adaptive mechanisms in real-world applications. The primary research question investigates how the proposed architecture improves detection accuracy and model performance compared to existing methods. The theoretical mechanism posits that robust anomaly detection techniques mediate the relationship between the adaptive architecture and improved detection accuracy, influencing system-level outcomes such as unsafe response rates and user-level outcomes like trust. The falsifiable hypothesis asserts that the proposed framework will significantly enhance detection accuracy relative to existing robust adversarial training methods. Construct operationalization includes metrics such as F1 score and precision, measured during evaluation phases. The methodology will implement a dual-defense framework, comparing performance against baseline methods while controlling for static and dynamic attack scenarios. This PhD research contributes theoretically by linking adaptive architectures with resilience theory, technically by proposing a novel dual-defense framework, and empirically by validating the framework across diverse datasets. The expected contributions include enhanced understanding of model interpretability and adaptability, with practical implications for deploying AI systems in cybersecurity. Key limitations include potential generalization issues across unseen attack types and variability in user trust, which will be addressed through robust experimental design and trust calibration measures.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding the lack of effective adaptive mechanisms in real-world applications is valid, as existing literature does not sufficiently address this issue.",
+      "literature_grounding": "The gap is grounded in the literature, particularly in the limitations of current defenses against evolving adversarial attacks.",
+      "meaningfulness": "The gap is meaningful as it targets a critical area of AI security that has direct implications for the deployment of AI systems in dynamic environments.",
+      "already_solved_risk": "There is a risk that some aspects of the gap may already be addressed by ongoing research in adaptive mechanisms, necessitating a clearer differentiation of the proposed contribution."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes existing work but lacks a critical comparative analysis that highlights how the proposed research uniquely addresses unresolved issues.",
+      "unresolved_tensions": "There is insufficient identification of unresolved tensions in the literature, such as the trade-offs between robustness and adaptability.",
+      "positioning_quality": "The positioning is weak as it does not sufficiently critique prior approaches or articulate how the proposed research builds upon or diverges from them."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The domain of machine learning method development aligns well with the proposed research focus.",
+      "methodology_template_fit": "The methodology template is appropriate for the research domain, emphasizing experimental validation.",
+      "template_transfer_risk": "There is minimal risk of inappropriate template transfer, as the proposed methods are specific to the challenges of AI resilience."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is relatively specific but could benefit from clearer definitions of the target population and tasks.",
+      "population_or_task_definition": "The definition of the target population (AI-driven recommendation systems and intrusion detection systems) is adequate but could be more detailed.",
+      "intervention_and_comparison_definition": "The intervention (adaptive AI-driven architecture) and comparison (existing frameworks) are defined but lack specificity regarding the nature of the comparisons.",
+      "outcome_definition": "Outcome definitions are concrete but could include more detail on how they will be measured and evaluated."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Most technical terms are defined, but some, like 'trust calibration,' could be elaborated further for clarity.",
+      "implementation_specificity": "The definitions are somewhat abstract; providing practical examples or contexts would enhance understanding.",
+      "level_of_analysis_clarity": "The level of analysis is clear, but the connection between user-level and system-level outcomes needs more explicit articulation."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to labeled datasets is feasible, but the proposal should clarify how hidden states will be accessed if needed.",
+      "data_and_compute_requirements": "The data and compute requirements are realistic, but the proposal should mention specific hardware or cloud resources planned for use.",
+      "human_or_multilingual_resources": "The need for human subjects and ethical approval is acknowledged, but details on participant recruitment and consent processes are lacking.",
+      "feasible_adjustments": "Adjustments for methodology based on available resources should be more explicitly discussed."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on measurable outcomes.",
+      "scope_appropriateness": "The scope is appropriate for a PhD study, targeting a significant issue in AI security.",
+      "variable_clarity": "Variables are generally clear, but the proposal should specify how they will be operationalized in practice."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The theoretical mechanism is articulated but could benefit from a more detailed explanation of how the mediation occurs.",
+      "theoretical_framing": "The framing within resilience theory is appropriate, but additional theoretical perspectives could strengthen the argument.",
+      "assumption_transparency": "Assumptions are stated but should be more explicitly linked to the proposed methodology and potential outcomes."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it should specify the conditions under which it would be tested.",
+      "mechanism_grounding": "The grounding in mechanisms is present but could be more explicitly tied to the proposed methods and expected outcomes.",
+      "measurable_outcome": "Measurable outcomes are identified, but the proposal should clarify how these will be quantitatively assessed."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization is generally well-defined, but some constructs lack specific measurement instruments.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but the proposal should specify how they will be collected and analyzed.",
+      "causal_identification": "Causal pathways are identified, but the proposal should discuss potential confounding variables in more detail.",
+      "confound_awareness": "There is awareness of confounds, but the proposal should outline specific strategies for controlling them.",
+      "claim_boundaries": "Claim boundaries are discussed, but the proposal should clarify the limitations of the findings more explicitly."
+    },
+    "methodology_stage": {
+      "baseline_validity": "Baseline comparisons are appropriate, but the proposal should specify how these will be implemented in practice.",
+      "metric_validity": "Metrics are valid, but the proposal should discuss their reliability and validity in the context of the study.",
+      "statistical_or_evaluation_validity": "Statistical validity is mentioned, but the proposal should outline the specific statistical methods planned for analysis.",
+      "reproducibility": "Reproducibility is a concern; the proposal should detail how experiments will be replicated and results verified.",
+      "confound_control": "Confound control is acknowledged, but specific methods for controlling confounds should be more clearly articulated.",
+      "risk_analysis": "Risk analysis is present, but the proposal should expand on how risks will be monitored and mitigated throughout the study."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is present but could be more clearly articulated as a unique perspective.",
+      "methodological_novelty": "Methodological contributions are noted, but the proposal should specify how they differ from existing methods.",
+      "practical_novelty": "Practical contributions are implied but need clearer articulation regarding their application in real-world settings.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal should emphasize how it builds on but also diverges from existing work."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the proposal should provide more detail on how they will be monitored and addressed.",
+      "limitation_depth": "Limitations are acknowledged, but the proposal should explore their implications for the study's findings more thoroughly.",
+      "risk_mitigation": "Mitigation strategies are mentioned, but the proposal should specify how these will be implemented in practice."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contributions are generally clear but could benefit from a more structured presentation.",
+      "novelty_type": "The novelty type is primarily methodological, but theoretical and practical aspects should be emphasized.",
+      "coherence": "The proposal is coherent but could be more tightly integrated to ensure all components align with the central research question.",
+      "limitation_awareness": "Awareness of limitations is present, but the proposal should be more explicit about how these will affect the conclusions drawn.",
+      "academic_communication": "The academic communication is generally strong, but clarity could be improved in some sections."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap leads logically to the research question, but the connection could be made more explicit.",
+      "question_to_hypothesis": "The question leads to the hypothesis effectively, but the hypothesis could be more tightly linked to specific methodologies.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but the proposal should clarify how each aspect of the hypothesis will be evaluated.",
+      "method_to_evaluation": "The method is aligned with the evaluation, but the proposal should specify how results will be interpreted in the context of the research question."
+    },
+    "revision_plan": "Revise the proposal to strengthen the scholarly positioning by incorporating a critical comparative analysis of existing work. Clarify the definitions of key concepts and ensure that all constructs have specific measurement instruments. Expand on the theoretical mechanism and its assumptions, and provide more detail on the methodology, including baseline comparisons and statistical methods. Finally, enhance the articulation of contributions to emphasize their uniqueness and practical implications."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 72.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal defines a relevant research problem around enhancing AI resilience against data poisoning and adversarial attacks, but some key concepts like 'robustness' and 'explainable AI' are not sufficiently operationalized. Major weaknesses: Key concepts are not clearly defined or operationalized, leading to potential ambiguity in understanding the research scope. Next band requirements: To move into the next band, the proposal must provide explicit operational definitions for all key concepts and clarify the boundaries of the research problem."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "The proposal presents a logical flow from problem identification to proposed methods, but lacks strong justification for some causal claims, particularly regarding the effectiveness of the adaptive architecture. Major weaknesses: Causal claims are not sufficiently backed by empirical evidence or theoretical justification, particularly regarding the mediation role of anomaly detection. Next band requirements: Strengthening the theoretical framework and providing empirical support for causal claims would improve coherence."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The proposal introduces a dual-defense framework and integrates explainable AI, but the novelty is somewhat limited as it builds on existing methodologies without a clear new theoretical contribution. Major weaknesses: The proposal lacks a compelling argument for how it significantly advances the field beyond existing frameworks. Next band requirements: To achieve a higher score, the proposal should articulate a clear theoretical contribution that distinguishes it from existing work."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 13.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The methodology outlines a solid experimental design with appropriate datasets, but lacks detail on statistical methods and controls. Major weaknesses: Insufficient detail on how confounding variables will be controlled and how the evaluation metrics will be applied. Next band requirements: Providing a more detailed methodology, including specific statistical analysis plans and controls, would enhance feasibility."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal references relevant literature but does not critically engage with it or identify significant gaps in detail. Major weaknesses: Lacks a thorough comparative analysis of existing methodologies and does not sufficiently highlight unresolved tensions in the literature. Next band requirements: A deeper engagement with the literature, including critical synthesis and identification of specific gaps, is needed."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "While the proposal demonstrates some theoretical sophistication, it lacks depth in discussing the mechanisms at play and the implications of findings. Major weaknesses: Mechanism-level reasoning is not fully developed, and limitations are not adequately addressed. Next band requirements: Enhancing the discussion of theoretical mechanisms and limitations would improve depth."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-structured and clear, but could benefit from improved precision in terminology and conciseness. Major weaknesses: Some sections are verbose and could be more concise, impacting overall readability. Next band requirements: Improving clarity and conciseness in writing would enhance communication quality."
+      }
+    ],
+    "comments": "Total score: 72.0/100. Academic level: Master's-level. Major strengths: Identifies a relevant problem in AI resilience.; Proposes a dual-defense framework integrating explainable AI. Major weaknesses: Lacks clear operational definitions for key concepts.; Insufficient empirical support for causal claims.; Limited engagement with existing literature. Required improvements for true PhD-level quality: Provide explicit operational definitions for all key concepts.; Strengthen the theoretical framework and empirical support for claims.; Enhance literature engagement and critical analysis. Final verdict: The proposal demonstrates potential but lacks the rigor and depth expected of PhD-level research, requiring significant improvements to achieve genuine maturity."
+  },
+  "baseline": null,
+  "group_selection": {
+    "gap": {
+      "candidates": [
+        {
+          "id": "gap_1",
+          "text": "Existing dual-defense frameworks for data poisoning attacks lack adaptability to evolving threats. Future research should focus on developing adaptive mechanisms that can dynamically adjust to new attack vectors, enhancing the resilience of AI systems in real-world applications.",
+          "supporting_paper_ids": [
+            "P2"
+          ],
+          "scores": {
+            "specificity": 3,
+            "literature_grounding": 4,
+            "novelty": 3,
+            "feasibility": 4
+          },
+          "total": 14,
+          "reason": "This candidate identifies a specific gap in adaptability while grounding it in existing literature.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.7697,
+          "literature_similarity": 0.7121,
+          "embedding_alignment": 0.7409,
+          "combined_total": 17.704
+        },
+        {
+          "id": "gap_2",
+          "text": "Current methods for defending against adversarial attacks often fail to generalize across different AI applications. Research should explore the integration of explainable AI with robust anomaly detection techniques to create a more universally applicable defense mechanism.",
+          "supporting_paper_ids": [
+            "P1",
+            "P5"
+          ],
+          "scores": {
+            "specificity": 4,
+            "literature_grounding": 5,
+            "novelty": 4,
+            "feasibility": 3
+          },
+          "total": 16,
+          "reason": "This candidate is specific about the integration of explainable AI and is well-grounded in literature, presenting a novel approach.",
+          "llm_total": 16.0,
+          "anchor_similarity": 0.7423,
+          "literature_similarity": 0.6281,
+          "embedding_alignment": 0.6852,
+          "combined_total": 19.426
+        },
+        {
+          "id": "gap_3",
+          "text": "The lack of empirical validation for resilience frameworks in real-world settings poses a significant gap. Future studies should focus on testing adaptive AI-driven architectures in dynamic environments to assess their effectiveness against diverse adversarial attacks.",
+          "supporting_paper_ids": [
+            "P5"
+          ],
+          "scores": {
+            "specificity": 5,
+            "literature_grounding": 4,
+            "novelty": 5,
+            "feasibility": 4
+          },
+          "total": 18,
+          "reason": "This candidate clearly articulates the need for empirical validation and proposes a specific research direction, making it highly relevant and novel.",
+          "llm_total": 18.0,
+          "anchor_similarity": 0.6706,
+          "literature_similarity": 0.6335,
+          "embedding_alignment": 0.6521,
+          "combined_total": 21.261
+        }
+      ],
+      "selected_id": "gap_3",
+      "selected_text": "The lack of empirical validation for resilience frameworks in real-world settings poses a significant gap. Future studies should focus on testing adaptive AI-driven architectures in dynamic environments to assess their effectiveness against diverse adversarial attacks.",
+      "criteria": [
+        "specificity",
+        "literature_grounding",
+        "novelty",
+        "feasibility"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "hypothesis": {
+      "candidates": [
+        {
+          "id": "hypothesis_1",
+          "text": "Implementing an adaptive AI-driven learning architecture that integrates explainable AI principles will significantly enhance detection accuracy and model performance in AI-driven recommendation systems compared to existing robust adversarial training methods.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "testability": 4,
+            "alignment_with_gap": 5,
+            "clarity": 4,
+            "methodological_implication": 4
+          },
+          "total": 17,
+          "reason": "This hypothesis directly addresses the gap in empirical validation and is clearly testable through comparative analysis.",
+          "llm_total": 17.0,
+          "anchor_similarity": 0.7763,
+          "literature_similarity": 0.6487,
+          "embedding_alignment": 0.7125,
+          "combined_total": 20.562
+        },
+        {
+          "id": "hypothesis_2",
+          "text": "The integration of robust anomaly detection techniques within an adaptive AI-driven learning architecture will lead to improved resilience against data poisoning and adversarial attacks in recommendation systems.",
+          "supporting_paper_ids": [
+            "P1",
+            "P3"
+          ],
+          "scores": {
+            "testability": 5,
+            "alignment_with_gap": 4,
+            "clarity": 4,
+            "methodological_implication": 5
+          },
+          "total": 18,
+          "reason": "This hypothesis is highly testable and aligns well with the identified gaps, emphasizing methodological implications for resilience.",
+          "llm_total": 18.0,
+          "anchor_similarity": 0.7648,
+          "literature_similarity": 0.7087,
+          "embedding_alignment": 0.7367,
+          "combined_total": 21.683
+        },
+        {
+          "id": "hypothesis_3",
+          "text": "Explainable AI principles will enhance user trust and model performance in AI-driven recommendation systems, thereby reducing the unsafe response rate during adversarial attacks.",
+          "supporting_paper_ids": [
+            "P2",
+            "P5"
+          ],
+          "scores": {
+            "testability": 3,
+            "alignment_with_gap": 3,
+            "clarity": 5,
+            "methodological_implication": 3
+          },
+          "total": 14,
+          "reason": "While clear, this hypothesis is less aligned with the core gap and has lower testability regarding empirical validation.",
+          "llm_total": 14.0,
+          "anchor_similarity": 0.7026,
+          "literature_similarity": 0.5805,
+          "embedding_alignment": 0.6416,
+          "combined_total": 17.208
+        }
+      ],
+      "selected_id": "hypothesis_2",
+      "selected_text": "The integration of robust anomaly detection techniques within an adaptive AI-driven learning architecture will lead to improved resilience against data poisoning and adversarial attacks in recommendation systems.",
+      "criteria": [
+        "testability",
+        "alignment_with_gap",
+        "clarity",
+        "methodological_implication"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    },
+    "methodology": {
+      "candidates": [
+        {
+          "id": "methodology_1",
+          "text": "Implement a dual-defense framework combining robust anomaly detection and explainable AI principles, validated on CIFAR-10 and CIC-IDS2017 datasets. This framework will compare detection accuracy against existing robust adversarial training methods and assess scalability through controlled experiments in dynamic environments.",
+          "supporting_paper_ids": [
+            "P1",
+            "P2"
+          ],
+          "scores": {
+            "feasibility": 4,
+            "baseline_design": 5,
+            "evaluation_metrics": 4,
+            "scope_control": 4,
+            "alignment_with_hypothesis": 5
+          },
+          "total": 22,
+          "reason": "This methodology effectively integrates existing frameworks while ensuring empirical validation and adaptability, aligning closely with the hypothesis.",
+          "llm_total": 22.0,
+          "anchor_similarity": 0.6881,
+          "literature_similarity": 0.6211,
+          "embedding_alignment": 0.6546,
+          "combined_total": 25.273
+        },
+        {
+          "id": "methodology_2",
+          "text": "Develop an adaptive AI-driven learning architecture that employs robust anomaly detection techniques, with empirical validation on VirusTotal and Insurance Claims datasets. The evaluation will focus on detection accuracy and unsafe response rates, comparing results with traditional dual-defense frameworks.",
+          "supporting_paper_ids": [
+            "P3",
+            "P5"
+          ],
+          "scores": {
+            "feasibility": 3,
+            "baseline_design": 4,
+            "evaluation_metrics": 5,
+            "scope_control": 3,
+            "alignment_with_hypothesis": 4
+          },
+          "total": 19,
+          "reason": "While innovative, the feasibility is slightly lower due to potential challenges in real-time applications and dataset variability.",
+          "llm_total": 19.0,
+          "anchor_similarity": 0.7304,
+          "literature_similarity": 0.7177,
+          "embedding_alignment": 0.7241,
+          "combined_total": 22.62
+        },
+        {
+          "id": "methodology_3",
+          "text": "Conduct a comprehensive study on the integration of explainable AI in existing robust adversarial training methods, focusing on empirical validation across multiple datasets. The evaluation will measure trust calibration and detection accuracy, comparing results with baseline models.",
+          "supporting_paper_ids": [
+            "P4",
+            "P6"
+          ],
+          "scores": {
+            "feasibility": 2,
+            "baseline_design": 3,
+            "evaluation_metrics": 3,
+            "scope_control": 2,
+            "alignment_with_hypothesis": 3
+          },
+          "total": 13,
+          "reason": "This methodology lacks strong empirical validation and may not effectively address the adaptability required for evolving threats.",
+          "llm_total": 13.0,
+          "anchor_similarity": 0.6667,
+          "literature_similarity": 0.5712,
+          "embedding_alignment": 0.619,
+          "combined_total": 16.095
+        }
+      ],
+      "selected_id": "methodology_1",
+      "selected_text": "Implement a dual-defense framework combining robust anomaly detection and explainable AI principles, validated on CIFAR-10 and CIC-IDS2017 datasets. This framework will compare detection accuracy against existing robust adversarial training methods and assess scalability through controlled experiments in dynamic environments.",
+      "criteria": [
+        "feasibility",
+        "baseline_design",
+        "evaluation_metrics",
+        "scope_control",
+        "alignment_with_hypothesis"
+      ],
+      "selection_method": "llm_scores_plus_embedding_alignment"
+    }
+  },
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 2,
+        "title": "Detecting and Preventing Data Poisoning Attacks on AI Models",
+        "similarity": 0.7651
+      },
+      {
+        "original_index": 1,
+        "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+        "similarity": 0.7005
+      },
+      {
+        "original_index": 5,
+        "title": "Adaptive AI-Driven Learning Architecture for Real Time Detection and Prevention of Data Poisoning and Model Evasion Attacks",
+        "similarity": 0.6678
+      },
+      {
+        "original_index": 4,
+        "title": "Navigating the Adversarial Environment: Understanding and Mitigating Poisoning Attacks Through Robust Adversarial Training",
+        "similarity": 0.6634
+      },
+      {
+        "original_index": 6,
+        "title": "Resilient Autonomy: Securing Intelligent Systems Against Adversarial Attacks",
+        "similarity": 0.627
+      },
+      {
+        "original_index": 3,
+        "title": "Exploring vulnerability and defense mechanisms in computer vision models against data poisoning, backdoor, and adversarial attacks",
+        "similarity": 0.6149
+      }
+    ],
+    "group_selection": {
+      "gap": {
+        "candidates": [
+          {
+            "id": "gap_1",
+            "text": "Existing dual-defense frameworks for data poisoning attacks lack adaptability to evolving threats. Future research should focus on developing adaptive mechanisms that can dynamically adjust to new attack vectors, enhancing the resilience of AI systems in real-world applications.",
+            "supporting_paper_ids": [
+              "P2"
+            ],
+            "scores": {
+              "specificity": 3,
+              "literature_grounding": 4,
+              "novelty": 3,
+              "feasibility": 4
+            },
+            "total": 14,
+            "reason": "This candidate identifies a specific gap in adaptability while grounding it in existing literature.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.7697,
+            "literature_similarity": 0.7121,
+            "embedding_alignment": 0.7409,
+            "combined_total": 17.704
+          },
+          {
+            "id": "gap_2",
+            "text": "Current methods for defending against adversarial attacks often fail to generalize across different AI applications. Research should explore the integration of explainable AI with robust anomaly detection techniques to create a more universally applicable defense mechanism.",
+            "supporting_paper_ids": [
+              "P1",
+              "P5"
+            ],
+            "scores": {
+              "specificity": 4,
+              "literature_grounding": 5,
+              "novelty": 4,
+              "feasibility": 3
+            },
+            "total": 16,
+            "reason": "This candidate is specific about the integration of explainable AI and is well-grounded in literature, presenting a novel approach.",
+            "llm_total": 16.0,
+            "anchor_similarity": 0.7423,
+            "literature_similarity": 0.6281,
+            "embedding_alignment": 0.6852,
+            "combined_total": 19.426
+          },
+          {
+            "id": "gap_3",
+            "text": "The lack of empirical validation for resilience frameworks in real-world settings poses a significant gap. Future studies should focus on testing adaptive AI-driven architectures in dynamic environments to assess their effectiveness against diverse adversarial attacks.",
+            "supporting_paper_ids": [
+              "P5"
+            ],
+            "scores": {
+              "specificity": 5,
+              "literature_grounding": 4,
+              "novelty": 5,
+              "feasibility": 4
+            },
+            "total": 18,
+            "reason": "This candidate clearly articulates the need for empirical validation and proposes a specific research direction, making it highly relevant and novel.",
+            "llm_total": 18.0,
+            "anchor_similarity": 0.6706,
+            "literature_similarity": 0.6335,
+            "embedding_alignment": 0.6521,
+            "combined_total": 21.261
+          }
+        ],
+        "selected_id": "gap_3",
+        "selected_text": "The lack of empirical validation for resilience frameworks in real-world settings poses a significant gap. Future studies should focus on testing adaptive AI-driven architectures in dynamic environments to assess their effectiveness against diverse adversarial attacks.",
+        "criteria": [
+          "specificity",
+          "literature_grounding",
+          "novelty",
+          "feasibility"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "hypothesis": {
+        "candidates": [
+          {
+            "id": "hypothesis_1",
+            "text": "Implementing an adaptive AI-driven learning architecture that integrates explainable AI principles will significantly enhance detection accuracy and model performance in AI-driven recommendation systems compared to existing robust adversarial training methods.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "testability": 4,
+              "alignment_with_gap": 5,
+              "clarity": 4,
+              "methodological_implication": 4
+            },
+            "total": 17,
+            "reason": "This hypothesis directly addresses the gap in empirical validation and is clearly testable through comparative analysis.",
+            "llm_total": 17.0,
+            "anchor_similarity": 0.7763,
+            "literature_similarity": 0.6487,
+            "embedding_alignment": 0.7125,
+            "combined_total": 20.562
+          },
+          {
+            "id": "hypothesis_2",
+            "text": "The integration of robust anomaly detection techniques within an adaptive AI-driven learning architecture will lead to improved resilience against data poisoning and adversarial attacks in recommendation systems.",
+            "supporting_paper_ids": [
+              "P1",
+              "P3"
+            ],
+            "scores": {
+              "testability": 5,
+              "alignment_with_gap": 4,
+              "clarity": 4,
+              "methodological_implication": 5
+            },
+            "total": 18,
+            "reason": "This hypothesis is highly testable and aligns well with the identified gaps, emphasizing methodological implications for resilience.",
+            "llm_total": 18.0,
+            "anchor_similarity": 0.7648,
+            "literature_similarity": 0.7087,
+            "embedding_alignment": 0.7367,
+            "combined_total": 21.683
+          },
+          {
+            "id": "hypothesis_3",
+            "text": "Explainable AI principles will enhance user trust and model performance in AI-driven recommendation systems, thereby reducing the unsafe response rate during adversarial attacks.",
+            "supporting_paper_ids": [
+              "P2",
+              "P5"
+            ],
+            "scores": {
+              "testability": 3,
+              "alignment_with_gap": 3,
+              "clarity": 5,
+              "methodological_implication": 3
+            },
+            "total": 14,
+            "reason": "While clear, this hypothesis is less aligned with the core gap and has lower testability regarding empirical validation.",
+            "llm_total": 14.0,
+            "anchor_similarity": 0.7026,
+            "literature_similarity": 0.5805,
+            "embedding_alignment": 0.6416,
+            "combined_total": 17.208
+          }
+        ],
+        "selected_id": "hypothesis_2",
+        "selected_text": "The integration of robust anomaly detection techniques within an adaptive AI-driven learning architecture will lead to improved resilience against data poisoning and adversarial attacks in recommendation systems.",
+        "criteria": [
+          "testability",
+          "alignment_with_gap",
+          "clarity",
+          "methodological_implication"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      },
+      "methodology": {
+        "candidates": [
+          {
+            "id": "methodology_1",
+            "text": "Implement a dual-defense framework combining robust anomaly detection and explainable AI principles, validated on CIFAR-10 and CIC-IDS2017 datasets. This framework will compare detection accuracy against existing robust adversarial training methods and assess scalability through controlled experiments in dynamic environments.",
+            "supporting_paper_ids": [
+              "P1",
+              "P2"
+            ],
+            "scores": {
+              "feasibility": 4,
+              "baseline_design": 5,
+              "evaluation_metrics": 4,
+              "scope_control": 4,
+              "alignment_with_hypothesis": 5
+            },
+            "total": 22,
+            "reason": "This methodology effectively integrates existing frameworks while ensuring empirical validation and adaptability, aligning closely with the hypothesis.",
+            "llm_total": 22.0,
+            "anchor_similarity": 0.6881,
+            "literature_similarity": 0.6211,
+            "embedding_alignment": 0.6546,
+            "combined_total": 25.273
+          },
+          {
+            "id": "methodology_2",
+            "text": "Develop an adaptive AI-driven learning architecture that employs robust anomaly detection techniques, with empirical validation on VirusTotal and Insurance Claims datasets. The evaluation will focus on detection accuracy and unsafe response rates, comparing results with traditional dual-defense frameworks.",
+            "supporting_paper_ids": [
+              "P3",
+              "P5"
+            ],
+            "scores": {
+              "feasibility": 3,
+              "baseline_design": 4,
+              "evaluation_metrics": 5,
+              "scope_control": 3,
+              "alignment_with_hypothesis": 4
+            },
+            "total": 19,
+            "reason": "While innovative, the feasibility is slightly lower due to potential challenges in real-time applications and dataset variability.",
+            "llm_total": 19.0,
+            "anchor_similarity": 0.7304,
+            "literature_similarity": 0.7177,
+            "embedding_alignment": 0.7241,
+            "combined_total": 22.62
+          },
+          {
+            "id": "methodology_3",
+            "text": "Conduct a comprehensive study on the integration of explainable AI in existing robust adversarial training methods, focusing on empirical validation across multiple datasets. The evaluation will measure trust calibration and detection accuracy, comparing results with baseline models.",
+            "supporting_paper_ids": [
+              "P4",
+              "P6"
+            ],
+            "scores": {
+              "feasibility": 2,
+              "baseline_design": 3,
+              "evaluation_metrics": 3,
+              "scope_control": 2,
+              "alignment_with_hypothesis": 3
+            },
+            "total": 13,
+            "reason": "This methodology lacks strong empirical validation and may not effectively address the adaptability required for evolving threats.",
+            "llm_total": 13.0,
+            "anchor_similarity": 0.6667,
+            "literature_similarity": 0.5712,
+            "embedding_alignment": 0.619,
+            "combined_total": 16.095
+          }
+        ],
+        "selected_id": "methodology_1",
+        "selected_text": "Implement a dual-defense framework combining robust anomaly detection and explainable AI principles, validated on CIFAR-10 and CIC-IDS2017 datasets. This framework will compare detection accuracy against existing robust adversarial training methods and assess scalability through controlled experiments in dynamic environments.",
+        "criteria": [
+          "feasibility",
+          "baseline_design",
+          "evaluation_metrics",
+          "scope_control",
+          "alignment_with_hypothesis"
+        ],
+        "selection_method": "llm_scores_plus_embedding_alignment"
+      }
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_group_selection",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+    "retrieval_snapshot_id": "20260527T191843Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-6",
+    "latency_ms": 242575,
+    "prompt_tokens": 71486,
+    "completion_tokens": 11232,
+    "total_tokens": 82718,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}

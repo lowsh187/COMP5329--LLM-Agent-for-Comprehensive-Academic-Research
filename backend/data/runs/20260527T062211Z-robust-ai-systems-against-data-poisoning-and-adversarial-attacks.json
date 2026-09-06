@@ -1,0 +1,319 @@
+{
+  "experiment_id": "20260527T061144Z",
+  "run_index": 3,
+  "topic": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "condition": "multi_stage_with_retrieval",
+  "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+  "retrieval_snapshot_id": "20260527T061918Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-2",
+  "papers": [
+    {
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "authors": [
+        "Xiaocui Dang",
+        "Priyadarsi Nanda",
+        "Heng Xu",
+        "Haiyu Deng",
+        "Chunpeng Ge"
+      ],
+      "abstract": "Deep learning-based recommendation systems are highly vulnerable to data poisoning attacks, where adversaries manipulate user interactions to degrade model integrity. We hypothesize that combining an active robust loss with a passive GAN-based detection will significantly reduce poisoning impact in recommendation systems without sacrificing utility. We propose a robust and adaptive dual-defense framework: the active defense integrates a crafted loss function to mitigate poisoning effects while maintaining model performance. The passive defense employs a Generative Adversarial Network (GAN)-based detection model to identify and filter poisoned data, enhancing detection accuracy and system security. The framework supports classical matrix factorization (MF) model and large language model (LLM)-based pipelines and scales to large datasets. Extensive experiments across multiple real-world datasets at varying poison rates show that our method outperforms representative defenses, consistently reducing attack success without sacrificing recommendation quality. The framework also admits a federated instantiation, where robust training and GAN-based detection run on clients and only privacy-preserving summaries are aggregated. The proposed method significantly improves the robustness and adaptability of recommendation systems under data poisoning attacks.",
+      "published": "2026-04-19",
+      "url": "https://www.semanticscholar.org/paper/d6186eae94ca6b0692cad55298509226885c6271",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+      "authors": [
+        "Jiutao Yue",
+        "Haofeng Li",
+        "Pengxu Wei",
+        "Guanbin Li",
+        "Liang Lin"
+      ],
+      "abstract": "Recently deep neural networks (DNNs) have achieved significant success in real-world image super-resolution (SR). However, adversarial image samples with quasi-imperceptible noises could threaten deep learning SR models. In this paper, we propose a robust deep learning framework for real-world SR that randomly erases potential adversarial noises in the frequency domain of input images or features. The rationale is that on the SR task clean images or features have a different pattern from the attacked ones in the frequency domain. Observing that existing adversarial attacks usually add high-frequency noises to input images, we introduce a novel random frequency mask module that blocks out high-frequency components possibly containing the harmful perturbations in a stochastic manner. Since the frequency masking may not only destroys the adversarial perturbations but also affects the sharp details in a clean image, we further develop an adversarial sample classifier based on the frequency domain of images to determine if applying the proposed mask module. Based on the above ideas, we devise a novel real-world image SR framework that combines the proposed frequency mask modules and the proposed adversarial classifier with an existing super-resolution backbone network. Experiments show that our proposed method is more insensitive to adversarial attacks and presents more stable SR results than existing models and defenses.",
+      "published": "2022-07-31",
+      "url": "http://arxiv.org/abs/2208.00428v1",
+      "source": "arXiv"
+    }
+  ],
+  "literature_themes": [
+    {
+      "theme": "Robustness in Deep Learning Against Adversarial Attacks",
+      "paper_indices": [
+        1,
+        2
+      ],
+      "summary": "This cluster of papers focuses on enhancing the robustness of deep learning models in the face of adversarial attacks, specifically in recommendation systems and image super-resolution tasks. The first paper presents a dual-defense framework that combines active and passive defenses to mitigate data poisoning in recommendation systems, while the second paper introduces a frequency domain approach to counter adversarial noise in image super-resolution, demonstrating improved model performance and security.",
+      "limitations": "Both papers highlight the challenge of balancing model robustness with performance. The first paper does not address the potential computational overhead of the dual-defense framework, and the second paper may struggle with the trade-off between removing adversarial noise and preserving image details. Additionally, the effectiveness of these methods in diverse real-world scenarios remains to be fully validated.",
+      "gap_relevance": "This cluster identifies a significant research gap in developing comprehensive defense mechanisms against various forms of adversarial attacks across different domains. It underscores the need for further exploration of hybrid defense strategies and their applicability in real-world settings, providing a foundation for future studies aimed at enhancing the resilience of deep learning systems."
+    }
+  ],
+  "evidence_notes": [
+    {
+      "paper_id": "P1",
+      "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+      "problem": "Data poisoning attacks in recommendation systems degrade model integrity.",
+      "method": "A dual-defense framework combining an active robust loss function and a GAN-based detection model, tested on classical matrix factorization and LLM-based pipelines.",
+      "evidence": "The proposed framework significantly reduces attack success rates while maintaining recommendation quality across various datasets.",
+      "limitation": "The framework's effectiveness in highly dynamic environments or against novel types of poisoning attacks is not evaluated.",
+      "gap_relevance": "This paper highlights the need for adaptive defenses in evolving attack landscapes, suggesting further exploration of dynamic defense mechanisms."
+    },
+    {
+      "paper_id": "P2",
+      "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+      "problem": "Adversarial attacks threaten the integrity of deep learning models in image super-resolution.",
+      "method": "A robust framework utilizing random frequency masking and an adversarial sample classifier to enhance resilience against adversarial perturbations.",
+      "evidence": "The method shows improved stability and reduced sensitivity to adversarial attacks compared to existing models.",
+      "limitation": "The approach may inadvertently affect the sharpness of clean images, and its generalizability to other tasks is untested.",
+      "gap_relevance": "This paper indicates a need for methods that balance robustness against adversarial attacks while preserving image quality, pointing to potential research in adaptive filtering techniques."
+    }
+  ],
+  "summary": "The retrieved literature emphasizes the development of robust AI systems to counter data poisoning and adversarial attacks, focusing on deep learning applications in recommendation systems and image super-resolution. Key contributions include a dual-defense framework that integrates active and passive defenses to enhance model integrity in recommendation systems, and a frequency domain approach that improves resilience against adversarial noise in image processing. However, both studies reveal limitations regarding computational overhead and the challenge of maintaining performance while ensuring robustness, highlighting a critical gap in adaptive defense strategies for evolving attack landscapes.",
+  "scholarly_positioning": "Prior approaches to enhancing robustness in AI systems, particularly in recommendation systems and image super-resolution, have introduced innovative frameworks such as dual-defense mechanisms and frequency domain strategies. However, these methods often grapple with unresolved tensions, including the trade-off between model performance and robustness, as well as the computational overhead associated with complex defense systems. Existing work remains insufficient as it fails to address the adaptability of these defenses in the face of evolving adversarial tactics and dynamic environments. The proposed research aims to bridge these gaps by exploring hybrid defense strategies that not only enhance resilience against diverse adversarial attacks but also maintain operational efficiency and model integrity across various real-world applications.",
+  "domain_router": "{\n  \"domain\": \"machine-learning method development\",\n  \"methodology_template\": \"The research will employ a combination of experimental design for evaluating hybrid defense strategies, ablation studies to assess the effectiveness of individual components of the proposed frameworks, and performance benchmarking against existing methods to ensure robustness and operational efficiency.\"\n}",
+  "research_scope": "This empirical study will focus on enhancing the robustness of deep learning models specifically in recommendation systems and image super-resolution tasks, targeting the challenges posed by data poisoning and adversarial attacks. The research will evaluate a hybrid defense strategy that integrates a dual-defense framework with adaptive filtering techniques over a 12-month evaluation period. The primary outcomes will include the success rates of adversarial attacks and the quality of recommendations or image outputs, while secondary outcomes will assess computational efficiency and model performance metrics. A control group will consist of traditional defense mechanisms currently employed in these domains to establish a baseline for comparison.",
+  "concept_definition": "{\n  \"Robust AI Systems\": \"AI systems designed to maintain performance and reliability in the presence of adversarial inputs or corrupted data.\",\n  \"Data Poisoning\": \"A type of attack where malicious data is injected into the training set to corrupt the learning process of a model.\",\n  \"Adversarial Attacks\": \"Techniques that manipulate input data to deceive AI models into making incorrect predictions or classifications.\",\n  \"Deep Learning Models\": \"Neural networks with multiple layers that learn representations of data for tasks such as classification and regression.\",\n  \"Recommendation Systems\": \"AI systems that suggest products or content to users based on their preferences and behaviors.\",\n  \"Image Super-Resolution\": \"The process of enhancing the resolution of an image using AI techniques to generate high-quality outputs.\",\n  \"Hybrid Defense Strategy\": \"A combined approach that utilizes multiple defense mechanisms to protect against various types of attacks.\",\n  \"Dual-Defense Framework\": \"A specific model architecture that employs two complementary defense strategies to enhance robustness.\",\n  \"Adaptive Filtering Techniques\": \"Methods that dynamically adjust the model's response to incoming data based on its characteristics to mitigate the effects of attacks.\",\n  \"Empirical Study\": \"A research approach that relies on observation and experimentation to gather data and validate hypotheses.\",\n  \"Control Group\": \"A baseline group in an experiment that uses traditional methods for comparison against the proposed strategies.\",\n  \"Performance Benchmarking\": \"The process of comparing the effectiveness of different models or strategies based on predefined metrics.\",\n  \"Computational Efficiency\": \"A measure of the resources required (time, memory) for a model to perform its tasks effectively.\",\n  \"Model Performance Metrics\": \"Quantitative measures used to evaluate the accuracy, precision, recall, and other aspects of a model's performance.\",\n  \"Trust Calibration\": \"The alignment of a user's trust in a system with the actual performance and reliability of that system.\"\n}",
+  "technical_feasibility": "The study requires access to open-source deep learning models for the dual-defense framework and adaptive filtering techniques, as well as labeled datasets for training and evaluation. It will also need GPU resources for computational efficiency during experiments. Since the study involves evaluating user trust in the recommendation systems, it will require a human-subject design and appropriate trust calibration measures. Missing resources include specific user feedback mechanisms and potential ethics approval for human participants. A feasible adjustment would be to focus on simulated user interactions or synthetic datasets to bypass the need for direct human involvement while still assessing trust calibration.",
+  "gap": "Prior studies have demonstrated the effectiveness of dual-defense frameworks in enhancing robustness against data poisoning in recommendation systems; however, they treat the adaptability of these defenses to evolving attack strategies as secondary, leaving unclear whether dynamic environments affect the performance of these frameworks. This matters practically because the landscape of adversarial attacks is constantly changing, necessitating defenses that can evolve accordingly; therefore, this study investigates the integration of adaptive filtering techniques with existing dual-defense frameworks to enhance resilience in real-world applications.",
+  "question": "How does the integration of adaptive filtering techniques with a dual-defense framework enhance the robustness of deep learning models in recommendation systems against evolving data poisoning and adversarial attacks compared to traditional defense mechanisms?",
+  "theoretical_mechanism": "The proposed research investigates how the integration of adaptive filtering techniques (independent variable) with a dual-defense framework influences the robustness of deep learning models (dependent variable) in recommendation systems against evolving data poisoning and adversarial attacks. The adaptive filtering techniques serve as a mediator by dynamically adjusting model responses based on incoming data characteristics, enhancing system resilience. The dual-defense framework acts as a moderator, potentially amplifying the effects of adaptive filtering on robustness. System-level outcomes, such as unsafe response rate and refusal accuracy, are mediated by technical mechanisms like representation features and filters, while user-level outcomes, including trust and satisfaction, are mediated by psychological mechanisms such as perceived transparency. Assumptions requiring empirical validation include the effectiveness of adaptive filtering in real-time adjustments and the interaction effects between dual-defense strategies and adaptive mechanisms in varying attack scenarios.",
+  "hypothesis": "The integration of adaptive filtering techniques (independent variable) with a dual-defense framework will result in significantly higher robustness (primary dependent variable) of deep learning models in recommendation systems against evolving data poisoning and adversarial attacks compared to traditional defense mechanisms (comparison/control), with adaptive filtering enhancing the effectiveness of the dual-defense framework as a mediator.",
+  "operationalization_causal_check": "Construct Operationalization Table:\n\n| Construct Name                      | Role       | Measurement Instrument               | Data Source                  | Timing                  |\n|-------------------------------------|------------|-------------------------------------|-----------------------------|-------------------------|\n| Adaptive Filtering Techniques        | IV         | Algorithm performance metrics        | Open-source models           | Throughout evaluation    |\n| Dual-Defense Framework              | Moderator  | Framework robustness metrics        | Open-source models           | Throughout evaluation    |\n| Robustness of Deep Learning Models   | DV         | Success rates of adversarial attacks| Labeled datasets             | Post-evaluation          |\n| Traditional Defense Mechanisms      | Control    | Baseline performance metrics        | Labeled datasets             | Post-evaluation          |\n| Unsafe Response Rate                | Output-level| Response classification metrics     | Experimental results         | Post-evaluation          |\n| Trust Calibration                   | User-level  | Surveys and behavioral logs        | Simulated user interactions   | End of evaluation period |\n\nCausal Pathway:\nThe integration of adaptive filtering techniques (IV) is hypothesized to enhance the robustness of deep learning models (DV) through the dual-defense framework (moderator), which may amplify the effectiveness of the adaptive filtering. The unsafe response rate (output-level) will be assessed to evaluate the system's resilience against attacks, while trust calibration (user-level) will provide insights into user perception.\n\nLikely Confounds:\nPotential confounding variables include the variability in attack strategies, differences in dataset quality, and the inherent complexity of deep learning models that may affect robustness independently of the proposed interventions.\n\nClaim Boundaries:\nThe study claims that the integration of adaptive filtering techniques will lead to improved robustness compared to traditional methods, but it cannot conclude causality without controlling for all confounding variables. Additionally, the results may not generalize beyond the specific contexts of recommendation systems and image super-resolution tasks. The study does not imply that adaptive filtering alone is sufficient for robustness without the dual-defense framework's support.",
+  "methodology": "This study will employ an experimental design to evaluate the effectiveness of a hybrid defense strategy integrating adaptive filtering techniques with a dual-defense framework in enhancing the robustness of deep learning models in recommendation systems against data poisoning and adversarial attacks. The research will utilize labeled datasets for training and evaluation, with a control group consisting of traditional defense mechanisms to establish baseline performance metrics. Key operationalized variables include the success rates of adversarial attacks, unsafe response rates, and trust calibration measures, which will be assessed through algorithm performance metrics and user surveys. Statistical analyses will be conducted to compare the robustness of the proposed hybrid approach against the control group, controlling for confounding variables such as dataset quality and attack variability. To ensure reproducibility, the study will utilize open-source models and publicly available datasets, while the scope will be limited to recommendation systems and image super-resolution tasks to maintain focus on the research question.",
+  "novelty_contribution": "{\n  \"theoretical_contribution\": \"This study introduces the concept of adaptive filtering techniques as a mediator in the dual-defense framework, enhancing the understanding of how dynamic adjustments to model responses can influence robustness against evolving adversarial attacks in recommendation systems and image super-resolution tasks.\",\n  \"technical_contribution\": \"The research develops a hybrid defense strategy that integrates adaptive filtering with a dual-defense framework, providing a new method for real-time adjustments in deep learning models, which addresses the limitations of existing static defense mechanisms in adapting to new attack strategies.\",\n  \"empirical_contribution\": \"Through an empirical evaluation over a 12-month period, this study generates new performance metrics related to the success rates of adversarial attacks and unsafe response rates, establishing a comprehensive dataset that benchmarks the effectiveness of the proposed hybrid approach against traditional defense mechanisms.\",\n  \"practical_deployment_contribution\": \"The findings will yield deployment guidelines for implementing adaptive filtering techniques in real-world recommendation systems, ensuring that AI models can maintain high performance and user trust in the face of continuously evolving adversarial tactics.\"\n}",
+  "failure_analysis": "{\n  \"risk_matrix\": [\n    {\n      \"failure_mode\": \"Ineffective Defense Mechanism\",\n      \"risk\": \"The hybrid defense strategy may not effectively counter evolving adversarial attacks.\",\n      \"mitigation_strategy\": \"Regularly update and retrain the model with new attack data to ensure adaptability.\"\n    },\n    {\n      \"failure_mode\": \"Data Sparsity\",\n      \"risk\": \"Insufficient labeled data for training may lead to poor model performance.\",\n      \"mitigation_strategy\": \"Utilize data augmentation techniques and synthetic data generation to enhance dataset diversity.\"\n    },\n    {\n      \"failure_mode\": \"User Trust Calibration Issues\",\n      \"risk\": \"Inaccurate trust calibration may lead to user disengagement or mistrust in the system.\",\n      \"mitigation_strategy\": \"Implement continuous user feedback mechanisms to refine trust calibration and adapt to user expectations.\"\n    },\n    {\n      \"failure_mode\": \"Negative Result Interpretations\",\n      \"risk\": \"Results may be misinterpreted as the proposed method being ineffective if improvements are marginal.\",\n      \"mitigation_strategy\": \"Clearly define success metrics and contextualize results within the scope of the study to avoid misinterpretation.\"\n    },\n    {\n      \"failure_mode\": \"Ethical Concerns\",\n      \"risk\": \"Potential ethical implications of using human-subject designs or simulated interactions.\",\n      \"mitigation_strategy\": \"Ensure compliance with ethical guidelines and obtain necessary approvals for human-subject research, or focus on fully simulated environments.\"\n    },\n    {\n      \"failure_mode\": \"Confounding Variables\",\n      \"risk\": \"Uncontrolled confounding variables may skew results and undermine validity.\",\n      \"mitigation_strategy\": \"Employ statistical controls and sensitivity analyses to account for potential confounding factors.\"\n    }\n  ]\n}",
+  "proposal_logic_graph": {
+    "evidence_to_gap": "Strong - Evidence notes from P1 and P2 highlight the limitations of existing frameworks and the need for adaptive defenses, directly supporting the identified research gap.",
+    "domain_to_method": "Fits - The methodology of experimental design and performance benchmarking is appropriate for the machine learning domain.",
+    "concept_to_metric": "Yes - Core concepts like robustness and adaptive filtering are operationally defined and measured through specific metrics.",
+    "feasibility_to_method": "Feasible - The study has access to open-source models, labeled datasets, and GPU resources, though it may require adjustments for user feedback mechanisms.",
+    "scope_to_gap": "Specific - The research scope focuses on recommendation systems and image super-resolution, directly addressing the identified gap in adaptive defenses.",
+    "gap_to_question": "Direct - The gap regarding adaptability of defenses leads to the research question about enhancing robustness through adaptive filtering.",
+    "question_to_hypothesis": "Direct - The research question about integration of techniques leads to the hypothesis predicting improved robustness.",
+    "hypothesis_to_methodology": "Direct - The methodology includes experimental design to test the hypothesis regarding robustness improvements.",
+    "methodology_to_evaluation": "Direct - The planned evaluation assesses success rates and unsafe response rates, directly answering the research question.",
+    "weak_links": [
+      "Potential confounding variables may not be fully controlled, which could affect the validity of results.",
+      "The effectiveness of adaptive filtering in real-time adjustments requires empirical validation."
+    ]
+  },
+  "proposal": "This research proposal aims to enhance the robustness of deep learning models in recommendation systems and image super-resolution tasks against data poisoning and adversarial attacks by integrating adaptive filtering techniques with a dual-defense framework. Robust AI systems are defined as those maintaining performance in the presence of adversarial inputs, while data poisoning refers to malicious data injected into training sets. The study will utilize open-source deep learning models, specifically convolutional neural networks for image processing and collaborative filtering algorithms for recommendation systems, and labeled datasets, requiring GPU resources for computational efficiency. Scholarly positioning highlights the limitations of existing dual-defense frameworks in adapting to evolving attack strategies, revealing a critical gap in the literature regarding the need for dynamic defenses that can adjust to new attack vectors. The research question focuses on how the integration of adaptive filtering techniques enhances robustness compared to traditional defenses, specifically examining the effectiveness of these techniques in real-time adjustments to model responses. The theoretical mechanism posits that adaptive filtering serves as a mediator, dynamically adjusting model responses, while the dual-defense framework acts as a moderator, amplifying robustness. The falsifiable hypothesis states that the proposed hybrid approach will demonstrate significantly higher robustness than traditional methods, measured by success rates of adversarial attacks and unsafe response rates. Construct operationalization includes metrics for success rates of adversarial attacks (output-level), unsafe response rates (output-level), and trust calibration (user-level), with controls established through traditional defense mechanisms. The methodology employs experimental design and performance benchmarking to assess the effectiveness of the hybrid strategy, utilizing statistical analyses to ensure validity and reproducibility. Expected contributions include theoretical insights into adaptive filtering's role in robustness, technical advancements in hybrid defense strategies, empirical data on performance metrics, and practical guidelines for real-world applications. Key limitations include potential confounding variables such as variability in attack strategies and dataset quality, which will be controlled through sensitivity analyses and robust statistical methods.",
+  "draft_proposal": "This research proposal aims to enhance the robustness of deep learning models in recommendation systems and image super-resolution tasks against data poisoning and adversarial attacks by integrating adaptive filtering techniques with a dual-defense framework. Robust AI systems are defined as those maintaining performance in the presence of adversarial inputs, while data poisoning refers to malicious data injected into training sets. The study will utilize open-source deep learning models and labeled datasets, requiring GPU resources for computational efficiency. Scholarly positioning highlights the limitations of existing dual-defense frameworks in adapting to evolving attack strategies, revealing a critical gap in the literature. The research question focuses on how the integration of adaptive filtering techniques enhances robustness compared to traditional defenses. The theoretical mechanism posits that adaptive filtering serves as a mediator, dynamically adjusting model responses, while the dual-defense framework acts as a moderator, amplifying robustness. The falsifiable hypothesis states that the proposed hybrid approach will demonstrate significantly higher robustness than traditional methods. Construct operationalization includes metrics for success rates of adversarial attacks (output-level), unsafe response rates (output-level), and trust calibration (user-level), with controls established through traditional defense mechanisms. The methodology employs experimental design and performance benchmarking to assess the effectiveness of the hybrid strategy. Expected contributions include theoretical insights into adaptive filtering's role in robustness, technical advancements in hybrid defense strategies, empirical data on performance metrics, and practical guidelines for real-world applications. Key limitations include potential confounding variables and the need for ethical considerations in human-subject designs.",
+  "proposal_critique": {
+    "gap_stage": {
+      "gap_validity": "The identified gap regarding the adaptability of dual-defense frameworks is valid, as it highlights a critical area in the evolving landscape of adversarial attacks.",
+      "literature_grounding": "While the gap is grounded in the literature, it could benefit from a more explicit connection to specific studies that have attempted to address adaptability.",
+      "meaningfulness": "The gap is meaningful as it addresses a pressing issue in AI security, but it could be articulated with more specificity to avoid sounding generic.",
+      "already_solved_risk": "There is a risk that the existing literature may have already explored aspects of adaptability, which should be acknowledged to avoid redundancy."
+    },
+    "scholarly_positioning_stage": {
+      "comparative_synthesis": "The proposal summarizes prior work but lacks a critical comparative analysis that highlights the strengths and weaknesses of existing approaches.",
+      "unresolved_tensions": "It identifies some tensions, such as the trade-off between robustness and performance, but does not delve deeply into how these tensions manifest in the literature.",
+      "positioning_quality": "Overall positioning is adequate but could be strengthened by a more nuanced critique of the methodologies employed in prior studies."
+    },
+    "domain_routing_stage": {
+      "domain_fit": "The chosen domain of machine learning method development is appropriate for the research focus.",
+      "methodology_template_fit": "The proposed methodology aligns well with the research domain, employing experimental design and performance benchmarking.",
+      "template_transfer_risk": "There is minimal risk of inappropriate template transfer, as the methodology is tailored to the specific challenges of the research question."
+    },
+    "research_scope_stage": {
+      "scope_specificity": "The scope is generally well-defined, but could be more specific regarding the types of recommendation systems and image super-resolution tasks to be studied.",
+      "population_or_task_definition": "The population and tasks are broadly defined, but more concrete examples would enhance clarity.",
+      "intervention_and_comparison_definition": "The intervention and control mechanisms are stated, but the specifics of how they will be implemented could be clearer.",
+      "outcome_definition": "Outcome measures are mentioned, but they need to be more explicitly defined to ensure clarity in evaluation."
+    },
+    "concept_definition_stage": {
+      "technical_term_clarity": "Most technical terms are well-defined, but some, like 'trust calibration,' could benefit from further elaboration.",
+      "implementation_specificity": "Implementation details for concepts like 'adaptive filtering techniques' are vague and require more specificity.",
+      "level_of_analysis_clarity": "The proposal generally maintains clarity in levels of analysis, but could better distinguish between system-level and user-level outcomes."
+    },
+    "technical_feasibility_stage": {
+      "model_access": "Access to open-source models is feasible, but the proposal should specify which models will be used.",
+      "data_and_compute_requirements": "The data and computational requirements are realistic, but the proposal should clarify the expected volume of data and GPU resources needed.",
+      "human_or_multilingual_resources": "Human-subject designs pose challenges; the proposal should consider alternative approaches to mitigate ethical concerns.",
+      "feasible_adjustments": "Adjustments such as using simulated user interactions are feasible and should be emphasized as a primary strategy."
+    },
+    "question_stage": {
+      "researchability": "The research question is clear and researchable, focusing on a specific integration of techniques.",
+      "scope_appropriateness": "The scope is appropriate, but it could be narrowed to focus on specific types of attacks or systems.",
+      "variable_clarity": "Variables are defined, but the clarity of how they will be measured could be improved."
+    },
+    "theoretical_mechanism_stage": {
+      "mechanism_quality": "The proposed mechanism is sound, but it lacks a detailed explanation of how the mediator and moderator interact.",
+      "theoretical_framing": "The theoretical framing is adequate but could benefit from referencing established theories in AI robustness.",
+      "assumption_transparency": "Assumptions are mentioned but need to be more explicitly stated to enhance transparency."
+    },
+    "hypothesis_stage": {
+      "falsifiability": "The hypothesis is falsifiable, but it should specify the conditions under which it can be tested.",
+      "mechanism_grounding": "The grounding of the hypothesis in the proposed mechanism is adequate but could be strengthened with more empirical backing.",
+      "measurable_outcome": "Measurable outcomes are identified, but they need to be explicitly linked to the hypothesis."
+    },
+    "operationalization_causal_stage": {
+      "construct_operationalization": "Operationalization is generally clear, but some constructs lack specific measurement instruments.",
+      "metric_level_alignment": "Metrics align with the level of analysis, but some could be more explicitly defined.",
+      "causal_identification": "Causal pathways are outlined, but the proposal should clarify how confounding variables will be controlled.",
+      "confound_awareness": "There is awareness of confounding variables, but more detail on how they will be managed is needed.",
+      "claim_boundaries": "Claim boundaries are outlined but could be more explicitly stated to avoid overgeneralization."
+    },
+    "methodology_stage": {
+      "baseline_validity": "The baseline control is appropriate, but more detail on its implementation is needed.",
+      "metric_validity": "Metrics are valid but should be justified with references to existing literature.",
+      "statistical_or_evaluation_validity": "Statistical validity is implied but needs explicit mention of the statistical methods to be used.",
+      "reproducibility": "Reproducibility is addressed through open-source models, but specific protocols should be outlined.",
+      "confound_control": "Confound control is mentioned but requires a more detailed plan for managing these variables.",
+      "risk_analysis": "Risk analysis is present but should include more specific mitigation strategies for identified risks."
+    },
+    "novelty_stage": {
+      "theoretical_novelty": "The theoretical contribution is promising but needs clearer articulation of its significance.",
+      "methodological_novelty": "Methodological contributions are stated but should highlight how they differ from existing approaches.",
+      "practical_novelty": "Practical contributions are relevant, but specific guidelines for implementation should be more detailed.",
+      "derivativeness_risk": "There is a risk of derivativeness; the proposal should emphasize unique aspects of the research."
+    },
+    "failure_analysis_stage": {
+      "failure_modes": "Failure modes are identified, but the analysis could be more comprehensive.",
+      "limitation_depth": "Limitations are acknowledged, but deeper exploration of their implications is needed.",
+      "risk_mitigation": "Mitigation strategies are mentioned but should be more specific and actionable."
+    },
+    "proposal_stage": {
+      "contribution_clarity": "Contributions are generally clear but could be more explicitly linked to the research question.",
+      "novelty_type": "The novelty type is primarily methodological and theoretical.",
+      "coherence": "The proposal is coherent but could benefit from tighter integration of sections.",
+      "limitation_awareness": "Awareness of limitations is present but should be expanded to include potential biases.",
+      "academic_communication": "The proposal communicates ideas well but could improve clarity in certain technical areas."
+    },
+    "cross_stage_alignment": {
+      "gap_to_question": "The gap logically leads to the research question, but the connection could be more explicitly stated.",
+      "question_to_hypothesis": "The question leads to the hypothesis effectively, but it should clarify how the hypothesis addresses the gap.",
+      "hypothesis_to_method": "The hypothesis is testable by the method, but the methodology should explicitly outline how.",
+      "method_to_evaluation": "The method is aligned with the evaluation, but specific metrics should be tied back to the hypothesis."
+    },
+    "revision_plan": "Revise the gap stage to clarify its significance and ensure it is not generic. Strengthen the scholarly positioning by integrating a critical comparative analysis of prior works. Enhance the clarity of the research scope and operationalization by providing more concrete definitions and measurement instruments."
+  },
+  "evaluation": {
+    "clarity": 4,
+    "logic": 4,
+    "novelty": 4,
+    "feasibility": 4,
+    "literature_alignment": 4,
+    "phd_level_quality": 4,
+    "presentation": 4,
+    "weighted_total": 71.0,
+    "rubric_scores": [
+      {
+        "criterion": "Research Clarity & Problem Definition",
+        "weight": 15,
+        "score": 12.0,
+        "level": "12-13: strong and clear research framing with minor conceptual weaknesses",
+        "justification": "The proposal articulates a clear research problem regarding the robustness of AI systems against adversarial attacks, but the operational definitions of key concepts like 'robustness' and 'adaptive filtering' could be more precise. Major weaknesses: Vague operational definitions and a lack of specificity in the motivation for the proposed research. Next band requirements: More precise definitions of key constructs and a clearer articulation of the research boundaries."
+      },
+      {
+        "criterion": "Logical Coherence & Multi-Stage Reasoning",
+        "weight": 15,
+        "score": 10.0,
+        "level": "9-11: generally connected but some weak transitions or unsupported assumptions",
+        "justification": "While the proposal outlines a logical flow from problem to hypothesis, some assumptions, particularly regarding the effectiveness of the adaptive filtering techniques, lack empirical support. Major weaknesses: Insufficient justification for causal claims and weak transitions between the hypothesis and proposed methodology. Next band requirements: Stronger empirical justification for assumptions and clearer connections between hypothesis and methodology."
+      },
+      {
+        "criterion": "Novelty & Research Contribution",
+        "weight": 20,
+        "score": 14.0,
+        "level": "12-14: moderate novelty but partially derivative",
+        "justification": "The integration of adaptive filtering techniques with a dual-defense framework presents a novel approach, but the proposal does not sufficiently differentiate itself from existing work or provide a new theoretical framework. Major weaknesses: Limited theoretical contribution and reliance on existing methodologies without significant innovation. Next band requirements: A clearer articulation of how the proposed research advances the field and introduces new theoretical insights."
+      },
+      {
+        "criterion": "Feasibility & Experimental Design",
+        "weight": 20,
+        "score": 13.0,
+        "level": "12-14: feasible but methodologically incomplete",
+        "justification": "The proposal outlines a feasible experimental design, but lacks detailed plans for baseline comparisons and controls. Major weaknesses: Insufficient detail regarding the evaluation metrics and potential confounding variables. Next band requirements: More comprehensive plans for baseline comparisons and clearer handling of confounding variables."
+      },
+      {
+        "criterion": "Literature Alignment & Scholarly Positioning",
+        "weight": 15,
+        "score": 11.0,
+        "level": "9-11: relevant literature used but somewhat surface-level",
+        "justification": "The proposal engages with relevant literature but does not sufficiently critique existing work or identify specific gaps. Major weaknesses: Surface-level engagement with literature and lack of critical synthesis. Next band requirements: Deeper engagement with prior work and a more critical analysis of existing gaps."
+      },
+      {
+        "criterion": "PhD-Level Academic Depth",
+        "weight": 10,
+        "score": 7.0,
+        "level": "7-8: approaching PhD-level with some shallow areas",
+        "justification": "The proposal demonstrates some theoretical depth but lacks a comprehensive discussion of limitations and failure cases. Major weaknesses: Limited discussion of trade-offs and broader implications of the research. Next band requirements: A more thorough exploration of theoretical mechanisms and limitations."
+      },
+      {
+        "criterion": "Presentation & Academic Communication",
+        "weight": 5,
+        "score": 4.0,
+        "level": "4: strong academic communication",
+        "justification": "The proposal is generally well-written but contains some inconsistencies and areas that could benefit from greater clarity. Major weaknesses: Some sections are repetitive or unclear, affecting overall readability. Next band requirements: Improved clarity and conciseness in writing."
+      }
+    ],
+    "comments": "Total score: 71.0/100. Academic level: Master-level. Major strengths: Clear identification of a relevant research problem.; Innovative integration of adaptive filtering techniques with existing frameworks. Major weaknesses: Vague operational definitions of key concepts.; Insufficient empirical justification for causal claims.; Limited theoretical contribution and engagement with literature. Required improvements for true PhD-level quality: Enhance operational definitions and clarity of constructs.; Provide stronger empirical support for assumptions and causal claims.; Deepen engagement with existing literature and articulate theoretical contributions. Final verdict: The proposal demonstrates potential but lacks the rigor and depth expected of true PhD-level research."
+  },
+  "baseline": null,
+  "group_selection": null,
+  "embedding_analysis": {
+    "retrieval_reranking": [
+      {
+        "original_index": 2,
+        "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+        "similarity": 0.7005
+      },
+      {
+        "original_index": 1,
+        "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+        "similarity": 0.4663
+      }
+    ],
+    "gap_validation": {
+      "label": "research gap",
+      "top_papers": [
+        {
+          "paper_index": 1,
+          "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+          "similarity": 0.7222
+        },
+        {
+          "paper_index": 2,
+          "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+          "similarity": 0.469
+        }
+      ],
+      "max_similarity": 0.7222,
+      "mean_similarity": 0.5956
+    },
+    "methodology_citation_support": {
+      "label": "methodology",
+      "top_papers": [
+        {
+          "paper_index": 1,
+          "title": "Robust and Adaptive Dual-Defense Framework Against Data Poisoning Attacks in Recommendation Systems",
+          "similarity": 0.7241
+        },
+        {
+          "paper_index": 2,
+          "title": "Robust Real-World Image Super-Resolution against Adversarial Attacks",
+          "similarity": 0.5302
+        }
+      ],
+      "max_similarity": 0.7241,
+      "mean_similarity": 0.6271
+    }
+  },
+  "metrics": {
+    "condition": "multi_stage_with_retrieval",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "retrieval_query": "Robust AI Systems Against Data Poisoning and Adversarial Attacks",
+    "retrieval_snapshot_id": "20260527T061918Z-robust-ai-systems-against-data-poisoning-and-adversarial-attacks-2",
+    "latency_ms": 199140,
+    "prompt_tokens": 40098,
+    "completion_tokens": 6944,
+    "total_tokens": 47042,
+    "json_valid": true,
+    "required_field_completeness": 1.0,
+    "failed_requests": 0,
+    "retry_count": 0,
+    "fallback_reason": null
+  }
+}
