@@ -14,3 +14,6 @@ frontend/dist/
 frontend/.env.local
 backend/.env
 backend/data/cache/
+
+# Local-only historical experiment archive
+/backend/docs/recent_agent_experiment_results.md
